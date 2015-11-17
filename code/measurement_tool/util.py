@@ -5,6 +5,7 @@ import base64
 import json
 import requests
 import dns.message
+import re
 
 def traceroute_parse(data):
     trace_list = []
@@ -42,9 +43,12 @@ def curl(domain):
         f.close()
         return ""
 
-# TODO: extract the CORRECT urls (also remove the first chunk of the page because it's just ssh stuff)
 def extract_urls(page):
-    return []
+    urls = re.findall('src=\"http[\'"]?([^\'" >]+)', page)
+    domains = []
+    for u in urls:
+        domains.append('http' + u)
+    return domains
 
 def run_DNS_measurements(urls):
     ip_list = []
