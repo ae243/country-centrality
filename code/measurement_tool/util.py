@@ -91,12 +91,16 @@ def run_traceroute_measurements(ips):
             traceroute_list.extend(traceroute_parse(data))
     return traceroute_list
 
-# TODO: use verisign's tool to do geolocation
+# TODO: implement own geolocation tool
 def get_country_level_paths(traceroutes):
-    # See measurements/as_country.py for details or provided by Verisign
+    # See measurements/as_country.py for some details
+
+    # 1) TODO: Use RTT - pick some threshold for this
+
+    # 2) 
     return []
 
-# TODO: how/where should I store data
+# TODO: store each traceroute file with a measurement run ID
 def store(data):
     # Figure out how to store all the traceroutes (and logs too) - some sort of structure or database
     print "STORE"
