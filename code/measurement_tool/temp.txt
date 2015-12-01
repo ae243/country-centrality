@@ -1,0 +1,2 @@
+AS      | IP               | BGP Prefix          | CC | Registry | Allocated  | AS Name
+15169   | 216.58.222.36    | 216.58.222.0/24     | US | arin     | 2012-01-27 | GOOGLE - Google Inc.,US
