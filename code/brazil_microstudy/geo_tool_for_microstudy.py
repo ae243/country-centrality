@@ -1,5 +1,12 @@
 import util
 
+geo_map = {}
+f_geo = open('../data/openipmap.mappings.csv', 'r')
+for line in f_geo:
+    ip = line.split(',')[0]
+    cc = line.split(',')[5]
+    geo_map[ip] = cc
+
 f = open('brazil_study_traceroutes.txt', 'r')
 traceroutes = []
 current_trace = []

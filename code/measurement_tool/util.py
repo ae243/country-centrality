@@ -86,12 +86,7 @@ def run_DNS_measurements(urls):
         s += "'{ "
         s += '"definitions": [ { "query_class": "IN", "query_type": "A", "query_argument": "' + u.strip() + '", "description": "DNS measurement to ' + u.strip()  + '", "type": "dns", "af": 4, "use_probe_resolver": true, "is_oneoff": true } ], "probes": [ { "requested": ' + str(get_probes_count()) + ', "type": "probes", "value": "' + get_probes() + '" } ] }'
         s += "' https://atlas.ripe.net/api/v1/measurement/?key=fc3f4123-89ce-4e9e-9c01-425182696abd"
-        print s
-
         response = subprocess.check_output(s, stderr = subprocess.STDOUT, shell=True)
-
-        print response
-
         temp = response.split(":")[-1]
         measurement_list.extend(temp[1:-2].split(","))
     return measurement_list
@@ -110,10 +105,9 @@ def run_traceroute_measurements(ips, type):
         # Also, implement some sort of "wait-until-measurement-is-done" before curling the response
         s = 'curl -H "Content-Type: application/json" -H "Accept: application/json" -X POST -d '
         s += "'{ "
-        s += '"definitions": [ { "target": "' + ip.strip() + '", "protocol": "' + type + '", "description": "Traceroute measurement to ' + ip.strip() + '", "type": "traceroute", "af": 4, "is_oneoff": true } ], "probes": [ { "requested": ' + str(get_probes_count()) + ', "type": "probes", "value": "' + get_probes() + '" } ] }'
+        s += '"definitions": [ { "target": "' + ip.strip() + '", "protocol": "' + type + '", "paris": 32, "description": "Traceroute measurement to ' + ip.strip() + '", "type": "traceroute", "af": 4, "is_oneoff": true } ], "probes": [ { "requested": ' + str(get_probes_count()) + ', "type": "probes", "value": "' + get_probes() + '" } ] }'
         s += "' https://atlas.ripe.net/api/v1/measurement/?key=fc3f4123-89ce-4e9e-9c01-425182696abd"
         response = subprocess.check_output(s, stderr = subprocess.STDOUT, shell=True)
-
         temp = response.split(":")[-1]
         measurement_list.extend(temp[1:-2].split(","))
     return measurement_list

@@ -59,12 +59,13 @@ print "\n"
 # 5) run traceroute measurements for all DNS responses (from corresponding probes)
 traceroute_measurement_ids = util.run_traceroute_measurements(ips, 'ICMP')
 traceroute_measurement_ids.extend(util.run_traceroute_measurements(ips, 'TCP'))
-time.sleep(600) # wait for 30 minutes for traceroute measurements to end - is there a better way to do this?
-traceroutes = util.analyze_traceroute_measurements(traceroute_measurement_ids)
 
 print "TRACE MEASUREMENT IDS:"
 print traceroute_measurement_ids
 print "\n"
+
+time.sleep(600) # wait for 30 minutes for traceroute measurements to end - is there a better way to do this?
+traceroutes = util.analyze_traceroute_measurements(traceroute_measurement_ids)
 
 print "TRACEROUTES:"
 print traceroutes
