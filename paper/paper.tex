@@ -28,8 +28,10 @@
 \usepackage[noend]{algpseudocode}
 \usepackage{subfigure}
 \usepackage{listings}
-\usepackage{url}
+\usepackage[hyphens]{url}
 \usepackage{xspace}
+
+\input{commands}
 
 \begin{document}
 
@@ -40,23 +42,23 @@
 \title{\Large \bf Nation-State Routing}
 
 %for single author (just remove % characters)
-\author{
-{\rm Anne Edmundson}\\
-Princeton University
-\and
-{\rm Roya Ensafi}\\
-Princeton University
-\and
-{\rm Jennifer Rexford}\\
-Princeton University
-\and
-{\rm Nick Feamster}\\
-Princeton University
+%\author{
+%{\rm Anne Edmundson}\\
+%Princeton University
+%\and
+%{\rm Roya Ensafi}\\
+%Princeton University
+%\and
+%{\rm Jennifer Rexford}\\
+%Princeton University
+%\and
+%{\rm Nick Feamster}\\
+%Princeton University
 % copy the following lines to add more authors
 % \and
 % {\rm Name}\\
 %Name Institution
-} % end author
+%} % end author
 
 \maketitle
 
@@ -74,6 +76,7 @@ Princeton University
 \input{discussion}
 \input{related_work}
 \input{conclusion}
+\input{Acknowledgements}
 
 {\footnotesize \bibliographystyle{acm}
 \bibliography{local}}
