@@ -1,0 +1,9 @@
+\section{Implementation}
+
+Discuss what each component needs, what tools we used, and why.  Justify TinyProxy (usability), AWS.
+
+Discuss how the client caches domain->relay mappings in config.  Once a day we pull from oracle and update whole config file.
+
+Discuss how we map traceroutes to country-level paths in the oracle and the server.
+
+Include paragraph on implementation improvements (DNS Server instead of oracle, scalability, load-balancing, performance optimizations (when no relay is needed), granularity, etc.)
