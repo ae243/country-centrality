@@ -1,11 +1,28 @@
-\section{Architectural Tools for Circumventing Surveillance}
+\section{System Architecture}
 \label{architecture}
 
-\subsection{Clients}
-%System
+\subsection{Design Goals}
 
-\subsection{ISPs}
-%DNS response poisoning
+Discuss threat model: a country or (colluding) countries (cite the different agreements that allow countries to share surveillance) that conduct surveillance - include diagrams of possible attacks.  Our system will work with multiple countries, but for simplicity, we give examples and evaluations with only one country to avoid.
 
-\subsection{Servers}
-%AS path poisoning, georeplicated servers, tunneling between servers
+Assumptions: Assume relays, clients, servers are not malicious.  Assume that no other attacks are occuring (MITM, hijack, etc.)  
+
+Goals: firstly, country avoidance.  Usability (as few barriers to the client as possible).  We envision the system growing, and our goals for that would also be scalability, load-balancing, performance, etc.
+
+\subsection{Architecture Overview}
+
+Quick explanation of how all the pieces fit together and include a diagram.  Also discuss asymmetry study to justify why we care about the reverse path (and therefore server participation).
+
+\subsubsection{Client} Describe what actions the client takes.
+
+\subsubsection{Oracle} Describe what actions the oracle takes.
+
+\subsubsection{Relay} Describe what actions the relays take.
+
+\subsubsection{Server} Describe what actions the server takes.
+
+\subsection{Mapping Creation and Maintenance}
+
+\subsubsection{Oracle}
+
+\subsubsection{Servers}
