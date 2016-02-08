@@ -21,7 +21,16 @@ We assume that relays, clients, servers, and oracles are not malicious, and that
 
 \subsection{Architecture Overview}
 
-Quick explanation of how all the pieces fit together and include a diagram.  Also discuss asymmetry study to justify why we care about the reverse path (and therefore server participation).
+Figure~\ref{fig:overview} shows the steps that occur when a client visits www.foo.com, using a standard browser. \annie{Make this diagram.} Both the oracle and the server maintain country-level path information, which is described in more detail in Section~\ref{sec:maps}.
+
+\begin{enumerate}
+\item A client queries the oracle by supplying a domain and a country to avoid.  
+\item The oracle searchs for a suitable relay, such that the specified country is not on the client to relay path, the relay to server path, and the relay to client path.  Once this relay is found, it responds to the client with the IP address of the relay.
+\item The client sends the web request to the relay.
+\item The relay forwards the request to the closest server that contains the domain.
+\item The server determines if the server to relay path avoids the given country.  If so, then it sends the response to the relay. If not, then it will check if any of the geo-replicated servers have a path to the relay that does not include the given country; if there is such a path, then it uses it, otherwise, country avoidance is not possible for this request.
+\item The relay forwards the response to the client.
+\end{enumerate}
 
 \subsubsection{Client} Describe what actions the client takes.
 
@@ -29,9 +38,10 @@ Quick explanation of how all the pieces fit together and include a diagram.  Als
 
 \subsubsection{Relay} Describe what actions the relays take.
 
-\subsubsection{Server} Describe what actions the server takes.
+\subsubsection{Server} Describe what actions the server takes.  Also discuss asymmetry study to justify why we care about the reverse path (and therefore server participation).
 
 \subsection{Mapping Creation and Maintenance}
+\label{maps}
 
 \subsubsection{Oracle}
 
