@@ -1,0 +1,31 @@
+Belgium 0
+China 0
+Colombia 0
+Great Britain 0
+Peru 0
+Poland 0
+Portugal 0
+Singapore 0
+UAB 0
+Venezuela 0
+Bahrain 1
+Uruguay 2
+Chile 4
+Israel 4
+France 7
+Sweden 7
+Japan 10
+Spain 18
+Italy 30
+British Virgin Islands 37
+Canada 37
+Ukraine 38
+Czech Republic 39
+Costa Rica 61
+Germany 68
+Guatemala 111
+Netherlands 435
+Argentina 560
+Ireland 643
+Brazil 6351
+United States 28196
