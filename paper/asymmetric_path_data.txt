@@ -1,0 +1,54 @@
+Germany:
+['N/A', 'BR', 'BR', 'BR', 'BR', 'BR', 'VE', 'US', 'US', 'DE', 'DE']
+['DE', 'DE', 'GB', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
+BR -> VE -> US -> DE
+DE -> GB -> US -> BR
+
+Netherlands:
+['N/A', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'US', 'US', 'US']
+['N/A', 'N/A', 'N/A', 'NL', 'NL', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
+BR -> US
+NL -> US -> BR
+
+UK:
+
+['IE', 'IE', 'IE', 'US', 'US', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
+
+IE -> US -> BR
+
+Russia:
+['N/A', 'BR', 'BR', 'BR', 'BR', 'US', 'US', 'IT', 'RU']
+['RU', 'RU', 'RU', 'RU', 'US', 'None', 'None', 'US', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
+BR -> US -> IT -> RU
+RU -> US -> BR
+
+HK:
+['N/A', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'US', 'US', 'US', 'US', 'US', 'HK']
+['N/A', 'HK', 'N/A', 'HK', 'US', 'US', 'US', 'US', 'US', 'US', 'US', 'US', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
+BR -> US -> HK
+HK -> US -> BR
+
+USA:
+['N/A', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'US', 'US', 'US', 'US', 'US', 'US', 'US', 'US']
+['US', 'US', 'US', 'US', 'US', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
+BR -> US
+US -> BR
+
+Canada:
+['N/A', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'US', 'CA', 'CA', 'CA', 'CA']
+['N/A', 'CA', 'CA', 'CA', 'CA', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
+BR -> US -> CA
+CA -> US -> BR
+
+Japan:
+['N/A', 'BR', 'BR', 'BR', 'BR', 'US', 'US', 'US', 'US', 'JP', 'JP', 'JP', 'JP', 'JP']
+['JP', 'JP', 'JP', 'JP', 'JP', 'JP', 'JP', 'US', 'US', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
+BR -> US -> JP
+JP -> US -> BR
+
+South Africa:
+['N/A', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'US', 'US', 'US', 'None', 'None', 'None', 'ZA', 'ZA']
+['N/A', 'ZA', 'ZA', 'N/A', 'N/A', 'ZA', 'ZA', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'US', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
+BR -> US -> ZA
+ZA -> US -> BR
+
