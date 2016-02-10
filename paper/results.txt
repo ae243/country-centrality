@@ -1,0 +1,94 @@
+31
+BE
+Hosted: 0
+Transits: 10
+FR
+Hosted: 7
+Transits: 1786
+DE
+Hosted: 68
+Transits: 427
+BH
+Hosted: 1
+Transits: 2
+BR
+Hosted: 6351
+Transits: 30482
+AE
+Hosted: 0
+Transits: 1
+CN
+Hosted: 0
+Transits: 24
+NL
+Hosted: 435
+Transits: 284
+PT
+Hosted: 0
+Transits: 6
+VG
+Hosted: 37
+Transits: 0
+PE
+Hosted: 0
+Transits: 3
+PL
+Hosted: 0
+Transits: 5
+GT
+Hosted: 111
+Transits: 0
+CO
+Hosted: 0
+Transits: 19
+VE
+Hosted: 0
+Transits: 96
+CL
+Hosted: 4
+Transits: 0
+JP
+Hosted: 10
+Transits: 50
+CA
+Hosted: 37
+Transits: 0
+IT
+Hosted: 30
+Transits: 3089
+CZ
+Hosted: 39
+Transits: 0
+AR
+Hosted: 560
+Transits: 0
+GB
+Hosted: 0
+Transits: 952
+CR
+Hosted: 61
+Transits: 0
+IE
+Hosted: 643
+Transits: 773
+ES
+Hosted: 18
+Transits: 6466
+UY
+Hosted: 2
+Transits: 8
+UA
+Hosted: 38
+Transits: 0
+US
+Hosted: 28196
+Transits: 2699
+SG
+Hosted: 0
+Transits: 35
+SE
+Hosted: 7
+Transits: 4
+IL
+Hosted: 4
+Transits: 6
