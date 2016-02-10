@@ -1,22 +1,22 @@
-Germany:
+**Germany:
 ['N/A', 'BR', 'BR', 'BR', 'BR', 'BR', 'VE', 'US', 'US', 'DE', 'DE']
 ['DE', 'DE', 'GB', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
 BR -> VE -> US -> DE
 DE -> GB -> US -> BR
 
-Netherlands:
+**Netherlands:
 ['N/A', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'US', 'US', 'US']
 ['N/A', 'N/A', 'N/A', 'NL', 'NL', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
 BR -> US
 NL -> US -> BR
 
 UK:
-
+['N/A', 'BR', 'BR', 'BR', 'BR', 'US', 'US', 'US', 'US', 'US', 'US', 'IE', 'IE']
 ['IE', 'IE', 'IE', 'US', 'US', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
-
+BR -> US -> IE
 IE -> US -> BR
 
-Russia:
+**Russia:
 ['N/A', 'BR', 'BR', 'BR', 'BR', 'US', 'US', 'IT', 'RU']
 ['RU', 'RU', 'RU', 'RU', 'US', 'None', 'None', 'US', 'US', 'US', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR', 'BR']
 BR -> US -> IT -> RU
