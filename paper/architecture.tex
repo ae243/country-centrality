@@ -1,7 +1,7 @@
 \section{System Architecture}
 \label{architecture}
 
-In this section, we discuss SYSTEM, a system for avoiding a specified country when accessing a webpage.
+In this section, we discuss \system{}, a system for avoiding a specified country when accessing a webpage.
 
 \subsection{Threat Model}
 \label{threat}
@@ -30,7 +30,7 @@ This system is targeting an attacker who is at the nation-state level, and pract
 
 \subsection{Design Goals}
 
-With the attacker described in Section~\ref{threat} in mind, SYSTEM has three goals: singular country avoidance, avoiding colluding countries, and usability.  
+With the attacker described in Section~\ref{threat} in mind, \system{} has three goals: singular country avoidance, avoiding colluding countries, and usability.  
 
 {\bf Country Avoidance.}  The system should allow an Internet user, a client, to access web content without having her traffic travel through a country that she specifies, particularly countries that conduct surveillance.  The specified country should be avoided on both the forward and reverse paths, as they have been shown to be asymmetric, and thus a country may be on the reverse path, but not on the forward path~\cite{he2005routing}.  
 
@@ -56,11 +56,18 @@ Figure~\ref{fig:overview} shows the steps that occur when a client visits www.fo
 \begin{figure}
 \centering
 \includegraphics[width=.5\textwidth]{system_overview}
-\caption{Using SYSTEM, the steps involved in requesting web content.}
+\caption{Using \system{}, the steps involved in requesting web content.}
 \label{fig:overview}
 \end{figure}
 
 Based on this system design, we can see that there are more possible paths that an attacker can be on.  Figure~\ref{fig:advanced_threat} shows the possible places that a specified country (to be avoided) may be; these include the path from the client to the relay, the relay to the server, the server to the relay, and the relay to the client.  This increased attack space is because forward and reverse paths are asymmetric; research has shown that forward and reverse paths are asymmetric at the AS-level, but to our knowledge, no work has looked at the asymmetry of country-level paths~\cite{he2005routing}.  We found that the forward and reverse paths are asymmetric at the country level; we used RIPE Atlas probes to run traceroute measurements between pairs of probes.  Then we mapped the IP-level path to the country-level path.  Some country-level paths were symmetric, but we found others that were asymmetric; for example, a path from Brazil to Germany (189.112.0.1 to 185.13.208.1) has the country-level path Brazil $\rightarrow$ Venezuela $\rightarrow$ United States $\rightarrow$ Germany, whereas a path from Germany to Brazil (185.13.208.1 to 189.112.0.1) has the path Germany $\rightarrow$ Great Britain $\rightarrow$ United States $\rightarrow$ Brazil.  This shows that we cannot assume symmetric country-level paths. This is compounded by the secondary requests that are issued when the page is loaded on the client's browser.  
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{all_attackers}
+\caption{The possible locations a country (to be avoided) may reside when using \system{}.}
+\label{fig:advanced_threat}
+\end{figure}
 
 \subsubsection{Client} The client queries the oracle for a suitable relay and then uses that relay to access web content.  First, the client checks it's cache for the domain; if it is in the cache, then the client uses the relay IP address that is in associated with the domain in the cache.  It's important to note that the client's cache is refreshed twice as often as the oracle refreshes it's paths.  If the domain is not in the cache, then the client sends a query containing the domain and the country to avoid to the oracle.  The client will then recieve a response that is the IP address of a suitable relay for avoiding the specified country.  This (domain, relay IP address) pair will be added to the client's cache and the web request for the domain will be sent to the relay IP address.  Then the client waits for a response from the relay to display in the client's browser.  This process is repeated for each source that is requested during the web page load.  
 
