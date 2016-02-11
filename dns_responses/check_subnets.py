@@ -10,7 +10,7 @@ f.close()
 ips = list(set(ips))
 
 subnets = []
-f2 = open('subnets.txt', 'r')
+f2 = open('probe_subnets.txt', 'r')
 for line in f2:
     subnets.append(line.strip())
 f2.close()
