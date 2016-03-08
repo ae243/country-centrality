@@ -119,7 +119,7 @@ def run_DNS_measurements(urls):
         s = 'curl -H "Content-Type: application/json" -H "Accept: application/json" -X POST -d '
         s += "'{ "
         s += '"definitions": [ { "query_class": "IN", "query_type": "A", "query_argument": "' + u.strip() + '", "description": "DNS measurement to ' + u.strip()  + '", "type": "dns", "af": 4, "use_probe_resolver": true, "is_oneoff": true } ], "probes": [ { "requested": ' + str(get_probes_count()) + ', "type": "probes", "value": "' + get_probes() + '" } ] }'
-        s += "' https://atlas.ripe.net/api/v1/measurement/?key=fc3f4123-89ce-4e9e-9c01-425182696abd"
+        s += "' https://atlas.ripe.net/api/v1/measurement/?key=6f41c631-ecae-4d50-b0c9-4a3f2557d5fa"
         response = subprocess.check_output(s, stderr = subprocess.STDOUT, shell=True)
         temp = response.split(":")[-1]
         measurement_list.extend(temp[1:-2].split(","))
@@ -129,24 +129,20 @@ def run_DNS_measurements(urls):
 def analyze_DNS_measurements(id_list):
     ip_list = []
     for measurement in id_list:
-        if measurement.isdigit():
-            x = requests.get("https://atlas.ripe.net/api/v1/measurement/" + str(measurement) +  "/result/",)
-            data = json.loads(x.text)
-            ip_list.extend(dns_parse(data))
+        x = requests.get("https://atlas.ripe.net/api/v1/measurement/" + str(measurement) +  "/result/",)
+        data = json.loads(x.text)
+        ip_list.extend(dns_parse(data))
     return list(set(ip_list))
 
 def check_statuses(measurement_list):
     for m in measurement_list:
-        if m.isdigit():
-            s = requests.get("https://atlas.ripe.net/api/v1/measurement/" + str(m) + "/?status",)
-            data = json.loads(s.text)
-            try:
-                if data['status']['name'] == 'Failed':
-                    return True
-                elif data['status']['name'] != 'Stopped':
-                    return False
-            except:
-                return True
+        s = requests.get("https://atlas.ripe.net/api/v1/measurement/" + str(m) + "/?status",)
+        data = json.loads(s.text)
+        try:
+            if data['status']['name'] != 'Stopped':
+                return False
+        except:
+            return True
     return True
 
 def run_traceroute_measurements(ips, type):
@@ -162,7 +158,7 @@ def run_traceroute_measurements(ips, type):
         s = 'curl -H "Content-Type: application/json" -H "Accept: application/json" -X POST -d '
         s += "'{ "
         s += '"definitions": [ { "target": "' + ip.strip() + '", "protocol": "' + type + '", "paris": 16, "description": "Traceroute measurement to ' + ip.strip() + '", "type": "traceroute", "af": 4, "is_oneoff": true } ], "probes": [ { "requested": ' + str(get_probes_count()) + ', "type": "probes", "value": "' + get_probes() + '" } ] }'
-        s += "' https://atlas.ripe.net/api/v1/measurement/?key=fc3f4123-89ce-4e9e-9c01-425182696abd"
+        s += "' https://atlas.ripe.net/api/v1/measurement/?key=6f41c631-ecae-4d50-b0c9-4a3f2557d5fa"
         response = subprocess.check_output(s, stderr = subprocess.STDOUT, shell=True)
         temp = response.split(":")[-1]
         measurement_list.extend(temp[1:-2].split(","))
@@ -172,40 +168,10 @@ def run_traceroute_measurements(ips, type):
 def analyze_traceroute_measurements(id_list):
     traceroute_list = []
     for measurement in id_list:
-        if measurement.isdigit():
-            x = requests.get("https://atlas.ripe.net/api/v1/measurement/" + str(measurement)  +  "/result/",)
-            data = json.loads(x.text)
-            traceroute_list.extend(traceroute_parse(data))
+        x = requests.get("https://atlas.ripe.net/api/v1/measurement/" + str(measurement)  +  "/result/",)
+        data = json.loads(x.text)
+        traceroute_list.extend(traceroute_parse(data))
     return traceroute_list
-
-def start_dest(data):
-    trace_map = {}
-    for d in data:
-        try:
-            current_trace = []
-            if 'from' in d.keys() and 'dst_name' in d.keys():
-                current_s_d = (d['from'], d['dst_name'])
-                current_trace = []
-                for x in d['result']:
-                    if 'from' in x['result'][0].keys() and 'rtt' in x['result'][0].keys():
-                        current_trace.append(str(x['hop']) + ": " + str(x['result'][0]['from']) + " " + str(x['result'][0]['rtt']))
-                    else:
-                        current_trace.append(str(x['hop']) + ": ***")
-                trace_map[current_s_d] = current_trace
-        except:
-            f = open('log.txt', 'a')
-            f.write('Traceroute start_dest analysis failed: ' + str(data) + '\n')
-            f.close()
-    return trace_map
-
-def get_start_dest_traceroute(id_list):
-    start_dest_map = {}
-    for measurement in id_list:
-        if measurement.isdigit():
-            x = requests.get("https://atlas.ripe.net/api/v1/measurement/" + str(measurement)  +  "/result/",)
-            data = json.loads(x.text)
-            start_dest_map.update(start_dest(data))
-    return start_dest_map
 
 # store each traceroute file with a measurement run ID
 def store_traces(data):

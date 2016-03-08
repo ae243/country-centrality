@@ -1,0 +1,15 @@
+import sys
+
+ips = []
+f = open('client_relay_processed.txt', 'r')
+for line in f:
+    path = line.strip().split("|")[1:]
+    ips.extend(path)
+f.close()
+
+ips = list(set(ips))
+
+f = open('ips.txt', 'w')
+for ip in ips:
+    f.write(ip + '\n')
+f.close()

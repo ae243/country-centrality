@@ -1,0 +1,19 @@
+http://www.enterprisenetworkingplanet.com/netsp/article.php/3624566/Networking-101-Understanding-Tunneling.htm
+http://userpages.umbc.edu/~dgorin1/451/edi/vpn/tunnel.htm
+http://www.infocellar.com/networks/IPVPN/Tunneling-Protocols.htm
+https://en.wikipedia.org/wiki/Category:Tunneling_protocols
+
+MPPE/PPTP (Microsoft VPN) - Windows, UNIX/Linux, and Mac clients.
+CIPE - Linux clients and Windows (2000 & NT) clients
+OpenVPN - UNIX/Linux clients
+SSL-wrapped PPP - Linux clients (other UNIX clients?)
+GRE and IP/IP - Linux clients, Cisco routers
+IPSec, tunnel mode - Windows (2000 & NT) and UNIX/Linux clients
+IPSec/PPTP - Windows (2000 & NT) and UNIX/Linux clients
+IPSec/L2TP - Windows (2000 & NT) and UNIX/Linux clients
+
+GRE, PPTP, L2TP, IPSec
+
+GRE (Generic Routing Encapsulation)
+PPTP (Point-to-Point Tunneling Protocol) - uses a control channel over TCP and a GRE tunnel operating to encapsulate PPP packets
+L2TP (Layer 2 Tunneling Protocol) - used to support VPNs by ISPs, extension of PPTP
