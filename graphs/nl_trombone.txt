@@ -1,0 +1,26 @@
+# of Tromboning paths: 2915
+
+ES: 72
+
+None: 1187
+
+CH: 8
+
+NO: 22
+
+FR: 520
+
+DE: 277
+
+IT: 169
+
+US: 1158
+
+GB: 1097
+
+IE: 4
+
+SE: 406
+
+AT: 82
+

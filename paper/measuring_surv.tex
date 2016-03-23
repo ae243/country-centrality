@@ -1,5 +1,7 @@
 \section{Measuring Possible Surveillance Opportunities}
 \label{measure}
+\annie{edit this section to be about Country X instead of Brazil}
+
 As Internet traffic crosses international borders, it becomes subject to the wiretapping policies of the national jurisdiction in which it is transitting.  Some countries, such as the United States, are well known for wiretapping policies.  We take Brazil as a case study in measuring where Brazilian Internet users' traffic is going and how often; this shows how much possible surveillance could currently be conducted on Brazilians' traffic.  The methods we use are general and can be applied to other countries of interest.
 
 \subsection{Procedure}
@@ -12,6 +14,8 @@ Our methods for measuring where traffic paths go use the data-plane; we analyze 
 {\bf Step 3.}  After calculating country-level paths, we perform different data analysis to find where traffic travels.  We look for countries that are on the path between the client and teh destination, but are not the destination's country.  These countries can still conduct surveillance on the traffic, but there's also the possibility that a different path to the destination can avoid the given country.  A different analysis can show the countries in which the path ends, this is where the content is hosted.  It's important to note that the destinations found in this study could change if the content is georeplicated in other countries.  On the otherhand, if it is not georeplicated, then the destination's country is unavoidable.  Lastly, we look at how much tromboning occurs - a tromboning path is one that starts and ends in Brazil, but also traverses at least one other country.  These paths are interesting because they should not be exiting the country if the destination is in the country of origin.  
 
 \subsection{Results}
+
+\subsubsection{Brazil}
 Here we discuss our findings on which countries transit Brazilian web traffic, which countries host popular content for Brazilians, and to which countries Brazilian traffic trombones.  
 
 \begin{figure*}
@@ -27,18 +31,83 @@ More revealing than the transit-only countries, the paths that end in countries 
 
 Tromboning paths show that local traffic isn't staying local; ideally, if a path starts and ends in the same country, then it shouldn't cross international borders.  We found that tromboning occurs for Brazilian traffic to 9 different countries.  These results can be seen in Figure \ref{fig:trombone}.  While we measured 4.2\% of all paths trombone, 81\% of all tromboning paths go through the United States.  For 4.2\% of the traffic, foreign countries can conduct surveillance because the traffic is not staying local (but should be). 
 
-\begin{figure*}[t!]
-\centering
-\includegraphics[width=.8\textwidth]{host_graph_no_zero}
-\caption{The number of paths that end in a country.}
-\label{fig:host}
-\end{figure*} 
+%\begin{figure*}[t!]
+%\centering
+%\includegraphics[width=.8\textwidth]{host_graph_no_zero}
+%\caption{The number of paths that end in a country.}
+%\label{fig:host}
+%\end{figure*} 
 
-\begin{figure}
-\centering
-\includegraphics[width=.5\textwidth]{trombone_graph}
-\caption{The number of paths that start and end in Brazil, but pass through another country.}
-\label{fig:trombone}
-\end{figure}
+%\begin{figure}
+%\centering
+%\includegraphics[width=.5\textwidth]{trombone_graph}
+%\caption{The number of paths that start and end in Brazil, but pass through another country.}
+%\label{fig:trombone}
+%\end{figure}
 
 These results show that there are numerous opportunities for foreign countries to conduct surveillance on Brazilian citizens because of interdomain routing.  This motivates our system, \system{}, which allows clients anywhere in the world to reduce the number of opportunities that their traffic can be wiretapped by avoiding any country of interest.  
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.9\textwidth]{brazil_transit}
+\caption{The number of paths originating in Brazil that transit (and are not hosted in) Brazil.}
+\label{fig:host}
+\end{figure} 
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.9\textwidth]{brazil_host}
+\caption{The number of paths originating in Brazil that are hosted in Brazil.}
+\label{fig:host}
+\end{figure} 
+
+\subsubsection{Netherlands}
+\annie{add Netherlands results here}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.9\textwidth]{netherlands_transit}
+\caption{The number of paths originating in Netherlands that transit (and are not hosted in) Netherlands.}
+\label{fig:host}
+\end{figure} 
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.9\textwidth]{netherlands_host}
+\caption{The number of paths originating in Netherlands that are hosted in Netherlands.}
+\label{fig:host}
+\end{figure} 
+
+\subsubsection{India}
+\annie{add India results here}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.9\textwidth]{india_transit}
+\caption{The number of paths originating in India that transit (and are not hosted in) India.}
+\label{fig:host}
+\end{figure} 
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.9\textwidth]{india_host}
+\caption{The number of paths originating in India that are hosted in India.}
+\label{fig:host}
+\end{figure} 
+
+\subsubsection{Kenya}
+\annie{add Kenya results here}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.9\textwidth]{kenya_transit}
+\caption{The number of paths originating in Kenya that transit (and are not hosted in) Kenya.}
+\label{fig:host}
+\end{figure} 
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.9\textwidth]{kenya_host}
+\caption{The number of paths originating in Kenya that are hosted in Kenya.}
+\label{fig:host}
+\end{figure} 

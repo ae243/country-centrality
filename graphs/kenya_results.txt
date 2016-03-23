@@ -1,0 +1,119 @@
+8364
+39
+FR
+Hosted: 127
+Transits: 1720
+DE
+Hosted: 148
+Transits: 257
+JP
+Hosted: 28
+Transits: 110
+HK
+Hosted: 64
+Transits: 39
+CR
+Hosted: 13
+Transits: 0
+FI
+Hosted: 0
+Transits: 27
+BZ
+Hosted: 0
+Transits: 5
+GR
+Hosted: 22
+Transits: 0
+RU
+Hosted: 38
+Transits: 2
+NL
+Hosted: 1597
+Transits: 516
+PT
+Hosted: 13
+Transits: 0
+TW
+Hosted: 0
+Transits: 25
+TR
+Hosted: 25
+Transits: 0
+LV
+Hosted: 12
+Transits: 0
+NZ
+Hosted: 22
+Transits: 0
+AT
+Hosted: 0
+Transits: 14
+RO
+Hosted: 13
+Transits: 13
+PL
+Hosted: 0
+Transits: 1
+None
+Hosted: 544
+Transits: 1657
+CH
+Hosted: 0
+Transits: 29
+AE
+Hosted: 15
+Transits: 1253
+CN
+Hosted: 13
+Transits: 8
+CA
+Hosted: 52
+Transits: 18
+ZA
+Hosted: 53
+Transits: 2744
+IT
+Hosted: 243
+Transits: 352
+CZ
+Hosted: 13
+Transits: 0
+AU
+Hosted: 37
+Transits: 25
+GB
+Hosted: 194
+Transits: 3989
+IN
+Hosted: 20
+Transits: 464
+TZ
+Hosted: 0
+Transits: 128
+IE
+Hosted: 902
+Transits: 213
+MD
+Hosted: 13
+Transits: 0
+KE
+Hosted: 179
+Transits: 8185
+SG
+Hosted: 230
+Transits: 103
+US
+Hosted: 3659
+Transits: 1494
+MU
+Hosted: 35
+Transits: 2658
+UA
+Hosted: 13
+Transits: 0
+SE
+Hosted: 0
+Transits: 5
+IL
+Hosted: 26
+Transits: 4

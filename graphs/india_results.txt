@@ -1,0 +1,80 @@
+14248
+26
+FR
+Hosted: 45
+Transits: 1443
+DE
+Hosted: 131
+Transits: 323
+JP
+Hosted: 18
+Transits: 400
+HK
+Hosted: 48
+Transits: 178
+BZ
+Hosted: 0
+Transits: 7
+NL
+Hosted: 1430
+Transits: 289
+LV
+Hosted: 15
+Transits: 0
+RO
+Hosted: 0
+Transits: 20
+PL
+Hosted: 15
+Transits: 160
+None
+Hosted: 366
+Transits: 2757
+CH
+Hosted: 1
+Transits: 139
+CN
+Hosted: 0
+Transits: 60
+CA
+Hosted: 211
+Transits: 24
+IT
+Hosted: 29
+Transits: 89
+CZ
+Hosted: 14
+Transits: 1
+AU
+Hosted: 88
+Transits: 576
+IL
+Hosted: 2
+Transits: 24
+IN
+Hosted: 701
+Transits: 13547
+IE
+Hosted: 388
+Transits: 51
+MD
+Hosted: 26
+Transits: 0
+SG
+Hosted: 1457
+Transits: 2395
+US
+Hosted: 8952
+Transits: 1235
+GB
+Hosted: 221
+Transits: 2680
+MY
+Hosted: 41
+Transits: 48
+SE
+Hosted: 41
+Transits: 35
+AT
+Hosted: 0
+Transits: 21
