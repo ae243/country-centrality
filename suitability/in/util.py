@@ -171,6 +171,7 @@ def analyze_traceroute_measurements(id_list):
         x = requests.get("https://atlas.ripe.net/api/v1/measurement/" + str(measurement)  +  "/result/",)
         data = json.loads(x.text)
         traceroute_list.extend(traceroute_parse(data))
+        print measurement
     return traceroute_list
 
 # store each traceroute file with a measurement run ID

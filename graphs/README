@@ -1,0 +1,22 @@
+This folder contains code to generate graphs (as well as the resulting graphs)
+
+x_host.png:
+    A pie chart that shows which countries host domains that clients in x often access
+
+x_transit.png:
+    A pie chart that shows which countries (solely) transit traffic for clients in x
+
+x_trombone.txt:
+    Lists which countries x's traffic trombones to
+
+x_results.txt:
+    Lists which countries host/transit x's traffic (and how much)
+
+domain_histogram.py:
+    Generates a histogram of the number of subsequent requests per original domain request
+
+make_pie.py:
+    Generates x_host.png and x_transit.png (but requires manual changes for different countries and to generate host vs transit chart)
+
+trombone_graph.py:
+    Generates bar chart of which countries traffic trombones to (requires manual changes for different countries)

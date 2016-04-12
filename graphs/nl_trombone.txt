@@ -1,26 +1,12 @@
-# of Tromboning paths: 2915
-
-ES: 72
-
-None: 1187
-
-CH: 8
-
-NO: 22
-
-FR: 520
-
-DE: 277
-
-IT: 169
-
-US: 1158
-
-GB: 1097
-
-IE: 4
-
-SE: 406
-
-AT: 82
-
+IE 4
+CH 8
+NO 22
+ES 72
+AT 82
+IT 169
+DE 277
+SE 406
+FR 520
+GB 1097
+US 1158
+None 1187

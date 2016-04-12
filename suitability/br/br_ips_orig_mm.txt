@@ -1,0 +1,691 @@
+209.197.0.33,United States,Arizona,Phoenix,33.508300,-112.071700
+69.16.175.42,United States,Arizona,Phoenix,33.508300,-112.071700
+177.126.190.228,Brazil,None,None,-23.547700,-46.635800
+213.140.39.201,Spain,None,None,40.400000,-3.683300
+205.251.229.110,United States,California,San Jose,37.339400,-121.895000
+54.239.109.39,United States,Virginia,Ashburn,39.033500,-77.483800
+213.189.48.246,Poland,None,None,52.233300,21.016700
+129.250.2.86,United States,Colorado,Englewood,39.623700,-104.873800
+174.142.3.244,Canada,Quebec,Montreal,45.498700,-73.579300
+94.46.159.11,United States,None,None,38.000000,-97.000000
+204.152.141.190,United States,None,None,38.000000,-97.000000
+12.120.5.186,United States,None,None,38.000000,-97.000000
+203.83.220.57,Singapore,None,Singapore,1.293100,103.855800
+177.47.8.9,Brazil,None,None,-23.547700,-46.635800
+173.192.18.174,United States,Texas,Dallas,32.781300,-96.802000
+124.153.79.219,India,None,None,20.000000,77.000000
+216.182.237.129,United States,California,San Jose,37.339400,-121.895000
+104.16.57.15,United States,California,San Francisco,37.769700,-122.393300
+63.218.229.6,United States,Virginia,Herndon,38.984100,-77.382700
+186.201.206.81,Brazil,None,None,-23.547700,-46.635800
+54.239.109.109,United States,Virginia,Ashburn,39.033500,-77.483800
+82.199.80.141,Netherlands,North Holland,Amsterdam,52.374000,4.889700
+54.239.108.95,United States,Virginia,Ashburn,39.033500,-77.483800
+190.98.146.24,Brazil,Piaui,Cocal,-3.316700,-41.416700
+129.250.3.17,United States,Colorado,Englewood,39.623700,-104.873800
+209.85.255.21,United States,California,Mountain View,37.419200,-122.057400
+176.52.255.62,Spain,None,None,40.400000,-3.683300
+213.140.49.21,Spain,None,None,40.400000,-3.683300
+176.52.255.65,Spain,None,None,40.400000,-3.683300
+85.95.26.174,United Kingdom,None,None,51.500000,-0.130000
+54.239.5.170,Germany,Hesse,Frankfurt am Main,50.116700,8.683300
+46.33.89.58,France,None,None,48.860000,2.350000
+176.52.254.194,Spain,None,None,40.400000,-3.683300
+195.22.206.190,Italy,None,None,42.833300,12.833300
+212.72.42.218,United Kingdom,None,None,51.500000,-0.130000
+4.68.70.6,United States,None,None,38.000000,-97.000000
+69.28.189.73,United States,Arizona,Tempe,33.435700,-111.917100
+31.13.90.52,Ireland,None,None,53.347800,-6.259700
+23.14.231.114,United States,Massachusetts,Cambridge,42.362600,-71.084300
+198.47.104.78,United States,Virginia,McLean,38.949900,-77.222300
+187.100.35.245,Brazil,None,None,-23.547700,-46.635800
+192.0.79.32,United States,California,San Francisco,37.748400,-122.415600
+66.110.72.6,United States,Florida,None,28.022200,-81.732900
+54.240.229.56,United States,Virginia,Ashburn,39.033500,-77.483800
+54.240.229.50,United States,Virginia,Ashburn,39.033500,-77.483800
+74.209.134.26,United States,Arizona,Phoenix,33.508300,-112.071700
+72.14.234.187,United States,California,Mountain View,37.419200,-122.057400
+72.14.234.185,United States,California,Mountain View,37.419200,-122.057400
+98.139.129.209,United States,California,Sunnyvale,37.424900,-122.007400
+129.250.9.117,United States,Colorado,Englewood,39.623700,-104.873800
+23.76.251.83,United States,Massachusetts,Cambridge,42.362600,-71.084300
+209.85.245.51,United States,California,Mountain View,37.419200,-122.057400
+54.239.107.100,United States,Washington,Seattle,47.610300,-122.334100
+149.3.181.80,Italy,None,None,42.833300,12.833300
+205.251.244.219,United States,Virginia,Ashburn,39.033500,-77.483800
+199.30.80.32,United States,California,Santa Clara,37.396100,-121.961700
+141.0.171.246,Netherlands,None,None,52.366700,4.900000
+177.72.240.179 None None None None
+4.69.141.1,United States,None,None,38.000000,-97.000000
+129.250.26.197,United States,Colorado,Englewood,39.623700,-104.873800
+177.72.240.175 None None None None
+177.72.240.177 None None None None
+5.53.3.83,Spain,None,None,40.400000,-3.683300
+23.201.103.16,United States,Florida,Tampa,27.947500,-82.458400
+23.72.73.65,United States,Massachusetts,Cambridge,42.362600,-71.084300
+5.53.3.85,Spain,None,None,40.400000,-3.683300
+23.76.240.201,United States,Massachusetts,Cambridge,42.362600,-71.084300
+23.14.217.114,United States,Massachusetts,Cambridge,42.362600,-71.084300
+108.163.139.57,Canada,Quebec,Montreal,45.498700,-73.579300
+141.136.105.13,France,None,None,48.860000,2.350000
+69.28.172.158,United States,Arizona,Tempe,33.435700,-111.917100
+72.246.176.240,United States,Massachusetts,Cambridge,42.362600,-71.084300
+152.179.236.218,United States,Virginia,Ashburn,39.033500,-77.483800
+50.97.17.7,United States,Washington,Seattle,47.606100,-122.331800
+182.79.247.33,India,None,None,20.000000,77.000000
+50.97.17.5,United States,Washington,Seattle,47.606100,-122.331800
+217.163.20.29,United Kingdom,None,None,51.500000,-0.130000
+129.250.6.209,United States,Colorado,Englewood,39.623700,-104.873800
+203.83.223.31,Singapore,None,Singapore,1.293100,103.855800
+74.6.227.145,United States,California,Sunnyvale,37.424900,-122.007400
+84.16.10.153,Spain,None,None,40.400000,-3.683300
+96.6.123.57,United States,Massachusetts,Cambridge,42.362600,-71.084300
+212.72.41.102,United Kingdom,None,None,51.500000,-0.130000
+129.250.2.222,United States,Colorado,Englewood,39.623700,-104.873800
+104.68.114.198,United States,Massachusetts,Cambridge,42.362600,-71.084300
+82.112.115.190,United Kingdom,None,None,51.500000,-0.130000
+69.28.189.46,United States,Arizona,Tempe,33.435700,-111.917100
+129.250.2.184,United States,Colorado,Englewood,39.623700,-104.873800
+174.142.56.12,Canada,Quebec,Montreal,45.498700,-73.579300
+96.6.123.59,United States,Massachusetts,Cambridge,42.362600,-71.084300
+96.6.123.58,United States,Massachusetts,Cambridge,42.362600,-71.084300
+129.250.194.42,United States,Colorado,Englewood,39.623700,-104.873800
+67.17.68.234,United States,None,None,38.000000,-97.000000
+129.250.4.43,United States,Colorado,Englewood,39.623700,-104.873800
+176.32.106.47,Ireland,Dublin City,Dublin,53.333100,-6.248900
+77.67.66.206,France,None,None,48.860000,2.350000
+216.52.191.66,United States,None,None,38.000000,-97.000000
+213.200.84.37 None None None None
+72.14.234.179,United States,California,Mountain View,37.419200,-122.057400
+213.140.51.113,Spain,None,None,40.400000,-3.683300
+72.247.220.43,United States,Massachusetts,Cambridge,42.362600,-71.084300
+129.250.3.84,United States,Colorado,Englewood,39.623700,-104.873800
+174.142.3.245,Canada,Quebec,Montreal,45.498700,-73.579300
+203.83.220.55,Singapore,None,Singapore,1.293100,103.855800
+174.142.3.246,Canada,Quebec,Montreal,45.498700,-73.579300
+4.69.162.146,United States,None,None,38.000000,-97.000000
+50.97.18.172,United States,Washington,Seattle,47.606100,-122.331800
+131.103.116.142,United States,Colorado,Englewood,39.623700,-104.873800
+4.69.203.210,United States,None,None,38.000000,-97.000000
+54.239.42.86,United States,Washington,Seattle,47.610300,-122.334100
+46.33.91.206,France,None,None,48.860000,2.350000
+89.221.41.151,Italy,None,None,42.833300,12.833300
+66.110.56.6,United States,Delaware,Wilmington,39.735100,-75.668400
+192.205.35.237,United States,None,None,38.000000,-97.000000
+64.208.110.234,United States,None,None,38.000000,-97.000000
+4.26.0.18,United States,None,None,38.000000,-97.000000
+23.45.27.120,United States,Massachusetts,Cambridge,42.362600,-71.084300
+80.231.131.1,None,None,None,47.000000,8.000000
+96.16.98.10,United States,Massachusetts,Cambridge,42.362600,-71.084300
+180.179.193.138,India,Uttar Pradesh,Ghaziabad,28.666700,77.433300
+4.69.166.150,United States,None,None,38.000000,-97.000000
+80.252.81.46,Netherlands,None,None,52.366700,4.900000
+187.100.34.149,Brazil,None,None,-23.547700,-46.635800
+4.69.166.158,United States,None,None,38.000000,-97.000000
+94.142.97.45,Spain,None,None,40.400000,-3.683300
+216.182.224.229,United States,Virginia,Ashburn,39.033500,-77.483800
+85.95.25.109,United Kingdom,None,None,51.500000,-0.130000
+104.88.114.131,United States,Massachusetts,Cambridge,42.362600,-71.084300
+174.142.12.135,Canada,Quebec,Montreal,45.498700,-73.579300
+52.85.35.44,United States,Washington,Seattle,47.634400,-122.342200
+12.120.85.84,United States,None,None,38.000000,-97.000000
+209.197.20.14,United States,Illinois,Chicago,41.847100,-87.624800
+195.22.199.165,Italy,None,None,42.833300,12.833300
+192.16.6.92,United States,Florida,Miami,25.774300,-80.193700
+178.79.240.14,Italy,None,None,42.833300,12.833300
+204.15.23.19,United States,California,Palo Alto,37.376200,-122.182600
+85.95.25.74,United Kingdom,None,None,51.500000,-0.130000
+178.79.240.18,Italy,None,None,42.833300,12.833300
+67.17.92.226,United States,None,None,38.000000,-97.000000
+89.221.41.94,Italy,None,None,42.833300,12.833300
+62.115.38.158,None,None,None,47.000000,8.000000
+50.97.19.221,United States,Washington,Seattle,47.606100,-122.331800
+96.6.123.97,United States,Massachusetts,Cambridge,42.362600,-71.084300
+72.21.91.8,United States,California,Santa Monica,34.011900,-118.468200
+198.72.112.109,Canada,Quebec,Verdun,45.445900,-73.581500
+131.253.32.167,United States,None,None,38.000000,-97.000000
+195.22.219.215,Italy,None,None,42.833300,12.833300
+187.16.218.58,Brazil,None,None,-23.547700,-46.635800
+23.77.55.200,United States,Massachusetts,Cambridge,42.362600,-71.084300
+205.185.208.85,United States,Arizona,Phoenix,33.508300,-112.071700
+12.122.141.234,United States,None,None,38.000000,-97.000000
+23.76.255.12,United States,Massachusetts,Cambridge,42.362600,-71.084300
+190.98.140.98,Argentina,Buenos Aires F.D.,Buenos Aires,-34.603300,-58.381600
+89.221.41.42,Italy,None,None,42.833300,12.833300
+124.153.97.118,India,None,None,20.000000,77.000000
+198.206.164.62,United States,None,None,38.000000,-97.000000
+89.221.40.0,Italy,None,None,42.833300,12.833300
+149.3.183.33,Italy,None,None,42.833300,12.833300
+173.192.18.176,United States,Texas,Dallas,32.781300,-96.802000
+89.221.40.4,Italy,None,None,42.833300,12.833300
+221.134.229.195,India,None,None,20.000000,77.000000
+5.53.3.228,Spain,None,None,40.400000,-3.683300
+89.221.40.8,Italy,None,None,42.833300,12.833300
+125.23.240.102,India,National Capital Territory of Delhi,New Delhi,28.600000,77.200000
+4.69.153.86,United States,None,None,38.000000,-97.000000
+182.79.255.245,India,None,None,20.000000,77.000000
+129.250.201.202,United States,Colorado,Englewood,39.623700,-104.873800
+66.110.57.82,United States,Delaware,Wilmington,39.735100,-75.668400
+129.250.4.86,United States,Colorado,Englewood,39.623700,-104.873800
+209.197.0.221,United States,Arizona,Phoenix,33.508300,-112.071700
+190.98.140.99,Argentina,Buenos Aires F.D.,Buenos Aires,-34.603300,-58.381600
+72.246.216.41,United States,Massachusetts,Cambridge,42.362600,-71.084300
+173.192.18.156,United States,Texas,Dallas,32.781300,-96.802000
+125.18.48.210,India,Maharashtra,Satara,17.683300,73.983300
+190.98.140.91,Argentina,Buenos Aires F.D.,Buenos Aires,-34.603300,-58.381600
+182.79.254.202,India,None,None,20.000000,77.000000
+108.163.128.166,Canada,Quebec,Montreal,45.498700,-73.579300
+4.15.211.230,United States,New York,Clifton Park,42.857100,-73.799300
+187.100.34.133,Brazil,None,None,-23.547700,-46.635800
+94.31.29.168,United Kingdom,None,None,51.500000,-0.130000
+195.22.195.47,Italy,None,None,42.833300,12.833300
+96.6.123.90,United States,Massachusetts,Cambridge,42.362600,-71.084300
+129.250.6.121,United States,Colorado,Englewood,39.623700,-104.873800
+96.6.123.96,United States,Massachusetts,Cambridge,42.362600,-71.084300
+54.240.228.175,United States,Virginia,Ashburn,39.033500,-77.483800
+96.6.123.99,United States,Massachusetts,Cambridge,42.362600,-71.084300
+74.201.53.94,United States,Texas,The Colony,33.073500,-96.903200
+74.201.53.90,United States,Texas,The Colony,33.073500,-96.903200
+64.215.29.226,United States,None,None,38.000000,-97.000000
+205.251.245.236,United States,Virginia,Ashburn,39.033500,-77.483800
+128.242.180.234,United States,Colorado,Englewood,39.623700,-104.873800
+129.250.2.147,United States,Colorado,Englewood,39.623700,-104.873800
+89.221.43.251,Italy,None,None,42.833300,12.833300
+74.6.122.55,United States,California,Sunnyvale,37.424900,-122.007400
+204.15.21.35,United States,California,Palo Alto,37.376200,-122.182600
+4.53.228.150,United States,None,None,38.000000,-97.000000
+23.14.214.202,United States,Massachusetts,Cambridge,42.362600,-71.084300
+177.72.240.128 None None None None
+4.69.154.11,United States,None,None,38.000000,-97.000000
+104.44.227.63,United States,Washington,Redmond,47.680100,-122.120600
+54.240.229.138,United States,Virginia,Ashburn,39.033500,-77.483800
+115.112.163.110,India,Haryana,Gurgaon,28.466700,77.033300
+216.58.222.67,United States,California,Mountain View,37.419200,-122.057400
+216.58.222.66,United States,California,Mountain View,37.419200,-122.057400
+12.122.2.6,United States,None,None,38.000000,-97.000000
+96.6.123.82,United States,Massachusetts,Cambridge,42.362600,-71.084300
+129.250.3.41,United States,Colorado,Englewood,39.623700,-104.873800
+125.16.14.102,India,Andhra Pradesh,None,17.375300,78.474400
+176.52.251.42,Spain,None,None,40.400000,-3.683300
+23.41.175.17,United States,Massachusetts,Cambridge,42.362600,-71.084300
+176.52.252.186,Spain,None,None,40.400000,-3.683300
+67.17.75.66,United States,None,None,38.000000,-97.000000
+67.16.147.82,United States,None,None,38.000000,-97.000000
+96.6.123.88,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.16.24.35,United States,California,San Francisco,37.769700,-122.393300
+187.16.218.139,Brazil,None,None,-23.547700,-46.635800
+190.98.146.56,Brazil,Piaui,Cocal,-3.316700,-41.416700
+119.81.213.198,Singapore,None,Singapore,1.293100,103.855800
+54.240.229.148,United States,Virginia,Ashburn,39.033500,-77.483800
+187.16.219.111,Brazil,None,None,-23.547700,-46.635800
+104.88.121.114,United States,Massachusetts,Cambridge,42.362600,-71.084300
+200.157.208.242,Brazil,None,None,-23.547700,-46.635800
+54.239.110.57,United States,Virginia,Ashburn,39.033500,-77.483800
+200.157.208.241,Brazil,None,None,-23.547700,-46.635800
+63.218.228.178,United States,Virginia,Herndon,38.984100,-77.382700
+176.32.106.14,Ireland,Dublin City,Dublin,53.333100,-6.248900
+84.16.10.221,Spain,None,None,40.400000,-3.683300
+31.13.30.71,Ireland,None,None,53.347800,-6.259700
+213.144.176.65,Italy,None,None,42.833300,12.833300
+85.95.27.90,United Kingdom,None,None,51.500000,-0.130000
+182.79.252.70,India,None,None,20.000000,77.000000
+216.6.57.1,United States,Delaware,Wilmington,39.735100,-75.668400
+187.16.216.177,Brazil,None,None,-23.547700,-46.635800
+208.146.38.22,United States,Missouri,Chesterfield,38.650000,-90.533400
+119.227.90.85,India,None,None,20.000000,77.000000
+149.56.85.212,United States,California,Anaheim,33.826300,-117.910600
+54.240.229.140,United States,Virginia,Ashburn,39.033500,-77.483800
+141.136.98.26,France,None,None,48.860000,2.350000
+4.35.90.62,United States,Connecticut,Norwalk,41.127100,-73.441600
+177.126.190.213,Brazil,None,None,-23.547700,-46.635800
+66.196.67.233,United States,California,Sunnyvale,37.424900,-122.007400
+70.39.190.22,United States,California,Los Angeles,34.053300,-118.254900
+96.17.10.33,United States,Massachusetts,Cambridge,42.362600,-71.084300
+216.239.43.17,United States,California,Mountain View,37.419200,-122.057400
+124.153.87.38,India,None,None,20.000000,77.000000
+199.16.156.198,United States,California,San Francisco,37.769700,-122.393300
+124.153.87.34,India,None,None,20.000000,77.000000
+184.107.1.230,Canada,Quebec,Montreal,45.498700,-73.579300
+129.250.193.134,United States,Colorado,Englewood,39.623700,-104.873800
+216.239.43.19,United States,California,Mountain View,37.419200,-122.057400
+59.165.179.6,India,None,None,20.000000,77.000000
+54.239.110.217,United States,Virginia,Ashburn,39.033500,-77.483800
+216.184.113.68,United States,Florida,Miami,25.763100,-80.191100
+180.179.237.170,India,None,None,20.000000,77.000000
+119.81.209.88,Singapore,None,Singapore,1.293100,103.855800
+190.98.146.57,Brazil,Piaui,Cocal,-3.316700,-41.416700
+54.240.229.24,United States,Virginia,Ashburn,39.033500,-77.483800
+72.14.235.113,United States,California,Mountain View,37.419200,-122.057400
+180.179.197.54,India,None,None,20.000000,77.000000
+69.28.171.54,United States,Arizona,Tempe,33.435700,-111.917100
+67.17.213.98,United States,None,None,38.000000,-97.000000
+212.113.15.170,United Kingdom,Hertfordshire,Watford,51.643200,-0.360500
+104.16.103.204,United States,California,San Francisco,37.769700,-122.393300
+72.246.216.206,United States,Massachusetts,Cambridge,42.362600,-71.084300
+187.100.35.69,Brazil,None,None,-23.547700,-46.635800
+64.208.27.102,United States,None,None,38.000000,-97.000000
+129.250.6.163,United States,Colorado,Englewood,39.623700,-104.873800
+54.239.107.115,United States,Washington,Seattle,47.610300,-122.334100
+212.72.45.234,United Kingdom,None,None,51.500000,-0.130000
+23.14.218.93,United States,Massachusetts,Cambridge,42.362600,-71.084300
+173.252.64.29,United States,California,Menlo Park,37.459000,-122.178100
+54.239.108.146,United States,Virginia,Ashburn,39.033500,-77.483800
+121.241.90.154,India,None,None,20.000000,77.000000
+189.125.52.169,Brazil,None,None,-23.547700,-46.635800
+216.6.87.105,United States,Delaware,Wilmington,39.735100,-75.668400
+72.246.216.251,United States,Massachusetts,Cambridge,42.362600,-71.084300
+190.98.146.26,Brazil,Piaui,Cocal,-3.316700,-41.416700
+12.120.85.64,United States,None,None,38.000000,-97.000000
+80.252.81.130,Netherlands,None,None,52.366700,4.900000
+70.39.190.2,United States,California,Los Angeles,34.053300,-118.254900
+72.247.220.10,United States,Massachusetts,Cambridge,42.362600,-71.084300
+66.198.70.174,United States,Delaware,Wilmington,39.735100,-75.668400
+54.240.229.136,United States,Virginia,Ashburn,39.033500,-77.483800
+78.152.45.70,Netherlands,None,None,52.366700,4.900000
+89.221.43.248,Italy,None,None,42.833300,12.833300
+89.149.130.106,France,None,None,48.860000,2.350000
+198.27.73.169,Canada,Quebec,Montreal,45.504000,-73.574700
+216.58.222.73,United States,California,Mountain View,37.419200,-122.057400
+193.111.37.222,Poland,None,None,52.233300,21.016700
+195.2.30.54,None,None,None,47.000000,8.000000
+4.59.240.2,United States,None,None,38.000000,-97.000000
+74.119.76.37,United States,California,Palo Alto,37.376200,-122.182600
+124.7.42.68,India,None,None,20.000000,77.000000
+198.232.125.32,United States,California,Los Angeles,34.130000,-118.338600
+187.100.34.161,Brazil,None,None,-23.547700,-46.635800
+149.3.183.35,Italy,None,None,42.833300,12.833300
+216.6.87.242,United States,Delaware,Wilmington,39.735100,-75.668400
+12.122.85.97,United States,None,None,38.000000,-97.000000
+89.149.128.82,France,None,None,48.860000,2.350000
+209.85.143.207,United States,California,Mountain View,37.419200,-122.057400
+23.14.235.218,United States,Massachusetts,Cambridge,42.362600,-71.084300
+72.30.22.3,United States,California,Sunnyvale,37.424900,-122.007400
+96.6.123.40,United States,Massachusetts,Cambridge,42.362600,-71.084300
+96.6.123.41,United States,Massachusetts,Cambridge,42.362600,-71.084300
+96.6.123.42,United States,Massachusetts,Cambridge,42.362600,-71.084300
+96.6.123.43,United States,Massachusetts,Cambridge,42.362600,-71.084300
+80.231.130.129,None,None,None,47.000000,8.000000
+64.212.107.98,United States,None,None,38.000000,-97.000000
+129.250.2.219,United States,Colorado,Englewood,39.623700,-104.873800
+63.232.81.254,United States,None,None,38.000000,-97.000000
+5.53.1.30,Spain,None,None,40.400000,-3.683300
+141.136.105.177,France,None,None,48.860000,2.350000
+177.126.190.209,Brazil,None,None,-23.547700,-46.635800
+4.69.156.43,United States,None,None,38.000000,-97.000000
+176.32.107.7,Ireland,Dublin City,Dublin,53.333100,-6.248900
+141.136.111.206,France,None,None,48.860000,2.350000
+89.149.183.37,France,None,None,48.860000,2.350000
+119.227.185.18,India,None,None,20.000000,77.000000
+67.16.159.37,United States,None,None,38.000000,-97.000000
+177.126.190.205,Brazil,None,None,-23.547700,-46.635800
+94.142.126.97,Spain,None,None,40.400000,-3.683300
+195.22.219.1,Italy,None,None,42.833300,12.833300
+129.250.4.250,United States,Colorado,Englewood,39.623700,-104.873800
+187.100.35.21,Brazil,None,None,-23.547700,-46.635800
+78.152.34.61,Netherlands,None,None,52.366700,4.900000
+199.16.156.11,United States,California,San Francisco,37.769700,-122.393300
+178.32.135.208,France,None,None,48.860000,2.350000
+89.149.185.213,France,None,None,48.860000,2.350000
+104.44.81.75,United States,Washington,Redmond,47.680100,-122.120600
+212.91.9.73,Poland,Masovian Voivodeship,Warsaw,52.250000,21.000000
+205.251.248.123,United States,Virginia,Ashburn,39.033500,-77.483800
+161.58.157.85,United States,Colorado,Englewood,39.623700,-104.873800
+184.107.1.50,Canada,Quebec,Montreal,45.498700,-73.579300
+195.22.209.63,Italy,None,None,42.833300,12.833300
+182.79.252.214,India,None,None,20.000000,77.000000
+178.236.0.109,Ireland,Dublin City,Dublin,53.333100,-6.248900
+203.83.223.21,Singapore,None,Singapore,1.293100,103.855800
+203.83.223.23,Singapore,None,Singapore,1.293100,103.855800
+89.149.180.237,France,None,None,48.860000,2.350000
+195.22.197.158,Italy,None,None,42.833300,12.833300
+173.205.58.54,United States,New Jersey,East Brunswick,40.429300,-74.420300
+64.233.190.82,United States,California,Mountain View,37.419200,-122.057400
+178.79.240.26,Italy,None,None,42.833300,12.833300
+67.16.139.18,United States,None,None,38.000000,-97.000000
+178.79.240.22,Italy,None,None,42.833300,12.833300
+130.94.195.6,United States,Colorado,Englewood,39.623700,-104.873800
+4.69.162.150,United States,None,None,38.000000,-97.000000
+50.97.19.217,United States,Washington,Seattle,47.606100,-122.331800
+50.97.19.215,United States,Washington,Seattle,47.606100,-122.331800
+125.21.80.65,India,National Capital Territory of Delhi,New Delhi,28.600000,77.200000
+198.72.102.196,Canada,Quebec,Montreal,45.498700,-73.579300
+80.231.217.78,None,None,None,47.000000,8.000000
+177.126.190.193,Brazil,None,None,-23.547700,-46.635800
+23.4.40.70,United States,Massachusetts,Cambridge,42.362600,-71.084300
+195.22.219.208,Italy,None,None,42.833300,12.833300
+27.111.228.215,Singapore,None,Ayer Raja New Town,1.305000,103.783300
+69.28.171.154,United States,Arizona,Tempe,33.435700,-111.917100
+89.221.41.34,Italy,None,None,42.833300,12.833300
+195.22.218.100,Italy,None,None,42.833300,12.833300
+46.33.82.2,France,None,None,48.860000,2.350000
+8.37.228.36,United States,California,Pasadena,34.147000,-118.139200
+74.119.79.105,United States,California,Palo Alto,37.376200,-122.182600
+69.28.171.158,United States,Arizona,Tempe,33.435700,-111.917100
+72.246.216.211,United States,Massachusetts,Cambridge,42.362600,-71.084300
+173.192.18.162,United States,Texas,Dallas,32.781300,-96.802000
+173.192.18.166,United States,Texas,Dallas,32.781300,-96.802000
+72.21.222.141,United States,Virginia,Ashburn,39.033500,-77.483800
+184.168.0.113,United States,Arizona,Scottsdale,33.611900,-111.890600
+80.231.217.30,None,None,None,47.000000,8.000000
+72.21.91.121,United States,California,Santa Monica,34.011900,-118.468200
+72.246.64.131,United States,Massachusetts,Cambridge,42.362600,-71.084300
+210.210.23.68,India,None,None,20.000000,77.000000
+23.14.217.169,United States,Massachusetts,Cambridge,42.362600,-71.084300
+188.125.93.157,United Kingdom,None,None,51.500000,-0.130000
+46.33.80.177,France,None,None,48.860000,2.350000
+184.168.0.117,United States,Arizona,Scottsdale,33.611900,-111.890600
+213.144.160.3,Italy,None,None,42.833300,12.833300
+63.235.40.57,United States,None,None,38.000000,-97.000000
+213.144.160.1,Italy,None,None,42.833300,12.833300
+149.3.181.17,Italy,None,None,42.833300,12.833300
+195.22.214.167,Italy,None,None,42.833300,12.833300
+66.228.118.214,United States,Texas,Dallas,32.781300,-96.802000
+89.149.180.149,France,None,None,48.860000,2.350000
+80.239.193.161,Sweden,Stockholm,Stockholm,59.333300,18.050000
+63.146.26.213,United States,Maryland,Silver Spring,38.990700,-77.026100
+66.228.118.218,United States,Texas,Dallas,32.781300,-96.802000
+216.58.222.110,United States,California,Mountain View,37.419200,-122.057400
+83.231.213.38,Germany,None,None,51.000000,9.000000
+129.250.2.159,United States,Colorado,Englewood,39.623700,-104.873800
+216.58.222.97,United States,California,Mountain View,37.419200,-122.057400
+64.233.175.5,United States,California,Mountain View,37.419200,-122.057400
+216.58.222.99,United States,California,Mountain View,37.419200,-122.057400
+84.16.9.205,Spain,None,None,40.400000,-3.683300
+54.240.228.143,United States,Virginia,Ashburn,39.033500,-77.483800
+54.240.228.145,United States,Virginia,Ashburn,39.033500,-77.483800
+83.231.213.34,Germany,None,None,51.000000,9.000000
+203.83.221.135,Singapore,None,Singapore,1.293100,103.855800
+203.83.221.131,Singapore,None,Singapore,1.293100,103.855800
+209.85.245.53,United States,California,Mountain View,37.419200,-122.057400
+78.140.169.26,Netherlands,None,None,52.366700,4.900000
+89.149.184.49,France,None,None,48.860000,2.350000
+198.27.73.229,Canada,Quebec,Montreal,45.504000,-73.574700
+80.231.130.33,None,None,None,47.000000,8.000000
+4.68.111.121,United States,None,None,38.000000,-97.000000
+216.58.222.78,United States,California,Mountain View,37.419200,-122.057400
+216.239.62.198,United States,California,Mountain View,37.419200,-122.057400
+216.58.222.74,United States,California,Mountain View,37.419200,-122.057400
+104.88.123.237,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.44.4.134,United States,Washington,Redmond,47.680100,-122.120600
+216.58.222.70,United States,California,Mountain View,37.419200,-122.057400
+67.17.106.162,United States,None,None,38.000000,-97.000000
+187.16.220.8,Brazil,None,None,-23.547700,-46.635800
+68.142.125.97,United States,Arizona,Tempe,33.435700,-111.917100
+216.6.87.1,United States,Delaware,Wilmington,39.735100,-75.668400
+84.16.9.61,Spain,None,None,40.400000,-3.683300
+195.22.197.114,Italy,None,None,42.833300,12.833300
+96.6.123.104,United States,Massachusetts,Cambridge,42.362600,-71.084300
+96.6.123.105,United States,Massachusetts,Cambridge,42.362600,-71.084300
+107.6.99.249,United States,Texas,Plano,33.020000,-96.741900
+23.1.115.215,United States,Massachusetts,Cambridge,42.362600,-71.084300
+54.239.108.82,United States,Virginia,Ashburn,39.033500,-77.483800
+187.100.39.33,Brazil,None,None,-23.547700,-46.635800
+203.83.223.2,Singapore,None,Singapore,1.293100,103.855800
+203.83.223.6,Singapore,None,Singapore,1.293100,103.855800
+5.53.3.143,Spain,None,None,40.400000,-3.683300
+129.250.6.229,United States,Colorado,Englewood,39.623700,-104.873800
+213.239.245.25,Germany,None,None,51.000000,9.000000
+200.157.208.233,Brazil,None,None,-23.547700,-46.635800
+209.85.255.89,United States,California,Mountain View,37.419200,-122.057400
+190.98.146.40,Brazil,Piaui,Cocal,-3.316700,-41.416700
+190.98.146.42,Brazil,Piaui,Cocal,-3.316700,-41.416700
+4.69.154.75,United States,None,None,38.000000,-97.000000
+64.208.110.214,United States,None,None,38.000000,-97.000000
+190.98.146.48,Brazil,Piaui,Cocal,-3.316700,-41.416700
+5.178.44.21,Italy,None,None,42.833300,12.833300
+5.53.4.102,Spain,None,None,40.400000,-3.683300
+166.63.211.170,United States,None,None,38.000000,-97.000000
+4.69.144.74,United States,None,None,38.000000,-97.000000
+4.15.84.2,United States,None,None,38.000000,-97.000000
+96.6.123.48,United States,Massachusetts,Cambridge,42.362600,-71.084300
+173.205.55.18,United States,None,None,38.000000,-97.000000
+54.239.100.85,Ireland,Dublin City,Dublin,53.333100,-6.248900
+89.221.41.177,Italy,None,None,42.833300,12.833300
+89.221.41.175,Italy,None,None,42.833300,12.833300
+66.110.59.2,United States,Delaware,Wilmington,39.735100,-75.668400
+4.69.154.9,United States,None,None,38.000000,-97.000000
+180.87.36.58,India,Maharashtra,Pune,18.533300,73.866700
+208.43.118.157,United States,District of Columbia,Washington,38.895100,-77.036400
+23.14.176.59,United States,Massachusetts,Cambridge,42.362600,-71.084300
+23.1.123.143,United States,Massachusetts,Cambridge,42.362600,-71.084300
+14.140.209.58,India,None,None,20.000000,77.000000
+203.83.223.17,Singapore,None,Singapore,1.293100,103.855800
+209.85.244.79,United States,California,Mountain View,37.419200,-122.057400
+187.16.218.144,Brazil,None,None,-23.547700,-46.635800
+184.107.1.209,Canada,Quebec,Montreal,45.498700,-73.579300
+173.192.18.203,United States,Texas,Dallas,32.781300,-96.802000
+187.16.219.40,Brazil,None,None,-23.547700,-46.635800
+67.16.145.253,United States,None,None,38.000000,-97.000000
+209.197.20.32,United States,Illinois,Chicago,41.847100,-87.624800
+54.240.229.36,United States,Virginia,Ashburn,39.033500,-77.483800
+54.240.229.34,United States,Virginia,Ashburn,39.033500,-77.483800
+4.69.144.80,United States,None,None,38.000000,-97.000000
+174.142.209.160,Canada,Quebec,Montreal,45.498700,-73.579300
+70.38.84.110,Canada,Quebec,Montreal,45.498700,-73.579300
+192.99.146.99,Canada,Quebec,Montreal,45.504000,-73.574700
+50.97.18.201,United States,Washington,Seattle,47.606100,-122.331800
+50.97.18.203,United States,Washington,Seattle,47.606100,-122.331800
+31.13.30.179,Ireland,None,None,53.347800,-6.259700
+195.22.219.236,Italy,None,None,42.833300,12.833300
+81.20.69.230,Netherlands,North Holland,Amsterdam,52.374000,4.889700
+173.252.65.126,United States,California,Menlo Park,37.459000,-122.178100
+54.239.42.88,United States,Washington,Seattle,47.610300,-122.334100
+129.250.2.110,United States,Colorado,Englewood,39.623700,-104.873800
+216.6.87.138,United States,Delaware,Wilmington,39.735100,-75.668400
+129.250.2.148,United States,Colorado,Englewood,39.623700,-104.873800
+187.100.44.141,Brazil,None,None,-23.547700,-46.635800
+4.69.201.162,United States,None,None,38.000000,-97.000000
+212.71.236.74,United Kingdom,None,None,51.500000,-0.130000
+14.141.17.38,India,Maharashtra,Mumbai,18.975000,72.825800
+177.72.240.207 None None None None
+216.115.97.103,United States,California,Sunnyvale,37.424900,-122.007400
+198.32.176.127,United States,California,Marina del Rey,33.980300,-118.451700
+104.88.125.97,United States,Massachusetts,Cambridge,42.362600,-71.084300
+129.250.26.196,United States,Colorado,Englewood,39.623700,-104.873800
+54.239.109.249,United States,Virginia,Ashburn,39.033500,-77.483800
+177.72.240.209 None None None None
+72.246.216.245,United States,Massachusetts,Cambridge,42.362600,-71.084300
+119.226.139.28,India,None,None,20.000000,77.000000
+89.149.130.74,France,None,None,48.860000,2.350000
+195.2.24.158,None,None,None,47.000000,8.000000
+198.27.73.92,Canada,Quebec,Montreal,45.504000,-73.574700
+129.250.2.22,United States,Colorado,Englewood,39.623700,-104.873800
+4.69.146.77,United States,None,None,38.000000,-97.000000
+176.32.107.11,Ireland,Dublin City,Dublin,53.333100,-6.248900
+195.22.219.8,Italy,None,None,42.833300,12.833300
+180.87.15.25,Singapore,None,None,1.366700,103.800000
+96.6.123.75,United States,Massachusetts,Cambridge,42.362600,-71.084300
+96.6.123.74,United States,Massachusetts,Cambridge,42.362600,-71.084300
+31.13.27.209,Ireland,None,None,53.347800,-6.259700
+195.22.199.29,Italy,None,None,42.833300,12.833300
+4.68.111.66,United States,None,None,38.000000,-97.000000
+173.205.28.241,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.88.120.135,United States,Massachusetts,Cambridge,42.362600,-71.084300
+212.162.26.134,United Kingdom,None,None,51.500000,-0.130000
+199.16.159.63,United States,California,San Francisco,37.769700,-122.393300
+63.218.107.190,Singapore,None,Singapore,1.293100,103.855800
+129.250.6.26,United States,Colorado,Englewood,39.623700,-104.873800
+195.22.218.98,Italy,None,None,42.833300,12.833300
+59.144.37.17,India,National Capital Territory of Delhi,New Delhi,28.600000,77.200000
+209.85.240.147,United States,California,Mountain View,37.419200,-122.057400
+104.16.116.182,United States,California,San Francisco,37.769700,-122.393300
+46.33.91.194,France,None,None,48.860000,2.350000
+213.140.43.110,Spain,None,None,40.400000,-3.683300
+94.142.125.45,Spain,None,None,40.400000,-3.683300
+216.52.191.3,United States,None,None,38.000000,-97.000000
+216.52.191.2,United States,None,None,38.000000,-97.000000
+184.107.1.65,Canada,Quebec,Montreal,45.498700,-73.579300
+180.87.96.146,India,Maharashtra,Pune,18.533300,73.866700
+205.129.5.70,United States,California,Temecula,33.536300,-117.043900
+129.250.8.77,United States,Colorado,Englewood,39.623700,-104.873800
+66.110.59.126,United States,Delaware,Wilmington,39.735100,-75.668400
+89.149.181.181,France,None,None,48.860000,2.350000
+178.236.3.51,Ireland,Dublin City,Dublin,53.333100,-6.248900
+192.0.78.13,United States,California,San Francisco,37.748400,-122.415600
+190.98.146.19,Brazil,Piaui,Cocal,-3.316700,-41.416700
+129.250.4.99,United States,Colorado,Englewood,39.623700,-104.873800
+128.199.123.244,Singapore,None,Singapore,1.293100,103.855800
+157.238.224.194,United States,Colorado,Englewood,39.623700,-104.873800
+190.98.146.10,Brazil,Piaui,Cocal,-3.316700,-41.416700
+190.98.146.11,Brazil,Piaui,Cocal,-3.316700,-41.416700
+72.246.216.195,United States,Massachusetts,Cambridge,42.362600,-71.084300
+5.178.44.19,Italy,None,None,42.833300,12.833300
+46.226.155.30,Sweden,None,None,59.329400,18.068600
+125.21.249.62,India,National Capital Territory of Delhi,New Delhi,28.600000,77.200000
+177.126.190.185,Brazil,None,None,-23.547700,-46.635800
+80.231.200.13,None,None,None,47.000000,8.000000
+81.25.207.98,United Kingdom,England,London,51.514400,-0.094100
+173.205.28.162,United States,Massachusetts,Cambridge,42.362600,-71.084300
+216.58.222.65,United States,California,Mountain View,37.419200,-122.057400
+198.41.190.246,United States,California,San Francisco,37.769700,-122.393300
+104.76.38.168,Netherlands,North Holland,Amsterdam,52.374000,4.889700
+72.246.216.228,United States,Massachusetts,Cambridge,42.362600,-71.084300
+84.16.7.62,Spain,None,None,40.400000,-3.683300
+173.192.18.253,United States,Texas,Dallas,32.781300,-96.802000
+184.28.166.180,United States,Massachusetts,Cambridge,42.362600,-71.084300
+173.205.28.201,United States,Massachusetts,Cambridge,42.362600,-71.084300
+187.16.216.55,Brazil,None,None,-23.547700,-46.635800
+72.246.64.145,United States,Massachusetts,Cambridge,42.362600,-71.084300
+54.240.229.40,United States,Virginia,Ashburn,39.033500,-77.483800
+54.239.100.150,Ireland,Dublin City,Dublin,53.333100,-6.248900
+202.160.161.146,India,Gujarat,Vadodara,22.300000,73.200000
+64.215.30.22,United States,None,None,38.000000,-97.000000
+129.250.5.210,United States,Colorado,Englewood,39.623700,-104.873800
+192.229.233.180,United States,California,Santa Monica,34.011900,-118.468200
+129.250.2.61,United States,Colorado,Englewood,39.623700,-104.873800
+89.149.132.98,France,None,None,48.860000,2.350000
+190.98.130.176,Guatemala,Departamento de Guatemala,Guatemala City,14.621100,-90.526900
+104.88.120.36,United States,Massachusetts,Cambridge,42.362600,-71.084300
+174.142.173.46,Canada,Quebec,Montreal,45.498700,-73.579300
+182.79.237.125,India,None,None,20.000000,77.000000
+72.21.92.82,United States,California,Santa Monica,34.011900,-118.468200
+129.250.2.129,United States,Colorado,Englewood,39.623700,-104.873800
+216.58.222.100,United States,California,Mountain View,37.419200,-122.057400
+54.239.110.185,United States,Virginia,Ashburn,39.033500,-77.483800
+216.58.222.105,United States,California,Mountain View,37.419200,-122.057400
+190.98.146.9,Brazil,Piaui,Cocal,-3.316700,-41.416700
+80.231.200.118,None,None,None,47.000000,8.000000
+119.81.209.123,Singapore,None,Singapore,1.293100,103.855800
+23.76.203.214,United States,Massachusetts,Cambridge,42.362600,-71.084300
+129.250.6.109,United States,Colorado,Englewood,39.623700,-104.873800
+141.0.171.250,Netherlands,None,None,52.366700,4.900000
+187.16.221.65,Brazil,None,None,-23.547700,-46.635800
+173.205.77.25,United States,Massachusetts,Cambridge,42.362600,-71.084300
+66.198.154.177,United States,North Carolina,Charlotte,35.050800,-80.818600
+186.230.250.229,Brazil,None,None,-23.547700,-46.635800
+85.95.27.25,United Kingdom,None,None,51.500000,-0.130000
+93.184.220.20,United States,None,None,38.000000,-97.000000
+104.99.16.243,United States,Massachusetts,Cambridge,42.362600,-71.084300
+67.16.132.78,United States,None,None,38.000000,-97.000000
+213.144.160.106,Italy,None,None,42.833300,12.833300
+216.58.222.106,United States,California,Mountain View,37.419200,-122.057400
+208.51.134.118,United States,None,None,38.000000,-97.000000
+205.251.245.170,United States,Virginia,Ashburn,39.033500,-77.483800
+64.208.27.86,United States,None,None,38.000000,-97.000000
+180.87.96.21,India,Maharashtra,Pune,18.533300,73.866700
+213.239.229.14,Germany,None,None,51.000000,9.000000
+85.95.26.18,United Kingdom,None,None,51.500000,-0.130000
+64.208.27.234,United States,None,None,38.000000,-97.000000
+4.59.178.62,United States,None,None,38.000000,-97.000000
+173.205.48.49,United States,California,Los Angeles,34.100600,-118.327500
+173.205.28.169,United States,Massachusetts,Cambridge,42.362600,-71.084300
+213.239.245.30,Germany,None,None,51.000000,9.000000
+89.149.128.229,France,None,None,48.860000,2.350000
+96.6.123.113,United States,Massachusetts,Cambridge,42.362600,-71.084300
+96.6.123.112,United States,Massachusetts,Cambridge,42.362600,-71.084300
+84.16.14.189,Spain,None,None,40.400000,-3.683300
+96.6.123.33,United States,Massachusetts,Cambridge,42.362600,-71.084300
+187.100.39.25,Brazil,None,None,-23.547700,-46.635800
+216.6.87.10,United States,Delaware,Wilmington,39.735100,-75.668400
+69.28.189.50,United States,Arizona,Tempe,33.435700,-111.917100
+104.16.109.18,United States,California,San Francisco,37.769700,-122.393300
+72.246.216.26,United States,Massachusetts,Cambridge,42.362600,-71.084300
+176.32.106.34,Ireland,Dublin City,Dublin,53.333100,-6.248900
+103.195.186.199,India,None,None,20.000000,77.000000
+213.144.176.48,Italy,None,None,42.833300,12.833300
+89.221.34.113,Italy,None,None,42.833300,12.833300
+178.236.0.134,Ireland,Dublin City,Dublin,53.333100,-6.248900
+195.2.25.198,United Kingdom,None,None,51.500000,-0.130000
+104.88.131.58,United States,Massachusetts,Cambridge,42.362600,-71.084300
+23.14.235.13,United States,Massachusetts,Cambridge,42.362600,-71.084300
+95.172.78.39,United Kingdom,None,None,51.500000,-0.130000
+129.250.6.55,United States,Colorado,Englewood,39.623700,-104.873800
+203.145.134.18,India,National Capital Territory of Delhi,Delhi,28.666700,77.216700
+190.98.146.58,Brazil,Piaui,Cocal,-3.316700,-41.416700
+209.85.254.135,United States,California,Mountain View,37.419200,-122.057400
+209.85.254.134,United States,California,Mountain View,37.419200,-122.057400
+94.142.126.133,Spain,None,None,40.400000,-3.683300
+129.250.3.172,United States,Colorado,Englewood,39.623700,-104.873800
+31.13.71.36,Ireland,None,None,53.347800,-6.259700
+93.184.220.113,United States,None,None,38.000000,-97.000000
+187.16.220.213,Brazil,None,None,-23.547700,-46.635800
+12.122.28.74,United States,None,None,38.000000,-97.000000
+104.88.138.43,United States,Massachusetts,Cambridge,42.362600,-71.084300
+129.250.4.27,United States,Colorado,Englewood,39.623700,-104.873800
+174.133.118.151,Singapore,None,Singapore,1.293100,103.855800
+119.81.76.78,Singapore,None,Singapore,1.293100,103.855800
+23.14.234.202,United States,Massachusetts,Cambridge,42.362600,-71.084300
+85.95.26.201,United Kingdom,None,None,51.500000,-0.130000
+204.152.141.79,United States,None,None,38.000000,-97.000000
+94.142.119.37,Spain,None,None,40.400000,-3.683300
+104.99.66.125,United States,Massachusetts,Cambridge,42.362600,-71.084300
+173.192.18.218,United States,Texas,Dallas,32.781300,-96.802000
+84.16.9.65,Spain,None,None,40.400000,-3.683300
+84.16.10.160,Spain,None,None,40.400000,-3.683300
+213.144.160.53,Italy,None,None,42.833300,12.833300
+195.22.199.177,Italy,None,None,42.833300,12.833300
+94.46.159.2,United States,None,None,38.000000,-97.000000
+195.22.199.179,Italy,None,None,42.833300,12.833300
+104.88.119.98,United States,Massachusetts,Cambridge,42.362600,-71.084300
+216.58.215.27,United States,California,Mountain View,37.419200,-122.057400
+72.14.235.137,United States,California,Mountain View,37.419200,-122.057400
+72.246.216.34,United States,Massachusetts,Cambridge,42.362600,-71.084300
+209.85.248.126,United States,California,Mountain View,37.419200,-122.057400
+104.88.131.38,United States,Massachusetts,Cambridge,42.362600,-71.084300
+72.246.216.35,United States,Massachusetts,Cambridge,42.362600,-71.084300
+4.69.154.203,United States,None,None,38.000000,-97.000000
+187.16.217.20,Brazil,None,None,-23.547700,-46.635800
+54.239.109.164,United States,Virginia,Ashburn,39.033500,-77.483800
+205.251.230.120,United States,California,San Jose,37.339400,-121.895000
+162.159.244.231,United States,California,San Francisco,37.769700,-122.393300
+209.85.248.74,United States,California,Mountain View,37.419200,-122.057400
+31.13.74.49,Ireland,None,None,53.347800,-6.259700
+195.16.162.254,United States,Massachusetts,Holbrook,42.143700,-71.003000
+129.250.6.144,United States,Colorado,Englewood,39.623700,-104.873800
+23.77.40.23,United States,Massachusetts,Cambridge,42.362600,-71.084300
+115.112.163.90,India,Haryana,Gurgaon,28.466700,77.033300
+129.250.9.1,United States,Colorado,Englewood,39.623700,-104.873800
+213.239.203.146 None None None None
+80.231.200.30,None,None,None,47.000000,8.000000
+213.140.39.185,Spain,None,None,40.400000,-3.683300
+129.250.3.180,United States,Colorado,Englewood,39.623700,-104.873800
+84.16.9.41,Spain,None,None,40.400000,-3.683300
+210.214.47.161,India,None,None,20.000000,77.000000
+177.72.240.211 None None None None
+208.178.245.158,United States,Texas,Houston,29.686700,-95.527200
+176.32.106.133,Ireland,Dublin City,Dublin,53.333100,-6.248900
+140.222.231.223,United States,New York,Purchase,41.038700,-73.717300
+54.240.228.157,United States,Virginia,Ashburn,39.033500,-77.483800
+77.67.71.97,France,None,None,48.860000,2.350000
+89.149.129.69,France,None,None,48.860000,2.350000
+190.98.140.89,Argentina,Buenos Aires F.D.,Buenos Aires,-34.603300,-58.381600
+203.131.246.30,Hong Kong,None,Central District,22.283300,114.150000
+188.125.95.53,United Kingdom,None,None,51.500000,-0.130000
+205.251.245.172,United States,Virginia,Ashburn,39.033500,-77.483800
+64.215.102.181,United States,None,None,38.000000,-97.000000
+129.250.7.69,United States,Colorado,Englewood,39.623700,-104.873800
+129.250.2.19,United States,Colorado,Englewood,39.623700,-104.873800
+67.205.87.223,Canada,Quebec,Montreal,45.498700,-73.579300
+72.21.81.253,United States,California,Santa Monica,34.011900,-118.468200
+207.46.44.154,United States,Washington,Redmond,47.680100,-122.120600
+84.16.10.230,Spain,None,None,40.400000,-3.683300
+4.69.154.201,United States,None,None,38.000000,-97.000000
+96.6.123.67,United States,Massachusetts,Cambridge,42.362600,-71.084300
+216.58.215.25,United States,California,Mountain View,37.419200,-122.057400
+185.59.220.11,Germany,Hesse,Frankfurt am Main,50.116700,8.683300
+4.30.129.254,United States,New York,New York,40.749000,-73.986500
+54.240.228.163,United States,Virginia,Ashburn,39.033500,-77.483800
+129.250.2.177,United States,Colorado,Englewood,39.623700,-104.873800
+177.72.240.130 None None None None
+198.41.208.141,United States,California,San Francisco,37.769700,-122.393300
+177.72.240.132 None None None None

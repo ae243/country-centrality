@@ -1,0 +1,10 @@
+The code in this folder analyzes all RIPE Atlas probes that are public.
+
+all_probes.txt:
+    Lists all probe ids and the corresponding IP address of the probe
+
+id_asn.py:
+    Takes all_probes.txt and produces a different fle that lists all probe ids and their corresponding ASN number
+
+probe_id_asn.txt:
+    Lists all probe ids and the corresponding ASN of the probe

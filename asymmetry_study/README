@@ -1,0 +1,25 @@
+This folder contains all code and data for measuring path asymmetry at the country level.
+
+asymmetry_latest_mm.txt:
+    Contains the mapping of IP Address to country code (and long/lat)
+
+asymmetry_results_log.txt:
+    Contains pairs of forward and reverse paths, as well as the resulting values for symmetric/asymmetric paths
+
+get_asymmetry_data.py:
+    Pulls measurements from RIPE Atlas (from other researchers' previous study of asymmetry - at the IP level) and produces the country level paths (written to asymmetry_results_log.txt)
+
+get_ips.py:
+    Pulls all IP address from RIPE Atlas measurements in measurementids.txt
+
+get_subset_data.py:
+    Gets the number of paths where the reverse path has a subset of countries of the forward path
+
+ips.txt:
+    List of all IP addresses in the measurementids.txt file
+
+measurementids.txt:
+    List of all RIPE Atlas measurement ids for the asymmetry study
+
+util.py:
+    Utility methods

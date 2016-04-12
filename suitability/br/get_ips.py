@@ -1,8 +1,9 @@
 import sys
 import re
 
-file_list = ['relay_domain_brazil.txt', 'relay_domain_brazil-vps.txt', 'relay_domain_oregon.txt', 'relay_domain_ireland.txt', 'relay_domain_frankfurt.txt', 'relay_domain_tokyo.txt', 'relay_domain_seoul.txt', 'relay_domain_singapore.txt', 'relay_domain_singapore-vps.txt', 'relay_domain_sydney.txt', 'relay_domain_france.txt', 'relay_domain_spain.txt']
-file_list.append(sys.argv[1])
+file_list = [sys.argv[1]]
+#file_list = ['relay_domain_brazil.txt', 'relay_domain_brazil-vps.txt', 'relay_domain_oregon.txt', 'relay_domain_ireland.txt', 'relay_domain_frankfurt.txt', 'relay_domain_tokyo.txt', 'relay_domain_seoul.txt', 'relay_domain_singapore.txt', 'relay_domain_singapore-vps.txt', 'relay_domain_sydney.txt', 'relay_domain_france.txt', 'relay_domain_spain.txt']
+#file_list.append(sys.argv[1])
 
 ips = []
 for file_name in file_list:

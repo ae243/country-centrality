@@ -1,0 +1,410 @@
+CC: US
+traceroute to 52.38.121.0 (52.38.121.0), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  4.652 ms  1.417 ms  1.665 ms
+ 2  core-87-router (192.168.9.18)  2.065 ms  2.422 ms  2.081 ms
+ 3  border-87-router (128.112.12.142)  1.813 ms  1.859 ms  1.805 ms
+ 4  local1.princeton.magpi.net (216.27.98.113)  52.350 ms  53.231 ms  50.934 ms
+ 5  216.27.100.18 (216.27.100.18)  14.256 ms  16.894 ms  9.311 ms
+ 6  et-9-0-0.115.rtr.chic.net.internet2.edu (198.71.45.56)  27.704 ms  51.120 ms  35.906 ms
+ 7  et-10-0-0.106.rtr.kans.net.internet2.edu (198.71.45.15)  70.659 ms  99.603 ms  105.181 ms
+ 8  et-4-0-0.110.rtr.salt.net.internet2.edu (198.71.45.19)  66.646 ms  62.597 ms  60.675 ms
+ 9  et-5-0-0.113.rtr.seat.net.internet2.edu (198.71.45.25)  74.914 ms  78.582 ms  87.485 ms
+10  64.57.30.45 (64.57.30.45)  80.926 ms
+    64.57.30.43 (64.57.30.43)  84.462 ms  75.513 ms
+11  * * *
+12  * * *
+13  205.251.232.94 (205.251.232.94)  96.386 ms * *
+14  205.251.232.153 (205.251.232.153)  94.870 ms
+    205.251.232.147 (205.251.232.147)  119.309 ms  114.987 ms
+15  54.239.48.181 (54.239.48.181)  89.460 ms  93.210 ms
+    54.239.48.183 (54.239.48.183)  86.474 ms
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+CC: IE
+traceroute to 52.50.88.230 (52.50.88.230), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  4.233 ms  1.452 ms  1.723 ms
+ 2  core-87-router (192.168.9.18)  2.033 ms  1.984 ms  2.031 ms
+ 3  border-87-router (128.112.12.142)  1.970 ms  1.863 ms  1.708 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  3.581 ms  3.955 ms  3.617 ms
+ 5  te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  4.004 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  3.739 ms
+    te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  3.583 ms
+ 6  be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  6.307 ms
+    be2333.ccr42.jfk02.atlas.cogentco.com (154.54.5.1)  6.493 ms  6.433 ms
+ 7  be2060.ccr21.jfk05.atlas.cogentco.com (154.54.31.10)  6.837 ms
+    be2061.ccr21.jfk05.atlas.cogentco.com (154.54.3.70)  7.196 ms
+    be2060.ccr21.jfk05.atlas.cogentco.com (154.54.31.10)  6.938 ms
+ 8  tinet.jfk05.atlas.cogentco.com (154.54.10.130)  6.582 ms  6.276 ms  6.368 ms
+ 9  et-2-3-0.lon10.ip4.gtt.net (89.149.187.190)  77.668 ms  77.781 ms  77.983 ms
+10  a100-gw.ip4.gtt.net (46.33.91.206)  75.336 ms  75.624 ms  76.983 ms
+11  * * *
+12  * * *
+13  * * *
+14  176.32.106.73 (176.32.106.73)  90.797 ms
+    176.32.106.47 (176.32.106.47)  92.169 ms
+    176.32.106.49 (176.32.106.49)  99.467 ms
+15  178.236.0.132 (178.236.0.132)  87.294 ms
+    178.236.0.136 (178.236.0.136)  87.007 ms  94.719 ms
+16  * * 178.236.0.89 (178.236.0.89)  91.304 ms
+17  * * 178.236.0.132 (178.236.0.132)  177.577 ms
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+CC: DE
+traceroute to 52.58.24.239 (52.58.24.239), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  4.283 ms  1.435 ms  5.883 ms
+ 2  core-87-router (192.168.9.18)  2.092 ms  1.885 ms  1.907 ms
+ 3  border-87-router (128.112.12.142)  1.786 ms  1.729 ms  2.446 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  7.332 ms  10.132 ms  7.621 ms
+ 5  te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  5.806 ms
+    te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  10.491 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  5.937 ms
+ 6  be2333.ccr42.jfk02.atlas.cogentco.com (154.54.5.1)  7.959 ms
+    be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  8.265 ms  8.948 ms
+ 7  be2325.ccr21.jfk04.atlas.cogentco.com (154.54.47.30)  10.059 ms
+    be2324.ccr21.jfk04.atlas.cogentco.com (154.54.47.18)  8.853 ms
+    be2325.ccr21.jfk04.atlas.cogentco.com (154.54.47.30)  12.652 ms
+ 8  telia.jfk04.atlas.cogentco.com (154.54.11.110)  11.688 ms  9.860 ms  12.446 ms
+ 9  nyk-bb1-link.telia.net (80.239.147.135)  39.692 ms
+    nyk-bb1-link.telia.net (80.91.247.18)  27.679 ms
+    nyk-bb1-link.telia.net (80.239.147.135)  8.462 ms
+10  ffm-bb1-link.telia.net (213.155.131.146)  102.606 ms  96.709 ms  97.430 ms
+11  ffm-b10-link.telia.net (62.115.137.223)  96.837 ms
+    hbg-bb1-link.telia.net (213.155.137.10)  93.460 ms
+    ffm-b10-link.telia.net (62.115.137.141)  96.911 ms
+12  a100row-ic-306996-ffm-b10.c.telia.net (62.115.46.130)  97.968 ms  111.201 ms
+    ffm-bb1-link.telia.net (62.115.134.66)  100.204 ms
+13  * * *
+14  * a100row-ic-306996-ffm-b10.c.telia.net (62.115.46.130)  103.476 ms *
+15  54.239.5.172 (54.239.5.172)  98.760 ms * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+CC: JP
+traceroute to 52.192.18.184 (52.192.18.184), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  1.749 ms  1.378 ms  1.414 ms
+ 2  core-87-router (192.168.9.18)  1.516 ms  2.025 ms  2.037 ms
+ 3  border-87-router (128.112.12.142)  2.025 ms  1.685 ms  3.169 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  6.582 ms  5.169 ms  22.007 ms
+ 5  te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  9.013 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  12.889 ms
+    te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  4.361 ms
+ 6  be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  8.467 ms
+    be2333.ccr42.jfk02.atlas.cogentco.com (154.54.5.1)  8.033 ms  10.893 ms
+ 7  be2056.ccr21.jfk10.atlas.cogentco.com (154.54.44.218)  9.195 ms
+    be2057.ccr21.jfk10.atlas.cogentco.com (154.54.80.178)  10.292 ms
+    be2056.ccr21.jfk10.atlas.cogentco.com (154.54.44.218)  9.033 ms
+ 8  ae-6.r08.nycmny01.us.bb.gin.ntt.net (154.54.12.146)  6.309 ms  7.400 ms  8.324 ms
+ 9  ae-3.r24.nycmny01.us.bb.gin.ntt.net (129.250.5.61)  7.431 ms  10.229 ms  10.010 ms
+10  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  83.198 ms  81.842 ms  79.127 ms
+11  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  91.499 ms  85.386 ms  91.502 ms
+12  ae-2.r20.osakjp02.jp.bb.gin.ntt.net (129.250.3.86)  193.983 ms  173.670 ms  205.085 ms
+13  ae-4.r23.osakjp02.jp.bb.gin.ntt.net (129.250.6.90)  205.907 ms  192.935 ms
+    ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  203.352 ms
+14  ae-1.r00.osakjp02.jp.bb.gin.ntt.net (129.250.2.253)  178.567 ms  192.435 ms  282.338 ms
+15  ae-0.amazon.osakjp02.jp.bb.gin.ntt.net (61.200.82.122)  307.047 ms  257.155 ms  206.719 ms
+16  54.239.52.142 (54.239.52.142)  256.921 ms  191.368 ms  218.266 ms
+17  54.239.53.16 (54.239.53.16)  213.845 ms
+    54.239.52.135 (54.239.52.135)  187.631 ms  222.285 ms
+18  52.95.30.39 (52.95.30.39)  284.075 ms
+    52.95.30.19 (52.95.30.19)  225.376 ms
+    52.95.30.33 (52.95.30.33)  209.158 ms
+19  52.95.30.128 (52.95.30.128)  202.256 ms
+    52.95.30.134 (52.95.30.134)  283.067 ms
+    27.0.0.155 (27.0.0.155)  204.984 ms
+20  27.0.0.155 (27.0.0.155)  302.521 ms  306.626 ms  307.175 ms
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+CC: KR
+traceroute to 52.79.125.220 (52.79.125.220), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  1.855 ms  1.443 ms  6.303 ms
+ 2  core-87-router (192.168.9.18)  2.228 ms  2.142 ms  2.133 ms
+ 3  border-87-router (128.112.12.142)  1.826 ms  2.517 ms  1.946 ms
+ 4  63-138-53-73.customer.static.ip.paetec.net (63.138.53.73)  4.959 ms  5.593 ms  6.040 ms
+ 5  tengig0-1-0-0.agr04.nycm02-ny.us.windstream.net (67.151.33.22)  10.316 ms  9.611 ms  9.511 ms
+ 6  ae2-0.cr02.nycm01-ny.us.windstream.net (63.138.198.162)  8.801 ms  7.069 ms  6.071 ms
+ 7  xe-0-9-0-28.r07.nycmny01.us.bb.gin.ntt.net (129.250.193.157)  6.867 ms  7.610 ms  7.401 ms
+ 8  ae-2.r24.nycmny01.us.bb.gin.ntt.net (129.250.3.180)  6.272 ms  6.529 ms  13.884 ms
+ 9  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  97.086 ms  101.704 ms  85.060 ms
+10  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  78.429 ms  85.047 ms  84.525 ms
+11  ae-2.r20.osakjp02.jp.bb.gin.ntt.net (129.250.3.86)  178.119 ms  290.225 ms  306.792 ms
+12  ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  236.542 ms
+    ae-4.r23.osakjp02.jp.bb.gin.ntt.net (129.250.6.90)  226.860 ms
+    ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  228.087 ms
+13  ae-1.r00.osakjp02.jp.bb.gin.ntt.net (129.250.2.253)  199.018 ms
+    ae-2.r00.osakjp02.jp.bb.gin.ntt.net (129.250.3.197)  234.321 ms  204.049 ms
+14  ae-0.amazon.osakjp02.jp.bb.gin.ntt.net (61.200.82.122)  286.998 ms  214.424 ms  218.362 ms
+15  27.0.0.250 (27.0.0.250)  213.314 ms
+    54.239.52.142 (54.239.52.142)  204.119 ms  214.319 ms
+16  54.239.52.149 (54.239.52.149)  624.774 ms
+    54.239.53.38 (54.239.53.38)  284.988 ms
+    54.239.52.149 (54.239.52.149)  205.450 ms
+17  * * *
+18  54.239.122.238 (54.239.122.238)  240.432 ms
+    54.239.123.90 (54.239.123.90)  290.080 ms
+    54.239.123.134 (54.239.123.134)  291.719 ms
+19  54.239.123.112 (54.239.123.112)  294.338 ms
+    54.239.122.231 (54.239.122.231)  292.473 ms
+    54.239.123.2 (54.239.123.2)  292.229 ms
+20  54.239.123.36 (54.239.123.36)  221.387 ms
+    54.239.123.61 (54.239.123.61)  263.090 ms
+    54.239.123.36 (54.239.123.36)  291.818 ms
+21  54.239.123.55 (54.239.123.55)  306.639 ms
+    54.239.123.121 (54.239.123.121)  214.946 ms
+    54.239.123.53 (54.239.123.53)  258.974 ms
+22  54.239.123.73 (54.239.123.73)  295.898 ms
+    54.239.123.31 (54.239.123.31)  198.713 ms
+    54.239.122.28 (54.239.122.28)  214.464 ms
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+CC: AWS-SG
+traceroute to 54.251.128.0 (54.251.128.0), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  2.823 ms  1.512 ms  1.548 ms
+ 2  core-87-router (192.168.9.18)  2.391 ms  2.310 ms  2.365 ms
+ 3  border-87-router (128.112.12.142)  1.902 ms  2.044 ms  1.739 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  6.890 ms  8.920 ms  11.231 ms
+ 5  te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  9.306 ms
+    te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  9.723 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  22.784 ms
+ 6  te0-8-0-2.ccr42.dca01.atlas.cogentco.com (154.54.42.101)  14.626 ms
+    te0-8-0-2.ccr41.dca01.atlas.cogentco.com (154.54.42.89)  10.950 ms  9.627 ms
+ 7  be2113.ccr42.atl01.atlas.cogentco.com (154.54.24.222)  20.355 ms
+    be2112.ccr41.atl01.atlas.cogentco.com (154.54.7.158)  20.446 ms  29.952 ms
+ 8  be2690.ccr22.iah01.atlas.cogentco.com (154.54.28.130)  45.903 ms
+    be2687.ccr21.iah01.atlas.cogentco.com (154.54.28.70)  38.910 ms
+    be2690.ccr22.iah01.atlas.cogentco.com (154.54.28.130)  40.483 ms
+ 9  be2927.ccr21.elp01.atlas.cogentco.com (154.54.29.222)  54.576 ms  51.483 ms
+    be2928.ccr21.elp01.atlas.cogentco.com (154.54.30.162)  51.569 ms
+10  be2929.ccr21.phx02.atlas.cogentco.com (154.54.42.65)  57.150 ms
+    be2930.ccr22.phx02.atlas.cogentco.com (154.54.42.77)  59.029 ms  57.399 ms
+11  be2931.ccr21.lax01.atlas.cogentco.com (154.54.44.86)  68.441 ms  69.809 ms
+    be2932.ccr22.lax01.atlas.cogentco.com (154.54.45.162)  69.094 ms
+12  be2180.ccr23.lax05.atlas.cogentco.com (154.54.41.58)  70.241 ms
+    be2179.ccr23.lax05.atlas.cogentco.com (154.54.41.82)  77.553 ms  70.218 ms
+13  * tata.lax05.atlas.cogentco.com (154.54.11.194)  72.727 ms  76.488 ms
+14  if-ae-6-20.tcore2.lvw-los-angeles.as6453.net (64.86.252.65)  284.902 ms  271.479 ms  305.816 ms
+15  if-ae-7-2.tcore2.svw-singapore.as6453.net (180.87.15.25)  308.361 ms  252.932 ms  323.034 ms
+16  180.87.15.206 (180.87.15.206)  250.356 ms  244.533 ms  330.337 ms
+17  203.83.223.58 (203.83.223.58)  308.609 ms  277.910 ms  308.795 ms
+18  * 203.83.223.74 (203.83.223.74)  323.566 ms
+    203.83.223.177 (203.83.223.177)  250.081 ms
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+CC: AU
+traceroute to 52.62.174.28 (52.62.174.28), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  1.741 ms  1.457 ms  1.443 ms
+ 2  core-87-router (192.168.9.18)  1.829 ms  2.014 ms  2.156 ms
+ 3  border-87-router (128.112.12.142)  2.115 ms  1.713 ms  1.773 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  5.734 ms  6.802 ms  8.073 ms
+ 5  te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  7.762 ms
+    te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  10.848 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  11.395 ms
+ 6  be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  12.754 ms  8.994 ms  10.019 ms
+ 7  be2061.ccr21.jfk05.atlas.cogentco.com (154.54.3.70)  9.659 ms  8.082 ms  10.991 ms
+ 8  tinet.jfk05.atlas.cogentco.com (154.54.10.130)  8.716 ms  8.161 ms  20.618 ms
+ 9  et-3-1-0.lax22.ip4.gtt.net (141.136.110.17)  73.208 ms  76.233 ms  73.913 ms
+10  a100-gw.ip4.gtt.net (173.205.58.58)  91.985 ms  78.111 ms  89.210 ms
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+CC: AWS-BR
+traceroute to 54.233.162.10 (54.233.162.10), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  4.268 ms  1.390 ms  2.129 ms
+ 2  core-87-router (192.168.9.18)  2.634 ms  2.100 ms  4.061 ms
+ 3  border-87-router (128.112.12.142)  2.549 ms  1.800 ms  8.202 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  9.208 ms  5.589 ms  5.208 ms
+ 5  te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  9.667 ms
+    te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  5.881 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  4.862 ms
+ 6  be2333.ccr42.jfk02.atlas.cogentco.com (154.54.5.1)  7.992 ms
+    be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  10.529 ms  12.814 ms
+ 7  be2061.ccr21.jfk05.atlas.cogentco.com (154.54.3.70)  12.739 ms
+    be2060.ccr21.jfk05.atlas.cogentco.com (154.54.31.10)  11.811 ms
+    be2061.ccr21.jfk05.atlas.cogentco.com (154.54.3.70)  10.314 ms
+ 8  telecomitalia.jfk05.atlas.coentco.com (154.54.11.142)  7.937 ms
+    telecomitalia.jfk05.atlas.cogentco.com (154.54.9.26)  16.381 ms
+    telecomitalia.jfk05.atlas.coentco.com (154.54.11.142)  9.048 ms
+ 9  ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  149.642 ms  142.285 ms
+    ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  151.670 ms
+10  ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  143.042 ms  143.043 ms
+    ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  145.075 ms
+11  amazon.sanpaolo8.spa.seabone.net (195.22.219.137)  168.996 ms  165.659 ms  169.278 ms
+12  177.72.240.141 (177.72.240.141)  172.299 ms  162.341 ms  165.190 ms
+13  177.72.240.253 (177.72.240.253)  173.142 ms  171.437 ms
+    177.72.240.153 (177.72.240.153)  170.147 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+CC: VPS-SG
+traceroute to 173.255.143.157 (173.255.143.157), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  4.322 ms  1.495 ms  1.453 ms
+ 2  core-87-router (192.168.9.18)  2.110 ms  2.432 ms  2.053 ms
+ 3  border-87-router (128.112.12.142)  1.992 ms  1.888 ms  1.930 ms
+ 4  63-138-53-73.customer.static.ip.paetec.net (63.138.53.73)  3.975 ms  4.763 ms  3.325 ms
+ 5  tengig0-1-0-0.agr04.nycm02-ny.us.windstream.net (67.151.33.22)  29.818 ms  27.483 ms  26.688 ms
+ 6  ae2-0.cr02.nycm01-ny.us.windstream.net (63.138.198.162)  7.692 ms  9.570 ms  6.149 ms
+ 7  et11-0-0-0.cr02.chcg01-il.us.windstream.net (40.129.37.21)  23.732 ms  27.151 ms  24.995 ms
+ 8  et5-0-0-0.cr01.chcg01-il.us.windstream.net (40.128.10.144)  24.621 ms  23.815 ms  25.055 ms
+ 9  te1-7.bbr01.eq01.chi01.networklayer.com (206.223.119.63)  28.202 ms  24.025 ms  25.141 ms
+10  ae7.bbr02.eq01.chi01.networklayer.com (173.192.18.171)  26.464 ms  24.642 ms  30.294 ms
+11  ae1.bbr02.wb01.sea02.networklayer.com (50.97.19.18)  92.194 ms  80.534 ms  78.942 ms
+12  ae7.bbr01.wb01.sea02.networklayer.com (173.192.18.186)  81.298 ms  82.353 ms  92.024 ms
+13  ae2.bbr02.eq01.tok01.networklayer.com (50.97.19.241)  160.964 ms  175.613 ms  162.279 ms
+14  ae7.bbr01.eq01.tok01.networklayer.com (50.97.18.162)  157.994 ms  159.110 ms  162.615 ms
+15  ae1.bbr01.eq01.sng02.networklayer.com (50.97.18.165)  347.791 ms  296.122 ms  308.793 ms
+16  ae5.dar02.sr03.sng01.networklayer.com (50.97.18.199)  307.085 ms  338.440 ms  307.174 ms
+17  * * po1.fcr01.sr03.sng01.networklayer.com (174.133.118.131)  234.242 ms
+18  173.255.143.157.static.westdc.net (173.255.143.157)  304.838 ms  361.255 ms  365.576 ms
+CC: VPS-BR
+traceroute to 187.45.186.48 (187.45.186.48), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  4.216 ms  1.488 ms  1.403 ms
+ 2  core-87-router (192.168.9.18)  2.038 ms  2.149 ms  2.124 ms
+ 3  border-87-router (128.112.12.142)  1.990 ms  2.095 ms  2.252 ms
+ 4  63-138-53-73.customer.static.ip.paetec.net (63.138.53.73)  9.576 ms  8.132 ms  7.654 ms
+ 5  tengig0-1-0-0.agr04.nycm02-ny.us.windstream.net (67.151.33.22)  13.559 ms  15.593 ms  11.615 ms
+ 6  ae2-0.cr02.nycm01-ny.us.windstream.net (63.138.198.162)  8.528 ms  13.124 ms  5.871 ms
+ 7  xe-0-9-0-28.r07.nycmny01.us.bb.gin.ntt.net (129.250.193.157)  11.770 ms  6.423 ms  12.219 ms
+ 8  ae-0.globalcrossing.nycmny01.us.bb.gin.ntt.net (129.250.8.78)  15.366 ms  10.106 ms  23.986 ms
+ 9  ae1-150g.ar4.gru1.gblx.net (67.16.148.10)  132.742 ms
+    ae0-150g.ar4.gru1.gblx.net (67.16.148.6)  146.478 ms  130.950 ms
+10  171.52.125.189.static.impsat.net.br (189.125.52.171)  136.895 ms  135.921 ms  140.862 ms
+11  * * *
+12  * * *
+13  67.171.126.177.static.sp2.alog.com.br (177.126.171.67)  134.086 ms  192.740 ms  132.897 ms
+14  187-45-186-48.static.dimenoc.com (187.45.186.48)  132.546 ms  132.288 ms  133.328 ms
+CC: FR
+traceroute to 176.67.172.4 (176.67.172.4), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  4.615 ms  1.454 ms  1.407 ms
+ 2  core-87-router (192.168.9.18)  2.066 ms  1.988 ms  1.923 ms
+ 3  border-87-router (128.112.12.142)  2.168 ms  2.195 ms  2.493 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  13.194 ms  10.018 ms  7.369 ms
+ 5  te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  9.753 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  7.477 ms
+    te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  12.204 ms
+ 6  be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  12.581 ms
+    be2333.ccr42.jfk02.atlas.cogentco.com (154.54.5.1)  11.206 ms  10.559 ms
+ 7  be2746.ccr41.par01.atlas.cogentco.com (154.54.29.118)  84.210 ms
+    be2747.ccr42.par01.atlas.cogentco.com (154.54.31.190)  86.087 ms
+    be2746.ccr41.par01.atlas.cogentco.com (154.54.29.118)  85.649 ms
+ 8  be2424.rcr21.par05.atlas.cogentco.com (130.117.2.238)  79.388 ms
+    be2425.rcr21.par05.atlas.cogentco.com (130.117.3.206)  87.751 ms
+    be2424.rcr21.par05.atlas.cogentco.com (130.117.2.238)  90.076 ms
+ 9  be2689.nr12.b022764-0.par05.atlas.cogentco.com (154.25.4.93)  84.140 ms  80.316 ms  85.851 ms
+10  149.6.166.146 (149.6.166.146)  90.816 ms  84.664 ms  98.688 ms
+11  176.67.172.4 (176.67.172.4)  92.676 ms  103.889 ms  141.405 ms
+CC: ES
+traceroute to 149.62.169.173 (149.62.169.173), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  2.117 ms  1.474 ms  1.050 ms
+ 2  core-87-router (192.168.9.18)  1.955 ms  1.783 ms  1.618 ms
+ 3  border-87-router (128.112.12.142)  1.852 ms  1.733 ms  1.725 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  10.362 ms  4.990 ms  7.828 ms
+ 5  te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  7.665 ms
+    te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  6.017 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  6.343 ms
+ 6  be2333.ccr42.jfk02.atlas.cogentco.com (154.54.5.1)  8.888 ms
+    be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  9.359 ms  8.740 ms
+ 7  be2747.ccr42.par01.atlas.cogentco.com (154.54.31.190)  80.283 ms
+    be2746.ccr41.par01.atlas.cogentco.com (154.54.29.118)  89.163 ms
+    be2747.ccr42.par01.atlas.cogentco.com (154.54.31.190)  78.851 ms
+ 8  be2423.ccr22.bio02.atlas.cogentco.com (130.117.50.78)  97.839 ms
+    be2475.ccr21.bio02.atlas.cogentco.com (130.117.48.181)  98.859 ms
+    be2423.ccr22.bio02.atlas.cogentco.com (130.117.50.78)  97.333 ms
+ 9  be2235.ccr21.mad05.atlas.cogentco.com (130.117.48.134)  100.501 ms  102.453 ms
+    be2293.ccr22.mad05.atlas.cogentco.com (130.117.50.26)  103.334 ms
+10  be2402.agr12.mad05.atlas.cogentco.com (130.117.0.66)  105.014 ms
+    be2404.agr12.mad05.atlas.cogentco.com (130.117.0.94)  106.670 ms
+    be2402.agr12.mad05.atlas.cogentco.com (130.117.0.66)  101.317 ms
+11  te0-0-2-2.nr12.b015535-1.mad05.atlas.cogentco.com (154.25.6.74)  106.607 ms  105.793 ms  108.178 ms
+12  149.6.39.10 (149.6.39.10)  105.599 ms  99.611 ms  99.460 ms
+13  ptr214144.vservers.es (91.142.214.144)  101.824 ms  101.961 ms  104.342 ms
+14  nsr.vservers.es (149.62.169.173)  96.748 ms  99.318 ms  100.804 ms

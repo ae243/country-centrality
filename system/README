@@ -1,0 +1,4 @@
+This folder contains all data and code for building a prototype of the country avoidance system
+
+tunnels.txt:
+    Contains information about different types of tunnels - used when deciding which type of tunnel would be best
