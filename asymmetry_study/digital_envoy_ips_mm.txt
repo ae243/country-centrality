@@ -1,0 +1,151 @@
+201.48.46.29,Brazil,None,None,-23.547700,-46.635800
+81.171.40.25,Netherlands,North Holland,Overveen,52.391700,4.613900
+201.48.44.17,Brazil,None,None,-23.547700,-46.635800
+213.33.128.1,Russia,Moscow,Moscow,55.752200,37.615600
+59.128.2.62,Japan,None,None,35.690000,139.690000
+216.66.87.185,United States,California,Fremont,37.515500,-121.896200
+201.48.45.225,Brazil,None,None,-23.547700,-46.635800
+201.48.46.237,Brazil,None,None,-23.547700,-46.635800
+41.164.40.233,South Africa,Eastern Cape,Port Elizabeth,-33.976600,25.632400
+129.250.2.224,United States,Colorado,Englewood,39.623700,-104.873800
+63.216.142.2,United States,Virginia,Herndon,38.984100,-77.382700
+201.48.45.1,Brazil,None,None,-23.547700,-46.635800
+195.2.24.241,None,None,None,47.000000,8.000000
+200.15.0.82 None None None None
+209.197.0.234,United States,Arizona,Phoenix,33.508300,-112.071700
+129.250.2.225,United States,Colorado,Englewood,39.623700,-104.873800
+200.160.127.142 None None None None
+213.221.4.65,Russia,None,None,55.750000,37.616600
+63.218.210.142,United States,Virginia,Herndon,38.984100,-77.382700
+80.231.159.86,None,None,None,47.000000,8.000000
+118.155.197.129,Japan,None,None,35.690000,139.690000
+217.196.40.73,Netherlands,None,None,52.366700,4.900000
+96.48.0.1,Canada,British Columbia,Port Coquitlam,49.274000,-122.764900
+72.52.92.222,United States,California,Fremont,37.515500,-121.896200
+80.231.159.93,None,None,None,47.000000,8.000000
+12.122.131.170,United States,None,None,38.000000,-97.000000
+12.122.131.93,United States,None,None,38.000000,-97.000000
+5.11.48.5,Germany,None,None,51.000000,9.000000
+213.33.196.253,Russia,Moscow,Moscow,55.752200,37.615600
+201.48.48.54,Brazil,None,None,-23.547700,-46.635800
+201.48.44.109,Brazil,None,None,-23.547700,-46.635800
+195.2.31.234,None,None,None,47.000000,8.000000
+200.16.70.209,Venezuela,Capital,Caracas,10.500000,-66.916700
+200.16.69.44,United States,Florida,Boca Raton,26.345300,-80.085500
+218.102.40.25,Hong Kong,None,Central District,22.283300,114.150000
+213.33.211.89,Russia,Moscow,Moscow,55.752200,37.615600
+186.237.192.110 None None None None
+201.48.44.30,Brazil,None,None,-23.547700,-46.635800
+172.18.1.167 None None None None
+172.18.1.166 None None None None
+129.250.5.61,United States,Colorado,Englewood,39.623700,-104.873800
+59.128.2.209,Japan,None,None,35.690000,139.690000
+124.211.10.49,Japan,None,None,35.690000,139.690000
+64.59.147.173,Canada,None,None,43.642500,-79.387200
+80.231.139.42,None,None,None,47.000000,8.000000
+195.22.211.109,Italy,None,None,42.833300,12.833300
+201.48.44.110,Brazil,None,None,-23.547700,-46.635800
+67.16.176.249,United States,None,None,38.000000,-97.000000
+129.250.9.34,United States,Colorado,Englewood,39.623700,-104.873800
+185.13.208.194,Germany,None,None,51.000000,9.000000
+201.48.44.26,Brazil,None,None,-23.547700,-46.635800
+12.122.28.106,United States,None,None,38.000000,-97.000000
+195.219.83.186,None,None,None,47.000000,8.000000
+41.164.112.3,South Africa,None,None,-29.000000,24.000000
+208.51.134.118,United States,None,None,38.000000,-97.000000
+41.206.165.25,South Africa,None,None,-29.000000,24.000000
+10.41.16.3 None None None None
+112.119.17.254,Hong Kong,None,Central District,22.283300,114.150000
+41.206.164.54,South Africa,None,None,-29.000000,24.000000
+201.48.45.210,Brazil,None,None,-23.547700,-46.635800
+79.104.235.66,Russia,None,None,55.750000,37.616600
+72.52.92.166,United States,California,Fremont,37.515500,-121.896200
+103.254.147.137,Japan,Tokyo,Tokyo,35.685000,139.751400
+201.48.46.161,Brazil,None,None,-23.547700,-46.635800
+80.231.158.42,None,None,None,47.000000,8.000000
+63.216.156.214,United States,Virginia,Herndon,38.984100,-77.382700
+129.250.8.130,United States,Colorado,Englewood,39.623700,-104.873800
+201.48.44.125,Brazil,None,None,-23.547700,-46.635800
+12.0.1.204,United States,None,None,38.000000,-97.000000
+202.6.244.13,Japan,Tokyo,Tokyo,35.685000,139.751400
+67.16.148.6,United States,None,None,38.000000,-97.000000
+202.6.244.14,Japan,Tokyo,Tokyo,35.685000,139.751400
+203.181.100.18,Japan,None,None,35.690000,139.690000
+109.75.179.241,Germany,None,None,51.000000,9.000000
+129.250.5.82,United States,Colorado,Englewood,39.623700,-104.873800
+118.155.197.178,Japan,None,None,35.690000,139.690000
+66.163.77.49,Canada,None,None,43.642500,-79.387200
+192.205.36.157,United States,None,None,38.000000,-97.000000
+201.48.46.173,Brazil,None,None,-23.547700,-46.635800
+201.48.44.130,Brazil,None,None,-23.547700,-46.635800
+184.105.223.165,United States,California,Fremont,37.515500,-121.896200
+206.126.236.205,United States,California,Redwood City,37.533100,-122.247100
+129.250.2.226,United States,Colorado,Englewood,39.623700,-104.873800
+80.231.130.130,None,None,None,47.000000,8.000000
+189.112.252.254 None None None None
+129.250.2.223,United States,Colorado,Englewood,39.623700,-104.873800
+129.250.2.185,United States,Colorado,Englewood,39.623700,-104.873800
+10.193.231.213 None None None None
+129.250.2.181,United States,Colorado,Englewood,39.623700,-104.873800
+66.163.72.69,Canada,None,None,43.642500,-79.387200
+128.241.2.153,United States,Colorado,Englewood,39.623700,-104.873800
+12.122.156.229,United States,None,None,38.000000,-97.000000
+200.15.0.81 None None None None
+200.225.199.73,Brazil,None,None,-23.547700,-46.635800
+64.208.27.113,United States,None,None,38.000000,-97.000000
+64.208.27.114,United States,None,None,38.000000,-97.000000
+201.48.48.90,Brazil,None,None,-23.547700,-46.635800
+207.138.122.74,United States,None,None,38.000000,-97.000000
+172.30.200.1 None None None None
+166.63.204.229,United States,None,None,38.000000,-97.000000
+207.138.122.73,United States,None,None,38.000000,-97.000000
+129.250.2.111,United States,Colorado,Englewood,39.623700,-104.873800
+10.53.252.13 None None None None
+129.250.6.109,United States,Colorado,Englewood,39.623700,-104.873800
+66.163.77.50,Canada,None,None,43.642500,-79.387200
+209.197.10.7,United States,Arizona,Phoenix,33.508300,-112.071700
+80.231.158.6,None,None,None,47.000000,8.000000
+10.27.124.126 None None None None
+201.48.44.226,Brazil,None,None,-23.547700,-46.635800
+80.231.158.5,None,None,None,47.000000,8.000000
+80.231.139.1,None,None,None,47.000000,8.000000
+218.102.40.54,Hong Kong,None,Central District,22.283300,114.150000
+80.231.158.30,None,None,None,47.000000,8.000000
+207.138.112.241,United States,None,None,38.000000,-97.000000
+129.250.6.145,United States,Colorado,Englewood,39.623700,-104.873800
+69.16.190.208,United States,Arizona,Phoenix,33.508300,-112.071700
+209.197.0.49,United States,Arizona,Phoenix,33.508300,-112.071700
+10.53.252.22 None None None None
+185.13.208.1,Germany,None,None,51.000000,9.000000
+200.16.69.2,United States,Florida,Boca Raton,26.345300,-80.085500
+129.250.5.24,United States,Colorado,Englewood,39.623700,-104.873800
+66.163.78.1,Canada,None,None,43.642500,-79.387200
+66.163.78.2,Canada,None,None,43.642500,-79.387200
+12.122.117.122,United States,None,None,38.000000,-97.000000
+67.17.111.66,United States,None,None,38.000000,-97.000000
+63.218.254.69,United States,Virginia,Herndon,38.984100,-77.382700
+89.185.136.253,Ireland,None,None,53.347800,-6.259700
+66.163.72.70,Canada,None,None,43.642500,-79.387200
+201.48.46.34,Brazil,None,None,-23.547700,-46.635800
+4.68.63.242,United States,None,None,38.000000,-97.000000
+106.185.20.134,Japan,None,None,35.690000,139.690000
+129.250.5.144,United States,Colorado,Englewood,39.623700,-104.873800
+129.250.5.145,United States,Colorado,Englewood,39.623700,-104.873800
+103.254.144.249,Japan,Tokyo,Tokyo,35.685000,139.751400
+192.168.1.1 None None None None
+41.164.0.1,South Africa,None,None,-29.000000,24.000000
+129.250.7.68,United States,Colorado,Englewood,39.623700,-104.873800
+129.250.2.18,United States,Colorado,Englewood,39.623700,-104.873800
+203.181.100.125,Japan,None,None,35.690000,139.690000
+67.16.132.214,United States,None,None,38.000000,-97.000000
+201.48.44.162,Brazil,None,None,-23.547700,-46.635800
+41.206.164.253,South Africa,None,None,-29.000000,24.000000
+206.126.236.20,United States,California,Redwood City,37.533100,-122.247100
+129.250.9.205,United States,Colorado,Englewood,39.623700,-104.873800
+129.250.2.176,United States,Colorado,Englewood,39.623700,-104.873800
+63.218.204.150,United States,Virginia,Herndon,38.984100,-77.382700
+129.250.3.180,United States,Colorado,Englewood,39.623700,-104.873800
+212.162.24.13,United Kingdom,None,None,51.500000,-0.130000
+201.48.46.46,Brazil,None,None,-23.547700,-46.635800
+10.0.42.1 None None None None
+89.185.139.148,Ireland,None,None,53.347800,-6.259700

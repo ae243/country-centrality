@@ -1,0 +1,49 @@
+Japan United States 59.128.2.62
+United States Hong Kong 63.216.142.2
+None United States 195.2.24.241
+None Brazil 200.15.0.82
+United States Brazil 129.250.2.225
+None Brazil 200.160.127.142
+United States Hong Kong 63.218.210.142
+United States Hong Kong 63.218.254.69
+None Portugal 80.231.159.93
+None Germany 195.2.31.234
+None Brazil 186.237.192.110
+United States Germany 129.250.5.61
+None Portugal 80.231.159.86
+None United Kingdom 80.231.139.42
+Italy Germany 195.22.211.109
+United States Mexico 67.16.176.249
+None United Kingdom 195.219.83.186
+United States Brazil 208.51.134.118
+South Africa Portugal 41.206.164.54
+None Portugal 80.231.158.42
+United States Hong Kong 63.216.156.214
+United States Taiwan 129.250.8.130
+United States Brazil 67.16.148.6
+United States Hong Kong 129.250.5.82
+United States Brazil 206.126.236.205
+United States Brazil 129.250.2.226
+None United Kingdom 80.231.130.130
+None Brazil 189.112.252.254
+United States Japan 129.250.2.223
+None Portugal 80.231.158.30
+None Brazil 200.15.0.81
+United States Brazil 64.208.27.113
+United States Brazil 64.208.27.114
+United States Brazil 207.138.122.74
+United States Germany 166.63.204.229
+United States Brazil 207.138.122.73
+None Portugal 80.231.158.6
+None Portugal 80.231.158.5
+United States Brazil 207.138.112.241
+United States Japan 129.250.6.145
+United States United Kingdom 129.250.5.24
+Ireland United Kingdom 89.185.136.253
+United States Germany 4.68.63.242
+None United Kingdom 80.231.139.1
+Japan United States 59.128.2.209
+South Africa Portugal 41.206.164.253
+Ireland United Kingdom 89.185.139.148
+United States Hong Kong 63.218.204.150
+United Kingdom Germany 212.162.24.13

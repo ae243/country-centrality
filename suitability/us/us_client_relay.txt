@@ -206,7 +206,7 @@ traceroute to 52.79.125.220 (52.79.125.220), 64 hops max, 52 byte packets
 28  * * *
 29  * * *
 30  * * *
-CC: AWS-SG
+CC: SG-AWS
 traceroute to 54.251.128.0 (54.251.128.0), 64 hops max, 52 byte packets
  1  a10-nat-a (10.8.0.2)  2.823 ms  1.512 ms  1.548 ms
  2  core-87-router (192.168.9.18)  2.391 ms  2.310 ms  2.365 ms
@@ -283,7 +283,7 @@ traceroute to 52.62.174.28 (52.62.174.28), 64 hops max, 52 byte packets
 28  * * *
 29  * * *
 30  * * *
-CC: AWS-BR
+CC: BR-AWS
 traceroute to 54.233.162.10 (54.233.162.10), 64 hops max, 52 byte packets
  1  a10-nat-a (10.8.0.2)  4.268 ms  1.390 ms  2.129 ms
  2  core-87-router (192.168.9.18)  2.634 ms  2.100 ms  4.061 ms
@@ -325,7 +325,7 @@ traceroute to 54.233.162.10 (54.233.162.10), 64 hops max, 52 byte packets
 28  * * *
 29  * * *
 30  * * *
-CC: VPS-SG
+CC: SG-VPS
 traceroute to 173.255.143.157 (173.255.143.157), 64 hops max, 52 byte packets
  1  a10-nat-a (10.8.0.2)  4.322 ms  1.495 ms  1.453 ms
  2  core-87-router (192.168.9.18)  2.110 ms  2.432 ms  2.053 ms
@@ -345,7 +345,7 @@ traceroute to 173.255.143.157 (173.255.143.157), 64 hops max, 52 byte packets
 16  ae5.dar02.sr03.sng01.networklayer.com (50.97.18.199)  307.085 ms  338.440 ms  307.174 ms
 17  * * po1.fcr01.sr03.sng01.networklayer.com (174.133.118.131)  234.242 ms
 18  173.255.143.157.static.westdc.net (173.255.143.157)  304.838 ms  361.255 ms  365.576 ms
-CC: VPS-BR
+CC: BR-VPS
 traceroute to 187.45.186.48 (187.45.186.48), 64 hops max, 52 byte packets
  1  a10-nat-a (10.8.0.2)  4.216 ms  1.488 ms  1.403 ms
  2  core-87-router (192.168.9.18)  2.038 ms  2.149 ms  2.124 ms

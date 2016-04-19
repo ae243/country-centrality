@@ -1,0 +1,29 @@
+15958
+FR
+Hosted: 21
+NL
+Hosted: 364
+IE
+Hosted: 19
+CA
+Hosted: 0
+DE
+Hosted: 20
+JP
+Hosted: 1
+None
+Hosted: 54
+US
+Hosted: 15461
+IT
+Hosted: 0
+HK
+Hosted: 0
+GB
+Hosted: 18
+IN
+Hosted: 0
+SG
+Hosted: 0
+SE
+Hosted: 0
