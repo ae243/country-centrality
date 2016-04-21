@@ -1,10 +1,10 @@
-\section{Measuring Possible Surveillance Opportunities}
+\section{Nation-State Routing: State of the Art -- \annie{this section needs a better name to describe the initial measurements we did from probes to the Top 100 domains}}
 \label{measure}
 \annie{edit this section to be about Country X instead of Brazil}
 
 As Internet traffic crosses international borders, it becomes subject to the wiretapping policies of the national jurisdiction in which it is transitting.  Some countries, such as the United States, are well known for wiretapping policies.  We take Brazil as a case study in measuring where Brazilian Internet users' traffic is going and how often; this shows how much possible surveillance could currently be conducted on Brazilians' traffic.  The methods we use are general and can be applied to other countries of interest.
 
-\subsection{Procedure}
+\subsection{Measurement Pipeline}
 Our methods for measuring where traffic paths go use the data-plane; we analyze the reported hops of traceroute measurements to find which countries are on the path from a Brazilian client to a popular domain.  For this study, we used RIPE Atlas probes in Brazil, specifically the set of probes that had unique ASes in the country (22 probes).  The destinations for traceroutes are the Brazilian Alexa Top 100 domains, as well as the third party domains within the response bodies of the 100 domains.  There are three main steps to our measurement procedure: traceroute generation and collection, transformation of traceroutes to country-level paths, and path analysis.
 
 {\bf Step 1.} The first step is to curl each of the Brazilian Alexa Top 100 domains, and extract the third party domains from the response body.  These third party domains will each be fetched by the client when the original webpage is rendered in the browser.  Next, the 22 RIPE Atlas probes in Brazil will locally resolve each domain (and third party domain) by running a DNS measurement.  The local resolution is representative of a DNS response that an Internet user in Brazil would receive.  Once the DNS responses are received for all DNS measurements, the IP addresses are consolidated into a list of /24 subnets that cover the set of IP addresses; this is done because all IP addresses in a /24 network should geolocate to the same country.  The last part of this step is running traceroutes from the 22 RIPE Atlas probes to a single IP address in each of the /24 subnets calculated from the DNS responses.  The measurements were run using paris traceroute and each (probe, destination IP) pair was used twice: once using ICMP traceroute and once using TCP traceroute.  
@@ -55,4 +55,7 @@ These results show that there are numerous opportunities for foreign countries t
 
 \subsubsection{Kenya}
 \annie{add Kenya results here}
+
+\subsection{Caveats}
+\annie{Discuss geolocation and ipv4 as caveats - maybe this isn't the right place?}
 

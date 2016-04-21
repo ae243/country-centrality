@@ -1,4 +1,4 @@
-TARGET=sig-alternate-sample
+TARGET=paper
 all: pdf
 
 pdf:

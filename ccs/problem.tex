@@ -13,10 +13,16 @@ Determining where a client's Internet traffic flows is complicated by the comple
 \end{figure}
 
 \begin{thm}
-Measure how much Internet traffic traverses countries that are known for surveillance, and quantify how much possible surveillance can be conducted.  Use Brazil as a case study by measuring the country-level routing paths for clients in Brazil to the Brazilian Alexa Top 100 domains (and the subsequent domain requests); collect data on how much traffic is solely transmitted by countries that conduct surveillance and how much traffic has a destination in one of these countries.
+Measure how much Internet traffic traverses countries that are known for surveillance, and quantify how much possible surveillance can be conducted.  Measuring the country-level routing paths from clients to the Alexa Top 100 domains (and the subsequent domain requests); collect data on how much traffic is solely transmitted by countries that conduct surveillance and how much traffic has a destination in one of these countries.
 \end{thm}
 
-There are naive ways for clients to force their traffic to avoid potential surveillance.  One way is using EDNS (Extension mechanisms for DNS); a client could spoof his own client subnet in the DNS request, such that it appears as if the client is located in a geographically different location.  This different location could potentially be closer to a georeplicated server in a foreign country, and thus the path from the server to the client has a greater likelihood of avoiding certain countries.  The same method could be used with open resolvers in geographically different locations.  Figure~\ref{fig:resolvers} shows a scenario where this method would help clients avoid a country.  Unfortunately, this approach is unsuccessful if the service uses anycast IP addresses; this technique has increased in the past few years~\cite{cicalese2015characterizing}.  IP anycast is the case where a set of servers share the same standard unicast IP address, despite being in geographically diverse locations.  Even though the DNS lookup is in a different location than the client, the client will still be accessing data from the server that is closest, which provides the possibility of unwanted countries on the path between the server and the client.  
+There are naive ways for clients to force their traffic to avoid potential surveillance.  One way is using EDNS (Extension mechanisms for DNS); a client could spoof his own client subnet in the DNS request, such that it appears as if the client is located in a geographically different location.  This different location could potentially be closer to a georeplicated server in a foreign country, and thus the path from the server to the client has a greater likelihood of avoiding certain countries.  The same method could be used with open resolvers in geographically different locations.  Figure~\ref{fig:resolvers} shows a scenario where this method would help clients avoid a country.  
+
+\begin{thm}
+Measure and quantify to what extent a country is avoidable to a client in a different country by spoofing the client subnet field in EDNS requests.
+\end{thm}
+
+Unfortunately, this approach is unsuccessful if the service uses anycast IP addresses; this technique has increased in the past few years~\cite{cicalese2015characterizing}.  IP anycast is the case where a set of servers share the same standard unicast IP address, despite being in geographically diverse locations.  Even though the DNS lookup is in a different location than the client, the client will still be accessing data from the server that is closest, which provides the possibility of unwanted countries on the path between the server and the client.  
 
 \begin{figure*}
 \centering
@@ -37,9 +43,9 @@ There are naive ways for clients to force their traffic to avoid potential surve
 \end{figure*}
 
 \begin{thm}
-Design and implement a system that allows clients to avoid countries known for surveillance.  The system should be resistant to the use of IP anycast, and should take into account the subsequent requests made when fetching a webpage.
+Measure and quantify to what extent a country is avoidable to a client in a different country by using geographically diverse relays (an overlay network).
 \end{thm}
 
 \begin{thm}
-Evaluate the country avoidance system for how well it can avoid any given country for any given (client, server) pair.  Quantify how much surveillance protection this system provides as compared to clients not using the system.
+Measure and quantify how much local traffic can be kept local (and not cross international borders) by using geographically diverse relays (an overlay network).
 \end{thm}
