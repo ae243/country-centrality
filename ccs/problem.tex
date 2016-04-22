@@ -24,23 +24,23 @@ Measure and quantify to what extent a country is avoidable to a client in a diff
 
 Unfortunately, this approach is unsuccessful if the service uses anycast IP addresses; this technique has increased in the past few years~\cite{cicalese2015characterizing}.  IP anycast is the case where a set of servers share the same standard unicast IP address, despite being in geographically diverse locations.  Even though the DNS lookup is in a different location than the client, the client will still be accessing data from the server that is closest, which provides the possibility of unwanted countries on the path between the server and the client.  
 
-\begin{figure*}
-\centering
-\begin{subfigure}[t]{.5\textwidth}
-  \centering
-  \includegraphics[width=.4\linewidth]{no_open_resolver}
-  \caption{A possible path when a client uses a local resolver.}
-  \label{fig:local_resolver}
-\end{subfigure}%
-\begin{subfigure}[t]{.5\textwidth}
-  \centering
-  \includegraphics[width=.7\linewidth]{open_resolver}
-  \caption{A possible path when a client uses an open resolver in a geographically different location.}
-  \label{fig:open_resolver}
-\end{subfigure}%
-\caption{Different paths are shown when a client uses a local resolver (Figure~\ref{fig:local_resolver}) vs. a geographically distant open resolver (Figure~\ref{fig:open_resolver}.)}
-\label{fig:resolvers}
-\end{figure*}
+%\begin{figure*}
+%\centering
+%\begin{subfigure}[t]{.5\textwidth}
+%  \centering
+%  \includegraphics[width=.4\linewidth]{no_open_resolver}
+%  \caption{A possible path when a client uses a local resolver.}
+%  \label{fig:local_resolver}
+%\end{subfigure}%
+%\begin{subfigure}[t]{.5\textwidth}
+%  \centering
+%  \includegraphics[width=.7\linewidth]{open_resolver}
+%  \caption{A possible path when a client uses an open resolver in a geographically different location.}
+%  \label{fig:open_resolver}
+%\end{subfigure}%
+%\caption{Different paths are shown when a client uses a local resolver (Figure~\ref{fig:local_resolver}) vs. a geographically distant open resolver (Figure~\ref{fig:open_resolver}.)}
+%\label{fig:resolvers}
+%\end{figure*}
 
 \begin{thm}
 Measure and quantify to what extent a country is avoidable to a client in a different country by using geographically diverse relays (an overlay network).

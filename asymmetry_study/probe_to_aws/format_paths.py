@@ -39,14 +39,16 @@ for file_name in file_map:
     f.close()
 
 f = open(sys.argv[1], 'r')
-current_trace = []
+current_trace = ''
 current_from = ''
 current_to = ''
 for line in f:
-    if line.split(":")[0] == '1':
+    if line.split(":")[0] == 'from':
         f_res.write(current_from + "|" + current_to + current_trace + "\n")
         current_trace = ''
-        current_to = ''
+        current_from = line.split(" ")[1].strip()
+    elif line.split(":")[0] == 'to':
+        current_to = line.split(" ")[1].strip()
     else:
         ip_addr = line.split(" ")[1].strip()
         current_trace += '|' + ip_map[ip_addr]

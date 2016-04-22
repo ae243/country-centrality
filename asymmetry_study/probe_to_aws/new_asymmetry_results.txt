@@ -1,0 +1,4 @@
+Exact country path comparison success: 3
+Same country set comparison success: 151
+Reverse set is a subset of the forward set success: 275
+Number of path pairs: 504
