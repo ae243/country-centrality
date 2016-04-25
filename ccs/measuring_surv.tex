@@ -17,12 +17,12 @@ Our methods for measuring where traffic paths go use the data-plane; we analyze 
 \subsubsection{Brazil}
 Here we discuss our findings on which countries transit Brazilian web traffic, which countries host popular content for Brazilians, and to which countries Brazilian traffic trombones.  
 
-%\begin{figure*}
-%\centering
-%\includegraphics[width=.8\textwidth]{transit_graph_no_zero}
-%\caption{The number of paths that solely transit a country (do not end in the country).}
-%\label{fig:transit}
-%\end{figure*}
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{br_transit_bar}
+\caption{The number of paths that Brazilian traffic transits.}
+\label{fig:transit}
+\end{figure}
 
 Figure \ref{fig:transit} shows the number of paths that transit different countries.  Note that these numbers are calculated for when the country is \textit{only} on the path and \textit{not the destination country}.  We can see that Brazil is most commonly on the path, which is expected because all paths originate from Brazil.  A few countries see a significant amount of traffic; Spain transits 17.6\% of the paths, Italy transits 8.4\% of the paths, and the United States transits 7.3\% of the paths.  Any country that is on the path has the ability to conduct surveillance on Brazilian traffic.  
 
@@ -30,34 +30,122 @@ More revealing than the transit-only countries, the paths that end in countries 
 
 Tromboning paths show that local traffic isn't staying local; ideally, if a path starts and ends in the same country, then it shouldn't cross international borders.  We found that tromboning occurs for Brazilian traffic to 9 different countries.  These results can be seen in Figure \ref{fig:trombone}.  While we measured 4.2\% of all paths trombone, 81\% of all tromboning paths go through the United States.  For 4.2\% of the traffic, foreign countries can conduct surveillance because the traffic is not staying local (but should be). 
 
-%\begin{figure*}[t!]
-%\centering
-%\includegraphics[width=.8\textwidth]{host_graph_no_zero}
-%\caption{The number of paths that end in a country.}
-%\label{fig:host}
-%\end{figure*} 
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.5\textwidth]{brazil_host}
+\caption{The number of paths that end in a country.}
+\label{fig:host}
+\end{figure} 
 
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{trombone_graph}
-%\caption{The number of paths that start and end in Brazil, but pass through another country.}
-%\label{fig:trombone}
-%\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{br_trombone}
+\caption{The number of paths that start and end in Brazil, but pass through another country.}
+\label{fig:trombone}
+\end{figure}
 
 These results show that there are numerous opportunities for foreign countries to conduct surveillance on Brazilian citizens because of interdomain routing. 
 
 \subsubsection{Netherlands}
 \annie{add Netherlands results here}
 
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{nl_transit_nl}
+\caption{The number of paths that Netherlands traffic transits.}
+\label{fig:transit}
+\end{figure}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.5\textwidth]{netherlands_host}
+\caption{The number of paths that end in a country.}
+\label{fig:host}
+\end{figure} 
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{nl_trombone}
+\caption{The number of paths that start and end in Netherlands, but pass through another country.}
+\label{fig:trombone}
+\end{figure}
+
 \subsubsection{India}
 \annie{add India results here}
 
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{in_transit_bar}
+\caption{The number of paths that Indian traffic transits.}
+\label{fig:transit}
+\end{figure}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.5\textwidth]{india_host}
+\caption{The number of paths that end in a country.}
+\label{fig:host}
+\end{figure} 
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{in_trombone}
+\caption{The number of paths that start and end in India, but pass through another country.}
+\label{fig:trombone}
+\end{figure}
+
 \subsubsection{Kenya}
 \annie{add Kenya results here}
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{ke_tranit_bar}
+\caption{The number of paths that Kenyan traffic transits.}
+\label{fig:transit}
+\end{figure}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.5\textwidth]{kenya_host}
+\caption{The number of paths that end in a country.}
+\label{fig:host}
+\end{figure} 
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{ke_trombone}
+\caption{The number of paths that start and end in Kenya, but pass through another country.}
+\label{fig:trombone}
+\end{figure}
+
+\subsubsection{United States}
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{us_transit_bar}
+\caption{The number of paths that United States traffic transits.}
+\label{fig:transit}
+\end{figure}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.5\textwidth]{us_host}
+\caption{The number of paths that end in a country.}
+\label{fig:host}
+\end{figure} 
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{us_trombone}
+\caption{The number of paths that start and end in United States, but pass through another country.}
+\label{fig:trombone}
+\end{figure}
 
 \subsection{Caveats}
 
 \subsubsection{Geolocation Accuracy}
 
 \subsubsection{IPv4}
+
+\subsubsection{Path Asymmetry}
 
