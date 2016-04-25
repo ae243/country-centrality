@@ -1,1 +1,0 @@
-00 14-16 * * * python /home/annie/measurement_tool/run_measurement.py >> /home/annie/measurement_tool/cron_log.txt
