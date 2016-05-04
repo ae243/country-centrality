@@ -1,0 +1,493 @@
+4.69.149.16,United States,None,None,38.000000,-97.000000
+104.44.4.112,United States,Washington,Redmond,47.680100,-122.120600
+141.0.171.250,Netherlands,None,None,52.366700,4.900000
+69.16.175.42,United States,Arizona,Phoenix,33.508300,-112.071700
+204.15.21.85,United States,California,Palo Alto,37.376200,-122.182600
+93.184.216.163,United States,None,None,38.000000,-97.000000
+4.69.149.18,United States,None,None,38.000000,-97.000000
+23.203.49.191,United States,Massachusetts,Cambridge,42.362600,-71.084300
+23.203.17.223,United States,Massachusetts,Cambridge,42.362600,-71.084300
+66.216.1.246,United States,Florida,Boca Raton,26.381800,-80.104600
+54.239.111.5,United States,Virginia,Ashburn,39.033500,-77.483800
+104.44.81.55,United States,Washington,Redmond,47.680100,-122.120600
+104.44.81.57,United States,Washington,Redmond,47.680100,-122.120600
+129.250.3.85,United States,Colorado,Englewood,39.623700,-104.873800
+199.16.156.75,United States,California,San Francisco,37.769700,-122.393300
+209.200.144.197,United States,Massachusetts,Cambridge,42.362600,-71.084300
+216.182.225.77,United States,Virginia,Ashburn,39.033500,-77.483800
+65.124.168.150,United States,New York,New York,40.780500,-73.951200
+129.250.193.157,United States,Colorado,Englewood,39.623700,-104.873800
+23.74.8.80,United States,Massachusetts,Cambridge,42.362600,-71.084300
+54.239.108.91,United States,Virginia,Ashburn,39.033500,-77.483800
+62.115.40.254,None,None,None,47.000000,8.000000
+62.115.40.250,None,None,None,47.000000,8.000000
+104.88.3.138,United States,Massachusetts,Cambridge,42.362600,-71.084300
+54.239.111.9,United States,Virginia,Ashburn,39.033500,-77.483800
+23.202.238.129,United States,Massachusetts,Cambridge,42.362600,-71.084300
+64.57.30.41,United States,Michigan,Ann Arbor,42.273400,-83.713300
+46.33.91.206,France,None,None,48.860000,2.350000
+23.203.20.64,United States,Massachusetts,Cambridge,42.362600,-71.084300
+216.182.224.53,United States,Virginia,Ashburn,39.033500,-77.483800
+176.32.106.75,Ireland,Dublin City,Dublin,53.333100,-6.248900
+74.125.37.222,United States,California,Mountain View,37.419200,-122.057400
+104.88.73.198,United States,Massachusetts,Cambridge,42.362600,-71.084300
+173.194.206.191,United States,California,Mountain View,37.419200,-122.057400
+54.239.108.127,United States,Virginia,Ashburn,39.033500,-77.483800
+104.88.66.203,United States,Massachusetts,Cambridge,42.362600,-71.084300
+12.91.103.14,United States,North Carolina,Wilmington,34.220500,-77.870200
+209.197.31.210,United States,Arizona,Phoenix,33.508300,-112.071700
+104.88.2.10,United States,Massachusetts,Cambridge,42.362600,-71.084300
+4.69.138.196,United States,None,None,38.000000,-97.000000
+4.69.138.195,United States,None,None,38.000000,-97.000000
+204.148.79.53,United States,Virginia,Ashburn,39.033500,-77.483800
+89.149.185.194,France,None,None,48.860000,2.350000
+154.54.28.70,United States,None,None,38.000000,-97.000000
+207.223.0.12,United States,Pennsylvania,Philadelphia,39.953000,-75.175600
+104.44.4.53,United States,Washington,Redmond,47.680100,-122.120600
+12.122.105.30,United States,None,None,38.000000,-97.000000
+72.52.25.10,United States,Massachusetts,Cambridge,42.362600,-71.084300
+72.52.25.14,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.88.60.208,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.44.4.58,United States,Washington,Redmond,47.680100,-122.120600
+38.122.110.202,United States,New York,Brooklyn,40.702100,-73.942300
+213.155.130.59,None,None,None,47.000000,8.000000
+154.54.47.18,United States,None,None,38.000000,-97.000000
+143.215.194.106,United States,Georgia,Atlanta,33.776300,-84.398000
+205.251.245.224,United States,Virginia,Ashburn,39.033500,-77.483800
+38.104.72.70,United States,New York,New York,40.769400,-73.960900
+12.122.251.250,United States,None,None,38.000000,-97.000000
+64.125.30.250,United States,None,None,38.000000,-97.000000
+80.91.245.81,None,None,None,47.000000,8.000000
+80.91.245.83,None,None,None,47.000000,8.000000
+12.122.135.102,United States,None,None,38.000000,-97.000000
+23.203.32.158,United States,Massachusetts,Cambridge,42.362600,-71.084300
+13.108.1.22,United States,California,San Francisco,37.789800,-122.394200
+23.203.34.30,United States,Massachusetts,Cambridge,42.362600,-71.084300
+38.104.94.154,United States,Florida,Miami,25.774300,-80.193700
+172.217.1.65,United States,California,Mountain View,37.419200,-122.057400
+62.115.112.252,None,None,None,47.000000,8.000000
+154.54.7.158,United States,None,None,38.000000,-97.000000
+23.203.26.30,United States,Massachusetts,Cambridge,42.362600,-71.084300
+23.203.23.22,United States,Massachusetts,Cambridge,42.362600,-71.084300
+62.115.112.254,None,None,None,47.000000,8.000000
+154.54.26.14,United States,None,None,38.000000,-97.000000
+96.43.148.26,United States,California,San Francisco,37.789800,-122.394200
+80.239.147.139,None,None,None,47.000000,8.000000
+38.104.56.106,United States,District of Columbia,Washington,38.934500,-77.059600
+64.125.20.250,United States,None,None,38.000000,-97.000000
+74.6.227.141,United States,California,Sunnyvale,37.424900,-122.007400
+68.71.212.186,United States,California,Burbank,33.786600,-118.298700
+12.122.2.13,United States,None,None,38.000000,-97.000000
+80.239.160.50,None,None,None,47.000000,8.000000
+4.53.114.214,United States,None,None,38.000000,-97.000000
+128.112.12.45,United States,New Jersey,Princeton,40.375600,-74.659700
+54.239.108.57,United States,Virginia,Ashburn,39.033500,-77.483800
+209.85.255.68,United States,California,Mountain View,37.419200,-122.057400
+89.149.187.190,France,None,None,48.860000,2.350000
+66.110.96.5,United States,New York,New York,40.742100,-74.001800
+154.54.6.102,United States,None,None,38.000000,-97.000000
+108.160.174.232,United States,California,San Francisco,37.769700,-122.393300
+154.54.24.222,United States,None,None,38.000000,-97.000000
+40.128.10.144,United States,Pennsylvania,Erie,42.107500,-79.953600
+93.184.216.97,United States,None,None,38.000000,-97.000000
+216.182.224.15,United States,Virginia,Ashburn,39.033500,-77.483800
+54.240.228.191,United States,Virginia,Ashburn,39.033500,-77.483800
+54.240.228.197,United States,Virginia,Ashburn,39.033500,-77.483800
+209.85.253.111,United States,California,Mountain View,37.419200,-122.057400
+154.54.41.66,United States,None,None,38.000000,-97.000000
+206.190.56.13,United States,California,Sunnyvale,37.424900,-122.007400
+127.0.0.1 None None None None
+216.239.40.169,United States,California,Mountain View,37.419200,-122.057400
+104.44.4.18,United States,Washington,Redmond,47.680100,-122.120600
+40.129.37.21,United States,Ohio,Kenton,40.639100,-83.598100
+192.205.36.237,United States,None,None,38.000000,-97.000000
+64.125.29.209,United States,None,None,38.000000,-97.000000
+154.54.44.218,United States,None,None,38.000000,-97.000000
+104.44.9.17,United States,Washington,Redmond,47.680100,-122.120600
+67.151.33.20,United States,New Jersey,Hopatcong,40.939800,-74.661700
+67.151.33.22,United States,New Jersey,Hopatcong,40.939800,-74.661700
+23.203.28.143,United States,Massachusetts,Cambridge,42.362600,-71.084300
+72.21.91.8,United States,California,Santa Monica,34.011900,-118.468200
+68.86.85.253,United States,None,None,38.000000,-97.000000
+64.57.30.39,United States,Michigan,Ann Arbor,42.273400,-83.713300
+107.14.17.204,United States,None,None,38.000000,-97.000000
+54.240.202.48,United States,Virginia,Ashburn,39.033500,-77.483800
+154.54.11.94,United States,None,None,38.000000,-97.000000
+204.15.21.90,United States,California,Palo Alto,37.376200,-122.182600
+209.85.245.179,United States,California,Mountain View,37.419200,-122.057400
+157.130.0.110,United States,New York,New York,40.751700,-73.997200
+154.54.5.1,United States,None,None,38.000000,-97.000000
+216.239.49.237,United States,California,Mountain View,37.419200,-122.057400
+104.88.80.101,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.88.3.155,United States,Massachusetts,Cambridge,42.362600,-71.084300
+80.91.246.18,None,None,None,47.000000,8.000000
+12.122.145.85,United States,None,None,38.000000,-97.000000
+62.115.112.109,None,None,None,47.000000,8.000000
+154.54.27.117,United States,None,None,38.000000,-97.000000
+62.115.112.107,None,None,None,47.000000,8.000000
+68.86.85.9,United States,None,None,38.000000,-97.000000
+104.76.108.177,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.88.91.238,United States,Massachusetts,Cambridge,42.362600,-71.084300
+154.54.11.110,United States,None,None,38.000000,-97.000000
+216.58.219.227,United States,California,Mountain View,37.419200,-122.057400
+64.125.25.53,United States,None,None,38.000000,-97.000000
+130.207.254.203,United States,Georgia,Atlanta,33.776300,-84.398000
+216.58.219.228,United States,California,Mountain View,37.419200,-122.057400
+23.203.16.37,United States,Massachusetts,Cambridge,42.362600,-71.084300
+141.136.110.237,France,None,None,48.860000,2.350000
+154.54.47.166,United States,None,None,38.000000,-97.000000
+4.69.149.144,United States,None,None,38.000000,-97.000000
+4.69.149.146,United States,None,None,38.000000,-97.000000
+209.85.245.181,United States,California,Mountain View,37.419200,-122.057400
+63.138.198.160,United States,New York,New York,40.744900,-73.978200
+63.138.198.162,United States,New York,New York,40.744900,-73.978200
+54.239.110.161,United States,Virginia,Ashburn,39.033500,-77.483800
+89.149.181.70,France,None,None,48.860000,2.350000
+129.250.2.147,United States,Colorado,Englewood,39.623700,-104.873800
+74.6.122.59,United States,California,Sunnyvale,37.424900,-122.007400
+129.250.2.149,United States,Colorado,Englewood,39.623700,-104.873800
+72.21.222.141,United States,Virginia,Ashburn,39.033500,-77.483800
+62.115.8.230,None,None,None,47.000000,8.000000
+23.111.10.99,United States,Arizona,Phoenix,33.674800,-111.951900
+104.44.4.122,United States,Washington,Redmond,47.680100,-122.120600
+23.65.227.55,United States,Massachusetts,Cambridge,42.362600,-71.084300
+129.250.3.41,United States,Colorado,Englewood,39.623700,-104.873800
+209.85.248.242,United States,California,Mountain View,37.419200,-122.057400
+66.216.1.253,United States,Florida,Boca Raton,26.381800,-80.104600
+162.125.0.1,United States,Texas,San Antonio,29.535600,-98.481400
+66.185.150.26,United States,None,None,38.000000,-97.000000
+154.24.33.222,United States,None,None,38.000000,-97.000000
+154.54.42.165,United States,None,None,38.000000,-97.000000
+31.13.66.36,Ireland,None,None,53.347800,-6.259700
+66.185.141.205,United States,None,None,38.000000,-97.000000
+54.239.108.233,United States,Virginia,Ashburn,39.033500,-77.483800
+74.6.227.133,United States,California,Sunnyvale,37.424900,-122.007400
+23.202.236.92,United States,Massachusetts,Cambridge,42.362600,-71.084300
+128.112.228.3,United States,New Jersey,Princeton,40.375600,-74.659700
+80.91.252.44,None,None,None,47.000000,8.000000
+216.182.225.69,United States,Virginia,Ashburn,39.033500,-77.483800
+74.125.29.101,United States,California,Mountain View,37.419200,-122.057400
+213.155.130.251,None,None,None,47.000000,8.000000
+192.33.31.51,United States,California,Mountain View,37.419200,-122.057400
+176.32.106.14,Ireland,Dublin City,Dublin,53.333100,-6.248900
+104.88.107.132,United States,Massachusetts,Cambridge,42.362600,-71.084300
+216.6.81.29,United States,Delaware,Wilmington,39.735100,-75.668400
+54.239.108.66,United States,Virginia,Ashburn,39.033500,-77.483800
+72.30.22.39,United States,California,Sunnyvale,37.424900,-122.007400
+62.115.40.242,None,None,None,47.000000,8.000000
+104.44.8.239,United States,Washington,Redmond,47.680100,-122.120600
+54.239.108.68,United States,Virginia,Ashburn,39.033500,-77.483800
+62.115.40.246,None,None,None,47.000000,8.000000
+4.69.149.210,United States,None,None,38.000000,-97.000000
+143.215.193.3,United States,Georgia,Atlanta,33.776300,-84.398000
+154.54.10.198,United States,None,None,38.000000,-97.000000
+216.239.50.106,United Kingdom,None,None,51.500000,-0.130000
+213.155.131.241,None,None,None,47.000000,8.000000
+4.69.156.11,United States,None,None,38.000000,-97.000000
+72.14.236.208,United States,California,Mountain View,37.419200,-122.057400
+206.190.56.191,United States,California,Sunnyvale,37.424900,-122.007400
+72.14.214.68,United States,California,Mountain View,37.419200,-122.057400
+64.233.174.11,United States,California,Mountain View,37.419200,-122.057400
+205.185.208.85,United States,Arizona,Phoenix,33.508300,-112.071700
+104.88.87.25,United States,Massachusetts,Cambridge,42.362600,-71.084300
+12.122.2.162,United States,None,None,38.000000,-97.000000
+154.54.82.245,United States,None,None,38.000000,-97.000000
+199.16.156.6,United States,California,San Francisco,37.769700,-122.393300
+98.139.129.179,United States,California,Sunnyvale,37.424900,-122.007400
+184.29.160.84,United States,Massachusetts,Cambridge,42.362600,-71.084300
+108.160.175.165,United States,California,San Francisco,37.769700,-122.393300
+108.160.175.167,United States,California,San Francisco,37.769700,-122.393300
+108.160.172.206,United States,California,San Francisco,37.769700,-122.393300
+129.250.6.163,United States,Colorado,Englewood,39.623700,-104.873800
+205.251.244.209,United States,Virginia,Ashburn,39.033500,-77.483800
+154.54.42.89,United States,None,None,38.000000,-97.000000
+64.125.30.243,United States,None,None,38.000000,-97.000000
+173.252.65.116,United States,California,Menlo Park,37.459000,-122.178100
+199.181.132.250,United States,California,Burbank,33.786600,-118.298700
+38.122.150.1,United States,None,None,38.000000,-97.000000
+213.155.133.11,None,None,None,47.000000,8.000000
+62.115.112.248,None,None,None,47.000000,8.000000
+38.122.46.142,United States,Georgia,Atlanta,33.793000,-84.443200
+192.243.250.20,United States,Utah,Lehi,40.324500,-111.961800
+31.13.69.203,Ireland,None,None,53.347800,-6.259700
+213.155.130.30,None,None,None,47.000000,8.000000
+54.240.228.228,United States,Virginia,Ashburn,39.033500,-77.483800
+104.88.55.220,United States,Massachusetts,Cambridge,42.362600,-71.084300
+216.239.49.79,United States,California,Mountain View,37.419200,-122.057400
+54.240.228.226,United States,Virginia,Ashburn,39.033500,-77.483800
+50.56.6.135,United States,Texas,San Antonio,29.488900,-98.398700
+54.240.202.50,United States,Virginia,Ashburn,39.033500,-77.483800
+80.239.195.54,None,None,None,47.000000,8.000000
+54.239.110.131,United States,Virginia,Ashburn,39.033500,-77.483800
+38.122.110.198,United States,New York,Brooklyn,40.702100,-73.942300
+50.56.6.217,United States,Texas,San Antonio,29.488900,-98.398700
+54.239.110.139,United States,Virginia,Ashburn,39.033500,-77.483800
+66.185.152.8,United States,None,None,38.000000,-97.000000
+54.239.111.13,United States,Virginia,Ashburn,39.033500,-77.483800
+172.217.0.38,United States,California,Mountain View,37.419200,-122.057400
+213.155.133.13,None,None,None,47.000000,8.000000
+23.15.29.162,United States,Massachusetts,Cambridge,42.362600,-71.084300
+23.203.23.191,United States,Massachusetts,Cambridge,42.362600,-71.084300
+154.54.6.118,United States,None,None,38.000000,-97.000000
+209.200.144.35,United States,Massachusetts,Cambridge,42.362600,-71.084300
+129.250.3.97,United States,Colorado,Englewood,39.623700,-104.873800
+154.54.24.198,United States,None,None,38.000000,-97.000000
+4.69.145.11,United States,None,None,38.000000,-97.000000
+66.109.6.33,United States,None,None,38.000000,-97.000000
+154.54.24.194,United States,None,None,38.000000,-97.000000
+66.109.6.37,United States,None,None,38.000000,-97.000000
+66.109.6.35,United States,None,None,38.000000,-97.000000
+62.115.61.62,None,None,None,47.000000,8.000000
+62.115.33.210,None,None,None,47.000000,8.000000
+12.249.233.210,United States,Massachusetts,Cambridge,42.364600,-71.102800
+89.149.129.9,France,None,None,48.860000,2.350000
+31.13.66.5,Ireland,None,None,53.347800,-6.259700
+64.127.128.142,United States,Florida,Boca Raton,26.381800,-80.104600
+74.125.29.132,United States,California,Mountain View,37.419200,-122.057400
+104.88.5.174,United States,Massachusetts,Cambridge,42.362600,-71.084300
+79.125.0.203,Ireland,Dublin City,Dublin,53.333100,-6.248900
+149.174.48.222,United States,None,None,38.000000,-97.000000
+4.35.90.106,United States,Connecticut,Norwalk,41.127100,-73.441600
+216.239.40.170,United States,California,Mountain View,37.419200,-122.057400
+104.44.9.25,United States,Washington,Redmond,47.680100,-122.120600
+154.54.12.18,United States,None,None,38.000000,-97.000000
+154.54.28.74,United States,None,None,38.000000,-97.000000
+4.69.145.139,United States,None,None,38.000000,-97.000000
+23.203.26.200,United States,Massachusetts,Cambridge,42.362600,-71.084300
+184.27.25.238,United States,Massachusetts,Cambridge,42.362600,-71.084300
+4.71.220.246,United States,None,None,38.000000,-97.000000
+104.88.11.201,United States,Massachusetts,Cambridge,42.362600,-71.084300
+12.122.3.37,United States,None,None,38.000000,-97.000000
+198.41.215.68,United States,California,San Francisco,37.769700,-122.393300
+198.71.45.6,United States,Michigan,Ann Arbor,42.273400,-83.713300
+209.200.144.192,United States,Massachusetts,Cambridge,42.362600,-71.084300
+23.203.44.90,United States,Massachusetts,Cambridge,42.362600,-71.084300
+69.28.171.157,United States,Arizona,Tempe,33.435700,-111.917100
+69.28.171.153,United States,Arizona,Tempe,33.435700,-111.917100
+204.15.23.143,United States,California,Palo Alto,37.376200,-122.182600
+104.88.5.118,United States,Massachusetts,Cambridge,42.362600,-71.084300
+23.203.23.66,United States,Massachusetts,Cambridge,42.362600,-71.084300
+64.233.174.117,United States,California,Mountain View,37.419200,-122.057400
+62.115.112.119,None,None,None,47.000000,8.000000
+23.203.30.192,United States,Massachusetts,Cambridge,42.362600,-71.084300
+80.91.247.18,None,None,None,47.000000,8.000000
+62.115.112.111,None,None,None,47.000000,8.000000
+198.41.209.140,United States,California,San Francisco,37.769700,-122.393300
+72.21.91.121,United States,California,Santa Monica,34.011900,-118.468200
+204.153.49.136,United States,New Jersey,Princeton,40.375600,-74.659700
+204.153.49.137,United States,New Jersey,Princeton,40.375600,-74.659700
+104.117.44.33,United States,Massachusetts,Cambridge,42.362600,-71.084300
+54.239.111.37,United States,Virginia,Ashburn,39.033500,-77.483800
+209.200.171.178,United States,Massachusetts,Cambridge,42.362600,-71.084300
+154.54.3.70,United States,None,None,38.000000,-97.000000
+154.54.11.166,United States,None,None,38.000000,-97.000000
+216.58.219.238,United States,California,Mountain View,37.419200,-122.057400
+104.88.57.239,United States,Massachusetts,Cambridge,42.362600,-71.084300
+64.127.128.188,United States,Florida,Boca Raton,26.381800,-80.104600
+62.115.113.213,None,None,None,47.000000,8.000000
+89.149.180.145,France,None,None,48.860000,2.350000
+54.239.110.179,United States,Virginia,Ashburn,39.033500,-77.483800
+54.239.110.173,United States,Virginia,Ashburn,39.033500,-77.483800
+83.231.213.34,Germany,None,None,51.000000,9.000000
+50.248.117.45,United States,None,None,38.000000,-97.000000
+154.54.7.174,United States,None,None,38.000000,-97.000000
+77.67.69.154,France,None,None,48.860000,2.350000
+38.88.194.74,United States,New York,New York,40.744900,-73.978200
+104.88.27.236,United States,Massachusetts,Cambridge,42.362600,-71.084300
+62.115.116.140,None,None,None,47.000000,8.000000
+154.54.24.250,United States,None,None,38.000000,-97.000000
+80.91.248.177,None,None,None,47.000000,8.000000
+154.54.11.62,United States,None,None,38.000000,-97.000000
+154.54.31.110,United States,None,None,38.000000,-97.000000
+64.127.128.181,United States,Florida,Boca Raton,26.381800,-80.104600
+63.241.108.124,United States,None,None,38.000000,-97.000000
+80.91.248.173,None,None,None,47.000000,8.000000
+23.203.35.212,United States,Massachusetts,Cambridge,42.362600,-71.084300
+4.53.116.2,United States,None,None,38.000000,-97.000000
+192.33.31.66,United States,California,Mountain View,37.419200,-122.057400
+192.229.163.25,United States,California,Santa Monica,34.011900,-118.468200
+178.236.0.125,Ireland,Dublin City,Dublin,53.333100,-6.248900
+178.236.0.126,Ireland,Dublin City,Dublin,53.333100,-6.248900
+104.44.4.37,United States,Washington,Redmond,47.680100,-122.120600
+213.155.136.39,None,None,None,47.000000,8.000000
+173.252.65.195,United States,California,Menlo Park,37.459000,-122.178100
+173.252.65.196,United States,California,Menlo Park,37.459000,-122.178100
+69.28.171.214,United States,Arizona,Tempe,33.435700,-111.917100
+154.54.3.141,United States,None,None,38.000000,-97.000000
+72.21.91.168,United States,California,Santa Monica,34.011900,-118.468200
+69.31.116.234,United States,California,Santa Monica,34.016000,-118.492500
+172.217.0.34,United States,California,Mountain View,37.419200,-122.057400
+104.44.4.74,United States,Washington,Redmond,47.680100,-122.120600
+104.44.4.76,United States,Washington,Redmond,47.680100,-122.120600
+154.54.10.130,United States,None,None,38.000000,-97.000000
+23.203.16.67,United States,Massachusetts,Cambridge,42.362600,-71.084300
+69.31.31.106,United States,Virginia,McLean,38.949900,-77.222300
+205.251.245.244,United States,Virginia,Ashburn,39.033500,-77.483800
+104.88.83.50,United States,Massachusetts,Cambridge,42.362600,-71.084300
+80.91.254.36,None,None,None,47.000000,8.000000
+80.91.254.34,None,None,None,47.000000,8.000000
+129.250.6.176,United States,Colorado,Englewood,39.623700,-104.873800
+129.250.6.177,United States,Colorado,Englewood,39.623700,-104.873800
+54.239.108.178,United States,Virginia,Ashburn,39.033500,-77.483800
+63.218.69.82,United States,Virginia,Herndon,38.984100,-77.382700
+129.250.5.12,United States,Colorado,Englewood,39.623700,-104.873800
+62.115.137.60,None,None,None,47.000000,8.000000
+62.115.137.62,None,None,None,47.000000,8.000000
+62.115.137.64,None,None,None,47.000000,8.000000
+12.122.105.61,United States,None,None,38.000000,-97.000000
+72.21.91.113,United States,California,Santa Monica,34.011900,-118.468200
+64.94.0.76,United States,Washington,Seattle,47.614500,-122.348000
+154.54.11.138,United States,None,None,38.000000,-97.000000
+23.203.17.28,United States,Massachusetts,Cambridge,42.362600,-71.084300
+216.115.101.159,United States,California,Sunnyvale,37.424900,-122.007400
+64.125.28.42,United States,None,None,38.000000,-97.000000
+213.155.130.28,None,None,None,47.000000,8.000000
+213.248.96.206,None,None,None,47.000000,8.000000
+54.240.228.218,United States,Virginia,Ashburn,39.033500,-77.483800
+54.240.228.212,United States,Virginia,Ashburn,39.033500,-77.483800
+54.240.228.214,United States,Virginia,Ashburn,39.033500,-77.483800
+74.6.122.39,United States,California,Sunnyvale,37.424900,-122.007400
+154.54.12.146,United States,None,None,38.000000,-97.000000
+23.203.32.181,United States,Massachusetts,Cambridge,42.362600,-71.084300
+209.197.3.20,United States,Arizona,Phoenix,33.508300,-112.071700
+208.82.237.225,United States,California,San Francisco,37.760700,-122.484200
+23.203.32.187,United States,Massachusetts,Cambridge,42.362600,-71.084300
+216.52.191.85,United States,None,None,38.000000,-97.000000
+66.109.6.38,United States,None,None,38.000000,-97.000000
+62.115.36.70,None,None,None,47.000000,8.000000
+64.57.28.18,United States,Michigan,Ann Arbor,42.273400,-83.713300
+154.54.47.30,United States,None,None,38.000000,-97.000000
+50.56.6.165,United States,Texas,San Antonio,29.488900,-98.398700
+108.160.174.215,United States,California,San Francisco,37.769700,-122.393300
+216.239.48.160,United States,California,Mountain View,37.419200,-122.057400
+62.115.138.23,None,None,None,47.000000,8.000000
+104.88.50.108,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.130.96.16,United States,Texas,San Antonio,29.488900,-98.398700
+162.159.240.200,United States,California,San Francisco,37.769700,-122.393300
+173.194.206.82,United States,California,Mountain View,37.419200,-122.057400
+66.110.56.94,United States,Delaware,Wilmington,39.735100,-75.668400
+64.127.128.177,United States,Florida,Boca Raton,26.381800,-80.104600
+104.88.60.187,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.16.116.165,United States,California,San Francisco,37.769700,-122.393300
+205.251.244.197,United States,Virginia,Ashburn,39.033500,-77.483800
+54.239.108.133,United States,Virginia,Ashburn,39.033500,-77.483800
+154.54.10.98,United States,None,None,38.000000,-97.000000
+184.29.180.58,United States,Massachusetts,Cambridge,42.362600,-71.084300
+64.86.79.121,United States,New York,Merrick,40.663200,-73.553000
+89.149.128.117,France,None,None,48.860000,2.350000
+157.238.224.194,United States,Colorado,Englewood,39.623700,-104.873800
+108.160.174.106,United States,California,San Francisco,37.769700,-122.393300
+104.44.4.30,United States,Washington,Redmond,47.680100,-122.120600
+66.185.144.230,United States,None,None,38.000000,-97.000000
+209.200.144.161,United States,Massachusetts,Cambridge,42.362600,-71.084300
+173.252.64.196,United States,California,Menlo Park,37.459000,-122.178100
+104.44.9.38,United States,Washington,Redmond,47.680100,-122.120600
+108.160.175.134,United States,California,San Francisco,37.769700,-122.393300
+154.54.13.10,United States,None,None,38.000000,-97.000000
+63.138.53.73,United States,New York,None,40.711100,-73.946900
+154.54.44.230,United States,None,None,38.000000,-97.000000
+143.215.203.23,United States,Georgia,Atlanta,33.776300,-84.398000
+62.115.112.250,None,None,None,47.000000,8.000000
+64.127.128.179,United States,Florida,Boca Raton,26.381800,-80.104600
+216.27.98.113,United States,Pennsylvania,Philadelphia,39.959700,-75.196800
+38.104.72.114,United States,New York,New York,40.769400,-73.960900
+205.185.208.60,United States,Arizona,Phoenix,33.508300,-112.071700
+209.85.245.116,United States,California,Mountain View,37.419200,-122.057400
+205.251.248.123,United States,Virginia,Ashburn,39.033500,-77.483800
+128.177.170.50,United States,California,Los Angeles,34.100600,-118.327500
+23.203.33.57,United States,Massachusetts,Cambridge,42.362600,-71.084300
+208.85.40.20,United States,California,Oakland,37.809100,-122.270200
+104.16.56.23,United States,California,San Francisco,37.769700,-122.393300
+72.14.239.93,United States,California,Mountain View,37.419200,-122.057400
+108.160.164.23,United States,California,San Francisco,37.769700,-122.393300
+154.54.30.65,United States,None,None,38.000000,-97.000000
+154.54.10.50,United States,None,None,38.000000,-97.000000
+154.54.31.106,United States,None,None,38.000000,-97.000000
+205.251.245.181,United States,Virginia,Ashburn,39.033500,-77.483800
+66.185.144.58,United States,None,None,38.000000,-97.000000
+206.223.119.17,United States,California,Redwood City,37.533100,-122.247100
+199.16.156.200,United States,California,San Francisco,37.769700,-122.393300
+64.86.201.106,United States,Georgia,None,33.749000,-84.388000
+98.139.225.42,United States,California,Sunnyvale,37.424900,-122.007400
+66.209.72.14,United States,Nevada,Henderson,36.012300,-114.956400
+207.223.2.93,United States,Pennsylvania,Philadelphia,39.953000,-75.175600
+54.239.110.189,United States,Virginia,Ashburn,39.033500,-77.483800
+209.85.251.243,United States,California,Mountain View,37.419200,-122.057400
+104.16.34.249,United States,California,San Francisco,37.769700,-122.393300
+54.240.229.203,United States,Virginia,Ashburn,39.033500,-77.483800
+154.54.6.221,United States,None,None,38.000000,-97.000000
+172.217.1.70,United States,California,Mountain View,37.419200,-122.057400
+129.250.6.208,United States,Colorado,Englewood,39.623700,-104.873800
+104.88.45.180,United States,Massachusetts,Cambridge,42.362600,-71.084300
+23.203.39.41,United States,Massachusetts,Cambridge,42.362600,-71.084300
+64.86.79.1,United States,New York,Merrick,40.663200,-73.553000
+66.209.64.109,United States,Nevada,Las Vegas,36.031600,-115.211800
+80.91.253.93,None,None,None,47.000000,8.000000
+80.239.147.133,None,None,None,47.000000,8.000000
+80.239.147.135,None,None,None,47.000000,8.000000
+206.130.10.31,United States,None,None,38.000000,-97.000000
+80.239.147.137,None,None,None,47.000000,8.000000
+198.200.130.74,United States,None,None,38.000000,-97.000000
+209.200.144.200,United States,Massachusetts,Cambridge,42.362600,-71.084300
+80.91.246.162,None,None,None,47.000000,8.000000
+12.123.152.109,United States,None,None,38.000000,-97.000000
+154.54.11.50,United States,None,None,38.000000,-97.000000
+154.54.47.138,United States,None,None,38.000000,-97.000000
+154.54.80.178,United States,None,None,38.000000,-97.000000
+104.44.9.45,United States,Washington,Redmond,47.680100,-122.120600
+216.58.219.206,United States,California,Mountain View,37.419200,-122.057400
+216.115.101.199,United States,California,Sunnyvale,37.424900,-122.007400
+23.203.33.160,United States,Massachusetts,Cambridge,42.362600,-71.084300
+205.251.245.185,United States,Virginia,Ashburn,39.033500,-77.483800
+72.30.22.15,United States,California,Sunnyvale,37.424900,-122.007400
+192.243.251.85,United States,Utah,Lehi,40.324500,-111.961800
+128.112.12.142,United States,New Jersey,Princeton,40.375600,-74.659700
+54.240.228.48,United States,Virginia,Ashburn,39.033500,-77.483800
+154.54.24.234,United States,None,None,38.000000,-97.000000
+98.139.131.101,United States,California,Sunnyvale,37.424900,-122.007400
+4.16.73.198,United States,None,None,38.000000,-97.000000
+104.88.107.183,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.87.141.137,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.44.4.97,United States,Washington,Redmond,47.680100,-122.120600
+54.240.228.185,United States,Virginia,Ashburn,39.033500,-77.483800
+104.88.14.93,United States,Massachusetts,Cambridge,42.362600,-71.084300
+54.240.228.189,United States,Virginia,Ashburn,39.033500,-77.483800
+104.44.4.98,United States,Washington,Redmond,47.680100,-122.120600
+12.122.141.190,United States,None,None,38.000000,-97.000000
+198.71.46.9,United States,Michigan,Ann Arbor,42.273400,-83.713300
+23.0.231.24,United States,Massachusetts,Cambridge,42.362600,-71.084300
+72.14.195.232,United States,California,Mountain View,37.419200,-122.057400
+63.241.96.174,United States,None,None,38.000000,-97.000000
+154.54.31.10,United States,None,None,38.000000,-97.000000
+154.54.80.42,United States,None,None,38.000000,-97.000000
+216.27.100.18,United States,Pennsylvania,Philadelphia,39.959700,-75.196800
+65.158.106.206,United States,None,None,38.000000,-97.000000
+64.125.31.213,United States,None,None,38.000000,-97.000000
+104.88.12.164,United States,Massachusetts,Cambridge,42.362600,-71.084300
+4.69.140.89,United States,Florida,Hialeah,25.937200,-80.317000
+23.203.22.220,United States,Massachusetts,Cambridge,42.362600,-71.084300
+104.88.40.162,United States,Massachusetts,Cambridge,42.362600,-71.084300
+75.149.230.250,United States,None,None,38.000000,-97.000000
+65.124.186.126,United States,New York,New York,40.749000,-73.986500
+107.14.17.233,United States,None,None,38.000000,-97.000000
+12.122.105.74,United States,None,None,38.000000,-97.000000
+64.127.129.46,United States,Florida,Boca Raton,26.381800,-80.104600
+141.136.105.41,France,None,None,48.860000,2.350000
+216.115.101.144,United States,California,Sunnyvale,37.424900,-122.007400
+199.182.50.70,United States,Nevada,Las Vegas,36.097500,-115.381500
+205.251.245.174,United States,Virginia,Ashburn,39.033500,-77.483800
+209.200.144.205,United States,Massachusetts,Cambridge,42.362600,-71.084300
+54.240.229.207,United States,Virginia,Ashburn,39.033500,-77.483800
+54.240.229.205,United States,Virginia,Ashburn,39.033500,-77.483800
+154.54.42.106,United States,None,None,38.000000,-97.000000
+192.229.173.41,United States,California,Santa Monica,34.011900,-118.468200
+154.54.42.101,United States,None,None,38.000000,-97.000000
+23.203.25.250,United States,Massachusetts,Cambridge,42.362600,-71.084300
+66.28.4.233,United States,Maryland,Perryman,39.469500,-76.204400
+72.21.81.253,United States,California,Santa Monica,34.011900,-118.468200
+54.240.228.203,United States,Virginia,Ashburn,39.033500,-77.483800
+4.30.129.254,United States,New York,New York,40.749000,-73.986500
+68.86.87.178,United States,None,None,38.000000,-97.000000
+54.240.228.208,United States,Virginia,Ashburn,39.033500,-77.483800
+208.77.138.202,United States,Virginia,Herndon,38.926600,-77.393600
+31.13.66.52,Ireland,None,None,53.347800,-6.259700
