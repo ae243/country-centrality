@@ -1,0 +1,10 @@
+Canada,484,0,0.0
+United Kingdom,57,16,0.00265032300812
+Netherlands,192,115,0.0190491966208
+Italy,4,0,0.0
+France,553,0,0.0
+United States,6037,5903,0.977803544807
+Sweden,4,0,0.0
+Germany,41,0,0.0
+Ireland,48,3,0.000496935564022
+Hong Kong,8,0,0.0

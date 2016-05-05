@@ -1,0 +1,100 @@
+www.cnet.com|Singapore|Singapore|United States|Singapore|Malaysia
+www.fidelity.com|Singapore|United States|Singapore|United States
+www.irs.gov|Singapore|United States|Singapore|United States
+www.imdb.com|Singapore|Singapore|United States|Singapore|United States|United States|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States
+www.yahoo.com|Singapore|United States|Singapore|Hong Kong|Singapore|Singapore|Singapore
+www.zillow.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States
+www.facebook.com|Singapore|Singapore|United States|Singapore|United States|United States|Ireland
+www.nih.gov|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.walmart.com|Singapore|United States|Singapore|United States
+www.pornhub.com|Singapore|Singapore|United States|Singapore|Hong Kong|France
+www.usatoday.com|Singapore|United States|Singapore|United States
+www.netflix.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.citi.com|Singapore|Singapore|United States|Singapore|United States
+www.dropbox.com|Singapore|United States|United States|United States|United States|United States|United States|United States|United States
+www.chase.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States
+www.intuit.com|Singapore|Singapore|United States|United States|United States|United States|United States|United States|United States|United States
+www.about.com|Singapore|Singapore|United States|Singapore|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States|United States|United States
+www.paypal.com|Singapore|United States|Singapore|United States
+www.gfycat.com|Singapore|Singapore|United States|United States|Singapore|United States
+www.wikipedia.org|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States
+www.instagram.com|Singapore|Singapore|United States|Singapore|United States|Ireland|United States|United States|United States|Ireland
+www.wordpress.com|Singapore|United States
+www.wikia.com|Singapore|United States|Singapore|United States|United States
+www.stackoverflow.com|Singapore|Singapore|United States|United States|Singapore|United States
+www.force.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States
+www.salesforce.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States
+www.groupon.com|Singapore|Singapore|United States|Singapore|United States
+www.comcast.net|Singapore|United States|Singapore|United States
+www.live.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States
+www.gizmodo.com|Singapore|United States|Singapore|United States|United States
+www.slickdeals.net|Singapore|United States|Malaysia|Japan|Japan|United States|United States|United States
+www.linkedin.com|Singapore|Singapore|United States
+www.indeed.com|Singapore|Singapore|United States|United States|United States|United States|United States|United States
+www.pandora.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States
+www.tumblr.com|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.twitch.tv|Singapore|United States|Singapore|United States|United States|United States
+www.verizonwireless.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States
+www.msn.com|Singapore|Singapore|United States|Singapore|United States
+www.businessinsider.com|Singapore|Singapore|United States|Singapore|United States|United States
+www.aol.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States
+www.cbssports.com|Singapore|United States|Singapore|Malaysia
+www.diply.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yelp.com|Singapore|Singapore|United States|United States|Singapore|United States
+www.etsy.com|Singapore|United States|United States|United States|United States|United States
+www.office.com|Singapore|United States|Singapore|United States
+www.target.com|Singapore|United States|Singapore|Malaysia
+www.cnn.com|Singapore|Singapore|United States|Singapore|United States|United States
+www.t.co|Singapore|Singapore|United States|Singapore|United States
+www.outbrain.com|Singapore|United States|Singapore|United States
+www.adobe.com|Singapore|Singapore|United States|Singapore|United States
+www.github.com|Singapore|United States|Singapore|United States|United States|United States|United States
+www.att.com|Singapore|Singapore|United States|Singapore|United States
+www.amazon.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.apple.com|Singapore|United States|Singapore|United States
+www.twitter.com|Singapore|United States|Singapore|United States
+www.buzzfeed.com|Singapore|United States|Singapore|United States|United States|United States
+www.reddit.com|Singapore|United States|United States|Singapore|United States
+www.bestbuy.com|Singapore|Singapore|United States|Singapore|Malaysia
+www.craigslist.org|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States
+www.imgur.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States
+www.americanexpress.com|Singapore|United States|Singapore|United States
+www.kohls.com|Singapore|United States|Singapore|United States
+www.bankofamerica.com|Singapore|United States|United States|United States|Hong Kong|United States|United States|United States
+www.conservativetribune.com|Singapore|Singapore|United States|United States|Singapore|United States
+www.fedex.com|Singapore|United States|Singapore|United States
+www.google.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States
+www.homedepot.com|Singapore|United States|Singapore|Malaysia
+www.capitalone.com|Singapore|United States|Singapore|United States
+www.lowes.com|Singapore|United States|Singapore|United States
+www.forbes.com|Singapore|United States|Singapore|Malaysia
+www.espn.go.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States
+www.nytimes.com|Singapore|Singapore|United States|United States|United States|Hong Kong|United States
+www.pinterest.com|Singapore|Singapore|United States|Singapore|United States
+www.xvideos.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|Germany|Netherlands
+www.realtor.com|Singapore|United States|United States|United States|Hong Kong|United States|United States
+www.googleusercontent.com|Singapore|United States|Singapore|United States|United States|United States|United States
+www.taboola.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.go.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States
+www.macys.com|Singapore|United States|Singapore|United States
+www.weather.com|Singapore|United States|Singapore|United States
+www.usps.com|Singapore|Singapore|United States|Malaysia|Australia|United States
+www.blogspot.com|Singapore|United States|Singapore|United States|United States|United States|United States
+www.tripadvisor.com|Singapore|United States|Singapore|United States
+www.amazonaws.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.wellsfargo.com|Singapore|United States|United States|United States|Hong Kong|United States|United States
+www.hulu.com|Singapore|United States|Singapore|Malaysia
+www.ebay.com|Singapore|Singapore|United States|Singapore|United States
+www.foxnews.com|Singapore|United States|Singapore|Malaysia
+www.youtube.com|Singapore|United States|Singapore|United States|United States|United States|United States
+www.microsoft.com|Singapore|Singapore|United States|Singapore|United States
+www.dailymail.co.uk|Singapore|Singapore|United States|Singapore|Malaysia
+www.instructure.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.ask.com|Singapore|United States|Singapore|Malaysia
+www.xfinity.com|Singapore|United States|Singapore|United States
+www.vice.com|Singapore|United States|Singapore|United States|United States|United States|United Kingdom
+www.huffingtonpost.com|Singapore|United States|Singapore|Malaysia
+www.ups.com|Singapore|United States|Malaysia|Australia|United States
+www.microsoftonline.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States
+www.washingtonpost.com|Singapore|United States|Singapore|Singapore
+www.bing.com|Singapore|Singapore|United States|Singapore|United States

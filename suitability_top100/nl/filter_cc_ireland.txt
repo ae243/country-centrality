@@ -1,0 +1,99 @@
+www.ziggo.nl|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States
+www.apple.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands
+www.digid.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands
+www.twitch.tv|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States
+www.ad.nl|Ireland|None|None|None|Ireland|Ireland
+www.geenstijl.nl|Ireland|None|None|None|Ireland|Ireland|United States
+www.bongacams.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|None|United States
+www.msn.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States
+www.imdb.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|None|None|None
+www.ask.com|Ireland|None|None|None|Ireland|Ireland|None
+www.nu.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands|Spain
+www.mediamarkt.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United Kingdom
+www.yahoo.com|Ireland|None|None|None|Ireland|Ireland|United States|United Kingdom
+www.9292.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands|Netherlands|Netherlands
+www.google.pl|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.google.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.ing.nl|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.beslist.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands
+www.ebay.com|Ireland|None|None|None|Ireland|Ireland
+www.npo.nl|Ireland|None|None|None|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.amazon.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|None|None|None
+www.microsoftonline.com|Ireland|None|None|None|Ireland|Ireland|Ireland|United Kingdom|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.hclips.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.soundcloud.com|Ireland|None|None|None|Ireland|None|None|None|None|United States
+www.office.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States
+www.github.com|Ireland|None|None|None|Ireland|Ireland|Ireland|United Kingdom|United Kingdom|United States|United States|United States|United States
+www.pornhub.com|Ireland|None|None|None|Ireland|France|France
+www.netflix.com|Ireland|Ireland
+www.bva-auctions.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.youtube.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.google.nl|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.viralmundo.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|None|United States|None
+www.nrc.nl|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|None|Netherlands|Netherlands|Netherlands
+www.theladbible.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.booking.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom
+www.txxx.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.buienradar.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands|Netherlands
+www.dumpert.nl|Ireland|None|None|None|Ireland|Ireland|United States
+www.whatsapp.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.kat.cr|Ireland|None|None|None|Ireland|United States|United States|United States|Germany|Germany
+www.infonu.nl|Ireland|None|None|None|Ireland|France|France|Germany
+www.wehkamp.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.anwb.nl|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|Netherlands
+www.dropbox.com|Ireland|None|None|None|Ireland|United States|Ireland|None|None|None|None|France|United States
+www.t.co|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States
+www.adobe.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.viraltrend.nl|Ireland|None|None|None|Ireland|Ireland|United States
+www.telegraaf.nl|Ireland|None|None|None|Ireland|None|None|None|None|None|Netherlands
+www.paypal.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.amazon.de|Ireland|None|None|None|Ireland
+www.indeed.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United Kingdom|United Kingdom|United Kingdom|United Kingdom|United Kingdom|United Kingdom
+www.vkmag.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.xhamster.com|Ireland|None|None|None|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.vice.com|Ireland|None|None|None|Ireland|Ireland
+www.publitas.com|Ireland|None|None|None|Ireland|Ireland
+www.volkskrant.nl|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.wikipedia.org|Ireland|None|None|None|Ireland|United States|Ireland|Ireland
+www.imgur.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None
+www.overheid.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States|United States|Netherlands|Netherlands|Netherlands
+www.tweakers.net|Ireland|None|None|None|Ireland|France|France
+www.9gag.com|Ireland|None|None|None|Ireland|United States|Germany|United States|United States|Germany|Germany
+www.abnamro.nl|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|United Kingdom|Netherlands|Netherlands
+www.surfconext.nl|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|Netherlands|Netherlands|Netherlands
+www.instagram.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Ireland|Ireland|Ireland|Ireland|United States
+www.pinterest.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.xvideos.com|Ireland|None|None|None|Ireland|Ireland|Ireland|None|None|None|None|None|None|Netherlands
+www.funda.nl|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|None|Norway|Netherlands|Norway|Netherlands|Netherlands|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway
+www.wordpress.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland
+www.bol.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.wikia.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None
+www.nos.nl|Ireland|None|None|None|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.werk.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.rabobank.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands
+www.weeronline.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.microsoft.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.facebook.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Ireland|Ireland|Ireland|Ireland|United States
+www.twitter.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States
+www.startpagina.nl|Ireland|None|None|None|Ireland|United States|Ireland|Netherlands|Netherlands|Spain
+www.google.de|Ireland|None|None|None|Ireland|Ireland|United States|United States|United States
+www.stackoverflow.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.ikea.com|Ireland|None|None|None|Ireland|Ireland|None
+www.reddit.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.ns.nl|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.onclickads.net|Ireland|None|None|None|Ireland|None|None|None|None|None|Netherlands
+www.tumblr.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States
+www.postnl.nl|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States
+www.hm.com|Ireland|None|None|None|Ireland|Ireland
+www.voetbalzone.nl|Ireland|None|None|None|Ireland|Ireland|United States
+www.marktplaats.nl|Ireland|None|None|None|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands
+www.rtlxl.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands
+www.ah.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United States|None|None|United Kingdom|None|United Kingdom
+www.live.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States
+www.aliexpress.com|Ireland|None|None|None|Ireland|Ireland|None
+www.bbc.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None
+www.linkedin.com|Ireland|None|None|None|Ireland
+www.belastingdienst.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands
+www.uwv.nl|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.bing.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States
+www.zalando.nl|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United Kingdom|United Kingdom|None|United Kingdom

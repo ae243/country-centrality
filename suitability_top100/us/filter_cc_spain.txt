@@ -1,0 +1,100 @@
+www.cnet.com|Spain|United Kingdom|United States|United States|United States|United Kingdom|Romania|Romania|Romania|Romania|None
+www.fidelity.com|Spain|United Kingdom|Netherlands
+www.irs.gov|Spain|United Kingdom|Netherlands
+www.imdb.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.yahoo.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States
+www.zillow.com|Spain|United Kingdom|United States|United States|United States|United States
+www.facebook.com|Spain|United Kingdom|United States|United States|United States|United States|France|United States|United States|United States
+www.nih.gov|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States
+www.walmart.com|Spain|United Kingdom|None|None|None|None|Netherlands
+www.pornhub.com|Spain|United Kingdom|France|France
+www.usatoday.com|Spain|United Kingdom|None|None|None|Spain
+www.netflix.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.citi.com|Spain|United Kingdom|Netherlands
+www.dropbox.com|Spain|United Kingdom|None|None|None|None|Ireland|United States
+www.chase.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States
+www.intuit.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.about.com|Spain|United Kingdom|United States|United States
+www.paypal.com|Spain|United Kingdom|Netherlands
+www.gfycat.com|Spain|United Kingdom|None|None|United States
+www.wikipedia.org|United Kingdom|United States|United States|United Kingdom|United Kingdom|United Kingdom|United Kingdom
+www.instagram.com|Spain|United Kingdom|United States|United States|United States|United States|France|United States|United States|United States
+www.wordpress.com|Spain|United Kingdom|United States|United States|United States|United States
+www.wikia.com|Spain|United Kingdom|United States|United States|United States
+www.stackoverflow.com|Spain|United Kingdom|None|None|United States
+www.force.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States
+www.salesforce.com|Spain|United States|United States
+www.groupon.com|Spain|United Kingdom|Netherlands
+www.comcast.net|Spain|United Kingdom|United States|United States|United States|United Kingdom|Romania|Romania|Romania|Romania|None
+www.live.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.gizmodo.com|Spain|United Kingdom|United States|United States|United States
+www.slickdeals.net|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.linkedin.com|Spain|United Kingdom|United States|United States|United States
+www.indeed.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States
+www.pandora.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.tumblr.com|Spain|United Kingdom|United States|United States|United States|United States
+www.twitch.tv|Spain|United Kingdom|United States
+www.verizonwireless.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States
+www.msn.com|Spain|Spain|United States|United States|None|None|None|United States|United States
+www.businessinsider.com|Spain|United Kingdom|United States|United States|United States
+www.aol.com|Spain|United Kingdom|United States|United States|United States|United States|Netherlands|United States|United States|United States|United States|United States|United States|United States
+www.cbssports.com|Spain|United Kingdom|None
+www.diply.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yelp.com|Spain|United Kingdom|None|None|United States
+www.etsy.com|Spain|United Kingdom|Spain|United States
+www.office.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.target.com|Spain|United Kingdom|None
+www.cnn.com|Spain|United Kingdom|United States|United States|United States|United States
+www.t.co|Spain|United Kingdom|United Kingdom|United States
+www.outbrain.com|Spain|United Kingdom|Netherlands
+www.adobe.com|Spain|Spain|United States|United States|None|None|None|None|None|Netherlands|United Kingdom|None
+www.github.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States
+www.att.com|Spain|United Kingdom|Netherlands
+www.amazon.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.apple.com|Spain|United Kingdom|Spain|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.twitter.com|Spain|United Kingdom|United Kingdom|United States
+www.buzzfeed.com|Spain|United Kingdom|United States|United States|United States
+www.reddit.com|Spain|United Kingdom|None|None|United States
+www.bestbuy.com|Spain|United Kingdom|None
+www.craigslist.org|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States
+www.imgur.com|Spain|United Kingdom|United States|United States|United States
+www.americanexpress.com|Spain|United Kingdom|Netherlands
+www.kohls.com|Spain|United Kingdom|Netherlands
+www.bankofamerica.com|Spain|United Kingdom|United States|United States|United States|United Kingdom|United States|United States|United States|United States
+www.conservativetribune.com|Spain|United Kingdom|None|None|United States
+www.fedex.com|Spain|United Kingdom|Netherlands
+www.google.com|Spain|United Kingdom|United States|United States|None|United States|United States|United States|United States
+www.homedepot.com|Spain|United Kingdom|None
+www.capitalone.com|Spain|United Kingdom|Netherlands
+www.lowes.com|Spain|United Kingdom|Netherlands
+www.forbes.com|Spain|United Kingdom|None
+www.espn.go.com|Spain|United Kingdom|United States|United States|United States|United States
+www.nytimes.com|Spain|United Kingdom|United States|United States|United States|United Kingdom|United States|United States
+www.pinterest.com|Spain|United Kingdom|Netherlands
+www.xvideos.com|Spain|United Kingdom|United States|United States|United States|United States|Germany|Netherlands
+www.realtor.com|Spain|United Kingdom|United States|United States|United States|United Kingdom|United States|United States|United States
+www.googleusercontent.com|Spain|United Kingdom|United States|United States|None|United States|United States|United States|United States
+www.taboola.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States
+www.go.com|Spain|United Kingdom|United States|United States|United States|United States
+www.macys.com|Spain|United Kingdom|Netherlands
+www.weather.com|Spain|United Kingdom|Spain|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.usps.com|Spain|United Kingdom|Netherlands
+www.blogspot.com|Spain|United Kingdom|United States|United States|None|United States|United States|United States|United States
+www.tripadvisor.com|Spain|United Kingdom|Netherlands
+www.amazonaws.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.wellsfargo.com|Spain|United Kingdom|United States|United States|United States|United Kingdom|United States|United States|United States
+www.hulu.com|Spain|United Kingdom|None
+www.ebay.com|Spain|United States|United States|None|None|None|Netherlands|United Kingdom|Netherlands
+www.foxnews.com|Spain|United Kingdom|None
+www.youtube.com|Spain|United Kingdom|United States|United States|None|United States|United States|United States|United States
+www.microsoft.com|Spain|Spain|United States|United States|None|None|None|None|None|Netherlands|United Kingdom|Netherlands
+www.dailymail.co.uk|Spain|United Kingdom|None
+www.instructure.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.ask.com|Spain|United Kingdom|United States|United States|United States|United States|Netherlands|Italy
+www.xfinity.com|Spain|Netherlands
+www.vice.com|Spain|United Kingdom|Spain
+www.huffingtonpost.com|Spain|United Kingdom|None
+www.ups.com|Spain|United Kingdom|Netherlands
+www.microsoftonline.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.washingtonpost.com|Spain|United Kingdom|United States|United States|United Kingdom|United States
+www.bing.com|Spain|Spain|United States|United States|None|None|None|United States|United States

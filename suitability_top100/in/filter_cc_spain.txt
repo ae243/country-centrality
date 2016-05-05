@@ -1,0 +1,80 @@
+www.axisbank.co.in|Spain|Spain|United States|United States|None|None|None|United States|None|None|None|India
+www.mysmartprice.com|Spain|United Kingdom|United States|United States|United States|Singapore|United States|Singapore|Singapore
+www.jabong.com|Spain|United Kingdom|Netherlands
+www.imdb.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.yahoo.com|Spain|United Kingdom|United States|United States|United States|United Kingdom|United States|United States|United States|United Kingdom
+www.zomato.com|Spain|United Kingdom|Netherlands
+www.paytm.in|Spain|Spain|United States|United States|None|None|None|None|None|France|None|None|None|India|India
+www.alibaba.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States|China
+www.naukri.com|Spain|United Kingdom|Netherlands
+www.mr-johal.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.godaddy.com|Spain|United Kingdom|Netherlands
+www.paypal.com|Spain|United Kingdom|Netherlands
+www.axisbank.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United Kingdom|India|India|None|India|India
+www.wikipedia.org|United Kingdom|United States|United States|United Kingdom|United Kingdom|United Kingdom|United Kingdom
+www.wordpress.com|Spain|United Kingdom|United States|United States|United States|United States
+www.stackoverflow.com|Spain|United Kingdom|None|None|United States
+www.oneindia.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|Canada|Canada|Canada|Canada
+www.ndtv.com|Spain|United Kingdom|None
+www.justdial.com|Spain|United Kingdom|None
+www.live.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.linkedin.com|Spain|United Kingdom|United States|United States|United States
+www.bhaskar.com|Spain|United Kingdom|None
+www.blogspot.com|Spain|United Kingdom|United States|United States|None|United States|United States|United States|United States
+www.msn.com|Spain|Spain|United States|United States|None|None|None|United States|United States
+www.flipkart.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|Hong Kong|India
+www.kat.cr|Spain|United Kingdom|France|France|Belize
+www.irctc.co.in|Spain|United Kingdom|United States|United States|United Kingdom|United Kingdom
+www.torrentz.eu|Spain|United Kingdom|None|None|United States
+www.apple.com|Spain|United Kingdom|Spain|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.bookmyshow.com|Spain|United Kingdom|Netherlands
+www.indiatimes.com|Spain|United Kingdom|None
+www.twitter.com|Spain|United Kingdom|United Kingdom|United States
+www.moneycontrol.com|Spain|United Kingdom|None
+www.quikr.com|Spain|United Kingdom|None
+www.reddit.com|Spain|United Kingdom|None|None|United States
+www.indiamart.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.india.com|Spain|United Kingdom|None
+www.imgur.com|Spain|United Kingdom|United States|United States|United States
+www.onclickads.net|Spain|United Kingdom|United States|United States|United States|United States|Netherlands|Netherlands
+www.onlinesbi.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United Kingdom
+www.espncricinfo.com|Spain|United Kingdom|None
+www.rediff.com|Spain|United Kingdom|None
+www.stumbleupon.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.whatsapp.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States
+www.billdesk.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United Kingdom|India|India|None|India|India
+www.olx.in|Spain|United Kingdom|Netherlands
+www.amazon.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.secureserver.net|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.indianexpress.com|Spain|United Kingdom|United States|United States|United States|United States
+www.ebay.in|Spain|United Kingdom|Netherlands
+www.thehindu.com|Spain|United Kingdom|None
+www.xvideos.com|Spain|United Kingdom|United States|United States|United States|United States|Germany|Netherlands
+www.hotstar.com|Spain|United States|United States|None|None|Netherlands
+www.googleusercontent.com|Spain|United Kingdom|United States|United States|None|United States|United States|United States|United States
+www.w3schools.com|Spain|United Kingdom|United Kingdom|Spain|United States
+www.hdfcbank.com|United Kingdom|None|None|United States
+www.speedtest.net|Spain|United Kingdom|Spain|United States
+www.indianrail.gov.in|Spain|Spain|United States|United States|None|None|None|United States|India
+www.tumblr.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States
+www.wordpress.org|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.intoday.in|Spain|United Kingdom|United States|United States|United States|Singapore|Singapore|Singapore
+www.amazonaws.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.jagran.com|Spain|United Kingdom|None
+www.github.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States
+www.youtube.com|Spain|United Kingdom|United States|United States|None|United States|United States|United States|United States
+www.cricbuzz.com|United Kingdom|United States|United States|United States|Singapore|United States|Singapore|Singapore
+www.makemytrip.com|Spain|Spain|United States|United States|None|None|None|United States|None|France|None|None|None|India
+www.ask.com|Spain|Spain|United States|United States|None|None|None|None|None|Netherlands|United Kingdom|None
+www.shopclues.com|Spain|United Kingdom|None
+www.slideshare.net|Spain|United Kingdom|United States|United States|United States
+www.microsoft.com|Spain|United Kingdom|United States|United States|United States|United States|Netherlands|Netherlands
+www.hindustantimes.com|Spain|United Kingdom|None
+www.paytm.com|Spain|United Kingdom|United States|United States|United States|Singapore|Singapore|Singapore
+www.stackexchange.com|Spain|United Kingdom|None|None|United States
+www.vcommission.com|Spain|Spain|United States|United States|None|None|None|United States|India|India|India
+www.airtel.in|Spain|United Kingdom|Netherlands
+www.pornhub.com|Spain|United Kingdom|France|France
+www.google.co.in|Spain|United Kingdom|United States|United States|None|United States|United States|United States|United States
+www.quora.com|Spain|United Kingdom|United States|United States|United Kingdom|United States
+www.bing.com|Spain|Spain|United States|United States|None|None|None|United States|United States

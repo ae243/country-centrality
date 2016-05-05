@@ -1,0 +1,100 @@
+www.ziggo.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States
+www.apple.com|Brazil|Brazil|United States|United States|United States
+www.digid.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United Kingdom|Netherlands|Netherlands|Netherlands
+www.twitch.tv|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.magister.net|None
+www.ad.nl|Brazil|Brazil|Brazil|United States
+www.geenstijl.nl|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.bongacams.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|France|United States
+www.msn.com|Brazil|Brazil|United States
+www.imdb.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.ask.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.nu.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|None|France|France|Spain
+www.mediamarkt.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|Germany
+www.yahoo.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United Kingdom|United States|United States|United Kingdom
+www.9292.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|Sweden|Sweden|Sweden|Sweden|Netherlands|Netherlands
+www.google.pl|Brazil|Brazil|United States|United States|United States
+www.google.com|Brazil|Brazil|United States|United States|United States
+www.ing.nl|Brazil|Brazil|Spain|Spain|United States
+www.beslist.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United Kingdom|Netherlands|Netherlands|Netherlands
+www.ebay.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|United States|France|France|Netherlands
+www.npo.nl|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|Spain|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.amazon.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.microsoftonline.com|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hclips.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.soundcloud.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States
+www.office.com|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.github.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.pornhub.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|France
+www.netflix.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.bva-auctions.com|Brazil|Brazil|Brazil|Brazil|Brazil
+www.youtube.com|Brazil|Brazil|United States|United States|United States
+www.google.nl|Brazil|Brazil|United States|United States|United States
+www.viralmundo.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.nrc.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|Germany|Netherlands|Netherlands|Netherlands
+www.theladbible.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|United States
+www.booking.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|Italy|Italy
+www.txxx.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.buienradar.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United Kingdom|Netherlands|Netherlands|Netherlands
+www.dumpert.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.whatsapp.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Brazil|United States|United States|United States|United States
+www.kat.cr|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|France|United States|United States|Canada|Canada|Canada|Canada
+www.infonu.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United Kingdom
+www.wehkamp.nl|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|Spain|United Kingdom|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.anwb.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States
+www.dropbox.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States
+www.t.co|Brazil|Brazil|United States|United States
+www.adobe.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|United States|United States|United States|United States|United States|United States|United States
+www.viraltrend.nl|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|United States
+www.telegraaf.nl|Brazil|Brazil|United States|United States|United States|Netherlands
+www.paypal.com|Brazil|Brazil|United States
+www.amazon.de|Brazil|Brazil|Brazil|Brazil|Brazil|United States|None|France|France|Ireland|Ireland|United States|Ireland|Ireland
+www.indeed.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.vkmag.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|Spain|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.xhamster.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United Kingdom|Netherlands
+www.vice.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States
+www.publitas.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil
+www.volkskrant.nl|Brazil|Brazil|Spain|Spain
+www.wikipedia.org|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United Kingdom|United Kingdom|United Kingdom|United Kingdom
+www.imgur.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States
+www.overheid.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United Kingdom|Netherlands|Netherlands
+www.tweakers.net|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States
+www.9gag.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|None|France|France|United States|United States|Germany
+www.abnamro.nl|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Italy|Italy|United Kingdom|United States|Netherlands|Netherlands
+www.surfconext.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.instagram.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|Italy|Italy|Ireland|United States|Ireland
+www.pinterest.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.xvideos.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|Germany|Netherlands
+www.funda.nl|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Italy|Italy|Italy|Sweden|None|None|None|None|None|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway
+www.wordpress.com|Brazil|Brazil|United States
+www.bol.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|Spain|United Kingdom|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.wikia.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.nos.nl|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.werk.nl|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|Spain|United Kingdom|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.rabobank.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|Netherlands|Netherlands|Netherlands|Netherlands
+www.weeronline.nl|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|Spain|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.microsoft.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|United States|France|France|Netherlands
+www.facebook.com|Brazil|Brazil|Brazil|Brazil|Brazil|Italy|Italy|Italy|Ireland|United States|Ireland
+www.twitter.com|Brazil|Brazil|United States
+www.startpagina.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|None|France|France|Spain
+www.google.de|Brazil|Brazil|United States|United States|United States
+www.stackoverflow.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.ikea.com|Brazil|Brazil|United States
+www.reddit.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.ns.nl|Brazil|Brazil|Brazil|United States
+www.onclickads.net|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United Kingdom|Netherlands
+www.tumblr.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Italy|Italy|Italy|Italy|United States|United States|United States|United States|United States|United States|United States|United States
+www.postnl.nl|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hm.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.voetbalzone.nl|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|United States
+www.marktplaats.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States
+www.rtlxl.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United Kingdom|Netherlands|Netherlands|Netherlands
+www.ah.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United Kingdom|United Kingdom|None|None|None|United Kingdom
+www.live.com|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States
+www.aliexpress.com|Brazil|Brazil|United States
+www.bbc.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States
+www.linkedin.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.belastingdienst.nl|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|United Kingdom|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.uwv.nl|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|Spain|Spain|Spain|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.bing.com|Brazil|Brazil|United States
+www.zalando.nl|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|France|None|None|None|United Kingdom

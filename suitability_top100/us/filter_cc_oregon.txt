@@ -1,0 +1,100 @@
+www.cnet.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.fidelity.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.irs.gov|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.imdb.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|United States
+www.yahoo.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.zillow.com|United States|None|None|None|United States|United States|United States|United States|United States
+www.facebook.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|Ireland|United States
+www.nih.gov|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None|None|United States|United States|United States
+www.walmart.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|None
+www.pornhub.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|France
+www.usatoday.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.netflix.com|United States|United States
+www.citi.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.dropbox.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.chase.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.intuit.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.about.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.paypal.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|None
+www.gfycat.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.wikipedia.org|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.instagram.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|Ireland|Ireland|United States|United States
+www.wordpress.com|United States|None|None|None|United States|United States|United States|United States|United States|United States
+www.wikia.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.stackoverflow.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.force.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.salesforce.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.groupon.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.comcast.net|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.live.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.gizmodo.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.slickdeals.net|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.linkedin.com|United States|None|None|None|United States|United States|United States|United States|United States
+www.indeed.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.pandora.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.tumblr.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.twitch.tv|United States|None|None|None|United States|United States|United States|United States|United States|United States
+www.verizonwireless.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.msn.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.businessinsider.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.aol.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.cbssports.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.diply.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yelp.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.etsy.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.office.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.target.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.cnn.com|United States|None|None|None|United States|United States|United States|United States|United States|United States
+www.t.co|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.outbrain.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.adobe.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.github.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.att.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.amazon.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None|None|None
+www.apple.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.twitter.com|United States|None|None|None|United States|United States|United States|United States|United States|United States
+www.buzzfeed.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.reddit.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.bestbuy.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.craigslist.org|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.imgur.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.americanexpress.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.kohls.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.bankofamerica.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.conservativetribune.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.fedex.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.google.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.homedepot.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.capitalone.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.lowes.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.forbes.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.espn.go.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.nytimes.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.pinterest.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.xvideos.com|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None|None|None|None|None|Netherlands
+www.realtor.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.googleusercontent.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.taboola.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None|United States|United States|United States
+www.go.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.macys.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|None
+www.weather.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.usps.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.blogspot.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.tripadvisor.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.amazonaws.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None
+www.wellsfargo.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hulu.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.ebay.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.foxnews.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.youtube.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.microsoft.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.dailymail.co.uk|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.instructure.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None|None
+www.ask.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.xfinity.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.vice.com|United States|None|None|None|United States|United States|United States|United States
+www.huffingtonpost.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.ups.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.microsoftonline.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.washingtonpost.com|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None
+www.bing.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States

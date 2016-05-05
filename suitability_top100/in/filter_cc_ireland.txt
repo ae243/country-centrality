@@ -1,0 +1,80 @@
+www.axisbank.co.in|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|None|None|India
+www.mysmartprice.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|Singapore|Singapore
+www.jabong.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.imdb.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|None
+www.yahoo.com|Ireland|None|None|None|Ireland|Ireland|United States|United Kingdom
+www.zomato.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.paytm.in|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|None|None|None|None|None|None|India|India
+www.alibaba.com|Ireland|None|None|None|Ireland|Ireland|Ireland|United Kingdom|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|China|United States|Ireland
+www.naukri.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.mr-johal.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States
+www.godaddy.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.paypal.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.axisbank.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands|India|India|India|India
+www.wikipedia.org|Ireland|None|None|None|Ireland|United States|Ireland|Ireland
+www.wordpress.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland
+www.stackoverflow.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.oneindia.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|None|United States|United States|United States|United States|Canada|Canada|Canada|Canada|Canada
+www.ndtv.com|Ireland|None|None|None|Ireland|Ireland|None
+www.justdial.com|Ireland|None|None|None|Ireland|Ireland|None
+www.live.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States|United States
+www.linkedin.com|Ireland|None|None|None|Ireland
+www.bhaskar.com|Ireland|None|None|None|Ireland|Ireland|None
+www.blogspot.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.msn.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States
+www.flipkart.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands|India
+www.kat.cr|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|France|France|France|France|France
+www.irctc.co.in|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Germany|Germany
+www.torrentz.eu|Ireland|None|None|None|Ireland|Ireland|United States
+www.apple.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.bookmyshow.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.indiatimes.com|Ireland|None|None|None|Ireland|Ireland|None
+www.twitter.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States
+www.moneycontrol.com|Ireland|None|None|None|Ireland|Ireland|None
+www.quikr.com|Ireland|None|None|None|Ireland|Ireland|None
+www.reddit.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.indiamart.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.india.com|Ireland|None|None|None|Ireland|Ireland|None
+www.imgur.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None
+www.onclickads.net|Ireland|None|None|None|Ireland|None|None|None|None|None|Netherlands
+www.onlinesbi.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands
+www.espncricinfo.com|Ireland|None|None|None|Ireland|Ireland|None
+www.rediff.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.stumbleupon.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.whatsapp.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.billdesk.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands|India|India|India|India
+www.olx.in|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.amazon.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|None|None|None
+www.secureserver.net|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Germany|None|None|None|None|None|United States|United States|United States
+www.indianexpress.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland
+www.ebay.in|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.thehindu.com|Ireland|None|None|None|Ireland|Ireland|None
+www.xvideos.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|None|Netherlands
+www.hotstar.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.googleusercontent.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.w3schools.com|Ireland|None|None|None|Ireland|None|None|None|None|United States
+www.hdfcbank.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.speedtest.net|Ireland|None|None|None|Ireland|None|None|None|None|United States
+www.indianrail.gov.in|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|India|India|India|India|India
+www.tumblr.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States
+www.wordpress.org|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None
+www.intoday.in|Ireland|None|None|None|Ireland|None|None|None|None|United States|United States|United States|Singapore|Singapore|Singapore
+www.amazonaws.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|None|None
+www.jagran.com|Ireland|None|None|None|Ireland|Ireland|None
+www.github.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States
+www.youtube.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.cricbuzz.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|Singapore|Singapore
+www.makemytrip.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|None|None|None|None|None|None|India|India
+www.ask.com|Ireland|None|None|None|Ireland|Ireland|None
+www.shopclues.com|Ireland|None|None|None|Ireland|Ireland|None
+www.slideshare.net|Ireland|None|None|None|Ireland
+www.microsoft.com|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.hindustantimes.com|Ireland|None|None|None|Ireland|Ireland|None
+www.paytm.com|Ireland|None|None|None|Ireland|None|None|None|None|United States|United States|United States|Singapore|Singapore|Singapore
+www.stackexchange.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.vcommission.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Netherlands|India|India|India
+www.airtel.in|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.pornhub.com|Ireland|None|None|None|Ireland|France|France
+www.google.co.in|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.quora.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|None
+www.bing.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States

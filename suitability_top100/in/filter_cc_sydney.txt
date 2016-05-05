@@ -1,0 +1,80 @@
+www.axisbank.co.in|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|India
+www.mysmartprice.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|Singapore|Singapore
+www.jabong.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia|Australia
+www.imdb.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None
+www.yahoo.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Hong Kong
+www.zomato.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia
+www.paytm.in|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|India|India
+www.alibaba.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|China|United States|Australia
+www.naukri.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia|Australia
+www.mr-johal.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States
+www.godaddy.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.paypal.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.axisbank.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States|United States|United States|United States|United States|United Kingdom|India|India|India|India
+www.wikipedia.org|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States
+www.wordpress.com|Australia|None|None|None|Australia|Australia|Australia
+www.stackoverflow.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.oneindia.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|Singapore|Singapore|Singapore
+www.ndtv.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.justdial.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.live.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States
+www.linkedin.com|Australia|None|None|None|Australia|Australia|Australia
+www.bhaskar.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.blogspot.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.msn.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.flipkart.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|Hong Kong|India
+www.kat.cr|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|Belize
+www.irctc.co.in|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|Italy|Italy|India
+www.torrentz.eu|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.apple.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.bookmyshow.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.indiatimes.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.twitter.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.moneycontrol.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.quikr.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.reddit.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.indiamart.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States
+www.india.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States
+www.imgur.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia
+www.onclickads.net|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands
+www.onlinesbi.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States|United States|United States|United States|United States|United Kingdom
+www.espncricinfo.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.rediff.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.stumbleupon.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States|United States|United States
+www.whatsapp.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States
+www.billdesk.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Japan|Japan|Australia|India|India|India|India
+www.olx.in|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.amazon.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None
+www.secureserver.net|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States|United States
+www.indianexpress.com|Australia|None|None|None|Australia|Australia|Australia
+www.ebay.in|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.thehindu.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.xvideos.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|Germany|Netherlands
+www.hotstar.com|Australia|None|None|None|Australia|Australia|Australia|Australia
+www.googleusercontent.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.w3schools.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.hdfcbank.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.speedtest.net|Australia|None|None|None|Australia|Australia|Australia|Australia|None
+www.indianrail.gov.in|Australia|None|None|None|Australia|Australia|Australia|Australia|Japan|Japan|Australia|India
+www.tumblr.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States
+www.wordpress.org|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States
+www.intoday.in|Australia|None|None|None|Australia|Australia|Australia|United States|Japan|United States|United States|Singapore|Singapore
+www.amazonaws.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None
+www.jagran.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.github.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States
+www.youtube.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.cricbuzz.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|Singapore|Singapore
+www.makemytrip.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|India
+www.ask.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.shopclues.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.slideshare.net|Australia|None|None|None|Australia|Australia|Australia
+www.microsoft.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.hindustantimes.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.paytm.com|Australia|None|None|None|Australia|Australia|Australia|United States|Japan|United States|United States|Singapore|Singapore
+www.stackexchange.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.vcommission.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States|India|India|India
+www.airtel.in|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.pornhub.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|None|France
+www.google.co.in|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.quora.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia|Australia
+www.bing.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States

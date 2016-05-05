@@ -1,0 +1,100 @@
+www.cnet.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Argentina
+www.fidelity.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|United States
+www.irs.gov|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|United States
+www.imdb.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States
+www.yahoo.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.zillow.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.facebook.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|Ireland
+www.nih.gov|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.walmart.com|Brazil|Brazil|United States
+www.pornhub.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|France
+www.usatoday.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Argentina
+www.netflix.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.citi.com|Brazil|Brazil|United States
+www.dropbox.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States
+www.chase.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States
+www.intuit.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|None|None|None|None|United States
+www.about.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States
+www.paypal.com|Brazil|Brazil|United States
+www.gfycat.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.wikipedia.org|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States
+www.instagram.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|Ireland
+www.wordpress.com|Brazil|Brazil|United States
+www.wikia.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.stackoverflow.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.force.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.salesforce.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.groupon.com|Brazil|Brazil|United States
+www.comcast.net|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Argentina
+www.live.com|Brazil|Brazil|United States|United States|United States|United States
+www.gizmodo.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.slickdeals.net|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States
+www.linkedin.com|Brazil|Brazil|Brazil|Brazil|Brazil
+www.indeed.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Brazil|United States|United States|United States|United States|United States
+www.pandora.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.tumblr.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Italy|Italy|Italy|Italy|United States|United States|United States|United States|United States|United States
+www.twitch.tv|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.verizonwireless.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States
+www.msn.com|Brazil|Brazil|United States
+www.businessinsider.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.aol.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States
+www.cbssports.com|Brazil|Brazil|United States
+www.diply.com|Brazil|Brazil|United States|United States|United States|United States|United States
+www.yelp.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.etsy.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.office.com|Brazil|Brazil|United States|United States|United States|United States
+www.target.com|Brazil|Brazil|United States
+www.cnn.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States
+www.t.co|Brazil|Brazil|United States
+www.outbrain.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|United States
+www.adobe.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Italy|Italy|Italy|United States
+www.github.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.att.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|United States
+www.amazon.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States
+www.apple.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Italy|Italy|Italy|United States
+www.twitter.com|Brazil|Brazil|United States
+www.buzzfeed.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.reddit.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.bestbuy.com|Brazil|Brazil|United States
+www.craigslist.org|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States
+www.imgur.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.americanexpress.com|Brazil|Brazil|United States
+www.kohls.com|Brazil|Brazil|United States
+www.bankofamerica.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States
+www.conservativetribune.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.fedex.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|United States
+www.google.com|Brazil|Brazil|United States|United States|United States
+www.homedepot.com|Brazil|Brazil|United States
+www.capitalone.com|Brazil|Brazil|United States
+www.lowes.com|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|United States
+www.forbes.com|Brazil|Brazil|United States
+www.espn.go.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.nytimes.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.pinterest.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.xvideos.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|Germany|Netherlands
+www.realtor.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States
+www.googleusercontent.com|Brazil|Brazil|United States|United States|United States|United States
+www.taboola.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.go.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States
+www.macys.com|Brazil|Brazil|United States
+www.weather.com|Brazil|Brazil|United States|United States|United States|United States
+www.usps.com|Brazil|Brazil|United States|United States|United States|United States
+www.blogspot.com|Brazil|Brazil|United States|United States|United States|United States
+www.tripadvisor.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|United States
+www.amazonaws.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States
+www.wellsfargo.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States
+www.hulu.com|Brazil|Brazil|United States
+www.ebay.com|Brazil|Brazil|United States|United States|United States|United States
+www.foxnews.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Argentina
+www.youtube.com|Brazil|Brazil|United States|United States|United States
+www.microsoft.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|United States|Spain|Italy|Italy|Italy|United States
+www.dailymail.co.uk|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Italy|Argentina
+www.instructure.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States
+www.ask.com|Brazil|Brazil|United States
+www.xfinity.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|United States
+www.vice.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States
+www.huffingtonpost.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|United States|Spain|Argentina
+www.ups.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States
+www.microsoftonline.com|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States
+www.washingtonpost.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Italy|Italy|Italy|Sweden|None|None
+www.bing.com|Brazil|Brazil|United States

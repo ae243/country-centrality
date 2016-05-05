@@ -1,0 +1,100 @@
+www.ziggo.nl|France|France|United States|None|None|None|United States|United States
+www.apple.com|France|France|United States|None|United States|France|Netherlands|Netherlands
+www.digid.nl|None|United States|Netherlands|Netherlands
+www.twitch.tv|France|France|United States|None|United States|None|United States
+www.magister.net|None
+www.ad.nl|France|France|United States|None|None|France|Netherlands
+www.geenstijl.nl|France|France|United States|None|None|United States|United States|United States
+www.bongacams.com|France|France|United States|None|France|France|United States
+www.msn.com|France|France|France|United States
+www.imdb.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.ask.com|France|France|United States|None|United States
+www.nu.nl|France|France|United States|None|France|France
+www.mediamarkt.nl|France|France|United States|None|None|None|United States|Germany
+www.yahoo.com|France|France|United States|None|United States|None|United States|United States|United Kingdom|United States|United States|United States|United Kingdom
+www.9292.nl|France|France|United States|None|None|None|Netherlands|Sweden|Sweden|Netherlands|Netherlands
+www.google.pl|France|France|United States|None|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.google.com|France|France|United States|None|United States|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.ing.nl|France|France|United States|None|United States|France|Netherlands
+www.beslist.nl|France|France|United States|None|United States|None|Netherlands|Netherlands|Netherlands
+www.ebay.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States
+www.npo.nl|France|France|United States|None|None|France|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.amazon.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.microsoftonline.com|France|France|France|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hclips.com|France|France|United States|None|None|United States|United States|United States
+www.soundcloud.com|None|None|None|None|United States
+www.office.com|France|France|France|United States|United States|United States|United States|United States
+www.github.com|France|France|United States|None|United States|United States|United States|United States
+www.pornhub.com|France|France|United States|None|France
+www.netflix.com|France|France|United States|None|France|United States|United States|United States|United States
+www.bva-auctions.com|France|France|United States|None|None|France|Netherlands
+www.youtube.com|France|France|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.google.nl|France|France|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.viralmundo.nl|France|France|United States|None|United States
+www.nrc.nl|France|France|United States|None|United States|None|United Kingdom|Netherlands|Netherlands
+www.theladbible.com|France|France|United States|None|None|United States|United States|United States
+www.booking.com|France|France|United States|None|None|None|None|None|None|None
+www.txxx.com|France|France|United States|None|None|United States|United States|United States
+www.buienradar.nl|France|France|United States|None|United States|None|Netherlands|Netherlands|Netherlands
+www.dumpert.nl|France|France|United States|None|None|United States|United States|United States
+www.whatsapp.com|France|France|United States|None|None|None|None|None|None|None|United States|United States|United States
+www.kat.cr|France|France|United States|None|France|Belize
+www.infonu.nl|France|France|United States|None|France|Germany
+www.wehkamp.nl|France|France|United States|None|United States|None|Netherlands|Sweden|Sweden|Netherlands|Netherlands
+www.anwb.nl|France|France|United States|None|United States|None|United States
+www.dropbox.com|France|France|United States|None|France|United States
+www.t.co|France|France|United States|None|United States|None|United Kingdom|United States
+www.adobe.com|France|France|United States|None|United States|None|United States|United States|United States|Netherlands|Netherlands
+www.viraltrend.nl|France|France|United States|None|None|United States|United States|United States
+www.telegraaf.nl|France|France|United States|None|France|France
+www.paypal.com|France|France|United States|None|United States|France
+www.amazon.de|France|France|United States|None|France|France|Ireland|Ireland|Ireland
+www.indeed.nl|France|France|United States|None|None|None|None|None|None|None|United Kingdom|United Kingdom|United Kingdom|United Kingdom
+www.vkmag.com|France|France|United States|None|None|None|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.xhamster.com|France|France|United States|None|United States|None|United States
+www.vice.com|France|France|United States|None|France|France
+www.publitas.com|France|France|United States|None|France|France
+www.volkskrant.nl|France|France|United States|None|United States|France
+www.wikipedia.org|France|France|United States|None|United States|None|Netherlands|Netherlands
+www.imgur.com|France|France|United States|None|United States|United States|None
+www.overheid.nl|France|France|United States|None|United States|None|Netherlands|Netherlands
+www.tweakers.net|France|France|United States|None|France
+www.9gag.com|France|France|United States|None|France|France|Germany|Germany|Germany
+www.abnamro.nl|France|France|United States|None|United States|United States|None|Netherlands|Netherlands
+www.surfconext.nl|France|France|United States|None|France|France|Netherlands|Netherlands
+www.instagram.com|France|France|United States|None|None|United States|United States|United States|United States
+www.pinterest.com|France|France|United States|None|United States|France
+www.xvideos.com|France|France|United States|None|None|None|None|None|None|None|Netherlands
+www.funda.nl|France|France|United States|None|France|France|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands
+www.wordpress.com|France|France|United States|None|None|None|None|None|None
+www.bol.com|France|France|United States|None|United States|None|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.wikia.com|France|France|United States|None|United States
+www.nos.nl|France|France|United States|None|United States|France|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.werk.nl|France|France|United States|None|United States|None|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.rabobank.nl|France|France|United States|None|United States|None|Netherlands|Netherlands
+www.weeronline.nl|France|France|United States|None|None|None|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.microsoft.com|France|France|United States|None|United States|None|United States|United States|United States|Netherlands|Netherlands
+www.facebook.com|France|France|United States|None|None|France|United States|United States|United States
+www.twitter.com|France|France|United States|None|United States|None|United Kingdom
+www.startpagina.nl|France|France|United States|None|France|France|Spain|Spain
+www.google.de|France|France|United States|None|United States|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.stackoverflow.com|France|France|United States|None|None|United States|United States|United States
+www.ikea.com|France|France|United States|None|United States|France|France
+www.reddit.com|France|France|United States|None|None|United States|United States|United States
+www.ns.nl|France|France|United States|None|United States|France|Netherlands
+www.onclickads.net|France|France|United States|None|None|None|None|None|None|None|Netherlands
+www.tumblr.com|France|France|United States|None|United States|None|United States|United States|United States|United States|United States|United States|United States
+www.postnl.nl|France|France|France|United States|United States|United States|United States|United States
+www.hm.com|France|France|United States|None|United States|France|Netherlands
+www.voetbalzone.nl|France|France|United States|None|None|United States|United States|United States
+www.marktplaats.nl|France|France|United States|None|United States|France|Netherlands|Netherlands|Netherlands
+www.rtlxl.nl|France|France|United States|None|None|None|Netherlands|Netherlands|Netherlands
+www.ah.nl|France|France|United States|None|United States|None|None|None|United Kingdom
+www.live.com|France|France|France|United States|United States|United States|United States
+www.aliexpress.com|France|France|United States|None|United States
+www.bbc.com|France|France|United States|None|United States|None
+www.linkedin.com|France|France|United States|None|None|None|None|None|None
+www.belastingdienst.nl|France|France|United States|None|None|None|Netherlands|Netherlands
+www.uwv.nl|France|France|United States|None|None|None|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.bing.com|France|France|France|United States
+www.zalando.nl|France|France|United States|None|United States|None|France|None|None|None|United Kingdom

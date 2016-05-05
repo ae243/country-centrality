@@ -1,0 +1,80 @@
+www.axisbank.co.in|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United Kingdom|United Kingdom|None|United States
+www.mysmartprice.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|Singapore|Singapore
+www.jabong.com|Brazil|Brazil|United States
+www.imdb.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yahoo.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United Kingdom|United States|United States|United Kingdom
+www.zomato.com|Brazil|Brazil|United States
+www.paytm.in|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None|None|None|India|India
+www.alibaba.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States
+www.naukri.com|Brazil|Brazil|United States
+www.mr-johal.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Brazil|United States|United States|United States|United States|United States|United States
+www.godaddy.com|Brazil|Brazil|United States
+www.paypal.com|Brazil|Brazil
+www.axisbank.com|Brazil|Brazil|Brazil|Brazil|Brazil|Italy|Italy|Italy|India|India|India|India|India
+www.wikipedia.org|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United Kingdom|United Kingdom|United Kingdom|United Kingdom
+www.wordpress.com|Brazil|Brazil|United States
+www.stackoverflow.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.oneindia.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|Canada|Canada|Canada|Canada|Canada
+www.ndtv.com|Brazil|Brazil|United States
+www.justdial.com|Brazil|Brazil|United States
+www.live.com|Brazil|Brazil|United States|United States|United States|United States|United States|United States
+www.linkedin.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.bhaskar.com|Brazil|Brazil|United States
+www.blogspot.com|Brazil|Brazil|United States|United States|United States
+www.msn.com|Brazil|Brazil|United States
+www.flipkart.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States|Hong Kong|India
+www.kat.cr|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|France|United States|United States|Canada|Canada|Canada|Canada
+www.irctc.co.in|Brazil|Brazil|Brazil|Brazil|Brazil|United States|Italy|Italy|India
+www.torrentz.eu|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|United States
+www.apple.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|United States|United States|United States|United States|United States|United States|United States|Poland|None|None|Netherlands
+www.bookmyshow.com|Brazil|Brazil|United States
+www.indiatimes.com|Brazil|Brazil|United States
+www.twitter.com|Brazil|Brazil|United States|United States
+www.moneycontrol.com|Brazil|Brazil|United States
+www.quikr.com|Brazil|Brazil|United States
+www.reddit.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.indiamart.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States
+www.india.com|Brazil|Brazil|United States
+www.imgur.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States
+www.onclickads.net|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United Kingdom|Netherlands
+www.onlinesbi.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United Kingdom|United Kingdom|None|United States
+www.espncricinfo.com|Brazil|Brazil|United States
+www.rediff.com|Brazil|Brazil|United States
+www.stumbleupon.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States
+www.whatsapp.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Brazil|United States|United States|United States|United States|United States|United States
+www.billdesk.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|Italy|Italy|India|India|India|India
+www.olx.in|Brazil|Brazil|United States
+www.amazon.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.secureserver.net|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States
+www.indianexpress.com|Brazil|Brazil|United States
+www.ebay.in|Brazil|Brazil|United States
+www.thehindu.com|Brazil|Brazil|United States
+www.xvideos.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|Germany|Netherlands
+www.hotstar.com|Brazil|Brazil|United States
+www.googleusercontent.com|Brazil|Brazil|United States|United States|United States
+www.w3schools.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States
+www.hdfcbank.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.speedtest.net|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States
+www.indianrail.gov.in|Brazil|Brazil|Brazil|Brazil|Brazil|United States|Italy|Italy|India
+www.tumblr.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Italy|Italy|Italy|Italy|United States|United States|United States|United States|United States|United States|United States|United States
+www.wordpress.org|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States
+www.intoday.in|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Italy|Italy|Singapore|Singapore|Singapore
+www.amazonaws.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.jagran.com|Brazil|Brazil|United States
+www.github.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.youtube.com|Brazil|Brazil|United States|United States|United States
+www.cricbuzz.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Brazil|United States|United States|United States|United States|United States|United States|United States|United States|Singapore|Singapore
+www.makemytrip.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|United States|United States|United States|United States|United States|None|None|None|None|None|None|India|India|India
+www.ask.com|Brazil|Brazil|United States
+www.shopclues.com|Brazil|Brazil|United States
+www.slideshare.net|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States
+www.microsoft.com|Brazil|Brazil|Brazil|Brazil|Brazil|Brazil|Spain|Spain|Spain|United States|France|France|Netherlands
+www.hindustantimes.com|Brazil|Brazil|United States
+www.paytm.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Italy|Italy|Singapore|Singapore|Singapore
+www.stackexchange.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States
+www.vcommission.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Italy|Italy|Italy|Italy|United States|United States|Singapore|India|India|India|India|India
+www.airtel.in|Brazil|Brazil
+www.pornhub.com|Brazil|Brazil|Brazil|Brazil|Brazil|United States|United States|France
+www.google.co.in|Brazil|Brazil|United States|United States|United States
+www.quora.com|Brazil|Brazil|Brazil|Brazil|Brazil|None|None|None|Italy|Italy|Italy|Italy|United States|United States
+www.bing.com|Brazil|Brazil|United States

@@ -1,0 +1,80 @@
+www.axisbank.co.in|Japan|Japan|Japan|Japan|India|India|India|Singapore|Singapore|India|India|India|India
+www.mysmartprice.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States
+www.jabong.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.imdb.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yahoo.com|Japan|Japan|Japan|Japan|Japan|Japan|Hong Kong|Hong Kong|Singapore|Singapore|Singapore
+www.zomato.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.paytm.in|Japan|Japan|Japan|Japan|India|India|India|Singapore|Singapore|India|India|India|India|India
+www.alibaba.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States
+www.naukri.com|Japan|Japan|Japan|Japan|Japan
+www.mr-johal.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States
+www.godaddy.com|Japan|Japan|Japan|Japan|Japan|United States
+www.paypal.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.axisbank.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United Kingdom|United Kingdom|United States|India|India|India|India|India
+www.wikipedia.org|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.wordpress.com|Japan|Japan|Japan|Japan
+www.stackoverflow.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.oneindia.com|Japan|Japan|Japan|Japan|United States|Japan|United States|United States|Singapore
+www.ndtv.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.justdial.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.live.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States
+www.linkedin.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States
+www.bhaskar.com|Japan|Japan|Japan|Japan|Japan|United States
+www.blogspot.com|Japan|Japan|Japan|Japan|United States|United States|United Kingdom|United States
+www.msn.com|Japan|Japan|Japan|Japan|Japan|United States|United States
+www.flipkart.com|Japan|Japan|Japan|Japan|Japan|United States|Singapore|Singapore|India
+www.kat.cr|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|Canada|Canada
+www.irctc.co.in|Japan|Japan|Japan|Japan|Japan|Japan|None|None|India|India|India|India|India|India|India|India|India|India
+www.torrentz.eu|Japan|Japan|Japan|Japan|United States
+www.apple.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.bookmyshow.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.indiatimes.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.twitter.com|Japan|Japan|Japan|Japan|Japan|United States
+www.moneycontrol.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.quikr.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.reddit.com|Japan|Japan|Japan|Japan|Japan|United States
+www.indiamart.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States
+www.india.com|Japan|Japan|Japan|Japan|Japan|United States
+www.imgur.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.onclickads.net|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands
+www.onlinesbi.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.espncricinfo.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.rediff.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.stumbleupon.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.whatsapp.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.billdesk.com|Japan|Japan|Japan|Japan|Japan|None|Japan|Japan|Japan|Australia|India|India|India|India
+www.olx.in|Japan|Japan|Japan|Japan|Japan|United States
+www.amazon.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.secureserver.net|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States
+www.indianexpress.com|Japan|Japan|Japan|Japan|Japan
+www.ebay.in|Japan|Japan|Japan|Japan|Japan|United States
+www.thehindu.com|Japan|Japan|Japan|Japan|Japan|United States
+www.xvideos.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|Germany|Netherlands
+www.hotstar.com|Japan|Japan|Japan|Japan|Japan|United States
+www.googleusercontent.com|Japan|Japan|Japan|Japan|Japan|United Kingdom|United Kingdom|United States
+www.w3schools.com|Japan|Japan|Japan|Japan|United States|United States|United States
+www.hdfcbank.com|Japan|Japan|Japan|Japan|Japan
+www.speedtest.net|Japan|Japan|Japan|Japan|Japan|Japan|None|None|Japan|Japan|None
+www.indianrail.gov.in|Japan|Japan|Japan|Japan|Japan|Japan|None|Japan|Japan|Australia
+www.tumblr.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States
+www.wordpress.org|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.intoday.in|Japan|Japan|Japan|Japan|United States|United States|Singapore|Singapore|Singapore
+www.amazonaws.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.jagran.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.github.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.youtube.com|Japan|Japan|Japan|Japan|United States|United Kingdom|United States|United States
+www.cricbuzz.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|Singapore
+www.makemytrip.com|Japan|Japan|Japan|Japan|India|Singapore|Singapore|Singapore|Singapore|Singapore|India|India
+www.ask.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.shopclues.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.slideshare.net|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States
+www.microsoft.com|Japan|Japan|Japan|Japan|Japan|United States
+www.hindustantimes.com|Japan|Japan|Japan|Japan|Japan
+www.paytm.com|Japan|Japan|Japan|Japan|United States|United States|Singapore|Singapore|Singapore
+www.stackexchange.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.vcommission.com|Japan|Japan|Japan|Japan|Japan|Japan|None|Singapore|Singapore|India|India|India|India|India|India|India|India
+www.airtel.in|Japan|Japan|Japan|Japan|Japan|Japan
+www.pornhub.com|Japan|Japan|Japan|Japan|United States|United States|United States
+www.google.co.in|Japan|Japan|Japan|Japan|Japan|United States|United States|United States
+www.quora.com|Japan|Japan|Japan|Japan|Japan|United States|Hong Kong
+www.bing.com|Japan|Japan|Japan|Japan|Japan|United States|United States

@@ -1,0 +1,59 @@
+www.magazineluiza.com.br|Ireland|None|None|None|Ireland|Ireland|Ireland
+www.ofertaz.net|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States
+www.saraiva.com.br|Ireland|None|None|None|Ireland|Ireland|Netherlands
+www.mercadolivre.com.br|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United States|Spain|Spain|Spain|Argentina
+www.R7.com|Ireland|None|None|None|Ireland|Ireland|None
+www.msn.com|Ireland|None|None|None|Ireland|Ireland|United States|United States
+www.netshoes.com.br|Ireland|None|None|None|Ireland|Ireland|None
+www.globo.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United States|Spain|Spain|Spain|Spain|Brazil
+www.yahoo.com|Ireland|None|None|None|Ireland|Ireland|United States|United Kingdom
+www.filmesonlinegratis.net|Ireland|None|None|None|Ireland|Ireland|United States
+www.adf.ly|Ireland|None|None|None|Ireland|Ireland|United States
+www.shoptime.com.br|Ireland|None|None|None|Ireland|Ireland|United Kingdom|None|None|Spain
+www.4shared.com|Ireland|None|None|None|Ireland|None|None|None|None|None
+www.fatosdesconhecidos.com.br|Ireland|None|None|None|Ireland|Ireland|None
+www.amazonaws.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|None|United States
+www.extra.com.br|Ireland|None|None|None|Ireland|Ireland|None
+www.google.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.kabum.com.br|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|None|None|None
+www.whatsapp.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.amazon.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|None|None
+www.clicrbs.com.br|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Brazil|Brazil
+www.netflix.com|Ireland|Ireland
+www.adk2.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|United States|United States|None|None|United States|United States
+www.brazil-mmm.net|Ireland|None|None|None|Ireland|Ireland|United States
+www.blogosfera.uol.com.br|Ireland|None|None|None|Ireland|None|None|None|None|None|Brazil|Brazil|Brazil|Brazil
+www.americanas.com.br|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|None
+www.fazenda.gov.br|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Brazil|Brazil|Brazil|Brazil
+www.youtube.com|Ireland|None|None|None|Ireland|Ireland|United States|United States|United States
+www.Itau.com.br|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom
+www.linkedin.com|Ireland|None|None|None|Ireland
+www.booking.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom
+www.terra.com.br|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United States|Spain|Spain|Spain|Spain|United States|United States|United States|United States
+www.live.com|Ireland|None|None|None|Ireland|Ireland
+www.tecmundo.com.br|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.sp.gov.br|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|None|None|None|None|Italy|Italy|Italy|Italy|Brazil
+www.vagalume.com.br|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|None
+www.pontofrio.com.br|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.ask.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|None
+www.paypal.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.aliexpress.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.noticias.uol.com.br|Ireland|None|None|None|Ireland|None|None|None|None|None|Brazil|Brazil|Brazil
+www.folha.uol.com.br|Ireland|None|None|None|Ireland|None|None|None|None|None|Brazil|Brazil|None|None
+www.submarino.com.br|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.pinterest.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.xvideos.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|None|Netherlands
+www.lomadee.com|Ireland|None|None|None|Ireland|None|None|None|None|Italy|Italy|Italy|Italy|United States|Brazil|Brazil
+www.reimageplus.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.facebook.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|Ireland|Ireland|Ireland|United States
+www.twitter.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States
+www.stackoverflow.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.popads.net|Ireland|None|None|None|Ireland|Ireland|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.techtudo.com.br|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United States|Spain|Spain|Spain|Spain|Brazil
+www.lg.com.br|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|China|China|China
+www.abril.com.br|Ireland|None|None|None|Ireland|Ireland|None
+www.buscape.com.br|Ireland|None|None|None|Ireland|None|None|None|None|Italy|Italy|Italy|Italy|United States|Brazil|Brazil
+www.baixaki.com.br|Ireland|None|None|None|Ireland|Ireland|Ireland|United Kingdom|United Kingdom|Netherlands
+www.correios.com.br|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland
+www.uol.com.br|Ireland|None|None|None|Ireland|None|None|None|None|None|Brazil|Brazil|None
+www.estadao.com.br|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|None

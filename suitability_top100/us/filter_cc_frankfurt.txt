@@ -1,0 +1,100 @@
+www.cnet.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.fidelity.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.irs.gov|Germany|Germany|United States|United States|Germany|Netherlands
+www.imdb.com|Germany|Germany|United States|United States|United States|United States|United States|United States
+www.yahoo.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States|United States
+www.zillow.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.facebook.com|Germany|Germany|United States|United States|Germany|Ireland|United States|United States|Ireland|Ireland|United States
+www.nih.gov|Germany|Germany|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.walmart.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.pornhub.com|Germany|Germany|United States|United States|France|France
+www.usatoday.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.netflix.com|Germany|Germany|United States|United States|United States|Ireland|Ireland|Ireland|Ireland|Ireland
+www.citi.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.dropbox.com|Germany|Germany|United States|United States|Luxembourg|United States|Ireland|United States
+www.chase.com|Germany|Germany|United States|United States|None|None|None|None|None|None|United States|United States
+www.intuit.com|Germany|Germany|United States|United States|None|None|None|None|None|United States
+www.about.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States|United States|United States
+www.paypal.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.gfycat.com|Germany|Germany|United States|United States|Germany|United States
+www.wikipedia.org|Germany|Germany|United States|United States|United States|Ireland|Ireland|Ireland
+www.instagram.com|Germany|Germany|United States|United States|Germany|Ireland|United States|United States|Ireland|Ireland|United States
+www.wordpress.com|Germany|Germany|United States|United States
+www.wikia.com|Germany|Germany|United States|United States|None
+www.stackoverflow.com|Germany|Germany|United States|Czech Republic|Germany|United States
+www.force.com|Germany|Germany|United States|United States|None|None|None|None|None|None|United States|United States
+www.salesforce.com|Germany|Germany|United States|United States|None|None|None|None|None|United States|United States|None
+www.groupon.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.comcast.net|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.live.com|Germany|Germany|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.gizmodo.com|Germany|Germany|United States|United States|None
+www.slickdeals.net|Germany|Germany|United States|United States|None|None|None|None|None|None|United States|United States|United States|United States
+www.linkedin.com|Germany|Germany|United States|United States
+www.indeed.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States
+www.pandora.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.tumblr.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States|United States|United States
+www.twitch.tv|Germany|Germany|United States|United States|Luxembourg
+www.verizonwireless.com|Germany|Germany|United States|United States|None|United States|United States|United States
+www.msn.com|Germany|Germany|United States|United States|United States|United States
+www.businessinsider.com|Germany|Germany|United States|United States|None
+www.aol.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States|United States
+www.cbssports.com|Germany|Germany|United States|United States|Germany|None
+www.diply.com|Germany|Germany|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yelp.com|Germany|Germany|United States|United States|Czech Republic|United States
+www.etsy.com|Germany|Germany|United States|United States|None
+www.office.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.target.com|Germany|Germany|United States|United States|Germany|None
+www.cnn.com|Germany|Germany|United States|United States|None
+www.t.co|Germany|Germany|United States|United States|Germany|United States
+www.outbrain.com|Germany|Germany|United States|United States|Germany|Netherlands|United States
+www.adobe.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.github.com|Germany|Germany|United States|United States|United Kingdom|United States|United States|United States
+www.att.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.amazon.com|Germany|Germany|United States|United States|United States|United States|United States|United States
+www.apple.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.twitter.com|Germany|Germany|United States|United States|Germany|United States
+www.buzzfeed.com|Germany|Germany|United States|United States|None
+www.reddit.com|Germany|Germany|United States|United States|Germany|United States
+www.bestbuy.com|Germany|Germany|United States|United States|Germany|None
+www.craigslist.org|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.imgur.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.americanexpress.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.kohls.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.bankofamerica.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|Netherlands
+www.conservativetribune.com|Germany|Germany|United States|United States|Germany
+www.fedex.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.google.com|Germany|Germany|United States|United States|None|None|United States|United States|United States|United States|United States|United States|United States
+www.homedepot.com|Germany|Germany|United States|United States|Germany|None
+www.capitalone.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.lowes.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.forbes.com|Germany|Germany|United States|United States|Germany|None
+www.espn.go.com|Germany|Germany|United States|United States|None|None|None|None|United States|United States|None|United States|United States|United States|United States|United States|United States|United States
+www.nytimes.com|Germany|Germany|United States|United States|Germany|United States|United States
+www.pinterest.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.xvideos.com|Germany|Germany|United States|United States|None|None|None|None|None|None|Netherlands
+www.realtor.com|Germany|Germany|United States|United States|Germany|United States|United States|United States
+www.googleusercontent.com|Germany|Germany|United States|United States|None|None|None|United States|United States
+www.taboola.com|Germany|Germany|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.go.com|Germany|Germany|United States|United States|None|United States|United States|United States|United States
+www.macys.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.weather.com|Germany|Germany|United States|United States|Germany|Netherlands|United States
+www.usps.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.blogspot.com|Germany|Germany|United States|United States|None|None|United States|None|United States
+www.tripadvisor.com|Germany|Germany|United States|United States|Germany|Netherlands|United States
+www.amazonaws.com|Germany|Germany|United States|United States|United States|United States|United States|United States
+www.wellsfargo.com|Germany|Germany|United States|United States|Germany|United States|United States|Netherlands|Netherlands
+www.hulu.com|Germany|Germany|United States|United States|Germany|None
+www.ebay.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.foxnews.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.youtube.com|Germany|Germany|United States|United States|None|None|United States|United States|United States
+www.microsoft.com|Germany|Germany|United States|United States|Germany|United Kingdom|Netherlands
+www.dailymail.co.uk|Germany|Germany|United States|United States|None|None|None|None|None
+www.instructure.com|Germany|Germany|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.ask.com|Germany|Germany|United States|United States|Germany|None
+www.xfinity.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.vice.com|Germany|Germany|United States|United States|None|United States|France|None|Netherlands|None
+www.huffingtonpost.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.ups.com|Germany|Germany|United States|United States|Germany|United Kingdom|Netherlands
+www.microsoftonline.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States
+www.washingtonpost.com|Germany|Germany|United States|United States|None|None|United States
+www.bing.com|Germany|Germany|United States|United States|Germany|United States

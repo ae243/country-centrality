@@ -1,0 +1,80 @@
+www.axisbank.co.in|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|India|India
+www.mysmartprice.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Singapore
+www.jabong.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.imdb.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|United States
+www.yahoo.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.zomato.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.paytm.in|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|India|India
+www.alibaba.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|China|China
+www.naukri.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.mr-johal.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.godaddy.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.paypal.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.axisbank.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|India|India|India|India|India
+www.wikipedia.org|United States|None|None|None|United States|United States|United States|United States|United States
+www.wordpress.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.stackoverflow.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.oneindia.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Canada|Canada|Canada|Canada|Canada
+www.ndtv.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.justdial.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.live.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.linkedin.com|United States|None|None|None|United States|United States|United States|United States
+www.bhaskar.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.blogspot.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.msn.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.flipkart.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|India
+www.kat.cr|United States|None|None|None|United States|United States|United States|United States|United States|United States|France|Canada|Canada|Canada|Canada|Canada|Canada|Canada
+www.irctc.co.in|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|None|United Kingdom|None|None|United Kingdom|India|India|India|India
+www.torrentz.eu|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.apple.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.bookmyshow.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.indiatimes.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.twitter.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.moneycontrol.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.quikr.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.reddit.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.indiamart.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.india.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.imgur.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.onclickads.net|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands
+www.onlinesbi.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.espncricinfo.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.rediff.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.stumbleupon.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.whatsapp.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.billdesk.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|India|India|India|India
+www.olx.in|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.amazon.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None|None|None|None|None
+www.secureserver.net|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.indianexpress.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.ebay.in|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.thehindu.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.xvideos.com|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None|None|None|None|None|Netherlands
+www.hotstar.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.googleusercontent.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.w3schools.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.hdfcbank.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.speedtest.net|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.indianrail.gov.in|United States|None|None|None|United States|United States|United States|United States|United States|United States|India
+www.tumblr.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.wordpress.org|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.intoday.in|United States|None|None|None|United States|United States|United States|United States|Japan|United States|United States|Singapore|Singapore
+www.amazonaws.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|United States
+www.jagran.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.github.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.youtube.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.cricbuzz.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Singapore
+www.makemytrip.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|India|India|India
+www.ask.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.shopclues.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.slideshare.net|United States|None|None|None|United States|United States|United States|United States|United States
+www.microsoft.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hindustantimes.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.paytm.com|United States|None|None|None|United States|United States|United States|United States|Japan|United States|United States|Singapore|Singapore
+www.stackexchange.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.vcommission.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|India|India|India
+www.airtel.in|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.pornhub.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|France
+www.google.co.in|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.quora.com|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None
+www.bing.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States

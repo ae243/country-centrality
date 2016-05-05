@@ -1,0 +1,99 @@
+www.ziggo.nl|Japan|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States
+www.apple.com|Japan|Japan|Japan|Japan|Japan|United States
+www.digid.nl|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.twitch.tv|Japan|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States
+www.ad.nl|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.geenstijl.nl|Japan|Japan|Japan|Japan|Japan|Japan
+www.bongacams.com|Japan|Japan|Japan|Japan|United States|United States|France|United States|United States
+www.msn.com|Japan|Japan|Japan|Japan|Japan|United States|United States
+www.imdb.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.ask.com|Japan|Japan|Japan|Japan|Japan|United States
+www.nu.nl|Japan|Japan|Japan|Japan|Japan|United States|United States|France|Spain|Spain
+www.mediamarkt.nl|Japan|Japan|Japan|India|India|India|United States|United States|United States|United States|Germany
+www.yahoo.com|Japan|Japan|Japan|Japan|Japan|Hong Kong|Hong Kong|Singapore|Singapore|Singapore|Singapore
+www.9292.nl|Japan|Japan|Japan|United States|United States|Netherlands|Sweden|Sweden|Sweden|Netherlands|Netherlands
+www.google.pl|Japan|Japan|Japan|Japan|Japan|United States|United States|United States
+www.google.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.ing.nl|Japan|Japan|Japan|Japan|Japan|United States
+www.beslist.nl|Japan|Japan|Japan|Japan|United States|France|United States|France|France
+www.ebay.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.npo.nl|Japan|Japan|Japan|Japan|Japan|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.amazon.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.microsoftonline.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States
+www.hclips.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.soundcloud.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.office.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States
+www.github.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States
+www.pornhub.com|Japan|Japan|Japan|Japan|Japan|United States|United States
+www.netflix.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States
+www.bva-auctions.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.youtube.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.google.nl|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.viralmundo.nl|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.nrc.nl|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|Netherlands|Netherlands
+www.theladbible.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.booking.com|Japan|Japan|Japan|Japan|Japan|None|Japan|Japan|Japan|Japan|None|Hong Kong
+www.txxx.com|Japan|Japan|Japan|Japan|Japan
+www.buienradar.nl|Japan|Japan|Japan|Japan|Japan|India|India|United States|United States|United States|None|United States|None|None|None|None
+www.dumpert.nl|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.whatsapp.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States
+www.kat.cr|Japan|Japan|Japan|Japan|Japan|Belize
+www.infonu.nl|Japan|Japan|Japan|Japan|United States|France|France|Germany
+www.wehkamp.nl|Japan|Japan|Japan|Japan|United States|Netherlands|Sweden|Sweden|Sweden|Netherlands
+www.anwb.nl|Japan|Japan|Japan|Japan|Japan|United States|United States|United States
+www.dropbox.com|Japan|Japan|Japan|Japan|United States|United States|France|France|United States|United States|United States|United States
+www.t.co|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.adobe.com|Japan|Japan|Japan|Japan|Japan
+www.viraltrend.nl|Japan|Japan|Japan|Japan|Japan|Japan
+www.telegraaf.nl|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|Germany|Netherlands
+www.paypal.com|Japan|Japan|Japan|Japan|Japan|United States
+www.amazon.de|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|Ireland|Ireland
+www.indeed.nl|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United Kingdom|United Kingdom|United Kingdom|United Kingdom|United Kingdom|United Kingdom
+www.vkmag.com|Japan|Japan|Japan|Japan|India|India|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.xhamster.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|United States|United States
+www.vice.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States
+www.publitas.com|Japan|Japan|Japan|Japan|Japan
+www.volkskrant.nl|Japan|Japan|Japan|Japan|Japan|United States
+www.wikipedia.org|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States
+www.imgur.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.overheid.nl|Japan|Japan|Japan|India|India|India|United States|United States|United States|United States|United States|None|None|Netherlands|Netherlands|None
+www.tweakers.net|Japan|Japan|Japan|Japan|United States|United States|United States|France
+www.9gag.com|Japan|Japan|Japan|Japan|Japan|United States|United States|Singapore|Singapore
+www.abnamro.nl|Japan|Japan|Japan|United States|United States|United Kingdom|United Kingdom|Netherlands|Netherlands|Netherlands
+www.surfconext.nl|Japan|Japan|Japan|Japan|United States|United States|United States|France|Netherlands|Netherlands
+www.instagram.com|Japan|Japan|Japan|Japan|Japan|United States|United States|Ireland|Ireland|Ireland|Ireland|Ireland|Ireland|United States
+www.pinterest.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.xvideos.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|Germany|Netherlands
+www.funda.nl|Japan|Japan|Japan|Japan|United States|United States|United States|France|Norway|Norway|Norway|Netherlands|Netherlands|Norway|Netherlands|Norway|Netherlands|Netherlands|Netherlands|Netherlands|Norway|Norway|Norway|Netherlands|Norway|Netherlands|Netherlands|Norway|Norway|Norway
+www.wordpress.com|Japan|Japan|Japan|Japan|Japan
+www.bol.com|Japan|Japan|Japan|Japan|Japan|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.wikia.com|Japan|Japan|Japan|Japan|Japan|Japan|Japan|Japan|Japan|Japan|Japan
+www.nos.nl|Japan|Japan|Japan|Japan|Japan|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.werk.nl|Japan|Japan|Japan|Japan|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.rabobank.nl|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States
+www.weeronline.nl|Japan|Japan|Japan|Japan|Japan|Germany|Germany|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.microsoft.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.facebook.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|Ireland|Ireland|Ireland|United States|Ireland|United States
+www.twitter.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.startpagina.nl|Japan|Japan|Japan|Japan|United States|United States|France|France|Spain|Spain
+www.google.de|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.stackoverflow.com|Japan|Japan|Japan|Japan|Japan|United States
+www.ikea.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.reddit.com|Japan|Japan|Japan|Japan|United States
+www.ns.nl|Japan|Japan|Japan|Japan|Japan
+www.onclickads.net|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|Netherlands
+www.tumblr.com|Japan|Japan|Japan|Japan|United States|Japan|United States|United States|United States|United States|United States|United States|United States
+www.postnl.nl|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hm.com|Japan|Japan|Japan|Japan|Japan
+www.voetbalzone.nl|Japan|Japan|Japan|Japan|Japan|Japan
+www.marktplaats.nl|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States
+www.rtlxl.nl|Japan|Japan|Japan|Japan|India|India|India|United States|United States|United States|United States|None|None|Netherlands|None|Netherlands
+www.ah.nl|Japan|Japan|Japan|Japan|United States|None|None|None|United Kingdom|None|None|None|None
+www.live.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States
+www.aliexpress.com|Japan|Japan|Japan|Japan|Japan|United States
+www.bbc.com|Japan|Japan|Japan|Japan|Japan|Japan|None|Japan|Japan
+www.linkedin.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States
+www.belastingdienst.nl|Japan|Japan|Japan|Japan|Japan|Germany|Germany|Netherlands|Netherlands|Netherlands
+www.uwv.nl|Japan|Japan|Japan|Japan|United States|Germany|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.bing.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.zalando.nl|Japan|Japan|Japan|Japan|United States|United States|Germany|United Kingdom|United Kingdom|United Kingdom

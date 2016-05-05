@@ -1,0 +1,99 @@
+www.ziggo.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.apple.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.digid.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands
+www.twitch.tv|United States|None|None|None|United States|United States|United States|United States|United States|United States
+www.ad.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.geenstijl.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.bongacams.com|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None
+www.msn.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.imdb.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None
+www.ask.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.nu.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|France|France|Spain
+www.mediamarkt.nl|United States|None|None|None|United States|United States|United States|United States|United States|None|None|United States|Germany
+www.yahoo.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.9292.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United Kingdom|Netherlands|Netherlands|Sweden|Sweden|Netherlands|Netherlands
+www.google.pl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United Kingdom|United States|United States|United States
+www.google.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.ing.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.beslist.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|France|France|Netherlands
+www.ebay.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.npo.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.amazon.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None|None|None
+www.microsoftonline.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hclips.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.soundcloud.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.office.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.github.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.pornhub.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|France
+www.netflix.com|United States|United States
+www.bva-auctions.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.youtube.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.google.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.viralmundo.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.nrc.nl|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None|None|None|None|None|Netherlands|Netherlands|Netherlands
+www.theladbible.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.booking.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.txxx.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.buienradar.nl|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None|None|None|None|None|Netherlands|Netherlands
+www.dumpert.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.whatsapp.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.kat.cr|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None|Canada|Canada
+www.infonu.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|France|Germany
+www.wehkamp.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United Kingdom|Netherlands|Netherlands|Sweden|Sweden|Netherlands|Netherlands
+www.anwb.nl|United States|None|None|None|United States|United States|United States|United States|United States|None|None|United States|Netherlands
+www.dropbox.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.t.co|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.adobe.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.viraltrend.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.telegraaf.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands
+www.paypal.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|None
+www.amazon.de|United States|None|None|None|United States|United States|United States|United States|United States|United States|Ireland|Ireland|None|None
+www.indeed.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.vkmag.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.xhamster.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.vice.com|United States|None|None|None|United States|United States|United States|United States
+www.publitas.com|United States|None|None|None|United States|United States|United States|United States
+www.volkskrant.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.wikipedia.org|United States|None|None|None|United States|United States|United States|United States|United States
+www.imgur.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.overheid.nl|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None|None|None|None|None|Netherlands
+www.tweakers.net|United States|None|None|None|United States|United States|United States|United States|United States|United States|France
+www.9gag.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|None
+www.abnamro.nl|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None|None|None|Netherlands|Netherlands
+www.surfconext.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|Sweden|Sweden|Sweden|Sweden|Sweden|Netherlands
+www.instagram.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|Ireland|Ireland|United States
+www.pinterest.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None|None|None
+www.xvideos.com|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None|None|None|None|None|Netherlands
+www.funda.nl|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None|None|None|None|None|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands
+www.wordpress.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.bol.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.wikia.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.nos.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.werk.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.rabobank.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.weeronline.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.microsoft.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.facebook.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|Ireland|United States
+www.twitter.com|United States|None|None|None|United States|United States|United States|United States|United States|United States
+www.startpagina.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|France|France|Spain
+www.google.de|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.stackoverflow.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.ikea.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.reddit.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.ns.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.onclickads.net|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands
+www.tumblr.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.postnl.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hm.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.voetbalzone.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.marktplaats.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.rtlxl.nl|United States|None|None|None|United States|United States|United States|United States|United States|None|None|None|None|None|None|None|Netherlands|Netherlands
+www.ah.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None|None|United Kingdom
+www.live.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.aliexpress.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.bbc.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.linkedin.com|United States|None|None|None|United States|United States|United States|United States|United States
+www.belastingdienst.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.uwv.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.bing.com|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.zalando.nl|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United Kingdom|United Kingdom|United Kingdom|None|None|None|United Kingdom

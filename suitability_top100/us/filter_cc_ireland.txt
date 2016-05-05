@@ -1,0 +1,100 @@
+www.cnet.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.fidelity.com|Ireland|None|None|None|Ireland|United States|Ireland|United Kingdom|United Kingdom|Netherlands
+www.irs.gov|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.imdb.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|None|United States|United States|None|None|None|None
+www.yahoo.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States
+www.zillow.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|Germany|None|None|None|None
+www.facebook.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Ireland|Ireland|Ireland|Ireland|United States
+www.nih.gov|Ireland|None|None|None|Ireland|United States|Ireland|United States|United States|United States|United States|United States|United States|None|None|None|United States
+www.walmart.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.pornhub.com|Ireland|None|None|None|Ireland|France|France
+www.usatoday.com|Ireland|None|None|None|Ireland|Ireland|None
+www.netflix.com|Ireland|Ireland
+www.citi.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.dropbox.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|None|None|None|Ireland|United States
+www.chase.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|United States|United States|United States|United States|United States
+www.intuit.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.about.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States
+www.paypal.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.gfycat.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.wikipedia.org|Ireland|None|None|None|Ireland|Ireland|United States|Ireland|Ireland
+www.instagram.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|Ireland|Ireland|Ireland|Ireland|United States
+www.wordpress.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland
+www.wikia.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|Germany
+www.stackoverflow.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.force.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|None|None|None|None|None|None|United States
+www.salesforce.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|None|United States|United States|United States
+www.groupon.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.comcast.net|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.live.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United States|United States|United States|United States
+www.gizmodo.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|Germany
+www.slickdeals.net|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|None|None|United States|United States|United States
+www.linkedin.com|Ireland|None|None|None|Ireland
+www.indeed.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States
+www.pandora.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.tumblr.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States
+www.twitch.tv|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States
+www.verizonwireless.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|None|None|United States|United States|United States|United States
+www.msn.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States
+www.businessinsider.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|Germany
+www.aol.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|Ireland|United States|United States|United States|United States
+www.cbssports.com|Ireland|None|None|None|Ireland|Ireland|None
+www.diply.com|Ireland|None|None|None|Ireland|United States|Ireland|United Kingdom|United Kingdom|United States|United States|United States|United States|United States|United States
+www.yelp.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.etsy.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|None
+www.office.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States
+www.target.com|Ireland|None|None|None|Ireland|Ireland|None
+www.cnn.com|Ireland|None|None|None|Ireland|Ireland|Ireland|None|None|None
+www.t.co|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States
+www.outbrain.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom
+www.adobe.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.github.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|United States
+www.att.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.amazon.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|None|United States|None|None|None|None|None
+www.apple.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.twitter.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States
+www.buzzfeed.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|Germany
+www.reddit.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.bestbuy.com|Ireland|None|None|None|Ireland|Ireland|None
+www.craigslist.org|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States
+www.imgur.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|None|None
+www.americanexpress.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom
+www.kohls.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.bankofamerica.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States
+www.conservativetribune.com|Ireland|None|None|None|Ireland|Ireland|United States
+www.fedex.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.google.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|United States|United States
+www.homedepot.com|Ireland|None|None|None|Ireland|Ireland|None
+www.capitalone.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.lowes.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.forbes.com|Ireland|None|None|None|Ireland|Ireland|None
+www.espn.go.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|None|None|United States|None|United States|United States
+www.nytimes.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|United States|United States
+www.pinterest.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.xvideos.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|None|None|None|None|None|Netherlands
+www.realtor.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States
+www.googleusercontent.com|Ireland|None|None|None|Ireland|Ireland|United States|United States|United States
+www.taboola.com|Ireland|None|None|None|Ireland|United States|Ireland|United States|United States|United States|United States|United States|United States|None|United States
+www.go.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|None|None|United States|United States|United States|United States
+www.macys.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.weather.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.usps.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.blogspot.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.tripadvisor.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.amazonaws.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States|United States|None|United States|None|None|None|None
+www.wellsfargo.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States|United States|United States|United States
+www.hulu.com|Ireland|None|None|None|Ireland|Ireland|None
+www.ebay.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.foxnews.com|Ireland|None|None|None|Ireland|United States|Ireland|Ireland|United Kingdom|Netherlands
+www.youtube.com|Ireland|None|None|None|Ireland|United States|United States|United States|United States
+www.microsoft.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom
+www.dailymail.co.uk|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|None
+www.instructure.com|Ireland|None|None|None|Ireland|Ireland|Ireland|United States|United States|United States|United States|United States|United States|None|None
+www.ask.com|Ireland|None|None|None|Ireland|Ireland|None
+www.xfinity.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.vice.com|Ireland|None|None|None|Ireland|Ireland
+www.huffingtonpost.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|Netherlands
+www.ups.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom
+www.microsoftonline.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.washingtonpost.com|Ireland|None|None|None|Ireland|United States|Ireland|None|None|None|None|None|None
+www.bing.com|Ireland|None|None|None|Ireland|Ireland|Ireland|Ireland|United Kingdom|United States

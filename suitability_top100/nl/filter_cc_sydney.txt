@@ -1,0 +1,99 @@
+www.ziggo.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States
+www.apple.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.digid.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands
+www.twitch.tv|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States
+www.ad.nl|Australia|None|None|None|Australia|Australia|Australia|Australia
+www.geenstijl.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.bongacams.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|France|United States
+www.msn.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.imdb.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States|None
+www.ask.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.nu.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|None|France|France|Spain
+www.mediamarkt.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|Germany
+www.yahoo.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Hong Kong
+www.9292.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United Kingdom|United Kingdom|Sweden|Netherlands|Netherlands
+www.google.pl|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.google.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.ing.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.beslist.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|None|France|France|Netherlands
+www.ebay.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.npo.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.amazon.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|None|None
+www.microsoftonline.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hclips.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.soundcloud.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.office.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States
+www.github.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States
+www.pornhub.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|None|France
+www.netflix.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|None|United States
+www.bva-auctions.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.youtube.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.google.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.viralmundo.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States
+www.nrc.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States|United States|United States|United States|None|United States|Netherlands
+www.theladbible.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.booking.com|Australia|None|None|None|Australia|Australia|Australia|Australia|None|None|Hong Kong
+www.txxx.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.buienradar.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|Germany|Netherlands|Netherlands
+www.dumpert.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.whatsapp.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States
+www.kat.cr|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|Italy|Italy|Canada|Canada|Canada|Canada|Canada|Canada
+www.infonu.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United Kingdom
+www.wehkamp.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Germany|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.anwb.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States
+www.dropbox.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States
+www.t.co|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.adobe.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.viraltrend.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.telegraaf.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|Netherlands
+www.paypal.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.amazon.de|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|Ireland|Ireland
+www.indeed.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United Kingdom|United Kingdom|United Kingdom|United Kingdom|United Kingdom
+www.vkmag.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.xhamster.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands
+www.vice.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States
+www.publitas.com|Australia|None|None|None|Australia|Australia|Australia|Australia
+www.volkskrant.nl|Australia|None|None|None|Australia|Australia|Australia|Australia
+www.wikipedia.org|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States
+www.imgur.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia
+www.overheid.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Netherlands|Netherlands|Netherlands
+www.tweakers.net|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States
+www.9gag.com|Australia|None|None|None|Australia|Australia|Australia|United States|Japan|United States|United States|Singapore|Singapore
+www.abnamro.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands
+www.surfconext.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|None|France|France|Netherlands
+www.instagram.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Japan|Ireland|Ireland|Ireland|United States
+www.pinterest.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.xvideos.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|Germany|Netherlands
+www.funda.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|France|France|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands
+www.wordpress.com|Australia|None|None|None|Australia|Australia|Australia
+www.bol.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.wikia.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia
+www.nos.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.werk.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.rabobank.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States
+www.weeronline.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.microsoft.com|Australia|None|None|None|Australia|Australia|Australia|Australia
+www.facebook.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Singapore|United States|Ireland|Ireland|United States
+www.twitter.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.startpagina.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|None|France|France|Spain
+www.google.de|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.stackoverflow.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.ikea.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.reddit.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.ns.nl|Australia|None|None|None|Australia|Australia|Australia|Australia
+www.onclickads.net|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands
+www.tumblr.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States
+www.postnl.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hm.com|Australia|None|None|None|Australia|Australia|Australia|Australia
+www.voetbalzone.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.marktplaats.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States
+www.rtlxl.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|Germany|Netherlands|Netherlands
+www.ah.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United Kingdom|United Kingdom|None|None|United Kingdom|United Kingdom
+www.live.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States
+www.aliexpress.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.bbc.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia
+www.linkedin.com|Australia|None|None|None|Australia|Australia|Australia
+www.belastingdienst.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.uwv.nl|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.bing.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.zalando.nl|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United Kingdom|United Kingdom|United Kingdom|None|None|None|United Kingdom

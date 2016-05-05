@@ -1,0 +1,100 @@
+www.ziggo.nl|Singapore|United States|Singapore|United States|United States|United States
+www.apple.com|Singapore|United States|Singapore|United States
+www.digid.nl|Singapore|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands
+www.twitch.tv|Singapore|Singapore|United States|Singapore|United States|United States|United States
+www.magister.net|None
+www.ad.nl|Singapore|Singapore|United States|Singapore|United States
+www.geenstijl.nl|Singapore|United States|United States|Singapore|United States
+www.bongacams.com|Singapore|United States|Singapore|Hong Kong|France|France|United States
+www.msn.com|Singapore|United States|Singapore|United States
+www.imdb.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States
+www.ask.com|Singapore|United States|Singapore|United States
+www.nu.nl|Singapore|Singapore|United States|Malaysia|Japan|Japan|None|Netherlands|Spain|Spain
+www.mediamarkt.nl|Singapore|United States|United States|United States|United States|United States|United States|Netherlands|United Kingdom|United Kingdom|Germany
+www.yahoo.com|Singapore|Singapore|United States|United States|United States|United States|United States|United States|Netherlands|United States|United States|United Kingdom
+www.9292.nl|Singapore|Singapore|United States|United States|India|India|Netherlands|Netherlands
+www.google.pl|Singapore|United States|Singapore|United States|United States|United States|United States
+www.google.com|Singapore|United States|Singapore|United States|United States|United States
+www.ing.nl|Singapore|Singapore|United States|Singapore|United States
+www.beslist.nl|Singapore|Singapore|United States|Malaysia|Japan|Japan|None|Netherlands|Netherlands
+www.ebay.com|Singapore|Singapore|United States|Singapore|United States
+www.npo.nl|Singapore|Singapore|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.amazon.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.microsoftonline.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States
+www.hclips.com|Singapore|Singapore|United States|United States|Singapore|United States
+www.soundcloud.com|Singapore|United States|United States|United States|United States|United States|United States
+www.office.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.github.com|Singapore|United States|Singapore|United States|United States|United States|United States
+www.pornhub.com|Singapore|United States|Singapore|Hong Kong|France
+www.netflix.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.bva-auctions.com|Singapore|Singapore|United States|Singapore|United States
+www.youtube.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States
+www.google.nl|Singapore|United States|Singapore|United States|United States|United States|United States
+www.viralmundo.nl|Singapore|Singapore|United States|Singapore|Hong Kong|France
+www.nrc.nl|Singapore|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands
+www.theladbible.com|Singapore|United States|United States|Singapore|United States
+www.booking.com|Singapore|United States|United States|United States|United States|United States|United States|Netherlands
+www.txxx.com|Singapore|United States|United States|Singapore|United States
+www.buienradar.nl|Singapore|Singapore|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands
+www.dumpert.nl|Singapore|United States|United States|Singapore|United States
+www.whatsapp.com|Singapore|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.kat.cr|Singapore|Singapore|United States|United States|United States|United States|United States|United States|Netherlands|Romania|None|None|Germany|Germany|Germany|None|None
+www.infonu.nl|Singapore|Singapore|United States|Singapore|Hong Kong|France|Germany
+www.wehkamp.nl|Singapore|United States|Singapore|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Netherlands|Netherlands|Netherlands
+www.anwb.nl|Singapore|Singapore|United States|Malaysia|Japan|Japan|None
+www.dropbox.com|Singapore|United States|United States|United States|United States|United States|United States|United States|United States
+www.t.co|Singapore|United States|Singapore|United States|United States
+www.adobe.com|Singapore|United States|Singapore|United States
+www.viraltrend.nl|Singapore|Singapore|United States|United States|Singapore|United States
+www.telegraaf.nl|Singapore|Singapore|United States|United States|United States|United States|United States|Netherlands|Netherlands
+www.paypal.com|Singapore|United States|Singapore|United States
+www.amazon.de|Singapore|Singapore|United States|Singapore|United States|United States|United States|United Kingdom|Ireland|Ireland|Ireland|Ireland
+www.indeed.nl|Singapore|United States|Singapore|United States|United States|United States|United Kingdom|United Kingdom|United Kingdom|United Kingdom|United Kingdom
+www.vkmag.com|Singapore|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands
+www.xhamster.com|Singapore|United States|United States|United States|United States|United States|United States|Netherlands
+www.vice.com|Singapore|United States|Singapore|United States|United States|United States|United States|United Kingdom
+www.publitas.com|Singapore|United States|Singapore|Singapore|United States
+www.volkskrant.nl|Singapore|Singapore|United States|Singapore|United States
+www.wikipedia.org|Singapore|Singapore|United States|United States|United States|United States|United States|United States
+www.imgur.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States
+www.overheid.nl|Singapore|United States|Singapore|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Netherlands|Netherlands|Netherlands
+www.tweakers.net|Singapore|Singapore|United States|Singapore|Hong Kong|France
+www.9gag.com|Singapore|United States|Singapore|United States|United States|United States|United States|United Kingdom|Germany|Germany
+www.abnamro.nl|Singapore|United States|Singapore|United States|United States|United States|United Kingdom|Netherlands|Netherlands
+www.surfconext.nl|Singapore|United States|United States|United States|United States|United States|Netherlands|Sweden|Netherlands
+www.instagram.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|France|United States|United States|United States
+www.pinterest.com|Singapore|United States|Singapore|United States
+www.xvideos.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States|Netherlands
+www.funda.nl|Singapore|Singapore|United States|Singapore|Hong Kong|France|France|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway|Netherlands|Norway
+www.wordpress.com|Singapore|Singapore|United States
+www.bol.com|Singapore|United States|Singapore|United States|United States|United States|United States|United States|Germany|Netherlands|Netherlands
+www.wikia.com|Singapore|Singapore|United States|Singapore|United States|United States
+www.nos.nl|Singapore|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.werk.nl|Singapore|United States|Singapore|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.rabobank.nl|Singapore|United States|Singapore|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States
+www.weeronline.nl|Singapore|Singapore|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands
+www.microsoft.com|Singapore|Singapore|United States|Singapore|United States
+www.facebook.com|Singapore|United States|Singapore|United States|United States|United States|United States|France|United States|United States|United States
+www.twitter.com|Singapore|United States|Singapore|United States
+www.startpagina.nl|Singapore|United States|Malaysia|Japan|Japan|None|Netherlands|Spain|Spain
+www.google.de|Singapore|United States|Singapore|United States|United States|United States|United States
+www.stackoverflow.com|Singapore|Singapore|United States|United States|Singapore|United States
+www.ikea.com|Singapore|United States|Singapore|United States
+www.reddit.com|Singapore|Singapore|United States|United States|Singapore|United States
+www.ns.nl|Singapore|Singapore|United States|Singapore|United States
+www.onclickads.net|Singapore|Singapore|United States|United States|United States|United States|United States|United States|Netherlands|United States|Netherlands
+www.tumblr.com|Singapore|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.postnl.nl|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hm.com|Singapore|United States|Singapore|United States
+www.voetbalzone.nl|Singapore|United States|United States|Singapore|United States
+www.marktplaats.nl|Singapore|United States|Malaysia|Japan|Japan|None
+www.rtlxl.nl|Singapore|United States|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands
+www.ah.nl|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United Kingdom|None|None|None|United Kingdom|United Kingdom
+www.live.com|Singapore|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States
+www.aliexpress.com|Singapore|United States|Singapore|United States
+www.bbc.com|Singapore|United States|Singapore|Hong Kong
+www.linkedin.com|Singapore|United States
+www.belastingdienst.nl|Singapore|United States|Singapore|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.uwv.nl|Singapore|United States|Singapore|United States|United States|United States|United States|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.bing.com|Singapore|Singapore|United States|Singapore|United States
+www.zalando.nl|Singapore|United States|Singapore|United States|United States|United States|United States|United States|United States|United States|United Kingdom|United Kingdom|United Kingdom|None|None|None|United Kingdom

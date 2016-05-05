@@ -1,0 +1,59 @@
+www.magazineluiza.com.br|Spain|United Kingdom|Spain
+www.ofertaz.net|Spain|United Kingdom|United States|United States|United States|United States|United States
+www.saraiva.com.br|Spain|United Kingdom|Netherlands
+www.mercadolivre.com.br|Spain|United Kingdom|United States|United States|United States|Spain|Spain|Spain|Spain
+www.R7.com|Spain|United Kingdom|None
+www.msn.com|Spain|Spain|United States|United States|None|None|None|United States|United States
+www.netshoes.com.br|Spain|United Kingdom|Netherlands
+www.globo.com|Spain|United Kingdom|United States|United States|United States
+www.yahoo.com|Spain|United Kingdom|United States|United States|United States|United Kingdom|United States|United States|United States|United Kingdom
+www.filmesonlinegratis.net|Spain|United Kingdom|None|None|United States
+www.adf.ly|Spain|United Kingdom|None|None|United States
+www.shoptime.com.br|Spain|United Kingdom|None|None|Netherlands
+www.4shared.com|Spain|United Kingdom|None|None|None|None|None|None|None
+www.fatosdesconhecidos.com.br|Spain|United Kingdom|None|None|None
+www.amazonaws.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States
+www.extra.com.br|Spain|United Kingdom|None
+www.google.com|Spain|United Kingdom|United States|United States|None|United States|United States|United States|United States
+www.kabum.com.br|Spain|United Kingdom
+www.whatsapp.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.amazon.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States
+www.clicrbs.com.br|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|Brazil|Brazil|Brazil
+www.netflix.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.adk2.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.brazil-mmm.net|Spain|United Kingdom|None|None|United States
+www.blogosfera.uol.com.br|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|Brazil|Brazil
+www.americanas.com.br|Spain|United Kingdom|None
+www.fazenda.gov.br|Spain|United Kingdom|United States|United States|United States|United States|Brazil
+www.youtube.com|Spain|United Kingdom|United States|United States|None|United States|United States|United States|United States
+www.Itau.com.br|Spain|United Kingdom|Netherlands
+www.linkedin.com|Spain|United Kingdom|United States|United States|United States
+www.booking.com|Spain|United Kingdom|None|None|None|None|None
+www.terra.com.br|Spain|United Kingdom|United States|United States|United States|Spain|Spain|Spain|Spain|Spain|Brazil|Brazil|Brazil|Brazil
+www.live.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.tecmundo.com.br|Spain|United Kingdom|Spain|Switzerland|Netherlands
+www.sp.gov.br|Spain|United Kingdom|United States|United States|Italy|Italy|Italy|Italy|Brazil|Brazil
+www.vagalume.com.br|Spain|United Kingdom|Netherlands
+www.pontofrio.com.br|United Kingdom|None
+www.ask.com|Spain|United Kingdom|France|France|Ireland|Netherlands
+www.paypal.com|Spain|United Kingdom|Netherlands
+www.aliexpress.com|Spain|United Kingdom|None
+www.noticias.uol.com.br|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|Brazil|Brazil
+www.folha.uol.com.br|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|Brazil|Brazil|Brazil
+www.submarino.com.br|Spain|United Kingdom|None
+www.pinterest.com|Spain|United Kingdom|None|None|None|None|None|Netherlands
+www.xvideos.com|United Kingdom|United States|United States|United States|United States|Germany|Netherlands
+www.lomadee.com|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|Brazil|Brazil|Brazil|Brazil|Brazil
+www.reimageplus.com|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.facebook.com|Spain|United Kingdom|United States|United States|United States|United States|France|United States|United States|United States
+www.twitter.com|United Kingdom|United Kingdom|United States
+www.stackoverflow.com|Spain|United Kingdom|None|None|United States
+www.popads.net|Spain|United Kingdom|Spain|Netherlands|Netherlands|Netherlands|Netherlands
+www.techtudo.com.br|Spain|United Kingdom|United States|United States|United States
+www.lg.com.br|Spain|United Kingdom|United States|United States|United Kingdom|United Kingdom|United States|United States|United States|United States|United States|United States|United States|United States|Brazil|Brazil|Brazil
+www.abril.com.br|Spain|United Kingdom|None
+www.buscape.com.br|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|Brazil|Brazil|Brazil|Brazil
+www.baixaki.com.br|Spain|United Kingdom|None
+www.correios.com.br|Spain|United Kingdom|United States|United States|United States|United States|United States|United States|United States|Brazil|Brazil|Brazil
+www.uol.com.br|Spain|Spain|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|Brazil|Brazil|Brazil
+www.estadao.com.br|Spain|Spain|United States|United States|None|United States|None

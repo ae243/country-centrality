@@ -1,0 +1,100 @@
+www.cnet.com|France|France|United States|None|None|None|None|None|None|None|None|Romania|Romania|Romania|None
+www.fidelity.com|France|France|United States|None|None|France|Netherlands
+www.irs.gov|France|France|United States|None|None|France
+www.imdb.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yahoo.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.zillow.com|France|France|United States|None|None|None|None|None|None|None
+www.facebook.com|France|France|United States|None|None|United States|United States|United States|United States
+www.nih.gov|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.walmart.com|France|France|United States|None|None|None|None|None|None|None|Netherlands
+www.pornhub.com|France|France|United States|None|France
+www.usatoday.com|France|France|United States|None|None|None|None|France|France|None
+www.netflix.com|France|France|United States|None|France|United States|United States|United States|United States|United States
+www.citi.com|France|France|United States|None|United States|France|Netherlands
+www.dropbox.com|France|France|United States|None|None|None|United States|Ireland|United States
+www.chase.com|France|France|United States|None|United States|United States|United States|United States|United States
+www.intuit.com|France|France|United States|None|United States|United States|United States|United States|United States|United States
+www.about.com|France|France|United States|None|United States|United States|United States|United States|United States|United States
+www.paypal.com|France|France|United States|None|United States|France|Netherlands
+www.gfycat.com|France|France|United States|None|None|United States|United States|United States
+www.wikipedia.org|None|Netherlands|Netherlands
+www.instagram.com|France|France|United States|None|None|France|United States|United States|United States
+www.wordpress.com|France|France|United States|None|None|None|None|None|None
+www.wikia.com|France|France|United States|None|United States
+www.stackoverflow.com|France|France|United States|None|None|United States|United States|United States
+www.force.com|France|France|United States|None|None|None|None|None|None|None|United States|None|United States
+www.salesforce.com|France|France|United States|None|None|None|None|None|None|None|United States|United States
+www.groupon.com|France|France|United States|None|United States|France|Netherlands
+www.comcast.net|France|France|United States|None|United States|None|Netherlands|United Kingdom|United Kingdom|None
+www.live.com|France|France|France|United States|United States|United States|United States
+www.gizmodo.com|France|France|United States|None|United States
+www.slickdeals.net|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|None|United States
+www.linkedin.com|France|France|United States|None|None|None|None|None|None
+www.indeed.com|France|France|United States|None|None|None|None|None|None|None|United States|United States|United States
+www.pandora.com|France|France|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.tumblr.com|France|France|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.twitch.tv|France|France|United States|None|United States|None
+www.verizonwireless.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States
+www.msn.com|France|France|France|United States
+www.businessinsider.com|France|France|United States|None|United States
+www.aol.com|France|France|United States|None|United States|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.cbssports.com|France|France|United States|None|United States
+www.diply.com|France|France|France|United States|United States|United States|United States|United States
+www.yelp.com|France|France|United States|None|None|United States|United States|United States
+www.etsy.com|France|France|United States|None|United States|United States|None
+www.office.com|France|France|France|United States|United States|United States|United States|United States
+www.target.com|France|France|United States|None|United States
+www.cnn.com|France|France|United States|None|United States|United States|None
+www.t.co|France|France|United States|None|United States|None|United Kingdom|United States
+www.outbrain.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|Switzerland|Switzerland|Switzerland|Switzerland|Switzerland
+www.adobe.com|France|France|United States|None|None|France
+www.github.com|France|France|United States|None|United States|United States|United States|United States
+www.att.com|France|France|United States|None|None|France|Netherlands
+www.amazon.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.apple.com|France|France|United States|None|None|France|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.twitter.com|France|France|United States|None|United States|None|United Kingdom|United States
+www.buzzfeed.com|France|France|United States|None|United States|United States|None
+www.reddit.com|France|France|United States|None|None|United States|United States|United States
+www.bestbuy.com|France|France|United States|None|United States|None|United States|United States|United States|Netherlands|Italy
+www.craigslist.org|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States
+www.imgur.com|France|France|United States|None|United States
+www.americanexpress.com|France|France|United States|None|None|France|Netherlands
+www.kohls.com|France|France|United States|None|None|France|Netherlands
+www.bankofamerica.com|France|France|United States|None|None|None|United Kingdom|United States|United States|United States|United States
+www.conservativetribune.com|France|France|United States|None|None|United States|United States|United States
+www.fedex.com|France|France|United States|None|United States|France
+www.google.com|France|France|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.homedepot.com|France|France|United States|None|Germany
+www.capitalone.com|France|France|United States|None|None|France|Netherlands
+www.lowes.com|France|France|United States|None|None|France
+www.forbes.com|France|France|United States|None|United States
+www.espn.go.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.nytimes.com|France|France|United States|None|United States|None|United Kingdom|United States|United States
+www.pinterest.com|France|France|United States|None|None|None|Netherlands|United Kingdom|Netherlands
+www.xvideos.com|France|France|United States|None|None|None|None|None|None|None|Netherlands
+www.realtor.com|France|France|United States|None|None|None|United Kingdom|United States|United States|United States
+www.googleusercontent.com|France|France|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.taboola.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.go.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.macys.com|France|France|United States|None|None|France|Netherlands
+www.weather.com|France|France|United States|None|None|France|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.usps.com|France|France|United States|None|None|None|Netherlands|United Kingdom|None
+www.blogspot.com|France|France|United States|None|United States|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.tripadvisor.com|France|France|United States|None|None|France
+www.amazonaws.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.wellsfargo.com|France|France|United States|None|United States|None|United States|United Kingdom|United States|United States|United States
+www.hulu.com|France|France|United States|None|Germany
+www.ebay.com|France|France|United States|None|None|France|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|None
+www.foxnews.com|France|France|United States|None|Netherlands
+www.youtube.com|France|France|United States|None|United States|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.microsoft.com|France|France|United States|None|None|France|Netherlands
+www.dailymail.co.uk|France|France|United States|None|Netherlands
+www.instructure.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.ask.com|France|France|United States|None|United States
+www.xfinity.com|France|France|United States|None|United States|France
+www.vice.com|France|France|United States|None|None|None|None|None|None|None|Germany|Germany|Germany|Germany
+www.huffingtonpost.com|France|France|United States|None|Netherlands
+www.ups.com|France|France|United States|None|None|France|Netherlands
+www.microsoftonline.com|France|France|France|United States|United States|United States|United States|United States
+www.washingtonpost.com|France|France|United States|None|France|France|United States
+www.bing.com|France|France|France|United States

@@ -1,0 +1,100 @@
+www.cnet.com|Japan|Japan|Japan|Japan|United States
+www.fidelity.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.irs.gov|Japan|Japan|Japan|Japan|Japan|United States
+www.imdb.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yahoo.com|Japan|Japan|Japan|Japan|Japan|Japan|Singapore|Singapore|Singapore|Singapore|Singapore
+www.zillow.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.facebook.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|Ireland|Ireland|Ireland|Ireland|United States
+www.nih.gov|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.walmart.com|Japan|Japan|Japan|Japan|Japan
+www.pornhub.com|Japan|Japan|Japan|Japan|Japan|United States|France|France
+www.usatoday.com|Japan|Japan|Japan|Japan|Japan|United States
+www.netflix.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States
+www.citi.com|Japan|Japan|Japan|Japan|United States
+www.dropbox.com|Japan|Japan|Japan|Japan|United States|United States|United States|France|United States|United States|United States
+www.chase.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.intuit.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.about.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States
+www.paypal.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.gfycat.com|Japan|Japan|Japan|Japan|Japan
+www.wikipedia.org|Japan|Japan|Japan|Japan|Japan
+www.instagram.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|Ireland|Ireland|Ireland|Ireland|Ireland|United States
+www.wordpress.com|Japan|Japan|Japan|Japan|Japan
+www.wikia.com|Japan|Japan|Japan|Japan|Japan|None|Japan|Japan|Japan|Japan|Japan
+www.stackoverflow.com|Japan|Japan|Japan|Japan|Japan|United States
+www.force.com|Japan|Japan|Japan|Japan|Japan|Japan|None|United States|United States|United States|United States|United States|United States
+www.salesforce.com|Japan|Japan|Japan|Japan|Japan|Japan|None|None|United States|United States|United States|United States|United States
+www.groupon.com|Japan|Japan|Japan|Japan|Japan
+www.comcast.net|Japan|Japan|Japan|Japan|United States
+www.live.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States
+www.gizmodo.com|Japan|Japan|Japan|Japan|Japan|Japan|Japan|Japan|Japan|Japan
+www.slickdeals.net|Japan|Japan|Japan|Japan|India|India|United States|United States|United States|United States|United States|United States|United States
+www.linkedin.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.indeed.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.pandora.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.tumblr.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States
+www.twitch.tv|Japan|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States
+www.verizonwireless.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States
+www.msn.com|Japan|Japan|Japan|Japan|Japan|United States
+www.businessinsider.com|Japan|Japan|Japan|Japan|Japan
+www.aol.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.cbssports.com|Japan|Japan|Japan|Japan|Japan
+www.diply.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yelp.com|Japan|Japan|Japan|Japan|Japan|United States
+www.etsy.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.office.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States
+www.target.com|Japan|Japan|Japan|Japan|Japan|United States
+www.cnn.com|Japan|Japan|Japan|Japan|Japan|None|None|Japan|Japan|Japan
+www.t.co|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.outbrain.com|Japan|Japan|Japan|Japan|Japan|United States
+www.adobe.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.github.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.att.com|Japan|Japan|Japan|Japan|Japan|United States
+www.amazon.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.apple.com|Japan|Japan|Japan|Japan|Japan|United States
+www.twitter.com|Japan|Japan|Japan|Japan|Japan|United States
+www.buzzfeed.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.reddit.com|Japan|Japan|Japan|Japan|Japan|United States
+www.bestbuy.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.craigslist.org|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States
+www.imgur.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States
+www.americanexpress.com|Japan|Japan|Japan|Japan|Japan|United States
+www.kohls.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.bankofamerica.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|Netherlands
+www.conservativetribune.com|Japan|Japan|Japan|Japan|Japan
+www.fedex.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.google.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.homedepot.com|Japan|Japan|Japan|Japan|Japan|United States
+www.capitalone.com|Japan|Japan|Japan|Japan|Japan|United States
+www.lowes.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.forbes.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.espn.go.com|Japan|Japan|Japan|Japan|Japan|India|India|United States|United States|United States|United States
+www.nytimes.com|Japan|Japan|Japan|Japan|Japan|United States|United States|Netherlands|Netherlands
+www.pinterest.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.xvideos.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|Netherlands|Netherlands
+www.realtor.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States
+www.googleusercontent.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.taboola.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.go.com|Japan|Japan|Japan|Japan|Japan|India|United States|United States|United States|United States|United States|United States
+www.macys.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.weather.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.usps.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.blogspot.com|Japan|Japan|Japan|Japan|Japan|United States|United States|United States
+www.tripadvisor.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.amazonaws.com|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.wellsfargo.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States
+www.hulu.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.ebay.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.foxnews.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.youtube.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States
+www.microsoft.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.dailymail.co.uk|Japan|Japan|Japan|Japan|Japan|Japan
+www.instructure.com|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.ask.com|Japan|Japan|Japan|Japan|Japan|Japan
+www.xfinity.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.vice.com|Japan|Japan|Japan|Japan|United States|United States|United States|United States
+www.huffingtonpost.com|Japan|Japan|Japan|Japan|Japan|Japan|United States
+www.ups.com|Japan|Japan|Japan|Japan|Japan
+www.microsoftonline.com|Japan|Japan|Japan|Japan|Japan|Japan|United States|United States|United States|United States|United States|United States
+www.washingtonpost.com|Japan|Japan|Japan|Japan|United States|United States
+www.bing.com|Japan|Japan|Japan|Japan|Japan|Japan|United States

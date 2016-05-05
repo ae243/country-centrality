@@ -1,0 +1,80 @@
+www.axisbank.co.in|Germany|Germany|United States|United States|None|None|None|None|None|None|India
+www.mysmartprice.com|Germany|Germany|United States|Germany|Germany|United States|United States|United States|United States|United States|United States|United States|Singapore|Singapore
+www.jabong.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.imdb.com|Germany|Germany|United States|United States|United States|United States|United States|United States
+www.yahoo.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United Kingdom
+www.zomato.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.paytm.in|Germany|Germany|United States|United States|None|None|None|None|None|None|India|India
+www.alibaba.com|Germany|Germany|United States|United States|United Kingdom|United States|United States|China|China
+www.naukri.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.mr-johal.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States
+www.godaddy.com|Germany|Germany|United States|United States|Netherlands|Netherlands|Netherlands
+www.paypal.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.axisbank.com|Germany|Germany|United States|United States|United States|Ireland|Ireland|Netherlands|India|India|India|India
+www.wikipedia.org|Germany|Germany|United States|United States|United States|Ireland|Ireland
+www.wordpress.com|Germany|Germany|United States|United States
+www.stackoverflow.com|Germany|Germany|United States|United States|United States
+www.oneindia.com|Germany|Germany|United States|United States|France|France|None|Canada|Canada|Canada
+www.ndtv.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.justdial.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.live.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States
+www.linkedin.com|Germany|Germany|United States|United States
+www.bhaskar.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.blogspot.com|Germany|Germany|United States|United States|None|None|United States|None|United States|United States|United States|United States|United States
+www.msn.com|Germany|Germany|Germany|United States|Germany|United States
+www.flipkart.com|Germany|Germany|United States|United States|India|India
+www.kat.cr|Germany|Germany|United States|United States|Germany|Belize
+www.irctc.co.in|Germany|Germany|United States|United States|United States|None|United Kingdom|India|India|India|India|India|India
+www.torrentz.eu|Germany|Germany|United States|United States|Germany|United States
+www.apple.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.bookmyshow.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.indiatimes.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.twitter.com|Germany|Germany|United States|United States|United States
+www.moneycontrol.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.quikr.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.reddit.com|Germany|Germany|United States|United States|Germany|United States
+www.indiamart.com|Germany|Germany|United States|United States|United States|Ireland|Netherlands|Netherlands|United States|United States|United States|United States|United States|United States|United States|United States
+www.india.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.imgur.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.onclickads.net|Germany|Germany|United States|United States|Germany|United States|United States|Netherlands
+www.onlinesbi.com|Germany|Germany|United States|United States|United States|Ireland|Ireland
+www.espncricinfo.com|Germany|Germany|United States|United States|Germany|Netherlands|None
+www.rediff.com|Germany|Germany|United States|United States|None|None|None|None|None
+www.stumbleupon.com|Germany|Germany|United States|United States|None|None|None|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.whatsapp.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States
+www.billdesk.com|Germany|Germany|United States|United States|United States|Ireland|Ireland|Netherlands|India|India|India|India|India
+www.olx.in|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.amazon.com|Germany|Germany|United States|United States|United States|United States|United States|United States
+www.secureserver.net|Germany|Germany|United States|United States|None|None|None|None|None|None|None|United States|United States|United States
+www.indianexpress.com|Germany|Germany|United States|United States
+www.ebay.in|Germany|Germany|United States|United States|Germany|Netherlands|United States
+www.thehindu.com|Germany|Germany|Germany|United States|Germany|Netherlands|Netherlands
+www.xvideos.com|Germany|Germany|United States|United States|None|None|None|None|None|None|Netherlands
+www.hotstar.com|Germany|Germany|United States|Germany|Germany|Netherlands
+www.googleusercontent.com|Germany|Germany|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.w3schools.com|Germany|Germany|United States|United States|Germany|Germany
+www.hdfcbank.com|Germany|Germany|United States|United States|Germany|United States
+www.speedtest.net|Germany|Germany|United States|United States|Germany|Germany|United States
+www.indianrail.gov.in|Germany|Germany|United States|United States|Germany|India
+www.tumblr.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.wordpress.org|Germany|Germany|United States|United States|None|None|None|None|None|None|None
+www.intoday.in|Germany|Germany|United States|United Kingdom|France|France|United States|United States|United States|United States|United States|United States|Singapore|Singapore|Singapore
+www.amazonaws.com|Germany|Germany|United States|United States|United States|United States|United States|United States
+www.jagran.com|Germany|Germany|United States|United States|Germany|None
+www.github.com|Germany|Germany|United States|United States|United Kingdom
+www.youtube.com|Germany|Germany|United States|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.cricbuzz.com|Germany|Germany|United States|United States|Germany|United States|United States|United States|United States|United States|United States|United States|Singapore|Singapore
+www.makemytrip.com|Germany|Germany|United States|United States|None|None|None|None|None|None|India|India|India
+www.ask.com|Germany|Germany|Germany|Germany|Germany|None
+www.shopclues.com|Germany|Germany|United States|United States|Germany|Netherlands
+www.slideshare.net|Germany|Germany|United States|United States
+www.microsoft.com|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.hindustantimes.com|Germany|Germany|United States|Germany|Germany|Netherlands|None
+www.paytm.com|Germany|Germany|United States|United States|United States|France|United States|United States|United States|Singapore|United States|Singapore|Singapore|Singapore|Singapore
+www.stackexchange.com|Germany|Germany|United States|United States|Germany|United States
+www.vcommission.com|Germany|Germany|United States|United States|Germany|India|India|India
+www.airtel.in|Germany|Germany|United States|United States|Germany|Netherlands|Netherlands
+www.pornhub.com|Germany|Germany|United States|United States|France|France
+www.google.co.in|Germany|Germany|United States|United States|None|None|United States|United States|United States|United States|United States|United States|United States
+www.quora.com|Germany|Germany|United States|United States|None|None|United States
+www.bing.com|Germany|Germany|United States|United States|United States|United States

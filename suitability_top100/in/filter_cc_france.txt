@@ -1,0 +1,80 @@
+www.axisbank.co.in|France|France|United States|None|United States|United States|United Kingdom|India|India|None
+www.mysmartprice.com|France|France|United States|None|United States|United States|None|United States|United States|United States|United States|Singapore|Singapore
+www.jabong.com|France|France|United States|None|United States|France|Netherlands
+www.imdb.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yahoo.com|France|France|United States|None|None|None|United States|United States|United Kingdom|United States|United States|United States|United Kingdom
+www.zomato.com|France|France|United States|None|United States|France|Netherlands
+www.paytm.in|France|France|United States|None|None|None|France|None|None|None|India|India
+www.alibaba.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.naukri.com|France|France|United States|None|None|France|Netherlands
+www.mr-johal.com|France|France|United States|None|None|None|None|None|None|None|United States|None|United States|United States|United States|United States
+www.godaddy.com|France|France|United States|None|United States|France|Netherlands
+www.paypal.com|France|France|United States|None|None|France|Netherlands
+www.axisbank.com|France|France|United States|None|United States|United States|United Kingdom|India|India|None|India|India
+www.wikipedia.org|France|France|United States|None|United States|None|Netherlands|Netherlands
+www.wordpress.com|France|France|United States|None|None|None|None|None|None
+www.stackoverflow.com|France|France|United States|None|None|United States|United States|United States
+www.oneindia.com|France|France|United States|None|United States|United States|United States|United States|Canada|Canada|Canada|Canada
+www.ndtv.com|France|France|United States|None|Netherlands
+www.justdial.com|France|France|United States|None|Germany
+www.live.com|France|France|France|United States|United States|United States|United States
+www.linkedin.com|France|France|United States|None|None|None|None|None|None
+www.bhaskar.com|France|France|United States|None|United States
+www.blogspot.com|France|France|United States|None|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.msn.com|France|France|France|United States
+www.flipkart.com|France|France|United States|None|United States|United States|United States|United States|India|India|India|India|India|India
+www.kat.cr|France|France|United States|None|None|France|France|France|France|France|France
+www.irctc.co.in|France|France|United States|None|None|None|None|United Kingdom
+www.torrentz.eu|France|France|United States|None|None|United States|United States|United States
+www.apple.com|France|France|United States|None|United States|France|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands|Netherlands
+www.bookmyshow.com|France|France|United States|None|None|France|Netherlands
+www.indiatimes.com|France|France|United States|None|Netherlands
+www.twitter.com|France|France|United States|None|United States|None|United Kingdom|United States
+www.moneycontrol.com|France|France|United States|None|United States
+www.quikr.com|France|France|United States|None|United States
+www.reddit.com|France|France|United States|None|None|United States|United States|United States
+www.indiamart.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.india.com|France|France|United States|None|United States
+www.imgur.com|France|France|United States|None|United States
+www.onclickads.net|France|France|United States|None|None|None|None|None|None|None|Netherlands
+www.onlinesbi.com|France|France|United States|None|United States|United States|United Kingdom
+www.espncricinfo.com|France|France|United States|None|Netherlands
+www.rediff.com|France|France|United States|None|Netherlands
+www.stumbleupon.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.whatsapp.com|France|France|United States|None|None|None|None|None|None|None|United States|United States|United States
+www.billdesk.com|France|France|United States|None|United States|United States|United Kingdom|India|India|None|India|India
+www.olx.in|France|France|United States|None|None|France
+www.amazon.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.secureserver.net|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States
+www.indianexpress.com|France|France|United States|None|None|None|None|None|None
+www.ebay.in|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|Switzerland|Switzerland
+www.thehindu.com|France|France|United States|None|United States
+www.xvideos.com|France|France|United States|None|None|None|None|None|None|None|Netherlands
+www.hotstar.com|France|France|United States|None|None|France|Netherlands
+www.googleusercontent.com|France|France|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.w3schools.com|France|France|United States|None|None|None|None|None|None|United States
+www.hdfcbank.com|France|France|United States|None|None|United States|United States|United States
+www.speedtest.net|France|France|United States|None|None|None|None|None|None|United States
+www.indianrail.gov.in|France|France|United States|None|United States|United States|United States|United States|India|India|India|India
+www.tumblr.com|France|France|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.wordpress.org|France|France|United States|None|France
+www.intoday.in|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|Singapore|Singapore|Singapore|Singapore
+www.amazonaws.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.jagran.com|France|France|United States|None|Netherlands
+www.github.com|France|France|United States|None|United States|United States|United States|United States
+www.youtube.com|France|France|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.cricbuzz.com|France|France|United States|None|United States|United States|None|United States|United States|United States|United States|Singapore|Singapore
+www.makemytrip.com|France|France|United States|None|United States|None|France|None|None|None|India
+www.ask.com|France|France|United States|None|United States|None|Netherlands|United Kingdom|United Kingdom|None
+www.shopclues.com|France|France|United States|None|Germany
+www.slideshare.net|France|France|United States|None|None|None|None|None|None|None
+www.microsoft.com|France|France|United States|None|None|None|United States|United States|United States|Netherlands|Netherlands
+www.hindustantimes.com|France|France|United States|None|United States
+www.paytm.com|France|France|United States|None|United States|United States|United States|United States|United States|United States|United States|United States|Singapore|Singapore|Singapore|Singapore|Singapore
+www.stackexchange.com|France|France|United States|None|None|United States|United States|United States
+www.vcommission.com|France|France|United States|None|None|United States|India|India|India
+www.airtel.in|France|France|United States|None|None|France|Netherlands
+www.pornhub.com|France|France|United States|None|France
+www.google.co.in|France|France|United States|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.quora.com|France|France|United States|None|France|France|United States
+www.bing.com|France|France|France|United States

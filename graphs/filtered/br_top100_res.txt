@@ -1,0 +1,28 @@
+Brazil,16468,6401,0.388693223221
+Canada,177,0,0.0
+Italy,1668,0,0.0
+France,1026,0,0.0
+Ireland,618,309,0.0187636628613
+Argentina,126,126,0.00765120233179
+Venezuela,21,0,0.0
+Bahrain,3,0,0.0
+Israel,10,0,0.0
+Singapore,28,0,0.0
+Guatemala,38,38,0.00230750546514
+China,8,0,0.0
+Chile,3,0,0.0
+Germany,67,0,0.0
+Spain,2677,0,0.0
+Ukraine,38,38,0.00230750546514
+Netherlands,411,244,0.0148166140393
+Poland,5,0,0.0
+United States,13400,9260,0.562302647559
+Sweden,25,6,0.000364342968181
+British Virgin Islands,37,37,0.00224678163711
+New Zealand,54,0,0.0
+Portugal,6,0,0.0
+Uruguay,7,0,0.0
+United Arab Emirates,2,0,0.0
+Mexico,10,0,0.0
+United Kingdom,455,0,0.0
+Japan,37,9,0.000546514452271

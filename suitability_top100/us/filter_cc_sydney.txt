@@ -1,0 +1,100 @@
+www.cnet.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.fidelity.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.irs.gov|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.imdb.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|None|None
+www.yahoo.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Hong Kong
+www.zillow.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States
+www.facebook.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Japan|Ireland|Ireland|Ireland|United States
+www.nih.gov|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|None|None|United States
+www.walmart.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.pornhub.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|None|France
+www.usatoday.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.netflix.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|None|United States
+www.citi.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.dropbox.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States
+www.chase.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.intuit.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States
+www.about.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States|United States|United States|United States|United States
+www.paypal.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.gfycat.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.wikipedia.org|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States
+www.instagram.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Japan|United States|Ireland|Ireland|United States
+www.wordpress.com|Australia|None|None|None|Australia|Australia|Australia
+www.wikia.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia
+www.stackoverflow.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.force.com|Australia|None|None|None|Australia|Australia|Australia|Australia|None|Japan|None|United States|United States
+www.salesforce.com|Australia|None|None|None|Australia|Australia|Australia|Australia|None|Japan|None|United States|United States
+www.groupon.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.comcast.net|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.live.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States
+www.gizmodo.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia
+www.slickdeals.net|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States
+www.linkedin.com|Australia|None|None|None|Australia|Australia|Australia
+www.indeed.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States
+www.pandora.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States
+www.tumblr.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States
+www.twitch.tv|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States
+www.verizonwireless.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States
+www.msn.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.businessinsider.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia
+www.aol.com|Australia|None|None|None|Australia|Australia|Australia|Hong Kong|Hong Kong|Hong Kong|Hong Kong|Hong Kong|United States|United States|United States|United States|United States|United States|United States
+www.cbssports.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.diply.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.yelp.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.etsy.com|Australia|None|None|None|Australia|Australia|Australia|Australia|None
+www.office.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States
+www.target.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.cnn.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia
+www.t.co|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.outbrain.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.adobe.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.github.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States
+www.att.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.amazon.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|None|None|None
+www.apple.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.twitter.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.buzzfeed.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States
+www.reddit.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.bestbuy.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.craigslist.org|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States
+www.imgur.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia
+www.americanexpress.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.kohls.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.bankofamerica.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.conservativetribune.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.fedex.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.google.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.homedepot.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.capitalone.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.lowes.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.forbes.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.espn.go.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States
+www.nytimes.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States
+www.pinterest.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.xvideos.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|Germany|Netherlands
+www.realtor.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States
+www.googleusercontent.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.taboola.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|None|None|United States
+www.go.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States
+www.macys.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.weather.com|Australia|None|None|None|Australia|Australia|Australia|Australia
+www.usps.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.blogspot.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.tripadvisor.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.amazonaws.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|None|None
+www.wellsfargo.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.hulu.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.ebay.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.foxnews.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.youtube.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States
+www.microsoft.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.dailymail.co.uk|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.instructure.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States|United States|None|None
+www.ask.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.xfinity.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.vice.com|Australia|None|None|None|Australia|Australia|Australia|United States|United States|United States
+www.huffingtonpost.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.ups.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States
+www.microsoftonline.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States|United States|United States|United States|United States|United States|United States
+www.washingtonpost.com|Australia|None|None|None|Australia|Australia|Australia|Australia|Australia|Australia|Australia
+www.bing.com|Australia|None|None|None|Australia|Australia|Australia|Australia|United States

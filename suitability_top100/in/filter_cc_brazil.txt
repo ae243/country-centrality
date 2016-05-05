@@ -1,0 +1,80 @@
+www.axisbank.co.in|None|None|None|Spain|Spain|Spain|Spain|Spain|United States|United States|United States|India
+www.mysmartprice.com|None|None|None|United States|United States|United States|Japan|None|Japan|None|United States|United States|United States|United States
+www.jabong.com|None|None|None|Italy|United States
+www.imdb.com|None|None|None|United States|United States|United States|United States|United States
+www.yahoo.com|None|None|None|United States|Brazil|Brazil
+www.zomato.com|None|None|None|Italy|United States
+www.paytm.in|None|None|None|Spain|Spain|Spain|Spain|Spain|United States|United States|United States|India|India
+www.alibaba.com|None|None|None|United States|United States|United States|United States|United States|United States|United States|None
+www.naukri.com|None|None|None|Italy|United States
+www.mr-johal.com|None|None|None|Spain|Spain|Spain|Spain|Spain|United States|United States
+www.godaddy.com|None|None|None|Italy|United States
+www.paypal.com|None|None|None|Italy|United States
+www.axisbank.com|None|None|None|Spain|Spain|Spain|Spain|United States|United States|United States|United States|United States|United Kingdom|India|India|United Kingdom|India|India|India|India
+www.wikipedia.org|None|None|None|United States|United States|United States|United States|United States|United States
+www.wordpress.com|None|None|None|Brazil|United States
+www.stackoverflow.com|None|None|None|Brazil|United States
+www.oneindia.com|None|None|None|Spain|Spain|Spain|Spain|United States|United States|United States|United States|United States|Canada|Canada|Canada|Canada|Canada|Canada|Canada
+www.ndtv.com|None|None|None|United States|United States
+www.justdial.com|None|None|None|Brazil|United States
+www.live.com|None|None|None|United States|United States|United States|United States|United States|United States
+www.linkedin.com|None|None|None|France|United States
+www.bhaskar.com|None|None|None|Brazil|United States
+www.blogspot.com|None|None|None|Brazil|United States|United States|United States
+www.msn.com|None|None|None|Brazil|United States
+www.flipkart.com|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States|Hong Kong|India
+www.kat.cr|None|None|None|United States|United States|United States|France|United States|United States|Canada
+www.irctc.co.in|None|None|None|Italy|Italy|Italy
+www.torrentz.eu|None|None|None|Spain|Spain|Spain|Spain|Spain|United States
+www.apple.com|None|None|None|Spain|Spain|United States
+www.bookmyshow.com|None|None|None|Italy|United States
+www.indiatimes.com|None|None|None|Brazil|United States
+www.twitter.com|None|None|None|Brazil|United States
+www.moneycontrol.com|None|None|None|United States|United States
+www.quikr.com|None|None|None|United States|United States
+www.reddit.com|None|None|None|Brazil|United States
+www.indiamart.com|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States|United States|United States
+www.india.com|None|None|None|United States|United States
+www.imgur.com|None|None|None|United States|United States|United States
+www.onclickads.net|None|None|None|United States|United States|United States|United States|United Kingdom|Netherlands
+www.onlinesbi.com|None|None|None|Spain|Spain|Spain|Spain|United States|United States|United States|United States|United States|United States|United States|United States|United Kingdom
+www.espncricinfo.com|None|None|None|Spain|Spain|Brazil
+www.rediff.com|None|None|None|Brazil|United States
+www.stumbleupon.com|None|None|None|France|United States|United States|United States
+www.whatsapp.com|None|None|None|Spain|Spain|Spain|Spain|Spain|United States|United States|United States|United States|United States|United States
+www.billdesk.com|None|None|None|Spain|Spain|Spain|Spain|United States|United States|United States|United States|United States|United States|United States|United States|United Kingdom|India|India|India
+www.olx.in|None|None|None|Italy|United States
+www.amazon.com|None|None|None|United States|United States|United States|United States|United States
+www.secureserver.net|None|None|None|United States|United States|United States|United States|United States|United States|United States
+www.indianexpress.com|None|None|None|Brazil|United States
+www.ebay.in|None|None|None|Spain|Spain|United States
+www.thehindu.com|None|None|None|Brazil|United States
+www.xvideos.com|None|None|None|United States|United States|United States|United States|United States|United States|United States|Germany|Netherlands
+www.hotstar.com|None|None|None|Italy|United States
+www.googleusercontent.com|None|None|None|Brazil|United States|United States|United States
+www.w3schools.com|None|None|None|Spain|Spain|Spain|Spain|Spain|United States
+www.hdfcbank.com|None|None|None|United States|United States
+www.speedtest.net|None|None|None|Spain|Spain|Spain|Spain|Spain|United States|United States
+www.indianrail.gov.in|None|None|None|Italy|Italy|Italy|India
+www.tumblr.com|None|None|None|Spain|Spain|Spain|Spain|United States|United States|United States|United States
+www.wordpress.org|None|None|None|United States|United States|United States|United States|United States|United States|United States|United States
+www.intoday.in|None|None|None|United States|United States|United States|United States|United States|United States|United States|Japan|United States|United States|Singapore|Singapore
+www.amazonaws.com|None|None|None|United States|United States|United States|United States|United States
+www.jagran.com|None|None|None|Brazil|United States
+www.github.com|None|None|None|Spain|Spain|Spain|Spain|United States|United States|United States|United States
+www.youtube.com|None|None|None|Brazil|United States|United States|United States
+www.cricbuzz.com|None|None|None|United States|United States|United States|Japan|None|Japan|United States|None|United States|United States|Singapore|Singapore
+www.makemytrip.com|None|None|None|Spain|Spain|Spain|Spain|Spain|United States|United States|United States|India|India
+www.ask.com|None|None|None|United States|United States
+www.shopclues.com|None|None|None|United States|United States
+www.slideshare.net|None|None|None|United States|United States
+www.microsoft.com|None|None|None|Italy|United States
+www.hindustantimes.com|None|None|None|United States|United States
+www.paytm.com|None|None|None|United States|United States|United States|United States|United States|United States|United States|Japan|United States|United States|Singapore|Singapore
+www.stackexchange.com|None|None|None|Brazil|United States
+www.vcommission.com|None|None|None|Spain|Spain|Spain|Spain|United States|United States|United States|United States|United States|Singapore|India|India|India|India|India
+www.airtel.in|None|None|None|Italy|United States
+www.pornhub.com|None|None|None|United States|United States|United States|France
+www.google.co.in|None|None|None|Brazil|United States|United States|United States
+www.quora.com|None|None|None|Spain|Spain|Spain|Spain|Spain|France|United States
+www.bing.com|None|None|None|Brazil|United States
