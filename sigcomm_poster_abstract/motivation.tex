@@ -1,43 +1,79 @@
-\section{Motivation}
+\section{Introduction}
 
-As an increasing number of countries pass laws that facilitate mass
+When Internet traffic enters a country, it becomes subject to those
+countries laws.  As a result, users have more need than ever to
+determine---and control---which countries their traffic is traversing.
+An increasing number of countries pass laws that facilitate mass
 surveillance of their citizens~\cite{france_surveillance,
-  netherlands_surveillance, kazak_surveillance, uk_bill}.  Governments
-and users have been motivated more than ever since the Snowden
-revelations to avoid countries known for surveillance practices,
-specifically the United States~\cite{russia_secure_internet,
-  routing_errors, dte}.  More recently, the Safe Harbour agreement, an
-agreement that allows the free flow of data between the US and the EU,
-was struck down because it would give the NSA access to EU citizens'
-personal data~\cite{safe_harbour_illegal, safe_harbour_undecided}.  When
-Internet traffic enters a country, it becomes subject to those countries
-laws.  As a result, users have more need than ever to determine---and
-control---which countries their traffic is traversing.
+  netherlands_surveillance, kazak_surveillance, uk_bill}, governments
+and citizens are increasingly motivated to divert their Internet traffic
+from countries that perform surveillance (notably, the United
+States~\cite{russia_secure_internet, routing_errors, dte}).
+% More recently, the Safe Harbour agreement,
+%which allows the free flow of data between the US and the EU, 
+%was struck down because it would give the NSA access to EU citizens'
+%personal data~\cite{safe_harbour_illegal, safe_harbour_undecided}.  
 
-Certain countries such as Brazil have already taken impressive measures
-to ensure that Internet traffic circumvents the United
+Many countries---notably, Brazil---are taking impressive measures reduce
+the likelihood that Internet traffic transits the United
 States~\cite{brazil_history, brazil_break_from_US, brazil_conference,
   brazil_conference2, brazil_human_rights} including building a 3,500
 mile long fiber-optic cable from Fortaleza to Portugal (with no use of
-American vendors), pressing companies such as Google, Facebook, and
-Twitter (among others) to store data locally, and switching its dominant
+American vendors); pressing companies such as Google, Facebook, and
+Twitter (among others) to store data locally; and switching its dominant
 email system (Microsoft Outlook) to a state-developed system called
 Expresso~\cite{brazil_cable, brazil_us_companies}.  Brazil is also
 building Internet Exchange Points (IXPs)~\cite{brazil_IXP1}, now has the
-largest national ecosystem of public Internet eXchange points in the
-world~\cite{brazil_ixp_ecosystem}, and the number of internationally
-connected ASes continues to grow~\cite{brazil_international_ases}.
+largest national ecosystem of public Internet eXchange points (IXPs) in
+the world~\cite{brazil_ixp_ecosystem}, and the number of internationally
+connected ASes continues to
+grow~\cite{brazil_international_ases}. Brazil is not alone: IXPs are
+proliferating in eastern Europe, Africa, and other regions, in part out
+of a desire to ``keep local traffic local''. Building IXPs alone, of
+course, cannot guarantee that Internet traffic for some service does not
+enter or transit a particular country: Internet protocols have no notion
+of national borders, and interdomain paths depend in large part on
+existing interconnection business relationships (or lack thereof).  In
+this poster, we present evidence to suggest that existing Internet
+hosting and interdomain paths still make it difficult to avoid certain
+countries for many popular websites. 
 
-Unfortunately, these mechanisms alone may not be sufficient to cause
-traffic to circumvent a particular country. The design of the Internet
-and routing protocols have no notion of national borders, and thus
-Internet traffic paths are determined without any regard to
-international crossings.  The BGP (Border Gateway Protocol) decides
-interdomain routing paths based on shortest and most preferred paths -
-not on which countries it will traverse.  This allows traffic to pass
-through countries that conduct surveillance even when the traffic
-originates (and possibly terminates) in a country that does not lawfully
-allow surveillance.
+Our study is focused on analyzing the traffic originating in
+five different countries: Brazil, Netherlands, Kenya, India, and the
+United States.  Using RIPE Atlas probes and the MaxMind geolocation
+service, we measure the country-level traffic paths for the Alexa Top
+100 domains in each respective country.  Using the current state of
+routing as a baseline for comparison, we then measure how avoidable a
+given country is to a client in either Brazil, Netherlands, India,
+Kenya, or the United States, using open resolvers and using the overlay
+network.  Our contributions include: 
+
+\begin{itemize}
+\item The first in-depth measurement study of
+  nation-state routing for Brazil, Netherlands, Kenya, India, and the
+  United States. 
+\item A preliminary evaluation of how open DNS resolvers and overlay
+  network relays can help citizens and governments discover and use
+  network paths that avoid certain countries.
+\end{itemize}
+\noindent
+We find that hosting for many popular websites lacks diversity; in many
+cases, even websites that are popular {\em locally} are hosted outside
+the country where citizens are trying to access them. For example, more
+than 50\% of the Alexa Top 100 domains in Brazil are hosted in the
+United States. Internet paths also lack geographic diversity: About half
+of the paths originating in Kenya to the most popular Kenyan websites
+traverse the United States or Great Britain. Much of this phenomenon is
+due to ``tromboning'', whereby an Internet path starts and ends in a
+country, yet transits an intermediate country; for example, about 13\%
+of the paths that we explored from RIPE Atlas nodes in Brazil to the
+Alexa Top 100 in Brazil trombone through the United States. Fortunately,
+our preliminary results suggest that the use of overlay network relays
+to intentionally introduce network detours, and the use of open DNS
+resolvers to discover hosting diversity can reduce tromboning and
+generally help users select paths that avoid certain countries.
+
+\section{Method}
 
 Determining where a client's Internet traffic flows is complicated by
 the complexity of websites~\cite{butkiewicz2011understanding}.  Many
@@ -96,20 +132,5 @@ Given the diversity in hosting sites, there is reason to believe that
 clients can force their traffic to avoid certain countries using either
 open resolvers or an overlay network.  Before measuring how avoidable a
 country is, we measure the current state of routing traffic across
-borders.  Our study is focused on analyzing the traffic originating in
-five different countries: Brazil, Netherlands, Kenya, India, and the
-United States.  Using RIPE Atlas probes and the MaxMind geolocation
-service, we measure the country-level traffic paths for the Alexa Top
-100 domains in each respective country.  Using the current state of
-routing as a baseline for comparison, we then measure how avoidable a
-given country is to a client in either Brazil, Netherlands, India,
-Kenya, or the United States, using open resolvers and using the overlay
-network.  Our contributions include: 
+borders.  
 
-\begin{itemize}
-\item First (to our knowledge) in-depth measurement study of
-  nation-state routing for Brazil, Netherlands, Kenya, India, and the
-  United States. 
-\item Metrics for quantifying country avoidability.
-\item Evaluation of the use of open resolvers and an overlay network as tools for country avoidance.
-\end{itemize}
