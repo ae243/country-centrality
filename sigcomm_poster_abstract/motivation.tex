@@ -38,7 +38,7 @@ this poster, we present evidence to suggest that existing Internet
 hosting and interdomain paths still make it difficult to avoid certain
 countries for many popular websites. 
 
-Our study is focused on analyzing the traffic originating in
+Our study focuses on analyzing the traffic originating in
 five different countries: Brazil, Netherlands, Kenya, India, and the
 United States.  Using RIPE Atlas probes and the MaxMind geolocation
 service, we measure the country-level traffic paths for the Alexa Top
@@ -75,6 +75,11 @@ generally help users select paths that avoid certain countries.
 
 \section{Method}
 
+Our measurement study tackles two questions: (1)~Which countries do {\em
+  default} Internet routing paths traverse?; (2)~Why types of methods
+can we use to increase hosting and path diversity to help governments
+and citizens better control transnational Internet paths.
+
 Determining where a client's Internet traffic flows is complicated by
 the complexity of websites~\cite{butkiewicz2011understanding}.  Many
 websites also fetch content from other domains, which are most likely
@@ -83,50 +88,26 @@ additional web requests, which take different paths.  One initial web
 request can result in content being fetched from many servers located
 around the world, and to see where this traffic flows requires knowledge
 of all paths from the client to requested sources (and all the requested
-sources to the client).  As the number of domains, and therefore the
-number of paths, increase, the more possibilities for surveillance are
-introduced. 
+sources to the client).  
 
-There are ways for clients to force their traffic to avoid potential
-surveillance by avoiding unfavorable jurisdictions.  One way is to use
-open resolvers; a client could query a foreign resolver, such that it
-appears as if the client is located in a geographically different
-location.  This different location could potentially be closer to a
-georeplicated server in a foreign country, and thus the path from the
-client to the server has the potential to avoid certain countries.  The
-same method could be used with resolvers that support EDNS; the client
-could spoof the client subnet with a foreign subnet, and therefore
-access a replica in a favorable country. 
+A client can use DNS open resolvers to discover georeplication of a site
+or service that can facilitate the avoidance of specific countries. For
+example, a client can query an open DNS resolver in a foreign country to
+discover a different georeplicated instance of a service; this technique
+(or the use of EDNS client subnet) can allow the client to discover
+different replicas of the same serviec. The path to this newly
+discovered replica may assist in avoiding particular countries
+(particularly if the client is trying to avoid the country of the
+original hosting replica!).  The increasing use of IP anycast can
+sometimes make this technique
+insufficient~\cite{cicalese2015characterizing}, however, if the client
+receives the same IP address regardless of the apparent origin of the
+DNS query.  Another approach is to use overlay network relays, which can
+prevent the client from traversing an unfavorable country by introducing
+a path that detours sufficiently from the default. Additionally, using
+relays in the client's country can somtimes help keep local traffic
+local, by exploiting local paths that BGP does not select by default.
 
-Unfortunately, this approach is unsuccessful if the service uses anycast
-IP addresses; this technique has increased in the past few
-years~\cite{cicalese2015characterizing}.  Even though the DNS lookup is
-in a different location than the client, the client will still be
-accessing data from the server that is closest, which provides the
-possibility of unwanted countries on the path between the client and the
-server.   
-
-Another way for a client to keep their traffic from transiting a
-surveillance state is by using an overlay network.  With the use of
-relays in diverse geographic locations, a client could potentially avoid
-two ways that traffic could be surveilled by a foreign country.  The
-first way is if the unfavorable country is on the path from the client
-to the destination, and by using a relay in a different country, the
-traffic never passes through the unfavorable country.  The second way is
-if the closest content replica is in an unfavorable country, but by
-using a relay, the closest content replica to the relay is in a
-favorable country, and therefore the client accesses his content from a
-replica that is not in the unfavorable country.  Additionally, sometimes
-a client's traffic is domestic (ends in his own country), but traverses
-international borders.  Using relays in the client's country could
-potentially help keep domestic traffic local and prevent foreign
-countries from surveilling this traffic. 
-
-We start by looking at hosting diversity, more specifically, how many
-countries a domain is hosted in.  More diversity should provide for the
-potential to avoid more countries.  We found that about half of the
-Alexa Top 100 domains in the five countries studied are hosted in more
-than one country. 
 
 Given the diversity in hosting sites, there is reason to believe that
 clients can force their traffic to avoid certain countries using either
