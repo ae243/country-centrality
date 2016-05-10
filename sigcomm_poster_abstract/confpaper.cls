@@ -78,8 +78,10 @@
 %%%
 \RequirePackage{balance}
 \RequirePackage{tabulary}
-\RequirePackage{url}
+\RequirePackage[hyphens]{url}
 \RequirePackage{ifthen}
+
+\Urlmuskip=0mu plus 1mu
 
 \special{papersize=8.5in,11in}
 \setlength{\pdfpagewidth}{8.5in}
@@ -214,7 +216,7 @@
 %%%  PDF setup
 %%%
 
-\RequirePackage[breaklinks=true,pagebackref,filecolor=black,citecolor=blue,urlcolor=black,linkcolor=blue,colorlinks,pdfpagelabels,pdfpagelayout=SinglePage]{hyperref}
+\RequirePackage[breaklinks=true,filecolor=black,citecolor=blue,urlcolor=black,linkcolor=blue,colorlinks,pdfpagelabels,pdfpagelayout=SinglePage]{hyperref}
 
 % \renewcommand*{\backref}[1]{}
 % \renewcommand*{\backrefalt}[4]{
