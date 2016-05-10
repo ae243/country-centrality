@@ -1,14 +1,14 @@
 \section{Introduction}
 
 When Internet traffic enters a country, it becomes subject to those
-countries laws.  As a result, users have more need than ever to
+countries' laws.  As a result, users have more need than ever to
 determine---and control---which countries their traffic is traversing.
 An increasing number of countries pass laws that facilitate mass
 surveillance of their citizens~\cite{
   netherlands_surveillance, uk_bill}, governments
 and citizens are increasingly motivated to divert their Internet traffic
 from countries that perform surveillance (notably, the United
-States~\cite{dte}).
+States~\cite{brazil_break_from_US}).
 % More recently, the Safe Harbor agreement,
 %which allows the free flow of data between the US and the EU, 
 %was struck down because it would give the NSA access to EU citizens'
@@ -26,7 +26,7 @@ building Internet Exchange Points (IXPs), now has the
 largest national ecosystem of public Internet eXchange points (IXPs) in
 the world~\cite{brazil_ixp_ecosystem}, and the number of internationally
 connected ASes continues to
-grow~\cite{brazil_international_ases}. Brazil is not alone: IXPs are
+grow. Brazil is not alone: IXPs are
 proliferating in eastern Europe, Africa, and other regions, in part out
 of a desire to ``keep local traffic local''. Building IXPs alone, of
 course, cannot guarantee that Internet traffic for some service does not
@@ -80,7 +80,7 @@ can we use to increase hosting and path diversity to help governments
 and citizens better control transnational Internet paths?
 
 Determining where a client's Internet traffic flows is complicated by
-the complexity of websites~\cite{butkiewicz2011understanding}.  Many
+the complexity of websites.  Many
 websites also fetch content from other domains, which are most likely
 hosted in different locations.  Therefore, the client has to make
 additional web requests, which take different paths.  One initial web
@@ -108,13 +108,14 @@ discovered replica may assist in avoiding particular countries
 (particularly if the client is trying to avoid the country of the
 original hosting replica!).  The increasing use of IP anycast can
 sometimes make this technique
-insufficient~\cite{cicalese2015characterizing}, however, if the client
+insufficient, however, if the client
 receives the same IP address regardless of the apparent origin of the
 DNS query.  Another approach is to use overlay network relays, which can
 prevent the client from traversing an unfavorable country by introducing
 a path that detours sufficiently from the default. Additionally, using
 relays in the client's country can somtimes help keep local traffic
-local, by exploiting local paths that BGP does not select by default.  
+local, by exploiting local paths that BGP does not select by default.
+  
 To evaluate the use of open resolvers as a tool for country avoidance, we
 query open resolvers in geographically diverse locations around the world 
 using the Alexa Top 100 domains.  Then we use RIPE Atlas probes to traceroute 
@@ -125,9 +126,9 @@ each relay, as well as from each relay to the Alexa Top 100 domains.  After mapp
 the traceroutes to country-level paths with MaxMind, we measure which countries are 
 avoidable.
 
-Given the diversity in hosting sites, there is reason to believe that
-clients can force their traffic to avoid certain countries using either
-open resolvers or an overlay network.  Before measuring how avoidable a
-country is, we measure the current state of routing traffic across
-borders.  
+%Given the diversity in hosting sites, there is reason to believe that
+%clients can force their traffic to avoid certain countries using either
+%open resolvers or an overlay network.  Before measuring how avoidable a
+%country is, we measure the current state of routing traffic across
+%borders.  
 
