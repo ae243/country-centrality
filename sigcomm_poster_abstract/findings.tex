@@ -1,0 +1,44 @@
+\section{Preliminary Findings}
+
+We find that despite strong efforts made by some countries,
+their traffic still traverses surveillance states, and therefore is
+subject to surveillance.  Over 50\% of the Alexa Top 100 domains in
+Brazil and India are hosted in the United States, and over 50\% of the
+paths from the Netherlands to the Alexa Top 100 domains transits the
+United States.  About half of Kenyan traffic traverses the United States
+and Great Britain.   
+
+By measuring which domains are accessible without traversing a specified
+country using open resolvers and an overlay network, we showed that
+there are ways to circumvent unfavorable countries.  Without these
+country avoidance techniques, Brazilian traffic transitted Spain, Italy,
+France, Great Britain, Argentina, Ireland (among others), but using the
+overlay network, Brazilian clients could completely avoid these
+countries for the top 100 domains.  The overlay network can be used to
+keep local traffic local; by using relays in the client's country, less
+traffic trombones out of the client's country.  The percentage of paths
+from Brazil to the top 100 domains decreases from 13.2\% to 9.7\% when
+relays are used.  Similarly, United States traffic trombones only 1.3\%
+with an overlay network, as compared to the 11.2\% without it.   
+
+Unfortunately, some of the more prominent surveillance states are also
+some of the {\textit least avoidable} countries.  Most countries are
+highly dependent on the United States, a known surveillance state, and
+not dependent on other countries.  Neither Brazil, India, Kenya, or the
+Netherlands can completely avoid the United States with the country
+avoidance techniques.  With the overlay network, both Brazilian and
+Netherlands paths avoid the United States about 65\% of the time, and
+the United States is completely unavoidable for about 10\% of the paths
+because it is the only country where it is hosted.  Kenyan traffic can
+only avoid the United States on about 40\% of the paths from Kenya to
+the top 100 domains.  On the other hand, the United States can avoid
+every other country except for France and the Netherlands, and even then
+they are avoidable for 99\% of the top 100 domains.   
+
+Our measurements and analysis show that Internet traffic is currently
+traversing surveillance states even when it originates a country that
+does not conduct surveillance.  After using open resolvers and an
+overlay network to measure country avoidance, we found that countries
+(and surveillance states) can be avoided, and local traffic can be kept
+local.   
+
