@@ -53,11 +53,17 @@
 \usepackage[breaklinks]{hyperref}
 \usepackage{color}
 \usepackage{subcaption}
+\usepackage{cancel}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
 \captionsetup{compatibility=false}
-\newcommand{\system}{{SENSOR}}
 \graphicspath{{./figures/}}
-\newtheorem{thm}{Goal}
 \input{commands}
+
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
 
 \begin{document}
 
