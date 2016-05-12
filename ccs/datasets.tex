@@ -1,6 +1,6 @@
 \section{Measurement Infrastructure}
 \label{datasets}
-For this study, we made careful choices about the measurement infrastructure.  These included which vantage points within a country to use, which servers to use as relays, and which method to use for geolocating IP addresses.
+For this study, we made careful choices about the measurement infrastructure.  These included which vantage points within a country to use, which servers to use as relays, and which method to use for geolocating IP addresses.  We also introduce our measurement methods for measuring where current Internet traffic is traveling to, how well open DNS resolvers help clients avoid specific countries, and how well relays help clients avoid specific countries.
 
 \subsection{Resources}
 \subsubsection{Vantage Points}
@@ -14,20 +14,42 @@ As one of our research goals is to quantify how well the use of an overlay netwo
 \subsubsection{Geolocation Data}
 Previous work has shown that there are fundamental challenges in deducing a geographic location from an IP address, despite using different methods such as DNS names of the target, network delay measurements, and host-to-location mapping in conjunction with BGP prefix information~\cite{padmanabhan2001investigation}.  Because the focus of this work is on measuring and avoiding surveillance, and not on geolocation algorithms, we used a pre-existing geolocation service: MaxMind~\cite{maxmind}.
 
-\subsection{Measurement Pipeline: Current Traffic Analysis}
+\subsection{Measurement Pipeline: Current Traffic}
+\label{pipeline1}
 Our methods for measuring where traffic paths go use the data-plane; we analyze the reported hops of traceroute measurements to find which countries are on the path from a client in Country X to a popular domain.  For this study, we used RIPE Atlas probes in Country X, specifically the set of probes that had unique ASes in the country.  The destinations for traceroutes are the Country X Alexa Top 100 domains, as well as the third party domains within the response bodies of the 100 domains.  There are three main steps to our measurement procedure: traceroute generation and collection, transformation of traceroutes to country-level paths, and path analysis.
 
 {\bf Step 1.} The first step is to {\tt curl} each of the Country X Alexa Top 100 domains, and extract the third party domains from the response body.  These third party domains will each be fetched by the client when the original webpage is rendered in the browser.  Next, the RIPE Atlas probes in Country X will locally resolve each domain (and third party domain) by running a DNS measurement.  The local resolution is representative of a DNS response that an Internet user in Brazil would receive.  Once the DNS responses are received for all DNS measurements, the IP addresses are consolidated into a list of /24 subnets that cover the set of IP addresses; this is done because all IP addresses in a /24 network should geolocate to the same country.  The last part of this step is running traceroutes from the RIPE Atlas probes to a single IP address in each of the /24 subnets calculated from the DNS responses.  The measurements were run using paris traceroute and each (probe, destination IP) pair was used twice: once using ICMP traceroute and once using TCP traceroute.  
 
 {\bf Step 2.}  Step 2 generates country-level paths from the set of traceroutes produced during Step 1.  Using MaxMind, each IP address was geolocated at a country granularity.  This resulted in a set of country-level paths.
 
-{\bf Step 3.}  After calculating country-level paths, we perform different data analysis to find where traffic travels.  We look for countries that are on the path between the client and the destination.  These countries have the potential to conduct surveillance on the traffic of clients in Country X.  A different analysis can show the countries in which the path ends, representing where the content is hosted.  It's important to note that the destinations found in this study could change if the content is georeplicated in other countries.  On the otherhand, if it is not georeplicated, then the destination's country is unavoidable.  We study this more closely in Section X.  Lastly, we look at how much tromboning occurs - a tromboning path is one that starts and ends in Country X, but also traverses at least one other country.  These paths are interesting because they should not be exiting the country if the destination is in the country of origin.  
+{\bf Step 3.}  After calculating country-level paths, we perform different data analysis to find where traffic travels.  We look for countries that are on the path between the client and the destination.  These countries have the potential to conduct surveillance on the traffic of clients in Country X.  A different analysis can show the countries in which the path ends, representing where the content is hosted.  It's important to note that the destinations found in this study could change if the content is georeplicated in other countries.  On the otherhand, if it is not georeplicated, then the destination's country is unavoidable.  We study this more closely in Section \ref{metrics}.  Lastly, we look at how much tromboning occurs - a tromboning path is one that starts and ends in Country X, but also traverses at least one other country.  These paths are interesting because they should not be exiting the country if the destination is in the country of origin.  
 
-\subsection{Measurement Pipeline: Country Avoidance Analysis with Open Resolvers}
+\subsection{Measurement Pipeline: Country Avoidance with Open Resolvers}
+If content is replicated in different parts of the world, open DNS resolvers located around the globe can potentially help clients circumvent surveillance states.  To measure this, we first pick a set of open resolvers to query, then query with Country X's Alexa Top 100 domains, and traceroute from a client in Country X to the DNS responses given by the open resolvers.  These three steps are explained in more detail below.
 
-\subsection{Measurement Pipeline: Country Avoidance Analysis with Relays}
+{\bf Step 1.}  Similar to the method in Section~\ref{pipeline1}, the first step is to {\tt curl} each of the Country X Alexa Top 100 domains, and extract the third party domains from the response body.  Next, a set of open DNS resolvers are selected that are geographically diverse; the set includes resolvers 10 different countries -- the same countries in which the relays (servers) are located (United States, Brazil, Ireland, France, Germany, Spain, Singapore, South Korea, Japan, Australia).  We query each open resolver for every domain and third party domain that was collected.
+
+{\bf Step 2.}  After receiving the set of IP address from DNS responses, a VPN connection to Country X is established.  Through this connection, traceroute measurements are run to every IP address returned by the open resolvers. The result is a set of IP-level paths, which are then geolocated using MaxMind, and provides a set of country-level paths.
+
+{\bf Step 3.}  After mapping the IP-level paths to country-level paths, we analyze the countries on each path.  We look for known surveillance states that are on the path from the client to the destination, where the content is hosted, and which countries are unavoidable.  We compare these results to those of the current state of nation-state routing to determine if open resolvers improve country avoidability.
+
+\subsection{Measurement Pipeline: Country Avoidance with Relays}
+Using an overlay network may help clients route around unfavorable countries or access content that is hosted in a more favorable country.  First, we select relays that are geographically diverse, run traceroute measurements from Country X to each relay and from each relay to the Country X Alexa Top 100 domains.  Based on these two sets of traceroutes, we can run analyses to determine if they improve country avoidability.
+
+{\bf Step 1.}  
+
+{\bf Step 2.}
+
+{\bf Step 3.}
 
 \subsection{Avoidability Metrics}
+\label{metrics}
+
+{\bf Avoidability.}
+
+\annie{include algorithm for avoidance with relays}
+
+\annie{include algorithm for upperbound/best case}
 
 \subsection{Caveats}
 
@@ -39,3 +61,5 @@ Our methods for measuring where traffic paths go use the data-plane; we analyze 
 
 \subsubsection{Path Asymmetry}
 \annie{Discuss asymmetry study here and also that our study shows a lower bound - potential surveillance could be worse (but not better).}
+
+\subsubsection{Traceroute Accuracy and Completeness}
