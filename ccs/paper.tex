@@ -50,16 +50,31 @@
 \usepackage{url}
 \def\UrlBreaks{\do\/\do-}
 \usepackage{breakurl}
-\usepackage[breaklinks]{hyperref}
+\usepackage[draft]{hyperref}
 \usepackage{color}
 \usepackage{subcaption}
 \usepackage{cancel}
 \usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage[normalem]{ulem}
+\usepackage{xspace}
+\usepackage{tabularx}
+\usepackage{caption}
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 \captionsetup{compatibility=false}
 \graphicspath{{./figures/}}
 \input{commands}
+\usepackage{adjustbox}
+\usepackage{array}
+
+\newcolumntype{R}[2]{%
+    >{\adjustbox{angle=#1,lap=\width-(#2)}\bgroup}%
+    l%
+    <{\egroup}%
+}
+\newcommand*\rot{\multicolumn{1}{R{45}{1em}}}% no optional argument here, please!
 
 \makeatletter
 \def\BState{\State\hskip-\ALG@thistlm}

@@ -1,137 +1,92 @@
-\section{Nation-State Routing: State of the Art -- \annie{this section needs a better name to describe the initial measurements we did from probes to the Top 100 domains}}
+\section{Nation-State Routing: Default \\Routes}
 \label{measure}
 
-As Internet traffic crosses international borders, it becomes subject to the wiretapping policies of the national jurisdiction in which it is transitting.  Some countries, such as the United States, are well known for wiretapping policies.  The methods we use are general and can be applied to any country of interest, and we describe our measurement pipeline for Country X. We measure where Country X's Internet users' traffic is going and how often; this shows how much possible surveillance could currently be conducted on Country X's traffic.  We then apply our measurements to Brazil, Netherlands, India, Kenya, and the United States and discuss the results.
+As Internet traffic crosses international borders, it becomes subject to the wiretapping policies of the national jurisdiction in which it is transitting.  We study five different countries, Brazil, Netherlands, India, Kenya, and the United States, and measure which countries are transitting their traffic.  The methods we use are described in Section \ref{pipeline1}, and in this section we discuss our findings.
 
-\subsection{Brazil}
-Here we discuss our findings on which countries transit Brazilian web traffic, which countries host popular content for Brazilians, and to which countries Brazilian traffic trombones.  
+\subsection{Hosting Diversity}
+First we look at hosting diversity.  This shows us how many unique countries in which a domain is hosted -- the more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  By querying DNS from 26 vantage points around the world, we found that there is hosting diversity among the Alexa Top 100 Domains.  About half of the Alexa Top 100 Domains in each of the five countries studied are hosted in more than one country.  This can be seen in Figure~\ref{fig:host_diversity}.  The amount of hosting diversity motivates the potential for circumventing surveillance states.  We next look at which countries are currently transitting and hosting Internet traffic, and measure whether traffic is going to replicas in surveillance states (when they may not need to).
 
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{br_transit_bar}
-%\caption{The number of paths that Brazilian traffic transits.}
-%\label{fig:transit_br}
-%\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{host_domains_hist_US}
+\caption{The number of Alexa Top 100 US Domains hosted in different countries.}
+\label{fig:host_diversity}
+\end{figure}
 
-Figure \ref{fig:transit_br} shows the number of paths that transit different countries.  Note that these numbers are calculated for when the country is \textit{only} on the path and \textit{not the destination country}.  We can see that Brazil is most commonly on the path, which is expected because all paths originate from Brazil.  A few countries see a significant amount of traffic; Spain transits 17.6\% of the paths, Italy transits 8.4\% of the paths, and the United States transits 7.3\% of the paths.  Any country that is on the path has the ability to conduct surveillance on Brazilian traffic.  
+\subsection{Trend 1: Surveillance States Host Domains}
 
-More revealing than the transit-only countries, the paths that end in countries other than Brazil show that web content for Brazilian Internet users is not primarily hosted in Brazil.  The number of paths that end in different countries are shown in Figure \ref{fig:host_br}.  The country that hosts the most significant amount of web content is the United States; it was the destination country for 77\% of paths from Brazil.  If most of these domains are only hosted in the United States, then it's impossible for Brazilian clients to avoid the United States.  If the web content is georeplicated in another region, such as Europe, then Brazilian clients may be able to avoid the United States for a significant amout of their Internet traffic.  It is also worth noting that only 17\% of the paths end in Brazil, and the next most popular destination country is Ireland with 1.7\% of paths ending there.  
+\newcommand{\headrow}[1]{\multicolumn{1}{c}{\adjustbox{angle=45,lap=\width-0.5em}{#1}}}
+\newcommand{\full}{$\bullet$}
+\newcommand{\prt}{$\circ$}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+%\renewcommand{\familydefault}{\sfdefault}
+\noindent
+\begin{table*}[h!]
+\centering
+\begin{tabular}{|P{37mm}|cc|cc|cc|cc|cc|}
+\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\\hline
+\textit{Country}    &\multicolumn{2}{c|}{\textit{Brazil}}   &\multicolumn{2}{c|}{\textit{Netherlands}}   &\multicolumn{2}{c|}{\textit{India}} &\multicolumn{2}{c|}{\textit{Kenya}} &\multicolumn{2}{c|}{\textit{United States}}\\
+\hline\hline
+Argentina             &.013     &.013   &     &  &    &   &    &.     &  & \\\hline
+Australia             &     &   &     &  &.006    &.047   &.004    &.007     &  & \\\hline
+Austria             &    &   &.001     &.015  &    &.001   &    &.002     &  & \\\hline
+Bahrain             &     &.00006   &     &  &   &   &    &     &  & \\\hline
+Belize             &     &   &     &.0006  &   &.0005   &    &.0006     &  & \\\hline
+Brazil             &.169     &1.00   &     &  &   &   &    &     &  & \\\hline
+British Virgin Islands  &.001     &.001   &     &  &    &   &    &     &  & \\\hline
+Canada             &.001     &.013   &.007     &.007  &.015    &.016   &.006    &.008     &  &.081 \\\hline
+Chile             &.00009    &00009   &    & &   &   &   &     &  & \\\hline
+China             &     &.0008   &     &.002  &    &.004   &.002    &.003     &  & \\\hline
+Costa Rica             &     &   &.009     &.009  &    &  &.002    &.002     &  & \\\hline
+Czech Republic             &.002     &.002   &     &.00005  &.001    &.001   &.002    &.002     &  & \\\hline
+Denmark             &     &  &     &.0002  &   &   &   &     &  & \\\hline
+Finland             &     &   &     &.004  &    &   &    &.003     &  & \\\hline
+France             &.001     &.059   &.022     &.102  &.009    &.104   &.023    &.221     &.0013  &.104 \\\hline
+Germany             &.002     &.005   &.013     &.050  &.014    &.032   &.028    &.048     &.0013  &.008 \\\hline
+Great Britain             &.00006     &.024   &.019     &.140  &.021    &.204   &.032    &.500     &.0024  &.006 \\\hline
+Greece             &     &   &     &  &   &  &.003    &.003     &  & \\\hline
+Guatemala             &.003     &.003   &     &  &   &   &    &     &  & \\\hline
+Hong Kong             &     &   &     &.003  &.004   &.016   &.008   &.012     &  &.0008 \\\hline
+India             &    &   &     &.0007  &.053   &1.0   &.002    &.058     &  &.0005 \\\hline
+Ireland             &.016     &.028   &.064     &.106  &.027    &.031   &.108    &.133     &.0012  &.006 \\\hline
+Israel             &.0001     &.0003   &     &.00005  &.0001    &.002   &.003    &.004     &  & \\\hline
+Italy            &.001     &.095   &.008    &.026  &.002    &.008   &.030    &.071     &  &.0003 \\\hline
+Japan             &.0003     &.001   &.0001     &.0006  &.001    &.029   &.003    &.016     &.00006  &.00006 \\\hline
+Kenya             &    &   &     &  &   &   &.022    &1.0     &  & \\\hline
+Latvia             &     &  &.0009     &.0009  &.001    &.001   &.001    &.001     &  & \\\hline
+Luxembourg             &    &   &     &.003  &    &   &    &     &  & \\\hline
+Malaysia             &     &  &     &  &.003    &.006   &    &     &  & \\\hline
+Mauritius             &     &   &     &  &    &   &.004    &.322     &  & \\\hline
+Mexico             &     &.0009   &     &  &    &   &    &    &  & \\\hline
+Moldova             &     &   &.001     &.001  &.002    &.002   &.002    &.002     &  & \\\hline
+Netherlands             &.013     &.019   &.392     &1.0  &.101    &.121   &.200    &.253     &.024  &.031 \\\hline
+New Zealand             &    &.003   &     &  &    &   &.003   &.003     &  & \\\hline
+Norway             &    &   &.00005     &.001  &    &   &   &     &  & \\\hline
+Peru             &     &.00006   &     &  &   &   &   &     &  & \\\hline
+Poland             &    &.0002   &     &  &.001    &.012   &   &.0001     &  & \\\hline
+Portugal             &    &.0002   &     &  &   &   &.002    &.002     &  & \\\hline
+Romania             &     &   &     &.0008  &   &.001   &.002    &.003     &  & \\\hline
+Russia             &    &  &     &.00005  &   &   &.005   &.005     &  & \\\hline
+Singapore             &    &.0009   &.002     &.002  &.103    &.270   &.027    &.040     &  &.003 \\\hline
+South Africa             &    &   &     &  &   &   &.021    &.334     &  & \\\hline
+Spain             &.001     &.176   &    &.004  &   &   &   &     &  & \\\hline
+Sweden             &.0002     &.001   &.001     &.056  &.003    &.005   &   &.0006     &  &.0003 \\\hline
+Switzerland             &     &   &.003     &.004  &.004   &.01   &   &.003     &  & \\\hline
+Taiwan             &     &   &     &  &   &  &    &.003     &  & \\\hline
+Tanzania             &    &   &     &  &   &   &   &.015     &  & \\\hline
+Turkey             &     &   &.003     &.003  &   &   &.003    &.003     &  & \\\hline
+Ukraine             &.001     &.001   &     &  &    &   &.002    &.002     &  & \\\hline
+United Arab Emirates             &     &.00003   &     &  &   &   &.011    &.152     &  & \\\hline
+United States             &.774     &.844   &.454     &.583  &.629    &.715   &.443    &.616     &.969  &1.0 \\\hline
+Uruguay             &     &.0003   &    &  &    &   &   &     &  & \\\hline
+Venezuela             &    &.003   &     &  &   &   &   &     &  & \\\hline
+\end{tabular}
+\caption*{}
+\label{tab:class}
+\end{table*}
 
-Tromboning paths show that local traffic isn't staying local; ideally, if a path starts and ends in the same country, then it shouldn't cross international borders.  We found that tromboning occurs for Brazilian traffic to 9 different countries.  These results can be seen in Figure \ref{fig:trombone_br}.  While we measured 4.2\% of all paths trombone, 81\% of all tromboning paths go through the United States.  For 4.2\% of the traffic, foreign countries can conduct surveillance because the traffic is not staying local (but should be). 
+\subsection{Trend 2: Traffic Transits Surveillance States}
 
-%\begin{figure}[t!]
-%\centering
-%\includegraphics[width=.5\textwidth]{brazil_host}
-%\caption{The number of paths that end in a country.}
-%\label{fig:host_br}
-%\end{figure} 
+\subsection{Trend 3: Tromboning Traffic Transits Surveillance States}
 
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{br_trombone}
-%\caption{The number of paths that start and end in Brazil, but pass through another country.}
-%\label{fig:trombone_br}
-%\end{figure}
-
-These results show that there are numerous opportunities for foreign countries to conduct surveillance on Brazilian citizens because of interdomain routing. 
-
-\subsection{Netherlands}
-Here we discuss our results for which countries route and/or host Netherlands traffic. 
-
-Similar to the findings about Brazil, the United States is the foreign country that transits {\it and} hosts the Netherlands traffic most often.  Transit countries and hosting countries for traffic generated by clients in the Netherlands are shown in Figures \ref{fig:transit_nl} and \ref{fig:host_nl}.  Most other countries that transit Netherlands traffic are European countries, such as Great Britain, Ireland, France, Sweden, and Germany.
-
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{nl_transit_nl}
-%\caption{The number of paths that Netherlands traffic transits.}
-%\label{fig:transit_nl}
-%\end{figure}
-
-%\begin{figure}[t!]
-%\centering
-%\includegraphics[width=.5\textwidth]{netherlands_host}
-%\caption{The number of paths that end in a country.}
-%\label{fig:host_nl}
-%\end{figure} 
-
-The percentage of popular domains that are hosted in the Netherlands is similar to the percentage that are hosted in the United States.  Like the transit countries, most of the other countries that host popular domains are in other European countries.
-
-About a third (33.4\%) of the Netherlands traffic in our study was domestic traffic, and about half (52.2\%) of the domestic traffic tromboned to countries other than the Netherlands.  The United States and Great Britain saw the most of the Netherlands tromboning domestic traffic --- both of which are known for surveillance.
-
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{nl_trombone}
-%\caption{The number of paths that start and end in Netherlands, but pass through another country.}
-%\label{fig:trombone_nl}
-%\end{figure}
-
-\subsection{India}
-\annie{add India results here}
-
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{in_transit_bar}
-%\caption{The number of paths that Indian traffic transits.}
-%\label{fig:transit_in}
-%\end{figure}
-
-%\begin{figure}[t!]
-%\centering
-%\includegraphics[width=.5\textwidth]{india_host}
-%\caption{The number of paths that end in a country.}
-%\label{fig:host_in}
-%\end{figure} 
-
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{in_trombone}
-%\caption{The number of paths that start and end in India, but pass through another country.}
-%\label{fig:trombone_in}
-%\end{figure}
-
-\subsection{Kenya}
-\annie{add Kenya results here}
-
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{ke_tranit_bar}
-%\caption{The number of paths that Kenyan traffic transits.}
-%\label{fig:transit_ke}
-%\end{figure}
-
-%\begin{figure}[t!]
-%\centering
-%\includegraphics[width=.5\textwidth]{kenya_host}
-%\caption{The number of paths that end in a country.}
-%\label{fig:host_ke}
-%\end{figure} 
-
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{ke_trombone}
-%\caption{The number of paths that start and end in Kenya, but pass through another country.}
-%\label{fig:trombone_ke}
-%\end{figure}
-
-\subsection{United States}
-
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{us_transit_bar}
-%\caption{The number of paths that United States traffic transits.}
-%\label{fig:transit_us}
-%\end{figure}
-
-%\begin{figure}[t!]
-%\centering
-%\includegraphics[width=.5\textwidth]{us_host}
-%\caption{The number of paths that end in a country.}
-%\label{fig:host_us}
-%\end{figure} 
-
-%\begin{figure}
-%\centering
-%\includegraphics[width=.5\textwidth]{us_trombone}
-%\caption{The number of paths that start and end in United States, but pass through another country.}
-%\label{fig:trombone_us}
-%\end{figure}
+\subsection{United States as an Outlier}
