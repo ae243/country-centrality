@@ -70,7 +70,7 @@ file_map = {'BR-AWS': 'cc_brazil.txt', 'BR-VPS': 'cc_brazil-vps.txt', 'SG-AWS': 
 
 domain_endpoint = {}
 for file_name in file_map.values():
-    f = open(file_name, 'r')
+    f = open('cleaned_' + file_name, 'r')
     for line in f:
         domain = line.split("|")[0]
         if domain in domain_endpoint:
@@ -96,7 +96,7 @@ domain_exist = {}
 current_trace = []
 file_list = [file_map[z] for z in suitable]
 for file_name in file_list:
-    f = open(file_name, 'r')
+    f = open('cleaned_' + file_name, 'r')
     for line in f:
         domain = line.split("|")[0]
         if not domain in domain_map:

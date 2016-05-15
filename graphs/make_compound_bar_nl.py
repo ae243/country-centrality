@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import sys
 
 N = 7
-avoidance_before = (.420, .864, .898, .944, .894, .95, .999)
+avoidance_before = (.417, .860, .898, .944, .894, .95, .999)
 
 ind = np.arange(N)  # the x locations for the groups
 width = 0.2       # the width of the bars
@@ -12,10 +12,10 @@ width = 0.2       # the width of the bars
 fig, ax = plt.subplots()
 rects1 = ax.bar(ind, avoidance_before, width, color='r')
 
-avoidance_after = (.651, .996, .996, 1.0, .996, .996, 1.0)
+avoidance_after = (.630, .996, .996, 1.0, .996, .996, 1.0)
 rects2 = ax.bar(ind + width, avoidance_after, width, color='y')
 
-avoidance_bound = (.826, 1.0, .996, 1.0, 1.0, .996, 1.0)
+avoidance_bound = (.790, 1.0, .996, 1.0, 1.0, .996, 1.0)
 rects3 = ax.bar(ind + width + width, avoidance_bound, width, color='b')
 
 # add some text for labels, title and axes ticks

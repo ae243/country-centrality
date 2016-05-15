@@ -68,28 +68,17 @@ print suitable
 
 file_map = {'BR-AWS': 'cc_brazil.txt', 'BR-VPS': 'cc_brazil-vps.txt', 'SG-AWS': 'cc_singapore.txt', 'SG-VPS': 'cc_singapore-vps.txt', 'US': 'cc_oregon.txt', 'FR': 'cc_france.txt', 'ES': 'cc_spain.txt', 'IE': 'cc_ireland.txt', 'DE': 'cc_frankfurt.txt', 'JP': 'cc_tokyo.txt', 'KR': 'cc_seoul.txt', 'AU': 'cc_sydney.txt'}
 
-domain_map = {}
-domain_exist = {}
 domain_endpoint = {}
-current_trace = []
-file_list = [file_map[z] for z in suitable]
-for file_name in file_list:
-    f = open(file_name, 'r')
+for file_name in file_map.values():
+    f = open('cleaned_' + file_name, 'r')
     for line in f:
         domain = line.split("|")[0]
-        if not domain in domain_map:
-            countries = line.strip().split("|")[1:]
-            co = pycountry.countries.get(alpha2=y)
-            if not co.name in countries:
-                domain_map[domain] = 1
-        domain_exist[domain] = 1
         if domain in domain_endpoint:
             end = line.strip().split("|")[-1]
             domain_endpoint[domain].append(end)
         else:
             end = line.strip().split("|")[-1]
             domain_endpoint[domain] = [end]
-    f.close()
 
 upper = 0.0
 for d in domain_endpoint:
@@ -101,6 +90,22 @@ for d in domain_endpoint:
 
 upper = 1.0 - (upper/len(domain_endpoint))
 print "Upper: " + str(upper)
+
+domain_map = {}
+domain_exist = {}
+current_trace = []
+file_list = [file_map[z] for z in suitable]
+for file_name in file_list:
+    f = open('cleaned_' + file_name, 'r')
+    for line in f:
+        domain = line.split("|")[0]
+        if not domain in domain_map:
+            countries = line.strip().split("|")[1:]
+            co = pycountry.countries.get(alpha2=y)
+            if not co.name in countries:
+                domain_map[domain] = 1
+        domain_exist[domain] = 1
+    f.close()
 
 temp = list(set(domain_exist.keys()) - set(domain_map.keys()))
 print temp

@@ -4,9 +4,9 @@
 When Internet traffic enters a country, it becomes subject to those
 countries' laws.  As a result, users have more need than ever to
 determine---and control---which countries their traffic is traversing.
-An increasing number of countries pass laws that facilitate mass
+An increasing number of countries have passed laws that facilitate mass
 surveillance of their citizens~\cite{france_surveillance,
-  netherlands_surveillance, kazak_surveillance, uk_bill}, governments
+  netherlands_surveillance, kazak_surveillance, uk_bill}, and governments
 and citizens are increasingly motivated to divert their Internet traffic
 from countries that perform surveillance (notably, the United
 States~\cite{russia_secure_internet,
@@ -36,7 +36,7 @@ course, cannot guarantee that Internet traffic for some service does not
 enter or transit a particular country: Internet protocols have no notion
 of national borders, and interdomain paths depend in large part on
 existing interconnection business relationships (or lack thereof).  In
-this poster, we present evidence to suggest that existing Internet
+this paper, we present evidence to suggest that existing Internet
 hosting and interdomain paths still make it difficult to avoid certain
 countries for many popular websites. 
 
@@ -49,7 +49,7 @@ service, we measure the country-level traffic paths for the Alexa Top
 100 domains in each respective country.  Using the current state of
 routing as a baseline for comparison, we then measure how avoidable a
 given country is to a client in either Brazil, Netherlands, India,
-Kenya, or the United States, using open resolvers and using the overlay
+Kenya, or the United States, using open resolvers and using an overlay
 network.  Our contributions include: 
 
 \begin{itemize}
@@ -83,14 +83,16 @@ can we use to take advantage of hosting and path diversity to help governments
 and citizens better control transnational Internet paths?
 
 Determining where a client's Internet traffic flows is complicated by
-the complexity of websites.  Many
+the complexity of websites~\cite{butkiewicz2011understanding}.  Many
 websites embed content from other domains, which are most likely
 hosted in different locations.  Therefore, the client has to make
 additional web requests, which take different paths.  One initial web
 request can result in content being fetched from many servers located
 around the world, and to see where this traffic flows requires knowledge
 of all paths from the client to requested sources (and all the requested
-sources to the client).  Therefore, the first step of our measurement 
+sources to the client).  Figure~\ref{fig:domains} shows the number of 
+subsequent requests that are made from an initial web request for the 
+Brazilian Alexa Top 100 domains.  Therefore, the first step of our measurement 
 method is to {\tt curl} each of the Alexa Top 100 domains, and extract 
 the third party domains from the response body.  Next, we use RIPE Atlas 
 probes in the country of interest to locally resolve each domain and run 
@@ -100,6 +102,13 @@ was used twice: once using ICMP traceroute and once using TCP traceroute.
 Using MaxMind, each IP address was geolocated at a country granularity, 
 and with the resulting set of country-level paths, we analyzed which 
 countries host and/or transit the traffic.
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{subsequent_request_hist}
+\caption{A histogram of the number of third party requests are made by each initial domain request for the Brazilian Alexa Top 100 domains.}
+\label{fig:domains}
+\end{figure}
 
 A client can use DNS open resolvers to discover georeplication of a site
 or service that can facilitate the avoidance of specific countries. For
@@ -129,8 +138,8 @@ each relay, as well as from each relay to the Alexa Top 100 domains.  After mapp
 the traceroutes to country-level paths with MaxMind, we measure which countries are 
 avoidable.
 
-After analysis, we find high hosting and routing diversity, and that avoidance (to 
-some extent) is feasible.  
+After analysis, we present our main findings on hosting diversity, routing diversity, 
+and avoidance feasibility.  
 
 {\bf Hosting diversity.} We start by looking at hosting diversity, more specifically, how many
 countries a domain is hosted in.  More diversity should provide for the
@@ -172,12 +181,12 @@ the top 100 domains.  On the other hand, the United States can avoid
 every other country except for France and the Netherlands, and even then
 they are avoidable for 99\% of the top 100 domains. 
 
-This paper is organized as follows.  In the next section, we discuss
+This rest of this paper is organized as follows.  In the next section, we discuss
 the current nation-states that conduct mass surveillance or are in the 
 process of drafting laws for surveillance.  In
 Section~\ref{datasets} we describe our measurement methods.
 We point out the advantages and disadvantages of existing datasets, and
-justify our decision.  In Section \ref{measure}, we present results that show which countries
+justify our decisions.  In Section \ref{measure}, we present results that show which countries
 current Internet traffic is transiting and hosted in.  Next, Section
 \ref{avoid_results} shows how well open DNS resolvers and relays work to avoid any
 given country.  We discuss how our system differs from others and
