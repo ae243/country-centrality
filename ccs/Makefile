@@ -2,14 +2,7 @@ TARGET=paper
 all: pdf
 
 pdf:
-	GS_OPTIONS=-dPDFSETTINGS=/prepress pdflatex $(TARGET)
-	bibtex $(TARGET)
-	GS_OPTIONS=-dPDFSETTINGS=/prepress pdflatex $(TARGET)
-	GS_OPTIONS=-dPDFSETTINGS=/prepress pdflatex $(TARGET)
-
-rubber:
 	GS_OPTIONS=-dPDFSETTINGS=/prepress rubber -f --pdf -Wrefs -Wmisc $(TARGET)
-
 
 clean:
 	rm -f *.aux *.log *.out *.bbl *.blg *.brf *~ *.bak $(TARGET).pdf $(TARGET).ps $(TARGET).toc $(TARGET).lot $(TARGET).lof
