@@ -1,6 +1,8 @@
 import sys
 import matplotlib.pyplot as plt
 import matplotlib
+matplotlib.rcParams.update(open('matplotlibrc'))
+
 
 print matplotlib.matplotlib_fname()
 f = open(sys.argv[1], 'r')

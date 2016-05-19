@@ -35,51 +35,18 @@ of a desire to ``keep local traffic local''. Building IXPs alone, of
 course, cannot guarantee that Internet traffic for some service does not
 enter or transit a particular country: Internet protocols have no notion
 of national borders, and interdomain paths depend in large part on
-existing interconnection business relationships (or lack thereof).  
+existing interconnection business relationships (or lack thereof). 
 
-In this paper, we present evidence to suggest that existing Internet
-hosting and interdomain paths still make it difficult to avoid certain
-countries for many popular websites. Prior work explored how central different countries are to interdomain 
+Prior work explored how central different countries are to interdomain 
 routing based on simulated paths and an Internet topology~\cite{karlin2009nation}. 
-Our study differs by actively measuring and analyzing the traffic originating in
-five different countries: Brazil, Netherlands, Kenya, India, and the
-United States.  Using RIPE Atlas probes and the MaxMind geolocation
-service, we measure the country-level traffic paths for the Alexa Top
-100 domains in each respective country.  Using the current state of
-routing as a baseline for comparison, we then measure how avoidable a
-given country is to a client in either Brazil, Netherlands, India,
-Kenya, or the United States, using open resolvers and using different 
-methods.  Our contributions include: 
-
-\begin{itemize}
-\item The first in-depth measurement study of
-  nation-state routing for Brazil, Netherlands, Kenya, India, and the
-  United States. 
-\item A preliminary evaluation of how open DNS resolvers and overlay
-  network relays can help citizens and governments discover and use
-  network paths that avoid certain countries.
-\end{itemize}
-\noindent
-We find that hosting for many popular websites lacks diversity; in many
-cases, even websites that are popular {\em locally} are hosted outside
-the country where citizens are trying to access them. For example, more
-than 50\% of the Alexa Top 100 domains in Brazil are hosted in the
-United States. Internet paths also lack geographic diversity: About half
-of the paths originating in Kenya to the most popular Kenyan websites
-traverse the United States or Great Britain. Much of this phenomenon is
-due to ``tromboning'', whereby an Internet path starts and ends in a
-country, yet transits an intermediate country; for example, about 13\%
-of the paths that we explored from RIPE Atlas nodes in Brazil to the
-Alexa Top 100 in Brazil trombone through the United States. Fortunately,
-our preliminary results suggest that the use of overlay network relays
-to intentionally introduce network detours, and the use of open DNS
-resolvers to discover hosting diversity can reduce tromboning and
-generally help users select paths that avoid certain countries.
-
-Our measurement study tackles two questions: (1)~Which countries do {\em
+In this paper, we study two questions: (1)~Which countries do {\em
   default} Internet routing paths traverse?; (2)~What types of methods
 can we use to take advantage of hosting and path diversity to help governments
-and citizens better control transnational Internet paths?
+and citizens better control transnational Internet paths? 
+In our study, we actively measure and analyze the traffic originating in
+five different countries: Brazil, Netherlands, Kenya, India, and the
+United States.  Our work studies routes at the data plane level, which differs from 
+ previous work, which has analyzed BGP routes~\cite{karlin2009nation,shah2015characterizing}.
 
 Determining where a client's Internet traffic flows is complicated by
 the complexity of websites~\cite{butkiewicz2011understanding}.  Many
@@ -89,47 +56,41 @@ additional web requests, which take different paths.  One initial web
 request can result in content being fetched from many servers located
 around the world, and to see where this traffic flows requires knowledge
 of all paths from the client to requested sources (and all the requested
-sources to the client).  Therefore, the first step of our measurement 
-method is to {\tt curl} each of the Alexa Top 100 domains, and extract 
-the third party domains from the response body.  Next, we use RIPE Atlas 
-probes in the country of interest to locally resolve each domain and run 
-traceroutes to the IP addresses in the DNS responses.  The measurements 
-were run using Paris traceroute and each (probe, destination IP) pair 
-was used twice: once using ICMP traceroute and once using TCP traceroute. 
-Using MaxMind, each IP address is geolocated at the country granularity, 
-and with the resulting set of country-level paths, we analyzed which 
+sources to the client).  We measure current traffic routes by using RIPE 
+Atlas probes in the five countries we studied and running traceroutes to 
+the Alexa Top 100 domains.  Therefore, our traceroute measurements include the 
+set of domains and third party domains as destinations.  After mapping 
+traceroutes to country-level paths, we analyze which 
 countries host and/or transit the traffic.
 
-A client can use DNS open resolvers to discover georeplication of a site
-or service that can facilitate the avoidance of specific countries. For
+To achieve country avoidance, we study two approached: open DNS resolvers 
+and overlay network relays. For
 example, a client can query an open DNS resolver in a foreign country to
 discover a different georeplicated instance of a service; this technique
 (or the use of EDNS client subnet) can allow the client to discover
 different replicas of the same service. The path to this newly
 discovered replica may assist in avoiding particular countries
 (particularly if the client is trying to avoid the country of the
-original hosting replica!).  The increasing use of IP anycast can
-sometimes make this technique
-insufficient, however, if the client
+original hosting replica!).  However, the increasing use of IP anycast can
+sometimes make this technique insufficient if the client
 receives the same IP address regardless of the apparent origin of the
 DNS query.  Another approach is to use overlay network relays, which can
 prevent the client from traversing an unfavorable country by introducing
 a path that detours from the default. Additionally, using
-relays in the client's country can somtimes help keep local traffic
+relays in the client's country can sometimes help keep local traffic
 local, by exploiting local paths that BGP does not select by default.
-  
+
 To evaluate the use of open resolvers as a tool for country avoidance, we
-query open resolvers in geographically diverse locations around the world 
-using the Alexa Top 100 domains.  Then we use RIPE Atlas probes to traceroute 
-to the responses, and use MaxMind to generate country-level paths.  To evaluate 
+query open resolvers in geographically diverse locations around the world.  Then we traceroute 
+to the DNS responses, and map the traceroutes to country-level paths.  To evaluate 
 overlay network relays for country-avoidance, we establish 12 relays in geographically 
 diverse locations around the world, run traceroutes from the country of interest to 
-each relay, as well as from each relay to the Alexa Top 100 domains.  After mapping 
-the traceroutes to country-level paths with MaxMind, we measure which countries are 
+each relay, as well as from each relay to each domain.  After mapping 
+the traceroutes to country-level paths, we measure which countries are 
 avoidable.
 
-After analysis, we present our main findings on hosting diversity, routing diversity, 
-and avoidance feasibility.  
+Our main findings on hosting diversity, routing diversity, and avoidance 
+feasibility are highlighted as follows.
 
 {\bf Hosting diversity.} We start by looking at hosting diversity, more specifically, how many
 countries a domain is hosted in.  More diversity should provide for the
@@ -143,7 +104,11 @@ subject to surveillance.  Over 50\% of the Alexa Top 100 domains in
 Brazil and India are hosted in the United States, and over 50\% of the
 paths from the Netherlands to the Alexa Top 100 domains transits the
 United States.  About half of Kenyan traffic traverses the United States
-and Great Britain.   
+and Great Britain.  Much of this phenomenon is
+due to ``tromboning,'' whereby an Internet path starts and ends in a
+country, yet transits an intermediate country; for example, about 13\%
+of the paths that we explored from RIPE Atlas nodes in Brazil to the
+Alexa Top 100 in Brazil trombone through the United States. 
 
 {\bf On the feasiblity of avoidance.} By measuring which domains are accessible without traversing a given
 country using open resolvers and an overlay network, we see that
@@ -170,6 +135,20 @@ only avoid the United States on about 40\% of the paths from Kenya to
 the top 100 domains.  On the other hand, the United States can avoid
 every other country except for France and the Netherlands, and even then
 they are avoidable for 99\% of the top 100 domains. 
+
+We find that current traffic is traversing known surveillance states , but also
+can show that there are tools that can be used for country avoidance. Our contributions 
+include: 
+
+\begin{itemize}
+\item The first in-depth measurement study of
+  nation-state routing for Brazil, Netherlands, Kenya, India, and the
+  United States. 
+\item An evaluation of how open DNS resolvers and overlay
+  network relays can help citizens and governments discover and use
+  network paths that avoid certain countries.
+\end{itemize}
+\noindent
 
 This rest of this paper is organized as follows.  In the next section, we discuss
 the current nation-states that conduct mass surveillance or are in the 

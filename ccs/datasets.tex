@@ -1,6 +1,13 @@
-\section{Measurement Infrastructure}
+\section{Characterizing Transnational Detours}
 \label{datasets}
-These included which vantage points within a country to use, which servers to use as relays, and which method to use for geolocating IP addresses.  We also introduce our measurement methods for measuring where current Internet traffic is traveling to, how well open DNS resolvers help clients avoid specific countries, and how well relays help clients avoid specific countries.
+Here we discuss how we chose our vantage points within a country, and which servers to use as relays.  We also introduce our measurement methods for measuring which countries current Internet traffic is traversing to characterize transnational detours.
+
+\subsection{Vantage Points}
+To our knowledge, the publicly available traceroute datasets suitable for our goal are from iPlane~\cite{madhyastha2006iplane} and CAIDA (Center for Applied Internet Data Analysis)~\cite{caida}.  The iPlane project uses PlanetLab ~\cite{planetlab} nodes to run traceroutes to a random set of IP addresses that cover all BGP atoms.  This project also has historical data as far back as 2006.  Unfortunately, because iPlane uses PlanetLab nodes, which have been shown to mostly use the Global Research and Education Network (GREN), the traceroutes run from PlanetLab nodes will not be representative of typical Internet users' traffic paths~\cite{banerjee2004interdomain}.  The other publicly available dataset, from CAIDA, ran traceroutes from different vantage points around the world, but to randomized destination IP addresses that cover all /24s.  This is also not sufficient for what we wanted to measure because a typical Internet user is going to access a domain that will be locally resolved; the user will not input a specific IP address in their browser.  Therefore, we chose to run active measurements that would be most representative of an Internet user.  We chose to run DNS and traceroute measurements from RIPE Atlas probes, which are hosted all around the world and in many different settings, include home networks~\cite{ripe_atlas}.  The first advantage of using RIPE Atlas is that the probes can use the local DNS resolver, which would give us the best estimate of the traceroute destination.  The next advantage is that we can control the parameters of traceroute; we specified to use paris traceroute as well as conducting both ICMP and TCP traceroutes.  We discuss more of our parameter selection and methodology in Section~\ref{measure}.
+
+Our study looks at the Alexa Top 100 domains in different countries, as well as the 3rd party domains that are requested as part of an original web request.  To obtain these 3rd party domains we {\tt curl} each of the Top 100 domains, but we must do so from within the country we are studying.  There is no current functionality to {\tt curl} from RIPE Atlas probes, so we established a VPN connection within each of these countries to {\tt curl} each domain and extract the 3rd party domains.
+
+As one of our research goals is to quantify how well the use of an overlay network will help clients avoid surveillance, we need access to a set of relays.  We used eight Amazon EC2 instances, one in each geographic region (United States, Ireland, Germany, Singapore, South Korea, Japan, Australia, Brazil), as well as 4 VPS machines (France, Spain, Brazil, Singapore).  The conjunction of these two sets of machines allow us to evaluate surveillance avoidance with a geographically diverse set of relays.
 
 \begin{figure*}
 \centering
@@ -16,13 +23,11 @@ These included which vantage points within a country to use, which servers to us
 \label{fig:analysis_pipeline}
 \end{figure}
 
-\subsection{Measurement Pipelines}
+\subsection{Measurement Pipeline}
 \label{pipeline}
 {\bf Current Traffic.} Our methods for measuring where traffic paths go use the data-plane; we analyze the reported hops of traceroute measurements to find which countries are on the path from a client in Country X to a popular domain.  For this study, we used RIPE Atlas probes in Country X, specifically the set of probes that had unique ASes in the country.  The destinations for traceroutes are the Country X Alexa Top 100 domains, as well as the third party domains within the response bodies of the 100 domains.  There are three main steps to our measurement procedure: traceroute generation and collection, transformation of traceroutes to country-level paths, and path analysis.
 
-{\bf Country Avoidance with Open Resolvers.} If content is replicated in different parts of the world, open DNS resolvers located around the globe can potentially help clients circumvent surveillance states.  To measure this, we first pick a set of open resolvers to query, then query with Country X's Alexa Top 100 domains, and traceroute from a client in Country X to the DNS responses given by the open resolvers.  These three steps are explained in more detail below.
-
-{\bf Country Avoidance with Relays.} Using an overlay network may help clients route around unfavorable countries or access content that is hosted in a more favorable country.  First, we select relays that are geographically diverse, run traceroute measurements from Country X to each relay and from each relay to the Country X Alexa Top 100 domains.  Based on these two sets of traceroutes, we can run analyses to determine if they improve country avoidability. 
+\subsection{Results}
 
 \subsection{Limitations}
 The measurement methods described in Section~\ref{datasets} are not without limitations.  First, our study is solely based on IPv4 routes, which likely differ from IPv6 routes.  Here we also discuss limitations with geolocation accuracy, path asymmetry, and traceroute completeness.
