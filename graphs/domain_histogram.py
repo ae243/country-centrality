@@ -1,10 +1,6 @@
 import sys
 import matplotlib.pyplot as plt
-import matplotlib
-matplotlib.rcParams.update(open('matplotlibrc'))
 
-
-print matplotlib.matplotlib_fname()
 f = open(sys.argv[1], 'r')
 domain_list = []
 
@@ -13,6 +9,8 @@ for line in f:
     unique_items = list(set(items))
     domain_list.append(len(unique_items))
 f.close()
+
+print domain_list
 
 n, bins, patches = plt.hist(domain_list, 50, facecolor='green')
 plt.xlabel('Number of Subsequent Requests')

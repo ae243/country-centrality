@@ -29,6 +29,107 @@ As one of our research goals is to quantify how well the use of an overlay netwo
 
 \subsection{Results}
 
+\newcommand{\headrow}[1]{\multicolumn{1}{c}{\adjustbox{angle=45,lap=\width-0.5em}{#1}}}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\begin{table*}[t]
+\centering
+\begin{tabular}{|P{37mm}|c|c|c|c|c|}
+%\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\
+\hline
+\textit{Country}    & \textit{Brazil}  & \textit{Netherlands}   & \textit{India} & \textit{Kenya} & \textit{United States}\\
+\hline\hline
+Brazil             &.169    &-     &-    & -  & - \\\hline\hline
+Canada             &.001    &.007     &.015      &.006       & -  \\\hline
+United States      &.774    &.454      &.629      &.443        &.969   \\\hline\hline
+France             &.001    &.022      &.009      &.023       &.0013 \\\hline
+Germany            &.002    &.013      &.014      &.028       &.0013  \\\hline
+Great Britain      &.00006  &.019     &.021     &.032       &.0024 \\\hline
+Ireland            &.016    &.064      &.027       &.108       &.0012   \\\hline
+Netherlands        &.013    &.392      &.101      &.200      &.024  \\\hline
+Spain              &.001    &-     & -    &  -     &-   \\\hline\hline
+Kenya              &-        &  -    & -    &.022        &-  \\\hline
+Mauritius          &  -      & -    & -   &.004       & -  \\\hline
+South Africa       & -       & -     & -  &.021       &- \\\hline\hline
+United Arab Emirates & -     & -     & -   &.011        &-  \\\hline
+India              &  -      & -     &.053    &.002        &-  \\\hline
+Singapore          & -       &.002     &.103      &.027       & - \\\hline
+\end{tabular}
+\caption{Fraction of paths that end in each country in default routes.}
+\label{tab:host}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\begin{tabular}{|P{37mm}|c|c|c|c|c|}
+%\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\
+\hline
+\textit{Country}    & \textit{Brazil}  & \textit{Netherlands}   & \textit{India} & \textit{Kenya} & \textit{United States}\\
+\hline\hline
+Brazil              &1.00       & -   & -     & -     & -\\\hline\hline
+Canada                &.013       &.007     &.016       &.008      &.081 \\\hline
+United States                 &.844        &.583     &.715      &.616       &1.0 \\\hline\hline
+France                 &.059     &.102      &.104       &.221      &.104 \\\hline
+Germany                 &.005       &.050    &.032      &.048      &.008 \\\hline
+Great Britain                &.024       &.140     &.204      &.500      &.006 \\\hline
+Ireland                &.028       &.106      &.031     &.133      &.006 \\\hline
+Netherlands                 &.019        &1.0      &.121      &.253      &.031 \\\hline
+Spain                  &.176       &.004     & -     & -      &- \\\hline\hline
+Kenya                 & -       &-    & -      &1.0      &- \\\hline
+Mauritius                  & -       & -     & -      &.322       &- \\\hline
+South Africa                 &-        & -    & -     &.334       &- \\\hline\hline
+United Arab Emirates                  &.00003        & -    & -     &.152       &- \\\hline
+India               &  -    &.0007    &1.0     &.058     &.0005 \\\hline
+Singapore                 &.0009        &.002     &.270       &.040       &.003 \\\hline
+\end{tabular}
+\caption{Fraction of paths that each country transits in default routes.}
+\label{tab:transit}
+\end{table*}
+
+Table \ref{tab:host} shows the five studied countries along the top of the table, and the countries that host their traffic along the Y axis.  For example, the United States is the endpoint of 84\% of the paths that originate in Brazil.  Table \ref{tab:transit} shows the fraction of paths that transit certain countries (along the Y axis).  The methods we use are described in Section \ref{pipeline1}, and in this section we discuss our findings.
+
+{\bf Hosting Diversity}
+First we look at hosting diversity.  This shows us how many unique countries in which a domain is hosted -- the more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  By querying DNS from 26 vantage points around the world, we found that there is hosting diversity among the Alexa Top 100 Domains.  About half of the Alexa Top 100 Domains in each of the five countries studied are hosted in more than one country.  This can be seen in Figure~\ref{fig:host_diversity}.  We see there are two distinct modes in the graph, one representing the domains that are hosted in a single country, and the other mode representing CDNs.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis - where are these domains hosted, and which countries are traversed on the way to reach these locations.
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{host_domains_hist_US}
+\caption{The number of Alexa Top 100 US Domains hosted in different countries.}
+\label{fig:host_diversity}
+\end{figure}
+
+{\bf Surveillance States Host Domains}
+The most common destination among all five countries studied is the United States: 77\%, 45\%, 63\%, 44\%, and 97\% of paths originating in Brazil, Netherlands, India, Kenya and the United States, respectively, are currently reaching content located in the United States. Despite the amount of country-level hosting diversity, we see the majority of paths from all five countries ending in a single country.  The fraction of paths that are hosted in various countries can be seen in Table~\ref{tab:host} (the complete table can be seen in the Appendix).  This is significant because the United States is a known surveillance state, and therefore these percentages represent just a portion of foreign traffic that the United States can conduct surveillance on.  Our results also show the Netherlands as a common hosting location for traffic originating in the Netherlands, India, and Kenya.
+
+For Indian traffic, in addition to the 63\% hosted in the United States and the 10\% hosted in the Netherlands, another 10\% is hosted in Singapore.  This can best be explained by the number of underwater cables with landing points in both India and Singapore~\cite{cablemap}.  More specifically, there is a cable that directly connects Chennai, India and Changi North, Singapore, and is owned by Tata Communications, which is one of the top global Internet providers (in terms of transitted IP space)~\cite{bakers}.  
+
+For Kenyan traffic, the United States hosts 44\% of the content, but Ireland hosts 10\%; Ireland is a popular hosting location for U.S. companies due to it's relaxed enforcement of privacy in the private sector.  
+
+All of the countries studied (except for the United States) host a small percentage of their own traffic.  For traffic that originates in Brazil, only 17\% of it also ends in Brazil.  Only 5\% and 2\% of Indian and Kenyan traffic, respectively, end in the originating country.  
+
+Only a fraction of country code top-level domains are hosted with in the respective country.  For Kenya, 24 of the Top 100 Domains are .ke domains, and of these 24 domains only 5 are hosted within Kenya.  29 out of 40 .nl domains are hosted in the Netherlands; 4 of 13 .in domains are hosted in India; 18 of 39 .br domains are hosted in Brazil.  Interestingly, all .gov domains were hosted in their respective country.
+
+{\bf Traffic Transits Surveillance States}
+Similar to the trend of hosting domains, the United States also transits a large portion of foreign traffic -- it transits a larger portion of traffic than it hosts.  Brazilian traffic traverse the United States on 84\% of the paths; therefore, the United States can conduct surveillance on 84\% of the traffic originating in Brazil, despite Brazil's strong efforts in avoiding United States surveillance.  Even though India and Kenya are geographically distant, 72\% and 62\% of their traffic transits the United States.  Of the five countries studied, the Netherlands has the lowest percentage of traffic that transits the United States at 58\%.  
+
+Great Britain and the Netherlands are on the path for a significant percentage of traffic originating in India and Kenya.  50\% and 20\% of paths that originate in Kenya and India transit Great Britain.  Traffic that traverses the Netherlands can be explained by the large IXP located there; traffic that traverses Great Britain is likely due to being on the path between the originating country and the final destination in a European country.
+
+Mauritius, South Africa, and the United Arab Emirates transit 32\%, 33\%, and 15\% of traffic from Kenya.  There are direct underwater cables from Kenya to Mauritius, and from Mauritius to South Africa.  Additionally, there is a cable from Mombasa, Kenya to Fujairah, United Arab Emirates.  This accounts for the large percentages of traffic that pass through these countries.
+
+{\bf Tromboning Traffic Transits Surveillance States}
+As mentioned in Section \ref{trend1}, the percentage of domestic traffic in some of the countries studied is extremely small.  For India, only 5\% of traffic is domestic and for Kenya, 2\% is domestic; despite the small amount of domestic traffic, some of this traffic trombones.  This can be seen better in the cases of Brazil and the Netherlands; figure \ref{fig:trombone_netherlands} shows the amount of paths that trombone to differing countries for the Netherlands.
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{nl_trombone_no_none2}
+\caption{The countries that tromboning Netherlands traffic transits.}
+\label{fig:trombone_netherlands}
+\end{figure}
+
+24\% of all paths originating in the Netherlands (62\% of domestic traffic) trombone to a foreign country before returning to the Netherlands. The most common countries traffic trombones to are the United States and Great Britain.  Traffic that should be kept local is susceptible to surveillance because it transits two well-known surveillance states.  For Brazil, 5\% of all traffic starts in the Netherlands, transits a foreign country, and returns to the Netherlands (30\% of domestic traffic trombones).  The most common country traffic trombones to is the United States. 
+
+{\bf United States as an Outlier}
+Most of the results discussed thus far have shown that Brazilian, Netherlands, Indian, and Kenyan traffic often transit surveillance states, most notable the United States.  The results from studying traffic that originates in the United States are drastically different from those of the other four countries.  The other four countries hosted very small amounts of their own traffic, whereas the United States hosts 97\% of the content that is accessed from within the country.  Only 13 unique countries are ever on a path from the United States to a domain in the Top 100 (or third party domain), whereas 30, 30, 25, and 38 unique countries are seen on the paths originating in Brazil, Netherlands, India, and Kenya.  There are only 6 foreign countries that host content for traffic originating in the United States, and the fraction of content hosted in these countries is less than 4\% combined.
+
 \subsection{Limitations}
 The measurement methods described in Section~\ref{datasets} are not without limitations.  First, our study is solely based on IPv4 routes, which likely differ from IPv6 routes.  Here we also discuss limitations with geolocation accuracy, path asymmetry, and traceroute completeness.
 
