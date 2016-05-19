@@ -1,11 +1,11 @@
 \section{Introduction}
 \label{intro}
 
-When Internet traffic enters a country, it becomes subject to those
-countries' laws.  As a result, users have more need than ever to
+When Internet traffic enters a country, it becomes subject to that
+country's laws.  As a result, users have more need than ever to
 determine---and control---which countries their traffic is traversing.
 An increasing number of countries have passed laws that facilitate mass
-surveillance of their citizens~\cite{france_surveillance,
+surveillance of their networks~\cite{france_surveillance,
   netherlands_surveillance, kazak_surveillance, uk_bill}, and governments
 and citizens are increasingly motivated to divert their Internet traffic
 from countries that perform surveillance (notably, the United
@@ -35,12 +35,11 @@ of a desire to ``keep local traffic local''. Building IXPs alone, of
 course, cannot guarantee that Internet traffic for some service does not
 enter or transit a particular country: Internet protocols have no notion
 of national borders, and interdomain paths depend in large part on
-existing interconnection business relationships (or lack thereof).  In
-this paper, we present evidence to suggest that existing Internet
-hosting and interdomain paths still make it difficult to avoid certain
-countries for many popular websites. 
+existing interconnection business relationships (or lack thereof).  
 
-Prior work explored how central different countries are to interdomain 
+In this paper, we present evidence to suggest that existing Internet
+hosting and interdomain paths still make it difficult to avoid certain
+countries for many popular websites. Prior work explored how central different countries are to interdomain 
 routing based on simulated paths and an Internet topology~\cite{karlin2009nation}. 
 Our study differs by actively measuring and analyzing the traffic originating in
 five different countries: Brazil, Netherlands, Kenya, India, and the
@@ -49,8 +48,8 @@ service, we measure the country-level traffic paths for the Alexa Top
 100 domains in each respective country.  Using the current state of
 routing as a baseline for comparison, we then measure how avoidable a
 given country is to a client in either Brazil, Netherlands, India,
-Kenya, or the United States, using open resolvers and using an overlay
-network.  Our contributions include: 
+Kenya, or the United States, using open resolvers and using different 
+methods.  Our contributions include: 
 
 \begin{itemize}
 \item The first in-depth measurement study of
@@ -90,25 +89,16 @@ additional web requests, which take different paths.  One initial web
 request can result in content being fetched from many servers located
 around the world, and to see where this traffic flows requires knowledge
 of all paths from the client to requested sources (and all the requested
-sources to the client).  Figure~\ref{fig:domains} shows the number of 
-subsequent requests that are made from an initial web request for the 
-Brazilian Alexa Top 100 domains.  Therefore, the first step of our measurement 
+sources to the client).  Therefore, the first step of our measurement 
 method is to {\tt curl} each of the Alexa Top 100 domains, and extract 
 the third party domains from the response body.  Next, we use RIPE Atlas 
 probes in the country of interest to locally resolve each domain and run 
 traceroutes to the IP addresses in the DNS responses.  The measurements 
 were run using Paris traceroute and each (probe, destination IP) pair 
 was used twice: once using ICMP traceroute and once using TCP traceroute. 
-Using MaxMind, each IP address was geolocated at a country granularity, 
+Using MaxMind, each IP address is geolocated at the country granularity, 
 and with the resulting set of country-level paths, we analyzed which 
 countries host and/or transit the traffic.
-
-\begin{figure}
-\centering
-\includegraphics[width=.5\textwidth]{subsequent_request_hist}
-\caption{A histogram of the number of third party requests are made by each initial domain request for the Brazilian Alexa Top 100 domains.}
-\label{fig:domains}
-\end{figure}
 
 A client can use DNS open resolvers to discover georeplication of a site
 or service that can facilitate the avoidance of specific countries. For
@@ -170,7 +160,7 @@ relays are used.
 {\bf Cause for concern.} Unfortunately, some of the more prominent surveillance states are also
 some of the {\textit least avoidable} countries.  Most countries are
 highly dependent on the United States, a known surveillance state, and
-not dependent on other countries.  Neither Brazil, India, Kenya, or the
+not dependent on other countries.  Neither Brazil, India, Kenya, nor the
 Netherlands can completely avoid the United States with the country
 avoidance techniques.  With the overlay network, both Brazilian and
 Netherlands paths avoid the United States about 65\% of the time, and
