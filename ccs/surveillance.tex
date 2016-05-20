@@ -1,7 +1,20 @@
 \section{State of Surveillance}
 \label{surv}
+We focused our study on five different countries, and for each we actively measureed and analyzed traffic that originated in the country.  Here we discuss which countries we chose and our reasoning.  We also discuss a sampling of countries that currently conduct surveillance; this exploration is not exhaustive, but highlights countries that are shifting more in the direction of mass surveillance.  
 
 \subsection{Studied Countries}
+Besides picking a different country to study on five different continents, we selected Brazil, Netherlands, Kenya, India, and the United States for the following reasons.
+
+{\bf Brazil.} It has been widely publicized that Brazil is actively trying to avoid having their traffic transit the United States.  They have been building IXPs, deploying underwater cables to Europe, and forcing large U.S. companies to host content within Brazil~\cite{brazil_history, brazil_break_from_US, brazil_conference,
+  brazil_conference2, brazil_human_rights, brazil_cable, brazil_us_companies, brazil_IXP1}.  This lead us to investigate whether their efforts have been successful or not.
+
+{\bf Netherlands.}  We selected to study the Netherlands for two reasons: 1) the Netherlands is beginning to emerge as a site where servers are located for cloud services, such as Akamai, and 2) the Netherlands is where a large IXP is located (AMS-IX).  
+
+{\bf Kenya.} There has been prior research on the interconnectivity of Africa~\cite{gupta2014peering, fanou2015diversity}, which led us to explore the characterization of Kenya's interdomain routing.
+
+{\bf India.}  India has one of the highest number of Internet users in Asia, second only to China, which has been well-studied.  With such a high number of Internet users, we selected India as a country of interest.
+
+{\bf United States.}  The United States was chosen to study because of how cheap it is to host domains there.
 
 \subsection{Surveillance States}
 
@@ -9,12 +22,31 @@ Some countries have created agreements on data sharing, while others want to con
 
 {\bf Five Eyes.} The ``Five Eyes'' participants are the United States National Security Agency (NSA), the United Kingdom's Government Communications Headquarters (GCHQ), Canada's Communications Security Establishment Canada (CSEC), the Australian Signals Directorate (ASD), and New Zealand's Government Communications Security Bureau \\(GCSB)~\cite{eyeswideopen}.  According to the original agreement, the agencies can: 1) collect traffic; 2) acquire communications documents and equipment; 3) conduct traffic analysis; 4) conduct cryptanalysis; 5) decrypt and translate; 6) acquire information about communications organizations, procedures, practices, and equipment.  The agreement also implies that all five countries will share all intercepted material by default.  The agencies work so closely that the facilities are often jointly staffed by members of the different agencies, and it was reported ``that SIGINT customers in both capitals seldom know which country generated either the access or the product itself.''~\cite{lander2004international}.
 
-{\bf France.} France recently passed a new surveillance law that authorizes the government closely monitor the mobile phone and Internet communications of French citizens.  Additionally, the law requires ISPs to install ``black boxes'' that are designed to collect and analyze metadata on the Internet usage of millions of people.  The law allows surveillance without much oversight and the conditions under which the law's powers can be used are vague~\cite{francesurv}. The French Parliament has also made it easier for the government to access encrypted data for criminal investigations by enhancing penalties against companies that refuse to cooperate~\cite{francesurv2}.
+\begin{table*}[ht!]
+\centering
+\caption{A sample of countries that are actively conducting surveillance at different levels of severity.}
+\label{surv_table}
+\begin{tabular}{|l|l|l|l|}
+\hline
+Survillance stage & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Collecting metadata\\ Phone \& Internet\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Demanding ISPs\\ to participate\end{tabular}} & Need for court order         \\
+\hline\hline
+France            & \multicolumn{1}{c}{Passed Law}~\cite{francesurv, francesurv2} & Black Boxed installed & \multicolumn{1}{c}{Unknown}  \\ \hline
+Germany           &   ~\cite{germansurv}   &             &                              \\ \hline
+Poland            &      &         &            No need~\cite{francesurv2}            \\ \hline
+Hungry            &         &             & No need, Based on Police Act~\cite{francesurv2} \\ \hline
+Russia            &     & Black Boxed installed~\cite{russiasurv, russiasurv2}    &                              \\ \hline
+....              &      &        &                         \\    \hline
+\end{tabular}
+\end{table*}
 
-{\bf Germany.} A new data retention law was recently passed in Germany that will allow law enforcement agencies to access metadata of phone calls and Internet connections~\cite{germansurv}.  Prior to the bill, telecom providers only retained data for business purposes, but the bill will modify the German Telecommunications Act and require telecom providers to retain traffic data on phone calls and Internet connections.  The data collected includes IP addresses of users as well as the date and time of Internet connections.
+A number of other countries are passing laws to facilitate mass surveillance.  These laws have differing levels of severity, which can be seen in Table \ref{surv_table}; the countries with the least severe surveillance laws are listed at the top of the table, and those with the more severe laws are listed at the bottom.
 
-{\bf Poland.}  Poland now has stricter surveillance laws by ammending the Police Act.  This gives Polish authorities access to metadata without court approval~\cite{francesurv2}.
+%{\bf France.} France recently passed a new surveillance law that authorizes the government closely monitor the mobile phone and Internet communications of French citizens.  Additionally, the law requires ISPs to install ``black boxes'' that are designed to collect and analyze metadata on the Internet usage of millions of people.  The law allows surveillance without much oversight and the conditions under which the law's powers can be used are vague~\cite{francesurv}. The French Parliament has also made it easier for the government to access encrypted data for criminal investigations by enhancing penalties against companies that refuse to cooperate~\cite{francesurv2}.
 
-{\bf Hungary.}  Hungary has pushed surveillance even further by proposing a new bill that makes it a crime for service providers to use encryption-based application or software.  It also forces ISPs to build back doors that give the government access to data.  Under the bill, ISPs are required to collect metadata on anyone who uses encryption, and it criminalizes the refusal of companies to give collected data to the government~\cite{francesurv2}.
+%{\bf Germany.} A new data retention law was recently passed in Germany that will allow law enforcement agencies to access metadata of phone calls and Internet connections~\cite{germansurv}.  Prior to the bill, telecom providers only retained data for business purposes, but the bill will modify the German Telecommunications Act and require telecom providers to retain traffic data on phone calls and Internet connections.  The data collected includes IP addresses of users as well as the date and time of Internet connections.
 
-{\bf Russia.} Russia has had a surveillance infrastructure for years: SORM (System of Operative-Investigative Measures).  SORM involves a series of black boxes that ISPs must install; the providers are required to pay for the SORM equipment and installation and they are denied access to the box~\cite{russiasurv}.  If an ISP fails to cooperate, it is fined, and if the violation persists, then its license may be revoked.  Former Soviet Republics have followed in Russia's footsteps: Belarus, Ukraine, and Kyrgyzstan have adopted national interception systems modeled after SORM~\cite{russiasurv}.  Many popular sites, such as Facebook, Google, and Twitter are not hosted in Russia, which challenges surveillance.  In the past year, Russia has passed a data localization law.  This law states that any company that collects personal information from Russian users must stor their data on servers within the country - the main targets of the law were Facebook, Google, and Twitter~\cite{russiasurv2}. 
+%{\bf Poland.}  Poland now has stricter surveillance laws by ammending the Police Act.  This gives Polish authorities access to metadata without court approval~\cite{francesurv2}.
+
+%{\bf Hungary.}  Hungary has pushed surveillance even further by proposing a new bill that makes it a crime for service providers to use encryption-based application or software.  It also forces ISPs to build back doors that give the government access to data.  Under the bill, ISPs are required to collect metadata on anyone who uses encryption, and it criminalizes the refusal of companies to give collected data to the government~\cite{francesurv2}.
+
+%{\bf Russia.} Russia has had a surveillance infrastructure for years: SORM (System of Operative-Investigative Measures).  SORM involves a series of black boxes that ISPs must install; the providers are required to pay for the SORM equipment and installation and they are denied access to the box~\cite{russiasurv}.  If an ISP fails to cooperate, it is fined, and if the violation persists, then its license may be revoked.  Former Soviet Republics have followed in Russia's footsteps: Belarus, Ukraine, and Kyrgyzstan have adopted national interception systems modeled after SORM~\cite{russiasurv}.  Many popular sites, such as Facebook, Google, and Twitter are not hosted in Russia, which challenges surveillance.  In the past year, Russia has passed a data localization law.  This law states that any company that collects personal information from Russian users must stor their data on servers within the country - the main targets of the law were Facebook, Google, and Twitter~\cite{russiasurv2}. 

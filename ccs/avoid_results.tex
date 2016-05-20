@@ -1,14 +1,19 @@
 \section{Preventing Transnational Detours}
 \label{avoid_results}
+In light of the results from analyzing where \textit{current} traffic is going in Section \ref{datasets}, we evaluate the effectiveness of open resolvers and relays for country avoidance.  We discuss our measurement methods, introduce an avoidance metric and algorithm, and present our findings.
 
 \subsection{Measurement Pipelines}
-{\bf Country Avoidance with Open Resolvers.} If content is replicated in different parts of the world, open DNS resolvers located around the globe can potentially help clients circumvent surveillance states.  To measure this, we first pick a set of open resolvers to query, then query with Country X's Alexa Top 100 domains, and traceroute from a client in Country X to the DNS responses given by the open resolvers.  These three steps are explained in more detail below.
 
-{\bf Country Avoidance with Relays.} Using an overlay network may help clients route around unfavorable countries or access content that is hosted in a more favorable country.  First, we select relays that are geographically diverse, run traceroute measurements from Country X to each relay and from each relay to the Country X Alexa Top 100 domains.  Based on these two sets of traceroutes, we can run analyses to determine if they improve country avoidability. 
+{\bf Country Avoidance with Open Resolvers.} If content is replicated in different parts of the world, open DNS resolvers located around the globe can potentially help clients circumvent surveillance states.  Our measurement pipeline is shown in Figure \ref{??}.  This measurement differs slightly from that described in Section \ref{pipeline}; instead of using RIPE Atlas probes, we query open DNS resolvers, and then traceroute from a client in Country X to the DNS responses given by the open resolvers.
+\\
+{\bf Country Avoidance with Relays.} Using an overlay network may help clients route around unfavorable countries or access content that is hosted in a more favorable country.  Figure \ref{fig:??} shows the steps to conduct this measurement.  After selecting relay machines, we run traceroute measurements from Country X to each relay and from each relay to the set of domains. 
+
+\subsubsection{Open Resolver and Relay Selection} 
+We used eight Amazon EC2 instances, one in each geographic region (United States, Ireland, Germany, Singapore, South Korea, Japan, Australia, Brazil), as well as 4 VPS machines (France, Spain, Brazil, Singapore).  The conjunction of these two sets of machines allow us to evaluate surveillance avoidance with a geographically diverse set of relays. For an accurate comparison of country avoidance methods, we selected an open resolver in each country that also had a relay in it.
 
 \subsection{Avoidability Metrics}
 \label{metrics}
-We introduce a new metric and algorithm to measure how often a client in Country X can avoid a specified Country Y.  Using the proposed metric and algorithm, we can compare how well the different methods achieve country avoidance for a specified client Country X and unfavorable Country Y.
+We introduce a new metric and algorithm to measure how often a client in Country X can avoid a specified Country Y.  Using the proposed metric and algorithm, we can compare how well the different methods achieve country avoidance for any (Country X, Country Y) pair.
 
 {\bf Avoidability Metric.}  This metric quantifies how often traffic can avoid Country Y when it originates in Country X.  Avoidability is explained as the fraction of paths that start in Country X and do not transit Country Y; more formally:
 
@@ -74,31 +79,35 @@ The output of the algorithm is a value in the range [0,1] that can be compared t
 The algorithm analyzes the destinations of all domains from all relays and if there exists at least one destination for a domain that is not in Country Y, then this increases the upperbound value.  An upperbound value of 1.0 means that every domain studied is hosted (or has a replica) outside of Country Y.  This value puts the Avoidance values in perspective for each (Country X, Country Y) pair. 
 
 \subsection{Results}
-After applying the metrics described in Section \ref{metrics} to country-level paths, we compared how avoidable different countries could be when using open resolvers or relays to how often traffic currently transits those countries.  First, we discuss how effective open resolvers are at country avoidance.  Then we show how effective relays are at country avoidance and at keeping local traffic local.  Avoidance values are shown in Table \ref{tab:avoid}.
+After applying the metrics described in Section \ref{metrics} to country-level paths, we compared avoidance values when using open resolvers, when using relays, and when using no country avoidance tool.  First, we discuss how effective open resolvers are at country avoidance.  Then we show how effective relays are at country avoidance as well as at keeping local traffic local.  Avoidance values are shown in Table \ref{tab:avoid}, where the countries we studied are shown in the top row, and the country to avoid is in the left-most column.  
 
+\newcolumntype{d}[1]{D{.}{.}{#1}}
 \begin{table*}[t]
 \centering
-\begin{tabular}{|P{25mm}|cc|cc|cc|cc|cc|}
+\begin{tabular}{|P{25mm}|d{3.2}d{3.2}|d{3.2}d{3.2}|d{3.2}d{3.2}|d{3.2}d{3.2}|d{3.2}d{3.2}|}
 \multicolumn{1}{l}{}    & \headrow{No Relay} & \headrow{Relays} & \headrow{No Relay} & \headrow{Relays} & \headrow{No Relay} & \headrow{Relays}   & \headrow{No Relay} & \headrow{Relays}  & \headrow{No Relay} & \headrow{Relays} \\\hline
 \textit{Country}    &\multicolumn{2}{c|}{\textit{Brazil}}   &\multicolumn{2}{c|}{\textit{Netherlands}}   &\multicolumn{2}{c|}{\textit{India}} &\multicolumn{2}{c|}{\textit{Kenya}} &\multicolumn{2}{c|}{\textit{United States}}\\
 \hline\hline
 Brazil               &0.00     &0.00     &1.00  &1.00   &1.00    &1.00  &1.00   &1.00  &1.00  &1.00  \\\hline\hline
-Canada               &.987     &1.00     &.993  &1.00   &.984    &.980  &.992   &.996  &.919  &1.00  \\\hline
-United States        &.156     &.626     &.417  &.630   &.285    &.656  &.384   &.400  &0.00  &0.00  \\\hline\hline
-France               &.941     &1.00     &.898  &.996   &.896    &1.00  &.779   &.989  &.896  &.997  \\\hline
-Germany              &.995     &1.00     &.950  &.996   &.968    &.994  &.952   &1.00  &.992  &1.00  \\\hline
-Great Britain        &.976     &1.00     &.860  &.996   &.796    &1.00  &.500   &.979  &.994  &1.00  \\\hline
-Ireland              &.972     &.992     &.894  &.996   &.969    &.994  &.867   &.993  &.994  &.997  \\\hline
-Netherlands          &.981     &.996     &0.00  &0.00   &.879    &.997  &.747   &.996  &.969  &.997  \\\hline
-Spain                &.824     &1.00     &.996  &.996   &1.00    &1.00  &1.00   &1.00  &1.00  &1.00  \\\hline\hline
+Canada               &.98     &1.00     &.99  &1.00   &.98    &.98  &.99   &.99  &.92  &1.00  \\\hline
+United States        &\cellcolor{blue!25}.15     &\cellcolor{blue!25}.62     &\cellcolor{blue!25}.41  &\cellcolor{blue!25}.63   &\cellcolor{blue!25}.28    &\cellcolor{blue!25}.65  &\cellcolor{blue!25}.38   &\cellcolor{blue!25}.40  &\cellcolor{blue!25}0.00  &\cellcolor{blue!25}0.00  \\\hline\hline
+France               &.94     &1.00     &.89  &.99   &.89    &1.00  &.77   &.98  &.89  &.99  \\\hline
+Germany              &.99     &1.00     &.95  &.99   &.96    &.99  &.95   &1.00  &.99  &1.00  \\\hline
+Great Britain        &.97     &1.00     &.86  &.99   &\cellcolor{blue!25}.79    &\cellcolor{blue!25}1.00  &\cellcolor{blue!25}.50   &\cellcolor{blue!25}.97  &.99  &1.00  \\\hline
+Ireland              &.97     &.99     &.89  &.99   &.96    &.99  &.86   &.99  &.99  &.99  \\\hline
+Netherlands          &.98     &.99     &0.00  &0.00   &.87    &.99  &\cellcolor{blue!25}.74   &\cellcolor{blue!25}.99  &.97  &.99  \\\hline
+Spain                &.82     &1.00     &.99  &.99   &1.00    &1.00  &1.00   &1.00  &1.00  &1.00  \\\hline\hline
 Kenya                &1.00     &1.00     &1.00  &1.00   &1.00    &1.00  &0.00   &0.00  &1.00  &1.00  \\\hline
-Mauritius            &1.00     &1.00     &1.00  &1.00   &1.00    &1.00  &.678   &.996  &1.00  &1.00  \\\hline
-South Africa         &1.00     &1.00     &1.00  &1.00   &1.00    &1.00  &.666   &.666  &1.00  &1.00  \\\hline\hline
-United Arab Emirates &1.00     &1.00     &1.00  &1.00   &1.00    &1.00  &.848   &.996  &1.00  &1.00  \\\hline
-India                &1.00     &1.00     &.993  &1.00   &0.00    &0.00  &.942   &1.00  &.999  &1.00  \\\hline
-Singapore            &.999     &1.00     &.998  &1.00   &.730    &.949  &.960   &1.00  &.997  &1.00  \\\hline
+Mauritius            &1.00     &1.00     &1.00  &1.00   &1.00    &1.00  &\cellcolor{blue!25}.67   &\cellcolor{blue!25}.99  &1.00  &1.00  \\\hline
+South Africa         &1.00     &1.00     &1.00  &1.00   &1.00    &1.00  &\cellcolor{blue!25}.66   &\cellcolor{blue!25}.66  &1.00  &1.00  \\\hline\hline
+United Arab Emirates &1.00     &1.00     &1.00  &1.00   &1.00    &1.00  &.84   &.99  &1.00  &1.00  \\\hline
+India                &1.00     &1.00     &.99  &1.00   &0.00    &0.00  &.94   &1.00  &.99  &1.00  \\\hline
+Singapore            &.99     &1.00     &.99  &1.00   &\cellcolor{blue!25}.73    &\cellcolor{blue!25}.94  &.96   &1.00  &.99  &1.00  \\\hline
 \end{tabular}
-\caption{Avoidance values for differing techniques of country avoidance.}
+\caption{Avoidance values for different techniques of country avoidance.  The upper bound on avoidance is 1.0 in most cases, but not all.  It is 
+common for some European countries to host a domain, and therefore the upper bound is slightly lower than 1.0.  The upper bound on avoidance of the 
+United States is significantly lower than the upper bound on avoidance for any other country; .886, .790, .844, and .765 are the upper bounds on avoidance 
+of the United States for traffic originating in Brazil, Netherlands, India, and Kenya, respectively.}
 \label{tab:avoid}
 \end{table*}
 

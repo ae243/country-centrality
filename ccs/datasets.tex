@@ -1,13 +1,6 @@
 \section{Characterizing Transnational Detours}
 \label{datasets}
-Here we discuss how we chose our vantage points within a country, and which servers to use as relays.  We also introduce our measurement methods for measuring which countries current Internet traffic is traversing to characterize transnational detours.
-
-\subsection{Vantage Points}
-To our knowledge, the publicly available traceroute datasets suitable for our goal are from iPlane~\cite{madhyastha2006iplane} and CAIDA (Center for Applied Internet Data Analysis)~\cite{caida}.  The iPlane project uses PlanetLab ~\cite{planetlab} nodes to run traceroutes to a random set of IP addresses that cover all BGP atoms.  This project also has historical data as far back as 2006.  Unfortunately, because iPlane uses PlanetLab nodes, which have been shown to mostly use the Global Research and Education Network (GREN), the traceroutes run from PlanetLab nodes will not be representative of typical Internet users' traffic paths~\cite{banerjee2004interdomain}.  The other publicly available dataset, from CAIDA, ran traceroutes from different vantage points around the world, but to randomized destination IP addresses that cover all /24s.  This is also not sufficient for what we wanted to measure because a typical Internet user is going to access a domain that will be locally resolved; the user will not input a specific IP address in their browser.  Therefore, we chose to run active measurements that would be most representative of an Internet user.  We chose to run DNS and traceroute measurements from RIPE Atlas probes, which are hosted all around the world and in many different settings, include home networks~\cite{ripe_atlas}.  The first advantage of using RIPE Atlas is that the probes can use the local DNS resolver, which would give us the best estimate of the traceroute destination.  The next advantage is that we can control the parameters of traceroute; we specified to use paris traceroute as well as conducting both ICMP and TCP traceroutes.  We discuss more of our parameter selection and methodology in Section~\ref{measure}.
-
-Our study looks at the Alexa Top 100 domains in different countries, as well as the 3rd party domains that are requested as part of an original web request.  To obtain these 3rd party domains we {\tt curl} each of the Top 100 domains, but we must do so from within the country we are studying.  There is no current functionality to {\tt curl} from RIPE Atlas probes, so we established a VPN connection within each of these countries to {\tt curl} each domain and extract the 3rd party domains.
-
-As one of our research goals is to quantify how well the use of an overlay network will help clients avoid surveillance, we need access to a set of relays.  We used eight Amazon EC2 instances, one in each geographic region (United States, Ireland, Germany, Singapore, South Korea, Japan, Australia, Brazil), as well as 4 VPS machines (France, Spain, Brazil, Singapore).  The conjunction of these two sets of machines allow us to evaluate surveillance avoidance with a geographically diverse set of relays.
+Here we introduce our measurement methods, challenges in conducting the measurements, and our findings on which countries current traffic traverses.
 
 \begin{figure*}
 \centering
@@ -25,7 +18,21 @@ As one of our research goals is to quantify how well the use of an overlay netwo
 
 \subsection{Measurement Pipeline}
 \label{pipeline}
-{\bf Current Traffic.} Our methods for measuring where traffic paths go use the data-plane; we analyze the reported hops of traceroute measurements to find which countries are on the path from a client in Country X to a popular domain.  For this study, we used RIPE Atlas probes in Country X, specifically the set of probes that had unique ASes in the country.  The destinations for traceroutes are the Country X Alexa Top 100 domains, as well as the third party domains within the response bodies of the 100 domains.  There are three main steps to our measurement procedure: traceroute generation and collection, transformation of traceroutes to country-level paths, and path analysis.
+Our methods for measuring where traffic paths go use the data-plane; we analyze the reported hops of traceroute measurements to find which countries are on the path from a client in Country X to a popular domain.  The steps taken for this measurement can be seen in Figure \ref{fig:pipeline1}; first we gather the set of domains, then we use RIPE Atlas probes to query DNS with these domains, and traceroute to the DNS responses.  Our analysis involves the steps seen in Figure \ref{fig:analysis_pipeline}; we map traceroutes to country-level paths.
+
+\subsubsection{Resource Limitations}
+To our knowledge, the publicly available traceroute datasets suitable for our goal are from iPlane~\cite{madhyastha2006iplane} and CAIDA (Center for Applied Internet Data Analysis)~\cite{caida}.  The iPlane project uses PlanetLab ~\cite{planetlab} nodes to run traceroutes to a random set of IP addresses that cover all BGP atoms.  This project also has historical data as far back as 2006.  Unfortunately, because iPlane uses PlanetLab nodes, which have been shown to mostly use the Global Research and Education Network (GREN), the traceroutes run from PlanetLab nodes will not be representative of typical Internet users' traffic paths~\cite{banerjee2004interdomain}.  The other publicly available dataset, from CAIDA, ran traceroutes from different vantage points around the world, but to randomized destination IP addresses that cover all /24s.  This is also not sufficient for what we wanted to measure because a typical Internet user is going to access a domain that will be locally resolved; the user will not input a specific IP address in their browser.  We chose to run active measurements that would be most representative of an Internet user.  We chose to run DNS and traceroute measurements from RIPE Atlas probes, which are hosted all around the world and in many different settings, include home networks~\cite{ripe_atlas}.  The first advantage of using RIPE Atlas is that the probes can use the local DNS resolver, which would give us the best estimate of the traceroute destination.  The next advantage is that we can control the parameters of traceroute; we specified to use Paris traceroute as well as conducting both ICMP and TCP traceroutes. 
+
+Despite the options RIPE Atlas provides, there were still restrictions that made measurements challenging.  To conduct any measurement on a RIPE Atlas probe, it costs a certain amount of credits, and we were therefore restricted by the number of credits we had.  Additionally, RIPE Atlas imposes rate limits on the number of concurrent measurements and the number of credits that an individual user can spend per day.
+
+\subsubsection{Traceroute Origination and Destination Selection}
+As discussed above, we used RIPE Atlas probes in each of the five countries we studied.  Each of these countries had varying amounts of probes hosted in the country, ranging from about 75 probes to thousands.  Because of the resource restrictions, we could not use all probes in each of the countries.  We selected the set of probes that had unique ASes in the country to get the widest representation of origination (starting) points.
+
+For destinations, we used the Alexa Top 100 domains in each of the respective countries, as well as the 3rd party domains that are requested as part of an original web request.  To obtain these 3rd party domains we {\tt curl} each of the Top 100 domains, but we must do so from within the country we are studying.  There is no current functionality to {\tt curl} from RIPE Atlas probes, so we establish a VPN connection within each of these countries to {\tt curl} each domain and extract the 3rd party domains.
+
+\subsubsection{Country Mapping}
+\label{c_map}
+Geolocation services and tools have been studied and proposed, and continue to be a growing research area.  Because that is not the primary focus of our work, we use MaxMind's geolocation service to map IP addresses to their respective countries~\cite{maxmind}.   Our study requires country-level paths, which is a coarser granularity than either city granularity or latitude-longitude granularity.  Previous work has studied the inaccuracy of geolocation services, but the evaluation was at the latitude-longitude granularity~\cite{huffaker2011geocompare}; there is likely less inaccuracy at the country-level.  To address the incompleteness of the data, we cleaned up our IP to country mapping by removing all IP addresses that resulted in a `None' response when querying MaxMind.  An example of this can be seen in Figure \ref{fig:analysis_pipeline}.  This method provides a lowerbound on the number of countries that are included on the path, and therefore a lowerbound on the countries that can conduct surveillance.  
 
 \subsection{Results}
 
@@ -40,19 +47,19 @@ As one of our research goals is to quantify how well the use of an overlay netwo
 \hline\hline
 Brazil             &.169    &-     &-    & -  & - \\\hline\hline
 Canada             &.001    &.007     &.015      &.006       & -  \\\hline
-United States      &.774    &.454      &.629      &.443        &.969   \\\hline\hline
+United States      &\cellcolor{blue!25}.774    &\cellcolor{blue!25}.454      &\cellcolor{blue!25}.629      &\cellcolor{blue!25}.443        &\cellcolor{blue!25}.969   \\\hline\hline
 France             &.001    &.022      &.009      &.023       &.0013 \\\hline
 Germany            &.002    &.013      &.014      &.028       &.0013  \\\hline
 Great Britain      &.00006  &.019     &.021     &.032       &.0024 \\\hline
 Ireland            &.016    &.064      &.027       &.108       &.0012   \\\hline
-Netherlands        &.013    &.392      &.101      &.200      &.024  \\\hline
+Netherlands        &.013    &\cellcolor{blue!25}.392      &.101      &\cellcolor{blue!25}.200      &.024  \\\hline
 Spain              &.001    &-     & -    &  -     &-   \\\hline\hline
 Kenya              &-        &  -    & -    &.022        &-  \\\hline
 Mauritius          &  -      & -    & -   &.004       & -  \\\hline
 South Africa       & -       & -     & -  &.021       &- \\\hline\hline
 United Arab Emirates & -     & -     & -   &.011        &-  \\\hline
 India              &  -      & -     &.053    &.002        &-  \\\hline
-Singapore          & -       &.002     &.103      &.027       & - \\\hline
+Singapore          & -       &.002     &\cellcolor{blue!25}.103      &.027       & - \\\hline
 \end{tabular}
 \caption{Fraction of paths that end in each country in default routes.}
 \label{tab:host}
@@ -67,32 +74,32 @@ Singapore          & -       &.002     &.103      &.027       & - \\\hline
 \hline\hline
 Brazil              &1.00       & -   & -     & -     & -\\\hline\hline
 Canada                &.013       &.007     &.016       &.008      &.081 \\\hline
-United States                 &.844        &.583     &.715      &.616       &1.0 \\\hline\hline
+United States        &\cellcolor{blue!25}.844        &\cellcolor{blue!25}.583     &\cellcolor{blue!25}.715      &\cellcolor{blue!25}.616       &\cellcolor{blue!25}1.0 \\\hline\hline
 France                 &.059     &.102      &.104       &.221      &.104 \\\hline
 Germany                 &.005       &.050    &.032      &.048      &.008 \\\hline
-Great Britain                &.024       &.140     &.204      &.500      &.006 \\\hline
+Great Britain                &.024       &\cellcolor{blue!25}.140     &\cellcolor{blue!25}.204      &\cellcolor{blue!25}.500      &.006 \\\hline
 Ireland                &.028       &.106      &.031     &.133      &.006 \\\hline
-Netherlands                 &.019        &1.0      &.121      &.253      &.031 \\\hline
+Netherlands                 &.019        &1.0      &.121      &\cellcolor{blue!25}.253      &.031 \\\hline
 Spain                  &.176       &.004     & -     & -      &- \\\hline\hline
 Kenya                 & -       &-    & -      &1.0      &- \\\hline
-Mauritius                  & -       & -     & -      &.322       &- \\\hline
-South Africa                 &-        & -    & -     &.334       &- \\\hline\hline
+Mauritius                  & -       & -     & -      &\cellcolor{blue!25}.322       &- \\\hline
+South Africa                 &-        & -    & -     &\cellcolor{blue!25}.334       &- \\\hline\hline
 United Arab Emirates                  &.00003        & -    & -     &.152       &- \\\hline
 India               &  -    &.0007    &1.0     &.058     &.0005 \\\hline
-Singapore                 &.0009        &.002     &.270       &.040       &.003 \\\hline
+Singapore                 &.0009        &.002     &\cellcolor{blue!25}.270       &.040       &.003 \\\hline
 \end{tabular}
 \caption{Fraction of paths that each country transits in default routes.}
 \label{tab:transit}
 \end{table*}
 
-Table \ref{tab:host} shows the five studied countries along the top of the table, and the countries that host their traffic along the Y axis.  For example, the United States is the endpoint of 84\% of the paths that originate in Brazil.  Table \ref{tab:transit} shows the fraction of paths that transit certain countries (along the Y axis).  The methods we use are described in Section \ref{pipeline1}, and in this section we discuss our findings.
+Table \ref{tab:host} shows the five studied countries along the top of the table, and the countries that host their traffic along the Y axis.  For example, the United States is the endpoint of 84\% of the paths that originate in Brazil.  A ``-'' represents the case where no traffic ended in that country.  For example, no Brazilian paths ended in South Africa. Table \ref{tab:transit} shows the fraction of paths that transit certain countries (along the Y axis).
 
 {\bf Hosting Diversity}
-First we look at hosting diversity.  This shows us how many unique countries in which a domain is hosted -- the more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  By querying DNS from 26 vantage points around the world, we found that there is hosting diversity among the Alexa Top 100 Domains.  About half of the Alexa Top 100 Domains in each of the five countries studied are hosted in more than one country.  This can be seen in Figure~\ref{fig:host_diversity}.  We see there are two distinct modes in the graph, one representing the domains that are hosted in a single country, and the other mode representing CDNs.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis - where are these domains hosted, and which countries are traversed on the way to reach these locations.
+First we analyzed hosting diversity; this shows us how many unique countries in which a domain is hosted -- the more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  We queried DNS from 26 vantage points around the world\footnote{DE, AR, NL, GB, IE, FR, IT, ES, US, BR, IN, SG, AU, JP, CA, HK, KE, ZA, MU, AE, SE, AT, RU, CN, MX, IS}; we chose this set of locations because they are geographically diverse, and represent a set of countries we found were traversed in our measurement study.  We found that about half of the Alexa Top 100 Domains in each of the five countries studied are hosted in more than one country.  This can be seen in Figure~\ref{fig:host_diversity}.  We see there are two distinct modes in the graph, one representing the domains that are hosted in a single country, and the other mode representing CDNs.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis - where are these domains hosted, and which countries are traversed on the way to reach these locations.
 
 \begin{figure}
 \centering
-\includegraphics[width=.5\textwidth]{domain_hist_US}
+\includegraphics{domain_hist_US}
 \caption{The number of Alexa Top 100 US Domains hosted in different countries.}
 \label{fig:host_diversity}
 \end{figure}
@@ -116,7 +123,7 @@ Great Britain and the Netherlands are on the path for a significant percentage o
 Mauritius, South Africa, and the United Arab Emirates transit 32\%, 33\%, and 15\% of traffic from Kenya.  There are direct underwater cables from Kenya to Mauritius, and from Mauritius to South Africa.  Additionally, there is a cable from Mombasa, Kenya to Fujairah, United Arab Emirates.  This accounts for the large percentages of traffic that pass through these countries.
 
 {\bf Tromboning Traffic Transits Surveillance States}
-As mentioned in Section \ref{trend1}, the percentage of domestic traffic in some of the countries studied is extremely small.  For India, only 5\% of traffic is domestic and for Kenya, 2\% is domestic; despite the small amount of domestic traffic, some of this traffic trombones.  This can be seen better in the cases of Brazil and the Netherlands; figure \ref{fig:trombone_netherlands} shows the amount of paths that trombone to differing countries for the Netherlands.
+As mentioned above, the percentage of domestic traffic in some of the countries studied is extremely small.  For India, only 5\% of traffic is domestic and for Kenya, 2\% is domestic; despite the small amount of domestic traffic, some of this traffic trombones.  This can be seen better in the cases of Brazil and the Netherlands; figure \ref{fig:trombone_netherlands} shows the amount of paths that trombone to differing countries for the Netherlands.  Figures \ref{fig:trombone_brazil} and \ref{fig:trombone_kenya} show tromboning Brazilian and Kenyan traffic; despite Brazil's strong efforts in building IXPs to keep local traffic local, we can see that their traffic still trombones to the United States.  This is likely due to the political tension between peers at IXPs, which results in fewer peerings with other ASes within Brazil, and more peerings with international ASes. 
 
 \begin{figure*}[!htb]
 \minipage{0.32\textwidth}
@@ -146,15 +153,13 @@ As mentioned in Section \ref{trend1}, the percentage of domestic traffic in some
 Most of the results discussed thus far have shown that Brazilian, Netherlands, Indian, and Kenyan traffic often transit surveillance states, most notable the United States.  The results from studying traffic that originates in the United States are drastically different from those of the other four countries.  The other four countries hosted very small amounts of their own traffic, whereas the United States hosts 97\% of the content that is accessed from within the country.  Only 13 unique countries are ever on a path from the United States to a domain in the Top 100 (or third party domain), whereas 30, 30, 25, and 38 unique countries are seen on the paths originating in Brazil, Netherlands, India, and Kenya.  There are only 6 foreign countries that host content for traffic originating in the United States, and the fraction of content hosted in these countries is less than 4\% combined.
 
 \subsection{Limitations}
-The measurement methods described in Section~\ref{datasets} are not without limitations.  First, our study is solely based on IPv4 routes, which likely differ from IPv6 routes.  Here we also discuss limitations with geolocation accuracy, path asymmetry, and traceroute completeness.
+The measurement methods described in Section~\ref{datasets} are not without limitations.  First, our study is solely based on IPv4 routes, which likely differ from IPv6 routes.  Here we also discuss limitations with country mapping accuracy, path asymmetry, and traceroute completeness.
 
 \subsubsection{IPv4}
 The measurements we conducted only collect and analyze IPv4 paths, and therefore all IPv6 paths are left out of our study.  IPv6 paths likely differ from IPv4 paths as not all routers that support IPv4 also support IPv6.  Future work includes studying IPv6 paths and which countries they transit, as well as a comparison of country avoidability between IPv4 and IPv6 paths. 
 
 \subsubsection{Country Mapping}
-Previous work has shown that there are fundamental challenges in deducing a geographic location from an IP address, despite using different methods such as DNS names of the target, network delay measurements, and host-to-location mapping in conjunction with BGP prefix information~\cite{padmanabhan2001investigation}.  Because the focus of this work is on measuring and avoiding surveillance, and not on geolocation algorithms, we used a pre-existing geolocation service: MaxMind~\cite{maxmind}.
-
-Geolocation services and tools have been studied and proposed, and continue to be a growing research area.  We use MaxMind's geolocation service to map IP addresses to their respective countries.  While it has been shown that there are inaccuracies and incompleteness in MaxMind's data, research has also shown that other geolocation tools have similar or worse inaccuracy rates~\cite{huffaker2011geocompare}.  To address the incompleteness of the data, we cleaned up our IP to country mapping by removing all IP addresses that resulted in a `None' response when querying MaxMind.  This method provides a lowerbound on the number of countries that are included on the path, and therefore a lowerbound on the countries that can conduct surveillance.  
+Previous work has shown that there are fundamental challenges in deducing a geographic location from an IP address, despite using different methods such as DNS names of the target, network delay measurements, and host-to-location mapping in conjunction with BGP prefix information~\cite{padmanabhan2001investigation}.  While it has been shown that there are inaccuracies and incompleteness in MaxMind's data~\cite{huffaker2011geocompare}, the focus of this work is on measuring and avoiding surveillance, and not on geolocation algorithms, we therefore used a pre-existing geolocation service. Additionally, we discuss how we address inaccuracies and incompleteness in Section \ref{c_map}.
 
 \subsubsection{Path Asymmetry}
 Previous work has shown that paths are not symmetric most of the time -- the forward path from point A to point B does not match the reverse path from point B to point A~\cite{he2005routing}.  Most work on path asymmetry has been done at the AS level, but not at the country level.  Our measurement methods only take the forward path (from client to domain or relay) into account, and not the path from the domain or relay to the client.  
