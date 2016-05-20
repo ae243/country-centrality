@@ -1,6 +1,6 @@
 \section{State of Surveillance}
 \label{surv}
-We focused our study on five different countries, and for each we actively measured and analyzed traffic that originated in the country.  Here we discuss which countries we chose and our reasoning.  We also discuss a sampling of countries that currently conduct surveillance; this exploration is not exhaustive, but highlights countries that are shifting towards mass surveillance.  
+We focused our study on five different countries. For each, we actively measured and analyzed traffic that originated in the country.  Here we discuss which countries we chose and our reasoning for choosing them.  We also discuss a sampling of countries that currently conduct surveillance; this exploration is not exhaustive, but highlights countries that are passing new surveillance laws and countries that have strict surveillance practices already.   
 
 \subsection{Studied Countries}
 We selected Brazil, Netherlands, Kenya, India, and the United States for the following reasons.
@@ -12,13 +12,13 @@ We selected Brazil, Netherlands, Kenya, India, and the United States for the fol
 
 {\bf Kenya.} There has been prior research on the interconnectivity of Africa~\cite{gupta2014peering, fanou2015diversity}, which led us to explore the characterization of Kenya's interconnectivity.
 
-{\bf India.}  India has one of the highest number of Internet users in Asia, second only to China, which has already been well-studied.  With such a high number of Internet users, and presumably a large amount of Internet traffic, we study India to see where this traffic is going.
+{\bf India.}  India has one of the highest number of Internet users in Asia, second only to China, which has already been well-studied~\cite{tsui2003panopticon, wang2010discourse}.  With such a high number of Internet users, and presumably a large amount of Internet traffic, we study India to see where this traffic is going.
 
-{\bf United States.}  The United States was chosen to study because of how cheap it is to host domains there, as well as the prevalence of Internet and technology companies located there.
+{\bf United States.}  We chose to study the United States because of how cheap it is to host domains there, as well as the prevalence of Internet and technology companies located there.
 
 \subsection{Surveillance States}
 
-Some countries have created agreements on data sharing, while others want to control their citizens' online presence.  Some of the countries that are currently conducting surveillance are the ``Five Eyes,'' the United States, Canada, United Kingdom, New Zealand, and Australia, France, Germany, Poland, Hungary, Russia, Ukraine, Belarus, Kyrgyzstan, and Kazakhstan.  While already fairly long, this list is not exhaustive, and merely points out some of the most active surveillance states.
+Some countries have created agreements on data sharing, while others want to control their citizens' online presence.  Some of the countries that are currently conducting surveillance are the ``Five Eyes,'' ~\cite{lander2004international, eyeswideopen} the United States, Canada, United Kingdom, New Zealand, and Australia, France, Germany, Poland, Hungary, Russia, Ukraine, Belarus, Kyrgyzstan, and Kazakhstan.  While already fairly long, this list is not exhaustive, and merely points out some of the most active surveillance states.
 
 {\bf Five Eyes.} The ``Five Eyes'' participants are the United States National Security Agency (NSA), the United Kingdom's Government Communications Headquarters (GCHQ), Canada's Communications Security Establishment Canada (CSEC), the Australian Signals Directorate (ASD), and New Zealand's Government Communications Security Bureau \\(GCSB)~\cite{eyeswideopen}.  According to the original agreement, the agencies can: 1) collect traffic; 2) acquire communications documents and equipment; 3) conduct traffic analysis; 4) conduct cryptanalysis; 5) decrypt and translate; 6) acquire information about communications organizations, procedures, practices, and equipment.  The agreement also implies that all five countries will share all intercepted material by default.  The agencies work so closely that the facilities are often jointly staffed by members of the different agencies, and it was reported ``that SIGINT customers in both capitals seldom know which country generated either the access or the product itself.''~\cite{lander2004international}.
 
@@ -28,18 +28,18 @@ Some countries have created agreements on data sharing, while others want to con
 \label{surv_table}
 \begin{tabular}{|l|l|l|l|}
 \hline
-Survillance stage & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Collecting metadata\\ Phone \& Internet\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Demanding ISPs\\ to participate\end{tabular}} & Need for court order         \\
+Survillance stage & \begin{tabular}[c]{@{}c@{}}Collecting metadata\\ Phone \& Internet\end{tabular} & \begin{tabular}[c]{@{}c@{}}Demanding ISPs\\ to participate\end{tabular} & No Need for court order         \\
 \hline\hline
-France            & \multicolumn{1}{c}{Passed Law}~\cite{francesurv, francesurv2} & Black Boxed installed & \multicolumn{1}{c}{Unknown}  \\ \hline
-Germany           &   ~\cite{germansurv}   &             &                              \\ \hline
-Poland            &      &         &            No need~\cite{francesurv2}            \\ \hline
-Hungry            &         &             & No need, Based on Police Act~\cite{francesurv2} \\ \hline
-Russia            &     & Black Boxed installed~\cite{russiasurv, russiasurv2}    &                              \\ \hline
-....              &      &        &                         \\    \hline
+France            & \checkmark~\cite{francesurv, francesurv2} & \checkmark~\cite{francesurv} &   \\ \hline
+Germany           & \checkmark~\cite{germansurv}   &             &                              \\ \hline
+Poland            & \checkmark~\cite{francesurv2}      &         &  \checkmark~\cite{francesurv2}            \\ \hline
+Hungry            & \checkmark~\cite{francesurv2}        &             & \checkmark~\cite{francesurv2} \\ \hline
+Russia            & \checkmark~\cite{francesurv2}    & \checkmark~\cite{russiasurv, russiasurv2}    &  \\ \hline
+....              &      &        &   \\    \hline
 \end{tabular}
 \end{table*}
 
-A number of other countries are passing laws to facilitate mass surveillance.  These laws have differing levels of severity, which can be seen in Table \ref{surv_table}; the countries with the least severe surveillance laws are listed at the top of the table, and those with the more severe laws are listed at the bottom.  These countries, along with the ``Five Eyes'' participants are countries we are on the look out for in any of the country-level paths that our measurements produce.
+A number of other countries are passing laws to facilitate mass surveillance.  These laws have differing levels of severity, which can be seen in Table \ref{surv_table}; the countries with the least severe surveillance laws are listed at the top of the table, and those with the more severe laws are listed at the bottom.  These countries, along with the ``Five Eyes'' participants should be flagged when characterizing transnational detours in the following section.
 
 %{\bf France.} France recently passed a new surveillance law that authorizes the government closely monitor the mobile phone and Internet communications of French citizens.  Additionally, the law requires ISPs to install ``black boxes'' that are designed to collect and analyze metadata on the Internet usage of millions of people.  The law allows surveillance without much oversight and the conditions under which the law's powers can be used are vague~\cite{francesurv}. The French Parliament has also made it easier for the government to access encrypted data for criminal investigations by enhancing penalties against companies that refuse to cooperate~\cite{francesurv2}.
 
