@@ -21,7 +21,7 @@ plt.xticks(y_pos, objects)
 locs, labels = plt.xticks()
 plt.setp(labels, rotation=90)
 plt.ylabel('Number of Paths that Contain each Country')
-plt.title('Countries that Transit Tromboning ' + sys.argv[2] + '  Traffic')
+#plt.title('Countries that Transit Tromboning ' + sys.argv[2] + '  Traffic')
 
 ''' 
 This will put a label on top of the bar - put the number of unique IP addresses that geolocate to the country there.
@@ -36,5 +36,5 @@ def autolabel(rects):
 autolabel(rects1)
 autolabel(rects2)
 '''
-   
+plt.savefig('tex_demo')   
 plt.show()

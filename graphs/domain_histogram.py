@@ -5,12 +5,9 @@ f = open(sys.argv[1], 'r')
 domain_list = []
 
 for line in f:
-    items = line.split(",")[1:-1]
-    unique_items = list(set(items))
-    domain_list.append(len(unique_items))
+    x = line.strip()
+    domain_list.append(x)
 f.close()
-
-print domain_list
 
 n, bins, patches = plt.hist(domain_list, 50, facecolor='green')
 plt.xlabel('Number of Subsequent Requests')

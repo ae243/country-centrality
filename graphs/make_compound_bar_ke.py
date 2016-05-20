@@ -21,10 +21,11 @@ rects3 = ax.bar(ind + width + width, avoidance_bound, width, color='b')
 # add some text for labels, title and axes ticks
 ax.set_ylabel('Avoidance')
 ax.set_xlabel('Country to Avoid')
-ax.set_title('Avoidance for Clients in Kenya')
+#ax.set_title('Avoidance for Clients in Kenya')
 ax.set_xticks(ind + width + (.5*width))
 ax.set_xticklabels(('US', 'GB', 'ZA', 'MU', 'FR', 'AE', 'NL', 'IE', 'IT'))
 
-ax.legend((rects1[0], rects2[0], rects3[0]), ('Before', 'After', 'Bound'))
+ax.legend((rects1[0], rects2[0], rects3[0]), ('Before', 'After', 'Bound'), loc=4)
 
+plt.savefig('tex_demo')
 plt.show()
