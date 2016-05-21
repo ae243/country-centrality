@@ -23,7 +23,7 @@ where $paths_{\bcancel{Y}}$ represent the paths from Country X that do not pass 
 
 {\bf Avoidability Algorithm with Relays.}  Measuring the avoidability of a country Y from a client in Country X using relays has two components: 1) is Country Y on the path from the client in Country X to the relay?  2) is Country Y on the path from the relay to the domain?  For every domain, our algorithm checks if there exists at least one path from the client Country X through any relay and on to the domain, and does not transit Country Y.  The psuedo-code for the algorithm is shown in Algorithm~\ref{avoid_algo}.
 
-\begin{algorithm}
+\begin{algorithm}[t]
 \caption{Avoidability Algorithm}
 \label{avoid_algo}
 \begin{algorithmic}[1]
@@ -53,7 +53,7 @@ The output of the algorithm is a value in the range [0,1] that can be compared t
 
 {\bf Upperbound on Avoidability.}  While the Avoidability metric and algorithm provide a method to quantify how avoidable Country Y is from a client in Country X, it may be the case that a number of domains are hosted in Country Y, so the Avoidance value for these countries would never reach 1.0.  For this reason, we measured the upperbound on avoidance for given pair of (Country X, Country Y) that represents the best case value for avoidance.  The pseudocode for the algorithm is shown in Algorithm \ref{upperbound_algo}.
 
-\begin{algorithm}
+\begin{algorithm}[t]
 \caption{Avoidance Upperbound Algorithm}
 \label{upperbound_algo}
 \begin{algorithmic}[1]
