@@ -57,11 +57,11 @@ In this paper, we study two questions: (1)~Which countries do {\em
   default} Internet routing paths traverse?; (2)~What types of methods
 can we use to take advantage of hosting and path diversity to help governments
 and citizens better control transnational Internet paths? 
-In our study, we actively measure and analyze the traffic originating in
+In contrast to previous work~\cite{karlin2009nation}, which simulates paths, we \textit{actively} measure and analyze the traffic originating in
 five different countries: Brazil, Netherlands, Kenya, India, and the
-United States.  Our work studies routes at the data plane level, which differs from 
+United States.  We study these countries for different reasons, including their efforts made to avoid certain countries, efforts in building out IXPs, and their low cost of hosting domains.  Our work studies the router-level forwarding path, which differs from 
  previous work, which has analyzed Border Gateway Protocol (BGP) routes~\cite{karlin2009nation,shah2015characterizing}.  
-BGP routes are Autonomous System (AS)-level paths.
+BGP routes are Autonomous System (AS)-level paths, whereas the paths we collect and analyze are IP- and country-level paths.
 
 Determining where a client's Internet traffic flows is challenging due to the
  complexity of websites~\cite{butkiewicz2011understanding}.  Many
@@ -78,7 +78,7 @@ set of domains and third party domains as destinations.  After mapping
 traceroutes to country-level paths, we analyze which 
 countries host and/or transit the traffic.
 
-To achieve country avoidance, we study two existing tools: open DNS resolvers 
+To measure how avoidable a given country is, we study two existing tools: open DNS resolvers 
 and overlay network relays. For
 example, a client can query an open DNS resolver in a foreign country to
 discover a different georeplicated instance of a service; this technique
@@ -119,7 +119,7 @@ their traffic still traverses surveillance states.  Over 50\% of the top domains
 Brazil and India are hosted in the United States, and over 50\% of the
 paths from the Netherlands to the top domains transit the
 United States.  About half of Kenyan traffic to the top domains traverses the United States
-and Great Britain.  Much of this phenomenon is
+and Great Britain (but the same half does not traverse both countries).  Much of this phenomenon is
 due to ``tromboning,'' whereby an Internet path starts and ends in a
 country, yet transits an intermediate country; for example, about 13\%
 of the paths that we explored from Brazil tromboned through the United States. 
@@ -156,7 +156,7 @@ include:
   transnational routing detours for Brazil, Netherlands, Kenya, India, and the
   United States. 
 \item An evaluation of how open DNS resolvers and overlay
-  network relays can help citizens and governments discover and use
+  network relays can help clients discover and use
   network paths that avoid certain countries.
 \end{itemize}
 \noindent
