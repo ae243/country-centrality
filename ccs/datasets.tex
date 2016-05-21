@@ -43,7 +43,7 @@ For destinations, we used the Alexa Top 100 domains in each of the respective co
 
 \subsubsection{Country Mapping}
 \label{c_map}
-Geolocation services and tools have been studied and proposed, and continue to be a growing research area.  Because that is not the primary focus of our work, we use MaxMind's geolocation service to map IP addresses to their respective countries~\cite{maxmind}.   Our study requires country-level paths, which is a coarser granularity than either city granularity or latitude-longitude granularity.  Previous work has studied the inaccuracy of geolocation services, but the evaluation was at the latitude-longitude granularity~\cite{huffaker2011geocompare}; we observe less inaccuracy at the country-level.  To address the incompleteness of the data, we cleaned up our IP to country mapping by removing all IP addresses that resulted in a `None' response when querying MaxMind, which causes our results to provide a conservative estimate.  An example of this can be seen in Figure \ref{fig:analysis_pipeline}.  This method provides a lowerbound on the number of countries that are included on the path, and therefore a lowerbound on the countries that can conduct surveillance.  
+Geolocation services and tools have been studied and proposed, and continue to be a growing research area.  Because that is not the primary focus of our work, we use MaxMind's geolocation service to map IP addresses to their respective countries~\cite{maxmind}.   Our study requires country-level paths, which is a coarser granularity than either city granularity or latitude-longitude granularity.  Previous work has studied the inaccuracy of geolocation services, but the evaluation was at the latitude-longitude granularity~\cite{huffaker2011geocompare}; we observe less inaccuracy at the country-level.  To address the incompleteness of the data, we cleaned up our IP to country mapping by removing all IP addresses that resulted in a `None' response when querying MaxMind, which causes our results to provide a conservative estimate of the number of countries that traffic passes through. It is important to note that removing `None' responses will \textit{always} produce a conservative estimate, and therefore we are \textit{always} underestimating the amount of potential surveillance.  An example of this can be seen in Figure \ref{fig:analysis_pipeline}.  This method provides a lower bound on the number of countries that are included on the path, and therefore a lower bound on the countries that can conduct surveillance.  
 
 \subsection{Results}
 
@@ -110,7 +110,7 @@ First we analyzed hosting diversity; this shows us how many unique countries in 
 
 \begin{figure}
 \centering
-\includegraphics{domain_hist_US}
+\includegraphics[width=0.5\linewidth]{domain_hist_US1}
 \caption{The number of Alexa Top 100 US Domains hosted in different countries.}
 \label{fig:host_diversity}
 \end{figure}
@@ -138,15 +138,15 @@ As mentioned above, the percentage of domestic traffic in some of the countries 
 
 \begin{figure*}[!htb]
 \minipage{0.32\textwidth}
-  \includegraphics[width=\linewidth]{nl_trombone_new}
+  \includegraphics[width=\linewidth]{nl_trombone_new1}
   \caption{The countries that tromboning Netherlands traffic transits.}\label{fig:trombone_netherlands}
 \endminipage\hfill
 \minipage{0.32\textwidth}
-  \includegraphics[width=\linewidth]{br_trombone_new}
+  \includegraphics[width=\linewidth]{br_trombone_new1}
   \caption{The countries that tromboning Brazilian traffic transits.}\label{fig:trombone_brazil}
 \endminipage\hfill
 \minipage{0.32\textwidth}%
-  \includegraphics[width=\linewidth]{ke_trombone_new}
+  \includegraphics[width=\linewidth]{ke_trombone_new1}
   \caption{The countries that tromboning Kenyan traffic transits.}\label{fig:trombone_kenya}
 \endminipage
 \end{figure*}
