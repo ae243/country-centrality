@@ -1,0 +1,849 @@
+92.208.9.69,website.wehkamp.nl,;; connection timed out; no servers could be reached
+92.208.9.69,
+92.208.9.69,t.paypal.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.ziggo.nl,;; connection timed out; no servers could be reached
+92.208.9.69,ic.tweakimg.net,;; connection timed out; no servers could be reached
+92.208.9.69,3163h9vnt9ifv31eshnfux5gm,;; connection timed out; no servers could be reached
+92.208.9.69,201_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,europa.buienradar.nl,;; connection timed out; no servers could be reached
+92.208.9.69,ecx.images-amazon.com,;; connection timed out; no servers could be reached
+92.208.9.69,cf.dropboxstatic.com,;; connection timed out; no servers could be reached
+92.208.9.69,admin.brightcove.com,;; connection timed out; no servers could be reached
+92.208.9.69,s.yimg.com,;; connection timed out; no servers could be reached
+92.208.9.69,cdn1b.static.pornhub.phncdn.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.apple.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.digid.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.twitch.tv,;; connection timed out; no servers could be reached
+92.208.9.69,www.magister.net,;; connection timed out; no servers could be reached
+92.208.9.69,secure.assets.tumblr.com,;; connection timed out; no servers could be reached
+92.208.9.69,in.zog.link,;; connection timed out; no servers could be reached
+92.208.9.69,www.ad.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.geenstijl.nl,;; connection timed out; no servers could be reached
+92.208.9.69,media.trafficjunky.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.bongacams.com,;; connection timed out; no servers could be reached
+92.208.9.69,fandom.wikia.com,;; connection timed out; no servers could be reached
+92.208.9.69,tag.uwv.nl,;; connection timed out; no servers could be reached
+92.208.9.69,ir.ebaystatic.com,;; connection timed out; no servers could be reached
+92.208.9.69,0,;; connection timed out; no servers could be reached
+92.208.9.69,sp.nl.ask.com,;; connection timed out; no servers could be reached
+92.208.9.69,YsKw~~-1_35.JPG,;; connection timed out; no servers could be reached
+92.208.9.69,402,;; connection timed out; no servers could be reached
+92.208.9.69,www.msn.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.imdb.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.ask.com,;; connection timed out; no servers could be reached
+92.208.9.69,g-ecx.images-amazon.com,;; connection timed out; no servers could be reached
+92.208.9.69,srx.main.ebayrtm.com,;; connection timed out; no servers could be reached
+92.208.9.69,media.nu.nl,;; connection timed out; no servers could be reached
+92.208.9.69,telegraaf.tcdn.nl,;; connection timed out; no servers could be reached
+92.208.9.69,e5umo76hxkr4p5c07js11cnyx,;; connection timed out; no servers could be reached
+92.208.9.69,www.nu.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.mediamarkt.nl,;; connection timed out; no servers could be reached
+92.208.9.69,&amp;cg1=tweakers.net&amp;cg2=Frontpage&amp;cp1=A,;; connection timed out; no servers could be reached
+92.208.9.69,www.yahoo.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.9292.nl,;; connection timed out; no servers could be reached
+92.208.9.69,static.xx.fbcdn.net,;; connection timed out; no servers could be reached
+92.208.9.69,img100.xvideos.com,;; connection timed out; no servers could be reached
+92.208.9.69,maps.googleapis.com,;; connection timed out; no servers could be reached
+92.208.9.69,298_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,static1.gfkey.com,;; connection timed out; no servers could be reached
+92.208.9.69,img.mobypicture.com,;; connection timed out; no servers could be reached
+92.208.9.69,525_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,www.google.pl,;; connection timed out; no servers could be reached
+92.208.9.69,static-hw.xvideos.com,;; connection timed out; no servers could be reached
+92.208.9.69,\
+92.208.9.69,static4.persgroep.net,;; connection timed out; no servers could be reached
+92.208.9.69,ad.doubleclick.net,;; connection timed out; no servers could be reached
+92.208.9.69,bs.serving-sys.com,;; connection timed out; no servers could be reached
+92.208.9.69,static.wehkamp.nl,;; connection timed out; no servers could be reached
+92.208.9.69,static.voetbalzone.nl,;; connection timed out; no servers could be reached
+92.208.9.69,172_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,www.google.com,;; connection timed out; no servers could be reached
+92.208.9.69,tbassets.beslist.net,;; connection timed out; no servers could be reached
+92.208.9.69,i1.ebayimg.com,;; connection timed out; no servers could be reached
+92.208.9.69,50,;; connection timed out; no servers could be reached
+92.208.9.69,www.ing.nl,;; connection timed out; no servers could be reached
+92.208.9.69,cdn-media.amplience.com,;; connection timed out; no servers could be reached
+92.208.9.69,rtm.ebaystatic.com,;; connection timed out; no servers could be reached
+92.208.9.69,eu-st.xhcdn.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.beslist.nl,;; connection timed out; no servers could be reached
+92.208.9.69,static.licdn.com:443,;; connection timed out; no servers could be reached
+92.208.9.69,www.ebay.com,;; connection timed out; no servers could be reached
+92.208.9.69,static3.gfkey.com,;; connection timed out; no servers could be reached
+92.208.9.69,abs.twimg.com,;; connection timed out; no servers could be reached
+92.208.9.69,cloud.funda.nl,;; connection timed out; no servers could be reached
+92.208.9.69,tweakimg.net,;; connection timed out; no servers could be reached
+92.208.9.69,207_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,wwwimages2.adobe.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.npo.nl,;; connection timed out; no servers could be reached
+92.208.9.69,assets.nflxext.com,;; connection timed out; no servers could be reached
+92.208.9.69,static1.persgroep.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.amazon.com,;; connection timed out; no servers could be reached
+92.208.9.69,700,;; connection timed out; no servers could be reached
+92.208.9.69,dropbox.com,;; connection timed out; no servers could be reached
+92.208.9.69,vrouw.nl,;; connection timed out; no servers could be reached
+92.208.9.69,89,;; connection timed out; no servers could be reached
+92.208.9.69,yt3.ggpht.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.opiniecentrum.nl,;; connection timed out; no servers could be reached
+92.208.9.69,gfkey.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.microsoftonline.com,;; connection timed out; no servers could be reached
+92.208.9.69,wwwimages.adobe.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.hclips.com,;; connection timed out; no servers could be reached
+92.208.9.69,fig.bbc.co.uk,;; connection timed out; no servers could be reached
+92.208.9.69,www.soundcloud.com,;; connection timed out; no servers could be reached
+92.208.9.69,ss.phncdn.com,;; connection timed out; no servers could be reached
+92.208.9.69,ssum-sec.casalemedia.c,;; connection timed out; no servers could be reached
+92.208.9.69,www.office.com,;; connection timed out; no servers could be reached
+92.208.9.69,secure.aadcdn.microsoftonline-p.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.github.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.pornhub.com,;; connection timed out; no servers could be reached
+92.208.9.69,cookiewet.buienradar.nl,;; connection timed out; no servers could be reached
+92.208.9.69,img.alicdn.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.netflix.com,;; connection timed out; no servers could be reached
+92.208.9.69,hclips.com,;; connection timed out; no servers could be reached
+92.208.9.69,vice-ads.s3.amazonaws.com,;; connection timed out; no servers could be reached
+92.208.9.69,ichef.bbci.co.uk,;; connection timed out; no servers could be reached
+92.208.9.69,www2-ext-s.nflximg.net,;; connection timed out; no servers could be reached
+92.208.9.69,sb.scorecardresearch.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.bva-auctions.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.youtube.com,;; connection timed out; no servers could be reached
+92.208.9.69,static6.tubecup.org,;; connection timed out; no servers could be reached
+92.208.9.69,static5.tubecup.org,;; connection timed out; no servers could be reached
+92.208.9.69,pixel.quantserve.com,;; connection timed out; no servers could be reached
+92.208.9.69,swa.bol.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.google.nl,;; connection timed out; no servers could be reached
+92.208.9.69,static2.gfkey.com,;; connection timed out; no servers could be reached
+92.208.9.69,secure-skin.ztat.net,;; connection timed out; no servers could be reached
+92.208.9.69,media.dumpert.nl,;; connection timed out; no servers could be reached
+92.208.9.69,250_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,www.viralmundo.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.nrc.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.theladbible.com,;; connection timed out; no servers could be reached
+92.208.9.69,vice-images.vice.com,;; connection timed out; no servers could be reached
+92.208.9.69,444,;; connection timed out; no servers could be reached
+92.208.9.69,www.booking.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.txxx.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.buienradar.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.dumpert.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.whatsapp.com,;; connection timed out; no servers could be reached
+92.208.9.69,hwimages.beslist.net,;; connection timed out; no servers could be reached
+92.208.9.69,ichef-1.bbci.co.uk,;; connection timed out; no servers could be reached
+92.208.9.69,100,;; connection timed out; no servers could be reached
+92.208.9.69,101,;; connection timed out; no servers could be reached
+92.208.9.69,q-ec.bstatic.com,;; connection timed out; no servers could be reached
+92.208.9.69,miscmedia-9gag-fun.9cache.com,;; connection timed out; no servers could be reached
+92.208.9.69,d5nxst8fruw4z.cloudfront.net,;; connection timed out; no servers could be reached
+92.208.9.69,cookiex.ngd.yahoo.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.kat.cr,;; connection timed out; no servers could be reached
+92.208.9.69,www.infonu.nl,;; connection timed out; no servers could be reached
+92.208.9.69,engager.tmg.nl,;; connection timed out; no servers could be reached
+92.208.9.69,tumblr.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.wehkamp.nl,;; connection timed out; no servers could be reached
+92.208.9.69,stat.onestat.com,;; connection timed out; no servers could be reached
+92.208.9.69,i3.ebayimg.com,;; connection timed out; no servers could be reached
+92.208.9.69,libs.coremetrics.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.anwb.nl,;; connection timed out; no servers could be reached
+92.208.9.69,static-cdn.jtvnw.net,;; connection timed out; no servers could be reached
+92.208.9.69,caps.volkskrant.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.dropbox.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.t.co,;; connection timed out; no servers could be reached
+92.208.9.69,vice-ads-cdn.vice.com,;; connection timed out; no servers could be reached
+92.208.9.69,cts.snmmd.nl,;; connection timed out; no servers could be reached
+92.208.9.69,307,;; connection timed out; no servers could be reached
+92.208.9.69,230_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,static4.tubecup.org,;; connection timed out; no servers could be reached
+92.208.9.69,www.adobe.com,;; connection timed out; no servers could be reached
+92.208.9.69,iwprod.msocdn.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.viraltrend.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.telegraaf.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.paypal.com,;; connection timed out; no servers could be reached
+92.208.9.69,i0.cdn2b.image.pornhub.phncdn.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.amazon.de,;; connection timed out; no servers could be reached
+92.208.9.69,ipornia.com,;; connection timed out; no servers could be reached
+92.208.9.69,img-s-msn-com.akamaized.net,;; connection timed out; no servers could be reached
+92.208.9.69,s-passets-cache-ak0.pinimg.com,;; connection timed out; no servers could be reached
+92.208.9.69,js.revsci.net,;; connection timed out; no servers could be reached
+92.208.9.69,b8fzp3fud9k6bxniv9h274mcb,;; connection timed out; no servers could be reached
+92.208.9.69,logc210.xiti.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.cdn.whatsapp.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.indeed.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.vkmag.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.xhamster.com,;; connection timed out; no servers could be reached
+92.208.9.69,ia.media-imdb.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.vice.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.publitas.com,;; connection timed out; no servers could be reached
+92.208.9.69,170,;; connection timed out; no servers could be reached
+92.208.9.69,www.volkskrant.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.wikipedia.org,;; connection timed out; no servers could be reached
+92.208.9.69,www.imgur.com,;; connection timed out; no servers could be reached
+92.208.9.69,b.scorecardresearch.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.overheid.nl,;; connection timed out; no servers could be reached
+92.208.9.69,assets-cdn.github.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.tweakers.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.9gag.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.abnamro.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.surfconext.nl,;; connection timed out; no servers could be reached
+92.208.9.69,i.imgur.com,;; connection timed out; no servers could be reached
+92.208.9.69,cmsresources.windowsphone.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.instagram.com,;; connection timed out; no servers could be reached
+92.208.9.69,api.buienradar.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.pinterest.com,;; connection timed out; no servers could be reached
+92.208.9.69,r-ec.bstatic.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.xvideos.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.funda.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.wordpress.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.bol.com,;; connection timed out; no servers could be reached
+92.208.9.69,img-l3.xvideos.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.wikia.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.nos.nl,;; connection timed out; no servers could be reached
+92.208.9.69,a-v2.sndcdn.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.werk.nl,;; connection timed out; no servers could be reached
+92.208.9.69,pbs.twimg.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.rabobank.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.weeronline.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.microsoft.com,;; connection timed out; no servers could be reached
+92.208.9.69,sources.startpagina.nl,;; connection timed out; no servers could be reached
+92.208.9.69,vnumedia01.webtrekk.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.facebook.com,;; connection timed out; no servers could be reached
+92.208.9.69,38.media.tumblr.com,;; connection timed out; no servers could be reached
+92.208.9.69,f1.eu.readspeaker.com,;; connection timed out; no servers could be reached
+92.208.9.69,600_SY200_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,402_SY148_SX148_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,www.twitter.com,;; connection timed out; no servers could be reached
+92.208.9.69,i1.cdn2b.image.pornhub.phncdn.com,;; connection timed out; no servers could be reached
+92.208.9.69,116,;; connection timed out; no servers could be reached
+92.208.9.69,images0.tcdn.nl,;; connection timed out; no servers could be reached
+92.208.9.69,!oEE63WY8h+0BPDbDNIbew~~,;; connection timed out; no servers could be reached
+92.208.9.69,auth.gfx.ms,;; connection timed out; no servers could be reached
+92.208.9.69,www.startpagina.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.google.de,;; connection timed out; no servers could be reached
+92.208.9.69,d31qbv1cthcecs.cloudfront.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.stackoverflow.com,;; connection timed out; no servers could be reached
+92.208.9.69,p.ebaystatic.com,;; connection timed out; no servers could be reached
+92.208.9.69,150_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,www.ikea.com,;; connection timed out; no servers could be reached
+92.208.9.69,87au2x2ggv8lwb4m3d9x5nvmr,;; connection timed out; no servers could be reached
+92.208.9.69,account.sanomaservices.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.reddit.com,;; connection timed out; no servers could be reached
+92.208.9.69,wolken.buienradar.nl,;; connection timed out; no servers could be reached
+92.208.9.69,i.ebayimg.com,;; connection timed out; no servers could be reached
+92.208.9.69,secure-media.ztat.net,;; connection timed out; no servers could be reached
+92.208.9.69,i.marktplaats.com,;; connection timed out; no servers could be reached
+92.208.9.69,static0.persgroep.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.ns.nl,;; connection timed out; no servers could be reached
+92.208.9.69,static.licdn.com,;; connection timed out; no servers could be reached
+92.208.9.69,cookiewet.rtl.nl,;; connection timed out; no servers could be reached
+92.208.9.69,platform.twitter.com,;; connection timed out; no servers could be reached
+92.208.9.69,px.srvcs.tumblr.com,;; connection timed out; no servers could be reached
+92.208.9.69,ajax.googleapis.com,;; connection timed out; no servers could be reached
+92.208.9.69,lib.rtl.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.onclickads.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.tumblr.com,;; connection timed out; no servers could be reached
+92.208.9.69,nos.nl,;; connection timed out; no servers could be reached
+92.208.9.69,s.ytimg.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.postnl.nl,;; connection timed out; no servers could be reached
+92.208.9.69,40,;; connection timed out; no servers could be reached
+92.208.9.69,static.bbci.co.uk,;; connection timed out; no servers could be reached
+92.208.9.69,www.paypalobjects.com,;; connection timed out; no servers could be reached
+92.208.9.69,132_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,viraltrend.nl,;; connection timed out; no servers could be reached
+92.208.9.69,49.media.tumblr.com,;; connection timed out; no servers could be reached
+92.208.9.69,ie7-js.googlecode.com,;; connection timed out; no servers could be reached
+92.208.9.69,viralmundo.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.hm.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.voetbalzone.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.marktplaats.nl,;; connection timed out; no servers could be reached
+92.208.9.69,201,;; connection timed out; no servers could be reached
+92.208.9.69,www.rtlxl.nl,;; connection timed out; no servers could be reached
+92.208.9.69,s.s-bol.com,;; connection timed out; no servers could be reached
+92.208.9.69,140,;; connection timed out; no servers could be reached
+92.208.9.69,s-media-cache-ak0.pinimg.com,;; connection timed out; no servers could be reached
+92.208.9.69,static2.persgroep.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.ah.nl,;; connection timed out; no servers could be reached
+92.208.9.69,tbinc.beslist.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.live.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.aliexpress.com,;; connection timed out; no servers could be reached
+92.208.9.69,i2.ebayimg.com,;; connection timed out; no servers could be reached
+92.208.9.69,a1276.ztat.net,;; connection timed out; no servers could be reached
+92.208.9.69,i1.ztat.net,;; connection timed out; no servers could be reached
+92.208.9.69,www.bbc.com,;; connection timed out; no servers could be reached
+92.208.9.69,assets.wehkamp.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.googletagservices.com,;; connection timed out; no servers could be reached
+92.208.9.69,img-9gag-fun.9cache.com,;; connection timed out; no servers could be reached
+92.208.9.69,amsmriw6xl83o8tnwxjvxez0q,;; connection timed out; no servers could be reached
+92.208.9.69,www.linkedin.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.belastingdienst.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.uwv.nl,;; connection timed out; no servers could be reached
+92.208.9.69,ssl-vice-com-c79a03.c-col.com,;; connection timed out; no servers could be reached
+92.208.9.69,media.boomads.com,;; connection timed out; no servers could be reached
+92.208.9.69,dmtracking2.alibaba.com,;; connection timed out; no servers could be reached
+92.208.9.69,consent.google.com,;; connection timed out; no servers could be reached
+92.208.9.69,www.bing.com,;; connection timed out; no servers could be reached
+92.208.9.69,230_SY230_SX307_AL_.jpg,;; connection timed out; no servers could be reached
+92.208.9.69,cms.buienradar.nl,;; connection timed out; no servers could be reached
+92.208.9.69,www.zalando.nl,;; connection timed out; no servers could be reached
+81.66.59.88,website.wehkamp.nl,129.33.138.227
+81.66.59.88,
+81.66.59.88,t.paypal.com,t.paypal.com.edgekey.net.,e3694.a.akamaiedge.net.,23.38.97.132
+81.66.59.88,www.ziggo.nl,ssl-www.ziggo.nl.c.footprint.net.,8.247.26.183,8.247.24.202,8.247.0.202
+81.66.59.88,ic.tweakimg.net,213.239.154.30
+81.66.59.88,3163h9vnt9ifv31eshnfux5gm
+81.66.59.88,201_AL_.jpg
+81.66.59.88,europa.buienradar.nl,217.118.167.200
+81.66.59.88,ecx.images-amazon.com,d1ge0kk1l5kms0.cloudfront.net.,54.192.185.138,54.192.185.239,54.192.185.157,54.192.185.109,54.192.185.94,54.192.185.41,54.192.185.98,54.192.185.159
+81.66.59.88,cf.dropboxstatic.com,54.230.184.176
+81.66.59.88,admin.brightcove.com,admin.brightcove.com.edgesuite.net.,a1467.g.akamai.net.,80.236.32.153,80.236.32.136
+81.66.59.88,s.yimg.com,s.gycs.b.yahoodns.net.,217.12.1.35,217.12.1.36
+81.66.59.88,cdn1b.static.pornhub.phncdn.com,cdn.c3605.rncdn3.com.,95.140.239.3,87.248.222.160
+81.66.59.88,www.apple.com,www.apple.com.edgekey.net.,www.apple.com.edgekey.net.globalredir.akadns.net.,e6858.dscc.akamaiedge.net.,23.214.131.130
+81.66.59.88,www.digid.nl,144.43.254.212
+81.66.59.88,www.twitch.tv,ssl.cdn.twitch.tv.c.footprint.net.,8.253.82.139,8.253.82.61,8.253.82.45
+81.66.59.88,www.magister.net
+81.66.59.88,secure.assets.tumblr.com,2-01-3688-0003.cdx.maxgtm.net.,cs262.wac.chicdn.net.,68.232.35.97
+81.66.59.88,in.zog.link,109.206.161.160
+81.66.59.88,www.ad.nl,ssl-nl.persgroep.edgekey.net.,e8821.ksd.akamaiedge.net.,104.94.193.187
+81.66.59.88,www.geenstijl.nl,104.23.128.57,104.23.132.56
+81.66.59.88,media.trafficjunky.net,vip0x055.ssl.rncdn5.com.,205.185.208.85
+81.66.59.88,www.bongacams.com,216.18.168.1
+81.66.59.88,fandom.wikia.com,wikia.com.,23.235.33.194,23.235.37.194,104.156.85.194,104.156.81.194
+81.66.59.88,tag.uwv.nl,uwv.tag.prisma-it.com.,93.188.252.122
+81.66.59.88,ir.ebaystatic.com,ir-ebaystatic.g.ebay.com.,slot11847.ebay.com.edgekey.net.,e11847.g.akamaiedge.net.,104.69.50.59
+81.66.59.88,0
+81.66.59.88,sp.nl.ask.com,185.23.44.98
+81.66.59.88,YsKw~~-1_35.JPG
+81.66.59.88,402
+81.66.59.88,www.msn.com,www-msn-com.a-0003.a-msedge.net.,a-0003.a-msedge.net.,204.79.197.203
+81.66.59.88,www.imdb.com,us.dd.imdb.com.,207.171.162.180
+81.66.59.88,www.ask.com,www.ask.com.edgesuite.net.,a1230.b.akamai.net.,82.216.34.129,82.216.34.130
+81.66.59.88,g-ecx.images-amazon.com,d1ge0kk1l5kms0.cloudfront.net.,54.192.185.41,54.192.185.98,54.192.185.159,54.192.185.138,54.192.185.239,54.192.185.157,54.192.185.109,54.192.185.94
+81.66.59.88,srx.main.ebayrtm.com,srv.main.ebayrtm.com.,srv.ebayrtm.com.,srv.g.ebay.com.,66.135.211.36,66.211.180.60,66.211.181.31,66.211.180.40,66.211.162.91,66.135.211.19
+81.66.59.88,media.nu.nl,medianunl.aws.sanomaservices.nl.,62.69.162.236,62.69.162.239,62.69.162.234,62.69.163.24,62.69.162.238,62.69.162.235,62.69.162.237,62.69.163.26
+81.66.59.88,telegraaf.tcdn.nl,217.196.36.1,217.196.36.3
+81.66.59.88,e5umo76hxkr4p5c07js11cnyx
+81.66.59.88,www.nu.nl,nunl.aws.sanomaservices.nl.,52.50.113.3
+81.66.59.88,www.mediamarkt.nl,194.233.193.10
+81.66.59.88,&amp;cg1=tweakers.net&amp;cg2=Frontpage&amp;cp1=A
+81.66.59.88,www.yahoo.com,fd-fp3.wg1.b.yahoo.com.,46.228.47.114,46.228.47.115
+81.66.59.88,www.9292.nl,87.213.168.28
+81.66.59.88,static.xx.fbcdn.net,scontent.xx.fbcdn.net.,179.60.192.7
+81.66.59.88,img100.xvideos.com,xvideos.vo.llnwd.net.,87.248.222.160,95.140.239.3
+81.66.59.88,maps.googleapis.com,googleapis.l.google.com.,216.58.211.74
+81.66.59.88,298_AL_.jpg
+81.66.59.88,static1.gfkey.com,gfkey.com.,104.25.62.35,104.25.63.35
+81.66.59.88,img.mobypicture.com,mobypicturemediaimages.mobypicture.netdna-cdn.com.,198.232.125.32
+81.66.59.88,525_AL_.jpg
+81.66.59.88,www.google.pl,77.95.65.121,77.95.65.83,77.95.65.123,77.95.65.79,77.95.65.108,77.95.65.91,77.95.65.117,77.95.65.113,77.95.65.87,77.95.65.106,77.95.65.94,77.95.65.102,77.95.65.109,77.95.65.98,77.95.65.93
+81.66.59.88,static-hw.xvideos.com,cds.q8q4g4t6.hwcdn.net.,69.16.175.10,69.16.175.42
+81.66.59.88,\
+81.66.59.88,static4.persgroep.net,ssl-be.persgroep.edgekey.net.,e8838.ksd.akamaiedge.net.,104.94.193.192
+81.66.59.88,ad.doubleclick.net,dart.l.doubleclick.net.,172.217.18.230
+81.66.59.88,bs.serving-sys.com,bs.eyeblaster.akadns.net.,bsams.eyeblaster.akadns.net.,80.252.91.24
+81.66.59.88,static.wehkamp.nl,194.151.96.14
+81.66.59.88,static.voetbalzone.nl,104.20.21.133,104.20.22.133
+81.66.59.88,172_AL_.jpg
+81.66.59.88,www.google.com,77.95.65.94,77.95.65.108,77.95.65.102,77.95.65.109,77.95.65.79,77.95.65.123,77.95.65.117,77.95.65.106,77.95.65.91,77.95.65.83,77.95.65.93,77.95.65.87,77.95.65.121,77.95.65.113,77.95.65.98
+81.66.59.88,tbassets.beslist.net,beslist-assets.clients.turbobytes.net.,f.g.turbobytes.net.,fr.f.turbobytes-cdn.com.,cs109.wac.chicdn.net.,93.184.220.141
+81.66.59.88,i1.ebayimg.com,i.ebayimg.com.,i.g.ebay.com.,slot5842.ebay.com.edgekey.net.,e5842.g.akamaiedge.net.,104.69.59.27
+81.66.59.88,50
+81.66.59.88,www.ing.nl,www.ing.nl.edgekey.net.,e7225.ksd.akamaiedge.net.,104.94.111.16
+81.66.59.88,cdn-media.amplience.com,ssl.amplience.com.c.footprint.net.,8.247.28.142,8.247.30.172
+81.66.59.88,rtm.ebaystatic.com,rtm.ebaystatic.georedirector.akadns.net.,rtm.ebaystatic.com.edgesuite.net.,a1166.g.akamai.net.,80.236.32.179,80.236.32.185
+81.66.59.88,eu-st.xhcdn.com,88.208.1.1,88.208.16.47,88.208.1.233
+81.66.59.88,www.beslist.nl,195.246.237.12
+81.66.59.88,static.licdn.com:443
+81.66.59.88,www.ebay.com,www-us.g.ebay.com.,slot9428.ebay.com.edgekey.net.,e9428.b.akamaiedge.net.,23.206.37.5
+81.66.59.88,static3.gfkey.com,gfkey.com.,104.25.62.35,104.25.63.35
+81.66.59.88,abs.twimg.com,wildcard.twimg.com.,104.244.43.135,104.244.43.7
+81.66.59.88,cloud.funda.nl,d2hxxhktp5kffn.cloudfront.net.,52.85.214.34,52.85.214.66,52.85.214.154,52.85.214.204,52.85.214.47,52.85.214.250,52.85.214.178,52.85.214.249
+81.66.59.88,tweakimg.net,213.239.154.30
+81.66.59.88,207_AL_.jpg
+81.66.59.88,wwwimages2.adobe.com,ssl.adobe.com.edgekey.net.,e4578.b.akamaiedge.net.,23.206.45.82
+81.66.59.88,www.npo.nl,npo.nl.,145.58.28.39
+81.66.59.88,assets.nflxext.com,sha2-san.netflix.edgekey.net.,e3067.dscd.akamaiedge.net.,23.214.122.83
+81.66.59.88,static1.persgroep.net,ssl-be.persgroep.edgekey.net.,e8838.ksd.akamaiedge.net.,104.94.193.192
+81.66.59.88,www.amazon.com,54.239.25.192
+81.66.59.88,700
+81.66.59.88,dropbox.com,108.160.172.206,108.160.172.238
+81.66.59.88,vrouw.nl,217.196.33.9
+81.66.59.88,89
+81.66.59.88,yt3.ggpht.com,photos-ugc.l.googleusercontent.com.,172.217.18.225
+81.66.59.88,www.opiniecentrum.nl,195.20.9.140
+81.66.59.88,gfkey.com,104.25.62.35,104.25.63.35
+81.66.59.88,www.microsoftonline.com,microsoftonline.com.,65.55.39.10,64.4.6.100
+81.66.59.88,wwwimages.adobe.com,wwwimages.wip4.adobe.com.,wwwimages.adobe.com.edgesuite.net.,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net.,a1953.x.akamai.net.,82.216.34.48,82.216.34.58
+81.66.59.88,www.hclips.com,104.20.93.127,104.20.92.127
+81.66.59.88,fig.bbc.co.uk,fig.bbc.net.uk.,bbc-fig.map.fastly.net.,185.31.19.98
+81.66.59.88,www.soundcloud.com,cs97.wac.edgecastcdn.net.,93.184.220.127
+81.66.59.88,ss.phncdn.com,ss.phncdn.com.rncdn1.com.,209.84.6.126,209.84.23.126,205.128.69.126
+81.66.59.88,ssum-sec.casalemedia.c
+81.66.59.88,www.office.com,geo.home.office.akadns.net.,eur.home.office.akadns.net.,168.63.92.133
+81.66.59.88,secure.aadcdn.microsoftonline-p.com,secure.aadcdn.microsoftonline-p.com.edgekey.net.,e4017.dscg.akamaiedge.net.,104.69.53.117
+81.66.59.88,www.github.com,github.com.,192.30.252.122
+81.66.59.88,www.pornhub.com,pornhub.com.,31.192.117.132
+81.66.59.88,cookiewet.buienradar.nl,23.97.224.11
+81.66.59.88,img.alicdn.com,img.alicdn.com.danuoyi.alicdn.com.,img.alicdn.com.edgekey.net.,e11102.b.akamaiedge.net.,23.206.20.62
+81.66.59.88,www.netflix.com,www.geo.netflix.com.,www.eu-west-1.prodaa.netflix.com.,176.34.109.195,54.247.124.77,54.247.88.164,176.34.109.42,54.247.109.168,54.75.226.107,54.247.126.79,176.34.121.169
+81.66.59.88,hclips.com,104.20.92.127,104.20.93.127
+81.66.59.88,vice-ads.s3.amazonaws.com,s3-directional-w.amazonaws.com.,s3-1-w.amazonaws.com.,54.231.112.104
+81.66.59.88,ichef.bbci.co.uk,ichef-bbci.bbc.net.uk.,ichef.bbci.co.uk.edgekey.net.,e3891.g.akamaiedge.net.,104.69.53.74
+81.66.59.88,www2-ext-s.nflximg.net,sha2-san.netflix.edgekey.net.,e3067.dscd.akamaiedge.net.,23.214.122.83
+81.66.59.88,sb.scorecardresearch.com,sb.scorecardresearch.com.edgekey.net.,e2799.e7.akamaiedge.net.,92.123.12.140
+81.66.59.88,www.bva-auctions.com,www.bva-auctions.com.edgekey.net.,e8770.b.akamaiedge.net.,23.35.125.82
+81.66.59.88,www.youtube.com,youtube-ui.l.google.com.,172.217.18.238
+81.66.59.88,static6.tubecup.org,104.25.9.35,104.25.8.35
+81.66.59.88,static5.tubecup.org,104.25.9.35,104.25.8.35
+81.66.59.88,pixel.quantserve.com,akamai-pixel.quantserve.com.akadns.net.,anycast-europe.quantserve.com.akadns.net.,95.172.94.47,95.172.94.18,95.172.94.56,95.172.94.65,95.172.94.39,95.172.94.15,95.172.94.51,95.172.94.19
+81.66.59.88,swa.bol.com,bol.com.ssl.d1.sc.omtrdc.net.,185.34.188.235
+81.66.59.88,www.google.nl,77.95.65.98,77.95.65.93,77.95.65.102,77.95.65.123,77.95.65.91,77.95.65.109,77.95.65.121,77.95.65.87,77.95.65.79,77.95.65.108,77.95.65.117,77.95.65.83,77.95.65.113,77.95.65.106,77.95.65.94
+81.66.59.88,static2.gfkey.com,gfkey.com.,104.25.63.35,104.25.62.35
+81.66.59.88,secure-skin.ztat.net,104.69.63.239
+81.66.59.88,media.dumpert.nl,178.22.83.107,178.22.84.99,178.22.83.113,178.22.84.98
+81.66.59.88,250_AL_.jpg
+81.66.59.88,www.viralmundo.nl,viralmundo.nl.,192.124.249.4
+81.66.59.88,www.nrc.nl,188.66.20.104
+81.66.59.88,www.theladbible.com,198.41.214.158,198.41.215.158
+81.66.59.88,vice-images.vice.com,52.85.214.214,52.85.214.176,52.85.214.201,52.85.214.178,52.85.214.32,52.85.214.116,52.85.214.174,52.85.214.175
+81.66.59.88,444
+81.66.59.88,www.booking.com,www.c.booking.com.,5.57.17.220
+81.66.59.88,www.txxx.com,104.20.78.29,104.20.77.29
+81.66.59.88,www.buienradar.nl,217.118.167.200
+81.66.59.88,www.dumpert.nl,104.25.203.4,104.25.202.4
+81.66.59.88,www.whatsapp.com,184.173.147.39,169.44.82.102,192.155.212.202,184.173.147.38,169.44.84.178,192.155.212.203
+81.66.59.88,hwimages.beslist.net,vip0x070.ssl.hwcdn.net.,205.185.208.112
+81.66.59.88,ichef-1.bbci.co.uk,ichef.bbci.co.uk.,ichef-bbci.bbc.net.uk.,ichef.bbci.co.uk.edgekey.net.,e3891.g.akamaiedge.net.,104.69.53.74
+81.66.59.88,100
+81.66.59.88,101
+81.66.59.88,q-ec.bstatic.com,cs369.wac.edgecastcdn.net.,68.232.35.205
+81.66.59.88,miscmedia-9gag-fun.9cache.com,miscmedia-9gag-fun.9gag.netdna-cdn.com.,108.161.188.132
+81.66.59.88,d5nxst8fruw4z.cloudfront.net,54.192.185.84,54.192.185.235,54.192.185.37,54.192.185.241,54.192.185.199,54.192.185.80,54.192.185.237,54.192.185.53
+81.66.59.88,cookiex.ngd.yahoo.com,world.yax.gysm.yahoodns.net.,217.12.15.54,217.12.15.83
+81.66.59.88,www.kat.cr,69.165.95.190,78.138.99.144,69.165.95.194,69.165.95.186,185.47.10.13,192.99.147.54,192.99.233.14,185.47.10.12,192.99.147.51,193.24.208.252
+81.66.59.88,www.infonu.nl,infonu.nl.,87.233.237.50
+81.66.59.88,engager.tmg.nl,94.100.113.196
+81.66.59.88,tumblr.com,66.6.43.30,66.6.41.30,66.6.42.30
+81.66.59.88,www.wehkamp.nl,194.151.96.11
+81.66.59.88,stat.onestat.com,85.17.114.71
+81.66.59.88,i3.ebayimg.com,i.ebayimg.com.,i.g.ebay.com.,slot5842.ebay.com.edgekey.net.,e5842.g.akamaiedge.net.,104.69.59.27
+81.66.59.88,libs.coremetrics.com,wildcard.coremetrics.com.edgekey.net.,e5031.g.akamaiedge.net.,104.69.56.65
+81.66.59.88,www.anwb.nl,93.187.8.198
+81.66.59.88,static-cdn.jtvnw.net,secure.jtvnw.net.c.footprint.net.,8.253.82.140,8.253.82.42,8.254.218.56
+81.66.59.88,caps.volkskrant.nl,ssl-nl.persgroep.edgekey.net.,e8821.ksd.akamaiedge.net.,104.94.193.187
+81.66.59.88,www.dropbox.com,www.g1.dropbox.com.,162.125.65.1
+81.66.59.88,www.t.co,t.co.,104.244.42.197,104.244.42.69,104.244.42.133,104.244.42.5
+81.66.59.88,vice-ads-cdn.vice.com,52.85.214.215,52.85.214.119,52.85.214.81,52.85.214.130,52.85.214.15,52.85.214.11,52.85.214.155,52.85.214.145
+81.66.59.88,cts.snmmd.nl,cts-edge.gslb.sanomaservices.nl.,62.69.175.120,62.69.167.120
+81.66.59.88,307
+81.66.59.88,230_AL_.jpg
+81.66.59.88,static4.tubecup.org,104.25.8.35,104.25.9.35
+81.66.59.88,www.adobe.com,www.adobe.com.edgekey.net.,e4578.b.akamaiedge.net.,23.206.45.82
+81.66.59.88,iwprod.msocdn.com,wildcard.msocdn.com.edgekey.net.,e7566.dspg.akamaiedge.net.,184.87.220.217
+81.66.59.88,www.viraltrend.nl,viraltrend.nl.,104.28.9.116,104.28.8.116
+81.66.59.88,www.telegraaf.nl,217.196.36.3,217.196.36.1
+81.66.59.88,www.paypal.com,www.paypal.com.akadns.net.,ppdirect.paypal.com.akadns.net.,wlb.paypal.com.akadns.net.,www.paypal.com.edgekey.net.,e3694.a.akamaiedge.net.,23.38.97.132
+81.66.59.88,i0.cdn2b.image.pornhub.phncdn.com,cdn.c3605.rncdn3.com.,87.248.222.160,95.140.239.3
+81.66.59.88,www.amazon.de,178.236.7.219
+81.66.59.88,ipornia.com,104.25.9.35,104.25.8.35
+81.66.59.88,img-s-msn-com.akamaized.net,a1834.g2.akamai.net.,80.236.32.162,80.236.32.153
+81.66.59.88,s-passets-cache-ak0.pinimg.com,s-passets-cache-ak.pinimg.com.edgekey.net.,e4456.dscd.akamaiedge.net.,23.214.185.15
+81.66.59.88,js.revsci.net,pix-geo.revsci.net.,208.146.36.47
+81.66.59.88,b8fzp3fud9k6bxniv9h274mcb
+81.66.59.88,logc210.xiti.com,62.161.94.220
+81.66.59.88,www.cdn.whatsapp.net,mmx.cdn.whatsapp.net.,179.60.192.51
+81.66.59.88,www.indeed.nl,europe.dyn.indeed.com.,94.236.6.229
+81.66.59.88,www.vkmag.com,81.23.234.182
+81.66.59.88,www.xhamster.com,88.208.29.24,88.208.18.30
+81.66.59.88,ia.media-imdb.com,ia.media-imdb.com.edgekey.net.,e4642.g.akamaiedge.net.,104.69.55.108
+81.66.59.88,www.vice.com,52.85.214.78,52.85.214.71,52.85.214.61,52.85.214.65,52.85.214.18,52.85.214.186,52.85.214.82,52.85.214.33
+81.66.59.88,www.publitas.com,52.85.214.170,52.85.214.186,52.85.214.70,52.85.214.137,52.85.214.180,52.85.214.27,52.85.214.119,52.85.214.100
+81.66.59.88,170
+81.66.59.88,www.volkskrant.nl,ssl-nl.persgroep.edgekey.net.,e8821.ksd.akamaiedge.net.,104.94.193.187
+81.66.59.88,www.wikipedia.org,208.80.154.224
+81.66.59.88,www.imgur.com,imgur.com.,185.31.19.193
+81.66.59.88,b.scorecardresearch.com,b.scorecardresearch.com.edgesuite.net.,a1294.w20.akamai.net.,82.216.34.147,82.216.34.106
+81.66.59.88,www.overheid.nl,62.112.232.82
+81.66.59.88,assets-cdn.github.com,github.map.fastly.net.,185.31.18.133
+81.66.59.88,www.tweakers.net,31.22.80.152,213.239.154.30,213.239.154.31
+81.66.59.88,www.9gag.com,52.28.126.224,52.58.178.40
+81.66.59.88,www.abnamro.nl,167.202.214.30
+81.66.59.88,www.surfconext.nl,145.100.190.243
+81.66.59.88,i.imgur.com,imgur.com.,185.31.19.193
+81.66.59.88,cmsresources.windowsphone.com,cmsresources.windowsphone.com.edgekey.net.,e1121.dspg.akamaiedge.net.,104.69.71.225
+81.66.59.88,www.instagram.com,black.ish.instagram.com.,instagram.c10r.facebook.com.,179.60.192.52
+81.66.59.88,api.buienradar.nl,www.buienradar.nl.,217.118.167.200
+81.66.59.88,www.pinterest.com,www.pinterest.com.edgekey.net.,e9343.a.akamaiedge.net.,23.35.127.154
+81.66.59.88,r-ec.bstatic.com,cs367.wac.edgecastcdn.net.,68.232.35.203
+81.66.59.88,www.xvideos.com,xvideos.com.,141.0.174.36,141.0.174.37,141.0.174.38,141.0.174.40,141.0.174.41,141.0.174.42,141.0.174.43,141.0.174.44,141.0.174.34,141.0.174.35
+81.66.59.88,www.funda.nl,funda.nl.,195.189.116.214
+81.66.59.88,www.wordpress.com,lb.wordpress.com.,192.0.78.13,192.0.78.12
+81.66.59.88,www.bol.com,pro-web-proxy-vip.bol.com.,185.14.169.113
+81.66.59.88,img-l3.xvideos.com,img-l3.xvideos.com.fpbns.net.,8.253.70.174,8.254.218.29,8.253.13.157
+81.66.59.88,www.wikia.com,wikia.com.,104.156.85.194,104.156.81.194,23.235.33.194,23.235.37.194
+81.66.59.88,www.nos.nl,nos.nl.,145.58.28.175,145.58.29.114
+81.66.59.88,a-v2.sndcdn.com,cs70.wac.edgecastcdn.net.,93.184.220.96
+81.66.59.88,www.werk.nl,145.222.216.144
+81.66.59.88,pbs.twimg.com,wildcard.twimg.com.,104.244.43.7,104.244.43.103
+81.66.59.88,www.rabobank.nl,145.72.70.20
+81.66.59.88,www.weeronline.nl,213.206.95.29,213.206.95.30
+81.66.59.88,www.microsoft.com,www.microsoft.com-c.edgekey.net.,www.microsoft.com-c.edgekey.net.globalredir.akadns.net.,e10088.dspb.akamaiedge.net.,23.206.43.32
+81.66.59.88,sources.startpagina.nl,62.69.166.40
+81.66.59.88,vnumedia01.webtrekk.net,185.54.150.17
+81.66.59.88,www.facebook.com,star-mini.c10r.facebook.com.,179.60.192.36
+81.66.59.88,38.media.tumblr.com,cs350.wac.chicdn.net.,68.232.35.185
+81.66.59.88,f1.eu.readspeaker.com,f6f470dfa0da747908f9-1594e6e51b932569bcf2c87ce041b442.r38.cf1.rackcdn.com.,a38.rackcdn.com.,a38.rackcdn.com.mdc.edgesuite.net.,a40.dscg10.akamai.net.,95.101.72.215,95.101.72.193
+81.66.59.88,600_SY200_.jpg
+81.66.59.88,402_SY148_SX148_AL_.jpg
+81.66.59.88,www.twitter.com,twitter.com.,104.244.42.65,104.244.42.129
+81.66.59.88,i1.cdn2b.image.pornhub.phncdn.com,cdn.c3605.rncdn3.com.,87.248.222.160,95.140.239.3
+81.66.59.88,116
+81.66.59.88,images0.tcdn.nl,217.196.36.3,217.196.36.1
+81.66.59.88,!oEE63WY8h+0BPDbDNIbew~~
+81.66.59.88,auth.gfx.ms,auth.msa.akadns.net.,auth.gfx.ms.edgekey.net.,e7502.ce.akamaiedge.net.,23.54.136.70
+81.66.59.88,www.startpagina.nl,62.69.166.40
+81.66.59.88,www.google.de,77.95.65.123,77.95.65.106,77.95.65.102,77.95.65.108,77.95.65.98,77.95.65.79,77.95.65.87,77.95.65.109,77.95.65.91,77.95.65.113,77.95.65.121,77.95.65.93,77.95.65.83,77.95.65.94,77.95.65.117
+81.66.59.88,d31qbv1cthcecs.cloudfront.net,54.192.185.209,54.192.185.201,54.192.185.138,54.192.185.63,54.192.185.41,54.192.185.204,54.192.185.141,54.192.185.188
+81.66.59.88,www.stackoverflow.com,stackoverflow.com.,104.16.34.249,104.16.35.249,104.16.37.249,104.16.33.249,104.16.36.249
+81.66.59.88,p.ebaystatic.com,p.g.ebay.com.,pics.ebaystatic.com.edgesuite.net.,a1654.g.akamai.net.,80.236.32.168,80.236.32.171
+81.66.59.88,150_AL_.jpg
+81.66.59.88,www.ikea.com,www2.ikea.com.edgesuite.net.,www2.ikea.com.edgesuite.net.globalredir.akadns.net.,a1686.q.akamai.net.,82.216.34.122,82.216.34.137
+81.66.59.88,87au2x2ggv8lwb4m3d9x5nvmr
+81.66.59.88,account.sanomaservices.nl,dhhhln0i31t8q.cloudfront.net.,52.85.214.171,52.85.214.206,52.85.214.181,52.85.214.119,52.85.214.140,52.85.214.93,52.85.214.146,52.85.214.226
+81.66.59.88,www.reddit.com,198.41.209.138,198.41.208.140,198.41.208.141,198.41.208.143,198.41.208.142,198.41.208.138,198.41.209.136,198.41.209.139,198.41.208.137,198.41.209.140,198.41.209.143,198.41.208.139,198.41.209.141,198.41.209.137,198.41.209.142
+81.66.59.88,wolken.buienradar.nl,217.118.167.200
+81.66.59.88,i.ebayimg.com,i.g.ebay.com.,slot5842.ebay.com.edgekey.net.,e5842.g.akamaiedge.net.,104.69.59.27
+81.66.59.88,secure-media.ztat.net,104.69.63.239
+81.66.59.88,i.marktplaats.com,91.211.72.202
+81.66.59.88,static0.persgroep.net,ssl-be.persgroep.edgekey.net.,e8838.ksd.akamaiedge.net.,104.94.193.192
+81.66.59.88,www.ns.nl,ns.nl.edgekey.net.,e7219.ksd.akamaiedge.net.,104.94.111.15
+81.66.59.88,static.licdn.com,2-01-2c3e-0017.cdx.cedexis.net.,linkedin-1.hs.llnwd.net.,87.248.222.176
+81.66.59.88,cookiewet.rtl.nl,217.118.160.88
+81.66.59.88,platform.twitter.com,platform-eb.twitter.com.,199.96.57.6
+81.66.59.88,px.srvcs.tumblr.com,66.6.42.34,66.6.41.34,66.6.43.34
+81.66.59.88,ajax.googleapis.com,googleapis.l.google.com.,216.58.211.74
+81.66.59.88,lib.rtl.nl,217.118.160.38
+81.66.59.88,www.onclickads.net,78.140.156.203
+81.66.59.88,www.tumblr.com,66.6.42.30,66.6.41.30,66.6.43.30
+81.66.59.88,nos.nl,145.58.29.114,145.58.28.175
+81.66.59.88,s.ytimg.com,ytstatic.l.google.com.,172.217.18.238
+81.66.59.88,www.postnl.nl,postnl-af-tridion05.cloudapp.net.,23.97.135.13
+81.66.59.88,40
+81.66.59.88,static.bbci.co.uk,static-bbci.bbc.net.uk.,static.bbci.co.uk.edgekey.net.,e3891.g.akamaiedge.net.,104.69.53.74
+81.66.59.88,www.paypalobjects.com,www.paypalobjects.com.akadns.net.,www.paypalobjects.com.edgekey.net.,e3691.g.akamaiedge.net.,104.101.164.40
+81.66.59.88,132_AL_.jpg
+81.66.59.88,viraltrend.nl,104.28.8.116,104.28.9.116
+81.66.59.88,49.media.tumblr.com,cs263.wac.edgecastcdn.net.,68.232.35.98
+81.66.59.88,ie7-js.googlecode.com,googlecode.l.googleusercontent.com.,66.102.1.82
+81.66.59.88,viralmundo.nl,192.124.249.4
+81.66.59.88,www.hm.com,www.hm.com.edgekey.net.,www.hm.com.edgekey.net.globalredir.akadns.net.,e2827.b.akamaiedge.net.,23.38.11.148
+81.66.59.88,www.voetbalzone.nl,104.20.21.133,104.20.22.133
+81.66.59.88,www.marktplaats.nl,91.195.49.34
+81.66.59.88,201
+81.66.59.88,www.rtlxl.nl,217.118.160.22
+81.66.59.88,s.s-bol.com,185.14.169.122
+81.66.59.88,140
+81.66.59.88,s-media-cache-ak0.pinimg.com,s-media-cache-ak.pinimg.com.edgekey.net.,e4456.dscd.akamaiedge.net.,23.214.185.15
+81.66.59.88,static2.persgroep.net,ssl-be.persgroep.edgekey.net.,e8838.ksd.akamaiedge.net.,104.94.193.192
+81.66.59.88,www.ah.nl,141.93.35.163
+81.66.59.88,tbinc.beslist.net,beslist-inc.clients.turbobytes.net.,f.g.turbobytes.net.,fr.f.turbobytes-cdn.com.,cs109.wac.chicdn.net.,93.184.220.141
+81.66.59.88,www.live.com,mail.live.com.,dispatch.kahuna.glbdns2.microsoft.com.,157.55.0.141,157.55.0.139
+81.66.59.88,www.aliexpress.com,www.aliexpress.com.edgesuite.net.,a1049.b.akamai.net.,82.216.34.144,82.216.34.121
+81.66.59.88,i2.ebayimg.com,i.ebayimg.com.,i.g.ebay.com.,slot5842.ebay.com.edgekey.net.,e5842.g.akamaiedge.net.,104.69.59.27
+81.66.59.88,a1276.ztat.net,zalando-cdn.edgekey.net.,e9633.g.akamaiedge.net.,104.69.63.239
+81.66.59.88,i1.ztat.net,zalando-cdn.edgekey.net.,e9633.g.akamaiedge.net.,104.69.63.239
+81.66.59.88,www.bbc.com,www-bbc-com.bbc.net.uk.,bbc.map.fastly.net.,185.31.18.81
+81.66.59.88,assets.wehkamp.com,i1-wehkamp.adis.ws.,i1-cedexis-wehkamp.adis.ws.,2-01-35ba-0011.cdx.cedexis.net.,wehkamp.com.edgekey.net.,e4674.g.akamaiedge.net.,104.101.164.166
+81.66.59.88,www.googletagservices.com,pagead46.l.doubleclick.net.,216.58.211.98
+81.66.59.88,img-9gag-fun.9cache.com,img-9gag-fun.9gag.netdna-cdn.com.,23.111.8.9,94.31.29.36,23.111.10.55,23.111.10.18
+81.66.59.88,amsmriw6xl83o8tnwxjvxez0q
+81.66.59.88,www.linkedin.com,any-eu.www.linkedin.com.,185.63.147.10
+81.66.59.88,www.belastingdienst.nl,85.159.98.33
+81.66.59.88,www.uwv.nl,145.222.216.128
+81.66.59.88,ssl-vice-com-c79a03.c-col.com,wildcard.compete.com.edgekey.net.,e960.b.akamaiedge.net.,23.38.4.16
+81.66.59.88,media.boomads.com,83.66.162.75
+81.66.59.88,dmtracking2.alibaba.com,dmtracking2.alibaba.com.gds.alibabadns.com.,198.11.132.82
+81.66.59.88,consent.google.com,172.217.18.238
+81.66.59.88,www.bing.com,any.edge.bing.com.,204.79.197.200
+81.66.59.88,230_SY230_SX307_AL_.jpg
+81.66.59.88,cms.buienradar.nl,217.118.167.231
+81.66.59.88,www.zalando.nl,62.50.56.169
+14.201.190.198,website.wehkamp.nl,129.33.138.227
+14.201.190.198,
+14.201.190.198,t.paypal.com,t.paypal.com.edgekey.net.,e3694.a.akamaiedge.net.,184.27.246.137
+14.201.190.198,www.ziggo.nl,ssl-www.ziggo.nl.c.footprint.net.,8.247.64.202,8.247.66.183
+14.201.190.198,ic.tweakimg.net,213.239.154.31
+14.201.190.198,3163h9vnt9ifv31eshnfux5gm
+14.201.190.198,201_AL_.jpg
+14.201.190.198,europa.buienradar.nl,217.118.167.200
+14.201.190.198,ecx.images-amazon.com,d1ge0kk1l5kms0.cloudfront.net.,52.85.40.198,52.85.40.96,52.85.40.126,52.85.40.239,52.85.40.40,52.85.40.149,52.85.40.251,52.85.40.111
+14.201.190.198,cf.dropboxstatic.com,54.230.242.200
+14.201.190.198,admin.brightcove.com,admin.brightcove.com.edgesuite.net.,a1467.g.akamai.net.,203.29.143.113,203.29.143.106
+14.201.190.198,s.yimg.com,s.gycs.b.yahoodns.net.,203.84.216.59
+14.201.190.198,cdn1b.static.pornhub.phncdn.com,cdn.c3605.rncdn3.com.,68.142.107.10,208.111.155.139
+14.201.190.198,www.apple.com,www.apple.com.edgekey.net.,www.apple.com.edgekey.net.globalredir.akadns.net.,e6858.dscc.akamaiedge.net.,184.24.214.153
+14.201.190.198,www.digid.nl,144.43.254.212
+14.201.190.198,www.twitch.tv,ssl.cdn.twitch.tv.c.footprint.net.,8.254.217.124
+14.201.190.198,www.magister.net
+14.201.190.198,secure.assets.tumblr.com,2-01-3688-0003.cdx.maxgtm.net.,cs262.wac.chicdn.net.,192.229.237.97
+14.201.190.198,in.zog.link,109.206.161.160
+14.201.190.198,www.ad.nl,ssl-nl.persgroep.edgekey.net.,e8821.ksd.akamaiedge.net.,23.0.97.153
+14.201.190.198,www.geenstijl.nl,104.23.132.56,104.23.128.57
+14.201.190.198,media.trafficjunky.net,vip0x055.ssl.rncdn5.com.,205.185.208.85
+14.201.190.198,www.bongacams.com,216.18.168.1
+14.201.190.198,fandom.wikia.com,wikia.com.,23.235.37.194,23.235.33.194,104.156.81.194,104.156.85.194
+14.201.190.198,tag.uwv.nl,uwv.tag.prisma-it.com.,93.188.252.122
+14.201.190.198,ir.ebaystatic.com,ir-ebaystatic.g.ebay.com.,slot11847.ebay.com.edgekey.net.,e11847.g.akamaiedge.net.,104.117.152.142
+14.201.190.198,0
+14.201.190.198,sp.nl.ask.com,185.23.44.98
+14.201.190.198,YsKw~~-1_35.JPG
+14.201.190.198,402
+14.201.190.198,www.msn.com,www-msn-com.a-0003.a-msedge.net.,a-0003.a-msedge.net.,204.79.197.203
+14.201.190.198,www.imdb.com,us.dd.imdb.com.,54.239.29.45
+14.201.190.198,www.ask.com,www.ask.com.edgesuite.net.,a1230.b.akamai.net.,203.29.143.123,203.29.143.97
+14.201.190.198,g-ecx.images-amazon.com,d1ge0kk1l5kms0.cloudfront.net.,52.85.40.239,52.85.40.251,52.85.40.40,52.85.40.198,52.85.40.126,52.85.40.149,52.85.40.96,52.85.40.111
+14.201.190.198,srx.main.ebayrtm.com,srv.main.ebayrtm.com.,srv.ebayrtm.com.,srv.g.ebay.com.,66.135.211.36,66.135.211.19,66.211.162.91,66.211.180.40,66.211.180.60,66.211.181.31
+14.201.190.198,media.nu.nl,medianunl.aws.sanomaservices.nl.,62.69.162.236,62.69.162.235,62.69.162.239,62.69.162.237,62.69.162.238,62.69.162.234,62.69.163.24,62.69.163.26
+14.201.190.198,telegraaf.tcdn.nl,217.196.36.3,217.196.36.1
+14.201.190.198,e5umo76hxkr4p5c07js11cnyx
+14.201.190.198,www.nu.nl,nunl.aws.sanomaservices.nl.,52.19.224.237,54.171.25.196,54.171.177.19
+14.201.190.198,www.mediamarkt.nl,194.233.193.10
+14.201.190.198,&amp;cg1=tweakers.net&amp;cg2=Frontpage&amp;cp1=A
+14.201.190.198,www.yahoo.com,fd-fp3.wg1.b.yahoo.com.,106.10.139.246,106.10.138.240
+14.201.190.198,www.9292.nl,87.213.168.28
+14.201.190.198,static.xx.fbcdn.net,scontent.xx.fbcdn.net.,179.60.193.7
+14.201.190.198,img100.xvideos.com,xvideos.vo.llnwd.net.,111.119.8.87,117.121.252.220
+14.201.190.198,maps.googleapis.com,googleapis.l.google.com.,216.58.199.74
+14.201.190.198,298_AL_.jpg
+14.201.190.198,static1.gfkey.com,gfkey.com.,104.25.62.35,104.25.63.35
+14.201.190.198,img.mobypicture.com,mobypicturemediaimages.mobypicture.netdna-cdn.com.,198.232.125.32
+14.201.190.198,525_AL_.jpg
+14.201.190.198,www.google.pl,220.244.136.50,220.244.136.59,220.244.136.25,220.244.136.44,220.244.136.39,220.244.136.29,220.244.136.49,220.244.136.30,220.244.136.35,220.244.136.40,220.244.136.54,220.244.136.20,220.244.136.24,220.244.136.34,220.244.136.55,220.244.136.45
+14.201.190.198,static-hw.xvideos.com,cds.q8q4g4t6.hwcdn.net.,69.16.175.42,69.16.175.10
+14.201.190.198,\
+14.201.190.198,static4.persgroep.net,ssl-be.persgroep.edgekey.net.,e8838.ksd.akamaiedge.net.,184.24.210.120
+14.201.190.198,ad.doubleclick.net,dart.l.doubleclick.net.,216.58.199.70
+14.201.190.198,bs.serving-sys.com,bs.eyeblaster.akadns.net.,202.177.203.124
+14.201.190.198,static.wehkamp.nl,194.151.96.142
+14.201.190.198,static.voetbalzone.nl,104.20.21.133,104.20.22.133
+14.201.190.198,172_AL_.jpg
+14.201.190.198,www.google.com,220.244.136.59,220.244.136.45,220.244.136.20,220.244.136.40,220.244.136.30,220.244.136.54,220.244.136.49,220.244.136.55,220.244.136.50,220.244.136.25,220.244.136.44,220.244.136.34,220.244.136.24,220.244.136.39,220.244.136.35,220.244.136.29
+14.201.190.198,tbassets.beslist.net,beslist-assets.clients.turbobytes.net.,f.g.turbobytes.net.,au.f.turbobytes-cdn.com.,cs109.wac.chicdn.net.,117.18.237.141
+14.201.190.198,i1.ebayimg.com,i.ebayimg.com.,i.g.ebay.com.,slot5842.ebay.com.edgekey.net.,e5842.g.akamaiedge.net.,104.117.145.172
+14.201.190.198,50
+14.201.190.198,www.ing.nl,www.ing.nl.edgekey.net.,e7225.ksd.akamaiedge.net.,23.49.209.81
+14.201.190.198,cdn-media.amplience.com,ssl.amplience.com.c.footprint.net.,8.247.68.142,8.247.70.172
+14.201.190.198,rtm.ebaystatic.com,rtm.ebaystatic.georedirector.akadns.net.,rtm.ebaystatic.com.edgesuite.net.,a1166.g.akamai.net.,203.29.143.99,203.29.143.115
+14.201.190.198,eu-st.xhcdn.com,88.208.1.233,88.208.16.47,88.208.1.1
+14.201.190.198,www.beslist.nl,195.246.237.12
+14.201.190.198,static.licdn.com:443
+14.201.190.198,www.ebay.com,www-us.g.ebay.com.,slot9428.ebay.com.edgekey.net.,e9428.b.akamaiedge.net.,184.27.245.192
+14.201.190.198,static3.gfkey.com,gfkey.com.,104.25.62.35,104.25.63.35
+14.201.190.198,abs.twimg.com,wildcard.twimg.com.,104.244.43.103,104.244.43.135
+14.201.190.198,cloud.funda.nl,d2hxxhktp5kffn.cloudfront.net.,54.192.142.74,54.192.142.51,54.192.142.119,54.192.142.207,54.192.142.199,54.192.142.52,54.192.142.226,54.192.142.112
+14.201.190.198,tweakimg.net,213.239.154.31
+14.201.190.198,207_AL_.jpg
+14.201.190.198,wwwimages2.adobe.com,ssl.adobe.com.edgekey.net.,e4578.b.akamaiedge.net.,23.49.216.115
+14.201.190.198,www.npo.nl,npo.nl.,145.58.28.39
+14.201.190.198,assets.nflxext.com,sha2-san.netflix.edgekey.net.,e3067.dscd.akamaiedge.net.,104.117.165.197
+14.201.190.198,static1.persgroep.net,ssl-be.persgroep.edgekey.net.,e8838.ksd.akamaiedge.net.,184.24.210.120
+14.201.190.198,www.amazon.com,54.239.25.208
+14.201.190.198,700
+14.201.190.198,dropbox.com,108.160.172.238,108.160.172.206
+14.201.190.198,vrouw.nl,217.196.33.9
+14.201.190.198,89
+14.201.190.198,yt3.ggpht.com,photos-ugc.l.googleusercontent.com.,216.58.199.33
+14.201.190.198,www.opiniecentrum.nl,195.20.9.140
+14.201.190.198,gfkey.com,104.25.62.35,104.25.63.35
+14.201.190.198,www.microsoftonline.com,microsoftonline.com.,64.4.6.100,65.55.39.10
+14.201.190.198,wwwimages.adobe.com,wwwimages.wip4.adobe.com.,wwwimages.adobe.com.edgesuite.net.,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net.,a1953.x.akamai.net.,203.29.143.104,203.29.143.114
+14.201.190.198,www.hclips.com,104.20.92.127,104.20.93.127
+14.201.190.198,fig.bbc.co.uk,fig.bbc.net.uk.,bbc-fig.map.fastly.net.,103.245.222.98
+14.201.190.198,www.soundcloud.com,cs97.wac.edgecastcdn.net.,68.232.44.127
+14.201.190.198,ss.phncdn.com,ss.phncdn.com.rncdn1.com.,199.93.47.123,8.254.2.253
+14.201.190.198,ssum-sec.casalemedia.c
+14.201.190.198,www.office.com,geo.home.office.akadns.net.,asia.home.office.akadns.net.,111.221.104.43
+14.201.190.198,secure.aadcdn.microsoftonline-p.com,secure.aadcdn.microsoftonline-p.com.edgekey.net.,e4017.dscg.akamaiedge.net.,104.117.220.70
+14.201.190.198,www.github.com,github.com.,192.30.252.123
+14.201.190.198,www.pornhub.com,pornhub.com.,31.192.117.132
+14.201.190.198,cookiewet.buienradar.nl,23.97.224.11
+14.201.190.198,img.alicdn.com,img.alicdn.com.danuoyi.alicdn.com.,img.alicdn.com.edgekey.net.,e11102.b.akamaiedge.net.,184.24.209.80
+14.201.190.198,www.netflix.com,www.geo.netflix.com.,www.us-west-2.prodaa.netflix.com.,54.245.249.47,54.245.248.71,54.245.254.65,54.245.251.189,54.245.251.127,54.245.242.170,54.245.251.136,54.245.249.108
+14.201.190.198,hclips.com,104.20.92.127,104.20.93.127
+14.201.190.198,vice-ads.s3.amazonaws.com,s3-directional-w.amazonaws.com.,s3-1-w.amazonaws.com.,54.231.72.131
+14.201.190.198,ichef.bbci.co.uk,ichef-bbci.bbc.net.uk.,ichef.bbci.co.uk.edgekey.net.,e3891.g.akamaiedge.net.,104.117.146.208
+14.201.190.198,www2-ext-s.nflximg.net,sha2-san.netflix.edgekey.net.,e3067.dscd.akamaiedge.net.,104.117.165.197
+14.201.190.198,sb.scorecardresearch.com,sb.scorecardresearch.com.edgekey.net.,e2799.e7.akamaiedge.net.,184.24.219.120
+14.201.190.198,www.bva-auctions.com,www.bva-auctions.com.edgekey.net.,e8770.b.akamaiedge.net.,23.49.212.15
+14.201.190.198,www.youtube.com,youtube-ui.l.google.com.,220.244.223.94,220.244.223.93,220.244.223.114,220.244.223.98,220.244.223.84,220.244.223.113,220.244.223.104,220.244.223.109,220.244.223.118,220.244.223.119,220.244.223.99,220.244.223.123,220.244.223.88,220.244.223.89,220.244.223.108,220.244.223.103
+14.201.190.198,static6.tubecup.org,104.25.8.35,104.25.9.35
+14.201.190.198,static5.tubecup.org,104.25.9.35,104.25.8.35
+14.201.190.198,pixel.quantserve.com,akamai-pixel.quantserve.com.akadns.net.,anycast-asia.quantserve.com.akadns.net.,203.190.124.17,203.190.124.15,203.190.124.19,203.190.124.12,203.190.124.11,203.190.124.25,203.190.124.18,203.190.124.13
+14.201.190.198,swa.bol.com,bol.com.ssl.d1.sc.omtrdc.net.,63.140.63.165
+14.201.190.198,www.google.nl,220.244.136.59,220.244.136.45,220.244.136.44,220.244.136.54,220.244.136.30,220.244.136.34,220.244.136.49,220.244.136.24,220.244.136.20,220.244.136.29,220.244.136.39,220.244.136.35,220.244.136.25,220.244.136.55,220.244.136.50,220.244.136.40
+14.201.190.198,static2.gfkey.com,gfkey.com.,104.25.62.35,104.25.63.35
+14.201.190.198,secure-skin.ztat.net,104.117.152.123
+14.201.190.198,media.dumpert.nl,178.22.83.107,178.22.84.99,178.22.83.113,178.22.84.98
+14.201.190.198,250_AL_.jpg
+14.201.190.198,www.viralmundo.nl,viralmundo.nl.,192.124.249.4
+14.201.190.198,www.nrc.nl,188.66.20.104
+14.201.190.198,www.theladbible.com,198.41.215.158,198.41.214.158
+14.201.190.198,vice-images.vice.com,54.192.142.222,54.192.142.120,54.192.142.4,54.192.142.204,54.192.142.206,54.192.142.213,54.192.142.136,54.192.142.101
+14.201.190.198,444
+14.201.190.198,www.booking.com,www.c.booking.com.,185.28.220.2
+14.201.190.198,www.txxx.com,104.20.77.29,104.20.78.29
+14.201.190.198,www.buienradar.nl,217.118.167.200
+14.201.190.198,www.dumpert.nl,104.25.202.4,104.25.203.4
+14.201.190.198,www.whatsapp.com,169.44.84.178,184.173.147.39,192.155.212.203,169.44.82.102,192.155.212.202,184.173.147.38
+14.201.190.198,hwimages.beslist.net,vip0x070.ssl.hwcdn.net.,205.185.208.112
+14.201.190.198,ichef-1.bbci.co.uk,ichef.bbci.co.uk.,ichef-bbci.bbc.net.uk.,ichef.bbci.co.uk.edgekey.net.,e3891.g.akamaiedge.net.,104.117.146.208
+14.201.190.198,100
+14.201.190.198,101
+14.201.190.198,q-ec.bstatic.com,cs369.wac.edgecastcdn.net.,192.229.237.205
+14.201.190.198,miscmedia-9gag-fun.9cache.com,miscmedia-9gag-fun.9gag.netdna-cdn.com.,146.88.133.5
+14.201.190.198,d5nxst8fruw4z.cloudfront.net,52.85.40.109,52.85.40.114,52.85.40.117,52.85.40.129,52.85.40.222,52.85.40.162,52.85.40.165,52.85.40.130
+14.201.190.198,cookiex.ngd.yahoo.com,world.yax.gysm.yahoodns.net.,106.10.198.33,106.10.198.32
+14.201.190.198,www.kat.cr,192.99.147.51,69.165.95.186,193.24.208.252,192.99.233.14,69.165.95.194,185.47.10.12,192.99.147.54,69.165.95.190,185.47.10.13,78.138.99.144
+14.201.190.198,www.infonu.nl,infonu.nl.,87.233.237.50
+14.201.190.198,engager.tmg.nl,94.100.113.196
+14.201.190.198,tumblr.com,66.6.41.30,66.6.43.30
+14.201.190.198,www.wehkamp.nl,194.151.96.141
+14.201.190.198,stat.onestat.com,85.17.114.71
+14.201.190.198,i3.ebayimg.com,i.ebayimg.com.,i.g.ebay.com.,slot5842.ebay.com.edgekey.net.,e5842.g.akamaiedge.net.,104.117.145.172
+14.201.190.198,libs.coremetrics.com,wildcard.coremetrics.com.edgekey.net.,e5031.g.akamaiedge.net.,104.117.217.249
+14.201.190.198,www.anwb.nl,93.187.8.198
+14.201.190.198,static-cdn.jtvnw.net,secure.jtvnw.net.c.footprint.net.,8.254.207.44
+14.201.190.198,caps.volkskrant.nl,ssl-nl.persgroep.edgekey.net.,e8821.ksd.akamaiedge.net.,184.24.210.118
+14.201.190.198,www.dropbox.com,www.g1.dropbox.com.,108.160.172.206
+14.201.190.198,www.t.co,t.co.,104.244.42.5,104.244.42.133,104.244.42.69,104.244.42.197
+14.201.190.198,vice-ads-cdn.vice.com,54.192.142.215,54.192.142.127,54.192.142.137,54.192.142.142,54.192.142.167,54.192.142.176,54.192.142.72,54.192.142.248
+14.201.190.198,cts.snmmd.nl,cts-edge.gslb.sanomaservices.nl.,62.69.167.120,62.69.175.120
+14.201.190.198,307
+14.201.190.198,230_AL_.jpg
+14.201.190.198,static4.tubecup.org,104.25.9.35,104.25.8.35
+14.201.190.198,www.adobe.com,www.adobe.com.edgekey.net.,e4578.b.akamaiedge.net.,23.49.216.115
+14.201.190.198,iwprod.msocdn.com,wildcard.msocdn.com.edgekey.net.,e7566.dspg.akamaiedge.net.,104.117.184.179
+14.201.190.198,www.viraltrend.nl,viraltrend.nl.,104.28.8.116,104.28.9.116
+14.201.190.198,www.telegraaf.nl,217.196.36.3,217.196.36.1
+14.201.190.198,www.paypal.com,www.paypal.com.akadns.net.,ppdirect.paypal.com.akadns.net.,wlb.paypal.com.akadns.net.,www.paypal.com.edgekey.net.,e3694.a.akamaiedge.net.,184.27.246.137
+14.201.190.198,i0.cdn2b.image.pornhub.phncdn.com,cdn.c3605.rncdn3.com.,68.142.107.10,208.111.155.139
+14.201.190.198,www.amazon.de,54.239.32.138
+14.201.190.198,ipornia.com,104.25.9.35,104.25.8.35
+14.201.190.198,img-s-msn-com.akamaized.net,a1834.g2.akamai.net.,203.26.28.137,203.26.28.161
+14.201.190.198,s-passets-cache-ak0.pinimg.com,s-passets-cache-ak.pinimg.com.edgekey.net.,e4456.dscd.akamaiedge.net.,104.117.147.152
+14.201.190.198,js.revsci.net,pix-geo.revsci.net.,64.74.13.22
+14.201.190.198,b8fzp3fud9k6bxniv9h274mcb
+14.201.190.198,logc210.xiti.com,62.161.94.220
+14.201.190.198,www.cdn.whatsapp.net,mmx.cdn.whatsapp.net.,179.60.193.51
+14.201.190.198,www.indeed.nl,europe.dyn.indeed.com.,94.236.6.229
+14.201.190.198,www.vkmag.com,81.23.234.182
+14.201.190.198,www.xhamster.com,88.208.29.24,88.208.18.30
+14.201.190.198,ia.media-imdb.com,ia.media-imdb.com.edgekey.net.,e4642.g.akamaiedge.net.,104.117.152.48
+14.201.190.198,www.vice.com,54.192.142.229,54.192.142.238,54.192.142.135,54.192.142.142,54.192.142.62,54.192.142.250,54.192.142.75,54.192.142.64
+14.201.190.198,www.publitas.com,54.230.245.4,54.230.245.239,54.230.245.191,54.230.245.21,54.230.245.123,54.230.245.20,54.230.245.34,54.230.245.132
+14.201.190.198,170
+14.201.190.198,www.volkskrant.nl,ssl-nl.persgroep.edgekey.net.,e8821.ksd.akamaiedge.net.,184.24.210.118
+14.201.190.198,www.wikipedia.org,198.35.26.96
+14.201.190.198,www.imgur.com,imgur.com.,103.245.222.193
+14.201.190.198,b.scorecardresearch.com,b.scorecardresearch.com.edgesuite.net.,a1294.w20.akamai.net.,203.29.143.105,203.29.143.106
+14.201.190.198,www.overheid.nl,62.112.232.82
+14.201.190.198,assets-cdn.github.com,github.map.fastly.net.,103.245.222.133
+14.201.190.198,www.tweakers.net,213.239.154.31,31.22.80.152,213.239.154.30
+14.201.190.198,www.9gag.com,52.9.101.36,54.193.87.217
+14.201.190.198,www.abnamro.nl,167.202.214.30
+14.201.190.198,www.surfconext.nl,145.100.190.243
+14.201.190.198,i.imgur.com,imgur.com.,103.245.222.193
+14.201.190.198,cmsresources.windowsphone.com,cmsresources.windowsphone.com.edgekey.net.,e1121.dspg.akamaiedge.net.,104.117.204.60
+14.201.190.198,www.instagram.com,black.ish.instagram.com.,instagram.c10r.facebook.com.,179.60.193.52
+14.201.190.198,api.buienradar.nl,www.buienradar.nl.,217.118.167.200
+14.201.190.198,www.pinterest.com,www.pinterest.com.edgekey.net.,e9343.a.akamaiedge.net.,184.26.32.63
+14.201.190.198,r-ec.bstatic.com,cs367.wac.edgecastcdn.net.,192.229.237.203
+14.201.190.198,www.xvideos.com,xvideos.com.,141.0.174.34,141.0.174.35,141.0.174.36,141.0.174.37,141.0.174.38,141.0.174.40,141.0.174.41,141.0.174.42,141.0.174.43,141.0.174.44
+14.201.190.198,www.funda.nl,funda.nl.,195.189.116.214
+14.201.190.198,www.wordpress.com,lb.wordpress.com.,192.0.78.12,192.0.78.13
+14.201.190.198,www.bol.com,pro-web-proxy-vip.bol.com.,185.14.169.113
+14.201.190.198,img-l3.xvideos.com,img-l3.xvideos.com.fpbns.net.,8.254.230.29
+14.201.190.198,www.wikia.com,wikia.com.,23.235.33.194,104.156.81.194,23.235.37.194,104.156.85.194
+14.201.190.198,www.nos.nl,nos.nl.,145.58.29.114,145.58.28.175
+14.201.190.198,a-v2.sndcdn.com,cs70.wac.edgecastcdn.net.,68.232.44.96
+14.201.190.198,www.werk.nl,145.222.216.144
+14.201.190.198,pbs.twimg.com,cs472.wac.edgecastcdn.net.,192.229.237.25
+14.201.190.198,www.rabobank.nl,145.72.70.20
+14.201.190.198,www.weeronline.nl,213.206.95.30,213.206.95.29
+14.201.190.198,www.microsoft.com,www.microsoft.com-c.edgekey.net.,www.microsoft.com-c.edgekey.net.globalredir.akadns.net.,e10088.dspb.akamaiedge.net.,184.27.247.133
+14.201.190.198,sources.startpagina.nl,62.69.166.40
+14.201.190.198,vnumedia01.webtrekk.net,185.54.150.17
+14.201.190.198,www.facebook.com,star-mini.c10r.facebook.com.,179.60.193.36
+14.201.190.198,38.media.tumblr.com,cs350.wac.chicdn.net.,192.229.237.185
+14.201.190.198,f1.eu.readspeaker.com,f6f470dfa0da747908f9-1594e6e51b932569bcf2c87ce041b442.r38.cf1.rackcdn.com.,a38.rackcdn.com.,a38.rackcdn.com.mdc.edgesuite.net.,a40.dscg10.akamai.net.,14.200.100.48,14.200.100.80
+14.201.190.198,600_SY200_.jpg
+14.201.190.198,402_SY148_SX148_AL_.jpg
+14.201.190.198,www.twitter.com,twitter.com.,104.244.42.1,104.244.42.65
+14.201.190.198,i1.cdn2b.image.pornhub.phncdn.com,cdn.c3605.rncdn3.com.,68.142.107.10,208.111.155.139
+14.201.190.198,116
+14.201.190.198,images0.tcdn.nl,217.196.36.3,217.196.36.1
+14.201.190.198,!oEE63WY8h+0BPDbDNIbew~~
+14.201.190.198,auth.gfx.ms,auth.msa.akadns.net.,auth.gfx.ms.edgekey.net.,e7502.ce.akamaiedge.net.,23.37.136.70
+14.201.190.198,www.startpagina.nl,62.69.166.40
+14.201.190.198,www.google.de,220.244.136.45,220.244.136.50,220.244.136.44,220.244.136.55,220.244.136.34,220.244.136.20,220.244.136.49,220.244.136.54,220.244.136.29,220.244.136.30,220.244.136.59,220.244.136.40,220.244.136.39,220.244.136.25,220.244.136.35,220.244.136.24
+14.201.190.198,d31qbv1cthcecs.cloudfront.net,52.85.40.50,52.85.40.112,52.85.40.216,52.85.40.65,52.85.40.175,52.85.40.22,52.85.40.206,52.85.40.93
+14.201.190.198,www.stackoverflow.com,stackoverflow.com.,104.16.35.249,104.16.33.249,104.16.36.249,104.16.34.249,104.16.37.249
+14.201.190.198,p.ebaystatic.com,p.g.ebay.com.,pics.ebaystatic.com.edgesuite.net.,a1654.g.akamai.net.,203.29.143.115,203.29.143.122
+14.201.190.198,150_AL_.jpg
+14.201.190.198,www.ikea.com,www2.ikea.com.edgesuite.net.,www2.ikea.com.edgesuite.net.globalredir.akadns.net.,a1686.q.akamai.net.,203.29.143.89,203.29.143.90
+14.201.190.198,87au2x2ggv8lwb4m3d9x5nvmr
+14.201.190.198,account.sanomaservices.nl,dhhhln0i31t8q.cloudfront.net.,54.192.142.92,54.192.142.54,54.192.142.241,54.192.142.240,54.192.142.58,54.192.142.239,54.192.142.147,54.192.142.126
+14.201.190.198,www.reddit.com,198.41.209.143,198.41.209.137,198.41.208.142,198.41.208.141,198.41.209.136,198.41.208.137,198.41.208.138,198.41.208.143,198.41.209.138,198.41.209.142,198.41.209.140,198.41.208.140,198.41.209.139,198.41.209.141,198.41.208.139
+14.201.190.198,wolken.buienradar.nl,217.118.167.200
+14.201.190.198,i.ebayimg.com,i.g.ebay.com.,slot5842.ebay.com.edgekey.net.,e5842.g.akamaiedge.net.,104.117.145.172
+14.201.190.198,secure-media.ztat.net,104.117.152.123
+14.201.190.198,i.marktplaats.com,91.211.72.202
+14.201.190.198,static0.persgroep.net,ssl-be.persgroep.edgekey.net.,e8838.ksd.akamaiedge.net.,184.24.210.120
+14.201.190.198,www.ns.nl,ns.nl.edgekey.net.,e7219.ksd.akamaiedge.net.,23.49.209.73
+14.201.190.198,static.licdn.com,glb-dcdn.static.licdn.com.,2-01-2c3e-0017.cdx.cedexis.net.,linkedin-1.hs.llnwd.net.,117.121.252.217
+14.201.190.198,cookiewet.rtl.nl,217.118.160.88
+14.201.190.198,platform.twitter.com,cs472.wac.edgecastcdn.net.,192.229.237.25
+14.201.190.198,px.srvcs.tumblr.com,66.6.43.34,66.6.42.34
+14.201.190.198,ajax.googleapis.com,googleapis.l.google.com.,216.58.220.106
+14.201.190.198,lib.rtl.nl,217.118.160.38
+14.201.190.198,www.onclickads.net,78.140.156.203
+14.201.190.198,www.tumblr.com,66.6.41.30,66.6.43.30
+14.201.190.198,nos.nl,145.58.29.114,145.58.28.175
+14.201.190.198,s.ytimg.com,ytstatic.l.google.com.,220.244.223.103,220.244.223.119,220.244.223.88,220.244.223.93,220.244.223.109,220.244.223.104,220.244.223.99,220.244.223.113,220.244.223.123,220.244.223.94,220.244.223.114,220.244.223.89,220.244.223.84,220.244.223.118,220.244.223.98,220.244.223.108
+14.201.190.198,www.postnl.nl,postnl-af-tridion05.cloudapp.net.,23.97.135.13
+14.201.190.198,40
+14.201.190.198,static.bbci.co.uk,static-bbci.bbc.net.uk.,static.bbci.co.uk.edgekey.net.,e3891.g.akamaiedge.net.,104.117.146.208
+14.201.190.198,www.paypalobjects.com,www.paypalobjects.com.akadns.net.,www.paypalobjects.com.edgekey.net.,e3691.g.akamaiedge.net.,184.27.246.94
+14.201.190.198,132_AL_.jpg
+14.201.190.198,viraltrend.nl,104.28.8.116,104.28.9.116
+14.201.190.198,49.media.tumblr.com,cs263.wac.edgecastcdn.net.,192.229.237.98
+14.201.190.198,ie7-js.googlecode.com,googlecode.l.googleusercontent.com.,74.125.203.82
+14.201.190.198,viralmundo.nl,192.124.249.4
+14.201.190.198,www.hm.com,www.hm.com.edgekey.net.,www.hm.com.edgekey.net.globalredir.akadns.net.,e2827.b.akamaiedge.net.,184.24.215.179
+14.201.190.198,www.voetbalzone.nl,104.20.22.133,104.20.21.133
+14.201.190.198,www.marktplaats.nl,91.211.72.194
+14.201.190.198,201
+14.201.190.198,www.rtlxl.nl,217.118.160.22
+14.201.190.198,s.s-bol.com,185.14.169.122
+14.201.190.198,140
+14.201.190.198,s-media-cache-ak0.pinimg.com,s-media-cache-ak.pinimg.com.edgekey.net.,e4456.dscd.akamaiedge.net.,104.117.147.152
+14.201.190.198,static2.persgroep.net,ssl-be.persgroep.edgekey.net.,e8838.ksd.akamaiedge.net.,184.24.210.120
+14.201.190.198,www.ah.nl,141.93.35.163
+14.201.190.198,tbinc.beslist.net,beslist-inc.clients.turbobytes.net.,f.g.turbobytes.net.,au.f.turbobytes-cdn.com.,cs109.wac.chicdn.net.,117.18.237.141
+14.201.190.198,www.live.com,mail.live.com.,dispatch.kahuna.glbdns2.microsoft.com.,207.46.11.236,207.46.11.252
+14.201.190.198,www.aliexpress.com,www.aliexpress.com.edgesuite.net.,a1049.b.akamai.net.,203.29.143.113,203.29.143.115
+14.201.190.198,i2.ebayimg.com,i.ebayimg.com.,i.g.ebay.com.,slot5842.ebay.com.edgekey.net.,e5842.g.akamaiedge.net.,104.117.145.172
+14.201.190.198,a1276.ztat.net,zalando-cdn.edgekey.net.,e9633.g.akamaiedge.net.,104.117.152.123
+14.201.190.198,i1.ztat.net,zalando-cdn.edgekey.net.,e9633.g.akamaiedge.net.,104.117.152.123
+14.201.190.198,www.bbc.com,www-bbc-com.bbc.net.uk.,bbc.map.fastly.net.,103.245.222.81
+14.201.190.198,assets.wehkamp.com,i1-wehkamp.adis.ws.,i1-cedexis-wehkamp.adis.ws.,2-01-35ba-0011.cdx.cedexis.net.,wehkamp.com.edgekey.net.,e4674.g.akamaiedge.net.,184.27.247.60
+14.201.190.198,www.googletagservices.com,pagead46.l.doubleclick.net.,216.58.220.98
+14.201.190.198,img-9gag-fun.9cache.com,img-9gag-fun.9gag.netdna-cdn.com.,146.88.132.5
+14.201.190.198,amsmriw6xl83o8tnwxjvxez0q
+14.201.190.198,www.linkedin.com,glb-ap-au.www.linkedin.com.,pop-esy1-alpha.www.linkedin.com.,144.2.0.1
+14.201.190.198,www.belastingdienst.nl,85.159.98.33
+14.201.190.198,www.uwv.nl,145.222.216.128
+14.201.190.198,ssl-vice-com-c79a03.c-col.com,wildcard.compete.com.edgekey.net.,e960.b.akamaiedge.net.,104.117.178.135
+14.201.190.198,media.boomads.com,83.66.162.75
+14.201.190.198,dmtracking2.alibaba.com,dmtracking2.alibaba.com.gds.alibabadns.com.,205.204.101.110
+14.201.190.198,consent.google.com,220.244.223.93,220.244.223.94,220.244.223.113,220.244.223.84,220.244.223.103,220.244.223.104,220.244.223.89,220.244.223.118,220.244.223.119,220.244.223.99,220.244.223.98,220.244.223.88,220.244.223.114,220.244.223.109,220.244.223.123,220.244.223.108
+14.201.190.198,www.bing.com,any.edge.bing.com.,204.79.197.200
+14.201.190.198,230_SY230_SX307_AL_.jpg
+14.201.190.198,cms.buienradar.nl,217.118.167.231
+14.201.190.198,www.zalando.nl,62.50.56.169

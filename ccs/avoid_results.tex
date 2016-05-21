@@ -120,12 +120,12 @@ As seen in Table \ref{tab:avoid}, there are two significant trends: 1) the abili
 {\bf Avoidance Increases with Relays.}
 In almost every (Country X, Country Y) pair, where Country X is the client's country (Brazil, Netherlands, India, Kenya, or the United States) and Country Y is the country to avoid, the use of an overlay network makes Country Y more avoidable than the current default routes.  The one exception we encountered is when a client is located in Kenya and wants to avoid South Africa; South Africa is on the path between the client and every relay, and therefore the client should not use the relays.  
 
-\begin{figure}
-\centering
-\includegraphics[width=.5\textwidth]{ke_compound_new}
-\caption{Avoidance values for Kenyan clients without relays, with relays, and the upperbound.}
-\label{fig:ke_avoidance}
-\end{figure}
+%\begin{figure}
+%\centering
+%\includegraphics[width=.5\textwidth]{ke_compound_new}
+%\caption{Avoidance values for Kenyan clients without relays, with relays, and the upperbound.}
+%\label{fig:ke_avoidance}
+%\end{figure}
 
 For 84\% of the (Country X, Country Y) pairs shown in Table \ref{tab:avoid} the avoidance with relays reaches the upper bound on avoidance.  (Kenya, Country Y) pairs have the lowest percentage of avoidance values that reach the upper bound, showing that it is more difficult for Kenyan clients to avoid a given country.  This is not to say that relays are not effective for clients in Kenya; for example, the default routes to the top 100 domains for Kenyans avoid Great Britain 50\% of the time, but with relays this percentage increases to about 98\% of the time, and the upper bound is about 98\%. Figure \ref{fig:ke_avoidance} shows default avoidance, avoidance with relays, and the upper bound for Kenya; it's clear that despite having the worst position for avoidance out of the studied countries, in most cases the avoidance with relays either reaches or because extremely close to the upper bound.  The highest percentage (100\%) of avoidance values that reach the upper bound are for clients in the United States -- relays help clients in this country avoid all other Country Y in all cases that the domain is not hosted in Country Y.  
 

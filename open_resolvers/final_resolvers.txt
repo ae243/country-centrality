@@ -1,0 +1,10 @@
+130.83.197.251,Germany
+14.201.190.198,Australia
+81.66.59.88,France
+173.48.2.121,United States
+186.218.236.129,Brazil
+92.251.177.58,Ireland
+164.132.24.231,Spain
+61.37.134.139,Republic of Korea
+124.34.212.178,Japan
+116.88.13.6,Singapore
