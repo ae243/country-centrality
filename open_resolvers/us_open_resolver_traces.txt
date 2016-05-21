@@ -2971,4 +2971,66 @@ traceroute to 87.248.202.53 (87.248.202.53), 64 hops max, 52 byte packets
 64  * * *
 traceroute to 23.41.186.163 (23.41.186.163), 64 hops max, 52 byte packets
  1  a10-nat-a (10.8.0.2)  4.336 ms  1.702 ms  1.607 ms
- 2  core-87-router (192.168.9.18)  2.087 ms  2.222 ms
+ 2  core-87-router (192.168.9.18)  2.087 ms  2.222 ms  2.306 ms
+ 3  border-87-router (128.112.12.142)  2.142 ms  1.944 ms  1.838 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  5.572 ms  3.922 ms  8.004 ms
+ 5  te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  6.010 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  6.247 ms
+    te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  7.333 ms
+ 6  be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  8.242 ms
+    be2333.ccr42.jfk02.atlas.cogentco.com (154.54.5.1)  8.735 ms  9.712 ms
+ 7  be2056.ccr21.jfk10.atlas.cogentco.com (154.54.44.218)  8.525 ms
+    be2057.ccr21.jfk10.atlas.cogentco.com (154.54.80.178)  8.620 ms
+    be2056.ccr21.jfk10.atlas.cogentco.com (154.54.44.218)  8.456 ms
+ 8  ae-6.r08.nycmny01.us.bb.gin.ntt.net (154.54.12.146)  8.594 ms  8.566 ms  7.650 ms
+ 9  ae-3.r24.nycmny01.us.bb.gin.ntt.net (129.250.5.61)  12.565 ms  8.522 ms  7.385 ms
+10  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  85.213 ms  77.260 ms  90.930 ms
+11  ae-22.r04.sttlwa01.us.bb.gin.ntt.net (129.250.2.8)  85.323 ms  85.677 ms  85.241 ms
+12  a23-41-186-163.deploy.static.akamaitechnologies.com (23.41.186.163)  77.649 ms  77.474 ms  78.195 ms
+traceroute to 118.215.82.203 (118.215.82.203), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  1.854 ms  5.177 ms  1.466 ms
+ 2  core-87-router (192.168.9.18)  2.024 ms  2.340 ms  2.085 ms
+ 3  border-87-router (128.112.12.142)  1.977 ms  5.430 ms  2.074 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  5.818 ms  7.648 ms  5.475 ms
+ 5  te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  15.757 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  6.177 ms
+    te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  5.288 ms
+ 6  be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  8.136 ms
+    be2333.ccr42.jfk02.atlas.cogentco.com (154.54.5.1)  8.078 ms  7.970 ms
+ 7  be2060.ccr21.jfk05.atlas.cogentco.com (154.54.31.10)  9.186 ms
+    be2061.ccr21.jfk05.atlas.cogentco.com (154.54.3.70)  10.006 ms
+    be2060.ccr21.jfk05.atlas.cogentco.com (154.54.31.10)  9.424 ms
+ 8  * * *
+ 9  ae-3-80.edge1.losangeles6.level3.net (4.69.144.144)  74.711 ms  72.414 ms  72.505 ms
+10  ae-3-80.edge1.losangeles6.level3.net (4.69.144.144)  72.462 ms  72.976 ms  75.223 ms
+11  4.26.0.75 (4.26.0.75)  336.570 ms  294.898 ms  307.206 ms
+12  * * *
+13  * * *
+14  an-atl-loc11.starhub.net.sg (203.118.15.178)  253.820 ms
+    an-atl-loc11.starhub.net.sg (203.118.15.174)  307.036 ms
+    an-atl-loc11.starhub.net.sg (203.118.15.178)  307.392 ms
+15  a118-215.82-203.deploy.akamaitechnologies.com (118.215.82.203)  231.123 ms  347.113 ms  308.874 ms
+traceroute to 23.6.229.48 (23.6.229.48), 64 hops max, 52 byte packets
+ 1  a10-nat-a (10.8.0.2)  1.704 ms  1.191 ms  1.470 ms
+ 2  core-87-router (192.168.9.18)  1.864 ms  1.970 ms  1.851 ms
+ 3  border-87-router (128.112.12.142)  14.672 ms  2.904 ms  1.821 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  5.640 ms  5.974 ms  5.725 ms
+ 5  te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  5.339 ms
+    te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  5.467 ms  5.435 ms
+ 6  be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  8.132 ms
+    be2333.ccr42.jfk02.atlas.cogentco.com (154.54.5.1)  12.194 ms  8.188 ms
+ 7  be2057.ccr21.jfk10.atlas.cogentco.com (154.54.80.178)  8.586 ms  8.666 ms
+    be2056.ccr21.jfk10.atlas.cogentco.com (154.54.44.218)  9.584 ms
+ 8  38.122.229.90 (38.122.229.90)  9.704 ms  7.904 ms  8.345 ms
+ 9  * * *
+10  100.122.18.113 (100.122.18.113)  147.402 ms
+    100.122.20.45 (100.122.20.45)  119.805 ms  117.794 ms
+11  200.164.11.210 (200.164.11.210)  154.167 ms
+    200.164.11.208 (200.164.11.208)  123.665 ms
+    200.223.41.2 (200.223.41.2)  127.310 ms
+12  200.164.11.161 (200.164.11.161)  106.397 ms
+    200.164.11.157 (200.164.11.157)  129.370 ms
+    200.164.11.161 (200.164.11.161)  123.678 ms
+13  200.164.11.185 (200.164.11.185)  98.438 ms  129.722 ms  114.406 ms
+14  a23-6-229-48.deploy.static.akamaitechnologies.com (23.6.229.48)  117.729 ms  118.979 ms  118.693 ms
+traceroute to 79.12
