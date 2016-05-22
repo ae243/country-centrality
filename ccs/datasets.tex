@@ -48,16 +48,18 @@ Geolocation services and tools have been studied and proposed, and continue to b
 \subsection{Results}
 
 %%%% ADD THIS TO datasets.tex
+\newcolumntype{d}[1]{D{.}{.}{#1}}
 \newcommand{\headrow}[1]{\multicolumn{1}{c}{\adjustbox{angle=45,lap=\width-0.5em}{#1}}}
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
-\begin{table*}[t]
+\begin{table}[t]
 \centering
-\ra{1.1}
-\begin{tabular}{@{}lccccc@{}}
+\ra{1.2}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}ld{3.2}d{3.2}d{3.2}d{3.2}d{3.2}@{}}
 %\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\
 
-\textit{Country}    & \textit{Brazil}  & \textit{Netherlands}   & \textit{India} & \textit{Kenya} & \textit{United States}\\
+\textit{Country}    & \headrow{Brazil}  & \headrow{Netherlands}   & \headrow{India} & \headrow{Kenya} & \headrow{United States}\\
 \toprule
 Brazil             &.169    &-     &-    & -  & - \\ \midrule
 Canada             &.001    &.007     &.015      &.006       & -  \\
@@ -75,36 +77,39 @@ United Arab Emirates & -     & -     & -   &.011        &-  \\
 India              &  -      & -     &.053    &.002        &-  \\
 Singapore          & -       &.002     &\cellcolor[HTML]{F7BE81}.103      &.027       & - \\\hline
 \end{tabular}
+}
 \caption{Fraction of paths that end in each country in default routes.}
 \label{tab:host}
-\end{table*}
+\end{table}
 
-\begin{table*}[t]
+\begin{table}[t]
 \centering
 \ra{1.2}
-\begin{tabular}{@{}lccccc@{}}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}ld{3.2}d{3.2}d{3.2}d{3.2}d{3.2}@{}}
 %\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\
 
-\textit{Country}    & \textit{Brazil}  & \textit{Netherlands}   & \textit{India} & \textit{Kenya} & \textit{United States}\\ \toprule
+\textit{Country}    & \headrow{Brazil}  & \headrow{Netherlands}   & \headrow{India} & \headrow{Kenya} & \headrow{United States}\\ \toprule
 Brazil              &1.00       & -   & -     & -     & -\\ \midrule
 Canada                &.013       &.007     &.016       &.008      &.081 \\
-United States        &\cellcolor[HTML]{F7BE81}.844        &\cellcolor[HTML]{F7BE81}.583     &\cellcolor[HTML]{F7BE81}.715      &\cellcolor[HTML]{F7BE81}.616       &\cellcolor[HTML]{F7BE81}1.0 \\ \midrule
+United States        &\cellcolor[HTML]{F7BE81}.844        &\cellcolor[HTML]{F7BE81}.583     &\cellcolor[HTML]{F7BE81}.715      &\cellcolor[HTML]{F7BE81}.616       &\cellcolor[HTML]{F7BE81}1.00 \\ \midrule
 France                 &.059     &.102      &.104       &.221      &.104 \\
 Germany                 &.005       &.050    &.032      &.048      &.008 \\
 Great Britain                &.024       &\cellcolor[HTML]{F7BE81}.140     &\cellcolor[HTML]{F7BE81}.204      &\cellcolor[HTML]{F7BE81}.500      &.006 \\
 Ireland                &.028       &.106      &.031     &.133      &.006 \\
-Netherlands                 &.019        &1.0      &.121      &\cellcolor[HTML]{F7BE81}.253      &.031 \\\hline
+Netherlands                 &.019        &1.00      &.121      &\cellcolor[HTML]{F7BE81}.253      &.031 \\\hline
 Spain                  &.176       &.004     & -     & -      &- \\ \midrule
-Kenya                 & -       &-    & -      &1.0      &- \\\hline
+Kenya                 & -       &-    & -      &1.00      &- \\\hline
 Mauritius                  & -       & -     & -      &\cellcolor[HTML]{F7BE81}.322       &- \\
 South Africa                 &-        & -    & -     &\cellcolor[HTML]{F7BE81}.334       &- \\ \midrule
 United Arab Emirates                  &.00003        & -    & -     &.152       &- \\
-India               &  -    &.0007    &1.0     &.058     &.0005 \\
+India               &  -    &.0007    &1.00     &.058     &.0005 \\
 Singapore                 &.0009        &.002     &\cellcolor[HTML]{F7BE81}.270       &.040       &.003 \\ \midrule
 \end{tabular}
+}
 \caption{Fraction of paths that each country transits in default routes.}
 \label{tab:transit}
-\end{table*}
+\end{table}
 
 Table \ref{tab:host} shows the five studied countries along the top of the table, and the countries that host their traffic along the Y axis.  For example, the United States is the endpoint of 84\% of the paths that originate in Brazil.  A ``-'' represents the case where no traffic ended in that country.  For example, no Brazilian paths ended in South Africa. Table \ref{tab:transit} shows the fraction of paths that transit certain countries (along the Y axis).
 
@@ -113,14 +118,14 @@ First we analyzed hosting diversity; this shows us how many unique countries in 
 
 \begin{figure}
 \centering
-\includegraphics[width=0.5\linewidth]{World-DNS}
+\includegraphics[width=\columnwidth]{World-DNS}
 \caption{The locations of vantage points in measuring hosting diversity.}
 \label{fig:world}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.9\linewidth]{domain_hist_US1}
+\includegraphics[width=\columnwidth]{domain_hist_US1}
 \caption{The number of Alexa Top 100 US Domains hosted in different countries.}
 \label{fig:host_diversity}
 \end{figure}
@@ -146,20 +151,40 @@ Mauritius, South Africa, and the United Arab Emirates transit 32\%, 33\%, and 15
 {\bf Tromboning Traffic Transits Surveillance States.}
 As mentioned above, the percentage of domestic traffic in some of the countries studied is extremely small.  For India, only 5\% of traffic is domestic and for Kenya, 2\% is domestic; despite the small amount of domestic traffic, some of this traffic trombones.  This can be seen better in the cases of Brazil and the Netherlands; figure \ref{fig:trombone_netherlands} shows the amount of paths that trombone to different countries for the Netherlands.  Figures \ref{fig:trombone_brazil} and \ref{fig:trombone_kenya} show tromboning Brazilian and Kenyan traffic; despite Brazil's strong efforts in building IXPs to keep local traffic local, we can see that their traffic still trombones to the United States.  This is likely due to the political tension between peers at IXPs \annie{this came from a conversation I had with our nanog shepherd - how do I cite this?  I'll also look into other references on this topic}, which results in fewer peerings with other ASes within Brazil, and more peerings with international ASes. 
 
-\begin{figure*}[!htb]
-\minipage{0.32\textwidth}
-  \includegraphics[width=\linewidth]{nl_trombone_new1}
-  \caption{The countries that tromboning Netherlands traffic transits.}\label{fig:trombone_netherlands}
-\endminipage\hfill
-\minipage{0.32\textwidth}
-  \includegraphics[width=\linewidth]{br_trombone_new1}
-  \caption{The countries that tromboning Brazilian traffic transits.}\label{fig:trombone_brazil}
-\endminipage\hfill
-\minipage{0.32\textwidth}%
-  \includegraphics[width=\linewidth]{ke_trombone_new1}
-  \caption{The countries that tromboning Kenyan traffic transits.}\label{fig:trombone_kenya}
-\endminipage
+
+\begin{figure*}[t!]
+\begin{minipage}{\linewidth}
+\begin{subfigure}[b]{.32\linewidth}
+\includegraphics[width=\linewidth]{nl_trombone_new1}
+\caption{The countries that tromboning Netherlands traffic transits.\label{fig:trombone_netherlands}}
+\end{subfigure}\qquad
+\begin{subfigure}[b]{.32\linewidth}
+\includegraphics[width=\linewidth]{br_trombone_new1}
+\caption{The countries that tromboning Brazilian traffic transits.\label{fig:trombone_brazil}}
+\end{subfigure}\qquad
+\begin{subfigure}[b]{.32\linewidth}
+\includegraphics[width=\linewidth]{ke_trombone_new1}
+\caption{The countries that tromboning Kenyan traffic transits.\label{fig:trombone_kenya}}
+\end{subfigure}
+\end{minipage}
+\caption{The countries that tromboning traffic from the Netherlands, Brazil, and Kenya transits.}
+\label{fig:trombone}
 \end{figure*}
+
+%\begin{figure*}[!htb]
+%\minipage{0.32\textwidth}
+%  \includegraphics[width=\linewidth]{nl_trombone_new1}
+%  \caption{The countries that tromboning Netherlands traffic transits.}\label{fig:trombone_netherlands}
+%\endminipage\hfill
+%\minipage{0.32\textwidth}
+%  \includegraphics[width=\linewidth]{br_trombone_new1}
+%  \caption{The countries that tromboning Brazilian traffic transits.}\label{fig:trombone_brazil}
+%\endminipage\hfill
+%\minipage{0.32\textwidth}%
+%  \includegraphics[width=\linewidth]{ke_trombone_new1}
+%  \caption{The countries that tromboning Kenyan traffic transits.}\label{fig:trombone_kenya}
+%\endminipage
+%\end{figure*}
 
 %\begin{figure}
 %\centering
