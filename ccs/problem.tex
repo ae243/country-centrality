@@ -3,7 +3,7 @@
 
 The design of the Internet and routing protocols have no notion of national borders, and thus Internet traffic paths are determined without any regard to international crossings.  Issues arise when Internet traffic flows through countries which have different data privacy and surveillance laws; which geographic locations does one traffic flow pass through and which laws should govern it?  The BGP (Border Gateway Protocol) decides interdomain routing paths based on shortest and most preferred paths - not on which countries it will traverse.  This allows traffic to pass through countries that conduct surveillance even when the traffic originates (and possibly terminates) in a country that does not lawfully allow surveillance.  
 
-\begin{figure}
+\begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{subsequent_request_hist}
 \caption{A histogram of the number of third party requests are made by each initial domain request for the Brazilian Alexa Top 100 domains.}
@@ -26,18 +26,18 @@ Unfortunately, this approach is unsuccessful if the service uses anycast IP addr
 
 %\begin{figure*}
 %\centering
-%\begin{subfigure}[t]{.5\textwidth}
+%\begin{subfigure}[t][t]{.5\textwidth}
 %  \centering
 %  \includegraphics[width=.4\linewidth]{no_open_resolver}
 %  \caption{A possible path when a client uses a local resolver.}
 %  \label{fig:local_resolver}
-%\end{subfigure}%
-%\begin{subfigure}[t]{.5\textwidth}
+%\end{subfigure}[t]%
+%\begin{subfigure}[t][t]{.5\textwidth}
 %  \centering
 %  \includegraphics[width=.7\linewidth]{open_resolver}
 %  \caption{A possible path when a client uses an open resolver in a geographically different location.}
 %  \label{fig:open_resolver}
-%\end{subfigure}%
+%\end{subfigure}[t]%
 %\caption{Different paths are shown when a client uses a local resolver (Figure~\ref{fig:local_resolver}) vs. a geographically distant open resolver (Figure~\ref{fig:open_resolver}.)}
 %\label{fig:resolvers}
 %\end{figure*}

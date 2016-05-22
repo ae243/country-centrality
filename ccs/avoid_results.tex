@@ -6,7 +6,7 @@ In light of the results from analyzing where \textit{current} traffic is going i
 
 {\bf Country Avoidance with Open Resolvers.} If content is replicated in different parts of the world, open DNS resolvers located around the globe can potentially help clients circumvent surveillance states.  Our measurement pipeline is shown in Figure \ref{avoidance_resolvers}.  This measurement differs slightly from that described in Section \ref{pipeline}; instead of using RIPE Atlas probes to query local DNS resolvers, we query open DNS resolvers located around the world~\cite{open_resolver_list}.  These open DNS resolvers may provide different IP addresses in the DNS responses, which represent different locations of content replicas. The measurement study in Section \ref{pipeline} used RIPE Atlas probes to traceroute to the IP addresses in DNS response, but our measurement method here uses a VPN connection to the client's country, and then traceroutes (through the VPN connection) to the IP addresses in the DNS responses given by the open resolvers.  We use a VPN connection instead of RIPE Atlas probes because of the resource limitations discussed in Section \ref{resource_limits}; because this measurement would have cost more credits than we had, we used an alternative method that still represents an Internet user in each of the five countries studied.
 
-\begin{figure}
+\begin{figure}[t]
 \centering
 \includegraphics[width=.45\textwidth]{Country-Avoidance-Resolvers}
 \caption{Measurement pipeline for country avoidance with open DNS resolvers.}
@@ -15,7 +15,7 @@ In light of the results from analyzing where \textit{current} traffic is going i
 
 {\bf Country Avoidance with Relays.} Using an overlay network may help clients route around unfavorable countries or access content that is hosted in a more favorable country.  Figure \ref{fig:avoidance_relays} shows the steps to conduct this measurement.  After selecting relay machines, we run traceroute measurements from Country X to each relay and from each relay to the set of domains. 
 
-\begin{figure}
+\begin{figure}[t]
 \centering
 \includegraphics[width=.55\textwidth]{Country-Avoidance-Relays}
 \caption{Measurement pipeline for country avoidance with overlay network relays.}
@@ -133,14 +133,14 @@ As seen in Table \ref{tab:avoid}, there are two significant trends: 1) the abili
 {\bf Avoidance Increases with Relays.}
 In almost every (Country X, Country Y) pair, where Country X is the client's country (Brazil, Netherlands, India, Kenya, or the United States) and Country Y is the country to avoid, the use of an overlay network makes Country Y more avoidable than the current default routes.  The one exception we encountered is when a client is located in Kenya and wants to avoid South Africa; South Africa is on the path between the client and every relay, and therefore the client should not use the relays.  
 
-%\begin{figure}
+%\begin{figure}[t]
 %\centering
 %\includegraphics[width=.5\textwidth]{ke_compound_new}
 %\caption{Avoidance values for Kenyan clients without relays, with relays, and the upperbound.}
 %\label{fig:ke_avoidance}
 %\end{figure}
 
-For 84\% of the (Country X, Country Y) pairs shown in Table \ref{tab:avoid} the avoidance with relays reaches the upper bound on avoidance.  (Kenya, Country Y) pairs have the lowest percentage of avoidance values that reach the upper bound, showing that it is more difficult for Kenyan clients to avoid a given country.  This is not to say that relays are not effective for clients in Kenya; for example, the default routes to the top 100 domains for Kenyans avoid Great Britain 50\% of the time, but with relays this percentage increases to about 98\% of the time, and the upper bound is about 98\%. Figure \ref{fig:ke_avoidance} shows default avoidance, avoidance with relays, and the upper bound for Kenya; it's clear that despite having the worst position for avoidance out of the studied countries, in most cases the avoidance with relays either reaches or because extremely close to the upper bound.  The highest percentage (100\%) of avoidance values that reach the upper bound are for clients in the United States -- relays help clients in this country avoid all other Country Y in all cases that the domain is not hosted in Country Y.  
+For 84\% of the (Country X, Country Y) pairs shown in Table \ref{tab:avoid} the avoidance with relays reaches the upper bound on avoidance.  (Kenya, Country Y) pairs have the lowest percentage of avoidance values that reach the upper bound, showing that it is more difficult for Kenyan clients to avoid a given country.  This is not to say that relays are not effective for clients in Kenya; for example, the default routes to the top 100 domains for Kenyans avoid Great Britain 50\% of the time, but with relays this percentage increases to about 98\% of the time, and the upper bound is about 98\%. Figure \ref{fig:ke_avoidance} shows default avoidance, avoidance with relays, and the upper bound for Kenya; it's clear that despite having the worst position for avoidance out of the studied countries, in most cases the avoidance with relays either reaches or because extremely close to the upper bound.  The highest percentage (100\%) of avoidance values that reach the upper bound are for clients in the United States---relays help clients in this country avoid all other Country Y in all cases that the domain is not hosted in Country Y.  
 
 {\bf Surveillance States are Less Avoidable.}
 Certain surveillance states discussed in Section \ref{surv} are completely unavoidable a small fraction of time from certain client locations.  France is unavoidable for a small percentage of domains for clients located in the Netherlands, Kenya, and the United States.  Similarly, clients in the Netherlands and Kenya cannot avoid Great Britain for a small fraction of domains.  
