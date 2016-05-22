@@ -42,6 +42,7 @@ We introduce a new metric and algorithm to measure how often a client in Country
 \begin{algorithm}[t]
 \caption{Avoidability Algorithm}
 \label{avoid_algo}
+\small
 \begin{algorithmic}[1]
 \Function{CalcAvoidance}{set $paths1$, set $paths2$, string c}
     \State set $usableRelays$
@@ -72,6 +73,7 @@ The output of the algorithm is a value in the range [0,1] that can be compared t
 \begin{algorithm}[t]
 \caption{Avoidance Upper bound Algorithm}
 \label{upperbound_algo}
+\small
 \begin{algorithmic}[1]
 \Function{CalcUpperbound}{set $relayDomainPaths$, string $c$}
     \State $zeros(domainLocations)$
