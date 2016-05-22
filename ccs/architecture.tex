@@ -88,7 +88,7 @@ It contains these mappings for every client, every relay, and every popular serv
 \subsection{Mapping Creation and Maintenance}
 \label{maps}
 
-Both the oracle and the servers must generate and maintain mappings of pairs of machines to the country-level paths.  The oracle must maintain the country-level paths from: all clients to all relays, all relays to all popular servers/CDNS, all relays to all clients.  The server must maintain the country-level paths from all of the georeplicated servers (for the domain) to all relays.  
+Both the oracle and the servers must generate and maintain mappings of pairs of machines to the country-level paths.  The oracle must maintain the country-level paths from: all clients to all relays, all relays to all popular servers/CDNs, all relays to all clients.  The server must maintain the country-level paths from all of the georeplicated servers (for the domain) to all relays.  
 
 The mappings for the oracle are initialized by using RIPE Atlas probes to conduct traceroute measurements from client subnets to all relays.  Traceroute measurements are also run from all relays to all popular servers/CDNs and to all client subnets.  Once these IP-level paths are calculated, the oracle uses a geolocation tool to map the IP-level paths to country-level paths.  These are then stored in the oracle as:
 
