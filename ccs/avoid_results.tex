@@ -4,7 +4,7 @@ In light of the results from analyzing where \textit{current} traffic is going i
 
 \subsection{Measurement Pipelines}
 
-{\bf Country Avoidance with Open Resolvers.} If content is replicated in different parts of the world, open DNS resolvers located around the globe can potentially help clients circumvent surveillance states.  Our measurement pipeline is shown in Figure \ref{avoidance_resolvers}.  This measurement differs slightly from that described in Section \ref{pipeline}; instead of using RIPE Atlas probes to query local DNS resolvers, we query open DNS resolvers located around the world~\cite{open_resolver_list}.  These open DNS resolvers may provide different IP addresses in the DNS responses, which represent different locations of content replicas. The measurement study in Section \ref{pipeline} used RIPE Atlas probes to traceroute to the IP addresses in DNS response, but our measurement method here uses a VPN connection to the client's country, and then traceroutes (through the VPN connection) to the IP addresses in the DNS responses given by the open resolvers.  We use a VPN connection instead of RIPE Atlas probes because of the resource limitations discussed in Section \ref{resource_limits}; because this measurement would have cost more credits than we had, we used an alternative method that still represents an Internet user in each of the five countries studied.
+\paragraph{Country Avoidance with Open Resolvers.} If content is replicated in different parts of the world, open DNS resolvers located around the globe can potentially help clients circumvent surveillance states.  Our measurement pipeline is shown in Figure \ref{avoidance_resolvers}.  This measurement differs slightly from that described in Section \ref{pipeline}; instead of using RIPE Atlas probes to query local DNS resolvers, we query open DNS resolvers located around the world~\cite{open_resolver_list}.  These open DNS resolvers may provide different IP addresses in the DNS responses, which represent different locations of content replicas. The measurement study in Section \ref{pipeline} used RIPE Atlas probes to traceroute to the IP addresses in DNS response, but our measurement method here uses a VPN connection to the client's country, and then traceroutes (through the VPN connection) to the IP addresses in the DNS responses given by the open resolvers.  We use a VPN connection instead of RIPE Atlas probes because of the resource limitations discussed in Section \ref{resource_limits}; because this measurement would have cost more credits than we had, we used an alternative method that still represents an Internet user in each of the five countries studied.
 
 \begin{figure}[t]
 \centering
@@ -13,7 +13,7 @@ In light of the results from analyzing where \textit{current} traffic is going i
 \label{fig:avoidance_resolvers}
 \end{figure}
 
-{\bf Country Avoidance with Relays.} Using an overlay network may help clients route around unfavorable countries or access content that is hosted in a more favorable country.  Figure \ref{fig:avoidance_relays} shows the steps to conduct this measurement.  After selecting relay machines, we run traceroute measurements from Country X to each relay and from each relay to the set of domains. 
+\paragraph{Country Avoidance with Relays.} Using an overlay network may help clients route around unfavorable countries or access content that is hosted in a more favorable country.  Figure \ref{fig:avoidance_relays} shows the steps to conduct this measurement.  After selecting relay machines, we run traceroute measurements from Country X to each relay and from each relay to the set of domains. 
 
 \begin{figure}[t]
 \centering
@@ -28,13 +28,13 @@ We use eight Amazon EC2 instances, one in each geographic region (United States,
 \label{metrics}
 We introduce a new metric and algorithm to measure how often a client in Country X can avoid a specific Country Y.  Using the proposed metric and algorithm, we can compare how well the different methods achieve country avoidance for any (Country X, Country Y) pair.
 
-{\bf Avoidability Metric.}  This metric quantifies how often traffic can avoid Country Y when it originates in Country X.  Avoidability is explained as the fraction of paths that start in Country X and do not transit Country Y; more formally:
+\paragraph{Avoidability Metric.}  This metric quantifies how often traffic can avoid Country Y when it originates in Country X.  Avoidability is explained as the fraction of paths that start in Country X and do not transit Country Y; more formally:
 
 \[Avoidability(X,Y) = \frac{paths_{X,\bcancel{Y}}}{paths_{X}}\]
 
 \noindent where $paths_{X,\bcancel{Y}}$ represent the paths from Country X that do not pass through Country Y, and $paths_{X}$ represent all paths that originate from Country X. The resulting value will be in the range [0,1], where 0 means the country is unavoidable for all of the domains in our study, and 1 means the client can avoid Country Y for all domains in our study.  We use this metric on country-level paths, as described in Section~\ref{pipeline}.
 
-{\bf Avoidability Algorithm with Relays.}  Measuring the avoidability of a country Y from a client in Country X using relays has two components: 1) is Country Y on the path from the client in Country X to the relay?  2) is Country Y on the path from the relay to the domain?  For every domain, our algorithm checks if there exists at least one path from the client Country X through any relay and on to the domain, and does not transit Country Y.  The psuedo-code for the algorithm is shown in Algorithm~\ref{avoid_algo}.
+\paragraph{Avoidability Algorithm with Relays.}  Measuring the avoidability of a country Y from a client in Country X using relays has two components: 1) is Country Y on the path from the client in Country X to the relay?  2) is Country Y on the path from the relay to the domain?  For every domain, our algorithm checks if there exists at least one path from the client Country X through any relay and on to the domain, and does not transit Country Y.  The psuedo-code for the algorithm is shown in Algorithm~\ref{avoid_algo}.
 
 \begin{algorithm}[t]
 \caption{Avoidability Algorithm}
@@ -64,7 +64,7 @@ We introduce a new metric and algorithm to measure how often a client in Country
 
 The output of the algorithm is a value in the range [0,1] that can be compared to the output of the Avoidability Metric described above.  
 
-{\bf Upper bound on Avoidability.}  While the Avoidability metric and algorithm provide a method to quantify how avoidable Country Y is from a client in Country X, it may be the case that a number of domains are hosted in Country Y, so the Avoidance value for these countries would never reach 1.0.  For this reason, we measured the upper bound on avoidance for given pair of (Country X, Country Y) that represents the best case value for avoidance.  The pseudocode for the algorithm is shown in Algorithm \ref{upperbound_algo}.
+\paragraph{Upper bound on Avoidability.}  While the Avoidability metric and algorithm provide a method to quantify how avoidable Country Y is from a client in Country X, it may be the case that a number of domains are hosted in Country Y, so the Avoidance value for these countries would never reach 1.0.  For this reason, we measured the upper bound on avoidance for given pair of (Country X, Country Y) that represents the best case value for avoidance.  The pseudocode for the algorithm is shown in Algorithm \ref{upperbound_algo}.
 
 \begin{algorithm}[t]
 \caption{Avoidance Upper bound Algorithm}
@@ -130,7 +130,7 @@ of the United States for traffic originating in Brazil, Netherlands, India, and 
 \subsubsection{Avoidance with Relays}
 As seen in Table \ref{tab:avoid}, there are two significant trends: 1) the ability for a client to avoid a given Country Y increases with the use of relays, and 2) the least avoidable countries are surveillance states.
 
-{\bf Avoidance Increases with Relays.}
+\paragraph{Avoidance Increases with Relays.}
 In almost every (Country X, Country Y) pair, where Country X is the client's country (Brazil, Netherlands, India, Kenya, or the United States) and Country Y is the country to avoid, the use of an overlay network makes Country Y more avoidable than the current default routes.  The one exception we encountered is when a client is located in Kenya and wants to avoid South Africa; South Africa is on the path between the client and every relay, and therefore the client should not use the relays.  
 
 %\begin{figure}[t]
@@ -142,7 +142,7 @@ In almost every (Country X, Country Y) pair, where Country X is the client's cou
 
 For 84\% of the (Country X, Country Y) pairs shown in Table \ref{tab:avoid} the avoidance with relays reaches the upper bound on avoidance.  (Kenya, Country Y) pairs have the lowest percentage of avoidance values that reach the upper bound, showing that it is more difficult for Kenyan clients to avoid a given country.  This is not to say that relays are not effective for clients in Kenya; for example, the default routes to the top 100 domains for Kenyans avoid Great Britain 50\% of the time, but with relays this percentage increases to about 98\% of the time, and the upper bound is about 98\%. Figure \ref{fig:ke_avoidance} shows default avoidance, avoidance with relays, and the upper bound for Kenya; it's clear that despite having the worst position for avoidance out of the studied countries, in most cases the avoidance with relays either reaches or because extremely close to the upper bound.  The highest percentage (100\%) of avoidance values that reach the upper bound are for clients in the United States---relays help clients in this country avoid all other Country Y in all cases that the domain is not hosted in Country Y.  
 
-{\bf Surveillance States are Less Avoidable.}
+\paragraph{Surveillance States are Less Avoidable.}
 Certain surveillance states discussed in Section \ref{surv} are completely unavoidable a small fraction of time from certain client locations.  France is unavoidable for a small percentage of domains for clients located in the Netherlands, Kenya, and the United States.  Similarly, clients in the Netherlands and Kenya cannot avoid Great Britain for a small fraction of domains.  
 
 Avoidance values for (Country X, United States) pairs are significantly lower than any other Country Y for all three situations: without relays, with relays, and the upper bound.   Despite increasing clients' ability to avoid the United States, relays are not as effective at helping clients avoid this country as compared to the effectiveness of the relays at avoiding all other Country Y.  Clients in India can avoid the United States more often than clients in Brazil, Netherlands, and Kenya, with an avoidance value of .656 when using relays.  Kenyan clients can only avoid the United States 40\% of the time even while using relays.  Additionally, the upper bound for avoiding the United States is significantly lower in comparison to any other country.  

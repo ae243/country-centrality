@@ -32,11 +32,11 @@ This system is targeting an attacker who is at the nation-state level, and pract
 
 With the attacker described in Section~\ref{threat} in mind, \system{} has three goals: singular country avoidance, avoiding colluding countries, and usability.  
 
-{\bf Country Avoidance.}  The system should allow an Internet user, a client, to access web content without having her traffic travel through a country that she specifies, particularly countries that conduct surveillance.  The specified country should be avoided on both the forward and reverse paths, as they have been shown to be asymmetric, and thus a country may be on the reverse path, but not on the forward path~\cite{he2005routing}.  
+\paragraph{Country Avoidance.}  The system should allow an Internet user, a client, to access web content without having her traffic travel through a country that she specifies, particularly countries that conduct surveillance.  The specified country should be avoided on both the forward and reverse paths, as they have been shown to be asymmetric, and thus a country may be on the reverse path, but not on the forward path~\cite{he2005routing}.  
 
-{\bf Colluding Countries Avoidance.}  There have been agreements between countries to share surveillance data; this is analagous to colluding adversaries~\cite{fiveeyes}.  This system will allow clients to specify multiple countries to avoid, and the system will attempt to avoid all specified countries.  For the purposes of simplicity, the examples and descriptions in this paper will include only one country to avoid, but the system will be designed to handle multiple colluding countries.
+\paragraph{Colluding Countries Avoidance.}  There have been agreements between countries to share surveillance data; this is analagous to colluding adversaries~\cite{fiveeyes}.  This system will allow clients to specify multiple countries to avoid, and the system will attempt to avoid all specified countries.  For the purposes of simplicity, the examples and descriptions in this paper will include only one country to avoid, but the system will be designed to handle multiple colluding countries.
 
-{\bf Usability.} In order for the system to be used, it must be usable from both the client- and server-side.  All participants in the system must be required to do as little work as possible to use the system.  We envision the system growing, and our goals for the long-term would also be scalability and performance.
+\paragraph{Usability.} In order for the system to be used, it must be usable from both the client- and server-side.  All participants in the system must be required to do as little work as possible to use the system.  We envision the system growing, and our goals for the long-term would also be scalability and performance.
 
 We assume that relays, clients, servers, and oracles are not malicious, and that no other attacks, such as Man-in-the-Middle, BGP prefix hijack, etc., are occuring.
 

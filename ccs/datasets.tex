@@ -113,7 +113,7 @@ Singapore                 &.0009        &.002     &\cellcolor[HTML]{F7BE81}.270 
 
 Table \ref{tab:host} shows the five studied countries along the top of the table, and the countries that host their traffic along the Y axis.  For example, the United States is the endpoint of 84\% of the paths that originate in Brazil.  A ``-'' represents the case where no traffic ended in that country.  For example, no Brazilian paths ended in South Africa. Table \ref{tab:transit} shows the fraction of paths that transit certain countries (along the Y axis).
 
-{\bf Hosting Diversity.}
+\paragraph{Hosting Diversity.}
 First we analyzed hosting diversity; this shows us how many unique countries in which a domain is hosted---the more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  We queried DNS from 26 vantage points around the world, which are shown in Figure \ref{fig:world}; we chose this set of locations because they are geographically diverse.  We found that about half of the top domains in each of the five countries studied are hosted in more than one country.  Figure~\ref{fig:host_diversity} shows there are two distinct modes in the graph, one representing the domains that are hosted in a single country, and the other mode representing CDNs.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis---where are these domains hosted, and which countries are traversed on the way to reach these locations.
 
 \begin{figure}[t]
@@ -130,7 +130,7 @@ First we analyzed hosting diversity; this shows us how many unique countries in 
 \label{fig:host_diversity}
 \end{figure}
 
-{\bf Surveillance States' Host Domains.}
+\paragraph{Surveillance States' Host Domains.}
 The most common destination among all five countries studied is the United States: 77\%, 45\%, 63\%, 44\%, and 97\% of paths originating in Brazil, Netherlands, India, Kenya and the United States, respectively, are currently reaching content located in the United States. Despite the amount of country-level hosting diversity, we see the majority of paths from all five countries ending in a single country.  The fraction of paths that are hosted in various countries can be seen in Table~\ref{tab:host} (the complete table can be seen in the Appendix).  This is significant because the United States is a known surveillance state, and therefore these percentages represent the amount of foreign traffic that the United States can conduct surveillance on.  Our results also show the Netherlands is a common hosting location for traffic originating in the Netherlands, India, and Kenya.
 
 For Indian traffic, in addition to the 63\% hosted in the United States and the 10\% hosted in the Netherlands, another 10\% is hosted in Singapore.  Hosting in these countries can best be explained by the number of underwater cables with landing points in both India and Singapore~\cite{cablemap}.  More specifically, there is a cable that directly connects Chennai, India and Changi North, Singapore, and is owned by Tata Communications, which is one of the top global Internet providers (in terms of transitted IP space)~\cite{bakers}.  
@@ -141,14 +141,14 @@ All of the countries studied (except for the United States) host content for a s
 
 Only a fraction of country code top-level domains are hosted within the respective country.  For Kenya, 24 of the Top 100 Domains are .ke domains, and of these 24 domains only 5 are hosted within Kenya.  29 out of 40 .nl domains are hosted in the Netherlands; 4 of 13 .in domains are hosted in India; 18 of 39 .br domains are hosted in Brazil.  Interestingly, all .gov domains were hosted in their respective country.
 
-{\bf Traffic Transits Surveillance States.}
+\paragraph{Traffic Transits Surveillance States.}
 Similar to the trend of hosting domains, the United States also transits a large portion of foreign traffic---it transits a larger portion of traffic than it hosts.  Brazilian traffic traverses the United States on 84\% of the paths; therefore, the United States can conduct surveillance on 84\% of the traffic originating in Brazil, despite Brazil's strong efforts in avoiding United States surveillance.  Even though India and Kenya are geographically distant, 72\% and 62\% of their traffic transits the United States.  Of the five countries studied, the Netherlands has the lowest percentage of traffic that transits the United States at 58\%.  
 
 Great Britain and the Netherlands are on the path for a significant percentage of traffic originating in India and Kenya.  50\% and 20\% of paths that originate in Kenya and India transit Great Britain.  Traffic that traverses the Netherlands can be explained by the large IXP located there; traffic that traverses Great Britain is likely due to being on the path between the originating country and the final destination in a European country.
 
 Mauritius, South Africa, and the United Arab Emirates transit 32\%, 33\%, and 15\% of traffic from Kenya.  There are direct underwater cables from Kenya to Mauritius, and from Mauritius to South Africa~\cite{cablemap}.  Additionally, there is a cable from Mombasa, Kenya to Fujairah, United Arab Emirates.  This accounts for the large percentages of traffic that pass through these countries.
 
-{\bf Tromboning Traffic Transits Surveillance States.}
+\paragraph{Tromboning Traffic Transits Surveillance States.}
 As mentioned above, the percentage of domestic traffic in some of the countries studied is extremely small.  For India, only 5\% of traffic is domestic and for Kenya, 2\% is domestic; despite the small amount of domestic traffic, some of this traffic trombones.  This can be seen better in the cases of Brazil and the Netherlands; figure \ref{fig:trombone_netherlands} shows the amount of paths that trombone to different countries for the Netherlands.  Figures \ref{fig:trombone_brazil} and \ref{fig:trombone_kenya} show tromboning Brazilian and Kenyan traffic; despite Brazil's strong efforts in building IXPs to keep local traffic local, we can see that their traffic still trombones to the United States.  This is likely due to the political tension between peers at IXPs \annie{this came from a conversation I had with our nanog shepherd - how do I cite this?  I'll also look into other references on this topic}, which results in fewer peerings with other ASes within Brazil, and more peerings with international ASes. 
 
 
@@ -195,7 +195,7 @@ As mentioned above, the percentage of domestic traffic in some of the countries 
 
 24\% of all paths originating in the Netherlands (62\% of domestic traffic) trombone to a foreign country before returning to the Netherlands. The most common countries traffic trombones to are the United States and Great Britain.  %Traffic that should be kept local is susceptible to surveillance because it transits two well-known surveillance states.  
 
-{\bf United States as an Outlier.}
+\paragraph{United States as an Outlier.}
 Most of the results discussed thus far have shown that Brazilian, Netherlands, Indian, and Kenyan traffic often transit surveillance states, most notably the United States.  The results from studying traffic that originates in the United States are drastically different from those of the other four countries.  The other four countries hosted very small amounts of their own traffic, whereas the United States hosts 97\% of the content that is accessed from within the country.  Only 13 unique countries are ever on a path from the United States to a domain in the top 100 (or third party domain), whereas 30, 30, 25, and 38 unique countries are seen on the paths originating in Brazil, Netherlands, India, and Kenya.  There are only 6 foreign countries---France, Germany, Ireland, Great Britain, and the Netherlands----that host content for traffic originating in the United States, and the fraction of content hosted in these countries is less than 4\% combined.
 
 \subsection{Limitations}
