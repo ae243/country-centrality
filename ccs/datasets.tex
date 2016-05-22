@@ -47,30 +47,33 @@ Geolocation services and tools have been studied and proposed, and continue to b
 
 \subsection{Results}
 
+%%%% ADD THIS TO datasets.tex
 \newcommand{\headrow}[1]{\multicolumn{1}{c}{\adjustbox{angle=45,lap=\width-0.5em}{#1}}}
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 \begin{table*}[t]
 \centering
-\begin{tabular}{|P{37mm}|c|c|c|c|c|}
+\ra{1.1}
+\begin{tabular}{@{}lccccc@{}}
 %\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\
-\hline
+
 \textit{Country}    & \textit{Brazil}  & \textit{Netherlands}   & \textit{India} & \textit{Kenya} & \textit{United States}\\
-\hline\hline
-Brazil             &.169    &-     &-    & -  & - \\\hline\hline
-Canada             &.001    &.007     &.015      &.006       & -  \\\hline
-United States      &\cellcolor{blue!25}.774    &\cellcolor{blue!25}.454      &\cellcolor{blue!25}.629      &\cellcolor{blue!25}.443        &\cellcolor{blue!25}.969   \\\hline\hline
-France             &.001    &.022      &.009      &.023       &.0013 \\\hline
-Germany            &.002    &.013      &.014      &.028       &.0013  \\\hline
-Great Britain      &.00006  &.019     &.021     &.032       &.0024 \\\hline
-Ireland            &.016    &.064      &.027       &.108       &.0012   \\\hline
-Netherlands        &.013    &\cellcolor{blue!25}.392      &.101      &\cellcolor{blue!25}.200      &.024  \\\hline
-Spain              &.001    &-     & -    &  -     &-   \\\hline\hline
-Kenya              &-        &  -    & -    &.022        &-  \\\hline
-Mauritius          &  -      & -    & -   &.004       & -  \\\hline
-South Africa       & -       & -     & -  &.021       &- \\\hline\hline
-United Arab Emirates & -     & -     & -   &.011        &-  \\\hline
-India              &  -      & -     &.053    &.002        &-  \\\hline
-Singapore          & -       &.002     &\cellcolor{blue!25}.103      &.027       & - \\\hline
+\toprule
+Brazil             &.169    &-     &-    & -  & - \\ \midrule
+Canada             &.001    &.007     &.015      &.006       & -  \\
+United States      &\cellcolor[HTML]{F7BE81}.774    &\cellcolor[HTML]{F7BE81}.454      &\cellcolor[HTML]{F7BE81}.629      &\cellcolor[HTML]{F7BE81}.443        &\cellcolor[HTML]{F7BE81}.969    \\ \midrule
+France             &.001    &.022      &.009      &.023       &.0013 \\
+Germany            &.002    &.013      &.014      &.028       &.0013  \\
+Great Britain      &.00006  &.019     &.021     &.032       &.0024 \\
+Ireland            &.016    &.064      &.027       &.108       &.0012   \\
+Netherlands        &.013    &\cellcolor[HTML]{F7BE81}.392      &.101      &\cellcolor[HTML]{F7BE81}.200      &.024  \\
+Spain              &.001    &-     & -    &  -     &-    \\ \midrule
+Kenya              &-        &  -    & -    &.022        &-  \\
+Mauritius          &  -      & -    & -   &.004       & -  \\
+South Africa       & -       & -     & -  &.021       &-  \\ \midrule
+United Arab Emirates & -     & -     & -   &.011        &-  \\
+India              &  -      & -     &.053    &.002        &-  \\
+Singapore          & -       &.002     &\cellcolor[HTML]{F7BE81}.103      &.027       & - \\\hline
 \end{tabular}
 \caption{Fraction of paths that end in each country in default routes.}
 \label{tab:host}
@@ -78,26 +81,26 @@ Singapore          & -       &.002     &\cellcolor{blue!25}.103      &.027      
 
 \begin{table*}[t]
 \centering
-\begin{tabular}{|P{37mm}|c|c|c|c|c|}
+\ra{1.2}
+\begin{tabular}{@{}lccccc@{}}
 %\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\
-\hline
-\textit{Country}    & \textit{Brazil}  & \textit{Netherlands}   & \textit{India} & \textit{Kenya} & \textit{United States}\\
-\hline\hline
-Brazil              &1.00       & -   & -     & -     & -\\\hline\hline
-Canada                &.013       &.007     &.016       &.008      &.081 \\\hline
-United States        &\cellcolor{blue!25}.844        &\cellcolor{blue!25}.583     &\cellcolor{blue!25}.715      &\cellcolor{blue!25}.616       &\cellcolor{blue!25}1.0 \\\hline\hline
-France                 &.059     &.102      &.104       &.221      &.104 \\\hline
-Germany                 &.005       &.050    &.032      &.048      &.008 \\\hline
-Great Britain                &.024       &\cellcolor{blue!25}.140     &\cellcolor{blue!25}.204      &\cellcolor{blue!25}.500      &.006 \\\hline
-Ireland                &.028       &.106      &.031     &.133      &.006 \\\hline
-Netherlands                 &.019        &1.0      &.121      &\cellcolor{blue!25}.253      &.031 \\\hline
-Spain                  &.176       &.004     & -     & -      &- \\\hline\hline
+
+\textit{Country}    & \textit{Brazil}  & \textit{Netherlands}   & \textit{India} & \textit{Kenya} & \textit{United States}\\ \toprule
+Brazil              &1.00       & -   & -     & -     & -\\ \midrule
+Canada                &.013       &.007     &.016       &.008      &.081 \\
+United States        &\cellcolor[HTML]{F7BE81}.844        &\cellcolor[HTML]{F7BE81}.583     &\cellcolor[HTML]{F7BE81}.715      &\cellcolor[HTML]{F7BE81}.616       &\cellcolor[HTML]{F7BE81}1.0 \\ \midrule
+France                 &.059     &.102      &.104       &.221      &.104 \\
+Germany                 &.005       &.050    &.032      &.048      &.008 \\
+Great Britain                &.024       &\cellcolor[HTML]{F7BE81}.140     &\cellcolor[HTML]{F7BE81}.204      &\cellcolor[HTML]{F7BE81}.500      &.006 \\
+Ireland                &.028       &.106      &.031     &.133      &.006 \\
+Netherlands                 &.019        &1.0      &.121      &\cellcolor[HTML]{F7BE81}.253      &.031 \\\hline
+Spain                  &.176       &.004     & -     & -      &- \\ \midrule
 Kenya                 & -       &-    & -      &1.0      &- \\\hline
-Mauritius                  & -       & -     & -      &\cellcolor{blue!25}.322       &- \\\hline
-South Africa                 &-        & -    & -     &\cellcolor{blue!25}.334       &- \\\hline\hline
-United Arab Emirates                  &.00003        & -    & -     &.152       &- \\\hline
-India               &  -    &.0007    &1.0     &.058     &.0005 \\\hline
-Singapore                 &.0009        &.002     &\cellcolor{blue!25}.270       &.040       &.003 \\\hline
+Mauritius                  & -       & -     & -      &\cellcolor[HTML]{F7BE81}.322       &- \\
+South Africa                 &-        & -    & -     &\cellcolor[HTML]{F7BE81}.334       &- \\ \midrule
+United Arab Emirates                  &.00003        & -    & -     &.152       &- \\
+India               &  -    &.0007    &1.0     &.058     &.0005 \\
+Singapore                 &.0009        &.002     &\cellcolor[HTML]{F7BE81}.270       &.040       &.003 \\ \midrule
 \end{tabular}
 \caption{Fraction of paths that each country transits in default routes.}
 \label{tab:transit}
@@ -106,7 +109,14 @@ Singapore                 &.0009        &.002     &\cellcolor{blue!25}.270      
 Table \ref{tab:host} shows the five studied countries along the top of the table, and the countries that host their traffic along the Y axis.  For example, the United States is the endpoint of 84\% of the paths that originate in Brazil.  A ``-'' represents the case where no traffic ended in that country.  For example, no Brazilian paths ended in South Africa. Table \ref{tab:transit} shows the fraction of paths that transit certain countries (along the Y axis).
 
 {\bf Hosting Diversity.}
-First we analyzed hosting diversity; this shows us how many unique countries in which a domain is hosted---the more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  We queried DNS from 26 vantage points around the world\footnote{DE, AR, NL, GB, IE, FR, IT, ES, US, BR, IN, SG, AU, JP, CA, HK, KE, ZA, MU, AE, SE, AT, RU, CN, MX, IS}; we chose this set of locations because they are geographically diverse.  We found that about half of the top domains in each of the five countries studied are hosted in more than one country.  Figure~\ref{fig:host_diversity} shows there are two distinct modes in the graph, one representing the domains that are hosted in a single country, and the other mode representing CDNs.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis---where are these domains hosted, and which countries are traversed on the way to reach these locations.
+First we analyzed hosting diversity; this shows us how many unique countries in which a domain is hosted---the more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  We queried DNS from 26 vantage points around the world, which are shown in Figure \ref{fig:world}; we chose this set of locations because they are geographically diverse.  We found that about half of the top domains in each of the five countries studied are hosted in more than one country.  Figure~\ref{fig:host_diversity} shows there are two distinct modes in the graph, one representing the domains that are hosted in a single country, and the other mode representing CDNs.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis---where are these domains hosted, and which countries are traversed on the way to reach these locations.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\linewidth]{World-DNS}
+\caption{The locations of vantage points in measuring hosting diversity.}
+\label{fig:world}
+\end{figure}
 
 \begin{figure}
 \centering
