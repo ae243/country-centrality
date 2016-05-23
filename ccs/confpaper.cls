@@ -90,8 +90,9 @@
 \ifthenelse{\equal{\PAGENUMBERS}{yes}}{%
 \RequirePackage[nohead,
 % SIGCOMM/ACM
-    left=0.75in,right=0.75in,top=0.75in, bottom=1in,
-    columnsep=0.33in
+left=0.75in,right=0.75in,top=0.75in, bottom=1in,
+%    columnsep=0.33in
+    columnsep=0.25in
 % USENIX
 %    left=1.0in,right=1.0in,top=1.0in,
 %    footskip=0.5in,bottom=1.0in,   % Room for page numbers
@@ -128,11 +129,11 @@
 %%%  Captions
 %%%
 %\RequirePackage[font=bf]{caption}
-\RequirePackage[font=small,format=plain,labelfont=bf,textfont=it]{caption}
+\RequirePackage[font=small,format=plain,labelfont=bf,textfont=it,aboveskip=3pt]{caption}
 \RequirePackage{subcaption}
 %% Space between figure and caption (assuming caption
 %% is below figure)
-%\RequirePackage[font=bf,aboveskip=0pt]{caption} % SPACE
+%\RequirePackage[aboveskip=0pt]{caption} % SPACE
 %% Space between caption and body text of document
 \addtolength{\textfloatsep}{-7pt} % SPACE
 
