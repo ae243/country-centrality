@@ -1,10 +1,10 @@
-FR,2,0.0625
-TZ,2,0.0625
-ZA,2,0.0625
-US,2,0.0625
-IT,1,0.03125
-MU,31,0.96875
-GB,3,0.09375
-IN,2,0.0625
-NL,1,0.03125
-AE,2,0.0625
+FR,2,0.0625,France
+TZ,2,0.0625,Tanzania
+ZA,2,0.0625,South Africa
+US,2,0.0625,United States
+IT,1,0.03125,Italy
+MU,31,0.96875,Mauritius
+GB,3,0.09375,Great Britain
+IN,2,0.0625,India
+NL,1,0.03125,Netherlands
+AE,2,0.0625,United Arab Emirates
