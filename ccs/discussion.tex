@@ -1,13 +1,8 @@
 \section{Discussion}
 \label{discussion}
 
-\subsection{Avoiding Multiple Surveillance States}
-\annie{also discuss relays forcing traffic to other countries (and maybe you want to avoid both countries)}
+{\bf Avoiding Multiple Countries.} While we have studied country avoidability for clients in five countries, the avoidance values represent how often a client can avoid a \textit{single} country.  By avoiding this single country, the path may be forced into other unfavorable jurisdictions, which calls for future work on avoiding multiple surveillance states.  A client may want to avoid multiple countries that conduct surveillance, or they may want to avoid a set of countries that share surveillance with each other, such as the ``Five Eyes'' \cite{fiveeyes}.  On the other hand, clients may want to avoid certain regions, such as Europe.  Avoiding multiple countries is complicated by the overlay network relays; for example, in order for Kenyan clients to avoid the United States, they must use the Ireland relay, but with the current relays, this is not possible.
 
-\subsubsection{Region Avoidance}
+{\bf Giving ISPs the Power to Avoid Countries.}  It may be possible for ISPs to control country avoidance---possibly as a service to their clients.  This could be a way for governments to control where their citizens traffic flows.
 
-\subsubsection{Geo-Political Avoidance}
-
-\subsection{ISPs Controlling Avoidance}
-
-\subsection{Analysis over Time}
+{\bf Avoidance Over Time.}  Our study is based on a snapshot of Internet paths, but over time, paths change, hosting locations change, IXPs are built, submarine cables are laid, and surveillance states change.  A longitudinal characterization of routing detours would be helpful in understanding trends about which countries paths traverse, where domains are hosted, and how often paths trombone.
