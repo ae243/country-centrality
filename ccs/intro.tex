@@ -26,7 +26,7 @@ Twitter (among others) to store data locally; and mandating the deployment of a 
 building Internet Exchange Points (IXPs)~\cite{brazil_IXP1}, now has the
 largest national ecosystem of public IXPs in
 the world~\cite{brazil_ixp_ecosystem}, and the number of internationally
-connected ASes continues to
+connected Autonomous Systems (ASes) continues to
 grow~\cite{brazil_international_ases}. Brazil is not alone: IXPs are
 proliferating in eastern Europe, Africa, and other regions, in part out
 of a desire to ``keep local traffic local''. Building IXPs alone, of
@@ -35,16 +35,14 @@ enter or transit a particular country: Internet protocols have no notion
 of national borders, and interdomain paths depend in large part on
 existing interconnection business relationships (or lack thereof). 
 
-While encryption may hide urls and content, it cannot guarantee that surveillance 
+While encryption may hide URLs and content, it cannot guarantee that surveillance 
 states will not learn information about the client's traffic.  In fact, many websites do not fully support 
 encrypted browsing by default; a recent study showed that more than 85\% of the most popular 
 health, news, and shopping sites do not encrypt by default~\cite{what_isps_can_see}.  Additionally, migrating 
 to HTTPS from HTTP is difficult because it requires all third-party domains on the site to also use 
 HTTPS.  Even if more sites use HTTPS, information about a client's web browsing history and patterns 
 can be revealed in multiple ways. One way is through DNS: DNS requests are almost never encrypted ~\cite{what_isps_can_see}, therefore 
-ISPs can (and do) monitor the domains a client requests.  Another way is through side channels: by examining 
-characteristics about the traffic (timing, size, and destination), one can determine unique web page visits.  
-Yet another way to learn information about encrypted traffic is through website fingerprinting; features 
+ISPs can (and do) monitor the domains a client requests. Another way to learn information about encrypted traffic is through website fingerprinting; features 
 such as content size and the number, content, and location of third party resources requested can be used to 
 identify a specific web page.  In addition, ISPs have been increasingly conducting Man-In-The-Middle attacks on 
 encrypted traffic for various reasons, such as attempting to conserve bandwidth by blocking online video streaming~\cite{mitm_isp}.  
@@ -57,11 +55,11 @@ In this paper, we study two questions: (1)~Which countries do {\em
   default} Internet routing paths traverse?; (2)~What types of methods
 can we use to take advantage of hosting and path diversity to help governments
 and citizens better control transnational Internet paths? 
-In contrast to previous work~\cite{karlin2009nation}, which simulates paths, we \textit{actively} measure and analyze the traffic originating in
+In contrast to previous work~\cite{karlin2009nation}, which simulates paths, we \textit{actively} measure and analyze the paths originating in
 five different countries: Brazil, Netherlands, Kenya, India, and the
 United States.  We study these countries for different reasons, including their efforts made to avoid certain countries, efforts in building out IXPs, and their low cost of hosting domains.  Our work studies the router-level forwarding path, which differs from 
  previous work, which has analyzed Border Gateway Protocol (BGP) routes~\cite{karlin2009nation,shah2015characterizing}.  
-BGP routes are Autonomous System (AS)-level paths, whereas the paths we collect and analyze are IP- and country-level paths.  
+BGP routes are AS-level paths, whereas the paths we collect and analyze are IP- and country-level paths.  
 
 Determining where a client's Internet traffic flows is challenging due to the
  complexity of websites~\cite{butkiewicz2011understanding}.  Many
@@ -76,7 +74,7 @@ Atlas probes in the five countries we studied and running traceroutes to
 the Alexa Top 100 domains for each country.  Therefore, our traceroute measurements include the 
 set of domains and third party domains as destinations.  After mapping 
 traceroutes to country-level paths, we analyze which 
-countries host and/or transit the traffic.
+countries host and/or transit the paths.
 
 To measure how avoidable a given country is, we study two existing tools: open DNS resolvers 
 and overlay network relays. For
@@ -118,7 +116,7 @@ not transit unfavorable countries~\cite{brazil_history, brazil_break_from_US, br
 their traffic still traverses surveillance states.  Over 50\% of the top domains in
 Brazil and India are hosted in the United States, and over 50\% of the
 paths from the Netherlands to the top domains transit the
-United States.  About half of Kenyan traffic to the top domains traverses the United States
+United States.  About half of Kenyan paths to the top domains traverses the United States
 and Great Britain (but the same half does not traverse both countries).  Much of this phenomenon is
 due to ``tromboning,'' whereby an Internet path starts and ends in a
 country, yet transits an intermediate country; for example, about 13\%
@@ -126,12 +124,12 @@ of the paths that we explored from Brazil tromboned through the United States.
 
 \paragraph{Avoidance Feasibility.} We find that the two techniques---using the open DNS resolver 
 infrastructure and using overlay network relays---give clients the power to avoid unfavorable countries.  Without these
-country avoidance techniques, Brazilian traffic transitted Spain, Italy,
+country avoidance techniques, Brazilian paths transitted Spain, Italy,
 France, Great Britain, Argentina, Ireland (among others), but using the
 overlay network, Brazilian clients could completely avoid these
 countries.  Relays can be used to
-keep local traffic local; by using relays in the client's country, less
-traffic trombones out of the client's country.  The percentage of tromboning paths
+keep local traffic local; by using relays in the client's country, fewer
+paths trombone out of the client's country.  The percentage of tromboning paths
 from the United States decreases from 11.2\% to 1.3\% when
 relays are used.   
 
@@ -143,23 +141,23 @@ Netherlands can completely avoid the United States with the country
 avoidance techniques.  With the overlay network, both Brazilian and
 Netherlands paths avoid the United States about 65\% of the time, but
 the United States is completely unavoidable for about 10\% of the paths
-because it is the only country where the content is hosted.  Kenyan traffic can
-only avoid the United States on about 40\% of the paths from Kenya.  On the other hand, the United States can avoid
+because it is the only country where the content is hosted.  Kenyan paths can
+only avoid the United States on about 55\% of the paths from Kenya.  On the other hand, the United States can avoid
 every other country except for France and the Netherlands, and even then
 they are avoidable for 99\% of the top domains. 
 
-We find that current traffic is traversing known surveillance states, but tools can help us achieve country avoidance. Our contributions 
-include: 
+%We find that traffic is traversing known surveillance states, but tools can help us achieve country avoidance. Our contributions 
+%include: 
 
-\begin{itemize}
-\item The first in-depth measurement study of
-  transnational routing detours for Brazil, Netherlands, Kenya, India, and the
-  United States. 
-\item An evaluation of how open DNS resolvers and overlay
-  network relays can help clients discover and use
-  network paths that avoid certain countries.
-\end{itemize}
-\noindent
+%\begin{itemize}
+%\item The first in-depth measurement study of
+%  transnational routing detours for Brazil, Netherlands, Kenya, India, and the
+%  United States. 
+%\item An evaluation of how open DNS resolvers and overlay
+%  network relays can help clients discover and use
+%  network paths that avoid certain countries.
+%\end{itemize}
+%\noindent
 
 This rest of this paper is organized as follows.  In the next section, we discuss
 the current nation-states that conduct mass surveillance or are in the 
