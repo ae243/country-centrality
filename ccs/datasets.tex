@@ -91,7 +91,7 @@ we analyzed the paths for symmetry.  First, we compared the set of
 countries on the forward path to the set of countries on the reverse
 path; this yielded about 30\% symmetry.  What we wanted to know is
 whether or not the reverse path has more countries on it than the
-forward path.  We measured how many reverse paths were a subset of the
+forward path.  Thus, we measured how many reverse paths were a subset of the
 respective forward path; this was the case for 55\% of the paths.   
 This level of asymmetry suggests that our results represent a lower
 bound on the number of countries that transit traffic; our results are a
@@ -103,7 +103,7 @@ challenging, if not impossible.
 
 \subsubsection{Traceroute Origination and Destination Selection}
 
-Each country hosted a different number of RIPE Atlas probes, ranging
+Each country hosts a different number of RIPE Atlas probes, ranging
 from about 75 probes to many hundreds.  Because of the resource
 restrictions, we could not use all probes in each of the countries.  We
 selected the set of probes that had unique ASes in the country to get
@@ -147,7 +147,7 @@ to note that removing `None' responses will \textit{always} produce a
 conservative estimate, and therefore we are \textit{always}
 underestimating the amount of potential surveillance.  
 Figure \ref{fig:analysis_pipeline} shows an example of this
-post-precessing. 
+post-processing. 
 
 \subsection{Results}
 
@@ -155,7 +155,7 @@ post-precessing.
 
 Table \ref{tab:host} shows the five countries we studied along the top
 of the table, and the countries that host their content along in each
-row.  For example, the United States is the endpoint of 74\% of the
+row.  For example, the United States is the endpoint of 77\% of the
 paths that originate in Brazil.  A ``-'' represents the case where no
 paths ended in that country.  For example, no Brazilian paths terminated in
 South Africa. Table \ref{tab:transit} shows the fraction of paths that
@@ -252,7 +252,7 @@ fraction of paths that include these countries.
 
 
 \begin{finding}[Tromboning Traffic]
-Brazilian and Netherlands paths often trombones to the United States, despite the prevalence of IXPs in both countries.
+Brazilian and Netherlands paths often trombone to the United States, despite the prevalence of IXPs in both countries.
 \end{finding}
 \noindent
 Figures \ref{fig:trombone_netherlands}, \ref{fig:trombone_brazil}, and \ref{fig:trombone_kenya} show the fraction of paths that trombone to different countries for the Netherlands, Brazil, and Kenya. 24\% of all paths originating in the Netherlands (62\% of domestic paths) trombone to a foreign country before returning to the Netherlands. Despite Brazil's strong efforts in building IXPs to keep local traffic local, we can see that their paths still trombone to the United States.  This is due to IXPs being seen as a threat by competing commercial providers; providers are sometimes concerned that ``interconnection'' will result in making business cheaper for competitors and stealing of customers~\cite{ixp_policy}.  It is likely that Brazilian providers see other Brazilian providers as competitors and therefore as a threat at IXPs, which cause them to peer with international providers instead of other local providers.  Additionally, we see Brazilian paths trombone to Spain and Italy. We have observed that MaxMind sometimes mislabels IP addresses to be in Spain when they are actually located in Portugal.  This mislabelling does not affect our analysis of detours through surveillance states, as we do not highlight either Spain or Portugal as a surveillance state.  We see Italy often in tromboning paths because Telecom Italia Sparkle is one of the top global Internet providers~\cite{bakers}.
@@ -268,7 +268,7 @@ Many of the results find that Brazilian,
 Netherlands, Indian, and Kenyan paths often transit surveillance states,
 most notably the United States.  The results from studying paths that
 originate in the United States are drastically different from those of
-the other four countries.  The other four countries hosted very small
+the other four countries.  The other four countries host very small
 amounts of content accessed from their own country, whereas the United
 States hosts 97\% of the content that is accessed from within the
 country.  Only 13 unique countries are ever on a path from the United
