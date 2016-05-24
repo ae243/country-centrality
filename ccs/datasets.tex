@@ -82,7 +82,7 @@ We measured path asymmetry at the country
 granularity. If country-level paths are symmetric, then the results of
 our measurements would be representative of the forward {\it and}
 reverse paths. If the country-level paths are asymmetric, then our
-measurement results only provide a lowerbound on the number of countries
+measurement results only provide a lower bound on the number of countries
 that could potentially conduct surveillance.  Using 100 RIPE Atlas
 probes located around the world, and eight Amazon EC2 instances, we ran
 traceroute measurements from every probe to every EC2 instance and from
@@ -138,7 +138,7 @@ Fortunately, our study does not require high-precision geolocation; we
 are more interested in providing accurate lower bounds on detours at a
 much coarser granularity.  Fortunately, previous work has found that
 geolocation at a country-level granularity is more accurate than at
-finer granularities~\cite{huffaker2011geocompare}.  In light of these
+finer granularity~\cite{huffaker2011geocompare}.  In light of these
 concerns, we post-processed our IP to country mapping
 by removing all IP addresses that resulted in a `None' response when
 querying MaxMind, which causes our results to provide a conservative
@@ -147,7 +147,7 @@ to note that removing `None' responses will \textit{always} produce a
 conservative estimate, and therefore we are \textit{always}
 underestimating the amount of potential surveillance.  
 Figure \ref{fig:analysis_pipeline} shows an example of this
-post-prcessing. 
+post-precessing. 
 
 \subsection{Results}
 
@@ -214,7 +214,7 @@ single country: the United States, a known surveillance state.   Our results als
 common hosting location for paths originating in the Netherlands, India,
 and Kenya.
 
-%For Indian traffic, in addition to the 63\% hosted in the United States and the 10\% hosted in the Netherlands, another 10\% is hosted in Singapore.  Hosting in these countries can best be explained by the number of underwater cables with landing points in both India and Singapore~\cite{cablemap}.  More specifically, there is a cable that directly connects Chennai, India and Changi North, Singapore, and is owned by Tata Communications, which is one of the top global Internet providers (in terms of transitted IP space)~\cite{bakers}.  
+%For Indian traffic, in addition to the 63\% hosted in the United States and the 10\% hosted in the Netherlands, another 10\% is hosted in Singapore.  Hosting in these countries can best be explained by the number of underwater cables with landing points in both India and Singapore~\cite{cablemap}.  More specifically, there is a cable that directly connects Chennai, India and Changi North, Singapore, and is owned by Tata Communications, which is one of the top global Internet providers (in terms of transited IP space)~\cite{bakers}.  
 
 %For Kenyan traffic, the United States hosts 44\% of the content, but Ireland hosts 10\%; Ireland is a popular hosting location for U.S. companies due to its relaxed enforcement of privacy in the private sector \annie{I got this information from Joel Reidenberg - how do I cite that?  I'll also look to see if I can find any publications that discuss this}.  
 
@@ -280,7 +280,7 @@ Brazil, Netherlands, India, and Kenya, respectively.
 \subsection{Limitations}
 
 This section discusses the various limitations of our measurement methods
-and how they may affect the results taht we have reported.
+and how they may affect the results that we have reported.
 
 \paragraph{Traceroute accuracy and completeness.}
 Our study is limited by the accuracy and completeness of traceroute.
