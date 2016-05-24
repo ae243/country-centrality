@@ -35,8 +35,8 @@ Internet Data Analysis (CAIDA)~\cite{caida} projects maintain two large
 repositories of traceroute data, neither of which turn out to be
 suitable for our study.  iPlane measurements use
 PlanetLab~\cite{planetlab} nodes and has historical data as far back as
-2006.  Unfortunately, because iPlane uses PlanetLab nodes, which have
-been shown to mostly use the Global Research and Education Network
+2006.  Unfortunately, because iPlane uses PlanetLab nodes, which 
+mostly use the Global Research and Education Network
 (GREN), the traceroutes from PlanetLab nodes will not be representative
 of typical Internet users' traffic paths~\cite{banerjee2004interdomain}.
 CAIDA runs traceroutes from different vantage points around the world to
@@ -131,7 +131,7 @@ of the client.
 \subsubsection{Country Mapping}
 \label{c_map}
 
-Accurate IP geolocation is a challenging problem. We use MaxMind's
+Accurate IP geolocation is challenging. We use MaxMind's
 geolocation service to map IP addresses to their respective
 countries~\cite{maxmind}, which is known to contain inaccuracies.
 Fortunately, our study does not require high-precision geolocation; we
@@ -151,75 +151,20 @@ post-prcessing.
 
 \subsection{Results}
 
-%%%% ADD THIS TO datasets.tex
-\newcolumntype{d}[1]{D{.}{.}{#1}}
-\newcommand{\headrow}[1]{\multicolumn{1}{c}{\adjustbox{angle=45,lap=\width-0.5em}{#1}}}
-\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
-\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
-\begin{table}[t]
-\centering
-\ra{1}
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{@{}ld{3.2}d{3.2}d{3.2}d{3.2}d{3.2}@{}}
-%\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\
+\input{characterize-tables}
 
-\textit{Country to Avoid}    & \headrow{Brazil}  & \headrow{Netherlands}   & \headrow{India} & \headrow{Kenya} & \headrow{United States}\\
-\toprule
-Brazil             &.169    &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}  &\multicolumn{1}{r}{-} \\ \midrule
-Canada             &.001    &.007     &.015      &.006       &\multicolumn{1}{r}{-}  \\
-United States      &\cellcolor[HTML]{F7BE81}.774    &\cellcolor[HTML]{F7BE81}.454      &\cellcolor[HTML]{F7BE81}.629      &\cellcolor[HTML]{F7BE81}.443        &\cellcolor[HTML]{F7BE81}.969    \\ \midrule
-France             &.001    &.022      &.009      &.023       &.001 \\
-Germany            &.002    &.013      &.014      &.028       &.001  \\
-Great Britain      &\multicolumn{1}{r}{-}  &.019     &.021     &.032       &.002 \\
-Ireland            &.016    &.064      &.027       &.108       &.001   \\
-Netherlands        &.013    &\cellcolor[HTML]{F7BE81}.392      &.101      &\cellcolor[HTML]{F7BE81}.200      &.024  \\
-Spain              &.001    &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}    \\ \midrule
-Kenya              &\multicolumn{1}{r}{-}        &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}    &.022        &\multicolumn{1}{r}{-}  \\
-Mauritius          &\multicolumn{1}{r}{-}      &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}   &.004       &\multicolumn{1}{r}{-}  \\
-South Africa       &\multicolumn{1}{r}{-}       &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}  &.021       &\multicolumn{1}{r}{-}  \\ \midrule
-United Arab Emirates &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}   &.011        &\multicolumn{1}{r}{-}  \\
-India              &\multicolumn{1}{r}{-}      &\multicolumn{1}{r}{-}     &.053    &.002        &\multicolumn{1}{r}{-}  \\
-Singapore          &\multicolumn{1}{r}{-}       &.002     &\cellcolor[HTML]{F7BE81}.103      &.027       &\multicolumn{1}{r}{-} \\\hline
-\end{tabular}
-}
-\caption{Fraction of paths that end in each country in default routes.}
-\label{tab:host}
-\end{table}
-
-\begin{table}[t]
-\centering
-\ra{1}
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{@{}ld{3.2}d{3.2}d{3.2}d{3.2}d{3.2}@{}}
-%\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\
-
-\textit{Country to Avoid}    & \headrow{Brazil}  & \headrow{Netherlands}   & \headrow{India} & \headrow{Kenya} & \headrow{United States}\\ \toprule
-Brazil              &1.00       &\multicolumn{1}{r}{-}   &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-} \\ \midrule
-Canada                &.013       &.007     &.016       &.008      &.081 \\
-United States        &\cellcolor[HTML]{F7BE81}.844        &\cellcolor[HTML]{F7BE81}.583     &\cellcolor[HTML]{F7BE81}.715      &\cellcolor[HTML]{F7BE81}.616       &\cellcolor[HTML]{F7BE81}1.00 \\ \midrule
-France                 &.059     &.102      &.104       &.221      &.104 \\
-Germany                 &.005       &.050    &.032      &.048      &.008 \\
-Great Britain                &.024       &\cellcolor[HTML]{F7BE81}.140     &\cellcolor[HTML]{F7BE81}.204      &\cellcolor[HTML]{F7BE81}.500      &.006 \\
-Ireland                &.028       &.106      &.031     &.133      &.006 \\
-Netherlands                 &.019        &1.00      &.121      &\cellcolor[HTML]{F7BE81}.253      &.031 \\\hline
-Spain                  &.176       &.004     &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}      &\multicolumn{1}{r}{-} \\ \midrule
-Kenya                 &\multicolumn{1}{r}{-}       &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}      &1.00      &\multicolumn{1}{r}{-} \\\hline
-Mauritius                  &\multicolumn{1}{r}{-}       &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}      &\cellcolor[HTML]{F7BE81}.322       &\multicolumn{1}{r}{-} \\
-South Africa                 &\multicolumn{1}{r}{-}        &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}     &\cellcolor[HTML]{F7BE81}.334       &\multicolumn{1}{r}{-} \\ \midrule
-United Arab Emirates                  &\multicolumn{1}{r}{-}        &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}     &.152       &\multicolumn{1}{r}{-} \\
-India               &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}    &1.00     &.058     &\multicolumn{1}{r}{-} \\
-Singapore                 &\multicolumn{1}{r}{-}        &.002     &\cellcolor[HTML]{F7BE81}.270       &.040       &.003 \\ \midrule
-\end{tabular}
-}
-\caption{Fraction of paths that each country transits in default routes.}
-\label{tab:transit}
-\end{table}
-
-Table \ref{tab:host} shows the five studied countries along the top of the table, and the countries that host their content along the Y axis.  For example, the United States is the endpoint of 74\% of the paths that originate in Brazil.  A ``-'' represents the case where no paths ended in that country.  For example, no Brazilian paths ended in South Africa. Table \ref{tab:transit} shows the fraction of paths that transit certain countries (along the Y axis).
+Table \ref{tab:host} shows the five countries we studies along the top
+of the table, and the countries that host their content along in each
+row.  For example, the United States is the endpoint of 74\% of the
+paths that originate in Brazil.  A ``-'' represents the case where no
+paths ended in that country.  For example, no Brazilian paths terminated in
+South Africa. Table \ref{tab:transit} shows the fraction of paths that
+transit certain countries, with a row for each country that is transited.
 
 \begin{finding}[Hosting Diversity]
 About half of the top domains in each of the five countries studied are hosted in a single country.  The other half are located in two or more different countries.
 \end{finding}
+\noindent
 First we analyze hosting diversity; this shows us how many unique countries in which a domain is hosted.  The more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  We queried DNS from 26 vantage points around the world, which are shown in Figure \ref{fig:world}; we chose this set of locations because they are geographically diverse.  Then we mapped the IP addresses in the DNS responses to their respective countries to determine how many unique countries a domain is hosted in.  Figure~\ref{fig:host_diversity} shows the fraction of domains that are hosted in different numbers of countries; we can see two common hosting cases: 1) CDNs, and 2) a single hosting country.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis---where are these domains hosted, and which countries are traversed on the way to reach these locations.
 
 \begin{figure}[t]
@@ -236,36 +181,6 @@ First we analyze hosting diversity; this shows us how many unique countries in w
 \label{fig:host_diversity}
 \end{figure}
 
-\begin{finding}[Domain Hosting]
-The most common destination among all five countries studied is the United States: 77\%, 45\%, 63\%, 44\%, and 97\% of paths originating in Brazil, Netherlands, India, Kenya and the United States, respectively, are currently reaching content located in the United States.
-\end{finding}
-The fraction of paths that are hosted in various countries can be seen in Table~\ref{tab:host}.  Despite the amount of country-level hosting diversity, we see the majority of paths from all five countries ending in a single country: the United States.  This is significant because the United States is a known surveillance state, and therefore these percentages represent the amount of foreign paths that the United States can conduct surveillance on.  Our results also show the Netherlands is a common hosting location for paths originating in the Netherlands, India, and Kenya.
-
-%For Indian traffic, in addition to the 63\% hosted in the United States and the 10\% hosted in the Netherlands, another 10\% is hosted in Singapore.  Hosting in these countries can best be explained by the number of underwater cables with landing points in both India and Singapore~\cite{cablemap}.  More specifically, there is a cable that directly connects Chennai, India and Changi North, Singapore, and is owned by Tata Communications, which is one of the top global Internet providers (in terms of transitted IP space)~\cite{bakers}.  
-
-%For Kenyan traffic, the United States hosts 44\% of the content, but Ireland hosts 10\%; Ireland is a popular hosting location for U.S. companies due to its relaxed enforcement of privacy in the private sector \annie{I got this information from Joel Reidenberg - how do I cite that?  I'll also look to see if I can find any publications that discuss this}.  
-
-\begin{finding}[Domestic Traffic]
-All of the countries studied (except for the United States) host content for a small percentage of the paths that originate in their own country; they also host a small percentage of their respective country-code top-level domains.
-\end{finding}
-For paths that originate in Brazil, only 17\% of it also ends in Brazil.  Only 5\% and 2\% of Indian and Kenyan paths, respectively, end in the originating country. 
-For Kenya, 24 out of the Top 100 Domains are .ke domains, and of these 24 domains only 5 are hosted within Kenya.  29 out of 40 .nl domains are hosted in the Netherlands; 4 of 13 .in domains are hosted in India; 18 of 39 .br domains are hosted in Brazil.  Interestingly, all .gov domains were hosted in their respective country. 
-
-\begin{finding}[Transit Traffic]
-Surveillance states (specifically the United States and Great Britain) are on the largest portion of paths in comparison to any other (foreign) country.
-\end{finding}
-Brazilian paths traverses the United States on 84\% of the paths; therefore, the United States can conduct surveillance on 84\% of the paths originating in Brazil, despite Brazil's strong efforts to avoid United States surveillance.  Even though India and Kenya are geographically distant, 72\% and 62\% of their paths transits the United States.   
-
-Great Britain and the Netherlands are on the path for a significant percentage of paths originating in India and Kenya.  50\% and 20\% of paths that originate in Kenya and India transit Great Britain.  Paths that traverses the Netherlands can be explained by the large IXP located there; paths that traverses Great Britain is likely due to being on the path between the originating country and the final destination in a European country.
-
-Mauritius, South Africa, and the United Arab Emirates transit 32\%, 33\%, and 15\% of paths from Kenya.  There are direct underwater cables from Kenya to Mauritius, and from Mauritius to South Africa~\cite{cablemap}.  Additionally, there is a cable from Mombasa, Kenya to Fujairah, United Arab Emirates.  This accounts for the large percentages of paths that include these countries.
-
-\begin{finding}[Tromboning Traffic]
-Brazilian and Netherlands paths often trombones to the United States, despite the prevalence of IXPs in both countries.
-\end{finding}
-Figures \ref{fig:trombone_netherlands}, \ref{fig:trombone_brazil}, and \ref{fig:trombone_kenya} show the fraction of paths that trombone to different countries for the Netherlands, Brazil, and Kenya. 24\% of all paths originating in the Netherlands (62\% of domestic paths) trombone to a foreign country before returning to the Netherlands. Despite Brazil's strong efforts in building IXPs to keep local traffic local, we can see that their paths still trombone to the United States.  This is due to IXPs being seen as a threat by competing commercial providers; providers are sometimes concerned that ``interconnection'' will result in making business cheaper for competitors and stealing of customers~\cite{ixp_policy}.  It is likely that Brazilian providers see other Brazilian providers as competitors and therefore as a threat at IXPs, which cause them to peer with international providers instead of other local providers.  Additionally, we see Brazilian paths trombone to Spain and Italy. We have observed that MaxMind sometimes mislabels IP addresses to be in Spain when they are actually located in Portugal.  This mislabelling does not affect our analysis of detours through surveillance states, as we do not highlight either Spain or Portugal as a surveillance state.  We see Italy often in tromboning paths because Telecom Italia Sparkle is one of the top global Internet providers~\cite{bakers}.
-
-Tromboning Kenyan paths most commonly traverse Mauritius, which is expected considering the submarine cables between Kenya and Mauritius.  Submarine cables also explain South Africa, Tanzania, and the United Arab Emirates on tromboning paths.  
 
 \begin{figure*}[t!]
 \begin{minipage}{\linewidth}
@@ -286,23 +201,113 @@ Tromboning Kenyan paths most commonly traverse Mauritius, which is expected cons
 \label{fig:trombone}
 \end{figure*}
 
+
+
+\begin{finding}[Domain Hosting]
+The most common destination among all five countries studied is the United States: 77\%, 45\%, 63\%, 44\%, and 97\% of paths originating in Brazil, Netherlands, India, Kenya and the United States, respectively, are currently reaching content located in the United States.
+\end{finding}
+\noindent
+Table~\ref{tab:host} shows the fraction of paths that are hosted in
+various countries.  Despite the extent of country-level hosting
+diversity, the majority of paths from all five countries terminate in a
+single country: the United States, a known surveillance state.   Our results also show the Netherlands is a
+common hosting location for paths originating in the Netherlands, India,
+and Kenya.
+
+%For Indian traffic, in addition to the 63\% hosted in the United States and the 10\% hosted in the Netherlands, another 10\% is hosted in Singapore.  Hosting in these countries can best be explained by the number of underwater cables with landing points in both India and Singapore~\cite{cablemap}.  More specifically, there is a cable that directly connects Chennai, India and Changi North, Singapore, and is owned by Tata Communications, which is one of the top global Internet providers (in terms of transitted IP space)~\cite{bakers}.  
+
+%For Kenyan traffic, the United States hosts 44\% of the content, but Ireland hosts 10\%; Ireland is a popular hosting location for U.S. companies due to its relaxed enforcement of privacy in the private sector \annie{I got this information from Joel Reidenberg - how do I cite that?  I'll also look to see if I can find any publications that discuss this}.  
+
+\begin{finding}[Domestic Traffic]
+All of the countries studied (except for the United States) host content for a small percentage of the paths that originate in their own country; they also host a small percentage of their respective country-code top-level domains.
+\end{finding}
+\noindent
+Only 17\% of paths that originate in Brazil also end there.  Only 5\%
+and 2\% of Indian and Kenyan paths, respectively, end in the originating
+country.  
+For Kenya, 24 out of the Top 100 Domains are .ke domains, and of these 24 domains only 5 are hosted within Kenya.  29 out of 40 .nl domains are hosted in the Netherlands; 4 of 13 .in domains are hosted in India; 18 of 39 .br domains are hosted in Brazil.  Interestingly, all .gov domains were hosted in their respective country. 
+
+\begin{finding}[Transit Traffic]
+Surveillance states (specifically the United States and Great Britain) are on the largest portion of paths in comparison to any other (foreign) country.
+\end{finding}
+\noindent
+84\% of Brazilian paths traverse the United States, despite Brazil's
+strong efforts to avoid United States surveillance.  Although India and
+Kenya are geographically distant, 72\% and 62\% of their paths also transit
+the United States.
+
+Great Britain and the Netherlands are on the path for a significant
+percentage of paths originating in India and Kenya: 50\% and 20\% of
+paths that originate in Kenya and India, respectively, transit Great
+Britain.   Many paths likely traverse Great Britain and the Netherlands due to
+the presence of large Internet Exchange Points (\ie, LINX, AMS-IX).
+Mauritius, South Africa, and the United Arab Emirates transit 32\%,
+33\%, and 15\% of paths from Kenya.  There are direct underwater cables
+from Kenya to Mauritius, and from Mauritius to South
+Africa~\cite{cablemap}.  Additionally, there is a cable from Mombasa,
+Kenya to Fujairah, United Arab Emirates, which likely explains the large
+fraction of paths that include these countries. 
+
+
+
+\begin{finding}[Tromboning Traffic]
+Brazilian and Netherlands paths often trombones to the United States, despite the prevalence of IXPs in both countries.
+\end{finding}
+\noindent
+Figures \ref{fig:trombone_netherlands}, \ref{fig:trombone_brazil}, and \ref{fig:trombone_kenya} show the fraction of paths that trombone to different countries for the Netherlands, Brazil, and Kenya. 24\% of all paths originating in the Netherlands (62\% of domestic paths) trombone to a foreign country before returning to the Netherlands. Despite Brazil's strong efforts in building IXPs to keep local traffic local, we can see that their paths still trombone to the United States.  This is due to IXPs being seen as a threat by competing commercial providers; providers are sometimes concerned that ``interconnection'' will result in making business cheaper for competitors and stealing of customers~\cite{ixp_policy}.  It is likely that Brazilian providers see other Brazilian providers as competitors and therefore as a threat at IXPs, which cause them to peer with international providers instead of other local providers.  Additionally, we see Brazilian paths trombone to Spain and Italy. We have observed that MaxMind sometimes mislabels IP addresses to be in Spain when they are actually located in Portugal.  This mislabelling does not affect our analysis of detours through surveillance states, as we do not highlight either Spain or Portugal as a surveillance state.  We see Italy often in tromboning paths because Telecom Italia Sparkle is one of the top global Internet providers~\cite{bakers}.
+
+Tromboning Kenyan paths most commonly traverse Mauritius, which is expected considering the submarine cables between Kenya and Mauritius.  Submarine cables also explain South Africa, Tanzania, and the United Arab Emirates on tromboning paths.  
   %Traffic that should be kept local is susceptible to surveillance because it transits two well-known surveillance states.  
 
 \begin{finding}[United States as an Outlier]
 The United States hosts 97\% of the content that is accessed from within the country, and only 6 foreign countries---France, Germany, Ireland, Great Britain, and the Netherlands---- host content for the other 3\% of paths.
 \end{finding}
-Most of the results discussed thus far have shown that Brazilian, Netherlands, Indian, and Kenyan paths often transit surveillance states, most notably the United States.  The results from studying paths that originate in the United States are drastically different from those of the other four countries.  The other four countries hosted very small amounts of content accessed from their own country, whereas the United States hosts 97\% of the content that is accessed from within the country.  Only 13 unique countries are ever on a path from the United States to a domain in the top 100 (or third party domain), whereas 30, 30, 25, and 38 unique countries are seen on the paths originating in Brazil, Netherlands, India, and Kenya.  
+\noindent
+Many of the results find that Brazilian,
+Netherlands, Indian, and Kenyan paths often transit surveillance states,
+most notably the United States.  The results from studying paths that
+originate in the United States are drastically different from those of
+the other four countries.  The other four countries hosted very small
+amounts of content accessed from their own country, whereas the United
+States hosts 97\% of the content that is accessed from within the
+country.  Only 13 unique countries are ever on a path from the United
+States to a domain in the top 100 (or third party domain), whereas 30,
+30, 25, and 38 unique countries are seen on the paths originating in
+Brazil, Netherlands, India, and Kenya, respectively.   
 
 %There are only 6 foreign countries---France, Germany, Ireland, Great Britain, and the Netherlands----that host content for traffic originating in the United States, and the fraction of content hosted in these countries is less than 4\% combined.
 
 \subsection{Limitations}
-The measurement methods that we described in Section~\ref{datasets} are not without limitations.  Here we discuss limitations with IPv4, country mapping accuracy, and traceroute completeness.
 
-\subsubsection{IPv4}
-The measurements we conducted only collect and analyze IPv4 paths, and therefore all IPv6 paths are left out of our study.  IPv6 paths likely differ from IPv4 paths as not all routers that support IPv4 also support IPv6.  Future work includes studying IPv6 paths and which countries they transit, as well as a comparison of country avoidability between IPv4 and IPv6 paths. 
+This section discusses the various limitations of our measurement methods
+and how they may affect the results taht we have reported.
 
-\subsubsection{Country Mapping}
-Previous work has shown that there are fundamental challenges in deducing a geographic location from an IP address, despite using different methods such as DNS names of the target, network delay measurements, and host-to-location mapping in conjunction with BGP prefix information~\cite{padmanabhan2001investigation}.  While it has been shown that there are inaccuracies and incompleteness in MaxMind's data~\cite{huffaker2011geocompare}, the focus of this work is on measuring and avoiding surveillance.  The way we use MaxMind data to map IP to country (as described in Section \ref{c_map}) provides a lower bound on the amount of surveillance.
+\paragraph{Traceroute accuracy and completeness.}
+Our study is limited by the accuracy and completeness of traceroute.
+Anomalies can occur in traceroute-based
+measurements~\cite{augustin2006avoiding}, but most traceroute anomalies
+do not cause an overestimation in surveillance states.  The
+incompleteness of traceroutes, where a router does not respond, causes
+our results to underestimate the number of surveillance states, and
+therefore also provides a lower bound on surveillance. 
 
-\subsubsection{Traceroute Accuracy and Completeness}
-Our study is limited by the accuracy and completeness of traceroute.  Anomalies can occur in traceroute-based measurements~\cite{augustin2006avoiding}, but most traceroute anomalies do not cause an overestimation in surveillance states.  The incompleteness of traceroutes, where a router does not respond, causes our results to underestimate the number of surveillance states, and therefore also provides a lower bound on surveillance.
+\paragraph{IP Geolocation vs.\ country mapping.}
+Previous work has shown that there are fundamental challenges in
+deducing a geographic location from an IP address, despite using
+different methods such as DNS names of the target, network delay
+measurements, and host-to-location mapping in conjunction with BGP
+prefix information~\cite{padmanabhan2001investigation}.  While it has
+been shown that there are inaccuracies and incompleteness in MaxMind's
+data~\cite{huffaker2011geocompare}, the focus of this work is on
+measuring and avoiding surveillance.  We use Maxmind to map
+IP to country (as described in Section \ref{c_map}), which provides a lower
+bound on the amount of surveillance, as we have described. 
+
+\paragraph{IPv4 vs.\ IPv6 connectivity.}
+The measurements we conducted only collect and analyze IPv4 paths, and
+therefore all IPv6 paths are left out of our study.  IPv6 paths likely
+differ from IPv4 paths as not all routers that support IPv4 also support
+IPv6.  Future work includes studying IPv6 paths and which countries they
+transit, as well as a comparison of country avoidability between IPv4
+and IPv6 paths.  
+
