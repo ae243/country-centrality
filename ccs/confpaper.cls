@@ -91,8 +91,8 @@
 \RequirePackage[nohead,
 % SIGCOMM/ACM
 left=0.75in,right=0.75in,top=0.75in, bottom=1in,
-%    columnsep=0.33in
-    columnsep=0.25in
+    columnsep=0.33in
+%    columnsep=0.25in
 % USENIX
 %    left=1.0in,right=1.0in,top=1.0in,
 %    footskip=0.5in,bottom=1.0in,   % Room for page numbers
@@ -129,7 +129,7 @@ left=0.75in,right=0.75in,top=0.75in, bottom=1in,
 %%%  Captions
 %%%
 %\RequirePackage[font=bf]{caption}
-\RequirePackage[font=small,format=plain,labelfont=bf,textfont=it,aboveskip=3pt]{caption}
+\RequirePackage[font=small,format=plain,labelfont=bf,textfont=it]{caption}
 \RequirePackage{subcaption}
 %% Space between figure and caption (assuming caption
 %% is below figure)
