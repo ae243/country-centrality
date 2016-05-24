@@ -227,21 +227,21 @@ avoiding the United States, South Africa, and the United Arab Emirates.
 Clients in Kenya should use open DNS resolvers when avoiding specific
 countries, as they can avoid these specific countries more often than
 when using relays.  Kenyan clients can avoid the United States for 55\%
-of paths when using open resolvers, whereas they can only avoid 40\% of
-paths when using relays.  The difference in avoidance values can be
+of paths when using open resolvers, whereas they can only avoid the United States for 40\% of
+paths when using relays.  The difference in how often the United States can be avoided can be
 attributed to the lower amount of DNS diversity when using relays as
 compared to using open resolvers. For a client in Kenya trying to avoid
 the United States, the client can only use the relay located in Ireland
-(because all paths from the client to the other relays traverses the
+(because all paths from the client to the other relays traverse the
 United States), and therefore only gets DNS responses from locally
 resolving domains on the Ireland relay.  When using open resolvers, the
 client gets more DNS diversity as he gets DNS responses from all open
 resolvers located in different countries. 
 
-The avoidance value for Kenyan clients avoiding South Africa is 0.66,
+The amount of avoidance provided for Kenyan clients avoiding South Africa is the same,
 regardless of whether the client is using relays, because all paths
 between the client and the relays traverse South Africa.  Fortunately,
-clients can get a significantly better avoidance value (0.87) when using
+clients can avoid South Africa for significantly more paths when using
 open resolvers, likely as a result of the fact that open DNS resolvers
 can better uncover hosting diversity.   
 %These values can be explained by the connectivity between Kenya and the locations of our relays; it is likely that there are not many different paths available between the client and the set of relays, which causes paths to traverse certain countries in either all or almost all cases (i.e. South Africa and the United States).
@@ -262,18 +262,18 @@ to avoid South Africa, where, as mentioned, all paths through our
 relays exit Kenya via South Africa.
 
 \begin{finding}[Relays Achieve Upper Bound]
-For clients in the United States, 100\% of avoidance values reach the upper bound---relays help clients in this country avoid all other Country Y in all cases that the domain is not hosted in Country~Y.  
+Clients in the United States can achieve the upper bound of avoidance for all countries---relays help clients in this country avoid all other Country Y in all cases that the domain is not hosted in Country~Y.  
 \end{finding}
 \noindent
-Relays are most effective for clients in the United States.  On the other hand, (Kenya, Country Y) pairs have the lowest percentage of avoidance values that reach the upper bound, showing that it is more difficult for Kenyan clients to avoid a given country.  This is not to say that relays are not effective for clients in Kenya; for example, the default routes to the top 100 domains for Kenyans avoid Great Britain 50\% of the time, but with relays this percentage increases to about 98\% of the time, and the upper bound is about 98\%. 
+Relays are most effective for clients in the United States.  On the other hand, it is much rarer for (Kenya, Country Y) pairs to achieve the upper bound of surveillance, showing that it is more difficult for Kenyan clients to avoid a given country.  This is not to say that relays are not effective for clients in Kenya; for example, the default routes to the top 100 domains for Kenyans avoid Great Britain 50\% of the time, but with relays this percentage increases to about 98\% of the time, and the upper bound is about 98\%. 
 %Figure \ref{fig:ke_avoidance} shows default avoidance, avoidance with relays, and the upper bound for Kenya; it's clear that despite having the worst position for avoidance out of the studied countries, in most cases the avoidance with relays either reaches or because extremely close to the upper bound.  
 
 \begin{finding}[Surveillance States are Less Avoidable]
-Avoidance values for (Country X, United States) pairs are significantly lower than any other Country Y for all four situations: without relays, with open resolvers, with relays, and the upper bound. 
+The ability for any country to avoid the United States is significantly lower than it's ability to avoid any other country in all four situations: without relays, with open resolvers, with relays, and the upper bound. 
 \end{finding}
 %Certain surveillance states discussed in Section \ref{surv} are completely unavoidable a small fraction of time from certain client locations.  France is unavoidable for a small percentage of domains for clients located in the Netherlands, Kenya, and the United States.  Similarly, clients in the Netherlands and Kenya cannot avoid Great Britain for a small fraction of domains.  
 \noindent
-Despite increasing clients' ability to avoid the United States, relays are not as effective at helping clients avoid this country as compared to the effectiveness of the relays at avoiding all other Country Y.  Clients in India can avoid the United States more often than clients in Brazil, Netherlands, and Kenya, with an avoidance value of .656 when using relays.  Kenyan clients can only avoid the United States 40\% of the time even while using relays.  Additionally, the upper bound for avoiding the United States is significantly lower in comparison to any other country.  
+Despite increasing clients' ability to avoid the United States, relays are not as effective at helping clients avoid this country as compared to the effectiveness of the relays at avoiding all other Country Y.  Clients in India can avoid the United States more often than clients in Brazil, Netherlands, and Kenya, by avoiding the Unite States for 65\% of paths.  Kenyan clients can only avoid the United States 40\% of the time even while using relays.  Additionally, the upper bound for avoiding the United States is significantly lower in comparison to any other country.  
 
 \begin{finding}[Keeping Local Traffic Local]
 Using relays decreased both the number of tromboning paths, and the
