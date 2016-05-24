@@ -1,6 +1,8 @@
 \section{Characterizing Transnational Detours}
 \label{datasets}
-In this section, we introduce our measurement methods, challenges in conducting the measurements, and our findings on which countries paths traverse.
+In this section, we describe our measurement methods, the challenges in
+conducting them, and our findings concerning the transnational detours
+of default Internet paths.
 
 \begin{figure*}[t]
 \centering
@@ -18,23 +20,70 @@ In this section, we introduce our measurement methods, challenges in conducting 
 
 \subsection{Measurement Pipeline}
 \label{pipeline}
-We use the data plane to measure traffic paths; we analyze the reported hops of traceroute measurements to find which countries are on the path from a client in a particular country to a popular domain.  The reverse path is just as important as the forward path, and often the reverse path is different from the forward path.  We measure how symmetric the forward and reverse paths are the country-level in Section \ref{path_sym}, and also explain how the exclusion of the reverse path provides a lower bound on the number of countries that traffic traverses.  Using traceroutes to measure transnational detours is new; prior work used BGP routing tables to \textit{infer} country-level paths~\cite{karlin2009nation}.  Because we conduct active measurements, which are limited by our resources, we make a tradeoff and study five countries, as opposed to all countries' Internet paths.  Figure \ref{fig:pipeline1} shows the steps taken for this measurement; first we identify a set of popular domains, then we use RIPE Atlas probes to query DNS with these domains, and traceroute to the DNS responses.  The measurements were conducted on January 31st, 2016.  Our analysis involves the steps seen in Figure \ref{fig:analysis_pipeline}; we map traceroutes to country-level paths.
+
+Figure \ref{fig:analysis_pipeline} summarizes the our measurement
+process, which the rest of this section describes in detail.  We analyze
+traceroute measurements to discover which countries are on the path from
+a client in a particular country to a popular domain.  Using traceroutes
+to measure transnational detours is new; prior work used BGP routing
+tables to \textit{infer} country-level paths~\cite{karlin2009nation}.
+Because we conduct active measurements, which are limited by our
+resources, we make a tradeoff and study five countries, as opposed to
+all countries' Internet paths.  We report on measurements that we
+conducted on January 31, 2016.
 
 \subsubsection{Resource Limitations}
 \label{resource_limits}
-To our knowledge, the publicly available traceroute datasets suitable for our goal are from iPlane~\cite{madhyastha2006iplane} and CAIDA (Center for Applied Internet Data Analysis)~\cite{caida}.  The iPlane project uses PlanetLab~\cite{planetlab} nodes to run traceroutes to all unique AS-level paths in the BGP routing table.  This project also has historical data as far back as 2006.  Unfortunately, because iPlane uses PlanetLab nodes, which have been shown to mostly use the Global Research and Education Network (GREN), the traceroutes from PlanetLab nodes will not be representative of typical Internet users' traffic paths~\cite{banerjee2004interdomain}.  The other publicly available dataset, from CAIDA, ran traceroutes from different vantage points around the world, but to randomized destination IP addresses that cover all /24s.  This is also not sufficient for what we wanted to measure because a typical Internet user is going to access a domain that will be locally resolved; the user will not input a specific IP address in their browser.  
 
-We chose to run active measurements that would be most representative of an Internet user.  We chose to run DNS and traceroute measurements from RIPE Atlas probes, which are hosted all around the world and in many different settings, including home networks~\cite{ripe_atlas}.  RIPE Atlas probes can use the local DNS resolver, which would give us the best estimate of the traceroute destination.
+The iPlane~\cite{madhyastha2006iplane} and Center for Applied
+Internet Data Analysis (CAIDA)~\cite{caida} projects maintain two large
+repositories of traceroute data, neither of which turn out to be
+suitable for our study.  iPlane measurements use
+PlanetLab~\cite{planetlab} nodes and has historical data as far back as
+2006.  Unfortunately, because iPlane uses PlanetLab nodes, which have
+been shown to mostly use the Global Research and Education Network
+(GREN), the traceroutes from PlanetLab nodes will not be representative
+of typical Internet users' traffic paths~\cite{banerjee2004interdomain}.
+CAIDA runs traceroutes from different vantage points around the world to
+randomized destination IP addresses that cover all /24s; in 
+contrast, we focus on paths to popular websites from a particular
+country.
 
-Despite the options RIPE Atlas provides, there were still restrictions that made measurements challenging.  To conduct any measurement on a RIPE Atlas probe, it costs a certain amount of credits, and we were therefore restricted by the number of credits we had.  Additionally, RIPE Atlas imposes rate limits on the number of concurrent measurements and the number of credits that an individual user can spend per day.  We address these challenges in two ways: 1) we reduce the number of necessary measurements we must run on RIPE Atlas probes by conducting traceroute measurements to a single IP address in each /24 (as opposed to all IP address returned by DNS) because all IP addresses in a /24 belong to the same AS, and should therefore be located in the same geographic area; 2) use a different method---VPN connections---to get a vantage point within a foreign country, which is still representative of an Internet user in that country.
+In contrast to these existing studies, we run active measurements that
+would would represent paths of a typical Internet user. To do so, we run
+DNS and traceroute measurements from RIPE Atlas probes, which are hosted
+all around the world and in many different settings, including home
+networks~\cite{ripe_atlas}.  RIPE Atlas probes can use the local DNS
+resolver, which would give us the best estimate of the traceroute
+destination.
+
+Yet, conducting measurements from a RIPE Atlas probe costs a certain
+amount of ``credits'', which restricts the number of measurements that we
+could run.  RIPE Atlas also imposes rate limits on the number of
+concurrent measurements and the number of credits that an individual
+user can spend per day.  We address these challenges in two ways: (1)~we
+reduce the number of necessary measurements we must run on RIPE Atlas
+probes by conducting traceroute measurements to a single IP address in
+each /24 (as opposed to all IP address returned by DNS) because all IP
+addresses in a /24 belong to the same AS, and should therefore be
+located in the same geographic area; (2)~we use a different method---VPN
+connections---to obtain a vantage point within a foreign country, which
+is still representative of an Internet user in that country.
 
 \subsubsection{Path Asymmetry}
 \label{path_sym}
+
+The reverse path is just as important as (and often different from) the
+forward path.  
 Previous work has shown that paths are not symmetric most of the time---the forward path from point A to point B does not match the reverse path from point B to point A~\cite{he2005routing}.  Most work on path asymmetry has been done at the AS level, but not at the country level.  Our measurement methods only take the forward path (from client to domain or relay) into account, and not the path from the domain or relay to the client.  
 
 We conducted a study to measure path asymmetry at the country granularity; if country-level paths are symmetric, then the results of our measurements would be representative of the forward {\it and} reverse paths, but if the country-level paths are asymmetric, then our measurement results only provide a lowerbound on the number of countries that could potentially conduct surveillance.  Using 100 RIPE Atlas probes located around the world, and 8 Amazon EC2 instances, we ran traceroute measurements from every probe to every EC2 instance and from every EC2 instance to every probe.  After mapping the IPs to countries, we analyzed the paths for symmetry.  First, we compared the set of countries on the forward path to the set of countries on the reverse path; this yielded about 30\% symmetry.  What we wanted to know is whether or not the reverse path has more countries on it than the forward path.  We measured how many reverse paths were a subset of the respective forward path; this was the case for 55\% of the paths.  
 
-The results of this measurement are not convincing enough to state that country-level paths are symmetric, and therefore our measurements and results represent a lower bound on the number of countries that transit traffic; our results are a lowerbound on how many unfavorable countries transit a client's path.
+The results of this measurement are not convincing enough to state that
+country-level paths are symmetric, and therefore our measurements and
+results represent a lower bound on the number of countries that transit
+traffic; our results are a lowerbound on how many unfavorable countries
+transit a client's path. 
 
 \subsubsection{Traceroute Origination and Destination Selection}
 As discussed above, we used RIPE Atlas probes in each of the five countries we studied.  Each of these countries had varying amounts of probes hosted in the country, ranging from about 75 probes to many hundreds.  Because of the resource restrictions, we could not use all probes in each of the countries.  We selected the set of probes that had unique ASes in the country to get the widest representation of origination (starting) points.
