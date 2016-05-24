@@ -16,7 +16,7 @@ of default Internet paths.
 \subsection{Measurement Pipeline}
 \label{pipeline}
 
-Figure \ref{fig:analysis_pipeline} summarizes the our measurement
+Figure \ref{fig:analysis_pipeline} summarizes our measurement
 process, which the rest of this section describes in detail.  We analyze
 traceroute measurements to discover which countries are on the path from
 a client in a particular country to a popular domain.  Using traceroutes
@@ -45,7 +45,7 @@ contrast, we focus on paths to popular websites from a particular
 country.
 
 In contrast to these existing studies, we run active measurements that
-would would represent paths of a typical Internet user. To do so, we run
+would represent paths of a typical Internet user. To do so, we run
 DNS and traceroute measurements from RIPE Atlas probes, which are hosted
 all around the world and in many different settings, including home
 networks~\cite{ripe_atlas}.  RIPE Atlas probes can use the local DNS
@@ -153,7 +153,7 @@ post-precessing.
 
 \input{characterize-tables}
 
-Table \ref{tab:host} shows the five countries we studies along the top
+Table \ref{tab:host} shows the five countries we studied along the top
 of the table, and the countries that host their content along in each
 row.  For example, the United States is the endpoint of 74\% of the
 paths that originate in Brazil.  A ``-'' represents the case where no
@@ -165,7 +165,8 @@ transit certain countries, with a row for each country that is transited.
 About half of the top domains in each of the five countries studied are hosted in a single country.  The other half are located in two or more different countries.
 \end{finding}
 \noindent
-First we analyze hosting diversity; this shows us how many unique countries in which a domain is hosted.  The more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  We queried DNS from 26 vantage points around the world, which are shown in Figure \ref{fig:world}; we chose this set of locations because they are geographically diverse.  Then we mapped the IP addresses in the DNS responses to their respective countries to determine how many unique countries a domain is hosted in.  Figure~\ref{fig:host_diversity} shows the fraction of domains that are hosted in different numbers of countries; we can see two common hosting cases: 1) CDNs, and 2) a single hosting country.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis---where are these domains hosted, and which countries are traversed on the way to reach these locations.
+First we analyze hosting diversity; this shows us how many unique
+countries host a domain.  The more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  We queried DNS from 26 vantage points around the world, which are shown in Figure \ref{fig:world}; we chose this set of locations because they are geographically diverse.  Then we mapped the IP addresses in the DNS responses to their respective countries to determine how many unique countries a domain is hosted in.  Figure~\ref{fig:host_diversity} shows the fraction of domains that are hosted in different numbers of countries; we can see two common hosting cases: 1) CDNs, and 2) a single hosting country.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis---where are these domains hosted, and which countries are traversed on the way to reach these locations.
 
 \begin{figure}[t]
 \centering
@@ -260,7 +261,7 @@ Tromboning Kenyan paths most commonly traverse Mauritius, which is expected cons
   %Traffic that should be kept local is susceptible to surveillance because it transits two well-known surveillance states.  
 
 \begin{finding}[United States as an Outlier]
-The United States hosts 97\% of the content that is accessed from within the country, and only 6 foreign countries---France, Germany, Ireland, Great Britain, and the Netherlands---- host content for the other 3\% of paths.
+The United States hosts 97\% of the content that is accessed from within the country, and only five foreign countries---France, Germany, Ireland, Great Britain, and the Netherlands---host content for the other 3\% of paths.
 \end{finding}
 \noindent
 Many of the results find that Brazilian,
