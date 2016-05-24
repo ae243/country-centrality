@@ -7,16 +7,11 @@ of default Internet paths.
 \begin{figure*}[t]
 \centering
 \includegraphics[width=.9\textwidth]{Current-Traffic_fig}
-\caption{The measurement pipeline to study traffic routes.}
+\caption{Measurement pipeline to study Internet paths from countries to
+  popular domains.}
 \label{fig:pipeline1}
 \end{figure*}
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=.5\textwidth]{Analysis-Pipeline1}
-\caption{The measurement pipeline to analyze traceroutes.}
-\label{fig:analysis_pipeline}
-\end{figure}
 
 \subsection{Measurement Pipeline}
 \label{pipeline}
@@ -73,26 +68,86 @@ is still representative of an Internet user in that country.
 \subsubsection{Path Asymmetry}
 \label{path_sym}
 
-The reverse path is just as important as (and often different from) the
+The reverse path is just as important as (and often different from) the 
 forward path.  
-Previous work has shown that paths are not symmetric most of the time---the forward path from point A to point B does not match the reverse path from point B to point A~\cite{he2005routing}.  Most work on path asymmetry has been done at the AS level, but not at the country level.  Our measurement methods only take the forward path (from client to domain or relay) into account, and not the path from the domain or relay to the client.  
+Previous work has shown that paths are not symmetric most of the
+time---the forward path from point A to point B does not match the
+reverse path from point B to point A~\cite{he2005routing}.  Most work on
+path asymmetry has been done at the AS level, but not at the country
+level.  Our measurements consider only the forward path (from client
+to domain or relay), not the reverse path from the domain or
+relay to the client.   
 
-We conducted a study to measure path asymmetry at the country granularity; if country-level paths are symmetric, then the results of our measurements would be representative of the forward {\it and} reverse paths, but if the country-level paths are asymmetric, then our measurement results only provide a lowerbound on the number of countries that could potentially conduct surveillance.  Using 100 RIPE Atlas probes located around the world, and 8 Amazon EC2 instances, we ran traceroute measurements from every probe to every EC2 instance and from every EC2 instance to every probe.  After mapping the IPs to countries, we analyzed the paths for symmetry.  First, we compared the set of countries on the forward path to the set of countries on the reverse path; this yielded about 30\% symmetry.  What we wanted to know is whether or not the reverse path has more countries on it than the forward path.  We measured how many reverse paths were a subset of the respective forward path; this was the case for 55\% of the paths.  
-
-The results of this measurement are not convincing enough to state that
-country-level paths are symmetric, and therefore our measurements and
-results represent a lower bound on the number of countries that transit
-traffic; our results are a lowerbound on how many unfavorable countries
-transit a client's path. 
+We measured path asymmetry at the country
+granularity. If country-level paths are symmetric, then the results of
+our measurements would be representative of the forward {\it and}
+reverse paths. If the country-level paths are asymmetric, then our
+measurement results only provide a lowerbound on the number of countries
+that could potentially conduct surveillance.  Using 100 RIPE Atlas
+probes located around the world, and eight Amazon EC2 instances, we ran
+traceroute measurements from every probe to every EC2 instance and from
+every EC2 instance to every probe.  After mapping the IPs to countries,
+we analyzed the paths for symmetry.  First, we compared the set of
+countries on the forward path to the set of countries on the reverse
+path; this yielded about 30\% symmetry.  What we wanted to know is
+whether or not the reverse path has more countries on it than the
+forward path.  We measured how many reverse paths were a subset of the
+respective forward path; this was the case for 55\% of the paths.   
+This level of asymmetry suggests that our results represent a lower
+bound on the number of countries that transit traffic; our results are a
+lower bound on how many unfavorable countries transit a client's
+path. It also suggests that while providing lower bounds on
+transnational detours is feasible, designing systems to completely
+prevent these detours on both forward and reverse paths may be particularly
+challenging, if not impossible. 
 
 \subsubsection{Traceroute Origination and Destination Selection}
-As discussed above, we used RIPE Atlas probes in each of the five countries we studied.  Each of these countries had varying amounts of probes hosted in the country, ranging from about 75 probes to many hundreds.  Because of the resource restrictions, we could not use all probes in each of the countries.  We selected the set of probes that had unique ASes in the country to get the widest representation of origination (starting) points.
 
-For destinations, we used the Alexa Top 100 domains in each of the respective countries, as well as the 3rd party domains that are requested as part of an original web request.  To obtain these 3rd party domains we {\tt curl} (fetch) each of the Top 100 domains, but we must do so from within the country we are studying.  There is no current functionality to {\tt curl} from RIPE Atlas probes, so we establish a VPN connection within each of these countries to {\tt curl} each domain and extract the 3rd party domains; we {\tt curl} from the client's location in case web sites are customizing content based on the region of the client.
+Each country hosted a different number of RIPE Atlas probes, ranging
+from about 75 probes to many hundreds.  Because of the resource
+restrictions, we could not use all probes in each of the countries.  We
+selected the set of probes that had unique ASes in the country to get
+the widest representation of origination (starting) points.
+
+For destinations, we used the Alexa Top 100 domains in each of the
+respective countries, as well as the third-party domains that are
+requested as part of an original web request.  To obtain these 3rd party
+domains we {\tt curl} (\ie, HTTP fetch) each of the Top 100 domains, but we must
+do so from within the country we are studying.  There is no current
+functionality to {\tt curl} from RIPE Atlas probes, so we establish a
+VPN connection within each of these countries to {\tt curl} each domain
+and extract the third-party domains; we {\tt curl} from the client's
+location in case web sites are customizing content based on the region
+of the client. 
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=.5\textwidth]{Analysis-Pipeline1}
+\caption{Mapping country-level paths from traceroutes.}
+\label{fig:analysis_pipeline}
+\end{figure}
+
 
 \subsubsection{Country Mapping}
 \label{c_map}
-Geolocation services and tools have been studied and proposed, and continue to be a growing research area.  Because that is not the primary focus of our work, we use MaxMind's geolocation service to map IP addresses to their respective countries~\cite{maxmind}.   Our study requires country-level paths, which is a coarser granularity than either city granularity or latitude-longitude granularity.  Previous work has studied the inaccuracy of geolocation services, and found that geolocation at a country-level granularity is more accurate than at finer granularities~\cite{huffaker2011geocompare}.  To address the incompleteness of the data, we cleaned up our IP to country mapping by removing all IP addresses that resulted in a `None' response when querying MaxMind, which causes our results to provide a conservative estimate of the number of countries that paths traverse. It is important to note that removing `None' responses will \textit{always} produce a conservative estimate, and therefore we are \textit{always} underestimating the amount of potential surveillance.  An example of this can be seen in Figure \ref{fig:analysis_pipeline}.  This method provides a lower bound on the number of countries that are included on the path, and therefore a lower bound on the countries that can conduct surveillance.  
+
+Accurate IP geolocation is a challenging problem. We use MaxMind's
+geolocation service to map IP addresses to their respective
+countries~\cite{maxmind}, which is known to contain inaccuracies.
+Fortunately, our study does not require high-precision geolocation; we
+are more interested in providing accurate lower bounds on detours at a
+much coarser granularity.  Fortunately, previous work has found that
+geolocation at a country-level granularity is more accurate than at
+finer granularities~\cite{huffaker2011geocompare}.  In light of these
+concerns, we post-processed our IP to country mapping
+by removing all IP addresses that resulted in a `None' response when
+querying MaxMind, which causes our results to provide a conservative
+estimate of the number of countries that paths traverse. It is important
+to note that removing `None' responses will \textit{always} produce a
+conservative estimate, and therefore we are \textit{always}
+underestimating the amount of potential surveillance.  
+Figure \ref{fig:analysis_pipeline} shows an example of this
+post-prcessing. 
 
 \subsection{Results}
 
