@@ -34,7 +34,7 @@ enter or transit a particular country: Internet protocols have no notion
 of national borders, and interdomain paths depend in large part on
 existing interconnection business relationships (or lack thereof).
 
-Although end-to-end encryption stymie surveillance by
+Although end-to-end encryption stymies surveillance by
 concealing URLs and content, it does not by itself protect all sensitive
 information from prying eyes. First, many websites do not fully support
 encrypted browsing by default; a recent study showed that more than 85\%
@@ -76,7 +76,7 @@ measure the paths not only to the websites corresponding to the
 themselves, but also to the sites hosting any third-party content on
 each of these sites.
 
-Determining where a client's traffic traverses is challenging, for
+Determining which countries a client's traffic traverses is challenging, for
 several reasons.  First, performing direct measurements is more costly
 than passive analysis of BGP routing tables; RIPE Atlas, in particular,
 limits the rate at which one can perform measurements.  As a result, we
@@ -85,10 +85,10 @@ for our study. As we explain in Section~\ref{surv}, we study five
 geographically diverse countries, 
 focusing on countries in each region that are
 making active attempts to thwart transnational Internet paths.  Second,
-IP geolocation--the process of determining the geographic location of an
+IP geolocation---the process of determining the geographic location of an
 IP address---is notoriously challenging, particularly for IP addresses
 that represent Internet infrastructure, rather than end-hosts. We cope
-with this inaccuracy by making conservative estimates on the extent of
+with this inaccuracy by making conservative estimates of the extent of
 routing detours, and by recognizing that our goal is not to pinpoint a
 precise location for an IP address as much as to achieve accurate
 reports of {\em significant} off-path detours to certain countries or
@@ -114,7 +114,7 @@ unfavorable countries~\cite{brazil_history, brazil_break_from_US,
 traffic still traverses surveillance states.  Over 50\% of the top
 domains in Brazil and India are hosted in the United States, and over
 50\% of the paths from the Netherlands to the top domains transit the
-United States.  About half of Kenyan paths to the top domains traverses
+United States.  About half of Kenyan paths to the top domains traverse
 the United States and Great Britain (but the same half does not traverse
 both countries).  Much of this phenomenon is due to ``tromboning'',
 whereby an Internet path starts and ends in a country, yet transits an
