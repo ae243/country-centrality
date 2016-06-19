@@ -1,59 +1,54 @@
-\pdfoutput=1
-\documentclass[10pt,twocolumn]{confpaper}
-
-%%%%%%%%%%%%%%%%%%%%  INCLUDES  %%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\graphicspath{ {./figures/} }
-
-
-%%%%%%%%%%%%%%%%%%%%  LOCALS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\system}{{\em NetASM}}
-
-%%%%%%%%%%%%%%%%%%%%  TITLE/AUTHORS  %%%%%%%%%%%%%%%%%%%%%
-
-\date{}
-\title{\ttlfnt{
-A First Look into Transnational Routing Detours}}
-\author{
-\aufnt{Anne Edmundson, Roya Ensafi, Nick Feamster, Jennifer Rexford} \\
-\affaddr{Princeton University}
-}
+\documentclass[10pt]{sig-alternate-05-2015}
 
 %%%%%%%%%%%%%%%%%%%%  START OF DOCUMENT  %%%%%%%%%%%%%%%%%
 
 \begin{document}
 
+\setcopyright{rightsretained}
+\conferenceinfo{SIGCOMM'16,}{August 22--26, 2015, Florianopolis, Brazil.}
+\isbn{978-1-4503-4424-1.}
+\doi{YOUR UNIQUE DOI}
+\clubpenalty=10000
+\widowpenalty=10000
+
+\title{A First Look into Transnational Routing Detours}
+\author{
+Anne Edmundson, Roya Ensafi, Nick Feamster, Jennifer Rexford \\
+\affaddr{Princeton University}
+}
+\date{}
 \maketitle
 
-%\AcmCopyright
-%\ToAppear
-
-\begin{sloppypar}
-
-\thispagestyle{empty}
 \input{abstract}
 
-\ifthenelse{\equal{\onlyAbstract}{no}}{% !onlyAbstract
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10003456.10003462.10003487.10003488</concept_id>
+<concept_desc>Social and professional topics~Governmental surveillance</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10003033.10003083.10003014</concept_id>
+<concept_desc>Networks~Network security</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+\ccsdesc[500]{Social and professional topics~Governmental surveillance}
+\ccsdesc[300]{Networks~Network security}
+\printccsdesc
+
+\keywords{Surveillance; Routing}
 
 \input{motivation}
-\balance\input{findings}\label{lastpage}
-
-\end{sloppypar}
-
+\input{findings}
 
 \small
-%\setlength{\bibsep}{0pt}
 \setlength{\parskip}{-1pt}
 \setlength{\itemsep}{-1pt}
-% \footnotesize % SPACE
-\balance
 \flushleft\bibliography{paper}
-\bibliographystyle{abbrv}
-%\bibliographystyle{abbrvnat_noaddr} % SPACE
-%\theendnotes % ENDNOTES
-}{% onlyAbstract
-}
+\bibliographystyle{abbrv}{}
 
 \end{document}
 

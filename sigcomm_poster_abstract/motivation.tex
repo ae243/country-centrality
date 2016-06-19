@@ -3,7 +3,7 @@
 When Internet traffic enters a country, it becomes subject to those
 countries' laws.  As a result, users have more need than ever to
 determine---and control---which countries their traffic is traversing.
-An increasing number of countries pass laws that facilitate mass
+As an increasing number of countries pass laws that facilitate mass
 surveillance of their citizens~\cite{
   netherlands_surveillance, uk_bill}, governments
 and citizens are increasingly motivated to divert their Internet traffic
@@ -127,6 +127,18 @@ diverse locations around the world, run traceroutes from the country of interest
 each relay, as well as from each relay to the Alexa Top 100 domains.  After mapping 
 the traceroutes to country-level paths with MaxMind, we measure which countries are 
 avoidable.
+
+Accurate IP geolocation is challenging.  Fortunately, our study does not require high-precision geolocation; we
+are more interested in providing accurate lower bounds on detours at a
+much coarser granularity, and previous work has found that
+geolocation at a country-level granularity is more accurate than at
+finer granularity~\cite{huffaker2011geocompare}.  
+
+%In light of these
+%concerns, we post-processed our IP to country mapping
+%by removing all IP addresses that resulted in a `None' response when
+%querying MaxMind, which causes our results to provide a conservative
+%estimate of the number of countries that paths traverse.
 
 %Given the diversity in hosting sites, there is reason to believe that
 %clients can force their traffic to avoid certain countries using either
