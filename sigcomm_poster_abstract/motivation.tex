@@ -128,6 +128,12 @@ each relay, as well as from each relay to the Alexa Top 100 domains.  After mapp
 the traceroutes to country-level paths with MaxMind, we measure which countries are 
 avoidable.
 
+Accurate IP geolocation is challenging.  Fortunately, our study does not require high-precision geolocation; we
+are more interested in providing accurate lower bounds on detours at a
+much coarser granularity, and previous work has found that
+geolocation at a country-level granularity is more accurate than at
+finer granularity~\cite{huffaker2011geocompare}. 
+
 %Given the diversity in hosting sites, there is reason to believe that
 %clients can force their traffic to avoid certain countries using either
 %open resolvers or an overlay network.  Before measuring how avoidable a
