@@ -348,4 +348,90 @@ Copyright 200X ACM X-XXXXX-XX-X/XX/XX ...\$5.00}
 \usepackage{multirow}
 \usepackage{xspace}
 
+%%%
+%%% ACM Formatting
+%%%
+
+% Need Copyright Year and Copyright Data to be user definable (in .tex file).
+% Gerry Nov. 30th. 1999
+\newtoks\copyrtyr
+\newtoks\acmcopyr
+\newtoks\boilerplate
+\global\acmcopyr={X-XXXXX-XX-X/XX/XX}  % Default - 5/11/2001 *** Gerry
+\global\copyrtyr={\the\year}                % Default - 3/3/2003 *** Gerry
+\def\acmPrice#1{\gdef\@acmPrice{#1}}
+\acmPrice{} %article price  % Changed to 15 - June 2012 - Gerry
+
+
+\def\CopyrightYear#1{\global\copyrtyr{#1}}
+\def\crdata#1{\global\acmcopyr{#1}}
+\def\permission#1{\global\boilerplate{#1}}
+
+% ISBN
+%
+\def\isbn#1{\global\acmcopyr={#1}}
+\isbn{978-1-4503-2138-9}
+
+\RequirePackage{url}
+\urlstyle{rm}
+\def\doi#1{\def\@doi{#1}}
+\doi{10.1145/1235}
+\def\printdoi#1{\url{#1}}
+
+
+
+% Copyright
+\RequirePackage{acmcopyright}
+\setcopyright{none}
+
+%
+\global\boilerplate={\@copyrightpermission}
+
+\newtoks\conf
+\newtoks\confinfo
+\def\conferenceinfo#1#2{\global\conf={#1}\global\confinfo{#2}}
+
+\let\@concepts\@empty
+% Support for CCSXML file
+\RequirePackage{comment}
+\excludecomment{CCSXML}
+
+% New concepts scheme
+%
+% The first argument is the significance, the
+% second is the concept(s)
+%
+\newcommand\ccsdesc[2][100]{%
+  \ccsdesc@parse#1~#2~}
+%
+% The parser of the expression Significance~General~Specific
+%
+\def\ccsdesc@parse#1~#2~#3~{%
+  \expandafter\ifx\csname CCS@#2\endcsname\relax
+    \expandafter\gdef\csname CCS@#2\endcsname{\textbullet\textbf{#2} $\to$ }%
+  \g@addto@macro{\@concepts}{\csname CCS@#2\endcsname}\fi
+  \expandafter\g@addto@macro\expandafter{\csname CCS@#2\endcsname}{%
+    \ifnum#1>499\textbf{#3; }\else
+    \ifnum#1>299\textit{#3; }\else
+    #3; \fi\fi}}
+
+\newcommand\printccsdesc{%
+  \ifx\@concepts\@empty\else
+  \if@twocolumn
+    \section*{CCS Concepts}
+    \@concepts
+    \else \small
+    \quotation{\@concepts}%
+    \fi
+    \fi}
+
+\def\doi#1{\def\@doi{#1}}
+\doi{http://dx.doi.org/10.1145/0000000.0000000}
+
+\def\keywords{\if@twocolumn
+\section*{Keywords}
+\else \small
+\quotation
+\fi}
+
 \endinput
