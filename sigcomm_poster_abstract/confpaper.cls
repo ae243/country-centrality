@@ -17,8 +17,9 @@
 %%%
 %%%  Custom variables to be set appropriately.
 %%%
-\newcommand{\AUTHORS}{Nick Feamster}
-\newcommand{\TITLE}{Revealing Utilization at Internet Interconnection Points}
+\newcommand{\AUTHORS}{Anne Edmundson, Roya Ensafi, Nick Feamster,
+  Jennifer Rexford}
+\newcommand{\TITLE}{A First Look into Transnational Routing Detours}
 \newcommand{\KEYWORDS}{Keywords}
 \newcommand{\CONFERENCE}{Conference}
 \newcommand{\PAGENUMBERS}{yes} % "yes" or "no"
@@ -91,7 +92,7 @@
 \RequirePackage[nohead,
 % SIGCOMM/ACM
     left=0.75in,right=0.75in,top=0.75in, bottom=1in,
-    columnsep=0.33in
+    columnsep=0.25in
 % USENIX
 %    left=1.0in,right=1.0in,top=1.0in,
 %    footskip=0.5in,bottom=1.0in,   % Room for page numbers
@@ -291,15 +292,18 @@
 \begin{acmcr}
 \parbox[b]{20pc}{%
 \footnotesize
-Permission to make digital or hard copies of all or part of this work
-for personal or classroom use is granted without fee provided that
-copies are not made or distributed for profit or commercial advantage
-and that copies bear this notice and the full citation on the first
-page.  To copy otherwise, to republish, to post on servers or to
-redistribute to lists, requires prior specific permission and/or a fee.
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are not
+made or distributed for profit or commercial advantage and that copies bear
+this notice and the full citation on the first page. Copyrights for components
+of this work owned by others than ACM must be honored. Abstracting with credit
+is permitted. To copy otherwise, or republish, to post on servers or to
+redistribute to lists, requires prior specific permission and/or a fee. Request
+permissions from Permissions@acm.org.
 
-{\em Conference}, Month Date--Date, Year, Location\\
-Copyright 200X ACM X-XXXXX-XX-X/XX/XX ...\$5.00}
+{\em SIGCOMM'16}, August 22--26, 2016, Florian\'{o}polis, Brazil.\\
+Copyright 2016 ACM. ISBN 978-1-4503-4193-6/16/08...\$15.00\\
+DOI: \url{http://dx.doi.org/10.1145/2934872.2934886}}
 \end{acmcr}}
 
 %%%
@@ -357,6 +361,13 @@ Copyright 200X ACM X-XXXXX-XX-X/XX/XX ...\$5.00}
 \newtoks\copyrtyr
 \newtoks\acmcopyr
 \newtoks\boilerplate
+
+%% \setcopyright{rightsretained}
+%% \conferenceinfo{SIGCOMM'16,}{August 22--26, 2016, Florianopolis, Brazil.}
+%% \isbn{978-1-4503-4424-1.}
+%% \doi{YOUR UNIQUE DOI}
+
+
 \global\acmcopyr={X-XXXXX-XX-X/XX/XX}  % Default - 5/11/2001 *** Gerry
 \global\copyrtyr={\the\year}                % Default - 3/3/2003 *** Gerry
 \def\acmPrice#1{\gdef\@acmPrice{#1}}
@@ -381,8 +392,8 @@ Copyright 200X ACM X-XXXXX-XX-X/XX/XX ...\$5.00}
 
 
 % Copyright
-\RequirePackage{acmcopyright}
-\setcopyright{none}
+%\RequirePackage{acmcopyright}
+%\setcopyright{none}
 
 %
 \global\boilerplate={\@copyrightpermission}
