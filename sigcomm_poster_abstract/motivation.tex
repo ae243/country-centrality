@@ -3,9 +3,9 @@
 When Internet traffic enters a country, it becomes subject to those
 countries' laws.  As a result, users have more need than ever to
 determine---and control---which countries their traffic is traversing.
-An increasing number of countries pass laws that facilitate mass
+As an increasing number of countries pass laws that facilitate mass
 surveillance of their citizens~\cite{
-  netherlands_surveillance, uk_bill}, governments
+  netherlands_surveillance}, governments
 and citizens are increasingly motivated to divert their Internet traffic
 from countries that perform surveillance (notably, the United
 States~\cite{brazil_cable}).
@@ -55,7 +55,7 @@ network.  Our contributions include:
   United States. 
 \item A preliminary evaluation of how open DNS resolvers and overlay
   network relays can help citizens and governments discover and use
-  network paths that avoid certain countries.
+ paths that avoid certain countries.
 \end{itemize}
 \noindent
 We find that hosting for many popular websites lacks diversity; in many
@@ -81,18 +81,19 @@ Our measurement study tackles two questions: (1)~Which countries do {\em
 can we use to take advantage of hosting and path diversity to help governments
 and citizens better control transnational Internet paths?
 
-Determining where a client's Internet traffic flows is complicated by
-the complexity of websites.  Many
-websites embed content from other domains, which are most likely
-hosted in different locations.  Therefore, the client has to make
-additional web requests, which take different paths.  One initial web
-request can result in content being fetched from many servers located
-around the world, and to see where this traffic flows requires knowledge
-of all paths from the client to requested sources (and all the requested
-sources to the client).  Therefore, the first step of our measurement 
-method is to {\tt curl} each of the Alexa Top 100 domains, and extract 
-the third party domains from the response body.  Next, we use RIPE Atlas 
-probes in the country of interest to locally resolve each domain and run 
+%Determining where a client's Internet traffic flows is complicated by
+%the complexity of websites.  Many
+%websites embed content from other domains, which are most likely
+%hosted in different locations.  Therefore, the client has to make
+%additional web requests, which take different paths.  One initial web
+%request can result in content being fetched from many servers located
+%around the world, and to see where this traffic flows requires knowledge
+%of all paths from the client to requested sources (and all the requested
+%sources to the client).  Therefore, the first step of our measurement 
+%method is to {\tt curl} each of the Alexa Top 100 domains, and extract 
+%the third party domains from the response body.  Next, we use RIPE Atlas 
+The first step of our measurement method uses RIPE Atlas 
+probes in the country of interest to locally resolve each domain in the Alexa Top 100 and run 
 traceroutes to the IP addresses in the DNS responses.  The measurements 
 were run using Paris traceroute and each (probe, destination IP) pair 
 was used twice: once using ICMP traceroute and once using TCP traceroute. 
@@ -121,16 +122,15 @@ local, by exploiting local paths that BGP does not select by default.
 To evaluate the use of open resolvers as a tool for country avoidance, we
 query open resolvers in geographically diverse locations around the world 
 using the Alexa Top 100 domains.  Then we use RIPE Atlas probes to traceroute 
-to the responses, and use MaxMind to generate country-level paths.  To evaluate 
+to the responses, and map them to country-level paths.  To evaluate 
 overlay network relays for country-avoidance, we establish 12 relays in geographically 
 diverse locations around the world, run traceroutes from the country of interest to 
 each relay, as well as from each relay to the Alexa Top 100 domains.  After mapping 
-the traceroutes to country-level paths with MaxMind, we measure which countries are 
+the traceroutes to country-level paths, we measure which countries are 
 avoidable.
 
-Accurate IP geolocation is challenging.  Fortunately, our study does not require high-precision geolocation; we
-are more interested in providing accurate lower bounds on detours at a
-much coarser granularity, and previous work has found that
+Accurate IP geolocation is challenging, but our study does not require high-precision geolocation; we
+are interested in providing accurate lower bounds on detours at coarse granularity, and previous work has found that
 geolocation at a country-level granularity is more accurate than at
 finer granularity~\cite{huffaker2011geocompare}. 
 

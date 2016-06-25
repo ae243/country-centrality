@@ -303,7 +303,7 @@ permissions from Permissions@acm.org.
 
 {\em SIGCOMM'16}, August 22--26, 2016, Florian\'{o}polis, Brazil.\\
 Copyright 2016 ACM. ISBN 978-1-4503-4193-6/16/08...\$15.00\\
-DOI: \url{http://dx.doi.org/10.1145/2934872.2934886}}
+DOI: \url{http://dx.doi.org/10.1145/2934872.2959081}}
 \end{acmcr}}
 
 %%%
@@ -386,7 +386,7 @@ DOI: \url{http://dx.doi.org/10.1145/2934872.2934886}}
 \RequirePackage{url}
 \urlstyle{rm}
 \def\doi#1{\def\@doi{#1}}
-\doi{10.1145/1235}
+\doi{http://dx.doi.org/10.1145/2934872.2959081}
 \def\printdoi#1{\url{#1}}
 
 
@@ -437,7 +437,7 @@ DOI: \url{http://dx.doi.org/10.1145/2934872.2934886}}
     \fi}
 
 \def\doi#1{\def\@doi{#1}}
-\doi{http://dx.doi.org/10.1145/0000000.0000000}
+\doi{http://dx.doi.org/10.1145/2934872.2959081}
 
 \def\keywords{\if@twocolumn
 \section*{Keywords}
