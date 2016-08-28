@@ -1,0 +1,85 @@
+\pdfoutput=1
+\documentclass[10pt,twocolumn]{confpaper}
+
+%%%%%%%%%%%%%%%%%%%%  INCLUDES  %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\graphicspath{ {./figures/} }
+
+
+%%%%%%%%%%%%%%%%%%%%  LOCALS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newcommand{\system}{{\em NetASM}}
+
+\usepackage{cancel}
+\usepackage{longtable}
+\usepackage[normalem]{ulem}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{dcolumn}
+\usepackage{subcaption}
+\usepackage{siunitx}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\newtheorem{finding}{Finding}[section]
+
+
+%%%%%%%%%%%%%%%%%%%%  TITLE/AUTHORS  %%%%%%%%%%%%%%%%%%%%%
+
+\date{}
+\title{\ttlfnt{
+Characterizing and Avoiding Routing Detours \\Through Surveillance
+States}}
+%\author{}
+\author{
+\aufnt{Anne Edmundson, Roya Ensafi, Nick Feamster, Jennifer Rexford} \\
+\affaddr{Princeton University}
+}
+
+%%%%%%%%%%%%%%%%%%%%  START OF DOCUMENT  %%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+%\AcmCopyright
+%\ToAppear
+
+\begin{sloppypar}
+
+\thispagestyle{empty}
+\input{abstract}
+
+\ifthenelse{\equal{\onlyAbstract}{no}}{% !onlyAbstract
+
+\input{intro}
+\input{surveillance}
+\input{datasets}
+%\input{measuring_surv}
+\input{avoid_results}
+\input{discussion}
+\input{related_work}
+\input{conclusion}
+\label{lastpage}
+
+\end{sloppypar}
+
+
+\small
+%\setlength{\bibsep}{0pt}
+\setlength{\parskip}{-1pt}
+\setlength{\itemsep}{-1pt}
+% \footnotesize % SPACE
+\balance
+\flushleft{\footnotesize\bibliography{paper}}
+\bibliographystyle{abbrv}
+%\bibliographystyle{abbrvnat_noaddr} % SPACE
+%\theendnotes % ENDNOTES
+}{% onlyAbstract
+}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%  END OF DOCUMENT  %%%%%%%%%%%%%%%%%%%%

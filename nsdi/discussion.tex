@@ -1,0 +1,33 @@
+\section{Discussion}
+\label{discussion}
+
+\paragraph{Avoiding multiple countries.} 
+We have studied only the extent to which Internet paths can be
+engineered to avoid a {single} country.  Yet, avoiding a single country
+may force an Internet path into {\em other} unfavorable
+jurisdictions. This possibility suggests that we should also be
+exploring the feasibility of avoiding multiple surveillance states (\eg,
+the ``Five Eyes'') or perhaps even entire regions. It is already clear
+that avoiding certain combinations of countries is not possible, at
+least given the current set of relays; for
+example, to avoid the US, Kenyan clients rely on the relay located in
+Ireland, so avoiding both countries is often impossible.
+
+\paragraph{The evolution of routing detours and avoidance over time.}
+Our study is based on a snapshot of Internet paths. Over time, paths
+change, hosting locations change, IXPs are built, submarine cables are
+laid, and surveillance states change.  Future work can and should
+involve exploring how these paths evolve over time, and analyzing the
+relative effectiveness of different strategies for controlling traffic flows.
+
+\paragraph{Isolating DNS diversity vs. path diversity.}
+In our experiments, the overlay network relays perform DNS lookups from
+geographically diverse locations, which provides some level of DNS
+diversity in addition to the path diversity that the relays inherently
+provide. This approach somewhat conflates the benefits of DNS diversity
+with the benefits of path diversity and in practice may increase
+clients' vulnerability to surveillance, since each relay is performing
+DNS lookups on each client's behalf. We plan to conduct additional
+experiments where the client relies on its local DNS resolver to map
+domains to IP addresses, as opposed to relying on the relays for both
+DNS resolution and routing diversity.

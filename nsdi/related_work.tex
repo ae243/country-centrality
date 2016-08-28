@@ -1,0 +1,51 @@
+\section{Related Work}
+\label{related}
+
+\paragraph{Nation-state routing analysis.}  Recently, Shah and
+Papadopoulos measured international BGP detours (paths that originate in
+one country, cross international borders, and then return to the
+original country)~\cite{shah2015characterizing}.  Using BGP routing
+tables, they found 2 million detours in each month of their study (out
+of 7 billion total paths), and they then characterized the detours based
+on detour dynamics and persistence.  Our work differs by actively
+measuring traceroutes (actual paths), as opposed to analyzing BGP
+routes.  This difference is fundamental as BGP provides the AS path
+announced in BGP update messages, which is not necessarily the same as
+the actual path of data packets.  Obar and Clement analyzed traceroutes
+that started and ended in Canada, but ``boomeranged'' through the United
+States (``boomerang'' is another term for tromboning), and argued that
+this is a violation of Canadian network
+sovereignty~\cite{obar2012internet}.  Most closely related to our work,
+Karlin et al. developed a framework for country-level
+routing analysis to study how much influence each country has over
+interdomain routing~\cite{karlin2009nation}.  This work measures the
+centrality of a country to routing and uses AS-path inference to measure
+and quantify country centrality, whereas our work uses active
+measurements and measures avoidability of a given country. 
+
+\paragraph{Mapping national Internet topologies.}  In 2011, Roberts et al. described
+a method for mapping national networks of ASes, identifying ASes that
+act as points of control in the national network, and measuring the
+complexity of the national network~\cite{roberts2011mapping}.  There
+have also been a number of studies that measured and classified the
+network within a country.  Wahlisch et al. measured and classified the
+ASes on the German Internet~\cite{wahlisch2010framework,
+  wahlisch2012exposing}, Zhou et al. measured the complete
+Chinese Internet topology at the AS level~\cite{zhou2007chinese}, and
+Bischof et al. characterized the current state of Cuba's
+connectivity with the rest of the world~\cite{bischof2015and}.
+Interconnectivity has also been studied at the continent level; Gupta
+et al. first looked at ISP interconnectivity within
+Africa~\cite{gupta2014peering}, and it was studied later by Fanou et al.~\cite{fanou2015diversity}.
+
+
+\paragraph{Circumvention Systems.}  There has been research into
+circumvention systems, particularly for censorship circumvention, that
+is related this work, but not sufficient for surveillance circumvention.
+Tor is an anonymity system that uses three relays and layered encryption
+to allow users to communicate anonymously~\cite{dingledine2004tor}.
+VPNGate is a public VPN relay system aimed at circumventing national
+firewalls~\cite{nobori2014vpn}.  Unfortunately, VPNGate does not allow a
+client to choose any available VPN, which makes surveillance avoidance
+harder.
+
