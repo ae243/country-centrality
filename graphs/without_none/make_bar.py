@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
+from pylab import rcParams
+rcParams['figure.figsize'] = 10,10
 
 f = open(sys.argv[1], 'r')
 x = []
@@ -29,10 +31,10 @@ y_pos = np.arange(len(objects))
 performance = y
   
 plt.bar(y_pos, performance, align='center', alpha=0.5)
-plt.xticks(y_pos, objects)
+plt.xticks(y_pos, objects, fontsize=14)
 locs, labels = plt.xticks()
 plt.setp(labels, rotation=90)
-plt.ylabel('Number of Paths that Contain each Country')
-
+plt.ylabel('Number of Paths that Contain each Country', fontsize=14)
+plt.tight_layout()
 plt.savefig('tex_demo')
 plt.show()
