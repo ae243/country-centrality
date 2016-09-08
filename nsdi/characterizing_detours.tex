@@ -16,7 +16,7 @@ of default Internet paths.
 \subsection{Measurement Pipeline}
 \label{pipeline}
 
-Figure \ref{fig:analysis_pipeline} summarizes our measurement
+Figures \ref{fig:pipeline1} and \ref{fig:analysis_pipeline} summarizes our measurement
 process, which the rest of this section describes in detail.  We analyze
 traceroute measurements to discover which countries are on the path from
 a client in a particular country to a popular domain.  Using traceroutes
@@ -159,7 +159,7 @@ row.  For example, the United States is the endpoint of 77\% of the
 paths that originate in Brazil.  A ``-'' represents the case where no
 paths ended in that country.  For example, no Brazilian paths terminated in
 South Africa. Table \ref{tab:transit} shows the fraction of paths that
-transit certain countries, with a row for each country that is transited.
+transit (or end in) certain countries, with a row for each country that is transited.
 
 \begin{finding}[Hosting Diversity]
 About half of the top domains in each of the five countries studied are hosted in a single country.  The other half are located in two or more different countries.
