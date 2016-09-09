@@ -11,6 +11,9 @@ creating additional network-layer paths with the use of overlay nodes.
 We discuss our measurement methods, develop an avoidance metric and
 algorithm, and present our results.
 
+\annie{Possibly add a ``Naive Approaches'' subsection here to discuss 
+why encryption, Tor, etc. don't solve our problem?}
+
 \subsection{Measurement Approach}
 \label{avoid_pipelines}
 
@@ -279,3 +282,5 @@ number of countries involved in tromboning paths.
 \end{finding}
 \noindent
 For the cases where there were relays located in one of the five studied countries, we evaluated how effectively the use of relays kept local traffic local.  This evaluation was possible for Brazil and the United States.  Tromboning Brazilian paths decreased from 13.2\% without relays to 9.7\% with relays; when relays are used, all tromboning paths goes only to the United States.  With the use of relays, there was only 1.3\% tromboning paths for a United States client, whereas without relays there was 11.2\% tromboning paths.  For the 1.2\% of paths that trombones from the United States, it goes only to Ireland.
+
+\annie{add a subsection or subsubsection on the additional that open resolvers provide}
