@@ -1,0 +1,16 @@
+\section{RANSOM: Implementation}
+Our prototype implementation of RANSOM is based on a series of relays, an oracle, and 
+a client. All RANSOM software can be found at ... \annie{I'll add in wherever we end 
+putting it anonymously}
+
+{\bf Relays.}  We established three relays; one in Brazil, one in Germany, and 
+one in Singapore.  They are running as Ubuntu Virtual Private Servers (VPSs) with 
+Squid as the proxy server.  It is also running the RANSOM Relay software.
+
+{\bf Oracle.}  The oracle is a Fujitsu RX200 S8 server with dual, 
+eight-core 2.8GHz Intel Xeon E5 2680 v2 processors with 256GB RAM running the 
+Springdale distribution of Linux. It is running the RANSOM Oracle software.
+
+{\bf Client.} For the purposes of the system evaluation, we set up a client 
+machine in the Netherlands, which simply accesses web content and uses the PAC 
+file.
