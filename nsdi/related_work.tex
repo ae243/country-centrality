@@ -38,8 +38,7 @@ Interconnectivity has also been studied at the continent level; Gupta
 et al. first looked at ISP interconnectivity within
 Africa~\cite{gupta2014peering}, and it was studied later by Fanou et al.~\cite{fanou2015diversity}.
 
-
-\paragraph{Circumvention Systems.}  There has been research into
+\paragraph{Circumvention and Routing Systems.}  There has been research into
 circumvention systems, particularly for censorship circumvention, that
 is related this work, but not sufficient for surveillance circumvention.
 Tor is an anonymity system that uses three relays and layered encryption
@@ -47,5 +46,11 @@ to allow users to communicate anonymously~\cite{dingledine2004tor}.
 VPNGate is a public VPN relay system aimed at circumventing national
 firewalls~\cite{nobori2014vpn}.  Unfortunately, VPNGate does not allow a
 client to choose any available VPN, which makes surveillance avoidance
-harder.
+harder.  Another system, Alibi Routing, is a peer-to-peer system that 
+uses round trip times to prove that that a client's packets did 
+not traverse a forbidden country or region~\cite{levin2015alibi}; our work differs by measuring 
+which countries a client's packets would (and do) traverse.  Our work then 
+uses active measurements to determine the best path for a client wishing 
+to connect to a server.  RON, Resilient Overlay Networks, is an overlay network that 
+routes around failures, whereas our overlay network routes around countries~\cite{andersen2001resilient}.
 

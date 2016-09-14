@@ -148,14 +148,14 @@ a path to that avoid the specified country).
 
 The oracle applies this decision process to each domain, and generates a PAC 
 file, which specifies which domains should be accessed through which proxy.  A 
-sample PAC file is shown in Figure \ref{fig:example_pac}; in this example, proxy 
+sample PAC file is shown in Listing \ref{lst:pac}; in this example, proxy 
 1.2.3.4:3128 should be used when accessing {\tt www.google.com}, but proxy 
 5.6.7.8:3128 should be used when accessing {\tt www.twitter.com}.  Once the PAC 
 file is generated based on the decision chain above, it is published to a URL 
 of the format $<$client\_country$>$\_$<$country\_to\_avoid$>$\_pac.pac.  The client 
 simply uses this URL to specify their proxy configuration.
 
-\lstinputlisting[language=JavaScript, frame=single, basicstyle=\footnotesize, caption={An example PAC file.}]{example_pac.pac}
+\lstinputlisting[label={lst:pac}, language=JavaScript, frame=single, basicstyle=\footnotesize, caption={An example PAC file.}]{example_pac.pac}
 
 As paths are re-computed every hour, the PAC file is also re-computed and 
 published every hour.
