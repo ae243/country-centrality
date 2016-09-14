@@ -108,6 +108,13 @@ to Y domains changed every one hour.  As it takes approximately 30 minutes to
 compute all paths, \system{} re-computes the paths every one hour to incorporate 
 the most recent country-level paths in the system.
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=.5\textwidth]{client_to_relay_to_domain}
+\caption{The path of a web request through a \system{} relay, to the domain, and back.}
+\label{fig:path_components}
+\end{figure}
+
 As seen in Figure \ref{fig:path_components}, there are four path components 
 when a client accesses web content through \system{}.  The system measures three 
 out of the four paths; the reverse path from the domains (servers) to the relays 
@@ -147,6 +154,8 @@ sample PAC file is shown in Figure \ref{fig:example_pac}; in this example, proxy
 file is generated based on the decision chain above, it is published to a URL 
 of the format $<$client\_country$>$\_$<$country\_to\_avoid$>$\_pac.pac.  The client 
 simply uses this URL to specify their proxy configuration.
+
+\lstinputlisting[language=JavaScript, frame=single, basicstyle=\footnotesize, caption={An example PAC file.}]{example_pac.pac}
 
 As paths are re-computed every hour, the PAC file is also re-computed and 
 published every hour.
