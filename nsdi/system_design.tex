@@ -1,12 +1,12 @@
-\section{RANSOM: System Design}
+\section{\system{}: System Design}
 In light of the results presented in the previous section, we see that an 
 overlay network can significantly help a client avoid any given country.  
-Therefore, we have designed and developed a system, RANSOM, that allows users 
+Therefore, we have designed and developed a system, \system{}, that allows users 
 to route around a specified country.
 
 \subsection{Architecture}
 
-There are three main components to RANSOM: the oracle, the relays, and the 
+There are three main components to \system{}: the oracle, the relays, and the 
 clients.  Figure \ref{fig:arch} shows which components communicate with 
 eachother and in which direction the communication occurs.  The relays run as 
 proxy servers in addition to periodically measuring paths from itself to the 
@@ -18,7 +18,7 @@ relay-to-domain paths, as well as calculating various other paths.  Using a RIPE
 now on) to the relays, and the paths from the client to the domains.  Once these
  paths are mapped to the country level, the oracle can generate and publish a 
 Proxy Autoconfiguration (PAC) file, which allows the client to easily configure 
-they're browser to use RANSOM by specifying the URL where the PAC file resides.
+they're browser to use \system{} by specifying the URL where the PAC file resides.
   The PAC file specifies which proxy to use when accessing a specific domain, 
 or whether or not to use any proxy.  More detail are discussed in the following 
 sections.
@@ -26,33 +26,33 @@ sections.
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{architecture}
-\caption{RANSOM architecture.}
+\caption{\system{} architecture.}
 \label{fig:arch}
 \end{figure}
 
 \subsection{Goals}
-Here we highlight the main goals of RANSOM, as well as challenges that are out 
+Here we highlight the main goals of \system{}, as well as challenges that are out 
 of the scope of this work.
 
-{\bf Foreign Country Avoidance.}  The primary goal of RANSOM is to avoid a given
- country when accessing web content.  RANSOM should provide clients a way to 
+{\bf Foreign Country Avoidance.}  The primary goal of \system{} is to avoid a given
+ country when accessing web content.  \system{} should provide clients a way to 
 route around a specified country, while still being able to access the desired 
 domain.
 
-{\bf Usability.} RANSOM should be designed in a way that is accessible to and 
+{\bf Usability.} \system{} should be designed in a way that is accessible to and 
 easy to use by clients around the world.  It should require as little effort by 
 the client as possible.
 
 {\bf Scalability.}  This country avoidance system should be able to scale to 
-large numbers of users.  Therefore, RANSOM should be able to handle the addition
+large numbers of users.  Therefore, \system{} should be able to handle the addition
  of relays, as well as be cost-effective in terms of resources required.
 
-{\bf Non-goals.}  There are some challenges that RANSOM does not attempt to 
+{\bf Non-goals.}  There are some challenges that \system{} does not attempt to 
 solve.  The system does not address the notion of anonymity; it routes are 
 countries (for reasons such as avoiding mass surveillance), but it does not 
 attempt to keep users anonymous.  
 
-Additionally, RANSOM does not solve the problem of domestic surveillance (for 
+Additionally, \system{} does not solve the problem of domestic surveillance (for 
 example, a client in the United States attempting to avoid surveillance by the 
 United States).  This is a challenging problem, and asks for future research, 
 but this is out of the scope of our work.
@@ -105,11 +105,11 @@ AS-level paths change.  To measure how often country-level paths change, we
 computed the paths from relays to domains once every two hours and once every 
 hour.  On average, the path to X domains changed every two hours, and the path 
 to Y domains changed every one hour.  As it takes approximately 30 minutes to 
-compute all paths, RANSOM re-computes the paths every one hour to incorporate 
+compute all paths, \system{} re-computes the paths every one hour to incorporate 
 the most recent country-level paths in the system.
 
 As seen in Figure \ref{fig:path_components}, there are four path components 
-when a client accesses web content through RANSOM.  The system measures three 
+when a client accesses web content through \system{}.  The system measures three 
 out of the four paths; the reverse path from the domains (servers) to the relays 
 is challenging to measure due to a lack of vantage points.  Despite not 
 calculating all of the country-level path components, we can show that the 
@@ -152,16 +152,16 @@ As paths are re-computed every hour, the PAC file is also re-computed and
 published every hour.
 
 \subsection{Scaling the System}
-In addition to usability, another goal of RANSOM is scalability.  The system 
+In addition to usability, another goal of \system{} is scalability.  The system 
 must support increasing numbers of users.  
 
 {\bf Adding Relays.} As the number of clients increase, their locations may be 
 extremely diverse. This calls for a geographically diverse set of relays, as 
 well as a set of relays that can grow with the number of clients (duplicates in 
-the same locations used to balance the load).  RANSOM is 
+the same locations used to balance the load).  \system{} is 
 designed in a modular way, and therefore, adding relays is quick, easy, and 
 simple.  To add a relay, the system operator must set up a machine as a proxy 
-server, install the RANSOM relay software, and update the oracle's list of 
+server, install the \system{} relay software, and update the oracle's list of 
 relays.  From that point forward, paths will be computed to and from the new 
 relay, and clients will be using it as a proxy.  
 
@@ -174,7 +174,7 @@ oracle 2 handles all clients elsewhere).  Both oracles will publish the PAC file
 to the same server, which causes no changes for the client.
 
 \subsection{Fault Tolerance}
-RANSOM is resilient to crashed system components, such as a crashed relay or 
+\system{} is resilient to crashed system components, such as a crashed relay or 
 oracle.  
 
 {\bf Failed Relay.} If a relay becomes unresponsive, this issue is handled by 
@@ -195,7 +195,7 @@ when the oracle fails.  The clients will simply be using stale paths, which are
 likely to be the same original paths, but not always.  
 
 \subsection{Additional Features}
-We have implemented RANSOM as discussed above, but the system design allows for 
+We have implemented \system{} as discussed above, but the system design allows for 
 additional features to be added in the future to enhance the system.
 
 {\bf Privacy-preserving features at relay.}  Additional features can be 

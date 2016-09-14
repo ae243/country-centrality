@@ -1,22 +1,24 @@
 \begin{abstract}
-An increasing number of countries are passing laws that facilitate the
-mass surveillance of Internet traffic. In response, governments and
-citizens are increasingly paying attention to the countries that their
-Internet traffic traverses. In some cases, countries are taking extreme
-steps, such as building new Internet Exchange Points (IXPs), which allow networks to interconnect 
-directly, and encouraging local interconnection
-to keep local traffic local. We find that although many of these efforts
-are extensive, they are often futile, due to the inherent lack of
-hosting and route diversity for many popular sites. By measuring the country-level paths to 
-popular domains, we characterize transnational routing detours.  We find that traffic is traversing known surveillance 
-states, even when the traffic originates and ends in a country that does not conduct mass surveillance.  Then, we investigate how
-clients can use overlay network relays and the open DNS resolver
-infrastructure to prevent their traffic from traversing certain jurisdictions. We find
- that 84\% of paths originating in Brazil traverse the United States, 
-but when relays are used for country avoidance, only 37\% of Brazilian paths 
-traverse the United States.  Using the open DNS resolver infrastructure allows Kenyan clients 
-to avoid the United States on 17\% more paths.  We then design and implement a system, RANSOM, that 
-allows a client to route their traffic around a country they wish to avoid. Our evaluation 
-shows that RANSOM achieves more country avoidance than default paths while having a
-negligible impact on performance.
+  Many countries now engage in interference, degradation, blocking, or
+  surveillance of Internet traffic.  In response, individuals,
+  organizations, and even entire countries are taking steps to control
+  the geographic regions that their traffic traverses. For example,
+  some countries are building local Internet Exchange Points (IXPs) to
+  prevent domestic traffic from detouring through other
+  countries. Unfortunately, our measurements reveal that many such
+  ongoing efforts are futile, for two reasons: local content is often
+  hosted in foreign countries, and networks within a country often
+  fail to peer with one another. Yet, our work offers hope: we also
+  find that routing traffic through strategically placed relay nodes
+  can reduce transnational routing detours from \xxx{XX--YY\%}; using
+  DNS open resolvers to help clients discover and use different
+  replicas of the same service can also reduce transnational detours
+  by \xxx{XX--YY\%}. Based on these findings, we design and implement
+  \system{}, a lightweight system that automatically routes a client's
+  web traffic around specified countries with no modifications to
+  client software (and in many cases with little performance
+  overhead). Anyone can use \system{} today; we have deployed
+  long-running \system{} Web proxies around the world, released the
+  source code, and provided instructions for configuring a client to
+  use the system.
 \end{abstract}

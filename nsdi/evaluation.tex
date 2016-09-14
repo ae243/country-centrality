@@ -1,5 +1,5 @@
-\section{RANSOM: Evaluation}
-Using the RANSOM implementation, we evaluate the system on it's ability to avoid a given country, performance, and scalability in terms of storage and costs.
+\section{\system{}: Evaluation}
+Using the \system{} implementation, we evaluate the system on it's ability to avoid a given country, performance, and scalability in terms of storage and costs.
 
 \subsection{Country Avoidance}
 As the primary goal of the system is to provide country avoidance for a given 
@@ -18,35 +18,35 @@ the client wished to avoid the United States when accessing the Netherlands top
 \label{fig:avoidance_eval}
 \end{figure}
 
-It is evident that RANSOM helps a client avoid a foreign country (in this case 
+It is evident that \system{} helps a client avoid a foreign country (in this case 
 the United States), as the fraction of domains accessible without traversing 
-the United States without RANSOM is .46 and with RANSOM is .63.  Additionally, 
+the United States without \system{} is .46 and with \system{} is .63.  Additionally, 
 it is clear that adding the first relay provides the greatest increase in 
 provided avoidance, while subsequent relays provide a significantly 
 smaller amount (or no) additional avoidance.
 
 \subsection{Performance}
 A system is not usable if the performance is significantly worse than what a user
-is accustomed to.  To measure the performance of RANSOM, we {\tt wget} each 
+is accustomed to.  To measure the performance of \system{}, we {\tt wget} each 
 of the top 100 domains from the client machine in the Netherlands, while 
 using the PAC file.  Based on the {\tt wget} output, we calculate the number 
 of seconds to access content using our system. Figure \ref{fig:latency} shows 
-the time to access content with RANSOM in comparison to the time to access the 
-same content without RANSOM (using default paths).  
+the time to access content with \system{} in comparison to the time to access the 
+same content without \system{} (using default paths).  
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{latency}
-\caption{Time to get a webpage via RANSOM (red triangles) and default paths (blue squares).}
+\caption{Time to get a webpage via \system{} (red triangles) and default paths (blue squares).}
 \label{fig:latency}
 \end{figure}
 
-We can see that the performance of RANSOM is not significantly worse than that 
-of default paths.  In fact, in some cases the performance of RANSOM is {\it 
+We can see that the performance of \system{} is not significantly worse than that 
+of default paths.  In fact, in some cases the performance of \system{} is {\it 
 better} than that of default paths.  This could be a result of the relays 
 keeping local traffic local, or due to a closer content replica being selected. 
-These results show that RANSOM's performance is comparable to the performance 
-of accessing domains without RANSOM.
+These results show that \system{}'s performance is comparable to the performance 
+of accessing domains without \system{}.
 
 \subsection{Storage}
 As the number of clients increase, and subsequently the number of paths being 
