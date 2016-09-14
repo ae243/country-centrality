@@ -1,25 +1,24 @@
 \begin{abstract}
-  As the Internet has grown up, it has also developed borders.  Certain
-  countries now engage in interference, degradation, blocking, or
+  Many countries now engage in interference, degradation, blocking, or
   surveillance of Internet traffic.  In response, individuals,
   organizations, and even entire countries are taking steps to control
-  the geographic regions that their traffic traverses. For example, some
-  countries are building local Internet Exchange Points (IXPs) to
-  prevent traffic that originates and terminates in the country from
-  taking detours through other foreign countries. Unfortunately, our
-  measurements reveal that many such ongoing efforts are futile, for two
-  reasons: local content is often hosted in foreign countries, and
-  networks within a country often fail to peer with one another. Yet,
-  our work offers hope: we also find that re-routing traffic through
-  strategically placed overlay network relays can reduce transnational
-  routing detours from \xxx{XX--YY\%}; using DNS open resolvers to help
-  clients discover and use different replicas of the same service can
-  also reduce transnational detours by \xxx{XX--YY\%}. Based on these
-  findings, we design and implement \system{}, a lightweight system that
-  automatically routes a client's web traffic around specified countries
-  with no modifications to client software (and in many cases with
-  little performance overhead). Anyone can use \system{} today; we have
-  deployed long-running \system{} Web proxies around the world, released the
-  source code, and provided detailed instructions for configuring a client
- to use the system.
+  the geographic regions that their traffic traverses. For example,
+  some countries are building local Internet Exchange Points (IXPs) to
+  prevent domestic traffic from detouring through other
+  countries. Unfortunately, our measurements reveal that many such
+  ongoing efforts are futile, for two reasons: local content is often
+  hosted in foreign countries, and networks within a country often
+  fail to peer with one another. Yet, our work offers hope: we also
+  find that routing traffic through strategically placed relay nodes
+  can reduce transnational routing detours from \xxx{XX--YY\%}; using
+  DNS open resolvers to help clients discover and use different
+  replicas of the same service can also reduce transnational detours
+  by \xxx{XX--YY\%}. Based on these findings, we design and implement
+  \system{}, a lightweight system that automatically routes a client's
+  web traffic around specified countries with no modifications to
+  client software (and in many cases with little performance
+  overhead). Anyone can use \system{} today; we have deployed
+  long-running \system{} Web proxies around the world, released the
+  source code, and provided instructions for configuring a client to
+  use the system.
 \end{abstract}
