@@ -40,7 +40,7 @@ information from prying eyes. First, many websites do not fully support
 encrypted browsing by default; a recent study showed that more than 85\%
 of the most popular health, news, and shopping sites do not encrypt by
 default~\cite{what_isps_can_see}; migrating a website to HTTPS is
-challenging doing so requires all third-party domains on the site
+challenging, and doing so requires all third-party domains on the site
 (including advertisers) to use HTTPS.  Second, even encrypted traffic
 may still reveal a lot about user behavior: the presence of any
 communication at all may be revealing, and website fingerprinting can
@@ -72,7 +72,7 @@ provides AS-level granularity, which is often too coarse to make strong
 statements about which countries that traffic is traversing.  In
 contrast, we measure traffic routes from RIPE Atlas probes in five
 countries to the Alexa Top 100 domains for each country; we directly
-measure the paths not only to the websites corresponding to the
+measure the paths not only to the websites corresponding to
 themselves, but also to the sites hosting any third-party content on
 each of these sites.
 
@@ -133,23 +133,18 @@ certain countries, yet the effectiveness of each technique also depends
 on the county.  For example, Brazilian clients could completely avoid
 Spain, Italy, France, Great Britain, Argentina, and Ireland (among
 others), even though the default paths to many popular Brazilian sites
-traverse these countries. Additionally, overlay network relays can keep
-local traffic local: by using relays in the client's country, fewer
-paths trombone out of the client's country.  The percentage of
-tromboning paths from the United States decreases from 11.2\% to 1.3\%
-when clients take advantage of a small number of overlay network relays.
-
-We also find that some of the most prominent surveillance states are
+traverse these countries. We also find that some of the most prominent surveillance states are
 also some of the least avoidable countries.  For example, many countries
 depend on ISPs in the United States, a known surveillance state, for
-connectivity to popular sites and content. Brazil, India, Kenya, and
-the Netherlands must traverse the United States to reach many of the
-popular local websites, even if they use open resolvers and network
-relays. Using overlay network relays, both Brazilian and Netherlands
-clients can avoid the United States for about 65\% of paths; yet, the
-United States is completely unavoidable for about 10\% of the paths
-because it is the only country where the content is hosted.  Kenyan
-clients can only avoid the United States on about 55\% of the paths.  On
-the other hand, the United States can avoid every other country except
-for France and the Netherlands, and even then they are avoidable for
-99\% of the top domains.
+connectivity to popular sites and content.  Additionally, overlay network relays can keep
+local traffic local: by using relays in the client's country, fewer
+paths trombone out of the client's country.  
+
+The third part of our work (Section~\ref{system_design}) uses the most effective
+country avoidance technique --- overlay nework relays --- in a lightweight system, \system{}, that allows 
+a client to access web content without traversing an undesirable country.  The 
+system uses a series of overlay network relays to automatically routes a client's 
+traffic around a specified country.  We design and implement \system{} for 
+country avoidance, usability, and scalability.  Our evaluation shows that our system 
+is effective for avoiding different countries, while having negligible performance overhead --- 
+sometimes having better performance than when no country avoidance system is used.
