@@ -223,3 +223,9 @@ load.
 could make relay decisions based on performance.  For example, if there are 
 multiple usable relays, the decision could be made on how much time it would 
 take to access the content from each of the relays.
+
+{\bf Precise path re-computation.}  Our current implementation of \system{} 
+re-computes all paths once per hour.  This could be optimized to only re-compute 
+paths when necessary.  For example, a BGP monitoring system could be implemented 
+that alerts the oracle to a path change that affects any path currently in 
+the system.  This could decrease the cost and computation of the system.

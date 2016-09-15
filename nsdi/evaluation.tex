@@ -37,7 +37,9 @@ same content without \system{} (using default paths).
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{latency}
-\caption{Time to get a webpage via \system{} (red triangles) and default paths (blue squares).}
+\caption{Latency difference when accessing a webpage via \system{} vs. default paths. 
+The difference is calculated by \system{} latency minus default latency, and represents 
+the additional latency cost of our system.}
 \label{fig:latency}
 \end{figure}
 
@@ -73,8 +75,8 @@ in credits follows the equation:
 
 \[Credit\_Cost(D,R,C) = 60(C x R) + 60(C x D)\]
 
-The prototype cost 6,180 credits, but if these paths are updated each hour, then 
+The prototype cost 6,180 credits, but because these paths are updated each hour, then 
 the daily credit cost is 148,320 credits.  In return for hosting a RIPE Atlas 
 probe, we earn 216,000 credits per day, which will support our existing 
 prototype.  In order to provide for more clients, more domains, or more 
-resources, we can seek credit grants from RIPE Atlas.
+resources, we can tune the system to re-compute paths less frequently (only when necessary).

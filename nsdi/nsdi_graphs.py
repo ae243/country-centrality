@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib.mlab as mlab
 from numpy import cumsum
 
-
+'''
 x_us = [0,1,2,3,4,5,6,7,8,9]
 
 y_us = [.46, .59, .63, .66, .66, .66, .66, .66, .66, .66]
@@ -34,7 +34,7 @@ ax1.set_xlabel("Number of Relays", fontsize=14)
 
 plt.xticks(np.arange(min(x_us), max(x_us)+1, 1.0))
 
-plt.legend(['United States', 'Ireland', 'France', 'Germany', 'United Kingdom', 'India'], loc='lower right')
+plt.legend(['United States', 'Ireland', 'France', 'Germany', 'United Kingdom', 'India'], loc='lower right', fontsize=14)
 
 ax1.grid(1)
 for tick in ax1.get_yticklabels():
@@ -53,7 +53,7 @@ y1 = [-0.07345108642831227, 0.0007663840851891424, -.0000068850951969662625, 0.0
 x1 = range(1, 84)
 sorted_y1 = sorted(y1)
 
-fig2, ax2 = plt.subplots(1,1,figsize=(5,5))
+fig2, ax2 = plt.subplots(1,1,figsize=(5,3))
 
 plt.plot(x1, sorted_y1, 'o', color='orange', linewidth=2.0)
 ax2.set_ylabel('Latency Difference (s)', fontsize=14)
@@ -64,7 +64,7 @@ fig2.tight_layout()
 ax2.set_xlim([0,100])
 ax2.set_ylim([-.7,.7])
 fig2.savefig('latency.pdf')
-'''
+
 
 '''
 # the histogram of the data
