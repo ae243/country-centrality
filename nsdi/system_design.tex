@@ -8,8 +8,8 @@ to route around a specified country.
 
 There are three main components to \system{}: the oracle, the relays, and the 
 clients.  Figure \ref{fig:arch} shows which components communicate with 
-eachother and in which direction the communication occurs.  The relays run as 
-proxy servers in addition to periodically measuring paths from itself to the 
+eachother and the direction of communication.  The relays run as 
+proxy servers in addition to periodically measuring paths from themselves to the 
 top domains that a given client might access and the paths from itself to a 
 location near the given client.  The oracle periodically fetches the 
 relay-to-domain paths, as well as calculating various other paths.  Using a RIPE
@@ -18,7 +18,7 @@ relay-to-domain paths, as well as calculating various other paths.  Using a RIPE
 now on) to the relays, and the paths from the client to the domains.  Once these
  paths are mapped to the country level, the oracle can generate and publish a 
 Proxy Autoconfiguration (PAC) file, which allows the client to easily configure 
-they're browser to use \system{} by specifying the URL where the PAC file resides.
+their browser to use \system{} by specifying the URL where the PAC file resides.
   The PAC file specifies which proxy to use when accessing a specific domain, 
 or whether or not to use any proxy.  More detail are discussed in the following 
 sections.
@@ -48,7 +48,7 @@ large numbers of users.  Therefore, \system{} should be able to handle the addit
  of relays, as well as be cost-effective in terms of resources required.
 
 {\bf Non-goals.}  There are some challenges that \system{} does not attempt to 
-solve.  The system does not address the notion of anonymity; it routes are 
+solve.  The system does not address the notion of anonymity; it routes around 
 countries (for reasons such as avoiding mass surveillance), but it does not 
 attempt to keep users anonymous.  
 
@@ -75,7 +75,7 @@ vantage point at or near the domain from which to run {\tt traceroute}.
 system is usability, and therefore, the client should not have to perform 
 almost any actions.  To keep the client from having to download any software, 
 the paths from clients to relays are measured using RIPE Atlas probes.  A probe 
-is selected from a geographically close location to the client (i.e. the same 
+is selected from a geographically close location to the client (i.e., the same 
 country), and the oracle triggers the probe to run {\tt traceroute} measurements 
 to each relay in the system.  After collecting the responses, the oracle maps 
 the IP-level paths to country-level paths and stores the results.
