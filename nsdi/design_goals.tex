@@ -1,0 +1,27 @@
+\section{Design Goals}
+
+Here we highlight the main goals of \system{}, as well as challenges that are out 
+of the scope of this work.
+
+{\bf Foreign Country Avoidance.}  The primary goal of \system{} is to avoid a given
+ country when accessing web content.  \system{} should provide clients a way to 
+route around a specified country, while still being able to access the desired 
+domain.
+
+{\bf Usability.} \system{} should be designed in a way that is accessible to and 
+easy to use by clients around the world.  It should require as little effort by 
+the client as possible.
+
+{\bf Scalability.}  This country avoidance system should be able to scale to 
+large numbers of users.  Therefore, \system{} should be able to handle the addition
+ of relays, as well as be cost-effective in terms of resources required.
+
+{\bf Non-goals.}  There are some challenges that \system{} does not attempt to 
+solve.  The system does not address the notion of anonymity; it routes around 
+countries (for reasons such as avoiding mass surveillance), but it does not 
+attempt to keep users anonymous.  
+
+Additionally, \system{} does not solve the problem of domestic surveillance (for 
+example, a client in the United States attempting to avoid surveillance by the 
+United States).  This is a challenging problem, and asks for future research, 
+but this is out of the scope of our work.

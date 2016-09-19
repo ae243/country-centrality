@@ -1,4 +1,5 @@
-\section{\system{}: System Design}
+\section{Design}
+\label{system_design}
 In light of the results presented in the previous section, we see that an 
 overlay network can significantly help a client avoid any given country.  
 Therefore, we have designed and developed a system, \system{}, that allows users 
@@ -29,33 +30,6 @@ sections.
 \caption{\system{} architecture.}
 \label{fig:arch}
 \end{figure}
-
-\subsection{Goals}
-Here we highlight the main goals of \system{}, as well as challenges that are out 
-of the scope of this work.
-
-{\bf Foreign Country Avoidance.}  The primary goal of \system{} is to avoid a given
- country when accessing web content.  \system{} should provide clients a way to 
-route around a specified country, while still being able to access the desired 
-domain.
-
-{\bf Usability.} \system{} should be designed in a way that is accessible to and 
-easy to use by clients around the world.  It should require as little effort by 
-the client as possible.
-
-{\bf Scalability.}  This country avoidance system should be able to scale to 
-large numbers of users.  Therefore, \system{} should be able to handle the addition
- of relays, as well as be cost-effective in terms of resources required.
-
-{\bf Non-goals.}  There are some challenges that \system{} does not attempt to 
-solve.  The system does not address the notion of anonymity; it routes around 
-countries (for reasons such as avoiding mass surveillance), but it does not 
-attempt to keep users anonymous.  
-
-Additionally, \system{} does not solve the problem of domestic surveillance (for 
-example, a client in the United States attempting to avoid surveillance by the 
-United States).  This is a challenging problem, and asks for future research, 
-but this is out of the scope of our work.
 
 \subsection{Calculating Paths}
 Given a set of relays that function as proxy servers, it is challenging to 
@@ -203,29 +177,4 @@ It is worth noting that without backup oracles, clients can still use the system
 when the oracle fails.  The clients will simply be using stale paths, which are 
 likely to be the same original paths, but not always.  
 
-\subsection{Additional Features}
-We have implemented \system{} as discussed above, but the system design allows for 
-additional features to be added in the future to enhance the system.
 
-{\bf Privacy-preserving features at relay.}  Additional features can be 
-implemented at the relay to help preserve client privacy.  Such an example would 
-be to use the relay as a mix, or to send out fake traffic to confuse an 
-attacker that may be trying to perform traffic analysis at the relay.
-
-{\bf Load balancing and congestion control.} The oracle could add additional 
-steps in the decision chain introduced in Section \ref{multiplex} that take 
-into account relay and path loads.  For example, if multiple relays provide 
-a path to a domain that do not traverse the specified country, then the 
-decision between the usable proxies could be determined based on current relay 
-load.
-
-{\bf Optimized performance.} In addition to load balancing purposes, the oracle 
-could make relay decisions based on performance.  For example, if there are 
-multiple usable relays, the decision could be made on how much time it would 
-take to access the content from each of the relays.
-
-{\bf Precise path re-computation.}  Our current implementation of \system{} 
-re-computes all paths once per hour.  This could be optimized to only re-compute 
-paths when necessary.  For example, a BGP monitoring system could be implemented 
-that alerts the oracle to a path change that affects any path currently in 
-the system.  This could decrease the cost and computation of the system.

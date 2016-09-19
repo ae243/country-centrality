@@ -1,4 +1,4 @@
-\section{\system{}: Evaluation}
+\section{Evaluation}
 Using the \system{} implementation, we evaluate the system on it's ability to avoid a given country, performance, and scalability in terms of storage and costs.
 
 \subsection{Country Avoidance}
@@ -55,10 +55,12 @@ As the number of clients increase, and subsequently the number of paths being
 computed increases, the amount of storage must remain reasonable.  The storage 
 used by paths can be calculated:
 
-\[Storage(D,R) = (D x R) + 2(C x R) + (C x D) \]
+\[Storage(D,R,C) = (D x R) + 2(C x R) + (C x D) \]
 
-D is the number of domains; R is the number of relays; C is the number of 
-clients.  For the prototype with a single client, the storage space for all 
+D is the number of domains; R is the number of relays; C is representative of the number of 
+clients.  While C {\it represents} clients, it is not the number of clients using the 
+system --- it is the number of vantage points the system uses to measure paths 
+from client locations.  For the prototype with a single client, the storage space for all 
 paths computed is 480KB.  As there is a single PAC file for all clients in 
 a country, C will grow much slower than if there was a different PAC file for 
 each individual client.  There are 196 countries in the world today, and if 
@@ -73,9 +75,10 @@ be taken into account.  RIPE Atlas credits are a limited resource, and therefore
 we must earn more credits than we are spending on measurements.  The cost 
 in credits follows the equation:
 
-\[Credit\_Cost(D,R,C) = 60(C x R) + 60(C x D)\]
+\[Credit\_Cost(D,R,C) = COST_{traceroute}((C x R) + (C x D))\]
 
-The prototype cost 6,180 credits, but because these paths are updated each hour, then 
+Currently, the $COST_{traceroute}$ is 60, resulting in a prototype cost of 6,180 
+credits, but because these paths are updated each hour, then 
 the daily credit cost is 148,320 credits.  In return for hosting a RIPE Atlas 
 probe, we earn 216,000 credits per day, which will support our existing 
 prototype.  In order to provide for more clients, more domains, or more 
