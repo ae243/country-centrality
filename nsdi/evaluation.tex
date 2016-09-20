@@ -18,7 +18,10 @@ used, then 63\% of domains are accessible with traversing the United States.
 \begin{figure}[b!]
 \centering
 \includegraphics[width=.5\textwidth]{avoidance_n_relays}
-\caption{How much avoidance different numbers and locations of relays achieve.}
+\caption{How much avoidance different numbers and locations of relays achieve when a 
+client located in the Netherlands wishes to avoid different countries.  Up to nine 
+relays were used, but there was no additional avoidance provided by the 4 remaining 
+relays (not included in this graph).}
 \label{fig:avoidance_eval}
 \end{figure}
 
@@ -44,17 +47,22 @@ the throughput and latency.
 
 To measure throughput, we ran {\tt wget} for each 
 of the top 100 domains from the client machine in the Netherlands, while 
-using the PAC file.  Based on the {\tt wget} output, we calculate the number 
-of seconds to access content using our system. Figure \ref{fig:latency} shows 
+using an oracle-generated PAC file.  Because multiple different relays could have been 
+used to avoid a single domain, the oracle selected a random relay from those 
+that would allow the client to avoid the country.  The oracle generated 
+10 PAC files randomly picking a relay for domains that could have used 
+different relays, and {\tt wget} was used for the top 100 domains for each 
+PAC file generated.  Based on the {\tt wget} output, we calculate the number 
+of seconds to access content using our system and take the average across the 
+10 experiments. Figure \ref{fig:throughput} shows 
 the CDF of the ratio of direct throughput to \system{} throughput. 
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{throughput}
-\caption{Latency difference when accessing a webpage via \system{} vs. default paths. 
-The difference is calculated by \system{} latency minus default latency, and represents 
-the additional latency cost of our system.}
-\label{fig:latency}
+\caption{CDF of the ratio of direct throughput to \system{} throughput.  
+There were six outliers that had a ratio greater than 10.}
+\label{fig:throughput}
 \end{figure}
 
 We can see that the throughput of \system{} is not significantly worse than that 
@@ -65,16 +73,15 @@ These results show that \system{}'s performance is comparable to the performance
 of accessing domains without \system{}.
 
 To measure the latency of \system{}, we ran a {\tt curl} command to each of the 
-top 100 domains from the client machine in the Netherlands, while using the PAC file. 
-This provided the time to first byte (TTFB); we found the TTFB for both \system{} and 
-direct paths, and the results are shown in Figure \ref{fig:latency}.  
+top 100 domains from the client machine in the Netherlands, while using the 10
+oracle-generated PAC files. This provided the time to first byte (TTFB); we 
+found the average TTFB for when accessing content using \system{} and 
+found the TTFB when using direct paths; the results are shown in Figure \ref{fig:latency}.  
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{latency}
-\caption{Latency difference when accessing a webpage via \system{} vs. default paths. 
-The difference is calculated by \system{} latency minus default latency, and represents 
-the additional latency cost of our system.}
+\caption{CDF of Time to First Byte for both \system{} and for direct paths.}
 \label{fig:latency}
 \end{figure}
 
