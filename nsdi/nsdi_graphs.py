@@ -7,7 +7,7 @@ import matplotlib.mlab as mlab
 from numpy import cumsum
 
 # Country Avoidance Plot
-'''
+
 x_us = [0,1,2,3,4,5,6,7,8,9]
 
 y_us = [.46, .59, .63, .66, .66, .66, .66, .66, .66, .66]
@@ -23,12 +23,12 @@ y_ie = [.82, .94, .96, .96, .96, .97, .97, .97, .97, .97]
 y_in = [.98, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00]
 
 fig1, ax1 = plt.subplots(1,1,figsize=(6,5))
-plt.plot(x_us,y_us,color='orange',linestyle='-',linewidth=2.0)
-plt.plot(x_us,y_ie,color='blue',linestyle=':',linewidth=2.0)
-plt.plot(x_us,y_fr,color='red',linestyle='-.',linewidth=2.0)
-plt.plot(x_us,y_de,color='green',linestyle=':',linewidth=2.0)
-plt.plot(x_us,y_uk,color='purple',linestyle='--',linewidth=2.0)
-plt.plot(x_us,y_in,color='pink',linestyle='-.',linewidth=2.0)
+plt.plot(x_us,y_us,color='orange',marker='o')
+plt.plot(x_us,y_ie,color='blue',marker='v')
+plt.plot(x_us,y_fr,color='red',marker='s')
+plt.plot(x_us,y_de,color='green',marker='*')
+plt.plot(x_us,y_uk,color='purple',marker='+')
+plt.plot(x_us,y_in,color='pink',marker='D')
 #plt.xticks([0,1,2,3], (" ", "DE", "DE,BR", "DE,BR,SG"))
 ax1.set_ylabel("Fraction of Domains Accessed while Avoiding a Country",fontsize=14)
 ax1.set_xlabel("Number of Relays", fontsize=14)
@@ -47,10 +47,10 @@ ax1.set_xlim([0, 5])
 ax1.set_ylim([0, 1.1])
 fig1.savefig('avoidance_n_relays.pdf')
 
-'''
+
 
 # Throughput Plot
-
+'''
 y1 = [0.934000232861,0.456565046957,1.18241484604,0.234671336942,0.670741925359,1.08775324039,0.0423117459887,0.0298067224663,1.17368824443,0.0061533631901,
 1.41235794537,0.7728701116,1.89613862729,1.4341991286,0.592081758454,1.20360644454,0.827148864896,1.03601373535,1.57018712121,1.01881287805,0.361025649927,
 2.23095587412,0.994877154324,0.946063405724,0.962810540827,0.0477562317971,0.987269488258,0.731464820517,39.1537351403,1.55619569527,0.434022562541,1.06213600525,
@@ -92,7 +92,7 @@ fig2.tight_layout()
 ax2.set_xlim([0,10])
 ax2.set_ylim([0,95])
 fig2.savefig('throughput.pdf')
-
+'''
 
 '''
 # Latency Plot

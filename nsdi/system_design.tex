@@ -13,13 +13,13 @@ a given country.  We employ the most effective country avoidance technique that
 we found in Section \ref{avoid_results}, an overlay network.  The overlay network 
 consists of a set of relays, which run as proxy servers.  \system{} also uses 
 the same measurement methods used in previous sections for characterizing routing 
-detours.  These measurement methods are used learn the paths between clients, 
+detours.  These measurement methods are used to learn the paths between clients, 
 relays, and domains, and they are stored at the oracle.  The oracle uses the 
-measured paths to decide that relay R should be used when a client in location L 
+measured paths to decide which relay R should be used when a client in location L 
 is accessing domain D and wants to avoid country C.  These decisions are made 
 for many R, L, D, and C combinations, and also stored at the oracle.  A 
-client can access these decisions to route around a country that they wish 
-to avoid.
+client can then access these decisions to route around a country that they wish 
+to avoid.  We discuss the details of \system{} in the rest of this section.
 
 \begin{figure}[t]
 \centering
@@ -37,7 +37,7 @@ while avoiding a client-specified country.}
 \subsection{Systematic Path Measurement}
 As mentioned earlier, \system{} is an overlay network that is measurement-driven.  
 The system includes a set of relays that function as TCP proxy servers.  The system 
-was designed for accessing web content seamlessly through the overlay network, and 
+is designed for accessing web content seamlessly through the overlay network, and 
 TCP proxies support this.  IP layer proxies force the client to download and 
 install software, which makes the system less user-friendly.  Therefore, we 
 chose to use TCP proxies instead of some other type of proxy, such as IP layer proxies.  
@@ -88,8 +88,8 @@ as paths may change.  To our knowledge, there has not been any previous work
 on how often country-level paths change; prior work has explored how often 
 AS-level paths change.  To measure how often country-level paths change, we 
 computed the paths from relays to domains once every two hours and once every 
-hour.  On average, the path to X domains changed every two hours, and the path 
-to Y domains changed every one hour.  As it takes approximately 30 minutes to 
+hour.  Less than five paths from our results changed every two hours and every 
+single hour. As it takes approximately 30 minutes to 
 compute all paths, \system{} re-computes the paths every one hour to incorporate 
 the most recent country-level paths in the system.
 
@@ -110,8 +110,8 @@ is challenging to measure due to a lack of vantage points.  Despite not
 calculating all of the country-level path components, we can show that the 
 country a client is attempting to avoid cannot conduct traffic analysis attacks 
 on the traffic because {\it at most} the attacker is only on the reverse path 
-from the server to the relay.  An attacker would need at least two path 
-components to perform traffic analysis. 
+from the server to the relay.  An attacker would need a path component from the 
+set \{1,4\} and \{2,3\}, but they would only (possibly) have path component 3.
 
 \subsection{Automated Relay Multiplexing}
 \label{multiplex}
@@ -134,11 +134,15 @@ that provides the most avoidance (measured by how many other domains it has
 a path to that avoid the specified country).
 \end{enumerate}
 
-The oracle applies this decision process to each domain, and generates a PAC 
-file, which specifies which domains should be accessed through which proxy.  A 
+The oracle applies this decision process to each domain, which results in a mapping 
+of domains to relays that can be used to avoid the given country.  To facilitate 
+automatic multiplexing between relays, \system{} utilizes Proxy Autoconfiguration (PAC) 
+files.  A PAC file defines how browsers should choose a proxy when fetching a URL.  A 
 sample PAC file is shown in Listing \ref{lst:pac}; in this example, proxy 
 1.2.3.4:3128 should be used when accessing {\tt www.google.com}, but proxy 
-5.6.7.8:3128 should be used when accessing {\tt www.twitter.com}.  Once the PAC 
+5.6.7.8:3128 should be used when accessing {\tt www.twitter.com}.  The oracle uses 
+the mapping of domains to relays to generate a PAC 
+file, which specifies which domains should be accessed through which proxy.  Once the PAC 
 file is generated based on the decision chain above, it is published to a URL 
 of the format $<$client\_country$>$\_$<$country\_to\_avoid$>$\_pac.pac.  The client 
 simply uses this URL to specify their proxy configuration.  As paths are re-computed 
@@ -146,6 +150,8 @@ every hour, the PAC file is also re-computed and published every hour.  The PAC 
 are published online, which allows a client to simply configure her settings to 
 point at the URL that contains the PAC file.  Whenever the client re-opens her 
 browser, the latest PAC file will be used for relay multiplexing.
+
+\lstinputlisting[label={lst:pac}, language=JavaScript, frame=single, basicstyle=\footnotesize, caption={An example PAC file.}]{example_pac.pac}
 
 \subsection{Scaling the System}
 \system{} is 
