@@ -9,11 +9,9 @@ tables, they found 2 million detours in each month of their study (out
 of 7 billion total paths), and they then characterized the detours based
 on detour dynamics and persistence.  Our work differs by actively
 measuring traceroutes (actual paths), as opposed to analyzing BGP
-routes.  This difference is fundamental as BGP provides the AS path
-announced in BGP update messages, which is not necessarily the same as
-the actual path of data packets.  Obar and Clement analyzed traceroutes
-that started and ended in Canada, but ``boomeranged'' through the United
-States (``boomerang'' is another term for tromboning), and argued that
+routes.  Obar and Clement analyzed traceroutes
+that started and ended in Canada, but tromboned through the United
+States, and argued that
 this is a violation of Canadian network
 sovereignty~\cite{obar2012internet}.  Most closely related to our work,
 Karlin et al. developed a framework for country-level
@@ -39,8 +37,16 @@ et al. first looked at ISP interconnectivity within
 Africa~\cite{gupta2014peering}, and it was studied later by Fanou et al.~\cite{fanou2015diversity}.
 
 \paragraph{Circumvention and Routing Systems.}  There has been research into
-circumvention systems, particularly for censorship circumvention, that
-is related this work, but not sufficient for surveillance circumvention.
+circumvention systems, particularly for censorship circumvention, which is 
+complementary to our work, but not sufficient for surveillance circumvention.  
+Existing circumvention systems generally rely on encryption, which does not 
+prevent surveillance; prior research has shown that websites can be 
+fingerprinted based on size, content, and location of third party resources, which 
+reveals information about the content a user is accessing \cite{what_isps_can_see}.  Additionally, 
+ISPs often execute a man-in-the-middle attacks on TLS connections to perform 
+network management functions \cite{mitm_isp}.  Therefore, while encryption can be 
+used for censorship circumvention, additional measures must be taken for 
+surveillance circumvention.  Some existing circumvention tools are Tor and VPNGate.
 Tor is an anonymity system that uses three relays and layered encryption
 to allow users to communicate anonymously~\cite{dingledine2004tor}.
 VPNGate is a public VPN relay system aimed at circumventing national

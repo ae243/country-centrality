@@ -1,9 +1,8 @@
 \section{Design}
 \label{system_design}
-In light of the results presented in the previous section, we see that an 
-overlay network can significantly help a client avoid any given country.  
-Therefore, we have designed and developed a system, \system{}, that allows users 
-to route around a specified country.
+Based on the design goals presented in Section \ref{goals}, we have designed 
+and developed a system, \system{}, that allows users to route around a specified 
+country.
 
 \subsection{Architecture}
 
@@ -31,7 +30,7 @@ sections.
 \label{fig:arch}
 \end{figure}
 
-\subsection{Calculating Paths}
+\subsection{Systematic Path Measurement}
 Given a set of relays that function as proxy servers, it is challenging to 
 measure the necessary country-level paths that will allow the system to specify 
 which proxy to use for a given domain.  Here we explain which paths we measure, 
@@ -99,7 +98,7 @@ on the traffic because {\it at most} the attacker is only on the reverse path
 from the server to the relay.  An attacker would need at least two path 
 components to perform traffic analysis. 
 
-\subsection{Multiplexing Between Relays}
+\subsection{Automated Relay Multiplexing}
 \label{multiplex}
 After measuring and aggregating the country-level paths, the oracle decides 
 which relay to use when accessing specific domains from a specific client 
@@ -127,12 +126,8 @@ sample PAC file is shown in Listing \ref{lst:pac}; in this example, proxy
 5.6.7.8:3128 should be used when accessing {\tt www.twitter.com}.  Once the PAC 
 file is generated based on the decision chain above, it is published to a URL 
 of the format $<$client\_country$>$\_$<$country\_to\_avoid$>$\_pac.pac.  The client 
-simply uses this URL to specify their proxy configuration.
-
-\lstinputlisting[label={lst:pac}, language=JavaScript, frame=single, basicstyle=\footnotesize, caption={An example PAC file.}]{example_pac.pac}
-
-As paths are re-computed every hour, the PAC file is also re-computed and 
-published every hour.
+simply uses this URL to specify their proxy configuration.  As paths are re-computed 
+every hour, the PAC file is also re-computed and published every hour.
 
 \subsection{Scaling the System}
 In addition to usability, another goal of \system{} is scalability.  The system 
