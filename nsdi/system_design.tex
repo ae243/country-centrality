@@ -7,21 +7,19 @@ country.
 \subsection{Architecture}
 
 There are three main components to \system{}: the oracle, the relays, and the 
-clients.  Figure \ref{fig:arch} shows which components communicate with 
-eachother and the direction of communication.  The relays run as 
-proxy servers in addition to periodically measuring paths from themselves to the 
-top domains that a given client might access and the paths from itself to a 
-location near the given client.  The oracle periodically fetches the 
-relay-to-domain paths, as well as calculating various other paths.  Using a RIPE
- Atlas probe in the same country as a client, the oracle can measure: the paths
- from a location close to the client (which we will refer to as the client from 
-now on) to the relays, and the paths from the client to the domains.  Once these
- paths are mapped to the country level, the oracle can generate and publish a 
-Proxy Autoconfiguration (PAC) file, which allows the client to easily configure 
-their browser to use \system{} by specifying the URL where the PAC file resides.
-  The PAC file specifies which proxy to use when accessing a specific domain, 
-or whether or not to use any proxy.  More detail are discussed in the following 
-sections.
+clients.  Figure \ref{fig:arch} shows how the system components
+interact to allow a client to access web content while simultaneously avoiding 
+a given country.  We employ the most effective country avoidance technique that 
+we found in Section \ref{avoid_results}, an overlay network.  The overlay network 
+consists of a set of relays, which run as proxy servers.  \system{} also uses 
+the same measurement methods used in previous sections for characterizing routing 
+detours.  These measurement methods are used learn the paths between clients, 
+relays, and domains, and they are stored at the oracle.  The oracle uses the 
+measured paths to decide that relay R should be used when a client in location L 
+is accessing domain D and wants to avoid country C.  These decisions are made 
+for many R, L, D, and C combinations, and also stored at the oracle.  A 
+client can access these decisions to route around a country that they wish 
+to avoid.
 
 \begin{figure}[t]
 \centering
