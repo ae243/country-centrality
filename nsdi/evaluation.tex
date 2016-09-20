@@ -8,8 +8,12 @@ calculating the number of {\it default} paths that avoid a given country.  Then
 we added a single relay, and calculated how many domains the client could 
 access without traversing through the given country.  This was repeated for 
 the remaining two relays.  The evaluation was conducted under the condition that 
-the client wished to avoid the United States when accessing the Netherlands top 
-100 domains, and the results are shown in Figure \ref{fig:avoidance_eval}.
+the client wished to avoid different countries when accessing the Netherlands top 
+100 domains, and the results are shown in Figure \ref{fig:avoidance_eval}.  Each 
+line represents the fraction of domains accessible while avoiding the country that 
+the line represents.  For example, 46\% of domains are accessible without traversing 
+the United States when \system{} is not being used (0 relays), and if \system{} is 
+used, then 63\% of domains are accessible with traversing the United States.
 
 \begin{figure}[b!]
 \centering
@@ -18,21 +22,31 @@ the client wished to avoid the United States when accessing the Netherlands top
 \label{fig:avoidance_eval}
 \end{figure}
 
-It is evident that \system{} helps a client avoid a foreign country (in this case 
-the United States), as the fraction of domains accessible without traversing 
-the United States without \system{} is .46 and with \system{} is .63.  Additionally, 
+It is evident that \system{} helps a client avoid a foreign country, as the 
+fraction of domains accessible without traversing 
+the specified country without \system{} is lower than with \system{}.  Additionally, 
 it is clear that adding the first relay provides the greatest increase in 
 provided avoidance, while subsequent relays provide a significantly 
 smaller amount (or no) additional avoidance.
 
+Figure \ref{fig:avoidance_eval} also clearly shows how much more difficult (or 
+impossible) it is to avoid the United States than it is to avoid any other 
+country.  Only 63\% of domains can be accessed while avoiding the United States, 
+whereas almost all domains can be accessed while avoiding any other given 
+country.  This confirms the results presented in Section \ref{avoid_results}, and 
+emphasizes how crucial the systematization of the measurements is for enabling 
+\system{}.
+
 \subsection{Performance}
 A system is not usable if the performance is significantly worse than what a user
-is accustomed to.  To measure the performance of \system{}, we {\tt wget} each 
+is accustomed to.  To measure the performance of \system{}, we measure both 
+the throughput and latency.
+
+To measure throughput, we ran {\tt wget} for each 
 of the top 100 domains from the client machine in the Netherlands, while 
 using the PAC file.  Based on the {\tt wget} output, we calculate the number 
 of seconds to access content using our system. Figure \ref{fig:latency} shows 
-the time to access content with \system{} in comparison to the time to access the 
-same content without \system{} (using default paths).  
+the CDF of the ratio of direct throughput to \system{} throughput. 
 
 \begin{figure}[t]
 \centering
@@ -43,6 +57,18 @@ the additional latency cost of our system.}
 \label{fig:latency}
 \end{figure}
 
+We can see that the throughput of \system{} is not significantly worse than that 
+of default paths.  In fact, in some cases the performance of \system{} is {\it 
+better} than that of default paths.  This could be a result of the relays 
+keeping local traffic local, or due to a closer content replica being selected. 
+These results show that \system{}'s performance is comparable to the performance 
+of accessing domains without \system{}.
+
+To measure the latency of \system{}, we ran a {\tt curl} command to each of the 
+top 100 domains from the client machine in the Netherlands, while using the PAC file. 
+This provided the time to first byte (TTFB); we found the TTFB for both \system{} and 
+direct paths, and the results are shown in Figure \ref{fig:latency}.  
+
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{latency}
@@ -52,12 +78,10 @@ the additional latency cost of our system.}
 \label{fig:latency}
 \end{figure}
 
-We can see that the performance of \system{} is not significantly worse than that 
-of default paths.  In fact, in some cases the performance of \system{} is {\it 
-better} than that of default paths.  This could be a result of the relays 
-keeping local traffic local, or due to a closer content replica being selected. 
-These results show that \system{}'s performance is comparable to the performance 
-of accessing domains without \system{}.
+The median TTFB for direct paths is .0685, and for \system{} paths, it is .10075.  Additionally, 
+the 90th percentile for direct and \system{} paths is .2253 and .40352, respectively.  This 
+shows that the system's latency is greater by a factor of 2 (or 20-40ms).  \annie{Say if this is 
+significant or not, especially as it relates to page load times.}
 
 \subsection{Storage}
 As the number of clients increase, and subsequently the number of paths being 
