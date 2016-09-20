@@ -45,8 +45,8 @@ from each domain to each relay; we cannot measure this because we have no
 vantage point at or near the domain from which to run {\tt traceroute}.
 
 {\bf Client to Relay Paths.} As previously mentioned, one of the goals of the 
-system is usability, and therefore, the client should not have to perform 
-almost any actions.  To keep the client from having to download any software, 
+system is usability, and therefore, the client should not have to download software 
+or perform any measurements.  Therefore, 
 the paths from clients to relays are measured using RIPE Atlas probes.  A probe 
 is selected from a geographically close location to the client (i.e., the same 
 country), and the oracle triggers the probe to run {\tt traceroute} measurements 
@@ -127,25 +127,20 @@ sample PAC file is shown in Listing \ref{lst:pac}; in this example, proxy
 file is generated based on the decision chain above, it is published to a URL 
 of the format $<$client\_country$>$\_$<$country\_to\_avoid$>$\_pac.pac.  The client 
 simply uses this URL to specify their proxy configuration.  As paths are re-computed 
-every hour, the PAC file is also re-computed and published every hour.
+every hour, the PAC file is also re-computed and published every hour.  The PAC files 
+are published online, which allows a client to simply configure her settings to 
+point at the URL that contains the PAC file.  Whenever the client re-opens her 
+browser, the latest PAC file will be used for relay multiplexing.
 
 \subsection{Scaling the System}
-In addition to usability, another goal of \system{} is scalability.  The system 
-must support increasing numbers of users.  
-
-{\bf Adding Relays.} As the number of clients increase, their locations may be 
-extremely diverse. This calls for a geographically diverse set of relays, as 
-well as a set of relays that can grow with the number of clients (duplicates in 
-the same locations used to balance the load).  \system{} is 
+\system{} is 
 designed in a modular way, and therefore, adding relays is quick, easy, and 
 simple.  To add a relay, the system operator must set up a machine as a proxy 
 server, install the \system{} relay software, and update the oracle's list of 
 relays.  From that point forward, paths will be computed to and from the new 
 relay, and clients will be using it as a proxy.  
 
-{\bf Adding Oracles.} As the number of clients increase, it is possible that a 
-single oracle can not tolerate the computation or storage space necessary for 
-all clients.  Adding an oracle is a matter of installing the oracle software on 
+Adding an oracle is a matter of installing the oracle software on 
 a different machine, and specifying the client locations handled by that oracle 
 (for example, oracle 1 handles all clients in North America and Europe, and 
 oracle 2 handles all clients elsewhere).  Both oracles will publish the PAC files 
@@ -162,7 +157,8 @@ proxy is used (and so on).  This feature can be used to specify all of the
 relays that have a path to the domain.  And future work can include relay 
 replicas that can be used in the case that a relay crashes.
 
-{\bf Failed Oracle.} If an oracle crashes, it could trigger a backup oracle 
+{\bf Failed Oracle.} A failed oracle can be detected by PAC files that are 
+older than 1 hour.  Detecting a failed oracle could trigger a backup oracle 
 to re-compute the PAC files periodically.  This is a simple solution because 
 the oracles do not need to convey any information among each other, and therefore, 
 no information is lost.  We leave the implementation of backup oracles as future 
