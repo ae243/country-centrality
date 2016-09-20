@@ -24,22 +24,36 @@ to avoid.
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{system_arch}
-\caption{\system{} architecture.}
+\caption{\system{} architecture. 1) Paths are computed between clients and relays, 
+relays and domains, relays and clients, and clients and domains.  2) The oracle 
+aggregates all paths.  3)  The oracle generates a PAC file that specifies which 
+domains should be accessed through which relays (based on the measured paths).  
+4) The client configures her browser to use the oracle-generated PAC file.  5) 
+The client's traffic is routed through relays (or direct paths) to access domains, 
+while avoiding a client-specified country.}
 \label{fig:arch}
 \end{figure}
 
 \subsection{Systematic Path Measurement}
-Given a set of relays that function as proxy servers, it is challenging to 
-measure the necessary country-level paths that will allow the system to specify 
-which proxy to use for a given domain.  Here we explain which paths we measure, 
-and how and where they are measured.  All of the paths are measured using {\tt 
+As mentioned earlier, \system{} is an overlay network that is measurement-driven.  
+The system includes a set of relays that function as TCP proxy servers.  The system 
+was designed for accessing web content seamlessly through the overlay network, and 
+TCP proxies support this.  IP layer proxies force the client to download and 
+install software, which makes the system less user-friendly.  Therefore, we 
+chose to use TCP proxies instead of some other type of proxy, such as IP layer proxies.  
+Once we established the TCP proxies, or relays, the system needed a way to 
+learn which proxy to use when accessing a given domain.  Here we explain which paths we measure, 
+how and where they are measured, as well as the challenges associated with the 
+role of measurement in the system.  
+
+All of the paths are measured using {\tt 
 traceroute}, which is then mapped to the country level using the same methods as 
 described in Section \ref{datasets} and shown in Figure 
 \ref{fig:analysis_pipeline}.  The paths we measure are the: forward paths from 
 the client to each relay, forward paths from each relay to each domain, forward 
 paths from the client to each domain, and reverse paths from each relay to the 
-client.  The one portion of a path that we cannot measure is the reverse path 
-from each domain to each relay; we cannot measure this because we have no 
+client. Figure \ref{fig:path_components} shows the forward and reverse paths when accessing 
+content using relays; path component 3) is the only path we cannot measure because we have no 
 vantage point at or near the domain from which to run {\tt traceroute}.
 
 {\bf Client to Relay Paths.} As previously mentioned, one of the goals of the 
@@ -82,7 +96,10 @@ the most recent country-level paths in the system.
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{four_paths}
-\caption{The path of a web request through a \system{} relay, to the domain, and back.}
+\caption{The path of a web request through a \system{} relay, to the domain, and back. 
+1) forward path from client to relay; 2) forward path from relay to domain; 3) reverse 
+path from domain to relay; 4) reverse path from relay to client.  \system{} measures 
+all paths except for path 3) due to a lack of vantage points at domain locations.}
 \label{fig:path_components}
 \end{figure}
 
