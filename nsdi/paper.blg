@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: abbrv.bst
+Database file #1: paper.bib
+Warning--can't use both volume and number fields in andersen2001resilient
+Warning--empty journal in brazil_ixp_ecosystem
+Warning--can't use both volume and number fields in padmanabhan2001investigation
+You've used 60 entries,
+            2118 wiz_defined-function locations,
+            765 strings with 13873 characters,
+and the built_in function-call counts, 15482 in all, are:
+= -- 1518
+> -- 531
+< -- 16
++ -- 231
+- -- 170
+* -- 808
+:= -- 2168
+add.period$ -- 155
+call.type$ -- 60
+change.case$ -- 301
+chr.to.int$ -- 0
+cite$ -- 63
+duplicate$ -- 649
+empty$ -- 1565
+format.name$ -- 170
+if$ -- 3561
+int.to.chr$ -- 0
+int.to.str$ -- 60
+missing$ -- 23
+newline$ -- 267
+num.names$ -- 48
+pop$ -- 446
+preamble$ -- 1
+purify$ -- 241
+quote$ -- 0
+skip$ -- 608
+stack$ -- 0
+substring$ -- 716
+swap$ -- 172
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 238
+warning$ -- 3
+while$ -- 90
+width$ -- 62
+write$ -- 525
+(There were 3 warnings)
