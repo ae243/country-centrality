@@ -12,9 +12,9 @@ the ``Five Eyes'') or perhaps even entire regions.
 \paragraph{Evolution over time.}
 Our study is based on a snapshot of Internet paths. Over time, paths
 change, hosting locations change, IXPs are built, submarine cables are
-laid, and surveillance states change.  Future work can and should
-involve exploring how these paths evolve over time, and analyzing the
-relative effectiveness of different strategies for controlling traffic flows.
+laid, and surveillance states change.  Future work should explore how
+paths evolve over time, and analyze the effectiveness of different
+country-avoidance strategies.
 
 %\paragraph{Isolating DNS diversity vs. path diversity.}
 %In our experiments, the overlay network relays perform DNS lookups from
@@ -32,14 +32,13 @@ relative effectiveness of different strategies for controlling traffic flows.
 implemented at the relay to help preserve client privacy.  An example
 would be to use the relay as a mix, or to send out fake traffic to
 confuse an attacker that may be trying to perform traffic analysis at
-the relay.  The oracle could add additional steps in the decision chain
-introduced in Section \ref{multiplex} that take into account relay and
-path loads.  For example, if multiple relays provide a path to a domain
-that does not traverse the specified country, then the decision between
-the usable proxies could be determined based on current relay load or
-performance.
-Our current implementation of \system{} 
-re-computes all paths once per hour; we could only re-compute 
-paths when necessary.  For example, a BGP monitoring system could be implemented 
-that alerts the oracle to a path change that affects any path currently in 
-the system.  
+the relay.  The oracle could add additional steps in the decision
+chain introduced in Section \ref{multiplex} that take into account
+relay and path loads.  For example, if multiple relays provide a path
+to a domain that does not traverse the specified country, then the
+decision between the suitable proxies could be determined based on
+current relay load or performance.  Our current implementation of
+\system{} re-computes all paths once per hour; we could only
+re-compute paths when necessary.  For example, a BGP monitoring system
+could be implemented that alerts the oracle to a routing changes that
+affects any path currently in the system.

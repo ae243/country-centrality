@@ -1,25 +1,24 @@
-\section{Design Goals}
+\section{Design Goals for \system{}}
 \label{goals}
 
 Our measurement results motivate 
  the design and implementation of a relay-based avoidance system,
-\system{}.  We highlight the design goals
-\system{} below.
+\system{}, with the following design goals.
 
-\paragraph{Foreign Country Avoidance.}  The primary goal of \system{} is to avoid a given
- country when accessing web content.  \system{} should provide clients a way to 
-route around a specified country, when accessing a
-domain.  This calls for the role of measurement in the system design.  Systematizing 
-the measurement methods discussed earlier in this paper is crucial.
+\paragraph{Country Avoidance.}  The primary goal of \system{} is to
+avoid a given country when accessing web content.  \system{} should
+provide clients a way to route around a specified country, when
+accessing a domain.  This calls for the role of measurement in the
+system design, and systematizing the measurement methods discussed
+earlier in the paper.
 
-\paragraph{Usability.} \system{} should be easy to use; thus, it should
-require as little effort as possible on the client side.  Ideally,
-clients should not have to download
-or install software, they shouldn't have to run any measurements,
-and they should not have to understand how the system works.  This calls
-for a technique that will allow clients to automatically and seamlessly multiplex between relays
-(proxies) based on different destinations.  The Proxy Autoconfiguration (PAC) file
-supports this function.
+\paragraph{Usability.} \system{} should require as little effort as
+possible from clients.  Clients should not have to download
+or install software, collect any measurements, or understand how the
+system works.  This calls for a way for clients to automatically and
+seamlessly multiplex between relays (proxies) based on different
+destinations.  The Proxy Autoconfiguration (PAC) file supports this
+function.
 
 \paragraph{Scalability.}  This country avoidance system should be able to scale to 
 large numbers of users.  Therefore, \system{} should be able to handle the addition
@@ -33,6 +32,6 @@ solve.  The system does not address the notion of anonymity; it routes around
 countries (for reasons such as avoiding mass surveillance), but it does not 
 attempt to keep users anonymous.  
 \system{}, of course, does not address domestic surveillance (for 
-example, a client in the United States attempting to avoid surveillance by the 
-United States); this problem
-out of scope for this work.
+example, a client in the U.S. attempting to avoid surveillance by the 
+U.S.).
+
