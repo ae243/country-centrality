@@ -170,21 +170,20 @@ countries host a domain.  The more countries that a domain is hosted
 in creates a greater chance that the content is replicated in a
 favorable country, and could potentially allow a client to circumvent
 an unfavorable country.  We queried DNS from 26 vantage points around
-the world, which are shown in Figure \ref{fig:world}; we chose this
-set of locations because they are geographically diverse.  Then we
+the world, in geographically diverse locations.  Then we
 mapped the IP addresses in the DNS responses to countries to determine
 how many unique countries host a domain.  Figure~\ref{fig:host_diversity} shows the fraction of domains that are hosted in different numbers of countries; we can see two common hosting cases: 1) CDNs and 2) a single hosting country.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis---where are these domains hosted, and which countries are traversed on the way to reach these locations.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.8\columnwidth]{World-DNS}
-\caption{Vantage points in measuring hosting diversity.}
-\label{fig:world}
-\end{figure}
+%\begin{figure}[t]
+%\centering
+%\includegraphics[width=0.8\columnwidth]{World-DNS}
+%\caption{Vantage points in measuring hosting diversity.}
+%\label{fig:world}
+%\end{figure}
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{domain_hist_US1}
+\includegraphics[width=.8\columnwidth]{domain_hist_US1}
 \caption{The number of Alexa Top 100 US Domains hosted in different countries.}
 \label{fig:host_diversity}
 \end{figure}
