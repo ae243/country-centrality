@@ -1,32 +1,26 @@
-\section{Design}
+\section{Design of \system{}}
 \label{system_design}
 
-We now present the design of \system{}.
+\system{} consists of an overlay network of relays and an oracle that
+directs clients to the appropriate relays, as shown in
+Figure~\ref{fig:arch}.  \system{}'s relays are TCP proxy servers,
+which allow clients to access web content without installing software.
+%in contrast, IP layer relays would require clients to install
+%software, violating our usability goal.  
+\system{} uses the
+measurement methods described earlier to learn the paths between
+clients, relays, and domains, and the results are stored at the
+oracle.  The oracle uses the data to decide which relay a client in
+some location should use for accessing a certain domain while avoiding
+a certain country.  The oracle periodically computes paths for many
+combinations of client AS, destination, and country.
+%A client can then query the oracle to
+%determine the appropriate relay to use to avoid a certain country
+%en route to a particular destination.
+%
 
-\subsection{Architecture}
-
-Figure~\ref{fig:arch} shows the \system{} architecture, which includes
-an overlay network of relays and an oracle that directs the client
-traffic to the appropriate relays depending on which country the client
-wishes to avoid.
-\system{}  uses 
-the measurement methods described earlier to learn the paths between clients, 
-relays, and domains, and they are stored at the oracle.  The oracle uses the 
-measured paths to decide which relay a client in some location should
-use for accessing a certain domain while avoiding a certain country.
-The oracle periodically computes paths for many combinations of client AS,
-destination, and country.
-A client can then query the oracle to determine the appropriate relay to
-use for avoiding a certain country en route to a particular destination.
-
-\system{}'s relays are TCP proxy servers, which allow clients to access
-web content without installing software.  In contrast, IP layer proxies
-require the client to install software, which violates our
-usability goal. Once the TCP proxies are established, a
-client needs to learn which proxy to use when accessing a given
-domain.  The next section explains the challenges associated with path
-measurement and how we tackle them.
-
+%Once the TCP proxies are established, a client needs
+%to learn which proxy to use when accessing a given domain.
 
 %\begin{figure}[t]
 %\centering
@@ -43,12 +37,12 @@ measurement and how we tackle them.
 
 \begin{figure*}[t!]
     \centering
-    \begin{subfigure}[b]{0.45\textwidth}
+    \begin{subfigure}[b]{0.4\textwidth}
         \includegraphics[width=\textwidth,height=7cm]{system_overview_updated}
         \caption{\system{} architecture.}
         \label{fig:arch}
     \end{subfigure}
-    \begin{subfigure}[b]{0.45\textwidth}
+    \begin{subfigure}[b]{0.4\textwidth}
         \includegraphics[width=\textwidth,height=7cm]{all_paths}
         \caption{Paths computed in \system{}.}
         \label{fig:paths}
@@ -68,7 +62,7 @@ paths from the client to each domain, and reverse paths from each relay to the
 client. Figure \ref{fig:paths} shows the forward and reverse paths when accessing 
 content using relays; the only path we cannot measure is the reverse path from 
 the domains to the relays because we have no 
-vantage point at or near the domain from which to run traceroute.
+vantage point at or near the domain for running traceroute.
 
 \paragraph{Client-to-Relay Paths.} 
 To avoid requiring the client to install custom software, \system{}
@@ -76,26 +70,28 @@ measures client-to-relay paths from RIPE Atlas probes that serve as
 vantage points for potential client ASes.  \system{} selects probes that
 are geographically close the client (\eg, in the same 
 country). The oracle triggers the probe to run traceroutes
-to each relay in the system.  After collecting the responses, the oracle maps 
+to each relay.  After collecting the responses, the oracle maps 
 the IP-level paths to country-level paths and stores the results.
 
 \paragraph{Relay-to-Client Paths.} The relays perform
 traceroutes to the IP addresses of RIPE Atlas probes, which 
-represent client ASes.  They then derives country-level paths; the
+represent client ASes.  They then derive country-level paths; the
 oracle learns these paths from each relay.  
 
 \paragraph{Relay-to-Server Paths.} Relays perform 
 traceroutes to each domain.  As with paths to clients,
-relays derive country-level paths and sends them to the oracle.
+relays derive country-level paths and send them to the oracle.
 
-\paragraph{Client to Server Paths.} In the case that a path from a client to a 
+\paragraph{Client to Server Paths.} In a path from a client to a 
 domain does not pass through the country specified to avoid {\it by default}, 
-then none of the proxies should be used.  If a proxy is used, then it may 
-actually be causing the path to traverse more countries (unnecessarily).  These 
-paths are measured using the RIPE Atlas probes in similar locations as the 
-clients, and the oracle triggers traceroutes from each of
-them to each of the domains.  Corresponding country-level paths 
-are stored at the oracle.  
+then none of the proxies should be used.  
+%If a proxy is used, then it may 
+%actually be causing the path to traverse more countries
+%(unnecessarily).  
+These paths are measured using the RIPE Atlas probes in similar
+locations as the clients, and the oracle triggers traceroutes from
+each of them to each of the domains.  Corresponding country-level
+paths are stored at the oracle.
 
 These paths must be re-computed 
 as paths may change.  To our knowledge, there has not been any previous work 
@@ -117,47 +113,48 @@ the most recent country-level paths.
 %\label{fig:path_components}
 %\end{figure}
 
-Figure \ref{fig:paths}, shows the four components of paths between a
-client and correspoding web content.  The system measures three 
+Figure \ref{fig:paths} shows the four components of paths between a
+client and corresponding web content.  The system measures three 
 out of the four paths; the reverse path from the domains (servers) to the relays 
 is challenging to measure due to a lack of vantage points in ASes of
 common destinations.  Despite the inability to measure this part of the
 path, it would be difficult for the country being avoided to perform
-traffic analysis because it is{\it at most} only on the reverse path 
+traffic analysis because it is {\it at most} only on the reverse path 
 from the server to the relay. 
 
 \subsection{PAC File Generation}
 \label{multiplex}
-After measuring and aggregating the country-level paths, the oracle decides 
-which relay to use when accessing specific domains from a specific client 
-location.  This decision follows four steps:
-(1)~If the default path from the client to the domain does not pass through 
-the specified country, then do not use any of the relays. 
-(2)~Otherwise, for all the paths from the client to the relays, select usable relays 
-such that the path does not contain the specified country.
-(3)~From this set, if there is a path from a 
-usable relay to the domain that does not include the specified country, then 
-use that relay for that domain.
-(4)~If there is no path from the client through any of the relays to the domain 
-that does not pass through the specified country, then select the relay 
-that provides the most avoidance (measured by how many other domains
-that avoid the specified country). 
+The oracle follows four steps to decide which relay a client should
+use to access a specific domain: (1)~If the default path from the
+client to the domain does not pass through the specified country, then
+do not use any of the relays.  (2)~Otherwise, for all the paths from
+the client to the relays, select suitable relays such that the path
+does not contain the specified country.  (3)~From this set, if there
+is a path from a suitable relay to the domain that does not include
+the specified country, then use that relay for that domain.  (4)~If
+there is no path from the client through any of the relays to the
+domain that does not pass through the specified country, then select
+the relay that provides the most avoidance (measured by how many other
+domains that avoid the specified country).
 
-The oracle applies this decision process to each domain, which results in a mapping 
-of domains to relays that can be used to avoid the given country.  To facilitate 
-automatic multiplexing between relays, \system{} utilizes Proxy Autoconfiguration (PAC) 
-files.  A PAC file defines how browsers should choose a proxy when fetching a URL.  A 
-sample PAC file is shown in Configuration~\ref{lst:pac}; in this example, proxy 
-1.2.3.4:3128 should be used when accessing {\tt www.google.com}, but proxy 
-5.6.7.8:3128 should be used when accessing {\tt www.twitter.com}.  The oracle uses 
-the mapping of domains to relays to generate a PAC 
-file, which specifies which domains should be accessed through which proxy.  Once the PAC 
-file is generated based on the decision chain above, it is published to a URL 
-of the format $<$client\_country$>$\_$<$country\_to\_avoid$>$\_pac.pac.  The client 
-uses this URL to specify their proxy configuration.  Paths are re-computed 
-every hour, so the PAC file is also re-computed and published every hour.  The PAC files 
-are published online, which allows a client to simply point the proxy
-configuration settings to the URL that contains the PAC file. 
+The oracle applies this decision process to each domain, which results
+in a mapping of domains to relays that can be used to avoid the given
+country.  To facilitate automatic multiplexing between relays,
+\system{} utilizes Proxy Autoconfiguration (PAC) files, which define
+how browsers should choose a proxy when fetching a URL.  In the
+example PAC file in Configuration~\ref{lst:pac}, proxy 1.2.3.4:3128
+should be used when accessing {\tt www.google.com}, but proxy
+5.6.7.8:3128 should be used when accessing {\tt www.twitter.com}.  The
+oracle uses the mapping of domains to relays to generate a PAC file,
+which specifies which domains should be accessed through which proxy.
+The PAC file is published online to a URL of the format
+$<$client\_country$>$\_$<$country\_to\_avoid$>$\_pac.pac.  The client
+uses this URL to specify their proxy configuration.  Paths are
+re-computed every hour, so the contents of the PAC file are also
+updated every hour.
+% The PAC files are published online, which allows a client to simply
+% point the proxy configuration settings to the URL that contains the
+% PAC file.
 
 \renewcommand{\lstlistingname}{Configuration}
 \lstinputlisting[label={lst:pac}, language=JavaScript, frame=single, basicstyle=\footnotesize, caption={Example PAC file.}]{example_pac.pac}
@@ -167,26 +164,27 @@ Adding relays to \system{} is
 straightforward. Additionally, \system{} is resilient to failures of system components.
 
 \paragraph{Adding relays and oracles.} To add a relay, the system
-operator must set up a machine as a proxy server, install the \system{}
-relay software, and update the oracle's list of relays.  From that point
-forward, paths will be computed to and from the new relay, and clients
-will be using it as a proxy.  Adding an oracle requires installing the
-oracle software on a different machine, and specifying the client
-locations handled by that oracle (for example, one oracle handles all
-clients in North America and Europe, and another oracle handles all clients
-elsewhere).  Both oracles will publish the PAC files to the same server,
-which causes no changes for the client.
+operator must set up a machine as a proxy server, install the relay
+software, and update the oracle's list of relays.  From that point
+onward, paths will be computed to and from the new relay, and clients
+will begin using the new proxy.  Adding an oracle requires installing
+the oracle software on a different machine, and specifying the client
+locations handled by that oracle (\eg, one oracle handles clients in
+North America and Europe, and another handles clients elsewhere).
+Both oracles will publish the PAC files to the same server, which
+causes no changes for the client.
 
-\paragraph{Failed relays and oracles.} If a relay becomes unresponsive,
-this issue is handled by the PAC file.  The PAC file allows the oracle
-to specify multiple proxies in a sequential order, such that if the the
-first proxy fails, then the second proxy is used (and so on).  This
-feature can be used to specify all of the relays that have a path to the
-domain.  And future work can include relay replicas that can be used in
-the case that a relay crashes.  Among other mechanisms, we can detect a
-failed oracle by determining that its PAC file is older than one hour.
-Detecting a failed oracle could trigger a backup oracle to re-compute
-the PAC files periodically.  Because oracles are stateless, failover is
+\paragraph{Failed relays and oracles.} Unresponsive relays are handled
+by the PAC file.  The PAC file allows the oracle to specify multiple
+proxies in a sequential order, such that if the the first proxy fails,
+then the client users the second proxy (and so on).  This feature can
+be used to specify all of the relays that have a path to the domain.
+%And future work can include relay replicas that can be used in the
+%case that a relay crashes.  
+Among other mechanisms, we can detect a failed oracle by determining
+that its PAC file is older than one hour.  Detecting a failed oracle
+could trigger a backup oracle to re-compute the PAC files
+periodically.  Because oracles are stateless, failover is
 straightforward.  Without backup oracles, clients can still use the
 system when the oracle fails.  The clients will simply be using stale
 paths, which are likely (but not guaranteed) to be functional, since
