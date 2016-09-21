@@ -20,17 +20,17 @@ laid, and surveillance states change.  Future work can and should
 involve exploring how these paths evolve over time, and analyzing the
 relative effectiveness of different strategies for controlling traffic flows.
 
-\paragraph{Isolating DNS diversity vs. path diversity.}
-In our experiments, the overlay network relays perform DNS lookups from
-geographically diverse locations, which provides some level of DNS
-diversity in addition to the path diversity that the relays inherently
-provide. This approach somewhat conflates the benefits of DNS diversity
-with the benefits of path diversity and in practice may increase
-clients' vulnerability to surveillance, since each relay is performing
-DNS lookups on each client's behalf. We plan to conduct additional
-experiments where the client relies on its local DNS resolver to map
-domains to IP addresses, as opposed to relying on the relays for both
-DNS resolution and routing diversity.
+%\paragraph{Isolating DNS diversity vs. path diversity.}
+%In our experiments, the overlay network relays perform DNS lookups from
+%geographically diverse locations, which provides some level of DNS
+%diversity in addition to the path diversity that the relays inherently
+%provide. This approach somewhat conflates the benefits of DNS diversity
+%with the benefits of path diversity and in practice may increase
+%clients' vulnerability to surveillance, since each relay is performing
+%DNS lookups on each client's behalf. We plan to conduct additional
+%experiments where the client relies on its local DNS resolver to map
+%domains to IP addresses, as opposed to relying on the relays for both
+%DNS resolution and routing diversity.
 
 \paragraph{Additional \system{} Features.}  Additional features can be 
 implemented at the relay to help preserve client privacy.  An example would 

@@ -34,7 +34,7 @@ while avoiding a client-specified country.}
 \label{fig:arch}
 \end{figure}
 
-\subsection{Systematic Path Measurement}
+\subsection{Periodic Path Measurement}
 As mentioned earlier, \system{} is an overlay network that is measurement-driven.  
 The system includes a set of relays that function as TCP proxy servers.  The system 
 is designed for accessing web content seamlessly through the overlay network, and 
@@ -113,7 +113,7 @@ on the traffic because {\it at most} the attacker is only on the reverse path
 from the server to the relay.  An attacker would need a path component from the 
 set \{1,4\} and \{2,3\}, but they would only (possibly) have path component 3.
 
-\subsection{Automated Relay Multiplexing}
+\subsection{PAC File Generation}
 \label{multiplex}
 After measuring and aggregating the country-level paths, the oracle decides 
 which relay to use when accessing specific domains from a specific client 

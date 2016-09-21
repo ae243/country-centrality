@@ -22,7 +22,7 @@ y_ie = [.82, .94, .96, .96, .96, .97, .97, .97, .97, .97]
 
 y_in = [.98, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00]
 
-fig1, ax1 = plt.subplots(1,1,figsize=(6,5))
+fig1, ax1 = plt.subplots(1,1,figsize=(5,5))
 plt.plot(x_us,y_us,color='orange',marker='o')
 plt.plot(x_us,y_ie,color='blue',marker='v')
 plt.plot(x_us,y_fr,color='red',marker='s')
@@ -43,7 +43,7 @@ for tick in ax1.get_yticklabels():
 for tick in ax1.get_xticklabels():
     tick.set_fontsize(14)
 fig1.tight_layout()
-ax1.set_xlim([0, 5])
+ax1.set_xlim([0, 4])
 ax1.set_ylim([0, 1.1])
 fig1.savefig('avoidance_n_relays.pdf')
 
