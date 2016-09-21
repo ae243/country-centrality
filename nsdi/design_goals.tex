@@ -1,40 +1,38 @@
 \section{Design Goals}
 \label{goals}
-In light of the results presented in the previous section, we see that an 
-overlay network can significantly help a client avoid any given country.  This motivates
- the design and implementation of our system, \system.  Here we highlight the main goals of 
-\system{}, as well as challenges that are out of the scope of this work.
 
-{\bf Foreign Country Avoidance.}  The primary goal of \system{} is to avoid a given
+Our measurement results motivate 
+ the design and implementation of a relay-based avoidance system,
+\system{}.  We highlight the design goals
+\system{} below.
+
+\paragraph{Foreign Country Avoidance.}  The primary goal of \system{} is to avoid a given
  country when accessing web content.  \system{} should provide clients a way to 
-route around a specified country, while still being able to access the desired 
+route around a specified country, when accessing a
 domain.  This calls for the role of measurement in the system design.  Systematizing 
-the measurement methods discussed earlier in this paper is crucial to enabling the 
-system to avoid any specified country.
+the measurement methods discussed earlier in this paper is crucial.
 
-{\bf Usability.} \system{} should be designed in a way that is accessible to and 
-easy to use by clients around the world.  It should require as little effort by 
-the client as possible.  This means that clients shouldn't have to download or 
-install any software, they shouldn't have to run any measurements, and they 
-should not have to understand how the system works.  This calls for a technique 
-that will allow clients to multiplex between relays (proxies) based on which domain they 
-are accessing, while doing so in a seamless, automated way.  The Proxy Autoconfiguration (PAC) 
-file supports the functionality that is required by \system{} --- we discuss the details 
-of PAC files in the next section.  
+\paragraph{Usability.} \system{} should be easy to use; thus, it should
+require as little effort as possible on the client side.  Ideally,
+clients should not have to download
+or install software, they shouldn't have to run any measurements,
+and they should not have to understand how the system works.  This calls
+for a technique that will allow clients to automatically and seamlessly multiplex between relays
+(proxies) based on different destinations.  The Proxy Autoconfiguration (PAC) file
+supports this function.
 
-{\bf Scalability.}  This country avoidance system should be able to scale to 
+\paragraph{Scalability.}  This country avoidance system should be able to scale to 
 large numbers of users.  Therefore, \system{} should be able to handle the addition
  of relays, as well as be cost-effective in terms of resources required. This requires 
 clever measurement vantage points, such that each vantage point is representative of 
-more than one client.  It is also aided by the PAC file, as this file allows the system to 
-grow with increasing numbers of clients, and supports incremental deployment.
+more than one client.  The PAC file allows the system to 
+grow with the number of clients and also supports incremental deployment.
 
-{\bf Non-goals.}  There are some challenges that \system{} does not attempt to 
+\paragraph{Non-goals.}  There are some challenges that \system{} does not attempt to 
 solve.  The system does not address the notion of anonymity; it routes around 
 countries (for reasons such as avoiding mass surveillance), but it does not 
 attempt to keep users anonymous.  
-
-Additionally, \system{} does not solve the problem of domestic surveillance (for 
+\system{}, of course, does not address domestic surveillance (for 
 example, a client in the United States attempting to avoid surveillance by the 
-United States).  This is a challenging problem, and asks for future research, 
-but is out of the scope of this work.
+United States); this problem
+out of scope for this work.
