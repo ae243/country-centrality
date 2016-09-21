@@ -1,90 +1,93 @@
 \section{Evaluation}
-Using the \system{} implementation, we evaluate the system on it's ability to avoid a given country, performance, and scalability in terms of storage and costs.
+
+We evailate \system{}'s ability to avoid a given country, its performance,
+and its storage and measurement costs.
 
 \subsection{Country Avoidance}
-As the primary goal of the system is to provide country avoidance for a given 
-country, we measured how much avoidance the system achieves.  We did so by first 
+
+We measured \system{}'s effectiveness in achieving country avoidance.  We did so by first 
 calculating the number of {\it default} paths that avoid a given country.  Then 
 we added a single relay, and calculated how many domains the client could 
-access without traversing through the given country.  This was repeated for 
-the remaining two relays.  The evaluation was conducted under the condition that 
+access without traversing through the given country.  We repeated this approach for 
+the remaining two relays.  We conducted the evaluation under the condition that 
 the client wished to avoid different countries when accessing the Netherlands top 
-100 domains, and the results are shown in Figure \ref{fig:avoidance_eval}.  Each 
+100 domains; Figure \ref{fig:avoidance_eval} shows these results.  Each 
 line represents the fraction of domains accessible while avoiding the country that 
 the line represents.  For example, 46\% of domains are accessible without traversing 
-the United States when \system{} is not being used (0 relays), and if \system{} is 
+the United States when \system{} is not being used (zero relays), and if \system{} is 
 used, then 63\% of domains are accessible without traversing the United States.
 
-\begin{figure}[b!]
+\begin{figure}[t!]
 \tiny
 \centering
 \includegraphics[width=.5\textwidth,height=6cm]{avoidance_n_relays}
-\caption{How much avoidance different numbers and locations of relays achieve when a 
-client located in the Netherlands wishes to avoid different countries.  Up to nine 
-relays were used, but there was no additional avoidance provided by the 4 remaining 
-relays (not included in this graph).}
+\caption{The effect of the number of relays on avoidance, for a client
+  in the Netherlands. We tested \system{} with up to nine relays.}
 \label{fig:avoidance_eval}
 \end{figure}
 
 It is evident that \system{} helps a client avoid a foreign country, as the 
 fraction of domains accessible without traversing 
 the specified country without \system{} is lower than with \system{}.  Additionally, 
-it is clear that adding the first relay provides the greatest increase in 
-avoidance, while subsequent relays provide a significantly 
-smaller amount (or no) additional avoidance.
-
+adding the first relay provides the greatest increase in 
+avoidance, while subsequent relays offer diminishing returns.
 Figure \ref{fig:avoidance_eval} also clearly shows how much more difficult (or 
-impossible) it is to avoid the United States than it is to avoid any other 
+impossible) it is to avoid the United States than any other 
 country.  Only 63\% of domains can be accessed while avoiding the United States, 
 whereas almost all domains can be accessed while avoiding any other given 
-country.  This confirms the results presented in Section \ref{avoid_results}, and 
-emphasizes how crucial the systematization of the measurements is for enabling 
-\system{}.
+country.  
+%This confirms the results presented in Section \ref{avoid_results}, and 
+%emphasizes how crucial the systematization of the measurements is for enabling 
+%\system{}.
 
 \subsection{Performance}
 To measure the performance of \system{}, we measure both 
 the throughput and latency.
 
 To measure throughput, we ran {\tt wget} for each 
-of the top 100 domains from the client machine in the Netherlands, while 
-using an oracle-generated PAC file.  Because multiple different relays could have been 
+of the top 100 domains from the client machine in the Netherlands 
+using an oracle-generated PAC file.  Because different relays could have been 
 used to avoid a single domain, the oracle selected a random relay from those 
 that would allow the client to avoid the country.  The oracle generated 
-10 PAC files for a client in the Netherlands who wishes to avoid the United States,
- randomly picking a relay for domains that could have used 
+ten PAC files for a client in the Netherlands who wishes to avoid the United States,
+ randomly selecting a relay for domains that could have used 
 different relays, and {\tt wget} was used for the top 100 domains for each 
 PAC file generated.  Based on the {\tt wget} output, we calculate the number 
 of seconds to access content using our system and take the average across the 
-10 experiments. Figure \ref{fig:throughput} shows 
-the CDF of the ratio of \system{} throughput to direct throughput. 
+ten experiments. 
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{throughput}
-\caption{CDF of the ratio of RAN throughput to direct throughput.  
-The large points on the graph represent a ``normal'' overlay network's 
-performance (RON's network performance).}
+\caption{The ratio of RAN throughput to direct throughput.  
+The points on the graph are taken from the RON study and represent a ``normal'' overlay network's 
+performance.} 
 \label{fig:throughput}
 \end{figure}
 
-We can see that the throughput of \system{} is not significantly worse than that 
-of default paths.  In fact, in some cases the performance of \system{} is {\it 
-better} than that of default paths.  This could be a result of the relays 
-keeping local traffic local, or due to a closer content replica being selected. 
-These results show that \system{}'s performance is comparable to the performance 
-of accessing domains without \system{}.
+Figure \ref{fig:throughput} shows a CDF of the ratio of \system{}
+throughput to direct throughput.  The throughput of
+\system{} is not significantly worse than that of default paths.  
+In some cases the performance of \system{} is {\it better} than
+that of default paths.  Such improvements could be a result of the
+relays keeping local traffic local, or due to a closer content replica
+being selected.  These results show that \system{}'s performance is
+comparable to the performance of accessing domains without \system{}.
+Figure \ref{fig:throughput} also compares \system{}'s throughput to
+RON's throughput, illustrated with the red dots.  \system{} performs
+worse than RON ($x < 1$), which is expected, as the detours that
+\system{} introduces inherently inflates paths.  Interestingly, both
+RON and \system{} improve throughput for a similar fraction of samples
+($x>1$).
 
-Figure \ref{fig:throughput} also shows \system{}'s throughput in comparison to 
-RON's throughput, marked by the red dots.  We can see that \system{} performs 
-worse than RON (when x $<$ 1), which is not unexpected, as \system{} inflates 
-paths on purposes.  More surprisingly, both RON and \system{} improve throughput 
-for a similar fraction of samples (when x $>$ 1).
-
-To measure the latency of \system{}, we ran a {\tt curl} command to each of the 
-top 100 domains from the client machine in the Netherlands, while using the 10
+To measure the latency of \system{}, we ran {\tt curl} to each of the 
+top 100 domains from the client in the Netherlands, while using the ten
 oracle-generated PAC files. This provided the time to first byte (TTFB); we 
 found the average TTFB when accessing content using \system{} and 
 found the TTFB when using direct paths; the results are shown in Figure \ref{fig:latency}.  
+The median TTFB for direct paths is 68.5~ms; for \system{} paths the
+median is 100.8~ms; 90th percentile TTFB is 22.5~ms and 40.4~ms, respectively.  
+
 
 \begin{figure}[t]
 \centering
@@ -93,10 +96,6 @@ found the TTFB when using direct paths; the results are shown in Figure \ref{fig
 \label{fig:latency}
 \end{figure}
 
-The median TTFB for direct paths is .0685, and for \system{} paths, it is .10075.  Additionally, 
-the 90th percentile for direct and \system{} paths is .2253 and .40352, respectively.  This 
-shows that the system's latency is greater by a factor of 2 (or 20-40ms).  \annie{Say if this is 
-significant or not, especially as it relates to page load times.}
 
 \subsection{Storage}
 As the number of clients increase, and subsequently the number of paths being 
