@@ -92,7 +92,7 @@ median is 100.8~ms; 90th percentile TTFB is 22.5~ms and 40.4~ms, respectively.
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{latency}
-\caption{CDF of Time to First Byte for both \system{} and for direct paths.}
+\caption{Time to First Byte for \system{} and direct paths.}
 \label{fig:latency}
 \end{figure}
 
@@ -103,7 +103,7 @@ computed increases, the amount of storage must remain reasonable.  The storage
 used by paths can be calculated:
 
 \[Storage(D,R,C) = (D x R) + 2(C x R) + (C x D) \]
-
+\noindent
 D is the number of domains; R is the number of relays; C is representative of the number of 
 clients.  While C {\it represents} clients, it is not the number of {\it actual} clients using the 
 system --- it is the number of vantage points the system uses to measure paths 
@@ -123,7 +123,7 @@ we must earn more credits than we are spending on measurements.  The cost
 in credits follows the equation:
 
 \[Credit\_Cost(D,R,C) = COST_{traceroute}((C x R) + (C x D))\]
-
+\noindent
 Currently, the $COST_{traceroute}$ is 60, resulting in a prototype cost of 6,180 
 credits, but because these paths are updated each hour, then 
 the daily credit cost is 148,320 credits.  In return for hosting a RIPE Atlas 
