@@ -7,7 +7,7 @@ import matplotlib.mlab as mlab
 from numpy import cumsum
 
 # Country Avoidance Plot
-
+'''
 x_us = [0,1,2,3,4,5,6,7,8,9]
 
 y_us = [.46, .59, .63, .66, .66, .66, .66, .66, .66, .66]
@@ -46,11 +46,11 @@ fig1.tight_layout()
 ax1.set_xlim([0, 4])
 ax1.set_ylim([0, 1.1])
 fig1.savefig('avoidance_n_relays.pdf')
-
+'''
 
 
 # Throughput Plot
-'''
+
 y1 = [0.934000232861,0.456565046957,1.18241484604,0.234671336942,0.670741925359,1.08775324039,0.0423117459887,0.0298067224663,1.17368824443,0.0061533631901,
 1.41235794537,0.7728701116,1.89613862729,1.4341991286,0.592081758454,1.20360644454,0.827148864896,1.03601373535,1.57018712121,1.01881287805,0.361025649927,
 2.23095587412,0.994877154324,0.946063405724,0.962810540827,0.0477562317971,0.987269488258,0.731464820517,39.1537351403,1.55619569527,0.434022562541,1.06213600525,
@@ -74,6 +74,7 @@ cdf = np.cumsum(counts)
 
 # And finally plot the cdf
 plt.plot(bin_edges[1:], cdf)
+ax2.plot([.5,2,5],[.95,90.25,93.1], 'or')
 plt.tick_params(
     axis='x',          # changes apply to the x-axis
     which='minor',      # both major and minor ticks are affected
@@ -81,7 +82,7 @@ plt.tick_params(
     top='off')
 
 ax2.set_ylabel('Fraction of Domains', fontsize=14)
-ax2.set_xlabel('Ratio of direct throughput to RAN throughput (logscale)', fontsize=14)
+ax2.set_xlabel('Ratio of RAN throughput to direct throughput (logscale)', fontsize=14)
 
 ylabels = [0,.1, .2, .3, .4, .5, .6, .7, .8, .9, 1.0]
 plt.yticks(np.arange(0, 96, 9.5), ylabels)
@@ -92,7 +93,7 @@ fig2.tight_layout()
 ax2.set_xlim([0,10])
 ax2.set_ylim([0,95])
 fig2.savefig('throughput.pdf')
-'''
+
 
 '''
 # Latency Plot

@@ -21,18 +21,32 @@ for many R, L, D, and C combinations, and also stored at the oracle.  A
 client can then access these decisions to route around a country that they wish 
 to avoid.  We discuss the details of \system{} in the rest of this section.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=.5\textwidth]{system_arch}
-\caption{\system{} architecture. 1) Paths are computed between clients and relays, 
-relays and domains, relays and clients, and clients and domains.  2) The oracle 
-aggregates all paths.  3)  The oracle generates a PAC file that specifies which 
-domains should be accessed through which relays (based on the measured paths).  
-4) The client configures her browser to use the oracle-generated PAC file.  5) 
-The client's traffic is routed through relays (or direct paths) to access domains, 
-while avoiding a client-specified country.}
-\label{fig:arch}
-\end{figure}
+%\begin{figure}[t]
+%\centering
+%\includegraphics[width=.5\textwidth]{system_overview_updated}
+%\caption{\system{} architecture. 1) Paths are computed between clients and relays, 
+%relays and domains, relays and clients, and clients and domains.  2) The oracle 
+%aggregates all paths.  3)  The oracle generates a PAC file that specifies which 
+%domains should be accessed through which relays (based on the measured paths).  
+%4) The client configures her browser to use the oracle-generated PAC file.  5) 
+%The client's traffic is routed through relays (or direct paths) to access domains, 
+%while avoiding a client-specified country.}
+%\label{fig:arch}
+%\end{figure}
+
+\begin{figure*}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,height=7cm]{system_overview_updated}
+        \caption{\system{} architecture.}
+        \label{fig:arch}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,height=7cm]{all_paths}
+        \caption{Path computation.}
+    \end{subfigure}
+    \caption{}
+\end{figure*}
 
 \subsection{Periodic Path Measurement}
 As mentioned earlier, \system{} is an overlay network that is measurement-driven.  
@@ -93,15 +107,15 @@ single hour. As it takes approximately 30 minutes to
 compute all paths, \system{} re-computes the paths every one hour to incorporate 
 the most recent country-level paths in the system.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=.5\textwidth]{four_paths}
-\caption{The path of a web request through a \system{} relay, to the domain, and back. 
-1) forward path from client to relay; 2) forward path from relay to domain; 3) reverse 
-path from domain to relay; 4) reverse path from relay to client.  \system{} measures 
-all paths except for path 3) due to a lack of vantage points at domain locations.}
-\label{fig:path_components}
-\end{figure}
+%\begin{figure}[t]
+%\centering
+%\includegraphics[width=.5\textwidth]{all_paths}
+%\caption{The path of a web request through a \system{} relay, to the domain, and back. 
+%1) forward path from client to relay; 2) forward path from relay to domain; 3) reverse 
+%path from domain to relay; 4) reverse path from relay to client.  \system{} measures 
+%all paths except for path 3) due to a lack of vantage points at domain locations.}
+%\label{fig:path_components}
+%\end{figure}
 
 As seen in Figure \ref{fig:path_components}, there are four path components 
 when a client accesses web content through \system{}.  The system measures three 
