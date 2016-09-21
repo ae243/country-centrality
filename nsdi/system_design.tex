@@ -9,8 +9,8 @@ country.
 There are three main components to \system{}: the oracle, the relays, and the 
 clients.  Figure \ref{fig:arch} shows how the system components
 interact to allow a client to access web content while simultaneously avoiding 
-a given country.  We employ the most effective country avoidance technique that 
-we found in Section \ref{avoid_results}, an overlay network.  The overlay network 
+a given country.  We employ the country avoidance technique studied in Section 
+\ref{avoid_results} --- an overlay network.  The overlay network 
 consists of a set of relays, which run as proxy servers.  \system{} also uses 
 the same measurement methods used in previous sections for characterizing routing 
 detours.  These measurement methods are used to learn the paths between clients, 
@@ -43,19 +43,20 @@ to avoid.  We discuss the details of \system{} in the rest of this section.
     \end{subfigure}
     \begin{subfigure}[b]{0.45\textwidth}
         \includegraphics[width=\textwidth,height=7cm]{all_paths}
-        \caption{Path computation.}
+        \caption{Paths computed in \system{}.}
+        \label{fig:paths}
     \end{subfigure}
     \caption{}
 \end{figure*}
 
 \subsection{Periodic Path Measurement}
-As mentioned earlier, \system{} is an overlay network that is measurement-driven.  
+As mentioned earlier, \system{} is a measurement-driven overlay network.  
 The system includes a set of relays that function as TCP proxy servers.  The system 
 is designed for accessing web content seamlessly through the overlay network, and 
 TCP proxies support this.  IP layer proxies force the client to download and 
 install software, which makes the system less user-friendly.  Therefore, we 
 chose to use TCP proxies instead of some other type of proxy, such as IP layer proxies.  
-Once we established the TCP proxies, or relays, the system needed a way to 
+Once the TCP proxies, or relays, are established, the system needs a way to 
 learn which proxy to use when accessing a given domain.  Here we explain which paths we measure, 
 how and where they are measured, as well as the challenges associated with the 
 role of measurement in the system.  
@@ -66,8 +67,9 @@ described in Section \ref{datasets} and shown in Figure
 \ref{fig:analysis_pipeline}.  The paths we measure are the: forward paths from 
 the client to each relay, forward paths from each relay to each domain, forward 
 paths from the client to each domain, and reverse paths from each relay to the 
-client. Figure \ref{fig:path_components} shows the forward and reverse paths when accessing 
-content using relays; path component 3) is the only path we cannot measure because we have no 
+client. Figure \ref{fig:paths} shows the forward and reverse paths when accessing 
+content using relays; the only path we cannot measure is the reverse path from 
+the domains to the relays because we have no 
 vantage point at or near the domain from which to run {\tt traceroute}.
 
 {\bf Client to Relay Paths.} As previously mentioned, one of the goals of the 
@@ -102,8 +104,8 @@ as paths may change.  To our knowledge, there has not been any previous work
 on how often country-level paths change; prior work has explored how often 
 AS-level paths change.  To measure how often country-level paths change, we 
 computed the paths from relays to domains once every two hours and once every 
-hour.  Less than five paths from our results changed every two hours and every 
-single hour. As it takes approximately 30 minutes to 
+hour.  Less than five paths from our results changed every two hours, and the 
+results were similar for one hour increments as well.  As it takes approximately 30 minutes to 
 compute all paths, \system{} re-computes the paths every one hour to incorporate 
 the most recent country-level paths in the system.
 
@@ -117,21 +119,22 @@ the most recent country-level paths in the system.
 %\label{fig:path_components}
 %\end{figure}
 
-As seen in Figure \ref{fig:path_components}, there are four path components 
-when a client accesses web content through \system{}.  The system measures three 
+As seen in Figure \ref{fig:paths}, there are four path components 
+when a client accesses web content through \system{}: forward from the clients
+to the relays, forward from the relays to domains, reverse from the domains 
+to the relays, and reverse from the relays to the clients.  The system measures three 
 out of the four paths; the reverse path from the domains (servers) to the relays 
 is challenging to measure due to a lack of vantage points.  Despite not 
 calculating all of the country-level path components, we can show that the 
 country a client is attempting to avoid cannot conduct traffic analysis attacks 
 on the traffic because {\it at most} the attacker is only on the reverse path 
-from the server to the relay.  An attacker would need a path component from the 
-set \{1,4\} and \{2,3\}, but they would only (possibly) have path component 3.
+from the server to the relay. 
 
 \subsection{PAC File Generation}
 \label{multiplex}
 After measuring and aggregating the country-level paths, the oracle decides 
 which relay to use when accessing specific domains from a specific client 
-location.  This decision follows three sequential steps:
+location.  This decision follows four sequential steps:
 
 \begin{enumerate}
 \item If the default path from the client to the domain does not pass through 
@@ -167,23 +170,21 @@ browser, the latest PAC file will be used for relay multiplexing.
 
 \lstinputlisting[label={lst:pac}, language=JavaScript, frame=single, basicstyle=\footnotesize, caption={An example PAC file.}]{example_pac.pac}
 
-\subsection{Scaling the System}
-\system{} is 
-designed in a modular way, and therefore, adding relays is quick, easy, and 
-simple.  To add a relay, the system operator must set up a machine as a proxy 
+\subsection{Scalability and Fault Tolerance}
+\system{} is designed in a modular way, and therefore, adding relays is quick, easy, and 
+simple. Additionally, \system{} is resilient to crashed system components, such as a 
+crashed relay or oracle.  
+
+{\bf Adding a Relay.} To add a relay, the system operator must set up a machine as a proxy 
 server, install the \system{} relay software, and update the oracle's list of 
 relays.  From that point forward, paths will be computed to and from the new 
 relay, and clients will be using it as a proxy.  
 
-Adding an oracle is a matter of installing the oracle software on 
+{\bf Adding an Oracle.} Adding an oracle is a matter of installing the oracle software on 
 a different machine, and specifying the client locations handled by that oracle 
 (for example, oracle 1 handles all clients in North America and Europe, and 
 oracle 2 handles all clients elsewhere).  Both oracles will publish the PAC files 
 to the same server, which causes no changes for the client.
-
-\subsection{Fault Tolerance}
-\system{} is resilient to crashed system components, such as a crashed relay or 
-oracle.  
 
 {\bf Failed Relay.} If a relay becomes unresponsive, this issue is handled by 
 the PAC file.  The PAC file allows the oracle to specify multiple proxies in 

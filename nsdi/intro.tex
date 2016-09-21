@@ -124,13 +124,12 @@ Infrastructure building alone is not enough: ISPs in respective regions
 need better encouragements to interconnect with one another to ensure
 that local traffic stays local.
 
-The second part of our work (Section~\ref{avoid_results}) explores
-potential mechanisms for avoiding certain countries, and the potential
-effectiveness of these techniques.  We explore two techniques: using the
-open DNS resolver infrastructure and using overlay network relays.  We
-find that both of these techniques can be effective for clients in
-certain countries, yet the effectiveness of each technique also depends
-on the county.  For example, Brazilian clients could completely avoid
+The second part of our work (Section~\ref{avoid_results}) explores a
+potential mechanism --- overlay network relays --- for avoiding certain countries, and it's
+effectiveness.  We
+find that this technique can be effective for clients in
+certain countries, yet the effectiveness depends
+on the country.  For example, Brazilian clients could completely avoid
 Spain, Italy, France, Great Britain, Argentina, and Ireland (among
 others), even though the default paths to many popular Brazilian sites
 traverse these countries. We also find that some of the most prominent surveillance states are
@@ -140,11 +139,11 @@ connectivity to popular sites and content.  Additionally, overlay network relays
 local traffic local: by using relays in the client's country, fewer
 paths trombone out of the client's country.  
 
-The third part of our work (Section~\ref{system_design}) uses the most effective
+The third part of our work (Section~\ref{system_design}) uses this
 country avoidance technique --- overlay nework relays --- in a lightweight system, \system{}, that allows 
 a client to access web content without traversing an undesirable country.  The 
-system uses a series of overlay network relays to automatically routes a client's 
+system uses a series of overlay network relays to automatically route a client's 
 traffic around a specified country.  We design and implement \system{} for 
 country avoidance, usability, and scalability.  Our evaluation shows that our system 
-is effective for avoiding different countries, while having negligible performance overhead --- 
+is effective for avoiding different countries, while having minimal performance overhead --- 
 sometimes having better performance than when no country avoidance system is used.

@@ -13,7 +13,7 @@ the client wished to avoid different countries when accessing the Netherlands to
 line represents the fraction of domains accessible while avoiding the country that 
 the line represents.  For example, 46\% of domains are accessible without traversing 
 the United States when \system{} is not being used (0 relays), and if \system{} is 
-used, then 63\% of domains are accessible with traversing the United States.
+used, then 63\% of domains are accessible without traversing the United States.
 
 \begin{figure}[b!]
 \tiny
@@ -30,7 +30,7 @@ It is evident that \system{} helps a client avoid a foreign country, as the
 fraction of domains accessible without traversing 
 the specified country without \system{} is lower than with \system{}.  Additionally, 
 it is clear that adding the first relay provides the greatest increase in 
-provided avoidance, while subsequent relays provide a significantly 
+avoidance, while subsequent relays provide a significantly 
 smaller amount (or no) additional avoidance.
 
 Figure \ref{fig:avoidance_eval} also clearly shows how much more difficult (or 
@@ -42,8 +42,7 @@ emphasizes how crucial the systematization of the measurements is for enabling
 \system{}.
 
 \subsection{Performance}
-A system is not usable if the performance is significantly worse than what a user
-is accustomed to.  To measure the performance of \system{}, we measure both 
+To measure the performance of \system{}, we measure both 
 the throughput and latency.
 
 To measure throughput, we ran {\tt wget} for each 
@@ -51,18 +50,20 @@ of the top 100 domains from the client machine in the Netherlands, while
 using an oracle-generated PAC file.  Because multiple different relays could have been 
 used to avoid a single domain, the oracle selected a random relay from those 
 that would allow the client to avoid the country.  The oracle generated 
-10 PAC files randomly picking a relay for domains that could have used 
+10 PAC files for a client in the Netherlands who wishes to avoid the United States,
+ randomly picking a relay for domains that could have used 
 different relays, and {\tt wget} was used for the top 100 domains for each 
 PAC file generated.  Based on the {\tt wget} output, we calculate the number 
 of seconds to access content using our system and take the average across the 
 10 experiments. Figure \ref{fig:throughput} shows 
-the CDF of the ratio of direct throughput to \system{} throughput. 
+the CDF of the ratio of \system{} throughput to direct throughput. 
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{throughput}
 \caption{CDF of the ratio of RAN throughput to direct throughput.  
-There were six outliers that had a ratio greater than 10.}
+The large points on the graph represent a ``normal'' overlay network's 
+performance (RON's network performance).}
 \label{fig:throughput}
 \end{figure}
 
@@ -73,10 +74,16 @@ keeping local traffic local, or due to a closer content replica being selected.
 These results show that \system{}'s performance is comparable to the performance 
 of accessing domains without \system{}.
 
+Figure \ref{fig:throughput} also shows \system{}'s throughput in comparison to 
+RON's throughput, marked by the red dots.  We can see that \system{} performs 
+worse than RON (when x $<$ 1), which is not unexpected, as \system{} inflates 
+paths on purposes.  More surprisingly, both RON and \system{} improve throughput 
+for a similar fraction of samples (when x $>$ 1).
+
 To measure the latency of \system{}, we ran a {\tt curl} command to each of the 
 top 100 domains from the client machine in the Netherlands, while using the 10
 oracle-generated PAC files. This provided the time to first byte (TTFB); we 
-found the average TTFB for when accessing content using \system{} and 
+found the average TTFB when accessing content using \system{} and 
 found the TTFB when using direct paths; the results are shown in Figure \ref{fig:latency}.  
 
 \begin{figure}[t]
