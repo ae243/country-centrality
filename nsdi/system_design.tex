@@ -147,7 +147,7 @@ The oracle applies this decision process to each domain, which results in a mapp
 of domains to relays that can be used to avoid the given country.  To facilitate 
 automatic multiplexing between relays, \system{} utilizes Proxy Autoconfiguration (PAC) 
 files.  A PAC file defines how browsers should choose a proxy when fetching a URL.  A 
-sample PAC file is shown in Listing \ref{lst:pac}; in this example, proxy 
+sample PAC file is shown in Configuration~\ref{lst:pac}; in this example, proxy 
 1.2.3.4:3128 should be used when accessing {\tt www.google.com}, but proxy 
 5.6.7.8:3128 should be used when accessing {\tt www.twitter.com}.  The oracle uses 
 the mapping of domains to relays to generate a PAC 
