@@ -35,21 +35,21 @@ combinations of client AS, destination, and country.
 %\label{fig:arch}
 %\end{figure}
 
-\begin{figure*}[t!]
+\begin{figure}[t!]
     \centering
-    \begin{subfigure}[b]{0.4\textwidth}
-        \includegraphics[width=\textwidth,height=7cm]{system_overview_updated}
+%    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=0.7\linewidth]{system_overview_updated}
         \caption{\system{} architecture.}
         \label{fig:arch}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.4\textwidth}
-        \includegraphics[width=\textwidth,height=7cm]{all_paths}
-        \caption{Paths computed in \system{}.}
-        \label{fig:paths}
-    \end{subfigure}
-    \caption{\system{}'s architecture, and the path
-      measurements that \system{} periodically computes.}
-\end{figure*}
+%    \end{subfigure}
+%    \begin{subfigure}[b]{0.4\textwidth}
+%        \includegraphics[width=\textwidth,height=7cm]{all_paths}
+%        \caption{Paths computed in \system{}.}
+%        \label{fig:paths}
+%    \end{subfigure}
+%    \caption{\system{} architecture, and the path
+%      measurements that \system{} periodically computes.}
+\end{figure}
 
 \subsection{Periodic Path Measurement}
 
@@ -59,10 +59,20 @@ described in Section \ref{datasets} and shown in Figure
 \ref{fig:analysis_pipeline}.  The paths we measure are the: forward paths from 
 the client to each relay, forward paths from each relay to each domain, forward 
 paths from the client to each domain, and reverse paths from each relay to the 
-client. Figure \ref{fig:paths} shows the forward and reverse paths when accessing 
-content using relays; the only path we cannot measure is the reverse path from 
-the domains to the relays because we have no 
-vantage point at or near the domain for running traceroute.
+client. 
+%Figure \ref{fig:paths} shows the forward and reverse paths when accessing 
+%content using relays; the only path we cannot measure is the reverse path from 
+%the domains to the relays because we have no 
+%vantage point at or near the domain for running traceroute.
+\system{} measures paths from clients to relays, clients to domains (servers),
+relays to domains, and relays to clients; the reverse path from the domains to the relays 
+is challenging to measure due to a lack of vantage points in ASes of
+common destinations.  
+Despite the inability to measure this part of the
+path, it would be difficult for the country being avoided to perform
+traffic analysis because it is {\it at most} only on the reverse path 
+from the server to the relay. 
+
 
 \paragraph{Client-to-Relay Paths.} 
 To avoid requiring the client to install custom software, \system{}
@@ -113,14 +123,6 @@ the most recent country-level paths.
 %\label{fig:path_components}
 %\end{figure}
 
-Figure \ref{fig:paths} shows the four components of paths between a
-client and corresponding web content.  The system measures three 
-out of the four paths; the reverse path from the domains (servers) to the relays 
-is challenging to measure due to a lack of vantage points in ASes of
-common destinations.  Despite the inability to measure this part of the
-path, it would be difficult for the country being avoided to perform
-traffic analysis because it is {\it at most} only on the reverse path 
-from the server to the relay. 
 
 \subsection{PAC File Generation}
 \label{multiplex}
@@ -136,6 +138,9 @@ there is no path from the client through any of the relays to the
 domain that does not pass through the specified country, then select
 the relay that provides the most avoidance (measured by how many other
 domains that avoid the specified country).
+
+\renewcommand{\lstlistingname}{Configuration}
+\lstinputlisting[label={lst:pac}, language=JavaScript, frame=single, basicstyle=\footnotesize, caption={Example PAC file.}]{example_pac.pac}
 
 The oracle applies this decision process to each domain, which results
 in a mapping of domains to relays that can be used to avoid the given
@@ -155,9 +160,6 @@ updated every hour.
 % The PAC files are published online, which allows a client to simply
 % point the proxy configuration settings to the URL that contains the
 % PAC file.
-
-\renewcommand{\lstlistingname}{Configuration}
-\lstinputlisting[label={lst:pac}, language=JavaScript, frame=single, basicstyle=\footnotesize, caption={Example PAC file.}]{example_pac.pac}
 
 \subsection{Scalability and Fault Tolerance}
 Adding relays to \system{} is 
