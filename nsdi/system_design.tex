@@ -1,15 +1,15 @@
 \section{Design}
 \label{system_design}
 
-\system{} consists of an overlay network of relays and an oracle that
+\system{} comprises an overlay network of relays and an oracle that
 directs clients to the appropriate relays, as shown in
 Figure~\ref{fig:arch}.  \system{}'s relays are TCP proxy servers,
 which allow clients to access web content without installing software.
 %in contrast, IP layer relays would require clients to install
 %software, violating our usability goal.  
 \system{} uses the
-measurement methods described earlier to learn the paths between
-clients, relays, and domains, and the results are stored at the
+measurement methods described earlier to learn paths between
+clients, relays, and domains; the results are stored at the
 oracle.  The oracle uses the data to decide which relay a client in
 some location should use for accessing a certain domain while avoiding
 a certain country.  The oracle periodically computes paths for many
@@ -38,7 +38,7 @@ combinations of client AS, destination, and country.
 \begin{figure}[t!]
     \centering
 %    \begin{subfigure}[b]{0.4\textwidth}
-        \includegraphics[width=0.7\linewidth]{system_overview_updated}
+        \includegraphics[width=0.65\linewidth]{system_overview_updated}
         \caption{\system{} architecture.}
         \label{fig:arch}
 %    \end{subfigure}
