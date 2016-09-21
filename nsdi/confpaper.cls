@@ -129,7 +129,7 @@
 %%%  Captions
 %%%
 %\RequirePackage[font=bf]{caption}
-\RequirePackage[font=small,format=plain,labelfont=bf,textfont=it]{caption}
+\RequirePackage[font=small,format=plain,labelfont=bf,textfont=it,aboveskip=0pt]{caption}
 \RequirePackage{subcaption}
 %% Space between figure and caption (assuming caption
 %% is below figure)
