@@ -20,20 +20,17 @@ interdomain routing~\cite{karlin2009nation}.  This work measures the
 centrality of a country using BGP routes and AS-path inference; in contrast, our work uses active 
 measurements and measures avoidability of a given country. 
 
-\paragraph{Mapping national Internet topologies.}  In 2011, Roberts et al. described
-a method for mapping national networks of ASes, identifying ASes that
-act as points of control in the national network, and measuring the
-complexity of the national network~\cite{roberts2011mapping}.  There
-have also been a number of studies that measured and classified the
-network within a country.  Wahlisch et al. measured and classified the
-ASes on the German Internet~\cite{wahlisch2010framework,
-  wahlisch2012exposing}, Zhou et al. measured the complete
-Chinese Internet topology at the AS level~\cite{zhou2007chinese}, and
-Bischof et al. characterized the current state of Cuba's
-connectivity with the rest of the world~\cite{bischof2015and}.
-Interconnectivity has also been studied at the continent level; Gupta
-et al. first looked at ISP interconnectivity within
-Africa~\cite{gupta2014peering}, and it was studied later by Fanou et al.~\cite{fanou2015diversity}.
+\paragraph{Mapping national Internet topologies.}  Roberts et
+al. described a method for mapping national networks of ASes,
+identifying ASes that act as points of control~\cite{roberts2011mapping}.  
+%JEN: not clear we care about the "complexity" (whatever that means)
+%, and measuring the complexity of the national network
+Also, several studies have measured and classified the network within
+a country, including
+Germany~\cite{wahlisch2010framework,wahlisch2012exposing} and
+China~\cite{zhou2007chinese}, or a country's interconnectivity within
+a region or with the rest of the
+world~\cite{bischof2015and,gupta2014peering,fanou2015diversity}.
 
 \paragraph{Circumvention and Routing Systems.}  There has been research into
 circumvention systems, particularly for censorship circumvention, which is 
@@ -43,7 +40,7 @@ prevent surveillance; prior research has shown that websites can be
 fingerprinted based on size, content, and location of third party resources, which 
 reveals information about the content a user is accessing \cite{what_isps_can_see}.  Additionally, 
 ISPs often execute a man-in-the-middle attacks on TLS connections to perform 
-network management functions \cite{mitm_isp}.  Therefore, while encryption can be 
+network management functions~\cite{mitm_isp}.  Therefore, while encryption can be 
 used for censorship circumvention, additional measures must be taken for 
 surveillance circumvention.  Some existing circumvention tools are Tor and VPNGate.
 Tor is an anonymity system that uses three relays and layered encryption
@@ -52,7 +49,7 @@ VPNGate is a public VPN relay system aimed at circumventing national
 firewalls~\cite{nobori2014vpn}.  Unfortunately, VPNGate does not allow a
 client to choose any available VPN, which makes surveillance avoidance
 harder.  Another system, Alibi Routing, is a peer-to-peer system that 
-uses round trip times to prove that that a client's packets did 
+uses round-trip times to prove that that a client's packets did 
 not traverse a forbidden country or region~\cite{levin2015alibi}; our work differs by measuring 
 which countries a client's packets would (and does) traverse.  Our work then 
 uses active measurements to determine the best path for a client wishing 

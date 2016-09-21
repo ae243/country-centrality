@@ -7,7 +7,7 @@ determine---and control---which countries their traffic is traversing.
 For example, an increasing number of countries have passed laws that
 facilitate mass surveillance of their
 networks~\cite{france_surveillance, netherlands_surveillance,
-  kazak_surveillance, uk_bill}. Government and citizens alike may want
+  kazak_surveillance, uk_bill}. Governments and citizens alike may want
 to divert their Internet traffic from countries that perform
 surveillance (notably, the United States~\cite{russia_secure_internet,
   routing_errors, dte}).
@@ -57,13 +57,13 @@ only encryption, but also mechanisms for controlling where traffic goes
 in the first place.
 
 In this paper, we study two questions: (1)~Which countries do {\em
-  default} Internet routing paths traverse?; (2)~What methods can help
+  default} Internet routing paths traverse?; (2)~What methods can 
 help governments and citizens
 better control transnational Internet paths?  In contrast to previous
 work~\cite{karlin2009nation}, which simulates Internet paths, we
 \textit{actively measure} and analyze the paths originating in five
-different countries: Brazil, Netherlands, Kenya, India, and the United
-States.  We study these countries for different reasons, including their
+different countries: Brazil, Netherlands, Kenya, India, and the U.S.
+We study these countries for different reasons, including their
 efforts made to avoid certain countries, efforts in building out IXPs,
 and their low cost of hosting domains.  Our work studies the
 router-level forwarding path, which differs from all other work in this
@@ -73,7 +73,7 @@ BGP routing can offer some information about paths, it does not
 necessarily reflect the path that traffic actually takes, and it only
 provides AS-level granularity, which is often too coarse to make strong
 statements about which countries that traffic is traversing.  In
-contrast, we measure routes from RIPE Atlas probes in five
+contrast, we measure routes from RIPE Atlas probes~\cite{ripe_atlas} in five
 countries to the Alexa Top 100 domains for each country; we directly
 measure the paths not only to the websites corresponding to
 themselves, but also to the sites hosting any third-party content on
@@ -113,13 +113,13 @@ through a small collection of countries (often surveillance
 states). Despite strong efforts made by some countries to ensure their
 traffic does not transit certain countries~\cite{brazil_history,
   brazil_break_from_US, brazil_conference, brazil_conference2,
-  brazil_human_rights}, their traffic still does so.  For example,over 50\% of the
+  brazil_human_rights}, their traffic still does so.  For example, over 50\% of the
 top domains in Brazil and India are hosted in the United States, and
 over 50\% of the paths from the Netherlands to the top domains transit
 the United States.  About half of Kenyan paths to the top domains
 traverse the United States and Great Britain (but the same half does not
 traverse both countries).  Much of this phenomenon is due to
-``tromboning'', whereby an Internet path starts and ends in a country,
+``tromboning'', whereby an Internet path starts and ends in the same country,
 yet transits an intermediate country; for example, about 13\% of the
 paths that we explored from Brazil tromboned through the United States.
 %Infrastructure building alone is not enough. ISPs in respective regions
@@ -127,8 +127,9 @@ paths that we explored from Brazil tromboned through the United States.
 %that local traffic stays local.
 
 Next, we {\em explore the
-potential effectiveness of building an network of overlay relays to help
-clients certain countries}  (Section~\ref{avoid_results}) .  We find that this technique can be effective
+potential effectiveness of building a network of overlay relays to help
+clients certain countries}  (Section~\ref{avoid_results}).  
+We find that this technique can be effective
 for clients in certain countries, yet the effectiveness depends on the
 country.  For example, Brazilian clients could completely avoid Spain,
 Italy, France, Great Britain, Argentina, and Ireland (among others),
@@ -141,7 +142,7 @@ Additionally, overlay network relays can keep local traffic local: by
 using relays in the client's country, fewer paths trombone out of the
 client's country.
 
-Finally, we {\em design, implement and deploy \system{}, a system that allows
+Finally, we {\em design, implement, and deploy \system{}, a system that allows
 a client to access web content without traversing a specified country}
 (Section~\ref{system_design}).  \system{} uses a series of overlay
 network relays to automatically route a client's traffic around a
