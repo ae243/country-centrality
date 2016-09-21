@@ -109,14 +109,14 @@ The algorithm (Algorithm~\ref{avoid_algo}) produces a value in the range
 \footnotesize
 \begin{algorithmic}[1]
 \Function{CalcAvoidance}{set $paths1$, set $paths2$, string c}
-    \State set $usableRelays$
+    \State set $suitableRelays$
     \For{each $(relay,path)$ in $paths1$} 
     	\If{$c$ not in $path$}
-		\State $usableRelays \gets path$
+		\State $suitableRelays \gets path$
 	\EndIf
     \EndFor
     \State set $accessibleDomains$
-    \For{each $(relay,domain,path$ in $paths2$}
+    \For{each $(relay,domain,path)$ in $paths2$}
     \If{$relay$ in $usableRelays$}
         \If{$c$ not in $path$}
         \State $accessibleDomains \gets domain$

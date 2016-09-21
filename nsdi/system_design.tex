@@ -130,8 +130,9 @@ The oracle follows four steps to decide which relay a client should
 use to access a specific domain: (1)~If the default path from the
 client to the domain does not pass through the specified country, then
 do not use any of the relays.  (2)~Otherwise, for all the paths from
-the client to the relays, select suitable relays such that the path
-does not contain the specified country.  (3)~From this set, if there
+the client to the relays, select suitable relays, which are relays where the country 
+to avoid is not on the forward or reverse path between the client and 
+relay.  (3)~From this set, if there
 is a path from a suitable relay to the domain that does not include
 the specified country, then use that relay for that domain.  (4)~If
 there is no path from the client through any of the relays to the

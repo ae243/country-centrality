@@ -1,0 +1,20 @@
+Instructions for Installing Relay Software:
+
+1) Install Squid Proxy
+
+sudo apt-get install squid
+sudo cp /etc/squid/squid.conf /etc/squid/squid.conf.original
+sudo chmod a-w /etc/squid/squid.conf.original
+
+Add these lines to /etc/squid/squid.conf (for whichever network you want to allow):
+acl fortytwo_network src 192.168.42.0/24
+http_access allow fortytwo_network
+
+sudo /etc/init.d/squid restart
+
+2) Install traceroute, geoip2, and pip
+
+sudo apt-get install traceroute python-pip
+sudo pip install geoip2
+
+3) Add cron job
