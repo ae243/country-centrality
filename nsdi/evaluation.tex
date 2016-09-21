@@ -1,4 +1,4 @@
-\section{Evaluation}
+\section{Evaluation of \system{}}
 
 We evailate \system{}'s ability to avoid a given country, its performance,
 and its storage and measurement costs.
@@ -9,13 +9,13 @@ We measured \system{}'s effectiveness in achieving country avoidance.  We did so
 calculating the number of {\it default} paths that avoid a given country.  Then 
 we added a single relay, and calculated how many domains the client could 
 access without traversing through the given country.  We repeated this approach for 
-the remaining two relays.  We conducted the evaluation under the condition that 
+the remaining relays.  We conducted the evaluation under the condition that 
 the client wished to avoid different countries when accessing the Netherlands top 
-100 domains; Figure \ref{fig:avoidance_eval} shows these results.  Each 
+100 domains; Figure~\ref{fig:avoidance_eval} shows these results.  Each 
 line represents the fraction of domains accessible while avoiding the country that 
 the line represents.  For example, 46\% of domains are accessible without traversing 
-the United States when \system{} is not being used (zero relays), and if \system{} is 
-used, then 63\% of domains are accessible without traversing the United States.
+the U.S. when \system{} is not being used (zero relays), and if \system{} is 
+used, then 63\% of domains are accessible without traversing the U.S.
 
 \begin{figure}[t!]
 \tiny
@@ -26,16 +26,15 @@ used, then 63\% of domains are accessible without traversing the United States.
 \label{fig:avoidance_eval}
 \end{figure}
 
-It is evident that \system{} helps a client avoid a foreign country, as the 
-fraction of domains accessible without traversing 
-the specified country without \system{} is lower than with \system{}.  Additionally, 
-adding the first relay provides the greatest increase in 
-avoidance, while subsequent relays offer diminishing returns.
-Figure \ref{fig:avoidance_eval} also clearly shows how much more difficult (or 
-impossible) it is to avoid the United States than any other 
-country.  Only 63\% of domains can be accessed while avoiding the United States, 
-whereas almost all domains can be accessed while avoiding any other given 
-country.  
+It is evident that \system{} helps a client avoid a foreign country,
+as the fraction of domains accessible without traversing the specified
+country without \system{} is lower than with \system{}.  Additionally,
+adding the first relay provides the greatest benefit, while subsequent
+relays offer diminishing returns.  Figure~\ref{fig:avoidance_eval}
+clearly shows that avoiding the U.S. is much more difficult (or
+impossible) than any other country.  Only 63\% of domains can be
+accessed while avoiding the U.S., whereas almost all domains can be
+accessed while avoiding any other given country.
 %This confirms the results presented in Section \ref{avoid_results}, and 
 %emphasizes how crucial the systematization of the measurements is for enabling 
 %\system{}.
