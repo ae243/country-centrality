@@ -16,35 +16,35 @@ of default Internet paths.
 \subsection{Measurement Pipeline}
 \label{pipeline}
 
-Figures \ref{fig:pipeline1} and \ref{fig:analysis_pipeline} summarize our measurement
-process, which the rest of this section describes in detail.  We analyze
-traceroute measurements to discover which countries are on the path from
-a client in a particular country to a popular domain.  Using traceroutes
-to measure transnational detours is new; prior work used BGP routing
-tables to \textit{infer} country-level paths~\cite{karlin2009nation}.
+Figures \ref{fig:pipeline1} and \ref{fig:analysis_pipeline} summarize
+our measurement process.  We analyze traceroute measurements to
+discover which countries are on the path from a client in a particular
+country to a popular domain.  
+%JEN: repetitive
+%Using traceroutes to measure
+%transnational detours is new; prior work used BGP routing tables to
+%\textit{infer} country-level paths~\cite{karlin2009nation}.  
 Because we conduct active measurements, which are limited by our
-resources, we make a tradeoff and study five countries, as opposed to
-all countries' Internet paths.  We report on measurements that we
+resources, we study just five countries.  We report on measurements
 conducted on January 31, 2016.
 
 \subsubsection{Resource Limitations}
 \label{resource_limits}
 
-The iPlane~\cite{madhyastha2006iplane} and Center for Applied
-Internet Data Analysis (CAIDA)~\cite{caida} projects maintain two large
-repositories of traceroute data, neither of which turn out to be
-suitable for our study.  iPlane measurements use
-PlanetLab~\cite{planetlab} nodes and has historical data as far back as
-2006.  Unfortunately, because iPlane uses PlanetLab nodes, which 
-mostly use the Global Research and Education Network
-(GREN), the traceroutes from PlanetLab nodes will not be representative
-of typical Internet users' traffic paths~\cite{banerjee2004interdomain}.
-CAIDA runs traceroutes from different vantage points around the world to
-randomized destination IP addresses that cover all /24s; in 
-contrast, we focus on paths to popular websites from a particular
-country.
+The iPlane~\cite{madhyastha2006iplane} and Center for Applied Internet
+Data Analysis (CAIDA)~\cite{caida} projects maintain large
+repositories of traceroute data, neither of which are suitable for our
+study.  
+%iPlane has historical data as far back as 2006.
+Unfortunately, because iPlane uses PlanetLab~\cite{PlanetLab} nodes,
+which mostly use the Global Research and Education Network (GREN), 
+iPlane measurements are not be representative of typical Internet
+users' traffic paths~\cite{banerjee2004interdomain}.  CAIDA runs
+traceroutes from different vantage points around the world to
+randomized destination IP addresses that cover all /24s; in contrast,
+we focus on paths to popular websites from a particular country.
 
-In contrast to these existing studies, we run active measurements that
+Instead, we run active measurements that
 would represent paths of a typical Internet user. To do so, we run
 DNS and traceroute measurements from RIPE Atlas probes, which are hosted
 all around the world and in many different settings, including home
@@ -59,7 +59,7 @@ concurrent measurements and the number of credits that an individual
 user can spend per day.  We address these challenges in two ways: (1)~we
 reduce the number of necessary measurements we must run on RIPE Atlas
 probes by conducting traceroute measurements to a single IP address in
-each /24 (as opposed to all IP address returned by DNS) because all IP
+each /24 (as opposed to all IP addresses returned by DNS) because all IP
 addresses in a /24 belong to the same AS, and should therefore be
 located in the same geographic area; (2)~we use a different method---VPN
 connections---to obtain a vantage point within a foreign country, which
@@ -112,8 +112,8 @@ the widest representation of origination (starting) points.
 For destinations, we used the Alexa Top 100 domains in each of the
 respective countries, as well as the third-party domains that are
 requested as part of an original web request.  To obtain these 3rd party
-domains we {\tt curl} (\ie, HTTP fetch) each of the Top 100 domains, but we must
-do so from within the country we are studying.  There is no current
+domains we {\tt curl} (\ie, HTTP fetch) each of the domains, but we must
+do so from within the country of interest.  There is no current
 functionality to {\tt curl} from RIPE Atlas probes, so we establish a
 VPN connection within each of these countries to {\tt curl} each domain
 and extract the third-party domains; we {\tt curl} from the client's
@@ -155,7 +155,7 @@ post-processing.
 
 Table \ref{tab:host} shows the five countries we studied along the top
 of the table, and the countries that host their content along in each
-row.  For example, the United States is the endpoint of 77\% of the
+row.  For example, the U.S. is the endpoint of 77\% of the
 paths that originate in Brazil.  A ``-'' represents the case where no
 paths ended in that country.  For example, no Brazilian paths terminated in
 South Africa. Table \ref{tab:transit} shows the fraction of paths that
@@ -166,12 +166,19 @@ About half of the top domains in each of the five countries studied are hosted i
 \end{finding}
 \noindent
 First we analyze hosting diversity; this shows us how many unique
-countries host a domain.  The more countries that a domain is hosted in creates a greater chance that the content is replicated in a favorable country, and could potentially allow a client to circumvent an unfavorable country.  We queried DNS from 26 vantage points around the world, which are shown in Figure \ref{fig:world}; we chose this set of locations because they are geographically diverse.  Then we mapped the IP addresses in the DNS responses to their respective countries to determine how many unique countries a domain is hosted in.  Figure~\ref{fig:host_diversity} shows the fraction of domains that are hosted in different numbers of countries; we can see two common hosting cases: 1) CDNs, and 2) a single hosting country.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis---where are these domains hosted, and which countries are traversed on the way to reach these locations.
+countries host a domain.  The more countries that a domain is hosted
+in creates a greater chance that the content is replicated in a
+favorable country, and could potentially allow a client to circumvent
+an unfavorable country.  We queried DNS from 26 vantage points around
+the world, which are shown in Figure \ref{fig:world}; we chose this
+set of locations because they are geographically diverse.  Then we
+mapped the IP addresses in the DNS responses to countries to determine
+how many unique countries host a domain.  Figure~\ref{fig:host_diversity} shows the fraction of domains that are hosted in different numbers of countries; we can see two common hosting cases: 1) CDNs and 2) a single hosting country.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis---where are these domains hosted, and which countries are traversed on the way to reach these locations.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{World-DNS}
-\caption{The locations of vantage points in measuring hosting diversity.}
+\includegraphics[width=0.8\columnwidth]{World-DNS}
+\caption{Vantage points in measuring hosting diversity.}
 \label{fig:world}
 \end{figure}
 
@@ -205,7 +212,7 @@ countries host a domain.  The more countries that a domain is hosted in creates 
 
 
 \begin{finding}[Domain Hosting]
-The most common destination among all five countries studied is the United States: 77\%, 45\%, 63\%, 44\%, and 97\% of paths originating in Brazil, Netherlands, India, Kenya and the United States, respectively, are currently reaching content located in the United States.
+The most common destination among all five countries studied is the U.S.: 77\%, 45\%, 63\%, 44\%, and 97\% of paths originating in Brazil, Netherlands, India, Kenya and the U.S., respectively, are currently reaching content located in the U.S.
 \end{finding}
 \noindent
 Table~\ref{tab:host} shows the fraction of paths that are hosted in
@@ -226,10 +233,11 @@ All of the countries studied (except for the United States) host content for a s
 Only 17\% of paths that originate in Brazil also end there.  Only 5\%
 and 2\% of Indian and Kenyan paths, respectively, end in the originating
 country.  
-For Kenya, 24 out of the Top 100 Domains are .ke domains, and of these 24 domains only 5 are hosted within Kenya.  29 out of 40 .nl domains are hosted in the Netherlands; 4 of 13 .in domains are hosted in India; 18 of 39 .br domains are hosted in Brazil.  Interestingly, all .gov domains were hosted in their respective country. 
+For Kenya, 24 out of the Top 100 Domains are .ke domains, but only 5
+of the 24 are hosted within Kenya.  29 out of 40 .nl domains are hosted in the Netherlands; 4 of 13 .in domains are hosted in India; 18 of 39 .br domains are hosted in Brazil.  Interestingly, all .gov domains were hosted in their respective country. 
 
 \begin{finding}[Transit Traffic]
-Surveillance states (specifically the United States and Great Britain) are on the largest portion of paths in comparison to any other (foreign) country.
+Surveillance states (specifically the U.S. and Great Britain) are on the largest portion of paths in comparison to any other (foreign) country.
 \end{finding}
 \noindent
 84\% of Brazilian paths traverse the United States, despite Brazil's
@@ -255,7 +263,18 @@ fraction of paths that include these countries.
 Brazilian and Netherlands paths often trombone to the United States, despite the prevalence of IXPs in both countries.
 \end{finding}
 \noindent
-Figures \ref{fig:trombone_netherlands}, \ref{fig:trombone_brazil}, and \ref{fig:trombone_kenya} show the fraction of paths that trombone to different countries for the Netherlands, Brazil, and Kenya. 24\% of all paths originating in the Netherlands (62\% of domestic paths) trombone to a foreign country before returning to the Netherlands. Despite Brazil's strong efforts in building IXPs to keep local traffic local, we can see that their paths still trombone to the United States.  This is due to IXPs being seen as a threat by competing commercial providers; providers are sometimes concerned that ``interconnection'' will result in making business cheaper for competitors and stealing of customers~\cite{ixp_policy}.  It is likely that Brazilian providers see other Brazilian providers as competitors and therefore as a threat at IXPs, which cause them to peer with international providers instead of other local providers.  Additionally, we see Brazilian paths trombone to Spain and Italy. We have observed that MaxMind sometimes mislabels IP addresses to be in Spain when they are actually located in Portugal.  This mislabelling does not affect our analysis of detours through surveillance states, as we do not highlight either Spain or Portugal as a surveillance state.  We see Italy often in tromboning paths because Telecom Italia Sparkle is one of the top global Internet providers~\cite{bakers}.
+Figures \ref{fig:trombone}
+shows the fraction of paths that trombone to
+different countries for the Netherlands, Brazil, and Kenya. 24\% of
+all paths originating in the Netherlands (62\% of domestic paths)
+trombone to a foreign country before returning to the
+Netherlands. Despite Brazil's strong efforts in building IXPs to keep
+local traffic local, 
+their paths still trombone to the U.S.  This is due to IXPs being seen
+as a threat by competing commercial providers; providers are sometimes
+concerned that ``interconnection'' will result in making business
+cheaper for competitors and stealing of customers~\cite{ixp_policy}.
+It is likely that Brazilian providers see one another as competitors and therefore as a threat at IXPs, which causes them to peer with international providers instead of other local providers.  Additionally, we see Brazilian paths trombone to Spain and Italy. We have observed that MaxMind sometimes mislabels IP addresses to be in Spain when they are actually located in Portugal.  This mislabelling does not affect our analysis of detours through surveillance states, as we do not highlight either Spain or Portugal as a surveillance state.  We see Italy often in tromboning paths because Telecom Italia Sparkle is one of the top global Internet providers~\cite{bakers}.
 
 Tromboning Kenyan paths most commonly traverse Mauritius, which is expected considering the submarine cables between Kenya and Mauritius.  Submarine cables also explain South Africa, Tanzania, and the United Arab Emirates on tromboning paths.  
   %Traffic that should be kept local is susceptible to surveillance because it transits two well-known surveillance states.  
@@ -266,13 +285,13 @@ The United States hosts 97\% of the content that is accessed from within the cou
 \noindent
 Many of the results find that Brazilian,
 Netherlands, Indian, and Kenyan paths often transit surveillance states,
-most notably the United States.  The results from studying paths that
-originate in the United States are drastically different from those of
+most notably the U.S.  The results from studying paths that
+originate in the U.S. are drastically different from those of
 the other four countries.  The other four countries host very small
-amounts of content accessed from their own country, whereas the United
-States hosts 97\% of the content that is accessed from within the
-country.  Only 13 unique countries are ever on a path from the United
-States to a domain in the top 100 (or third party domain), whereas 30,
+amounts of content accessed from their own country, whereas the U.S.
+hosts 97\% of the content that is accessed from within the
+country.  Only 13 unique countries are ever on a path from the U.S.
+to a domain in the top 100 (or third party domain), whereas 30,
 30, 25, and 38 unique countries are seen on the paths originating in
 Brazil, Netherlands, India, and Kenya, respectively.   
 
@@ -292,17 +311,21 @@ incompleteness of traceroutes, where a router does not respond, causes
 our results to underestimate the number of surveillance states, and
 therefore also provides a lower bound on surveillance. 
 
-\paragraph{IP Geolocation vs.\ country mapping.}
-Previous work has shown that there are fundamental challenges in
-deducing a geographic location from an IP address, despite using
-different methods such as DNS names of the target, network delay
-measurements, and host-to-location mapping in conjunction with BGP
-prefix information~\cite{padmanabhan2001investigation}.  While it has
-been shown that there are inaccuracies and incompleteness in MaxMind's
+\paragraph{IP geolocation vs.\ country mapping.}
+There are fundamental challenges in deducing a geographic location
+from an IP address, 
+%JEN: remove the details about methods?
+despite using different methods such as DNS names of the target,
+network delay measurements, and host-to-location mapping in
+conjunction with BGP prefix
+information~\cite{padmanabhan2001investigation}.  While there are
+inaccuracies and incompleteness in MaxMind's
 data~\cite{huffaker2011geocompare}, the focus of this work is on
-measuring and avoiding surveillance.  We use Maxmind to map
-IP to country (as described in Section \ref{c_map}), which provides a lower
-bound on the amount of surveillance, as we have described. 
+measuring and avoiding surveillance.  We use Maxmind to map IP to
+country,
+% (as described in Section~\ref{c_map}),
+which provides a lower
+bound on the amount of surveillance.
 
 \paragraph{IPv4 vs.\ IPv6 connectivity.}
 We collect and analyze only IPv4 paths.  IPv6 paths likely
