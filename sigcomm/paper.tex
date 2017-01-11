@@ -1,0 +1,107 @@
+\pdfoutput=1
+\documentclass[10pt,twocolumn]{confpaper}
+
+%%%%%%%%%%%%%%%%%%%%  INCLUDES  %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{graphics}
+\graphicspath{ {./figures/} }
+
+
+%%%%%%%%%%%%%%%%%%%%  LOCALS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\system}{RAN}
+
+\usepackage{cancel}
+\usepackage{longtable}
+\usepackage[normalem]{ulem}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{dcolumn}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{siunitx}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\newtheorem{finding}{Finding}[section]
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+
+%%%%%%%%%%%%%%%%%%%%  TITLE/AUTHORS  %%%%%%%%%%%%%%%%%%%%%
+
+\date{}
+\title{{
+\system{}: Routing Around Nation-States}}
+\author{
+{Paper \#332 -- \pageref{lastpage} Pages + References} \\
+}
+%\author{
+%{Anne Edmundson, Roya Ensafi, Nick Feamster, Jennifer Rexford} \\
+%{Princeton University}
+%}
+
+%%%%%%%%%%%%%%%%%%%%  START OF DOCUMENT  %%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+%\AcmCopyright
+%\ToAppear
+
+\hyphenation{geo-location} 
+
+\begin{sloppypar}
+
+\thispagestyle{empty}
+\input{abstract}
+
+\ifthenelse{\equal{\onlyAbstract}{no}}{% !onlyAbstract
+
+\input{intro}
+\input{related_work}
+\input{surveillance}
+\input{characterizing_detours}
+\input{avoidance}
+\input{design_goals}
+\input{system_design}
+\input{implementation}
+\input{evaluation}
+\input{discussion}
+\input{conclusion}
+\label{lastpage}
+
+\end{sloppypar}
+
+
+\small
+%\setlength{\bibsep}{0pt}
+\setlength{\parskip}{-1pt}
+\setlength{\itemsep}{-1pt}
+% \footnotesize % SPACE
+\balance
+\flushleft{\footnotesize\bibliography{paper}}
+\bibliographystyle{abbrv}
+%\bibliographystyle{abbrvnat_noaddr} % SPACE
+%\theendnotes % ENDNOTES
+}{% onlyAbstract
+}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%  END OF DOCUMENT  %%%%%%%%%%%%%%%%%%%%

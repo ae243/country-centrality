@@ -1,0 +1,68 @@
+\section{Related Work}
+\label{related}
+
+\paragraph{Nation-state routing analysis.}  Recently, Shah and
+Papadopoulos measured international BGP detours (paths that originate in
+one country, cross international borders, and then return to the
+original country)~\cite{shah2015characterizing}.  Using BGP routing
+tables, they found 2 million detours in each month of their study (out
+of 7 billion total paths), and they then characterized the detours based
+on detour dynamics and persistence.  Our work differs by actively
+measuring traceroutes (actual paths), as opposed to analyzing BGP
+routes.  Obar and Clement analyzed traceroutes
+that started and ended in Canada, but tromboned through the United
+States, and argued that
+this is a violation of Canadian network
+sovereignty~\cite{obar2012internet}. 
+Karlin et al. developed a framework for country-level
+routing analysis to study how much influence each country has over
+interdomain routing~\cite{karlin2009nation}.  This work measures the
+centrality of a country using BGP routes and AS-path inference; in contrast, our work uses active 
+measurements and measures avoidability of a given country. 
+
+\paragraph{Mapping national Internet topologies.}  Roberts et
+al. described a method for mapping national networks of ASes,
+identifying ASes that act as points of control~\cite{roberts2011mapping}.  
+%JEN: not clear we care about the "complexity" (whatever that means)
+%, and measuring the complexity of the national network
+Also, several studies have measured and classified the network within
+a country, including
+Germany~\cite{wahlisch2010framework,wahlisch2012exposing} and
+China~\cite{zhou2007chinese}, or a country's interconnectivity within
+a region or with the rest of the
+world~\cite{bischof2015and,gupta2014peering,fanou2015diversity}.
+
+\paragraph{Circumvention and Routing Systems.}  There has been research into
+circumvention systems, particularly for censorship circumvention, which is 
+complementary to our work, but not sufficient for surveillance circumvention.  
+Existing circumvention systems generally rely on encryption, which does not 
+prevent surveillance; prior research has shown that websites can be 
+fingerprinted based on size, content, and location of third party resources, which 
+reveals information about the content a user is accessing \cite{what_isps_can_see}.  Additionally, 
+ISPs often execute man-in-the-middle attacks on TLS connections to perform 
+network management functions~\cite{mitm_isp}.  Therefore, while encryption can be 
+used for censorship circumvention, additional measures must be taken for 
+surveillance circumvention.  Some existing circumvention tools are Tor and VPNGate.
+Tor is an anonymity system that uses three relays and layered encryption
+to allow users to communicate anonymously~\cite{dingledine2004tor}.  In contrast, \system{}
+does not aim for anonymity, it routes Internet traffic around a given country; additionally, 
+Tor has been susceptible to traffic correlation attacks, and as we mentioned in Section \ref{intro}, 
+encryption does not necessarily mean that a nation-state level attacker cannot surveil traffic.
+VPNGate is a public VPN relay system aimed at circumventing national
+firewalls~\cite{nobori2014vpn}.  Unfortunately, VPNGate does not allow a
+client to choose any available VPN, which makes surveillance avoidance
+harder.  Another system, Alibi Routing, is a peer-to-peer system that 
+uses round-trip times to prove that that a client's packets did 
+not traverse a forbidden country or region~\cite{levin2015alibi}; our work differs by measuring 
+which countries a client's packets would (and does) traverse.  Our work then 
+uses active measurements to determine the best path for a client wishing 
+to connect to a server.  RON, Resilient Overlay Network, is an overlay network that 
+routes around failures, whereas our overlay network routes around countries~\cite{andersen2001resilient}.  
+More recent work, ARROW, introduces a model that allows users to route around ISPs~\cite{peter2015one}; unlike ARROW, 
+our \system{} does not require endpoint or ISP participation.  In addition, while routing around ISPs 
+can be beneficial in terms of fault-tolerance, robustness, and security, it does not necessarily provide 
+country avoidance because an ISP may span multiple countries.  Zhang et. al., presented a new Internet 
+architecture called SCION, which provides route control, failure isolation, and explicit trust information for 
+communication~\cite{zhang2011scion}.  SCION is a clean-slate Internet architecture, whereas \system{} is a deployable overlay 
+network.
+
