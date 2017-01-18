@@ -1,17 +1,27 @@
 \pdfoutput=1
-\documentclass[10pt,twocolumn]{confpaper}
+\documentclass[10pt,twocolumn]{sig-alternate}
 
 %%%%%%%%%%%%%%%%%%%%  INCLUDES  %%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{graphics}
-\graphicspath{ {./figures/} }
-
-
-%%%%%%%%%%%%%%%%%%%%  LOCALS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\system}{RAN}
-
+\RequirePackage{balance}
+\RequirePackage{tabulary}
+\RequirePackage[hyphens]{url}
+\RequirePackage{ifthen}
+\RequirePackage{paralist}
+\RequirePackage{enumitem}
+\RequirePackage{cite}
+\RequirePackage{booktabs}
+\RequirePackage{color}
+\RequirePackage{colortbl}
+\RequirePackage{float}
+\RequirePackage[breaklinks=true,filecolor=black,citecolor=blue,urlcolor=black,linkcolor=blue,colorlinks,pdfpagelabels,pdfpagelayout=SinglePage]{hyperref}
+\RequirePackage{amssymb}
+\RequirePackage{tikz}
+\usetikzlibrary{arrows}
+\RequirePackage[absolute]{textpos}
 \usepackage{cancel}
+\usepackage{multirow}
+\usepackage{xspace}
 \usepackage{longtable}
 \usepackage[normalem]{ulem}
 \usepackage{algorithm}
@@ -24,6 +34,20 @@
 \usepackage{siunitx}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{graphics}
+\graphicspath{ {./figures/} }
+
+
+%%%%%%%%%%%%%%%%%%%%  LOCALS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\system}{RAN}
+\newcommand{\ie}{{\em i.e.}}
+\newcommand{\eg}{{\em e.g.}}
+\newcommand{\ea}{{\em et al.}}
+
+\clubpenalty=10000  % Don't allow orphans
+\widowpenalty=10000 % Don't allow widows
+
 \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 \newtheorem{finding}{Finding}[section]
 \lstdefinelanguage{JavaScript}{
@@ -41,14 +65,13 @@
   morestring=[b]"
 }
 
-
 %%%%%%%%%%%%%%%%%%%%  TITLE/AUTHORS  %%%%%%%%%%%%%%%%%%%%%
 
 \date{}
 \title{{
 \system{}: Routing Around Nation-States}}
 \author{
-{Paper \#332 -- \pageref{lastpage} Pages + References} \\
+{Paper \#77 -- \pageref{lastpage} Pages + References} \\
 }
 %\author{
 %{Anne Edmundson, Roya Ensafi, Nick Feamster, Jennifer Rexford} \\
@@ -61,7 +84,25 @@
 
 \maketitle
 
-%\AcmCopyright
+\floatstyle{plain}
+\newfloat{acmcr}{b}{acmcr}
+\begin{acmcr}
+\parbox[b]{20pc}{%
+\tiny
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are not
+made or distributed for profit or commercial advantage and that copies bear
+this notice and the full citation on the first page. Copyrights for components
+of this work owned by others than ACM must be honored. Abstracting with credit
+is permitted. To copy otherwise, or republish, to post on servers or to
+redistribute to lists, requires prior specific permission and/or a fee. Request
+permissions from Permissions@acm.org.
+
+\tiny
+{\em SIGCOMM'17}, August 21--25, 2017, Los Angeles, CA, USA.\\
+Copyright 2016 ACM. ISBN 978-1-4503-4193-6/16/08...\$15.00\\
+DOI: \url{http://dx.doi.org/10.1145/2934872.2959081}}
+\end{acmcr}
 %\ToAppear
 
 \hyphenation{geo-location} 
@@ -70,9 +111,6 @@
 
 \thispagestyle{empty}
 \input{abstract}
-
-\ifthenelse{\equal{\onlyAbstract}{no}}{% !onlyAbstract
-
 \input{intro}
 \input{related_work}
 \input{surveillance}
@@ -88,19 +126,10 @@
 
 \end{sloppypar}
 
-
-\small
-%\setlength{\bibsep}{0pt}
-\setlength{\parskip}{-1pt}
-\setlength{\itemsep}{-1pt}
-% \footnotesize % SPACE
+\footnotesize
 \balance
-\flushleft{\footnotesize\bibliography{paper}}
+\bibliography{sigproc}
 \bibliographystyle{abbrv}
-%\bibliographystyle{abbrvnat_noaddr} % SPACE
-%\theendnotes % ENDNOTES
-}{% onlyAbstract
-}
 
 \end{document}
 

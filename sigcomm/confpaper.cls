@@ -90,13 +90,13 @@
 \ifthenelse{\equal{\PAGENUMBERS}{yes}}{%
 \RequirePackage[nohead,
 % SIGCOMM/ACM
-%left=0.75in,right=0.75in,top=0.75in, bottom=1in,
-%    columnsep=0.33in
+left=0.75in,right=0.75in,top=0.75in, bottom=1in,
+    columnsep=0.33in
 %    columnsep=0.25in
 % USENIX
-    left=1.0in,right=1.0in,top=1.0in,
-    footskip=0.5in,bottom=1.0in,   % Room for page numbers
-    columnsep=0.25in
+%    left=1.0in,right=1.0in,top=1.0in,
+%    footskip=0.5in,bottom=1.0in,   % Room for page numbers
+%    columnsep=0.25in
 % IEEE
 %            left=0.75in,right=0.75in,top=0.75in, bottom=1in,
 %            columnsep=0.2in
@@ -143,9 +143,9 @@
 %\RequirePackage{titlesec}
 %\titlespacing{\paragraph}{0pt}{*1}{*1} % SPACE
 \RequirePackage[compact]{titlesec}  % SPACE
-%\titleformat{\section}%  % IEEE/ACM: caps + period
-% {\bf\large\uppercase}{\thesection.\quad}{0pt}{}
-\titleformat{\section}{\bf\large}{\thesection}{8pt}{} % USENIX
+\titleformat{\section}%  % IEEE/ACM: caps + period
+ {\bf\large\uppercase}{\thesection.\quad}{0pt}{}
+%\titleformat{\section}{\bf\large}{\thesection}{8pt}{} % USENIX
 
 
 %%%

@@ -5,14 +5,14 @@ Our measurement results motivate
  the design and implementation of a relay-based avoidance system,
 \system{}, with the following design goals.
 
-\paragraph{Country Avoidance.}  The primary goal of \system{} is to
+\textbf{Country Avoidance.}  The primary goal of \system{} is to
 avoid a given country when accessing web content.  \system{} should
 provide clients a way to route around a specified country, when
 accessing a domain.  This calls for the role of measurement in the
 system design, and systematizing the measurement methods discussed
 earlier in the paper.
 
-\paragraph{Usability.} \system{} should require as little effort as
+\textbf{Usability.} \system{} should require as little effort as
 possible from clients.  Clients should not have to download
 or install software, collect any measurements, or understand how the
 system works.  This calls for a way for clients to automatically and
@@ -20,14 +20,14 @@ seamlessly multiplex between relays (proxies) based on different
 destinations.  The Proxy Autoconfiguration (PAC) file supports this
 function.
 
-\paragraph{Scalability.}  This country avoidance system should be able to scale to 
+\textbf{Scalability.}  This country avoidance system should be able to scale to 
 large numbers of users.  Therefore, \system{} should be able to handle the addition
  of relays, as well as be cost-effective in terms of resources required. This requires 
 clever measurement vantage points, such that each vantage point is representative of 
 more than one client.  The PAC file allows the system to 
 grow with the number of clients and also supports incremental deployment.
 
-\paragraph{Non-goals.}  There are some challenges that \system{} does not attempt to 
+\textbf{Non-goals.}  There are some challenges that \system{} does not attempt to 
 solve.  The system does not address the notion of anonymity; it routes around 
 countries (for reasons such as avoiding mass surveillance), but it does not 
 attempt to keep users anonymous.  

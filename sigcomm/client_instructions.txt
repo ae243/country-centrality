@@ -1,9 +1,0 @@
-Client Configuration Instructions (for Chrome Browser, but PAC files are supported by other browsers as well):
-
-1) Go to settings (3 bars in the top right corner of the browser).
-2) Click "Show advanced settings"
-3) Go to "Network" and click "Change Proxy Settings"
-4) Click "Automatic Proxy Configuration"
-5) Enter the URL that the PAC file is located at
-6) Click "OK"
-7) Click "Apply"
