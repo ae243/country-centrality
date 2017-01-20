@@ -39,6 +39,14 @@ accessed while avoiding any other given country.
 %emphasizes how crucial the systematization of the measurements is for enabling 
 %\system{}.
 
+It is important to note that \system{} cannot guarantee that a country is 
+avoided because for some domains, the path must go through the unfavorable 
+country, as evidenced by our results for avoiding the United States.  Despite 
+this lack of guarantees, the system reduces the number of requests that 
+transit the unfavorable country; additionally, the client can learn which domains 
+are not accessible without passing through the unfavorable country, and can then 
+decide whether or not they want to fetch that page.  
+
 \subsection{Performance}
 To measure the performance of \system{}, we measure both 
 the throughput and latency.

@@ -112,12 +112,16 @@ the widest representation of origination (starting) points.
 For destinations, we used the Alexa Top 100 domains in each of the
 respective countries, as well as the third-party domains that are
 requested as part of an original web request.  We came to the conclusion that 
-the Alexa Top 100 domains were enough to characterize routing detours by comparing 
+the Alexa Top 100 domains were sufficient to characterize routing detours by comparing 
 the country level paths from a vantage point to the top 100 domains and from that 
 same vantage point to the top 1000 domains.  The proportion of paths that transitted 
-(and ended in) each country are extremely similar between the two sets of paths.  Therefore, 
-studying the Alexa Top 1000 domains does not provide more meaningful results than 
-studying the Alexa Top 100 domains. To obtain the 3rd party
+(and ended in) each country are extremely similar between the two sets of paths.  The 
+paths to the top 1000 domains exhibits a long tail of countries that transit or host content, 
+likely because these domains are less popular and therefore hosted in more obscure locations.  
+Despite this tail of countries, the Alexa Top 100 domains provides results that are 
+representative to the Alexa Top 1000 domains.
+
+To obtain the 3rd party
 domains we {\tt curl} (\ie, HTTP fetch) each of the domains, but we must
 do so from within the country of interest.  There is no current
 functionality to {\tt curl} from RIPE Atlas probes, so we establish a

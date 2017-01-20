@@ -48,14 +48,18 @@ client.
 %content using relays; the only path we cannot measure is the reverse path from 
 %the domains to the relays because we have no 
 %vantage point at or near the domain for running traceroute.
-\system{} measures paths from clients to relays, clients to domains (servers),
-relays to domains, and relays to clients; the reverse path from the domains to the relays 
+A portion of the reverse path --- from the domains to the relays ---
 is challenging to measure due to a lack of vantage points in ASes of
-common destinations.  
-Despite the inability to measure this part of the
-path, it would be difficult for the country being avoided to perform
-traffic analysis because it is {\it at most} only on the reverse path 
-from the server to the relay. 
+common destinations. As discussed in Section \ref{path_sym}, we found that 
+the forward and reverse paths are asymmetric at the country level, and therefore 
+\system{} cannot make any guarantees about which countries are on the path between 
+domains and relays even though it has calculated the paths from relays to domains.  
+Despite the lack of knowledge about this part of the reverse path, 
+we can reason about possible scenarios.  If the client's traffic is encrypted, then a 
+potentially unfavorable country on this part of the reverse path cannot perform any 
+traffic correlation attacks or website fingerprinting attacks, as the country cannot see who
+the client is (necessary for website fingerprinting) and does not have access to more than 
+one part of the path (necessary for traffic correlation attacks).
 
 \begin{figure}[t!]
     \centering
@@ -106,12 +110,18 @@ paths are stored at the oracle.
 These paths must be re-computed 
 as paths may change.  To our knowledge, there has not been any previous work 
 on how often country-level paths change; prior work has explored how often 
-AS-level paths change.  To measure how often country-level paths change, we 
-computed the paths from relays to domains once every two hours and once every 
-hour.  Fewer than five paths changed every two hours; the 
-results were similar for one-hour increments.  As it takes approximately 30 minutes to 
-compute all paths, \system{} re-computes the paths every one hour to incorporate 
-the most recent country-level paths.
+AS-level paths change.  We measured the country-level paths from a RIPE Atlas probe to the 
+Alexa Top 100 domains once per day for a month to see how stable country-level paths 
+are.  Across the measured domains, we found the average time between path changes to 
+be about five days.  Therefore, \system{} re-computes the paths every five days to incorporate the 
+most recent country-level paths.  
+
+%To measure how often country-level paths change, we 
+%computed the paths from relays to domains once every two hours and once every 
+%hour.  Fewer than five paths changed every two hours; the 
+%results were similar for one-hour increments.  As it takes approximately 30 minutes to 
+%compute all paths, \system{} re-computes the paths every one hour to incorporate 
+%the most recent country-level paths.
 
 %\begin{figure}[t]
 %\centering
@@ -158,8 +168,8 @@ which specifies which domains should be accessed through which proxy.
 The PAC file is published online to a URL of the format
 $<$client\_country$>$\_$<$country\_to\_avoid$>$\_pac.pac.  The client
 uses this URL to specify their proxy configuration.  Paths are
-re-computed every hour, so the contents of the PAC file are also
-updated every hour.
+re-computed every five days, so the contents of the PAC file are also
+updated every five days.
 % The PAC files are published online, which allows a client to simply
 % point the proxy configuration settings to the URL that contains the
 % PAC file.

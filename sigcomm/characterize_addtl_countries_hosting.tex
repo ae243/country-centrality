@@ -1,0 +1,259 @@
+\pdfoutput=1
+\documentclass[10pt,twocolumn]{sig-alternate}
+
+%%%%%%%%%%%%%%%%%%%%  INCLUDES  %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{balance}
+\RequirePackage{tabulary}
+\RequirePackage[hyphens]{url}
+\RequirePackage{ifthen}
+\RequirePackage{paralist}
+\RequirePackage{enumitem}
+\RequirePackage{cite}
+\RequirePackage{booktabs}
+\RequirePackage{color}
+\RequirePackage{colortbl}
+\RequirePackage{float}
+\RequirePackage[breaklinks=true,filecolor=black,citecolor=blue,urlcolor=black,linkcolor=blue,colorlinks,pdfpagelabels,pdfpagelayout=SinglePage]{hyperref}
+\RequirePackage{amssymb}
+\RequirePackage{tikz}
+\usetikzlibrary{arrows}
+\RequirePackage[absolute]{textpos}
+\usepackage{cancel}
+\usepackage{multirow}
+\usepackage{xspace}
+\usepackage{longtable}
+\usepackage[normalem]{ulem}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{dcolumn}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{siunitx}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphics}
+\graphicspath{ {./figures/} }
+
+
+%%%%%%%%%%%%%%%%%%%%  LOCALS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\system}{RAN}
+\newcommand{\ie}{{\em i.e.}}
+\newcommand{\eg}{{\em e.g.}}
+\newcommand{\ea}{{\em et al.}}
+
+\clubpenalty=10000  % Don't allow orphans
+\widowpenalty=10000 % Don't allow widows
+
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\newtheorem{finding}{Finding}[section]
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+%%%%%%%%%%%%%%%%%%%%  TITLE/AUTHORS  %%%%%%%%%%%%%%%%%%%%%
+
+\date{}
+\title{{
+\system{}: Routing Around Nation-States}}
+\author{
+{Paper \#77 -- \pageref{lastpage} Pages + References} \\
+}
+%\author{
+%{Anne Edmundson, Roya Ensafi, Nick Feamster, Jennifer Rexford} \\
+%{Princeton University}
+%}
+
+%%%%%%%%%%%%%%%%%%%%  START OF DOCUMENT  %%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%\maketitle
+
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\newcommand{\headrow}[1]{\multicolumn{1}{c}{\adjustbox{angle=45,lap=\width-0.5em}{#1}}}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\begin{table*}[t]
+\centering
+\ra{1}
+\begin{adjustbox}{width=1\textwidth}
+\small
+\begin{tabular}{@{}ld{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}@{}}
+\textit{Terminating in Country} 
+   & \headrow{Bangladesh}  & \headrow{Russia}   & \headrow{France} & \headrow{China} & \headrow{Germany} & \headrow{Japan}  & \headrow{South Africa}   & \headrow{Nigeria} & \headrow{Argentina} & \headrow{Australia} & \headrow{United Kingdom}  & \headrow{Indonesia}   & \headrow{Pakistan} & \headrow{Mexico} & \headrow{Spain}\\
+\toprule
+Argentina  & -  & -  & -  & -  & -  & -  & -  & -  &\cellcolor[HTML]{FFCC00} 0.214 & -  & -  & -  & -  & 0.010 & - \\
+Brazil  & -  & -  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & -  & - \\ \hline
+British Virgin Islands  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & - \\ 
+Canada  & 0.010 & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & -  & -  & 0.010\\
+Mexico  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  &\cellcolor[HTML]{FFCC00} 0.082 & - \\
+United States  &\cellcolor[HTML]{00CCFF} 0.485 &\cellcolor[HTML]{FF69B4} 0.081 &\cellcolor[HTML]{00CCFF} 0.310 &\cellcolor[HTML]{FF69B4} 0.155 &\cellcolor[HTML]{00CCFF} 0.385 &\cellcolor[HTML]{00CCFF} 0.232 &\cellcolor[HTML]{00CCFF} 0.430 &\cellcolor[HTML]{00CCFF} 0.505 &\cellcolor[HTML]{00CCFF} 0.469 &\cellcolor[HTML]{00CCFF} 0.485 &\cellcolor[HTML]{00CCFF} 0.520 &\cellcolor[HTML]{00CCFF} 0.412 &\cellcolor[HTML]{FF69B4} 0.611 &\cellcolor[HTML]{00CCFF} 0.485 &\cellcolor[HTML]{00CCFF} 0.404\\ \hline
+Czech Republic  & -  & 0.010 & -  & -  & -  & -  & -  & 0.031 & -  & -  & -  & -  & -  & -  & - \\
+France  & 0.021 & 0.020 &\cellcolor[HTML]{FFCC00} 0.350 & -  & 0.010 & 0.021 & 0.010 & 0.021 & 0.041 & -  & 0.031 & 0.010 & 0.011 & 0.010 & 0.071\\
+Germany  & 0.041 & 0.091 & 0.050 & 0.052 &\cellcolor[HTML]{FFCC00} 0.302 & 0.032 & 0.060 & 0.062 & 0.061 & 0.041 & 0.061 & 0.062 & 0.084 & 0.072 & 0.061\\
+Ireland  & 0.062 & -  & 0.040 & 0.031 & 0.042 & 0.011 & 0.040 & 0.041 & 0.031 & 0.031 & 0.041 & 0.021 & 0.042 & 0.052 & 0.051\\
+Italy  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 0.010 & 0.010\\
+Luxembourg  & -  & 0.010 & 0.010 & -  & 0.010 & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & 0.010\\
+Netherlands  &\cellcolor[HTML]{00CCFF} 0.196 &\cellcolor[HTML]{FF69B4} 0.091 &\cellcolor[HTML]{00CCFF} 0.180 &\cellcolor[HTML]{00CCFF} 0.144 &\cellcolor[HTML]{00CCFF} 0.146 &\cellcolor[HTML]{00CCFF} 0.147 &\cellcolor[HTML]{00CCFF} 0.150 &\cellcolor[HTML]{00CCFF} 0.196 &\cellcolor[HTML]{00CCFF} 0.112 &\cellcolor[HTML]{FF69B4} 0.309 &\cellcolor[HTML]{FF69B4} 0.204 &\cellcolor[HTML]{FF69B4} 0.062 &\cellcolor[HTML]{00CCFF} 0.116 &\cellcolor[HTML]{00CCFF} 0.196 &\cellcolor[HTML]{FF69B4} 0.242\\
+Spain  & 0.010 & -  & -  & -  & -  & -  & -  & -  & 0.020 & -  & -  & -  & 0.011 & 0.010 &\cellcolor[HTML]{FFCC00} 0.081\\
+Switzerland  & -  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & -  & -  & - \\
+United Kingdom  & 0.041 & 0.020 & 0.050 & 0.031 & 0.042 & 0.021 & 0.060 & 0.072 & 0.031 & 0.031 &\cellcolor[HTML]{FFCC00} 0.102 & 0.031 & 0.084 & 0.041 & 0.040\\ \hline
+Bosnia and Herzegovina  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & -  & -  & -  & - \\
+Bulgaria  & -  & -  & -  & -  & -  & 0.011 & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Latvia  & -  & 0.010 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Republic of Lithuania  & -  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & -  & -  & - \\
+Romania  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 0.021 & -  & -  & - \\
+Russia  & -  &\cellcolor[HTML]{FFCC00} 0.657 & 0.010 & 0.021 & 0.062 & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & 0.010\\
+Ukraine  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 0.010\\ \hline
+Nigeria  & -  & -  & -  & -  & -  & -  & -  &\cellcolor[HTML]{FFCC00} 0.031 & -  & -  & -  & -  & -  & -  & - \\
+South Africa  & -  & -  & -  & -  & -  & -  &\cellcolor[HTML]{FFCC00} 0.230 & 0.010 & -  & -  & -  & -  & -  & -  & - \\
+United Arab Emirates  & -  & 0.010 & -  & 0.010 & -  & 0.011 & 0.010 & -  & 0.010 & 0.010 & 0.010 & -  & -  & 0.010 & - \\ \hline
+Australia  & -  & -  & -  & -  & -  & -  & -  & -  & -  &\cellcolor[HTML]{FFCC00} 0.082 & -  & -  & -  & 0.010 & - \\
+Bangladesh  &\cellcolor[HTML]{FFCC00} 0.082 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+China  & -  & -  & -  &\cellcolor[HTML]{FFCC00} 0.526 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Hong Kong  & -  & -  & -  & 0.031 & -  & 0.021 & -  & -  & -  & 0.010 & -  & 0.021 & -  & -  & - \\
+Indonesia  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  &\cellcolor[HTML]{FFCC00} 0.247 & -  & -  & - \\
+Japan  & -  & -  & -  & -  & -  &\cellcolor[HTML]{FFCC00} 0.495 & -  & -  & -  & -  & 0.010 & -  & -  & 0.010 & - \\
+Pakistan  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  &\cellcolor[HTML]{FFCC00} 0.042 & -  & - \\
+Republic of Korea  & 0.010 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Singapore  & 0.041 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 0.103 & -  & -  & - \\ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Fraction of paths terminating in a country by default.}
+\label{tab:host}
+\end{table*}
+
+
+\begin{table*}[t]
+\centering
+\ra{1}
+\begin{adjustbox}{width=1\textwidth}
+\small
+\begin{tabular}{@{}ld{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}@{}}
+\textit{Transiting Country} 
+   & \headrow{Bangladesh}  & \headrow{Russia}   & \headrow{France} & \headrow{China} & \headrow{Germany} & \headrow{Japan}  & \headrow{South Africa}   & \headrow{Nigeria} & \headrow{Argentina} & \headrow{Australia} & \headrow{United Kingdom}  & \headrow{Indonesia}   & \headrow{Pakistan} & \headrow{Mexico} & \headrow{Spain}\\
+\toprule
+Argentina  & -  & -  & -  & -  & -  & -  & -  & -  & 1.000 & -  & -  & -  & -  & 0.010 & - \\
+Brazil  & -  & -  & -  & -  & -  & -  & -  & -  & 0.020 & -  & -  & -  & -  & -  & - \\ \hline
+British Virgin Islands  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & - \\
+Canada  & 0.010 & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & -  & 0.010 & 0.010\\
+Mexico  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 1.000 & - \\
+United States  &\cellcolor[HTML]{00CCFF} 0.722 &\cellcolor[HTML]{FF69B4} 0.131 &\cellcolor[HTML]{00CCFF} 0.550 &\cellcolor[HTML]{FF69B4} 0.454 &\cellcolor[HTML]{00CCFF} 0.531 &\cellcolor[HTML]{00CCFF} 0.484 &\cellcolor[HTML]{00CCFF} 0.570 &\cellcolor[HTML]{00CCFF} 0.660 &\cellcolor[HTML]{00CCFF} 0.663 &\cellcolor[HTML]{00CCFF} 0.887 &\cellcolor[HTML]{FF69B4} 0.939 &\cellcolor[HTML]{00CCFF} 0.526 &\cellcolor[HTML]{00CCFF} 0.832 &\cellcolor[HTML]{00CCFF} 0.835 &\cellcolor[HTML]{00CCFF} 0.616\\ \hline
+Belgium  & -  & -  & 0.020 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Czech Republic  & -  & 0.010 & -  & -  & -  & -  & -  & 0.031 & -  & -  & -  & -  & -  & -  & - \\
+France  & 0.072 & 0.020 & 1.000 & 0.041 & 0.125 & 0.042 & 0.080 & 0.041 & 0.071 & 0.124 &\cellcolor[HTML]{00CCFF} 0.388 & 0.010 & 0.084 & 0.093 & 0.111\\
+Germany  & 0.072 & 0.121 & 0.160 & 0.052 & 1.000 & 0.053 & 0.060 & 0.113 & 0.061 & 0.052 & 0.133 & 0.113 & 0.295 & 0.072 & 0.071\\
+Ireland  & 0.062 & -  & 0.040 & 0.062 & 0.073 & 0.042 & 0.070 & 0.052 & 0.082 & 0.082 &\cellcolor[HTML]{00CCFF} 0.204 & 0.052 & 0.063 & 0.062 & 0.101\\
+Italy  & -  & -  &\cellcolor[HTML]{00CCFF} 0.220 & 0.021 & 0.021 & -  & -  & -  & 0.041 & -  & -  & -  &\cellcolor[HTML]{00CCFF} 0.200 & 0.010 & 0.010\\
+Luxembourg  & -  & 0.020 & 0.010 & -  & 0.021 & -  & 0.010 & 0.021 & -  & -  & 0.010 & -  & -  & -  & 0.010\\
+Netherlands  &\cellcolor[HTML]{00CCFF} 0.289 &\cellcolor[HTML]{FF69B4} 0.131 &\cellcolor[HTML]{00CCFF} 0.250 &\cellcolor[HTML]{00CCFF} 0.227 &\cellcolor[HTML]{00CCFF} 0.208 &\cellcolor[HTML]{00CCFF} 0.179 &\cellcolor[HTML]{00CCFF} 0.180 &\cellcolor[HTML]{00CCFF} 0.247 &\cellcolor[HTML]{00CCFF} 0.133 &\cellcolor[HTML]{FF69B4} 0.361 &\cellcolor[HTML]{FF69B4} 0.327 &\cellcolor[HTML]{00CCFF} 0.113 &\cellcolor[HTML]{00CCFF} 0.158 &\cellcolor[HTML]{00CCFF} 0.258 &\cellcolor[HTML]{FF69B4} 0.434\\
+Norway  & -  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & -  & -  & 0.010\\
+Spain  & 0.010 & -  & -  & -  & 0.010 & -  & -  & -  &\cellcolor[HTML]{00CCFF} 0.888 & -  & -  & -  & 0.011 & 0.072 & 1.000\\
+Sweden  & -  & -  & -  & -  & 0.010 & 0.011 & -  & 0.010 & -  & -  & -  & -  & -  & -  & - \\
+Switzerland  & 0.010 & -  &\cellcolor[HTML]{00CCFF} 0.590 & -  & -  & -  & 0.010 & 0.021 & -  & 0.010 & -  & -  & -  & -  & 0.010\\
+United Kingdom  & 0.103 & 0.141 &\cellcolor[HTML]{00CCFF} 0.330 & 0.052 & 0.062 & 0.032 &\cellcolor[HTML]{00CCFF} 0.510 &\cellcolor[HTML]{00CCFF} 0.619 & 0.041 & 0.041 & 1.000 & 0.031 & 0.095 & 0.093 & 0.131\\ \hline
+Bosnia and Herzegovina  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & -  & -  & -  & - \\
+Bulgaria  & -  & -  & -  & -  & -  & 0.011 & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Latvia  & -  & 0.010 & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & -  & -  & - \\
+Poland  & -  & -  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & 0.011 & -  & - \\
+Republic of Lithuania  & -  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & -  & -  & - \\
+Romania  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & -  & -  & 0.021 & 0.011 & -  & - \\
+Russia  & -  & 1.000 & 0.010 & 0.021 & 0.073 & -  & 0.010 & -  & -  & -  & 0.010 & -  & -  & -  & 0.010\\
+Ukraine  & -  & -  & -  & -  & -  & 0.011 & -  & -  & -  & -  & -  & -  & -  & -  & 0.010\\ \hline
+Nigeria  & -  & -  & -  & -  & -  & -  & -  & 1.000 & -  & -  & -  & -  & -  & -  & - \\
+Oman  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  &\cellcolor[HTML]{00CCFF} 0.400 & -  & - \\
+South Africa  & -  & -  & -  & -  & -  & -  & 1.000 &\cellcolor[HTML]{00CCFF} 0.887 & -  & -  & -  & -  & -  & -  & - \\
+United Arab Emirates  & -  & 0.010 & -  & 0.010 & -  & 0.011 & 0.010 & -  & 0.010 & 0.010 & 0.010 & -  & -  & 0.010 & - \\ \hline
+Australia  & -  & -  & -  &\cellcolor[HTML]{00CCFF} 0.247 & -  & -  & -  & -  & -  & 1.000 & -  & -  & -  & 0.010 & - \\
+Bangladesh  & 1.000 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+China  & 0.021 & -  & -  & 1.000 & -  & -  & 0.010 & -  & 0.010 & -  & -  & 0.010 & 0.011 & -  & - \\
+Hong Kong  & 0.010 & -  & -  & 0.072 & -  & 0.053 & -  & -  & -  & 0.010 & -  & 0.052 & -  & -  & - \\
+India  &\cellcolor[HTML]{00CCFF} 0.526 & -  & -  & 0.021 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Indonesia  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 1.000 & -  & -  & - \\
+Japan  & -  & -  & -  &\cellcolor[HTML]{00CCFF} 0.237 & -  & 1.000 & -  & -  & -  & 0.010 & 0.010 & -  & -  & 0.021 & - \\
+Pakistan  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 1.000 & -  & - \\
+Republic of Korea  & 0.010 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Singapore  &\cellcolor[HTML]{00CCFF} 0.361 & -  & -  & 0.031 & -  & -  & -  & -  & -  & -  & -  &\cellcolor[HTML]{00CCFF} 0.505 & -  & -  & - \\
+Taiwan  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 0.010 & -  & -  & - \\ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Fraction of paths transiting a country by default.}
+\label{tab:host}
+\end{table*}
+
+
+\begin{table*}[t]
+\centering
+\ra{1}
+\begin{adjustbox}{width=1\textwidth}
+\small
+\begin{tabular}{@{}ld{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}d{3.2}@{}}
+\textit{Transiting Country} 
+   & \headrow{Bangladesh}  & \headrow{Russia}   & \headrow{China} & \headrow{Germany} & \headrow{Japan}  & \headrow{South Africa}   & \headrow{Nigeria} & \headrow{Argentina} & \headrow{Australia} &  \headrow{Indonesia}   & \headrow{Pakistan} & \headrow{Mexico} & \headrow{Spain}\\
+\toprule
+Argentina  & -  & -  & -  & -  & -  & -  & -  & 0.000 & -  & -  & -  & 1.000 & - \\
+Brazil  & -  & -  & -  & -  & -  & -  & -  & 0.990 & -  & -  & -  & -  & - \\ \hline
+British Virgin Islands  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 1.000 & -  & -  & - \\
+Canada  & 0.990 & -  & -  & -  & -  & -  & 0.990 & -  & -  & -  & -  & 1.000 & 0.990\\
+Mexico  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 0.000 & - \\
+United States  &\cellcolor[HTML]{00CCFF} 0.454 &\cellcolor[HTML]{FF69B4} 0.879 &\cellcolor[HTML]{00CCFF} 0.546 &\cellcolor[HTML]{00CCFF} 0.677 &\cellcolor[HTML]{00CCFF} 0.531 &\cellcolor[HTML]{00CCFF} 0.540 &\cellcolor[HTML]{00CCFF} 0.485 &\cellcolor[HTML]{00CCFF} 0.469 &\cellcolor[HTML]{FF69B4} 0.113 &\cellcolor[HTML]{00CCFF} 0.526 &\cellcolor[HTML]{00CCFF} 0.326 &\cellcolor[HTML]{FF69B4} 0.165 &\cellcolor[HTML]{00CCFF} 0.535\\ \hline
+Belgium  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Czech Republic  & -  & 0.990 & -  & -  & -  & -  & 0.969 & -  & -  & -  & -  & -  & - \\
+France  & 0.979 & 0.980 & 1.000 & 1.000 & 0.990 & 0.990 & 0.979 & 0.990 & 1.000 & 0.990 & 0.989 & 0.990 & 0.990\\
+Germany  & 0.990 & 0.949 & 1.000 & 0.000 & 1.000 & 1.000 & 0.990 & 1.000 & 1.000 & 1.000 & 0.979 & 1.000 & 0.990\\
+Ireland  & 0.990 & -  & 0.990 & 0.990 & 1.000 & 0.980 & 0.990 & 0.980 & 1.000 & 1.000 & 1.000 & 1.000 & 0.970\\
+Italy  & -  & -  & 1.000 & 1.000 & -  & -  & -  & 1.000 & -  & -  & 1.000 & 0.990 & 0.990\\
+Luxembourg  & -  & 0.980 & -  & 0.990 & -  & 1.000 & 1.000 & -  & -  & -  & -  & -  & 0.990\\
+Netherlands  & 0.948 & 0.970 & 1.000 & 0.969 & 0.969 & 0.970 & 0.907 & 0.969 & 0.979 & 0.969 & 0.968 & 0.959 & 0.980\\
+Norway  & -  & -  & -  & -  & -  & -  & 0.990 & -  & -  & -  & -  & -  & 1.000\\
+Spain  & 1.000 & -  & -  & 1.000 & -  & -  & -  &\cellcolor[HTML]{00CCFF} 0.112 & -  & -  & 1.000 & 1.000 & 0.000\\
+Sweden  & -  & -  & -  & 1.000 & 1.000 & -  & 1.000 & -  & -  & -  & -  & -  & - \\
+Switzerland  & 1.000 & -  & -  & -  & -  & 1.000 & 1.000 & -  & 1.000 & -  & -  & -  & 1.000\\
+United Kingdom  & 0.990 & 0.980 & 1.000 & 1.000 & 1.000 &\cellcolor[HTML]{00CCFF} 0.490 &\cellcolor[HTML]{00CCFF} 0.897 & 0.990 & 1.000 & 0.990 & 0.979 & 0.990 & 1.000\\ \hline
+Bosnia and Herzegovina  & -  & -  & -  & -  & -  & 1.000 & -  & -  & -  & -  & -  & -  & - \\
+Bulgaria  & -  & -  & -  & -  & 1.000 & -  & -  & -  & -  & -  & -  & -  & - \\
+Latvia  & -  & 1.000 & -  & -  & -  & -  & 1.000 & -  & -  & -  & -  & -  & - \\
+Poland  & -  & -  & -  & -  & -  & -  & -  & 1.000 & -  & -  & 1.000 & -  & - \\
+Republic of Lithuania  & -  & -  & -  & -  & -  & -  & 0.990 & -  & -  & -  & -  & -  & - \\
+Romania  & -  & -  & -  & -  & -  & 1.000 & -  & -  & -  & 0.979 & 0.989 & -  & - \\
+Russia  & -  & 0.000 & 0.990 & 0.969 & -  & 1.000 & -  & -  & -  & -  & -  & -  & 1.000\\
+Ukraine  & -  & -  & -  & -  & 0.990 & -  & -  & -  & -  & -  & -  & -  & 0.990\\ \hline
+Nigeria  & -  & -  & -  & -  & -  & -  & 0.000 & -  & -  & -  & -  & -  & - \\
+Oman  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 1.000 & -  & - \\
+South Africa  & -  & -  & -  & -  & -  & 0.000 &\cellcolor[HTML]{00CCFF} 0.113 & -  & -  & -  & -  & -  & - \\
+United Arab Emirates  & -  & 1.000 & 1.000 & -  & 1.000 & 1.000 & -  & 1.000 & 1.000 & -  & -  & 1.000 & - \\ \hline
+Australia  & -  & -  & 1.000 & -  & -  & -  & -  & -  & 0.000 & -  & -  & 0.990 & - \\
+Bangladesh  & 0.000 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+China  & 1.000 & -  & 0.000 & -  & -  & 0.990 & -  & 1.000 & -  & 1.000 & 0.989 & -  & - \\
+Hong Kong  & 1.000 & -  & 0.969 & -  & 0.990 & -  & -  & -  & 1.000 & 0.990 & -  & -  & - \\
+India  & 0.959 & -  & 1.000 & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Indonesia  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 0.000 & -  & -  & - \\
+Japan  & -  & -  & 1.000 & -  & 0.000 & -  & -  & -  & 1.000 & -  & -  & 1.000 & - \\
+Pakistan  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 0.000 & -  & - \\
+Republic of Korea  & 0.990 & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & -  & - \\
+Singapore  & 0.969 & -  & 1.000 & -  & -  & -  & -  & -  & -  &\cellcolor[HTML]{00CCFF} 0.845 & -  & -  & - \\
+Taiwan  & -  & -  & -  & -  & -  & -  & -  & -  & -  & 1.000 & -  & -  & - \\ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Avoidance values for avoid given country pairs.  The avoidance value is the fraction of paths that can avoid the country.}
+\label{tab:host}
+\end{table*}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%  END OF DOCUMENT  %%%%%%%%%%%%%%%%%%%%
