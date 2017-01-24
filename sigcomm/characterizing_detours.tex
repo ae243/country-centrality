@@ -246,7 +246,7 @@ For Kenya, 24 out of the Top 100 Domains are .ke domains, but only 5
 of the 24 are hosted within Kenya.  29 out of 40 .nl domains are hosted in the Netherlands; 4 of 13 .in domains are hosted in India; 18 of 39 .br domains are hosted in Brazil.  Interestingly, all .gov domains were hosted in their respective country. 
 
 \begin{finding}[Transit Traffic]
-Surveillance states (specifically the U.S. and Great Britain) are on the largest portion of paths in comparison to any other (foreign) country.
+The United States and Great Britain are on the largest portion of paths in comparison to any other (foreign) country.
 \end{finding}
 \noindent
 84\% of Brazilian paths traverse the United States, despite Brazil's
@@ -283,7 +283,7 @@ their paths still trombone to the U.S.  This is due to IXPs being seen
 as a threat by competing commercial providers; providers are sometimes
 concerned that ``interconnection'' will result in making business
 cheaper for competitors and stealing of customers~\cite{ixp_policy}.
-It is likely that Brazilian providers see one another as competitors and therefore as a threat at IXPs, which causes them to peer with international providers instead of other local providers.  Additionally, we see Brazilian paths trombone to Spain and Italy. We have observed that MaxMind sometimes mislabels IP addresses to be in Spain when they are actually located in Portugal.  This mislabelling does not affect our analysis of detours through surveillance states, as we do not highlight either Spain or Portugal as a surveillance state.  We see Italy often in tromboning paths because Telecom Italia Sparkle is one of the top global Internet providers~\cite{bakers}.
+It is likely that Brazilian providers see one another as competitors and therefore as a threat at IXPs, which causes them to peer with international providers instead of other local providers.  Additionally, we see Brazilian paths trombone to Spain and Italy. We have observed that MaxMind sometimes mislabels IP addresses to be in Spain when they are actually located in Portugal.  This mislabelling does not affect our analysis of detours because: 1) the fundamental issues associated with tromboning (performance and costs) are not dependent on the specific country, but moreso on the region, and 2) we do not highlight either Spain or Portugal as a surveillance state, and thus are not concerned with the distinction between the two countries.  We see Italy often in tromboning paths because Telecom Italia Sparkle is one of the top global Internet providers~\cite{bakers}.
 
 Tromboning Kenyan paths most commonly traverse Mauritius, which is expected considering the submarine cables between Kenya and Mauritius.  Submarine cables also explain South Africa, Tanzania, and the United Arab Emirates on tromboning paths.  
   %Traffic that should be kept local is susceptible to surveillance because it transits two well-known surveillance states.  
@@ -329,12 +329,13 @@ network delay measurements, and host-to-location mapping in
 conjunction with BGP prefix
 information~\cite{padmanabhan2001investigation}.  While there are
 inaccuracies and incompleteness in MaxMind's
-data~\cite{huffaker2011geocompare}, the focus of this work is on
-measuring and avoiding surveillance.  We use Maxmind to map IP to
+data~\cite{huffaker2011geocompare}, the primary motivations for this work are to show that paths 
+are currently going through surveillance states, and that performance is affected by the 
+paths taken.  We use Maxmind to map IP to
 country,
 % (as described in Section~\ref{c_map}),
 which provides a lower
-bound on the amount of surveillance.
+bound on the amount of surveillance and tromboning.
 
 \textbf{IPv4 vs.\ IPv6 connectivity.}
 We collect and analyze only IPv4 paths.  IPv6 paths likely
