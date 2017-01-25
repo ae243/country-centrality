@@ -13,10 +13,10 @@ of default Internet paths.
 \end{figure*}
 
 
-\subsection{Measurement Pipeline}
+\subsection{Measurement Approach and Challenges}
 \label{pipeline}
 
-Figures \ref{fig:pipeline1} and \ref{fig:analysis_pipeline} summarize
+Figures~\ref{fig:pipeline1} and~\ref{fig:analysis_pipeline} summarize
 our measurement process.  We analyze traceroute measurements to
 discover which countries are on the path from a client in a particular
 country to a popular domain.  
@@ -25,34 +25,32 @@ country to a popular domain.
 %transnational detours is new; prior work used BGP routing tables to
 %\textit{infer} country-level paths~\cite{karlin2009nation}.  
 Because we conduct active measurements, which are limited by our
-resources, we study just five countries.  We report on measurements
-conducted on January 31, 2016.
+resources, we currently focus our measurements on twenty countries.
 
 \subsubsection{Resource Limitations}
 \label{resource_limits}
 
-The iPlane~\cite{madhyastha2006iplane} and Center for Applied Internet
-Data Analysis (CAIDA)~\cite{caida} projects maintain large
-repositories of traceroute data, neither of which are suitable for our
-study.  
-%iPlane has historical data as far back as 2006.
-Unfortunately, because iPlane uses PlanetLab~\cite{PlanetLab} nodes,
-which mostly use the Global Research and Education Network (GREN), 
-iPlane measurements are not be representative of typical Internet
-users' traffic paths~\cite{banerjee2004interdomain}.  CAIDA runs
-traceroutes from different vantage points around the world to
-randomized destination IP addresses that cover all /24s; in contrast,
-we focus on paths to popular websites from a particular country.
+The iPlane~\cite{madhyastha2006iplane} and Center for Applied Internet Data
+Analysis (CAIDA)~\cite{caida} projects maintain large repositories of
+traceroute data, neither of which are suitable for our study.   %iPlane has
+historical data as far back as 2006. Unfortunately, because iPlane uses
+PlanetLab~\cite{PlanetLab} nodes, which are primarily hosted on the Global
+Research and Education Network (GREN), iPlane measurements are not be
+representative of typical Internet users' traffic
+paths~\cite{banerjee2004interdomain}.  CAIDA runs traceroutes from different
+vantage points around the world to randomized destination IP addresses that
+cover all /24s; in contrast, we focus on paths to popular websites from a
+particular country.
 
 Instead, we run active measurements that
 would represent paths of a typical Internet user. To do so, we run
 DNS and traceroute measurements from RIPE Atlas probes, which are hosted
-all around the world and in many different settings, including home
+all around the world in many different types of networks, including home
 networks~\cite{ripe_atlas}.  RIPE Atlas probes can use the local DNS
 resolver, which would give us the best estimate of the traceroute
 destination.
 
-Yet, conducting measurements from a RIPE Atlas probe costs a certain
+Conducting measurements from a RIPE Atlas probe costs a certain
 amount of ``credits'', which restricts the number of measurements that we
 could run.  RIPE Atlas also imposes rate limits on the number of
 concurrent measurements and the number of credits that an individual
@@ -68,67 +66,62 @@ is still representative of an Internet user in that country.
 \subsubsection{Path Asymmetry}
 \label{path_sym}
 
-The reverse path is just as important as (and often different from) the 
-forward path.  
-Previous work has shown that paths are not symmetric most of the
-time---the forward path from point A to point B does not match the
-reverse path from point B to point A~\cite{he2005routing}.  Most work on
-path asymmetry has been done at the AS level, but not at the country
-level.  Our measurements consider only the forward path (from client
-to domain or relay), not the reverse path from the domain or
-relay to the client.   
+The reverse path is just as important as (and often different from) the
+forward path.   Previous work has shown that paths between Internet endpoints
+are often asymmetric~\cite{he2005routing}.  Most work on path asymmetry has
+been done at the AS level, but not at the country level; our measurements
+consider only the forward path (from client to domain or relay), not the
+reverse path from the domain or relay to the client.
 
-We measured path asymmetry at the country
-granularity. If country-level paths are symmetric, then the results of
-our measurements would be representative of the forward {\it and}
-reverse paths. If the country-level paths are asymmetric, then our
-measurement results only provide a lower bound on the number of countries
-that could potentially conduct surveillance.  Using 100 RIPE Atlas
-probes located around the world, and eight Amazon EC2 instances, we ran
-traceroute measurements from every probe to every EC2 instance and from
-every EC2 instance to every probe.  After mapping the IPs to countries,
-we analyzed the paths for symmetry.  First, we compared the set of
-countries on the forward path to the set of countries on the reverse
-path; this yielded about 30\% symmetry.  What we wanted to know is
-whether or not the reverse path has more countries on it than the
-forward path.  Thus, we measured how many reverse paths were a subset of the
-respective forward path; this was the case for 55\% of the paths.   
-This level of asymmetry suggests that our results represent a lower
-bound on the number of countries that transit traffic; our results are a
-lower bound on how many unfavorable countries transit a client's
-path. It also suggests that while providing lower bounds on
-transnational detours is feasible, designing systems to completely
-prevent these detours on both forward and reverse paths may be particularly
-challenging, if not impossible. 
+To better understand the limitation of our current measurements, we also
+measured path asymmetry at the country granularity. If country-level paths
+were symmetric, then the results of our measurements would be representative
+of the forward {\it and} reverse paths. If the country-level paths are
+asymmetric, then our measurement results only provide a lower bound on the
+number of countries that traffic between two endpoints may traverse.  Using
+100 RIPE Atlas probes located around the world and eight Amazon EC2 instances,
+we ran traceroute measurements from every probe to every EC2 instance and from
+every EC2 instance to every probe.  After mapping the IPs to countries, we
+analyzed the paths for symmetry.  First, we compared the set of countries on
+the forward path to the set of countries on the reverse path; this yielded
+about 30\% symmetry.  We compared the number of countries on the forward and
+reverse paths to determine how many reverse paths were a subset of the
+respective forward path; this situation occurred for 55\% of the paths. This
+level of asymmetry suggests that our results represent a lower bound on the
+number of countries that transit traffic; our results are a lower bound on how
+many unfavorable countries transit a client's path. It also suggests that
+while providing lower bounds on transnational detours is feasible, designing
+systems to {\em completely} prevent these detours on both forward and reverse
+paths is extremely challenging. If tools that shed light on the reverse path
+between endpoints (\eg, Reverse Traceroute) see more widespread deployment,
+the characterizations and avoidance techniques that we develop in this paper could
+be extended to include reverse paths.
 
 \subsubsection{Traceroute Origin and Destination Selection}
 
 Each country hosts a different number of RIPE Atlas probes, ranging
-from about 75 probes to many hundreds.  Because of the resource
-restrictions, we could not use all probes in each of the countries.  We
+from roughly 75 probes to several hundred probes.  Because of the resource
+restrictions, we could not use all probes in each country.  We
 selected the set of probes that had unique ASes in the country to get
 the widest representation of origination (starting) points.
 
-For destinations, we used the Alexa Top 100 domains in each of the
-respective countries, as well as the third-party domains that are
-requested as part of an original web request.  We came to the conclusion that 
-the Alexa Top 100 domains were sufficient to characterize routing detours by comparing 
-the country level paths from a vantage point to the top 100 domains and from that 
-same vantage point to the top 1000 domains.  The proportion of paths that transitted 
-(and ended in) each country are extremely similar between the two sets of paths.  The 
-paths to the top 1000 domains exhibits a long tail of countries that transit or host content, 
-likely because these domains are less popular and therefore hosted in more obscure locations.  
-Despite this tail of countries, the Alexa Top 100 domains provides results that are 
-representative to the Alexa Top 1000 domains.
+We used the Alexa Top 100 domains in each of the respective countries as our
+destinations, as well as the third-party domains that are requested as part of
+an original web request.  For a smaller set of vantage points, we compared the
+country-level paths to the top 100 domains and to those from the vantage
+points to the top 1000 domains. The proportion of paths that transitted (and
+ended in) each country are similar in both cases; the paths to the top 1000
+domains exhibits a longer tail of countries that transit or host content,
+likely because these domains are less popular and therefore hosted in more
+obscure locations. Otherwise, the results are similar.
 
-To obtain the 3rd party
-domains we {\tt curl} (\ie, HTTP fetch) each of the domains, but we must
-do so from within the country of interest.  There is no current
-functionality to {\tt curl} from RIPE Atlas probes, so we establish a
-VPN connection within each of these countries to {\tt curl} each domain
-and extract the third-party domains; we {\tt curl} from the client's
-location in case web sites are customizing content based on the region
-of the client. 
+To obtain the third-party domains that are hosted on each popular website, we
+use {\tt curl} to retreive the homepage for each respective domain from within
+the country that is hosting the vantage point in question.  RIPE Atlas probes
+do not support these types of Web requests; instead, we establish a VPN
+connection within each of these countries to {\tt curl} each domain and
+extract the third-party domains; we {\tt curl} from the client's location in
+case web sites are customizing content based on the region of the client.
 
 \begin{figure}[t]
 \centering
@@ -143,10 +136,11 @@ of the client.
 
 Accurate IP geolocation is challenging. We use MaxMind's
 geolocation service to map IP addresses to their respective
-countries~\cite{maxmind}, which is known to contain inaccuracies.
-Fortunately, our study does not require high-precision geolocation; we
-are more interested in providing accurate lower bounds on detours at a
-much coarser granularity.  Fortunately, previous work has found that
+countries~\cite{maxmind}. Unfortuantely, this database is known to contain inaccuracies,
+particularly for IP addresses that correspond to Internet infrastructure, as opposed
+to end hosts.
+Fortunately, previous
+work has found that
 geolocation at a country-level granularity is more accurate than at
 finer granularity~\cite{huffaker2011geocompare}.  In light of these
 concerns, we post-processed our IP to country mapping
@@ -163,19 +157,20 @@ post-processing.
 
 \input{characterize-tables}
 
-Table \ref{tab:host} shows the five countries we studied along the top
-of the table, and the countries that host their content along in each
-row.  For example, the U.S. is the endpoint of 77\% of the
-paths that originate in Brazil.  A ``-'' represents the case where no
-paths ended in that country.  For example, no Brazilian paths terminated in
-South Africa. Table \ref{tab:transit} shows the fraction of paths that
-transit (or end in) certain countries, with a row for each country that is transited.
+Table~\ref{tab:host} shows five of the countries that we studied along the top
+of the table and the countries that host their content along in each row. 
+A ``-'' represents the case where no paths ended in that country.
+ For
+example, the U.S. is the endpoint of 77\% of the paths that originate in
+Brazil, and no Brazilian paths terminated in South Africa. Table~\ref{tab:transit}
+shows the fraction of paths that transit (or end in) certain
+countries, with a row for each country that is transited.
 
 \begin{finding}[Hosting Diversity]
 About half of the top domains in each of the five countries studied are hosted in a single country.  The other half are located in two or more different countries.
 \end{finding}
 \noindent
-First we analyze hosting diversity; this shows us how many unique
+First, we analyze hosting diversity, which reveals how many unique
 countries host a domain.  The more countries that a domain is hosted
 in creates a greater chance that the content is replicated in a
 favorable country, and could potentially allow a client to circumvent

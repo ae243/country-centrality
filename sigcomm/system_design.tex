@@ -1,4 +1,4 @@
-\section{Design}
+\section{\system{}: Routing Arond Nation-States}
 \label{system_design}
 
 \system{} comprises an overlay network of relays and an oracle that
@@ -13,7 +13,8 @@ clients, relays, and domains; the results are stored at the
 oracle.  The oracle uses the data to decide which relay a client in
 some location should use for accessing a certain domain while avoiding
 a certain country.  The oracle periodically computes paths for many
-combinations of client AS, destination, and country.
+combinations of client AS, destination, and country.  After enumerating our design
+goals for \system{}, we explain each component of the system in more detail.
 %A client can then query the oracle to
 %determine the appropriate relay to use to avoid a certain country
 %en route to a particular destination.
@@ -34,6 +35,8 @@ combinations of client AS, destination, and country.
 %while avoiding a client-specified country.}
 %\label{fig:arch}
 %\end{figure}
+
+\input{design_goals}
 
 \subsection{Periodic Path Measurement}
 
