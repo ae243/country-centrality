@@ -78,7 +78,7 @@ one part of the path (necessary for traffic correlation attacks).
 \end{figure}
 
 
-\textbf{Client-to-Relay Paths.} 
+\paragraph{Client-to-Relay Paths.} 
 To avoid requiring the client to install custom software, \system{}
 measures client-to-relay paths from RIPE Atlas probes that serve as 
 vantage points for potential client ASes.  \system{} selects probes that
@@ -87,16 +87,16 @@ country). The oracle triggers the probe to run traceroutes
 to each relay.  After collecting the responses, the oracle maps 
 the IP-level paths to country-level paths and stores the results.
 
-\textbf{Relay-to-Client Paths.} The relays perform
+\paragraph{Relay-to-Client Paths.} The relays perform
 traceroutes to the IP addresses of RIPE Atlas probes, which 
 represent client ASes.  They then derive country-level paths; the
 oracle learns these paths from each relay.  
 
-\textbf{Relay-to-Server Paths.} Relays perform 
+\paragraph{Relay-to-Server Paths.} Relays perform 
 traceroutes to each domain.  As with paths to clients,
 relays derive country-level paths and send them to the oracle.
 
-\textbf{Client to Server Paths.} In case a path from a client to a 
+\paragraph{Client to Server Paths.} In case a path from a client to a 
 domain does not pass through the country specified to avoid {\it by default}, 
 then none of the proxies should be used.  
 %If a proxy is used, then it may 
@@ -178,7 +178,7 @@ updated every five days.
 Adding relays to \system{} is 
 straightforward. Additionally, \system{} is resilient to failures of system components.
 
-\textbf{Adding relays and oracles.} To add a relay, the system
+\paragraph{Adding relays and oracles.} To add a relay, the system
 operator must set up a machine as a proxy server, install the relay
 software, and update the oracle's list of relays.  From that point
 onward, paths will be computed to and from the new relay, and clients
@@ -189,7 +189,7 @@ North America and Europe, and another handles clients elsewhere).
 Both oracles will publish the PAC files to the same server, which
 causes no changes for the client.
 
-\textbf{Failed relays and oracles.} Unresponsive relays are handled
+\paragraph{Failed relays and oracles.} Unresponsive relays are handled
 by the PAC file.  The PAC file allows the oracle to specify multiple
 proxies in a sequential order, such that if the the first proxy fails,
 then the client users the second proxy (and so on).  This feature can

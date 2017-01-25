@@ -75,7 +75,7 @@ Country X can avoid a specific country Y.
 %and algorithm, we can compare how well the different methods achieve
 %country avoidance for any (X, Y) pair.
 
-\textbf{Avoidability metric.}  We introduce an avoidability metric to
+\paragraph{Avoidability metric.}  We introduce an avoidability metric to
 quantify how often
 traffic can avoid Country Y when it originates in Country X.
 Avoidability is the fraction of paths that start in Country
@@ -99,7 +99,7 @@ drop to 1/3.
 
 %\paragraph{Avoidability algorithm with open resolvers.} Recall from the measurement pipeline for avoidance with open resolvers, described in Section \ref{avoid_pipelines}, that the resulting data are traceroutes from the client in Country X to \textit{all} IP addresses in \textit{all} open DNS resolver responses.  To measure avoidability, there must exist at least one path from the client in Country X to the domain for the client to be able to avoid Country Y when accessing the domain.  The country avoidance value is the fraction of domains accessible from the client in Country X without traversing Country Y.
 
-\textbf{Avoidability algorithm.}  Measuring the avoidability of Country Y from a client in Country X using relays has two components: (1)~Is Country Y on the path from the client in Country X to the relay?  (2)~Is Country Y on the path from the relay to the domain?  For every domain, our algorithm checks if there exists at least one path from the client in Country X through any relay and on to the domain, and does not transit Country Y.  
+\paragraph{Avoidability algorithm.}  Measuring the avoidability of Country Y from a client in Country X using relays has two components: (1)~Is Country Y on the path from the client in Country X to the relay?  (2)~Is Country Y on the path from the relay to the domain?  For every domain, our algorithm checks if there exists at least one path from the client in Country X through any relay and on to the domain, and does not transit Country Y.  
 The algorithm (Algorithm~\ref{avoid_algo}) produces a value in the range
 [0,1] that can be compared to the output of the avoidability metric.
 
@@ -131,7 +131,7 @@ The algorithm (Algorithm~\ref{avoid_algo}) produces a value in the range
 \end{algorithm}
 
 
-\textbf{Upper bound on avoidability.}  Although the avoidability
+\paragraph{Upper bound on avoidability.}  Although the avoidability
 metric provides a way to quantify how avoidable Country
 Y is for a client in Country X, some
 domains may be hosted only in Country Y, so the avoidance value 
