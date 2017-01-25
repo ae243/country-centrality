@@ -36,23 +36,23 @@ world~\cite{bischof2015and,gupta2014peering,fanou2015diversity}; these studies
 focus on paths within a country of interest, as opposed to focusing on
 transnational Internet paths.
 
-\paragraph{Routing overlays.} Alibi Routing uses round-trip times to prove
-that that a client's packets did  not traverse a forbidden country or
-region~\cite{levin2015alibi}; our work differs by measuring  which countries a
-client's packets would (and does) traverse.  Our work then  uses active
-measurements to determine the best path for a client wishing  to connect to a
-server.  RON, Resilient Overlay Network, is an overlay network that  routes
-around failures, whereas our overlay network routes around
-countries~\cite{andersen2001resilient}.  ARROW introduces a model that allows
-users to route around ISPs~\cite{peter2015one}, but requires ISP participation,
-making it considerably more difficult to deploy
-than \system{}. ARROW also aims to improve
-fault-tolerance, robustness, and security, rather than explicitly attempting to
-avoid certain countries; ARROW provides mechanisms to avoid individual ISPs, but
-such a mechanism is at a different level of granularity, because an ISP may span multiple countries.  Zhang
-\ea presented SCION, a ``clean-slate'' Internet architecture
-that provides route control, failure isolation, and explicit trust information
-for communication~\cite{zhang2011scion}; SCION, however, requires fundamental
+\paragraph{Routing overlays and Internet architectures.} Alibi Routing uses
+round-trip times to prove that that a client's packets did  not traverse a
+forbidden country or region~\cite{levin2015alibi}; our work differs by
+measuring  which countries a client's packets would (and does) traverse.  Our
+work then  uses active measurements to determine the best path for a client
+wishing  to connect to a server.  RON, Resilient Overlay Network, is an
+overlay network that  routes around failures, whereas our overlay network
+routes around countries~\cite{andersen2001resilient}.  ARROW introduces a
+model that allows users to route around ISPs~\cite{peter2015one}, but requires
+ISP participation, making it considerably more difficult to deploy than
+\system{}. ARROW also aims to improve fault-tolerance, robustness, and
+security, rather than explicitly attempting to avoid certain countries; ARROW
+provides mechanisms to avoid individual ISPs, but such a mechanism is at a
+different level of granularity, because an ISP may span multiple countries.
+Zhang \ea presented SCION, a ``clean-slate'' Internet architecture that
+provides route control, failure isolation, and explicit trust information for
+communication~\cite{zhang2011scion}; SCION, however, requires fundamental
 changes to the Internet architecture, whereas \system{} is deployable today.
 
 
