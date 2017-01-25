@@ -17,8 +17,8 @@
 %%%
 %%%  Custom variables to be set appropriately.
 %%%
-\newcommand{\AUTHORS}{Nick Feamster}
-\newcommand{\TITLE}{Revealing Utilization at Internet Interconnection Points}
+\newcommand{\AUTHORS}{Annie Edmundson, Nick Feamster, Jennifer Rexford}
+\newcommand{\TITLE}{RAN: Routing Around Nation States}
 \newcommand{\KEYWORDS}{Keywords}
 \newcommand{\CONFERENCE}{Conference}
 \newcommand{\PAGENUMBERS}{yes} % "yes" or "no"
@@ -143,9 +143,9 @@ left=0.75in,right=0.75in,top=0.75in, bottom=1in,
 %\RequirePackage{titlesec}
 %\titlespacing{\paragraph}{0pt}{*1}{*1} % SPACE
 \RequirePackage[compact]{titlesec}  % SPACE
-\titleformat{\section}%  % IEEE/ACM: caps + period
- {\bf\large\uppercase}{\thesection.\quad}{0pt}{}
-%\titleformat{\section}{\bf\large}{\thesection}{8pt}{} % USENIX
+%\titleformat{\section}%  % IEEE/ACM: caps + period
+% {\bf\large\uppercase}{\thesection.\quad}{0pt}{}
+\titleformat{\section}{\bf\large}{\thesection}{8pt}{} % USENIX
 
 
 %%%

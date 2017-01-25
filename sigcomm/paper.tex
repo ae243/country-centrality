@@ -1,5 +1,6 @@
 \pdfoutput=1
-\documentclass[10pt,twocolumn]{sig-alternate}
+%\documentclass[10pt,twocolumn]{sig-alternate}
+\documentclass[10pt,twocolumn]{confpaper}
 
 %%%%%%%%%%%%%%%%%%%%  INCLUDES  %%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -41,9 +42,9 @@
 %%%%%%%%%%%%%%%%%%%%  LOCALS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\system}{RAN}
-\newcommand{\ie}{{\em i.e.}}
-\newcommand{\eg}{{\em e.g.}}
-\newcommand{\ea}{{\em et al.}}
+\renewcommand{\ie}{{\em i.e.}}
+\renewcommand{\eg}{{\em e.g.}}
+\renewcommand{\ea}{{\em et al.}}
 
 \clubpenalty=10000  % Don't allow orphans
 \widowpenalty=10000 % Don't allow widows
@@ -69,7 +70,7 @@
 
 \date{}
 \title{{
-\system{}: Routing Around Nation-States}}
+{\ttlfnt \system{}: Routing Around Nation-States}}}
 \author{
 {Paper \#77 -- \pageref{lastpage} Pages + References} \\
 }
@@ -84,6 +85,7 @@
 
 \maketitle
 
+\if 0
 \floatstyle{plain}
 \newfloat{acmcr}{b}{acmcr}
 \begin{acmcr}
@@ -103,6 +105,8 @@ permissions from Permissions@acm.org.
 Copyright 2016 ACM. ISBN 978-1-4503-4193-6/16/08...\$15.00\\
 DOI: \url{http://dx.doi.org/10.1145/2934872.2959081}}
 \end{acmcr}
+\fi
+
 %\ToAppear
 
 \hyphenation{geo-location} 
