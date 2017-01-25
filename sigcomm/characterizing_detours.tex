@@ -161,23 +161,26 @@ Table~\ref{tab:host} shows five of the countries that we studied along the top
 of the table and the countries that host their content along in each row. 
 A ``-'' represents the case where no paths ended in that country.
  For
-example, the U.S. is the endpoint of 77\% of the paths that originate in
+example, the United States is the endpoint of 77\% of the paths that originate in
 Brazil, and no Brazilian paths terminated in South Africa. Table~\ref{tab:transit}
 shows the fraction of paths that transit (or end in) certain
 countries, with a row for each country that is transited.
 
-\begin{finding}[Hosting Diversity]
-About half of the top domains in each of the five countries studied are hosted in a single country.  The other half are located in two or more different countries.
-\end{finding}
-\noindent
-First, we analyze hosting diversity, which reveals how many unique
-countries host a domain.  The more countries that a domain is hosted
-in creates a greater chance that the content is replicated in a
-favorable country, and could potentially allow a client to circumvent
-an unfavorable country.  We queried DNS from 26 vantage points around
-the world, in geographically diverse locations.  Then we
-mapped the IP addresses in the DNS responses to countries to determine
-how many unique countries host a domain.  Figure~\ref{fig:host_diversity} shows the fraction of domains that are hosted in different numbers of countries; we can see two common hosting cases: 1) CDNs and 2) a single hosting country.  This shows that many domains are hosted in a single unique country, which leads us to our next analysis---where are these domains hosted, and which countries are traversed on the way to reach these locations.
+\begin{finding}[Hosting Diversity] About half of the top domains in each of
+the five countries studied are hosted in a single country.  The other half are
+located in two or more different countries. \end{finding} \noindent First, we
+analyze hosting diversity, which reveals how many unique countries host a
+domain.  The more countries host a domain, the greater the likelihood that a
+client can find a path to that site that avoids a certain country. We queried
+DNS from 26 vantage points around the world, in geographically diverse
+locations. We then mapped the IP addresses in the DNS responses to countries
+to determine how many unique countries host a domain.
+Figure~\ref{fig:host_diversity} shows the fraction of domains that are hosted
+in different numbers of countries; we can see two common hosting cases: (1)~CDNs
+and (2)~a single hosting country.  This shows that many domains are hosted
+in a single unique country, which leads us to our next analysis---where are
+these domains hosted, and which countries are traversed on the way to reach
+these locations.
 
 %\begin{figure}[t]
 %\centering
