@@ -17,7 +17,7 @@ of default Internet paths.
 \label{pipeline}
 
 \paragraph{Overview of approach.}
-Figures~\ref{fig:pipeline1} shows the process that we use to discover end-to-end
+Figure~\ref{fig:pipeline1} shows the process that we use to discover end-to-end
 Internet paths from our respective vantage points to various domains. We first use
 VPNs
 to establish various vantage points in the countries of interest; then, we use 
@@ -42,7 +42,7 @@ rest of this section.
 We currently focus our measurements on twenty countries due to resource limitations.
 The iPlane~\cite{madhyastha2006iplane} and Center for Applied Internet Data
 Analysis (CAIDA)~\cite{caida} projects maintain large repositories of
-traceroute data, neither of which are suitable for our study.   %iPlane has
+traceroute data, neither of which are suitable for our study.   iPlane has
 historical data as far back as 2006. Unfortunately, because iPlane uses
 PlanetLab~\cite{PlanetLab} nodes, which are primarily hosted on the Global
 Research and Education Network (GREN), iPlane measurements are not be
@@ -111,7 +111,7 @@ be extended to include reverse paths.
 
 Each country hosts a different number of RIPE Atlas probes, ranging
 from roughly 75 probes to several hundred probes.  Because of the resource
-restrictions, we could not use all probes in each country.  We
+restrictions, we could not use all of the probes in each country.  We
 selected the set of probes that had unique ASes in the country to get
 the widest representation of origination (starting) points.
 
@@ -119,14 +119,14 @@ We used the Alexa Top 100 domains in each of the respective countries as our
 destinations, as well as the third-party domains that are requested as part of
 an original web request.  For a smaller set of vantage points, we compared the
 country-level paths to the top 100 domains and to those from the vantage
-points to the top 1000 domains. The proportion of paths that transitted (and
+points to the top 1000 domains. The proportion of paths that transited (and
 ended in) each country are similar in both cases; the paths to the top 1000
-domains exhibits a longer tail of countries that transit or host content,
+domains exhibit a longer tail of countries that transit or host content,
 likely because these domains are less popular and therefore hosted in more
 obscure locations. Otherwise, the results are similar.
 
 To obtain the third-party domains that are hosted on each popular website, we
-use {\tt curl} to retreive the homepage for each respective domain from within
+use {\tt curl} to retrieve the homepage for each respective domain from within
 the country that is hosting the vantage point in question.  RIPE Atlas probes
 do not support these types of Web requests; instead, we establish a VPN
 connection within each of these countries to {\tt curl} each domain and
@@ -146,7 +146,7 @@ case web sites are customizing content based on the region of the client.
 
 Accurate IP geolocation is challenging. We use MaxMind's
 geolocation service to map IP addresses to their respective
-countries~\cite{maxmind}. Unfortuantely, this database is known to contain inaccuracies,
+countries~\cite{maxmind}. Unfortunately, this database is known to contain inaccuracies,
 particularly for IP addresses that correspond to Internet infrastructure, as opposed
 to end hosts.
 Fortunately, previous
@@ -158,8 +158,10 @@ by removing all IP addresses that resulted in a `None' response when
 querying MaxMind, which causes our results to provide a conservative
 estimate of the number of countries that paths traverse. It is important
 to note that removing `None' responses will \textit{always} produce a
-conservative estimate, and therefore we are \textit{always}
-underestimating the amount of potential surveillance.  
+conservative estimate.
+%JEN: removed to deemphasize surveillance as the primary interest
+%, and therefore we are \textit{always}
+%underestimating the amount of potential surveillance.  
 Figure~\ref{fig:analysis_pipeline} shows an example of this
 post-processing. 
 
@@ -324,7 +326,7 @@ The United States hosts 97\% of the content that is accessed from within the cou
 \end{finding}
 \noindent
 
-We find that that Brazilian, Dutch, Indian, and Kenyan paths
+We find that Brazilian, Dutch, Indian, and Kenyan paths
 often transit the United States (as well as other countries that have permissive
 surveillance laws). The results from
 studying paths that originate in the United States are drastically different from
