@@ -1,14 +1,14 @@
 \section{Feasiblity of Routing Around Nation-States}
 \label{avoid_results}
 
-In light of our analysis in Section \ref{datasets}, we now explore how
-much techniques and systems can help clients prevent transnational
-routing detours. We explore how to (i) increase path diversity with
-the use of overlay nodes and (ii) discover additional website replicas
+Informed by our analysis in Section \ref{datasets}, we now explore the extent to
+which systems can help clients avoid certain countries.
+We explore and evaluate possible methods to (1)~increase path diversity with
+the use of overlay nodes and (2)~discover additional website replicas
 by diverting DNS queries through global open DNS resolvers.  Due to
-space limitations, our measurement methods and results on the use of
-open DNS resolvers can be found at \cite{characterizing_detours}.
-Here, we discuss our measurement method, develop an avoidance metric
+space limitations, we omit our analysis of how open DNS resolvers can improve diversity;
+we have included those results in a technical report~\cite{characterizing_detours}.
+In this section, we discuss our measurement method, develop an avoidance metric
 and algorithm, and present our results for the use of overlay nodes to
 prevent transnational detours.
 
@@ -42,14 +42,16 @@ prevent transnational detours.
 %\end{figure}
 
 %\paragraph{Country Avoidance with Relays.} 
-Using an overlay network may
-help clients route around unfavorable countries or access content 
-that is hosted in a different country.  Figure~\ref{fig:avoidance_relays}
-shows the steps to conduct this measurement. 
-After selecting relay machines, we run traceroute measurements from
-Country X to each relay and from each relay to the set of domains. We
-then analyze these traceroutes using the pipeline in Figure
-\ref{fig:analysis_pipeline} to determine country-level paths. 
+We observe that an overlay network of relay nodes could
+help clients route around countries or access content 
+that is hosted in a different country; this section performs measurements to evaluate
+the feasibility of such an approach. Figure~\ref{fig:avoidance_relays}
+shows the steps in our measurement experiment.
+After selecting potential relay nodes, we perform traceroute measurements from
+the country of origin to each relay, and from each relay to the set of top 100 domains
+in the origina country. We
+then analyze these traceroutes using the approach shown in Figure~\ref{fig:analysis_pipeline}
+to determine the resulting country-level paths. 
 
 \begin{figure}[t]
 \centering
@@ -59,7 +61,7 @@ then analyze these traceroutes using the pipeline in Figure
 \end{figure}
 
 We use eight EC2 instances, one in each geographic region
-(U.S., Ireland, Germany, Singapore, South Korea, Japan, Australia,
+(United States, Ireland, Germany, Singapore, South Korea, Japan, Australia,
 Brazil), as well as four Virtual Private Server (VPS) machines (France,
 Spain, Brazil, Singapore), which are virtual machines.
 % that are functionally equivalent to dedicated physical servers.  
