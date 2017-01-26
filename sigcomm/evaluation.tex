@@ -45,7 +45,7 @@ country, as evidenced by our results for avoiding the United States.  Despite
 this lack of guarantees, the system reduces the number of requests that 
 transit the unfavorable country; additionally, the client can learn which domains 
 are not accessible without passing through the unfavorable country, and can then 
-decide whether or not they want to fetch that page.  
+decide whether or not to fetch that page.  
 
 \subsection{Performance}
 To measure the performance of \system{}, we measure both 
@@ -84,13 +84,13 @@ comparable to the performance of accessing domains without \system{}.
 Figure~\ref{fig:throughput} also compares \system{}'s throughput to
 RON's throughput, illustrated with the red dots.  \system{} performs
 worse than RON ($x < 1$), which is expected, as the detours that
-\system{} introduces inherently inflates paths.  Interestingly, both
+\system{} introduces inherently inflate paths.  Interestingly, both
 RON and \system{} improve throughput for a similar fraction of samples
 ($x>1$).
 
 To measure the latency of \system{}, we ran {\tt curl} to each of the  top 100
 domains from the client in the Netherlands, using the ten oracle-generated PAC
-files to allow the client to select the appropriate relays. This experiement
+files to allow the client to select the appropriate relays. This experiment
 allowed us to measure the time to first byte (TTFB) for web downloads; we
 found the average TTFB when accessing content using \system{} and  found the
 TTFB when using direct paths; 
@@ -110,7 +110,7 @@ Figure~\ref{fig:latency} shows these results. The median TTFB for direct paths i
 
 \subsection{Storage and Measurement Costs}
 
-As the number of clients increase, and subsequently the number of paths being 
+As the number of clients increases, and hence the number of paths being 
 computed increases, the amount of storage must remain reasonable.  The storage 
 used by paths can be calculated as
 $DR + 2CR + CD$
