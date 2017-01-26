@@ -23,8 +23,9 @@ both users and ISPs may wish to prevent these international detours for
 performance and cost reasons.
 
 Defending against these activities requires not only encryption, but
-also mechanisms for controlling where traffic goes in the first place: end-to-
-end encryption may conceals some information content, but it does not protect
+also mechanisms for controlling where traffic goes in the first place:
+end-to-end 
+encryption conceals some information content, but it does not protect
 all sensitive information.  First, many websites do not fully support
 encrypted browsing by default; a recent study showed that more than 85\% of
 the most popular health, news, and shopping sites do not encrypt by
@@ -139,8 +140,9 @@ out of the client's country.
 
 Finally, we {\em design, implement, and deploy \system{}, a system that allows
 a client to access web content while avoiding the traversal of a specified
-country} (Section~\ref{system_design}).  We implemented \system{} for end-
-users, but ISPs could also deploy \system{} proxies to provide country
+country} (Section~\ref{system_design}).  We implemented \system{} for
+end-users, 
+but ISPs could also deploy \system{} proxies to provide country
 avoidance as a service to its customers.  \system{} uses a series of overlay
 network relays to automatically route a client's traffic around a specified
 country.  We evaluate \system{} to assess its ability to avoid certain
