@@ -8,13 +8,14 @@ one country, cross international borders, and then return to the
 original country---using public Border Gateway Protocol~(BGP) routing tables~\cite
 {shah2015characterizing}. 
 The study discovered 2 million detours each month out
-of 7 billion total paths.
+of 7 billion paths.
 %JEN: hard to understand.  doesn't seem important.
 %the study also characterized the detours based
 %on detour dynamics and persistence.  
-Our work differs because it {\em actively}
-measures traceroutes, yielding a more precise measurement of the path traffic is
-likely to take, as opposed to analyzing BGP
+Our work differs by {\em actively}
+measuring traceroutes, yielding a more precise measurement of the paths, %traffic is
+%likely to take
+as opposed to analyzing BGP
 routes.  Obar and Clement analyzed traceroutes
 that started and ended in Canada, but tromboned through the United
 States, and argued that
@@ -22,21 +23,21 @@ this is a violation of Canadian network
 sovereignty~\cite{obar2012internet}. 
 Karlin \ea{} developed a framework for country-level
 routing analysis to study how much influence each country has over
-interdomain routing~\cite{karlin2009nation}.  This work measures the
-centrality of a country using BGP routes and AS-path inference; in contrast, our work uses active 
+interdomain routing~\cite{karlin2009nation}.  This work measures country
+centrality using BGP routes and AS-path inference; in contrast, our work uses active 
 measurements and measures avoidability of a given country. 
 
 \paragraph{Mapping national Internet topologies.}  Roberts \ea{} developed a method
-for mapping national networks of ASes and identifying ASes that act as points of
+for mapping national networks and identifying ASes that act as points of
 control~\cite{roberts2011mapping}.   %JEN: not clear we care about the
  Several studies have also characterized network paths {\em
 within} a country, including
 Germany~\cite{wahlisch2010framework,wahlisch2012exposing} and
-China~\cite{zhou2007chinese}, or a country's interconnectivity within a region
-or with the rest of the
-world~\cite{bischof2015and,gupta2014peering,fanou2015diversity}; these studies
-focus on paths within a country of interest, as opposed to focusing on
-transnational Internet paths.
+China~\cite{zhou2007chinese}, or a country's interconnectivity %within a region
+%or with the rest of theworld~
+\cite{bischof2015and,gupta2014peering,fanou2015diversity}; these studies
+focus on intra-country paths, as opposed to focusing on
+transnational paths.
 
 \paragraph{Routing overlays and Internet architectures.} Alibi Routing uses
 round-trip times to prove that that a client's packets did  not traverse a
