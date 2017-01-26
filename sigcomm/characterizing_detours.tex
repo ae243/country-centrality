@@ -53,12 +53,12 @@ cover all /24s; in contrast, we focus on paths to popular websites from a
 particular country.
 
 Instead, we run active measurements that
-would represent paths of a typical Internet user. To do so, we run
+intend to better represent paths of a typical Internet user. To do so, we run
 DNS and traceroute measurements from RIPE Atlas probes, which are hosted
 all around the world in many different types of networks, including home
 networks~\cite{ripe_atlas}.  RIPE Atlas probes can use the local DNS
 resolver, which would give us the best estimate of the traceroute
-destination.
+destination.  
 
 Conducting measurements from a RIPE Atlas probe costs a certain
 amount of ``credits'', which restricts the number of measurements that we
@@ -79,11 +79,11 @@ is still representative of an Internet user in that country.
 The reverse path is just as important as (and often different from) the
 forward path.   Previous work has shown that paths between Internet endpoints
 are often asymmetric~\cite{he2005routing}.  Most work on path asymmetry has
-been done at the AS level, but not at the country level; our measurements
+been done at the AS level, but not at the country level; our measurements can
 consider only the forward path (from client to domain or relay), not the
 reverse path from the domain or relay to the client.
 
-To better understand the limitation of our current measurements, we also
+To better understand the limitation of our current measurements, we also (separately)
 measured path asymmetry at the country granularity. If country-level paths
 were symmetric, then the results of our measurements would be representative
 of the forward {\it and} reverse paths. If the country-level paths are
@@ -172,7 +172,7 @@ post-processing.
 Table~\ref{tab:host} shows five of the countries that we studied along the top
 of the table and the countries that host their content along in each row.  A
 ``-'' represents the case where no paths ended in that country. For example,
-the United States is the endpoint of 77\% of the paths that originate in
+the United States is the endpoint of 77.4\% of the paths that originate in
 Brazil, and no Brazilian paths terminated in South Africa.
 Table~\ref{tab:transit} shows the fraction of paths that transit (or end in)
 certain countries, with a row for each country that is transited.
@@ -184,7 +184,7 @@ located in two or more different countries. \end{finding}
 \noindent First, we analyze hosting diversity, which reveals how many unique
 countries host a domain.  The more countries host a domain, the greater the
 likelihood that a client can find a path to that site that avoids a certain
-country. We queried DNS from 26 vantage points around the world, in
+country. As a separate measurement experiment, we queried DNS from 26 vantage points around the world, in
 geographically diverse locations. We then mapped the IP addresses in the DNS
 responses to countries to determine how many unique countries host a domain.
 Figure~\ref{fig:host_diversity} shows the fraction of domains that are hosted
@@ -322,7 +322,7 @@ from Kenya.
   %Traffic that should be kept local is susceptible to surveillance because it transits two well-known surveillance states.  
 
 \begin{finding}[United States as an Outlier]
-The United States hosts 97\% of the content that is accessed from within the country, and only five foreign countries---France, Germany, Ireland, Great Britain, and the Netherlands---host content for the other 3\% of paths.
+The United States hosts 97\% of the content that is accessed from within the United States, and only five foreign countries---France, Germany, Ireland, Great Britain, and the Netherlands---host content for the other 3\% of paths.
 \end{finding}
 \noindent
 

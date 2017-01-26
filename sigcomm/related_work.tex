@@ -27,10 +27,9 @@ centrality of a country using BGP routes and AS-path inference; in contrast, our
 measurements and measures avoidability of a given country. 
 
 \paragraph{Mapping national Internet topologies.}  Roberts \ea{} developed a method
-for mapping national networks of ASes, identifying ASes that act as points of
+for mapping national networks of ASes and identifying ASes that act as points of
 control~\cite{roberts2011mapping}.   %JEN: not clear we care about the
-``complexity" (whatever that means) %, and measuring the complexity of the
-national network Several studies have also characterized network paths {\em
+ Several studies have also characterized network paths {\em
 within} a country, including
 Germany~\cite{wahlisch2010framework,wahlisch2012exposing} and
 China~\cite{zhou2007chinese}, or a country's interconnectivity within a region
@@ -42,7 +41,7 @@ transnational Internet paths.
 \paragraph{Routing overlays and Internet architectures.} Alibi Routing uses
 round-trip times to prove that that a client's packets did  not traverse a
 forbidden country or region~\cite{levin2015alibi}; our work differs by
-measuring  which countries a client's packets would (and does) traverse.  Our
+measuring  which countries a client's packets would (and do) traverse.  Our
 work then  uses active measurements to determine the best path for a client
 wishing  to connect to a server.  RON, Resilient Overlay Network, is an
 overlay network that  routes around failures~\cite{andersen2001resilient}, whereas our overlay network

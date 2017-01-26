@@ -12,7 +12,7 @@ where technologies that certain countries use (\ie, firewalls, traffic
 shapers) throttle network traffic speeds. 
 
 An increasing number of countries have passed laws that facilitate mass
-surveillance of their networks~\cite{france_surveillance,
+surveillance of networks within their territory~\cite{france_surveillance,
 netherlands_surveillance, kazak_surveillance, uk_bill}. Governments and
 citizens alike may want to divert their Internet traffic from countries that
 perform surveillance (notably, the United States~\cite{russia_secure_internet,
@@ -29,14 +29,14 @@ encryption conceals some information content, but it does not protect
 all sensitive information.  First, many websites do not fully support
 encrypted browsing by default; a recent study showed that more than 85\% of
 the most popular health, news, and shopping sites do not encrypt by
-default~\cite{what_isps_can_see}; migrating a website to HTTPS is challenging,
+default~\cite{what_isps_can_see}; migrating a website to HTTPS can be challenging,
 and doing so requires all third-party domains on the site (including
 advertisers) to use HTTPS.  Second, even encrypted traffic may still reveal a
 lot about user behavior: the presence of any communication at all may be
 revealing, and website fingerprinting can reveal information about content
 merely based on the size, content, and location of third-party resources that
 a client loads~\cite{Johnson2013a}. DNS traffic is also revealing and is
-essentially never encrypted~\cite{what_isps_can_see}.  Third, ISPs often
+almost never encrypted~\cite{what_isps_can_see}.  Third, ISPs often
 terminate TLS connections, conducting man-in-the-middle attacks on encrypted
 traffic for network management purposes~\cite{mitm_isp}.  And, of course,
 encryption offers no solution to interference, degradation, or blocking of
