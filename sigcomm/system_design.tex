@@ -1,24 +1,20 @@
-\section{\system{}: Routing Arond Nation-States}
+\section{\system{}: Routing Around Nation-States}
 \label{system_design}
 
 \system{} comprises (1)~an overlay network of relays; and (2)~an oracle that
-directs clients to the appropriate relays, as shown in
-Figure~\ref{fig:arch}.  \system{}'s relays are TCP proxy servers
-that allow clients to access web content without installing custom software.
-%in contrast, IP layer relays would require clients to install
-%software, violating our usability goal.  
-\system{} uses the
-measurement methods described in Section~\ref{avoid_results} to learn paths between
-clients, relays, and domains; these results are stored at the
-oracle, which uses the data to decide which relay a client in
-some location should use for accessing a certain domain while avoiding
-a certain country.  The oracle periodically computes paths for many
-combinations of client AS, destination, and country.  
+directs clients to the appropriate relays, as shown in Figure~\ref{fig:arch}.
+\system{}'s relays are TCP proxy servers that allow clients to access web
+content without installing custom software. \system{} uses the measurement
+methods described in Section~\ref{avoid_results} to learn paths between
+clients, relays, and domains; these results are stored at the oracle, which
+uses the data to decide which relay a client in some location should use for
+accessing a certain domain while avoiding a certain country.  The oracle
+periodically computes paths for many combinations of client AS, destination,
+and country.   A client can then query the oracle to determine the appropriate
+relay to use to avoid a certain country en route to a particular destination.
 
 After enumerating our design goals for \system{}, we explain each component of
-the system in more detail. %A client can then query the oracle to %determine
-the appropriate relay to use to avoid a certain country %en route to a
-particular destination. %
+the system in more detail. 
 
 %Once the TCP proxies are established, a client needs
 %to learn which proxy to use when accessing a given domain.
