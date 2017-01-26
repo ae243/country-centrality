@@ -26,14 +26,14 @@ used, then 63\% of domains are accessible without traversing the U.S.
 \label{fig:avoidance_eval}
 \end{figure}
 
-It is evident that \system{} helps a client avoid a foreign country,
+\system{} helps a client avoid a foreign country,
 as the fraction of domains accessible without traversing the specified
 country without \system{} is lower than with \system{}.  Additionally,
 adding the first relay provides the greatest benefit, while subsequent
 relays offer diminishing returns.  Figure~\ref{fig:avoidance_eval}
-clearly shows that avoiding the U.S. is much more difficult (or
+clearly shows that avoiding the United States is much more difficult (or
 impossible) than any other country.  Only 63\% of domains can be
-accessed while avoiding the U.S., whereas almost all domains can be
+accessed while avoiding the United States, whereas almost all domains can be
 accessed while avoiding any other given country.
 %This confirms the results presented in Section \ref{avoid_results}, and 
 %emphasizes how crucial the systematization of the measurements is for enabling 
@@ -67,12 +67,13 @@ ten experiments.
 \centering
 \includegraphics[width=.5\textwidth]{throughput}
 \caption{The ratio of RAN throughput to direct throughput.  
-The points on the graph are taken from the RON study and represent a ``normal'' overlay network's 
-performance.} 
+The points on the graph show performance measurements from the Resilient Overlay
+Networks (RON) system and thus represent  the performance of overlay network
+that is solely designed to improve reliability.} 
 \label{fig:throughput}
 \end{figure}
 
-Figure \ref{fig:throughput} shows a CDF of the ratio of \system{}
+Figure~\ref{fig:throughput} shows a CDF of the ratio of \system{}
 throughput to direct throughput.  The throughput of
 \system{} is not significantly worse than that of default paths.  
 In some cases the performance of \system{} is {\it better} than
@@ -80,20 +81,23 @@ that of default paths.  Such improvements could be a result of the
 relays keeping local traffic local, or due to a closer content replica
 being selected.  These results show that \system{}'s performance is
 comparable to the performance of accessing domains without \system{}.
-Figure \ref{fig:throughput} also compares \system{}'s throughput to
+Figure~\ref{fig:throughput} also compares \system{}'s throughput to
 RON's throughput, illustrated with the red dots.  \system{} performs
 worse than RON ($x < 1$), which is expected, as the detours that
 \system{} introduces inherently inflates paths.  Interestingly, both
 RON and \system{} improve throughput for a similar fraction of samples
 ($x>1$).
 
-To measure the latency of \system{}, we ran {\tt curl} to each of the 
-top 100 domains from the client in the Netherlands, while using the ten
-oracle-generated PAC files. This provided the time to first byte (TTFB); we 
-found the average TTFB when accessing content using \system{} and 
-found the TTFB when using direct paths; the results are shown in Figure \ref{fig:latency}.  
-The median TTFB for direct paths is 68.5~ms; for \system{} paths the
-median is 100.8~ms; 90th percentile TTFB is 22.5~ms and 40.4~ms, respectively.  
+To measure the latency of \system{}, we ran {\tt curl} to each of the  top 100
+domains from the client in the Netherlands, using the ten oracle-generated PAC
+files to allow the client to select the appropriate relays. This experiement
+allowed us to measure the time to first byte (TTFB) for web downloads; we
+found the average TTFB when accessing content using \system{} and  found the
+TTFB when using direct paths; 
+Figure~\ref{fig:latency} shows these results. The median TTFB for direct paths is
+68.5~ms; for
+\system{} paths the median is 100.8~ms; 90th percentile TTFB is 22.5~ms and
+40.4~ms, respectively.
 
 
 \begin{figure}[t]
@@ -127,6 +131,6 @@ for one client, 100 domains, and nine relays costs 6,180
 credits; because these paths are updated each hour, then 
 the daily credit cost is 148,320 credits.  In return for hosting a RIPE Atlas 
 probe, we earn 216,000 credits per day, which will support our existing 
-prototype.  In order to provide for more clients, more domains, or more 
+prototype.  To provide for more clients, more domains, or more 
 resources, we can tune the system to re-compute paths less frequently,
 as we discuss in Section~\ref{sec:discussion}.
