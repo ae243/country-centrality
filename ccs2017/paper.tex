@@ -1,0 +1,189 @@
+\pdfoutput=1
+\documentclass[sigconf]{acmart}
+
+%%%%%%%%%%%%%%%%%%%%  INCLUDES  %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{balance}
+\RequirePackage{tabulary}
+%\RequirePackage[hyphens]{url}
+\RequirePackage{ifthen}
+\RequirePackage{paralist}
+\RequirePackage{enumitem}
+\RequirePackage{cite}
+\RequirePackage{booktabs}
+\RequirePackage{color}
+\RequirePackage{colortbl}
+\RequirePackage{float}
+%\RequirePackage[breaklinks=true,filecolor=black,citecolor=blue,urlcolor=black,linkcolor=blue,colorlinks,pdfpagelabels,pdfpagelayout=SinglePage]{hyperref}
+\RequirePackage{amssymb}
+\RequirePackage{tikz}
+\usetikzlibrary{arrows}
+\RequirePackage[absolute]{textpos}
+\usepackage{cancel}
+\usepackage{multirow}
+\usepackage{xspace}
+\usepackage{longtable}
+\usepackage[normalem]{ulem}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{dcolumn}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{siunitx}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphics}
+\graphicspath{ {./figures/} }
+
+
+%%%%%%%%%%%%%%%%%%%%  LOCALS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\system}{RAN}
+\newcommand{\ie}{{\em i.e.}}
+\newcommand{\eg}{{\em e.g.}}
+\newcommand{\ea}{{\em et al.}}
+
+\clubpenalty=10000  % Don't allow orphans
+\widowpenalty=10000 % Don't allow widows
+
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\newtheorem{finding}{Finding}[section]
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+%%%%%%%%%%%%%%%%%%%%  TITLE/AUTHORS  %%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%  START OF DOCUMENT  %%%%%%%%%%%%%%%%%
+
+% Copyright
+%\setcopyright{none}
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+
+% DOI
+\acmDOI{10.475/123_4}
+
+% ISBN
+\acmISBN{123-4567-24-567/08/06}
+
+%Conference
+\acmConference[WOODSTOCK'97]{ACM Woodstock conference}{July 1997}{El
+  Paso, Texas USA} 
+\acmYear{1997}
+\copyrightyear{2016}
+
+\acmPrice{15.00}
+
+\begin{document}
+
+\date{}
+\title{{
+{\system{}: Routing Around Nation-States}}}
+\author{
+{Paper \#XX -- \pageref{lastpage} Pages + References} \\
+}
+%\author{
+%{Anne Edmundson, Roya Ensafi, Nick Feamster, Jennifer Rexford} \\
+%{Princeton University}
+%}
+
+%\if 0
+%\floatstyle{plain}
+%\newfloat{acmcr}{b}{acmcr}
+%\begin{acmcr}
+%\parbox[b]{20pc}{%
+%\tiny
+%Permission to make digital or hard copies of all or part of this work for
+%personal or classroom use is granted without fee provided that copies are not
+%made or distributed for profit or commercial advantage and that copies bear
+%this notice and the full citation on the first page. Copyrights for components
+%of this work owned by others than ACM must be honored. Abstracting with credit
+%is permitted. To copy otherwise, or republish, to post on servers or to
+%redistribute to lists, requires prior specific permission and/or a fee. Request
+%permissions from Permissions@acm.org.
+
+%\tiny
+%{\em SIGCOMM'17}, August 21--25, 2017, Los Angeles, CA, USA.\\
+%Copyright 2016 ACM. ISBN 978-1-4503-4193-6/16/08...\$15.00\\
+%DOI: \url{http://dx.doi.org/10.1145/2934872.2959081}}
+%\end{acmcr}
+%\fi
+
+%\ToAppear
+
+\hyphenation{geo-location} 
+
+\begin{sloppypar}
+
+\input{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10002978.10002991.10002994</concept_id>
+<concept_desc>Security and privacy~Pseudonymity, anonymity and untraceability</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10002978.10003006.10003013</concept_id>
+<concept_desc>Security and privacy~Distributed systems security</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10002978.10003018.10003019</concept_id>
+<concept_desc>Security and privacy~Data anonymization and sanitization</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Security and privacy~Pseudonymity, anonymity and untraceability}
+\ccsdesc[500]{Security and privacy~Distributed systems security}
+\ccsdesc[500]{Security and privacy~Data anonymization and sanitization}
+
+\maketitle
+
+%\thispagestyle{empty}
+
+\input{intro}
+\input{related_work}
+%\input{surveillance}
+\input{characterizing_detours}
+\input{avoidance}
+\input{system_design}
+\input{implementation}
+\input{evaluation}
+\input{discussion}
+\input{conclusion}
+\label{lastpage}
+
+\end{sloppypar}
+
+\footnotesize
+%\balance
+\bibliography{sigproc}
+\bibliographystyle{abbrv}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%  END OF DOCUMENT  %%%%%%%%%%%%%%%%%%%%
