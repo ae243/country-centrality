@@ -148,9 +148,7 @@ Accurate IP geolocation is challenging. We use MaxMind's
 geolocation service to map IP addresses to their respective
 countries~\cite{maxmind}. Unfortunately, this database is known to contain inaccuracies,
 particularly for IP addresses that correspond to Internet infrastructure, as opposed
-to end hosts.
-Fortunately, previous
-work has found that
+to end hosts.  Fortunately, previous work has found that
 geolocation at a country-level granularity is more accurate than at
 finer granularity~\cite{huffaker2011geocompare}.  In light of these
 concerns, we post-processed our IP to country mapping
@@ -244,7 +242,7 @@ United States.
 Table~\ref{tab:host} shows the fraction of paths that are hosted in various
 countries.  Despite the extent of country-level hosting diversity, the
 majority of paths from all of the countries we studied terminate in a single
-country: the United States, a known surveillance state.   Our results also
+country: the United States.   Our results also
 show the Netherlands is a common hosting location for paths originating in the
 Netherlands, India, and Kenya.
 
@@ -330,8 +328,7 @@ The United States hosts 97\% of the content that is accessed from within the Uni
 \noindent
 
 We find that Brazilian, Dutch, Indian, and Kenyan paths
-often transit the U.S. (as well as other countries that have permissive
-surveillance laws). The results from
+often transit the U.S. The results from
 studying paths that originate in the United States are drastically different from
 those
 of the other four countries.  The majority of locally popular content in these countries
@@ -353,10 +350,10 @@ and how they may affect our results.
 Our study is limited by the accuracy and completeness of traceroute.
 Anomalies can occur in traceroute-based
 measurements~\cite{augustin2006avoiding}, but most traceroute anomalies
-do not cause an overestimation in surveillance states.  The
+do not cause an overestimation in states that manipulate or monitor traffic.  The
 incompleteness of traceroutes, where a router does not respond, causes
-our results to underestimate the number of surveillance states, and
-therefore also provides a lower bound on surveillance. 
+our results to underestimate the number of states that interfere with network 
+traffic.
 
 \paragraph{IP geolocation vs.\ country mapping.}
 There are fundamental challenges in deducing a geographic location
@@ -368,12 +365,12 @@ conjunction with BGP prefix
 information~\cite{padmanabhan2001investigation}.  While there are
 inaccuracies and incompleteness in MaxMind's
 data~\cite{huffaker2011geocompare}, the primary motivations for this work are to show that paths 
-are currently going through surveillance states, and that performance is affected by the 
-paths taken.  We use Maxmind to map IP to
-country,
+are currently going through countries with controversial policies on network interference, and that performance is affected by the 
+paths taken.  
+%We use Maxmind to map IP to country,
 % (as described in Section~\ref{c_map}),
-which provides a lower
-bound on the amount of surveillance and tromboning.
+%which provides a lower
+%bound on the amount of surveillance and tromboning.
 
 \paragraph{IPv4 vs.\ IPv6 connectivity.}
 We collect and analyze only IPv4 paths.  IPv6 paths likely

@@ -13,7 +13,7 @@ periodically computes paths for many combinations of client AS, destination,
 and country.   A client can then query the oracle to determine the appropriate
 relay to use to avoid a certain country en route to a particular destination.
 
-After enumerating our design goals for \system{}, we explain each component of
+After describing our threat model and enumerating our design goals for \system{}, we explain each component of
 the system in more detail. 
 
 %Once the TCP proxies are established, a client needs
@@ -31,6 +31,20 @@ the system in more detail.
 %while avoiding a client-specified country.}
 %\label{fig:arch}
 %\end{figure}
+
+\subsection{Threat Model}
+
+\system{} addresses an adversary who is restricted to a specific region of the world.  The 
+adversary can be passive, and conduct surveillance, or active, and interfere with traffic. We 
+realize that a country's surveillance capabilities are not limited to the infrastructure within 
+its borders, but a country typically can only interfere and manipulate traffic within its borders. 
+For the purposes of this system, we assume the adversary can only view and manipulate traffic 
+within its borders.
+
+An adversary who taps routers around the world, splices undersea fiber cables, or participates in 
+surveillance in foreign states is out of the scope of this work; while \system{} does not address this 
+type of attacker, \system{} does protect against an attacker, whose interference and monitoring 
+capabilities are limited to a specific land mass.
 
 \input{design_goals}
 

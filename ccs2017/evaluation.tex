@@ -20,7 +20,7 @@ used, then 63\% of domains are accessible without traversing the U.S.
 \begin{figure}[t!]
 \tiny
 \centering
-\includegraphics[width=.5\textwidth,height=6cm]{avoidance_n_relays}
+\includegraphics[width=.5\textwidth,height=8cm]{avoidance_n_relays}
 \caption{The effect of the number of relays on avoidance, for a client
   in the Netherlands. We tested \system{} with up to nine relays.}
 \label{fig:avoidance_eval}
@@ -68,7 +68,7 @@ ten experiments.
 \includegraphics[width=.5\textwidth]{throughput}
 \caption{The ratio of RAN throughput to direct throughput.  
 The points on the graph show measurements from the Resilient Overlay
-Networks (RON) system and thus represent  the performance of overlay network
+Networks (RON~\cite{andersen2001resilient}) system and thus represent  the performance of overlay network
 that is solely designed to improve reliability.} 
 \label{fig:throughput}
 \end{figure}
@@ -82,7 +82,8 @@ relays keeping local traffic local, or due to a closer content replica
 being selected.  These results show that \system{}'s performance is
 comparable to the performance of accessing domains without \system{}.
 Figure~\ref{fig:throughput} also compares \system{}'s throughput to
-RON's throughput, illustrated with the red dots.  \system{} performs
+RON's throughput, illustrated with the red dots; these data points are taken 
+directly from the RON paper~\cite{andersen2001resilient}.  \system{} performs
 worse than RON ($x < 1$), which is expected, as the detours that
 \system{} introduces inherently inflate paths.  Interestingly, both
 RON and \system{} improve throughput for a similar fraction of samples

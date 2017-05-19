@@ -6,9 +6,10 @@ local laws and policies.  As a result, users, ISPs, and governments have more ne
 than ever to determine---and control---which countries their traffic is
 traversing.  Discovering which countries an end-to-end path traverses and
 providing mechanisms to avoid certain countries may help users avoid the
-surveillance practices and privacy laws of particular countries; in some
+ practices and laws of particular countries. One motivation for avoiding a certain 
+geographic region is to evade surveillance and other types of interference.  In some
 cases, avoiding certain countries may also lower costs or improve performance,
-where technologies that certain countries use (\ie, firewalls, traffic
+where technologies that certain countries use (\eg, firewalls, traffic
 shapers) throttle network traffic speeds. 
 
 An increasing number of countries have passed laws that facilitate mass
@@ -99,13 +100,16 @@ asymmetric, and, as such, our findings represent a lower bound on
 transnational routing detours.
 
 We first {\em characterize the current state of transnational Internet
-routing detours} (Section~\ref{datasets}).  We explore hosting diversity
-and find that only 45\% of the Alexa Top 100 domains in Brazil are hosted 
+routing detours} (Section~\ref{datasets}).  We explore hosting diversity 
+by first measuring the Alexa Top 1000 domains and comparing the location of 
+path endpoints to that of the Alexa Top 100 domains; we find that there is no 
+significant difference between the results in the two domain sets, and therefore 
+focus on the Alexa Top 100 domains {\it and all third party domains}.  We find 
+that only 45\% of the Alexa Top 100 domains in Brazil are hosted 
 in more than one country (other countries studied showed similar results); in many cases,
 that country is one that clients may want to avoid. Second, even if
 hosting diversity can be improved, routing can still force traffic
-through a small collection of countries (often surveillance
-states). Despite strong efforts made by some countries to ensure their
+through a small collection of countries. Despite strong efforts made by some countries to ensure their
 traffic does not transit certain countries~\cite{brazil_history,
   brazil_break_from_US, brazil_conference, brazil_conference2,
   brazil_human_rights}, their traffic still does so.  For example, over 50\% of the
