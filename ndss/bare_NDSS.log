@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 AUG 2017 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 AUG 2017 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1708,17 +1708,18 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 121--122
  [][] 
  []
 
-<./figures/compare_100_100.png, id=53, 706.0779pt x 189.3474pt>
+<./figures/compare_100_100.png, id=53, 323.91414pt x 179.37415pt>
 File: ./figures/compare_100_100.png Graphic file (type png)
 
 <use ./figures/compare_100_100.png>
 Package pdftex.def Info: ./figures/compare_100_100.png used on input line 136.
-(pdftex.def)             Requested size: 262.04987pt x 70.27412pt.
+(pdftex.def)             Requested size: 262.04987pt x 145.11708pt.
 
 Overfull \hbox (9.0pt too wide) in paragraph at lines 136--137
  [][] 
  []
 
+[4 <./figures/Analysis-Pipeline1.pdf> <./figures/compare_100_100.png>]
 (./characterize-tables.tex
 Overfull \hbox (3.98613pt too wide) detected at line 32
 $\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 169$ 
@@ -2154,14 +2155,7 @@ Overfull \hbox (3.98613pt too wide) detected at line 61
 $\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 003$ 
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./figures/Analysis-Pipeline1.pdf> <./figures/compare_100_100.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-<./figures/domain_hist_US1.pdf, id=77, 361.35pt x 216.81pt>
+) <./figures/domain_hist_US1.pdf, id=77, 361.35pt x 216.81pt>
 File: ./figures/domain_hist_US1.pdf Graphic file (type pdf)
 
 <use ./figures/domain_hist_US1.pdf>
@@ -2233,7 +2227,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 55--56
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1715) has occurred while \output is active []
 
  [7 <./figures/Country-Avoidance-Resolvers.pdf> <./figures/Country-Avoidance-Re
 lays.pdf
@@ -2510,7 +2504,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  29230 strings out of 493014
  577812 string characters out of 6133351
- 619820 words of memory out of 5000000
+ 619822 words of memory out of 5000000
  32225 multiletter control sequences out of 15000+600000
  54957 words of font info for 118 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2534,7 +2528,7 @@ ts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_NDSS.pdf (17 pages, 2226736 bytes).
+Output written on bare_NDSS.pdf (17 pages, 2320061 bytes).
 PDF statistics:
  386 PDF objects out of 1000 (max. 8388607)
  269 compressed objects within 3 object streams
