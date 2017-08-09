@@ -1,9 +1,9 @@
-\section{Evaluation}
+\subsection{Evaluation}
 
 We evaluate \system{}'s ability to avoid a given country, its performance,
 and its storage and measurement costs.
 
-\subsection{Country Avoidance}
+\subsubsection{Country Avoidance}
 
 We measured \system{}'s effectiveness in achieving country avoidance.  We did so by first 
 calculating the number of {\it default} paths that avoid a given country.  Then 
@@ -47,7 +47,7 @@ transit the unfavorable country; additionally, the client can learn which domain
 are not accessible without passing through the unfavorable country, and can then 
 decide whether or not to fetch that page.  
 
-\subsection{Performance}
+\subsubsection{Performance}
 To measure the performance of \system{}, we measure both 
 the throughput and latency.
 
@@ -109,7 +109,7 @@ Figure~\ref{fig:latency} shows these results. The median TTFB for direct paths i
 \end{figure}
 
 
-\subsection{Storage and Measurement Costs}
+\subsubsection{Storage and Measurement Costs}
 
 As the number of clients increases, and hence the number of paths being 
 computed increases, the amount of storage must remain reasonable.  The storage 

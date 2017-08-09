@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 AUG 2017 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 AUG 2017 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2265,15 +2265,9 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
-) [11 <./figures/system_overview_updated-3.pdf>]) (./implementation.tex
-<./figures/relay_map.png, id=270, 588.69937pt x 313.17pt>
-File: ./figures/relay_map.png Graphic file (type png)
-
-<use ./figures/relay_map.png>
-Package pdftex.def Info: ./figures/relay_map.png used on input line 24.
-(pdftex.def)             Requested size: 209.63669pt x 111.51779pt.
-) (./evaluation.tex
-<./figures/avoidance_n_relays.pdf, id=271, 361.35pt x 361.35pt>
+)
+(./evaluation.tex
+<./figures/avoidance_n_relays.pdf, id=242, 361.35pt x 361.35pt>
 File: ./figures/avoidance_n_relays.pdf Graphic file (type pdf)
 
 <use ./figures/avoidance_n_relays.pdf>
@@ -2285,8 +2279,8 @@ Overfull \hbox (9.00212pt too wide) in paragraph at lines 23--25
  [][] 
  []
 
-[12 <./figures/relay_map.png> <./figures/avoidance_n_relays.pdf>]
-<./figures/throughput.pdf, id=293, 361.35pt x 216.81pt>
+[11 <./figures/system_overview_updated-3.pdf>]
+<./figures/throughput.pdf, id=271, 361.35pt x 216.81pt>
 File: ./figures/throughput.pdf Graphic file (type pdf)
 
 <use ./figures/throughput.pdf>
@@ -2297,7 +2291,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 68--72
  [][] 
  []
 
-<./figures/latency.pdf, id=294, 361.35pt x 216.81pt>
+<./figures/latency.pdf, id=272, 361.35pt x 216.81pt>
 File: ./figures/latency.pdf Graphic file (type pdf)
 
 <use ./figures/latency.pdf>
@@ -2308,11 +2302,22 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
-) (./discussion.tex [13 <./figures/throughput.pdf> <./figures/latency.pdf
+[12 <./figures/avoidance_n_relays.pdf> <./figures/throughput.pdf
+
+pdfTeX warning: pdflatex (file ./figures/throughput.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./figures/latency.pdf
 
 pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
->]
+>])) (./implementation.tex
+<./figures/relay_map.png, id=311, 588.69937pt x 313.17pt>
+File: ./figures/relay_map.png Graphic file (type png)
+
+<use ./figures/relay_map.png>
+Package pdftex.def Info: ./figures/relay_map.png used on input line 24.
+(pdftex.def)             Requested size: 209.63669pt x 111.51779pt.
+) (./discussion.tex [13 <./figures/relay_map.png>]
 Underfull \hbox (badness 1895) in paragraph at lines 32--37
 \OT1/ptm/m/n/10 in-cludes mod-i-fy-ing RAN to be im-ple-mented within an
  []
@@ -2382,7 +2387,7 @@ Overfull \hbox (28.02306pt too wide) in paragraph at lines 139--142
 to-[]mass-[]surveillance-[]globally/$. 
  []
 
-[14]
+
 Underfull \hbox (badness 10000) in paragraph at lines 160--162
 \OT1/ptm/m/n/8 SSL,'' $http : / / www . csoonline . com / article / 2865806 / c
 loud-[]security /
@@ -2394,7 +2399,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--162
 dle-[]with-[]fake-[]ssl .
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 203--205
 []\OT1/ptm/m/n/8 ``Investigatory Pow-ers Bill: Snooper's Char-ter Lacks Clar-it
 y,
@@ -2513,10 +2518,10 @@ ts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_NDSS.pdf (15 pages, 2314417 bytes).
+Output written on bare_NDSS.pdf (15 pages, 2314499 bytes).
 PDF statistics:
  376 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
+ 264 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

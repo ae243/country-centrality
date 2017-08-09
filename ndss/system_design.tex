@@ -220,34 +220,4 @@ updated every five days.
 % point the proxy configuration settings to the URL that contains the
 % PAC file.
 
-\subsection{Scalability and Fault Tolerance}
-Adding relays to \system{} is 
-straightforward. Additionally, \system{} is resilient to failures of system components.
-
-\paragraph{Adding relays and oracles} To add a relay, the system
-operator must set up a machine as a proxy server, install the relay
-software, and update the oracle's list of relays.  From that point
-onward, paths will be computed to and from the new relay, and clients
-will begin using the new proxy.  Adding an oracle requires installing
-the oracle software on a different machine, and specifying the client
-locations handled by that oracle (\eg, one oracle handles clients in
-North America and Europe, and another handles clients elsewhere).
-Both oracles will publish the PAC files to the same server, which
-causes no changes for the client.
-
-\paragraph{Failed relays and oracles} Unresponsive relays are handled
-by the PAC file.  The PAC file allows the oracle to specify multiple
-proxies in a sequential order, such that if the the first proxy fails,
-then the client users the second proxy (and so on).  This feature can
-be used to specify all of the relays that have a path to the domain.
-%And future work can include relay replicas that can be used in the
-%case that a relay crashes.  
-Among other mechanisms, we can detect a failed oracle by determining
-that its PAC file is older than one hour.  Detecting a failed oracle
-could trigger a backup oracle to re-compute the PAC files
-periodically.  Because oracles are stateless, failover is
-straightforward.  Without backup oracles, clients can still use the
-system when the oracle fails.  The clients will simply be using stale
-paths, which are likely (but not guaranteed) to be functional, since
-country-level paths change infrequently.
-
+\input{evaluation}
