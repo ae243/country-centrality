@@ -22,7 +22,7 @@ a DNS response, it is for a content replica that allows her to avoid a given cou
 replicate content in specific regions in order to allow clients to access replicas without traversing a specific 
 country. 
 
-While we do not have access to any content providers, we take an approach at designing 
+We take an approach at designing 
 a system that is a first countermeasure to large-scale surveillance {\it without} the help 
 of providers.  Due to this choice, it is not a perfect system, and it suffers from the obstacles faced 
 during the measurement studies and highlighted in this section.  This first system design, called \system{}, shows 
@@ -142,7 +142,7 @@ oracle learns these paths from each relay.
 traceroutes to each domain.  As with paths to clients,
 relays derive country-level paths and send them to the oracle.
 
-\paragraph{Client to Server Paths} In case a path from a client to a 
+\paragraph{Client-to-Server Paths} In case a path from a client to a 
 domain does not pass through the country specified to avoid {\it by default}, 
 then none of the proxies should be used.  
 %If a proxy is used, then it may 

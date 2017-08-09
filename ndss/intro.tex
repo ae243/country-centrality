@@ -1,7 +1,7 @@
 \section{Introduction}
 \label{intro}
 
-When Internet traffic enters a country, it becomes subject to that country's
+When Internet traffic enters a country, it often becomes subject to that country's
 local laws and policies.  As a result, users, ISPs, and governments have more need
 than ever to determine---and control---which countries their traffic is
 traversing.  Discovering which countries an end-to-end path traverses and
@@ -36,15 +36,20 @@ advertisers) to use HTTPS.  Second, even encrypted traffic may still reveal a
 lot about user behavior: the presence of any communication at all may be
 revealing, and website fingerprinting can reveal information about content
 merely based on the size, content, and location of third-party resources that
-a client loads~\cite{Johnson2013a}. DNS traffic is also revealing and is
-almost never encrypted~\cite{what_isps_can_see}.  Third, ISPs often
+a client loads~\cite{Johnson2013a}. Recent work studying Internet of Things (IoT) devices 
+has shown that passive network observers can learn sensitive information about users 
+even when traffic is encrypted~\cite{apthorpe2016poster}; this highlights the risks of large-scale surveillance 
+in the IoT ecosystem. DNS traffic is also revealing and is
+almost never encrypted~\cite{what_isps_can_see}.  Additionally, ISPs often
 terminate TLS connections, conducting man-in-the-middle attacks on encrypted
 traffic for network management purposes~\cite{mitm_isp}.  And, of course,
 encryption offers no solution to interference, degradation, or blocking of
 traffic that a country might perform on traffic that crosses its borders.
 Finally, a nation-state may collect and store encrypted traffic; if the
-encryption is broken in the future, a nation-state may be able to discover the
-contents of previous communications.
+encryption is defeated in the future, a nation-state may be able to discover the
+contents of previous communications.  This has already been realized, according to 
+documents leaked from the National Security Agency (NSA) and Government Communications 
+Headquarters (GCHQ): ``A 10-year NSA program against encryption technologies made a breakthrough in 2010 which made `vast amounts' of data collected through internet cable taps newly `exploitable'''~\cite{encryption_forward}.
 
 In this paper, we study two questions: (1)~Which countries do {\em   default}
 Internet routing paths traverse?; (2)~What methods can  help governments and
@@ -55,11 +60,11 @@ Our analysis in this paper focuses on five countries---Brazil, Netherlands,
 Kenya, India, and the United States---for a variety of reasons.  For example,
 Brazil has made a concerted effort to avoid traversing certain countries such
 as the United States through extensive buildout of Internet Exchange Points
-(IXPs). The Netherlands has one of the world's largest IXPs and relatively
+(IXPs)~\cite{brito2016dissecting}. The Netherlands has one of the world's largest IXPs and relatively
 inexpensive hosting. Kenya is one of the most well-connected African
 countries, but it is still thought to rely on connectivity through Europe and
 North America for many destinations, even content that might otherwise be
-local (\eg, local newspapers). We highlight many trends that are common across all
+local (\eg, local newspapers)~\cite{gupta2014peering,fanou2015diversity,chavula2014quantifying,fanou2016pushing}. We highlight many trends that are common across all
 of the countries we study; we have also released detailed statistics on all twenty
 countries that we measure on the project website and intend to update these on a
 periodic basis.
@@ -126,7 +131,7 @@ need better encouragements to interconnect with one another to ensure
 that local traffic stays local.
 
 Next, we {explore the extent to which
-clients avoid certain countries to popular destinations}
+clients can avoid certain countries to popular destinations}
 (Section~\ref{avoid_results}).  We explore two techniques: using the
 open DNS resolver infrastructure and using overlay network relays to route 
 Internet traffic around an unfavorable country.  Our results demonstrate that these techniques can

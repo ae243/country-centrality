@@ -39,7 +39,7 @@ rest of this section.
 \subsubsection{Resource Limitations}
 \label{resource_limits}
 
-We currently focus our measurements on twenty countries due to resource limitations.
+We currently focus our measurements on five countries due to resource limitations.
 The iPlane~\cite{madhyastha2006iplane} and Center for Applied Internet Data
 Analysis (CAIDA)~\cite{caida} projects maintain large repositories of
 traceroute data, neither of which are suitable for our study.   iPlane has
@@ -52,17 +52,16 @@ vantage points around the world to randomized destination IP addresses that
 cover all /24s; in contrast, we focus on paths to popular websites from a
 particular country.
 
-Instead, we run active measurements that
-intend to better represent paths of a typical Internet user. To do so, we run
+Instead, we run active measurements that better represent paths of a typical Internet user. To do so, we run
 DNS and traceroute measurements from RIPE Atlas probes, which are hosted
 all around the world in many different types of networks, including home
 networks~\cite{ripe_atlas}.  RIPE Atlas probes can use the local DNS
-resolver, which would give us the best estimate of the traceroute
+resolver, which give us the best estimate of the traceroute
 destination.  
 
 Conducting measurements from a RIPE Atlas probe costs a certain
 amount of ``credits'', which restricts the number of measurements that we
-could run.  RIPE Atlas also imposes rate limits on the number of
+can run.  RIPE Atlas also imposes rate limits on the number of
 concurrent measurements and the number of credits that an individual
 user can spend per day.  We address these challenges in two ways: (1)~we
 reduce the number of necessary measurements we must run on RIPE Atlas
@@ -76,42 +75,40 @@ is still representative of an Internet user in that country.
 \subsubsection{Path Asymmetry}
 \label{path_sym}
 
-The reverse path is just as important as (and often different from) the
+The reverse path (i.e., the path from the server to the client) is just as important as (and often different from) the
 forward path.   Previous work has shown that paths between Internet endpoints
 are often asymmetric~\cite{he2005routing}.  Most work on path asymmetry has
-been done at the AS level, but not at the country level; our measurements can
+been done at the AS level~\cite{paxson1997end,gao2001inferring,he2005routing,he2004quantifying}, but not at the country level; our measurements can
 consider only the forward path (from client to domain or relay), not the
 reverse path from the domain or relay to the client.
 
-To better understand the limitation of our current measurements, we also (separately)
+We also (separately)
 measured path asymmetry at the country granularity. If country-level paths
 were symmetric, then the results of our measurements would be representative
 of the forward {\it and} reverse paths. If the country-level paths are
 asymmetric, then our measurement results only provide a lower bound on the
 number of countries that traffic between two endpoints may traverse.  Using
-100 RIPE Atlas probes located around the world and eight Amazon EC2 instances,
+100 RIPE Atlas probes and eight Amazon EC2 instances,
 we ran traceroute measurements from every probe to every EC2 instance and from
 every EC2 instance to every probe\footnote{The EC2 instances were located in the United States, Brazil, 
-Canada, Ireland, Germany, Japan, Australia, and Singapore.}.  After mapping the IPs to countries, we
+Canada, Ireland, Germany, Japan, Australia, and Singapore.}.  After mapping the IP addresses to countries, we
 analyzed the paths for symmetry.  First, we compared the set of countries on
-the forward path to the set of countries on the reverse path; this yielded
-about 30\% symmetry.  We compared the number of countries on the forward and
+the forward path to the set of countries on the reverse path; we found that about 30\% of the 
+paths were symmetric at the country level.  We compared the number of countries on the forward and
 reverse paths to determine how many reverse paths were a subset of the
 respective forward path; this situation occurred for 55\% of the paths. This
-level of asymmetry suggests that our results represent a lower bound on the
-number of countries that transit traffic; our results are a lower bound on how
-many unfavorable countries transit a client's path. It also suggests that
+level of asymmetry suggests that our results are a lower bound on how
+many countries transit a client's path. It also suggests that
 while providing lower bounds on transnational detours is feasible, designing
 systems to {\em completely} prevent these detours on both forward and reverse
-paths is extremely challenging. If tools that shed light on the reverse path
-between endpoints (\eg, Reverse Traceroute) see more widespread deployment,
+paths is challenging. If tools that shed light on the reverse path
+between endpoints (\eg, Reverse Traceroute~\cite{katz2010reverse}) see more widespread deployment,
 the characterizations and avoidance techniques that we develop in this paper could
 be extended to include reverse paths.
 
 \subsubsection{Traceroute Origin and Destination Selection}
 
-Each country hosts a different number of RIPE Atlas probes, ranging
-from roughly 75 probes to several hundred probes.  Because of the resource
+Each country hosts 75 to several hundred RIPE Atlas probes.  Because of resource
 restrictions, we could not use all of the probes in each country.  We
 selected the set of probes that had unique ASes in the country to get
 the widest representation of origination (starting) points.
@@ -129,9 +126,9 @@ seen in Figure \ref{fig:compare_alexas}.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=.5\textwidth]{compare_100_100}
-\caption{Comparison of path endpoints between the Alexa Top 100 and the Alexa Top 1000.}
-\label{fig:compare_alexas}
+\includegraphics[width=.5\textwidth]{Analysis-Pipeline1}
+\caption{Mapping country-level paths from traceroutes.}
+\label{fig:analysis_pipeline}
 \end{figure}
 
 To obtain the third-party domains that are hosted on each popular website, we
@@ -144,16 +141,15 @@ case web sites are customizing content based on the region of the client.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=.5\textwidth]{Analysis-Pipeline1}
-\caption{Mapping country-level paths from traceroutes.}
-\label{fig:analysis_pipeline}
+\includegraphics[width=.5\textwidth]{compare_100_100}
+\caption{Comparison of path endpoints between the Alexa Top 100 and the Alexa Top 1000.}
+\label{fig:compare_alexas}
 \end{figure}
-
 
 \subsubsection{Country Mapping}
 \label{c_map}
 
-Accurate IP geolocation is challenging. We use MaxMind's
+Accurate IP geolocation is challenging~\cite{poese2011ip,katz2006towards,eriksson2010learning,gill2010dude,hu2012towards,guo2009mining,eriksson2012posit}. We use MaxMind's
 geolocation service to map IP addresses to their respective
 countries~\cite{maxmind}. Unfortunately, this database is known to contain inaccuracies,
 particularly for IP addresses that correspond to Internet infrastructure, as opposed
@@ -191,7 +187,7 @@ to an anonymized repository at: \url{https://bitbucket.org/ransom_research/data/
 the five countries studied are hosted in a single country.  The other half are
 located in two or more different countries. \end{finding} 
 
-\noindent First, we analyze hosting diversity, which reveals how many unique
+\noindent Hosting diversity reveals how many unique
 countries host a domain.  The more countries host a domain, the greater the
 likelihood that a client can find a path to that site that avoids a certain
 country. As a separate measurement experiment, we queried DNS from 26 vantage points around the world, in
@@ -241,17 +237,15 @@ reach these locations.
 
 
 \begin{finding}[Domain Hosting]
-The most common destination, regardless of originating country, is the United States:
-77\%, 45\%, 63\%, 44\%, and 97\% of paths originating in Brazil, Netherlands, India,
-Kenya,
-and the United States, respectively, are currently reaching content located in the
-United States.
+The most common destination, regardless of originating country, is the United States.
 \end{finding}
 \noindent
 Table~\ref{tab:host} shows the fraction of paths that are hosted in various
 countries.  Despite the extent of country-level hosting diversity, the
 majority of paths from all of the countries we studied terminate in a single
-country: the United States.   Our results also
+country; 77\%, 45\%, 63\%, 44\%, and 97\% of paths originating in Brazil, Netherlands, India,
+Kenya, and the United States, respectively, are currently reaching content located in the
+United States.   Our results also
 show the Netherlands is a common hosting location for paths originating in the
 Netherlands, India, and Kenya.
 
@@ -260,16 +254,16 @@ Netherlands, India, and Kenya.
 %For Kenyan traffic, the United States hosts 44\% of the content, but Ireland hosts 10\%; Ireland is a popular hosting location for U.S. companies due to its relaxed enforcement of privacy in the private sector \annie{I got this information from Joel Reidenberg - how do I cite that?  I'll also look to see if I can find any publications that discuss this}.  
 
 \begin{finding}[Domestic Traffic]
-All of the countries studied (except for the United States) host content for a small percentage of the paths that originate in their own country; they also host a small percentage of their respective country-code top-level domains.
+All of the countries we studied (except for the United States) host content for a small percentage of the paths that originate in their own country; they also host a small percentage of their respective country-code top-level domains.
 \end{finding}
 \noindent
-Only 17\% of paths that originate in Brazil also end there.  Only 5\%
+Only 17\% of paths that originate in Brazil also end there, and only 5\%
 and 2\% of Indian and Kenyan paths, respectively, end in the originating
 country.  
 For Kenya, 24 out of the Top 100 Domains are .ke domains, but only 5
 of the 24 are hosted within Kenya.  29 out of 40 .nl domains are hosted in the Netherlands;
-four of 13 .in domains are hosted in India; 18 of 39 .br domains are hosted in Brazil.  These 
-results are shown in Figure \ref{fig:cctld_graph}.  Interestingly, all .gov domains were hosted in their respective country. 
+four of 13 .in domains are hosted in India; 18 of 39 .br domains are hosted in Brazil.  
+Figure \ref{fig:cctld_graph} shows these results.  As one might expect, all .gov domains were hosted in their respective country. 
 
 \begin{figure}[t]
 \centering
@@ -283,7 +277,7 @@ The United States and Great Britain are on the largest portion of paths in compa
 \end{finding}
 \noindent
 84\% of Brazilian paths traverse the United States, despite Brazil's
-strong efforts to avoid United States surveillance.  Although India and
+strong efforts to avoid United States surveillance~\cite{brazil_break_from_US,brazil_us_companies,brazil_conference,brazil_conference2,brazil_human_rights,brazil_cable}.  Although India and
 Kenya are geographically distant, 72\% and 62\% of their paths also transit
 the United States.
 
@@ -315,15 +309,15 @@ Netherlands. Despite Brazil's strong efforts in building IXPs to keep
 local traffic local, 
 their paths still trombone to the U.S.  This is due to IXPs being seen
 as a threat by competing commercial providers; providers are sometimes
-concerned that ``interconnection'' will result in making business
+concerned that interconnection will result in making business
 cheaper for competitors and stealing of customers~\cite{ixp_policy}.
 
 Brazilian providers likely see one another as competitors and therefore as a
 threat at IXPs, which causes them to peer with international providers instead
 of other local providers.  Additionally, we see Brazilian paths trombone to
 Spain and Italy.  We see Italy often in tromboning paths because Telecom
-Italia Sparkle is one of the top global Internet providers~\cite{bakers}. We
-note that MaxMind's geolocation sometimes mislabels IP addresses to be in
+Italia Sparkle is one of the top global Internet providers~\cite{bakers}. 
+MaxMind's geolocation sometimes mislabels IP addresses to be in
 Spain when they are actually located in Portugal.  Despite our inability to
 disambiguate Spain and Portugal, some of the issues associated with tromboning,
 such as performance, are still pertinent. We are not aware of specific laws in
@@ -348,7 +342,7 @@ often transit the U.S. The results from
 studying paths that originate in the United States are drastically different from
 those
 of the other four countries.  The majority of locally popular content in these countries
-is hosted outside of the respective country; in contrast, the United States hosts
+is hosted outside of the respective country, which is shown in Table \ref{tab:hosts}; in contrast, the United States hosts
 97\% of the
 content that is accessed from within the country.  Only 13 unique countries
 are ever on a path from the United States to a domain in the top 100 (or third party

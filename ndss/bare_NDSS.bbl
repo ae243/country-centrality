@@ -26,6 +26,10 @@ D.~Andersen, H.~Balakrishnan, F.~Kaashoek, and R.~Morris, ``Resilient overlay
   networks,'' in \emph{ACM Symposium on Operating Systems Principles (SOSP)},
   vol.~35, no.~5.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2001.
 
+\bibitem{apthorpe2016poster}
+N.~Apthorpe, D.~Reisman, and N.~Feamster, ``Poster: A smart home is no castle:
+  Privacy vulnerabilities of encrypted iot traffic,'' 2016.
+
 \bibitem{augustin2006avoiding}
 B.~Augustin, X.~Cuvellier, B.~Orgogozo, F.~Viger, T.~Friedman, M.~Latapy,
   C.~Magnien, and R.~Teixeira, ``{Avoiding Traceroute Anomalies with Paris
@@ -47,6 +51,10 @@ Z.~S. Bischof, J.~P. Rula, and F.~E. Bustamante, ``{In and Out of Cuba:
   Measurement Conference}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2015,
   pp. 487--493.
 
+\bibitem{brazil_cable}
+``{Brazil Builds Internet Cable To Portugal To Avoid NSA Surveillance},''
+  \url{http://www.ibtimes.com/brazil-builds-internet-cable-portugal-avoid-nsa-surveillance-1717417}.
+
 \bibitem{brazil_conference2}
 ``{Brazil Conference will Plot Internet's Future Post NSA Spying},''
   \url{http://www.reuters.com/article/us-internet-conference-idUSBREA3L1OJ20140422}.
@@ -64,13 +72,37 @@ Z.~S. Bischof, J.~P. Rula, and F.~E. Bustamante, ``{In and Out of Cuba:
 ``{Brazil's President Tells U.N. That NSA Spying Violates Human Rights},''
   \url{http://www.usnews.com/news/articles/2013/09/24/brazils-president-tells-un-that-nsa-spying-violates-human-rights}.
 
+\bibitem{brazil_us_companies}
+``{Brazil to Press for Local Internet Data Storage After NSA Spying},''
+  \url{https://www.rt.com/news/brazil-brics-internet-nsa-895/}, 2013.
+
+\bibitem{brito2016dissecting}
+S.~H.~B. Brito, M.~A. Santos, R.~dos Reis~Fontes, D.~A.~L. Perez, and C.~E.
+  Rothenberg, ``Dissecting the largest national ecosystem of public internet
+  exchange points in brazil,'' in \emph{International Conference on Passive and
+  Active Network Measurement}.\hskip 1em plus 0.5em minus 0.4em\relax Springer,
+  2016, pp. 333--345.
+
 \bibitem{caida}
 ``{CAIDA: Center for Applied Internet Data Analysis},''
   \url{http://www.caida.org/home/}.
 
+\bibitem{chavula2014quantifying}
+J.~Chavula, N.~Feamster, A.~Bagula, and H.~Suleman, ``Quantifying the effects
+  of circuitous routes on the latency of intra-africa internet traffic: A study
+  of research and education networks,'' in \emph{International Conference on
+  e-Infrastructure and e-Services for Developing Countries}.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 2014, pp. 64--73.
+
 \bibitem{routing_errors}
 ``{Chinese Routing Errors Redirect Russian Traffic},''
   \url{http://research.dyn.com/2014/11/chinese-routing-errors-redirect-russian-traffic/}.
+
+\bibitem{corrigan2015riposte}
+H.~Corrigan-Gibbs, D.~Boneh, and D.~Mazi{\`e}res, ``Riposte: An anonymous
+  messaging system handling millions of users,'' in \emph{Security and Privacy
+  (SP), 2015 IEEE Symposium on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2015, pp. 321--338.
 
 \bibitem{dte}
 ``{Deutsche Telekom to Push for National Routing to Curtail Spying},''
@@ -80,19 +112,58 @@ Z.~S. Bischof, J.~P. Rula, and F.~E. Bustamante, ``{In and Out of Cuba:
 R.~Dingledine, N.~Mathewson, and P.~Syverson, ``{Tor: The Second-Generation
   Onion Router},'' DTIC Document, Tech. Rep., 2004.
 
+\bibitem{eriksson2012posit}
+B.~Eriksson, P.~Barford, B.~Maggs, and R.~Nowak, ``Posit: a lightweight
+  approach for ip geolocation,'' \emph{ACM SIGMETRICS Performance Evaluation
+  Review}, vol.~40, no.~2, pp. 2--11, 2012.
+
+\bibitem{eriksson2010learning}
+B.~Eriksson, P.~Barford, J.~Sommers, and R.~Nowak, ``A learning-based approach
+  for ip geolocation,'' in \emph{Passive and Active Measurement}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Springer, 2010, pp. 171--180.
+
 \bibitem{fanou2015diversity}
-R.~Fanou, P.~Francois, and E.~Aben, ``{On the Diversity of Interdomain Routing
-  in Africa},'' in \emph{Passive and Active Measurement}.\hskip 1em plus 0.5em
-  minus 0.4em\relax Springer, 2015, pp. 41--54.
+R.~Fanou, P.~Francois, and E.~Aben, ``On the diversity of interdomain routing
+  in africa,'' in \emph{International Conference on Passive and Active Network
+  Measurement}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2015, pp.
+  41--54.
+
+\bibitem{fanou2016pushing}
+R.~Fanou, G.~Tyson, P.~Francois, and A.~Sathiaseelan, ``Pushing the frontier:
+  Exploring the african web ecosystem,'' in \emph{Proceedings of the 25th
+  International Conference on World Wide Web}.\hskip 1em plus 0.5em minus
+  0.4em\relax International World Wide Web Conferences Steering Committee,
+  2016, pp. 435--445.
 
 \bibitem{france_surveillance}
 ``{France Must Reject Law that Gives Carte Blanche to Mass Surveillance
   Globally},''
   \url{https://www.amnesty.org/en/press-releases/2015/09/france-must-reject-law-that-gives-carte-blanche-to-mass-surveillance-globally/}.
 
+\bibitem{gao2001inferring}
+L.~Gao, ``On inferring autonomous system relationships in the internet,''
+  \emph{IEEE/ACM Transactions on Networking (ToN)}, vol.~9, no.~6, pp.
+  733--745, 2001.
+
+\bibitem{gelernter2016two}
+N.~Gelernter, A.~Herzberg, and H.~Leibowitz, ``Two cents for strong anonymity:
+  The anonymous post-office protocol,'' \emph{Proceedings on Privacy Enhancing
+  Technologies}, vol.~2, pp. 1--20, 2016.
+
+\bibitem{gill2010dude}
+P.~Gill, Y.~Ganjali, B.~Wong, and D.~Lie, ``Dude, where’s that ip?:
+  Circumventing measurement-based ip geolocation,'' in \emph{Proceedings of the
+  19th USENIX conference on Security}.\hskip 1em plus 0.5em minus 0.4em\relax
+  USENIX Association, 2010, pp. 16--16.
+
 \bibitem{mitm_isp}
 ``{Gogo Inflight Internet Serves up `Man-in-the-Middle' with Fake SSL},''
   \url{http://www.csoonline.com/article/2865806/cloud-security/gogo-inflight-internet-serves-up-man-in-the-middle-with-fake-ssl.html}.
+
+\bibitem{guo2009mining}
+C.~Guo, Y.~Liu, W.~Shen, H.~J. Wang, Q.~Yu, and Y.~Zhang, ``Mining the web and
+  the internet for accurate ip address geolocations,'' in \emph{INFOCOM 2009,
+  IEEE}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2009, pp. 2841--2845.
 
 \bibitem{gupta2014peering}
 A.~Gupta, M.~Calder, N.~Feamster, M.~Chetty, E.~Calandro, and E.~Katz-Bassett,
@@ -101,15 +172,28 @@ A.~Gupta, M.~Calder, N.~Feamster, M.~Chetty, E.~Calandro, and E.~Katz-Bassett,
   Measurement}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2014, pp.
   204--213.
 
+\bibitem{he2004quantifying}
+Y.~He, M.~Faloutsos, and S.~Krishnamurthy, ``Quantifying routing asymmetry in
+  the internet at the as level,'' in \emph{Global Telecommunications
+  Conference, 2004. GLOBECOM'04. IEEE}, vol.~3.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2004, pp. 1474--1479.
+
 \bibitem{he2005routing}
-Y.~He, M.~Faloutsos, S.~Krishnamurthy, and B.~Huffaker, ``{On Routing Asymmetry
-  in the Internet},'' in \emph{Global Telecommunications Conference. IEEE},
-  vol.~2.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2005.
+Y.~He, M.~Faloutsos, S.~Krishnamurthy, and B.~Huffaker, ``On routing asymmetry
+  in the internet,'' in \emph{Global Telecommunications Conference, 2005.
+  GLOBECOM'05. IEEE}, vol.~2.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2005, pp. 6--pp.
 
 \bibitem{brazil_history}
 ``{How Brazil Crowdsourced a Landmark Law},''
   \url{http://foreignpolicy.com/2016/01/19/how-brazil-crowdsourced-a-landmark-law/},
   2016.
+
+\bibitem{hu2012towards}
+Z.~Hu, J.~Heidemann, and Y.~Pradkin, ``Towards geolocation of millions of ip
+  addresses,'' in \emph{Proceedings of the 2012 ACM conference on Internet
+  measurement conference}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2012,
+  pp. 123--130.
 
 \bibitem{huffaker2011geocompare}
 B.~Huffaker, M.~Fomenkov, and K.~Claffy, ``{Geocompare: A Comparison of Public
@@ -133,10 +217,31 @@ A.~Johnson, C.~Wacek, R.~Jansen, M.~Sherr, and P.~Syverson, ``{Users Get
 J.~Karlin, S.~Forrest, and J.~Rexford, ``{Nation-state Routing: Censorship,
   Wiretapping, and BGP},'' \emph{arXiv preprint arXiv:0903.3218}, 2009.
 
+\bibitem{katz2006towards}
+E.~Katz-Bassett, J.~P. John, A.~Krishnamurthy, D.~Wetherall, T.~Anderson, and
+  Y.~Chawathe, ``Towards ip geolocation using delay and topology
+  measurements,'' in \emph{Proceedings of the 6th ACM SIGCOMM conference on
+  Internet measurement}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2006, pp.
+  71--84.
+
+\bibitem{katz2010reverse}
+E.~Katz-Bassett, H.~V. Madhyastha, V.~K. Adhikari, C.~Scott, J.~Sherry,
+  P.~Van~Wesep, T.~E. Anderson, and A.~Krishnamurthy, ``Reverse traceroute.''
+  in \emph{NSDI}, vol.~10, 2010, pp. 219--234.
+
 \bibitem{kazak_surveillance}
 ``{Kazakhstan Will Require Internet Surveillance Back Doors},''
   \url{http://www.engadget.com/2015/12/05/kazakhstan-internet-back-door-law/},
   2015.
+
+\bibitem{kwon2016atom}
+A.~Kwon, H.~Corrigan-Gibbs, S.~Devadas, and B.~Ford, ``Atom: Scalable anonymity
+  resistant to traffic analysis,'' \emph{arXiv preprint arXiv:1612.07841},
+  2016.
+
+\bibitem{kwon2016riffle}
+A.~Kwon, D.~Lazar, S.~Devadas, and B.~Ford, ``Riffle,'' \emph{Proceedings on
+  Privacy Enhancing Technologies}, vol. 2016, no.~2, pp. 115--134, 2016.
 
 \bibitem{levin2015alibi}
 D.~Levin, Y.~Lee, L.~Valenta, Z.~Li, V.~Lai, C.~Lumezanu, N.~Spring, and
@@ -177,19 +282,37 @@ V.~N. Padmanabhan and L.~Subramanian, ``{An Investigation of Geographic Mapping
   Review}, vol.~31, no.~4.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2001,
   pp. 173--185.
 
+\bibitem{paxson1997end}
+V.~Paxson, ``End-to-end routing behavior in the internet,'' \emph{IEEE/ACM
+  transactions on Networking}, vol.~5, no.~5, pp. 601--615, 1997.
+
 \bibitem{peter2015one}
 S.~Peter, U.~Javed, Q.~Zhang, D.~Woos, T.~Anderson, and A.~Krishnamurthy, ``One
   tunnel is (often) enough,'' \emph{ACM SIGCOMM Computer Communication Review},
   vol.~44, no.~4, pp. 99--110, 2015.
 
+\bibitem{piotrowska2017loopix}
+A.~Piotrowska, J.~Hayes, T.~Elahi, S.~Meiser, and G.~Danezis, ``The loopix
+  anonymity system,'' \emph{arXiv preprint arXiv:1703.00536}, 2017.
+
 \bibitem{PlanetLab}
 ``{PlanetLab},'' \url{http://planet-lab.org/}.
+
+\bibitem{poese2011ip}
+I.~Poese, S.~Uhlig, M.~A. Kaafar, B.~Donnet, and B.~Gueye, ``Ip geolocation
+  databases: Unreliable?'' \emph{ACM SIGCOMM Computer Communication Review},
+  vol.~41, no.~2, pp. 53--56, 2011.
 
 \bibitem{ixp_policy}
 ``{Promoting the Use of Internet Exchange Points (IXPs): A Guide to Policy,
   Management and Technical Issues},''
   \url{https://www.internetsociety.org/sites/default/files/Promoting\%20the\%20use\%20of\%20IXPs.pdf},
   2012.
+
+\bibitem{encryption_forward}
+``{Revealed: How US and UK Spy Agencies Defeat Internet Privacy and
+  Security},''
+  \url{https://www.theguardian.com/world/2013/sep/05/nsa-gchq-encryption-codes-security}.
 
 \bibitem{ripe_atlas}
 ``{RIPE Atlas},'' \url{https://atlas.ripe.net/}.
@@ -211,6 +334,17 @@ A.~Shah and C.~Papadopoulos, ``{Characterizing International BGP Detours},''
 \bibitem{cablemap}
 ``{TeleGeography Submarine Cable Map},''
   \url{http://www.submarinecablemap.com/}.
+
+\bibitem{tyagi2016stadium}
+N.~Tyagi, Y.~Gilad, M.~Zaharia, and N.~Zeldovich, ``Stadium: A distributed
+  metadata-private messaging system.'' \emph{IACR Cryptology ePrint Archive},
+  vol. 2016, p. 943, 2016.
+
+\bibitem{van2015vuvuzela}
+J.~Van Den~Hooff, D.~Lazar, M.~Zaharia, and N.~Zeldovich, ``Vuvuzela: Scalable
+  private messaging resistant to traffic analysis,'' in \emph{Proceedings of
+  the 25th Symposium on Operating Systems Principles}.\hskip 1em plus 0.5em
+  minus 0.4em\relax ACM, 2015, pp. 137--152.
 
 \bibitem{wahlisch2010framework}
 M.~W{\"a}hlisch, S.~Meiling, and T.~C. Schmidt, ``{A Framework for

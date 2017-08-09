@@ -1,14 +1,13 @@
 \section{Feasibility of Routing Around Nation-States}
 \label{avoid_results}
 
-Informed by our analysis in Section \ref{datasets}, we now explore the extent
+We now explore the extent
 to which a system that explores and discovers either open DNS resolvers or alternate overlay network paths
 can help clients avoid specific countries. We explore and evaluate possible
 methods to (1)~increase path diversity with the use of overlay nodes and
 (2)~discover additional website replicas by diverting DNS queries through
-global open DNS resolvers.  In this section, we
-discuss our measurement method, develop an avoidance metric and algorithm, and
-present our results for the use of open resolvers and overlay nodes to avoid specific countries.
+global open DNS resolvers.  In this section, we develop an avoidance metric and algorithm, and
+evaluate the effectiveness of open resolvers and overlay nodes to avoid specific countries.
 
 \subsection{Measurement Approach}
 \label{avoid_pipelines}
@@ -40,7 +39,7 @@ returned by the open resolvers.
 \end{figure}
 
 \paragraph{Country Avoidance with Relays} 
-We observe that an overlay network of relay nodes could
+An overlay network of relay nodes could
 help clients route around countries or access content 
 that is hosted in a different country; this section performs measurements to evaluate
 the feasibility of such an approach. Figure~\ref{fig:avoidance_relays}
@@ -78,7 +77,7 @@ country avoidance for any (X, Y) pair.
 \paragraph{Avoidability metric}  We introduce an avoidability metric to
 quantify how often
 traffic can avoid Country Y when it originates in Country X.
-Avoidability is the fraction of paths that originate in Country
+Avoidability reflects the fraction of paths that originate in Country
 X and do not transit Country Y.  We calculate this value by dividing the
 number of paths from Country X to domains that do not traverse Country Y
 by the total number of paths from Country X. The resulting value is
@@ -99,7 +98,7 @@ drop to 1/3.
 
 \paragraph{Avoidability algorithm with open resolvers} Recall from the measurement pipeline for avoidance with open resolvers, described in Section \ref{avoid_pipelines}, that the resulting data are traceroutes from the client in Country X to \textit{all} IP addresses in \textit{all} open DNS resolver responses.  To measure avoidability, there must exist at least one path from the client in Country X to the domain for the client to be able to avoid Country Y when accessing the domain.  The country avoidance value is the fraction of domains accessible from the client in Country X without traversing Country Y.
 
-\paragraph{Avoidability algorithm}  Measuring the avoidability of Country Y
+\paragraph{Avoidability algorithm with relays}  Measuring the avoidability of Country Y
 from a client in Country X using relays entails two components: (1)~Is Country Y
 on the path from the client in Country X to the relay?  (2)~Is Country Y on
 the path from the relay to the domain?  For every domain, our algorithm checks
@@ -180,7 +179,7 @@ traffic local.  Table \ref{tab:avoid} shows avoidance values; the top
 row shows the countries we studied and the left column shows the country
 that the client aims to avoid.
 %
-Table \ref{tab:avoid} shows two significant trends: (1)~the ability
+Table \ref{tab:avoid} shows two trends: (1)~the ability
 for a client to avoid a given Country Y increases with the use of relays; and (2)~certain
 countries such as the United States, the United Kingdom, and other countries that
 are known to perform interference on traffic are also often the most difficult countries
@@ -225,7 +224,7 @@ resolvers are used as a tool for country avoidance.
 
 \begin{finding}[Open Resolver Effectiveness]
 Using open DNS resolvers for country avoidance achieves more country
-avoidance than using local resolvers and less (or equal)
+avoidance than using local resolvers and no better
 avoidance than using relays for clients in most
 countries. 
 \end{finding}
@@ -236,32 +235,32 @@ achieve 47\% more avoidance.  On the other hand, open resolvers are
 about as effective as relays are for avoidance for paths originating in
 the United States.   
 
-\begin{finding}[Kenya as an Outlier]
-For clients in Kenya, open DNS resolvers are significantly more
-effective than relays for 
-avoiding the United States, South Africa, and the United Arab Emirates.
-\end{finding}
-\noindent
-Clients in Kenya should use open DNS resolvers when avoiding specific
-countries, as they can avoid these specific countries more often than
-when using relays.  Kenyan clients can avoid the United States for 55\%
-of paths when using open resolvers, whereas they can only avoid the United States for 40\% of
-paths when using relays.  The difference in how often the United States can be avoided can be
-attributed to the lower amount of DNS diversity when using relays as
-compared to using open resolvers. For a client in Kenya trying to avoid
-the United States, the client can only use the relay located in Ireland
-(because all paths from the client to the other relays traverse the
-United States), and therefore only gets DNS responses from locally
-resolving domains on the Ireland relay.  When using open resolvers, the
-client gets more DNS diversity as he gets DNS responses from all open
-resolvers located in different countries. 
+%\begin{finding}[Kenya as an Outlier]
+%For clients in Kenya, open DNS resolvers are more
+%effective than relays for 
+%avoiding the United States, South Africa, and the United Arab Emirates.
+%\end{finding}
+%\noindent
+%Clients in Kenya should use open DNS resolvers when avoiding specific
+%countries, as they can avoid these specific countries more often than
+%when using relays.  Kenyan clients can avoid the United States for 55\%
+%of paths when using open resolvers, whereas they can only avoid the United States for 40\% of
+%paths when using relays.  The difference in how often the United States can be avoided can be
+%attributed to the lower amount of DNS diversity when using relays as
+%compared to using open resolvers. For a client in Kenya trying to avoid
+%the United States, the client can only use the relay located in Ireland
+%(because all paths from the client to the other relays traverse the
+%United States), and therefore only gets DNS responses from locally
+%resolving domains on the Ireland relay.  When using open resolvers, the
+%client gets more DNS diversity as he gets DNS responses from all open
+%resolvers located in different countries. 
 
-The amount of avoidance Kenyan clients can achieve for avoiding South Africa is the same,
-regardless of whether the client is using relays, because all paths
-between the client and the relays traverse South Africa.  Fortunately,
-clients can avoid South Africa for significantly more paths when using
-open resolvers, likely as a result of the fact that open DNS resolvers
-can better uncover hosting diversity.   
+%The avoidance Kenyan clients can achieve for avoiding South Africa is the same,
+%regardless of whether the client is using relays, because all paths
+%between the client and the relays traverse South Africa.  Fortunately,
+%clients can avoid South Africa for significantly more paths when using
+%open resolvers, likely as a result of the fact that open DNS resolvers
+%can better uncover hosting diversity.   
 
 \subsubsection{Avoidance with Relays}
 \begin{finding}[Relay Effectiveness]

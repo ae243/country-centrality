@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 AUG 2017 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 AUG 2017 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1657,10 +1657,9 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 414.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count278
-
-** ATTENTION: Overriding command lockouts (line 466).
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 484.
+
 
 LaTeX Warning: No \author given.
 
@@ -1669,6 +1668,11 @@ ftex/updmap/pdftex.map}
 
 
 ]) (./related_work.tex [2]
+
+LaTeX Warning: Citation `wolinsky2012dissen' on page 3 undefined on input line 
+63.
+
+
 Underfull \hbox (badness 2875) in paragraph at lines 62--83
  []\OT1/ptm/m/it/10 Circumvention sys-tems: [][] \OT1/ptm/m/n/10 Cer-tain tools
 , such as
@@ -1687,30 +1691,26 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 24.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [3]
-<./figures/compare_100_100.png, id=21, 706.0779pt x 189.3474pt>
-File: ./figures/compare_100_100.png Graphic file (type png)
-
-<use ./figures/compare_100_100.png>
-Package pdftex.def Info: ./figures/compare_100_100.png used on input line 132.
-(pdftex.def)             Requested size: 262.04987pt x 70.27412pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 132--133
- [][] 
- []
-
-
-Underfull \vbox (badness 1430) has occurred while \output is active []
-
-
-<./figures/Analysis-Pipeline1.pdf, id=23, 309.155pt x 133.49875pt>
+<./figures/Analysis-Pipeline1.pdf, id=21, 309.155pt x 133.49875pt>
 File: ./figures/Analysis-Pipeline1.pdf Graphic file (type pdf)
 
 <use ./figures/Analysis-Pipeline1.pdf>
-Package pdftex.def Info: ./figures/Analysis-Pipeline1.pdf used on input line 14
-7.
+Package pdftex.def Info: ./figures/Analysis-Pipeline1.pdf used on input line 12
+9.
 (pdftex.def)             Requested size: 262.04987pt x 113.16685pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 147--148
+Overfull \hbox (9.0pt too wide) in paragraph at lines 129--130
+ [][] 
+ []
+
+<./figures/compare_100_100.png, id=22, 706.0779pt x 189.3474pt>
+File: ./figures/compare_100_100.png Graphic file (type png)
+
+<use ./figures/compare_100_100.png>
+Package pdftex.def Info: ./figures/compare_100_100.png used on input line 144.
+(pdftex.def)             Requested size: 262.04987pt x 70.27412pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 144--145
  [][] 
  []
 
@@ -2149,23 +2149,23 @@ Overfull \hbox (3.98613pt too wide) detected at line 61
 $\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 003$ 
  []
 
-) [4 <./figures/Current-Traffic_fig.pdf> <./figures/compare_100_100.png> <./fig
-ures/Analysis-Pipeline1.pdf
+) [4 <./figures/Current-Traffic_fig.pdf> <./figures/Analysis-Pipeline1.pdf
 
 pdfTeX warning: pdflatex (file ./figures/Analysis-Pipeline1.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->] <./figures/domain_hist_US1.pdf, id=76, 361.35pt x 216.81pt>
+> <./figures/compare_100_100.png>]
+<./figures/domain_hist_US1.pdf, id=76, 361.35pt x 216.81pt>
 File: ./figures/domain_hist_US1.pdf Graphic file (type pdf)
 
 <use ./figures/domain_hist_US1.pdf>
-Package pdftex.def Info: ./figures/domain_hist_US1.pdf used on input line 216.
+Package pdftex.def Info: ./figures/domain_hist_US1.pdf used on input line 212.
 (pdftex.def)             Requested size: 202.44066pt x 121.4657pt.
 
 <./figures/nl_trombone_new11.pdf, id=77, 289.08pt x 216.81pt>
 File: ./figures/nl_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/nl_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 225
+Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 221
 .
 (pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
 
@@ -2173,7 +2173,7 @@ Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 225
 File: ./figures/br_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/br_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 229
+Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 225
 .
 (pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
 
@@ -2181,7 +2181,7 @@ Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 229
 File: ./figures/ke_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/ke_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 233
+Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 229
 .
 (pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
 
@@ -2189,12 +2189,15 @@ Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 233
 File: ./figures/compare_cctld.png Graphic file (type png)
 
 <use ./figures/compare_cctld.png>
-Package pdftex.def Info: ./figures/compare_cctld.png used on input line 276.
+Package pdftex.def Info: ./figures/compare_cctld.png used on input line 270.
 (pdftex.def)             Requested size: 209.63669pt x 209.64651pt.
  [5 <./figures/domain_hist_US1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 []\OT1/ptm/m/n/10 The United
  []
+
+
+LaTeX Warning: Reference `tab:hosts' on page 6 undefined on input line 345.
 
 [6 <./figures/nl_trombone_new11.pdf> <./figures/br_trombone_new11.pdf
 
@@ -2210,7 +2213,7 @@ File: ./figures/Country-Avoidance-Resolvers.pdf Graphic file (type pdf)
 
 <use ./figures/Country-Avoidance-Resolvers.pdf>
 Package pdftex.def Info: ./figures/Country-Avoidance-Resolvers.pdf used on inpu
-t line 37.
+t line 36.
 (pdftex.def)             Requested size: 235.84328pt x 99.80989pt.
 
 <./figures/Country-Avoidance-Relays.pdf, id=139, 426.59375pt x 183.68625pt>
@@ -2218,10 +2221,10 @@ File: ./figures/Country-Avoidance-Relays.pdf Graphic file (type pdf)
 
 <use ./figures/Country-Avoidance-Relays.pdf>
 Package pdftex.def Info: ./figures/Country-Avoidance-Relays.pdf used on input l
-ine 56.
+ine 55.
 (pdftex.def)             Requested size: 262.04987pt x 112.84163pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 56--57
+Overfull \hbox (9.0pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
@@ -2231,29 +2234,29 @@ ays.pdf
 pdfTeX warning: pdflatex (file ./figures/Country-Avoidance-Relays.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 227--231
+Underfull \hbox (badness 10000) in paragraph at lines 226--230
 []\OT1/ptm/m/n/10 Using open
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 280--283
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--282
 []\OT1/ptm/m/n/10 Clients in
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 []\OT1/ptm/m/n/10 Using re-lays
  []
 
-) (./system_design.tex [9] (./design_goals.tex) [10]
-<./figures/system_overview_updated-3.pdf, id=239, 399.4925pt x 220.825pt>
+) (./system_design.tex [9] (./design_goals.tex)
+<./figures/system_overview_updated-3.pdf, id=236, 399.4925pt x 220.825pt>
 File: ./figures/system_overview_updated-3.pdf Graphic file (type pdf)
 
 <use ./figures/system_overview_updated-3.pdf>
 Package pdftex.def Info: ./figures/system_overview_updated-3.pdf used on input 
 line 112.
 (pdftex.def)             Requested size: 253.04987pt x 139.87862pt.
- (./example_pac.pac
+ [10] (./example_pac.pac
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -2261,7 +2264,11 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
-) [11 <./figures/system_overview_updated-3.pdf>]) (./implementation.tex
+))
+(./implementation.tex
+Underfull \vbox (badness 2080) has occurred while \output is active []
+
+ [11 <./figures/system_overview_updated-3.pdf>]
 <./figures/relay_map.png, id=268, 588.69937pt x 313.17pt>
 File: ./figures/relay_map.png Graphic file (type png)
 
@@ -2304,145 +2311,164 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
-) (./discussion.tex [13 <./figures/throughput.pdf> <./figures/latency.pdf
-
-pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
->]
+) (./discussion.tex
 Underfull \hbox (badness 1895) in paragraph at lines 32--37
 \OT1/ptm/m/n/10 in-cludes mod-i-fy-ing RAN to be im-ple-mented within an
  []
 
-) (./conclusion.tex) (./bare_NDSS.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+[13 <./figures/throughput.pdf> <./figures/latency.pdf
+
+pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+>]) (./conclusion.tex) (./bare_NDSS.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+[]\OT1/ptm/m/n/8 ``Brazil Builds In-ter-net Ca-ble To Por-tu-gal To
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+\OT1/ptm/m/n/8 Avoid NSA Surveil-lance,'' $http : / / www . ibtimes . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 []\OT1/ptm/m/n/8 ``Brazil Con-fer-ence will Plot In-ter-net's Fu-ture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 \OT1/ptm/m/n/8 Post NSA Spy-ing,'' $http : / / www . reuters . com / article /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
 []\OT1/ptm/m/n/8 ``Brazil to Host Global In-ter-net Sum-mit in On-go-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
 \OT1/ptm/m/n/8 Fight Against NSA Surveil-lance,'' $https : / / www . rt . com /
  news /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
 []\OT1/ptm/m/n/8 ``Brazil's Pres-i-dent Tells U.N. That NSA Spy-ing Vi-o-lates
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
 \OT1/ptm/m/n/8 Hu-man Rights,'' $http : / / www . usnews . com / news / article
 s / 2013 / 09 / 24 /
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 76--78
+Underfull \hbox (badness 4967) in paragraph at lines 108--110
 []\OT1/ptm/m/n/8 ``Deutsche Telekom to Push for Na-tional Rout-ing to Cur-tail
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 \OT1/ptm/m/n/8 Spy-ing,'' $http : / / www . businessweek . com / news / 2013-[]
 10-[]14 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
+Underfull \hbox (badness 10000) in paragraph at lines 139--142
 \OT1/ptm/m/n/8 Glob-ally,'' $https : / / www . amnesty . org / en / press-[]rel
 eases / 2015 / 09 /
  []
 
 
-Overfull \hbox (28.02306pt too wide) in paragraph at lines 89--92
+Overfull \hbox (28.02306pt too wide) in paragraph at lines 139--142
 \OT1/ptm/m/n/8 france-[]must-[]reject-[]law-[]that-[]gives-[]carte-[]blanche-[]
 to-[]mass-[]surveillance-[]globally/$. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 \OT1/ptm/m/n/8 SSL,'' $http : / / www . csoonline . com / article / 2865806 / c
 loud-[]security /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 \OT1/ptm/m/n/8 gogo-[]in^^Might-[]internet-[]serves-[]up-[]man-[]in-[]the-[]mid
 dle-[]with-[]fake-[]ssl .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 []\OT1/ptm/m/n/8 ``Investigatory Pow-ers Bill: Snooper's Char-ter Lacks Clar-it
 y,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 \OT1/ptm/m/n/8 MPs Warn,'' $http : / / www . theguardian . com / law / 2016 / f
 eb / 01 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 []\OT1/ptm/m/n/8 ``Internet-Wide Scan Data Repos-i-tory,'' $https : / / scans .
  io / study /
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 127--131
+Underfull \hbox (badness 1448) in paragraph at lines 211--215
 []\OT1/ptm/m/n/8 A. John-son, C. Wacek, R. Jansen, M. Sherr, and P. Syver-son,
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 137--140
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--236
 \OT1/ptm/m/n/8 / / www . engadget . com / 2015 / 12 / 05 / kazakhstan-[]interne
 t-[]back-[]door-[]law/$,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--161
+Underfull \hbox (badness 2521) in paragraph at lines 238--241
+\OT1/ptm/m/n/8 Scal-able anonymity re-sis-tant to traf-fic anal-y-sis,'' \OT1/p
+tm/m/it/8 arXiv preprint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--266
 []\OT1/ptm/m/n/8 ``Netherlands New Pro-posal for Drag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--161
+Underfull \hbox (badness 10000) in paragraph at lines 263--266
 \OT1/ptm/m/n/8 net Surveil-lance Un-der-way,'' $https : / / edri . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--193
+Underfull \vbox (badness 1270) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--311
 []\OT1/ptm/m/n/8 ``Promoting the Use of In-ter-net Ex-change Points (IXPs):
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--193
+Underfull \hbox (badness 10000) in paragraph at lines 307--311
 \OT1/ptm/m/n/8 A Guide to Pol-icy, Man-age-ment and Tech-ni-cal Is-sues,''
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--193
+Underfull \hbox (badness 10000) in paragraph at lines 307--311
 \OT1/ptm/m/n/8 https : / / www . internetsociety . org / sites / default / ^^Ll
 es / Promoting \OMS/cmsy/m/n/8 n \OT1/ptm/m/n/8 %20the \OMS/cmsy/m/n/8 n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
+Underfull \hbox (badness 10000) in paragraph at lines 326--329
 \OT1/ptm/m/n/8 articles / russia-[]needs-[]more-[]internet-[]security-[]says-[]
 putin-[]1412179448$,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--214
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
 []\OT1/ptm/m/n/8 ``TeleGeography Sub-ma-rine Ca-ble Map,'' $http : / / www .
  []
 
@@ -2474,36 +2500,39 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 [15] [16 <./figures/avoidance_new_br.png> <./figures/avoidance_new_ke.png>]
-(./bare_NDSS.aux) ) 
+(./bare_NDSS.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 29203 strings out of 493014
- 577336 string characters out of 6133351
- 617377 words of memory out of 5000000
- 32198 multiletter control sequences out of 15000+600000
+ 29231 strings out of 493014
+ 577823 string characters out of 6133351
+ 617315 words of memory out of 5000000
+ 32226 multiletter control sequences out of 15000+600000
  54957 words of font info for 118 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,13n,81p,10383b,1538s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.
-enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on bare_NDSS.pdf (16 pages, 2222156 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
+mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8
+a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_NDSS.pdf (16 pages, 2225570 bytes).
 PDF statistics:
  382 PDF objects out of 1000 (max. 8388607)
  266 compressed objects within 3 object streams
