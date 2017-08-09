@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: bare_NDSS.aux
+The style file: IEEEtranS.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: sigproc.bib
+-- IEEEtranS.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** Sorting version - not for normal IEEE work.
+
+Done.
+You've used 46 entries,
+            4483 wiz_defined-function locations,
+            1102 strings with 16007 characters,
+and the built_in function-call counts, 29686 in all, are:
+= -- 2538
+> -- 743
+< -- 129
++ -- 383
+- -- 190
+* -- 1385
+:= -- 4327
+add.period$ -- 106
+call.type$ -- 46
+change.case$ -- 256
+chr.to.int$ -- 312
+cite$ -- 46
+duplicate$ -- 2067
+empty$ -- 2600
+format.name$ -- 213
+if$ -- 6692
+int.to.chr$ -- 0
+int.to.str$ -- 46
+missing$ -- 393
+newline$ -- 161
+num.names$ -- 48
+pop$ -- 1237
+preamble$ -- 1
+purify$ -- 209
+quote$ -- 2
+skip$ -- 2191
+stack$ -- 0
+substring$ -- 1008
+swap$ -- 1310
+text.length$ -- 25
+text.prefix$ -- 0
+top$ -- 6
+type$ -- 484
+warning$ -- 0
+while$ -- 105
+width$ -- 48
+write$ -- 379
