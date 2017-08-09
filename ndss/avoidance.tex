@@ -2,7 +2,7 @@
 \label{avoid_results}
 
 We now explore the extent
-to which a system that explores and discovers either open DNS resolvers or alternate overlay network paths
+to which a system that employs different techniques
 can help clients avoid specific countries. We explore and evaluate possible
 methods to (1)~increase path diversity with the use of overlay nodes and
 (2)~discover additional website replicas by diverting DNS queries through
@@ -18,10 +18,10 @@ resolvers located
 around the world may also help clients discover a more diverse set of
 replicas.  
 
-Figure~\ref{fig:avoidance_resolvers} illustrates our measurement
-approach for this study, which differs slightly from that described in
-Section \ref{pipeline}: instead of using RIPE Atlas probes to query
-local DNS resolvers, we query open DNS resolvers located around the
+We must use a different measurement approach than that described in the previous 
+section because instead of {\it locally} resolving the domains, we resolve them 
+using an open resolver.  Figure~\ref{fig:avoidance_resolvers} illustrates our measurement
+approach for this study, which utilizes open DNS resolvers located around the
 world~\cite{open_resolver_list}.  These open DNS resolvers may provide
 different IP addresses in the DNS responses, which represent different
 locations of content replicas. The measurement study in
@@ -45,8 +45,8 @@ that is hosted in a different country; this section performs measurements to eva
 the feasibility of such an approach. Figure~\ref{fig:avoidance_relays}
 shows the steps in our measurement experiment.
 After selecting potential relay nodes, we perform traceroute measurements from
-the country of origin to each relay, and from each relay to the set of top 100 domains
-in the origina country. We
+the country of origin to each relay (1',2'), and from each relay to the set of top 100 domains
+in the original country (1,2,3). We
 then analyze these traceroutes using the approach shown in Figure~\ref{fig:analysis_pipeline}
 to determine the resulting country-level paths. 
 
@@ -108,7 +108,10 @@ relay and on to the domain, and does not transit Country Y.   The algorithm
 compared to the output of the avoidability metric.
 
 \begin{algorithm}[t]
-\caption{Avoidability Algorithm}
+\caption{Avoidability Algorithm (with relays).  This is the method to calculate the avoidability of 
+a given country when using relays.  $paths1$ is the set of country-level paths 
+from client vantage points to relays, $paths2$ is the set of country-level paths 
+from relays to destination domains.}
 \label{avoid_algo}
 \footnotesize
 \begin{algorithmic}[1]
@@ -148,7 +151,10 @@ a replica) outside of Country Y.  This value puts the avoidance values in
 perspective for each (Country X, Country Y) pair.
 
 \begin{algorithm}[t]
-\caption{Avoidance Upper Bound Algorithm}
+\caption{Avoidance Upper Bound Algorithm.  This is the method used to calculate 
+the upper bound on avoidance when using relays.  For example, if a domain is solely hosted in a 
+single country, then that country is unavoidable --- this algorithm takes this case 
+into account.}
 \label{upperbound_algo}
 \small
 \begin{algorithmic}[1]

@@ -72,11 +72,11 @@
 \newlabel{fig:compare_alexas}{{3}{4}}
 \newlabel{c_map}{{\unhbox \voidb@x \hbox {III-A}4}{4}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-A}4}Country Mapping}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Results}{4}}
 \@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Fraction of paths terminating in a country by default. The fraction in each cell represents the fraction of paths originating in the country at the top of the column and ending in the country indicated in the first cell of the same row.\relax }}{5}}
 \newlabel{tab:host}{{I}{5}}
 \@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Fraction of paths that a country transits by default. The fraction in each cell represents the fraction of paths originating in the country at the top of the column that transit or end in the country indicated in the first cell of the same row.\relax }}{5}}
 \newlabel{tab:transit}{{II}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Results}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The number of Alexa Top 100 US Domains hosted in different countries.\relax }}{5}}
 \newlabel{fig:host_diversity}{{4}{5}}
 \citation{brazil_break_from_US,brazil_us_companies,brazil_conference,brazil_conference2,brazil_human_rights,brazil_cable}
@@ -111,21 +111,21 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Measurement approach for country avoidance with overlay network relays.\relax }}{7}}
 \newlabel{fig:avoidance_relays}{{8}{7}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {IV-A}0b}Country Avoidance with Relays}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Avoidability Metrics}{7}}
-\newlabel{metrics}{{\unhbox \voidb@x \hbox {IV-B}}{7}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Avoidability Algorithm\relax }}{8}}
-\newlabel{avoid_algo}{{1}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Avoidability Metrics}{8}}
+\newlabel{metrics}{{\unhbox \voidb@x \hbox {IV-B}}{8}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {IV-B}0a}Avoidability metric}{8}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {IV-B}0b}Avoidability algorithm with open resolvers}{8}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {IV-B}0c}Avoidability algorithm with relays}{8}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {IV-B}0d}Upper bound on avoidability}{8}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Avoidance Upper Bound Algorithm\relax }}{8}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Avoidability Algorithm (with relays). This is the method to calculate the avoidability of a given country when using relays. $paths1$ is the set of country-level paths from client vantage points to relays, $paths2$ is the set of country-level paths from relays to destination domains.\relax }}{8}}
+\newlabel{avoid_algo}{{1}{8}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Avoidance Upper Bound Algorithm. This is the method used to calculate the upper bound on avoidance when using relays. For example, if a domain is solely hosted in a single country, then that country is unavoidable --- this algorithm takes this case into account.\relax }}{8}}
 \newlabel{upperbound_algo}{{2}{8}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Results}{8}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}1}Avoidance with Open Resolvers}{8}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}2}Avoidance with Relays}{8}}
 \@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Avoidance values for different techniques of country avoidance. The upper bound on avoidance is 1.0 in most cases, but not all. It is common for some European countries to host a domain, and therefore the upper bound is slightly lower than 1.0. The upper bound on avoidance of the United States is significantly lower than the upper bound on avoidance for any other country; .886, .790, .844, and .765 are the upper bounds on avoidance of the United States for paths originating in Brazil, Netherlands, India, and Kenya, respectively.\relax }}{9}}
 \newlabel{tab:avoid}{{III}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}2}Avoidance with Relays}{9}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}3}Comparing Avoidance Techniques}{9}}
 \@writefile{toc}{\contentsline {section}{\numberline {V}RAN{}: Routing Around Nation-States}{9}}
 \newlabel{system_design}{{V}{9}}
@@ -133,10 +133,6 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Threat Model}{10}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Design Goals}{10}}
 \newlabel{goals}{{\unhbox \voidb@x \hbox {V-C}}{10}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-C}0a}Country Avoidance}{10}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-C}0b}Usability}{10}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-C}0c}Scalability}{10}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-C}0d}Non-goals}{10}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-D}}Periodic Path Measurement}{10}}
 \@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces RAN{} architecture.\relax }}{11}}
 \newlabel{fig:arch}{{9}{11}}
@@ -144,37 +140,35 @@
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-D}0b}Relay-to-Client Paths}{11}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-D}0c}Relay-to-Server Paths}{11}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-D}0d}Client-to-Server Paths}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-E}}PAC File Generation}{11}}
-\newlabel{multiplex}{{\unhbox \voidb@x \hbox {V-E}}{11}}
 \newlabel{lst:pac}{{1}{11}}
 \@writefile{lol}{\contentsline {lstlisting}{\numberline {1}Example PAC file.}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-E}}PAC File Generation}{11}}
+\newlabel{multiplex}{{\unhbox \voidb@x \hbox {V-E}}{11}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-F}}Scalability and Fault Tolerance}{11}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-F}0a}Adding relays and oracles}{11}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-F}0b}Failed relays and oracles}{11}}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The locations and ASNs for RAN{} relays.\relax }}{12}}
 \newlabel{fig:relay_locations}{{10}{12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-G}}Implementation}{12}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-F}0b}Failed relays and oracles}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-G}}Implementation and Deployment}{12}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-G}0a}Relays}{12}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-G}0b}Oracle}{12}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {V-G}0c}Client}{12}}
-\@writefile{toc}{\contentsline {section}{\numberline {VI}Evaluation}{12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-A}}Country Avoidance}{12}}
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The effect of the number of relays on avoidance, for a client in the Netherlands. We tested RAN{} with up to nine relays.\relax }}{12}}
 \newlabel{fig:avoidance_eval}{{11}{12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-B}}Performance}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Evaluation}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-A}}Country Avoidance}{12}}
 \citation{andersen2001resilient}
 \citation{andersen2001resilient}
 \citation{andersen2001resilient}
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The ratio of RAN throughput to direct throughput. The points on the graph show measurements from the Resilient Overlay Networks (RON~\cite  {andersen2001resilient}) system and thus represent the performance of overlay network that is solely designed to improve reliability.\relax }}{13}}
 \newlabel{fig:throughput}{{12}{13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-C}}Storage and Measurement Costs}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-B}}Performance}{13}}
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Time to First Byte for RAN{} and direct paths.\relax }}{13}}
 \newlabel{fig:latency}{{13}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-C}}Storage and Measurement Costs}{13}}
 \@writefile{toc}{\contentsline {section}{\numberline {VII}Discussion}{13}}
 \newlabel{sec:discussion}{{VII}{13}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {VII-}0a}Avoiding multiple countries}{13}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {VII-}0b}Evolution over time}{13}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {VII-}0c}Isolating DNS diversity vs. path diversity}{13}}
 \bibstyle{IEEEtranS}
 \bibdata{sigproc}
 \bibcite{andersen2001resilient}{1}
@@ -203,16 +197,18 @@
 \bibcite{france_surveillance}{24}
 \bibcite{gao2001inferring}{25}
 \bibcite{gelernter2016two}{26}
-\bibcite{gill2010dude}{27}
-\bibcite{mitm_isp}{28}
-\bibcite{guo2009mining}{29}
-\bibcite{gupta2014peering}{30}
-\bibcite{he2004quantifying}{31}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {VII-}0b}Evolution over time}{14}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {VII-}0c}Isolating DNS diversity vs. path diversity}{14}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {VII-}0d}ISPs controlling country avoidance}{14}}
 \@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {VII-}0e}Additional RAN{} features}{14}}
 \@writefile{toc}{\contentsline {section}{\numberline {VIII}Conclusion}{14}}
 \newlabel{conclusion}{{VIII}{14}}
 \@writefile{toc}{\contentsline {section}{References}{14}}
+\bibcite{gill2010dude}{27}
+\bibcite{mitm_isp}{28}
+\bibcite{guo2009mining}{29}
+\bibcite{gupta2014peering}{30}
+\bibcite{he2004quantifying}{31}
 \bibcite{he2005routing}{32}
 \bibcite{brazil_history}{33}
 \bibcite{hu2012towards}{34}
@@ -253,8 +249,8 @@
 \bibcite{zhang2011scion}{69}
 \bibcite{levin_detour}{70}
 \bibcite{zhou2007chinese}{71}
-\@writefile{toc}{\contentsline {section}{Appendix~A}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Avoidance plot for vantage point in Brazil. The lower limit bar represents the current fraction of paths that can avoid the country on the x axis, the blue dot represents the fraction of paths that can avoid the country using open DNS resolvers, the red dot represents the fraction of paths that can avoid the country using overlay network relays, and the upper limit bar represents the upper bound on avoidability for that country.\relax }}{16}}
-\newlabel{fig:avoid_new_br}{{14}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Avoidance plot for vantage point in Kenya. The lower limit bar represents the current fraction of paths that can avoid the country on the x axis, the blue dot represents the fraction of paths that can avoid the country using open DNS resolvers, the red dot represents the fraction of paths that can avoid the country using overlay network relays, and the upper limit bar represents the upper bound on avoidability for that country.\relax }}{16}}
-\newlabel{fig:avoid_new_ke}{{15}{16}}
+\@writefile{toc}{\contentsline {section}{Appendix~A}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Avoidance plot for vantage point in Brazil. The lower limit bar represents the current fraction of paths that can avoid the country on the x axis, the blue dot represents the fraction of paths that can avoid the country using open DNS resolvers, the red dot represents the fraction of paths that can avoid the country using overlay network relays, and the upper limit bar represents the upper bound on avoidability for that country.\relax }}{17}}
+\newlabel{fig:avoid_new_br}{{14}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Avoidance plot for vantage point in Kenya. The lower limit bar represents the current fraction of paths that can avoid the country on the x axis, the blue dot represents the fraction of paths that can avoid the country using open DNS resolvers, the red dot represents the fraction of paths that can avoid the country using overlay network relays, and the upper limit bar represents the upper bound on avoidability for that country.\relax }}{17}}
+\newlabel{fig:avoid_new_ke}{{15}{17}}

@@ -104,16 +104,17 @@ restrictions, we could not use all of the probes in each country.  We
 selected the set of probes that had unique ASes in the country to get
 the widest representation of origination (starting) points.
 
-We used the Alexa Top 100 domains in each of the respective countries as our
-destinations, as well as the third-party domains that are requested as part of
-an original web request.  For a smaller set of vantage points, we compared the
-country-level paths to the top 100 domains and to those from the vantage
-points to the top 1000 domains. The proportion of paths that transited (and
+To determine how many destinations are representative of the popular sites that 
+client's access, we first compare the country-level paths from a small set of vantage 
+poitns to the Alexa Top 100 domains 
+ and to the Alexa Top 1000 domains.  The proportion of paths that transited (and
 ended in) each country are similar in both cases; the paths to the top 1000
 domains exhibit a longer tail of countries that transit or host content,
 likely because these domains are less popular and therefore hosted in more
 obscure locations. Otherwise, the results are similar.  This comparison can be 
-seen in Figure \ref{fig:compare_alexas}.
+seen in Figure \ref{fig:compare_alexas}.  Therefore, we used the Alexa Top 100 
+domains in each of the respective countries as our destinations, as well as the third-party 
+domains that are requested as part of an original web request. 
 
 \begin{figure}[t]
 \centering
@@ -147,17 +148,15 @@ particularly for IP addresses that correspond to Internet infrastructure, as opp
 to end hosts.  Fortunately, previous work has found that
 geolocation at a country-level granularity is more accurate than at
 finer granularity~\cite{huffaker2011geocompare}.  In light of these
-concerns, we post-processed our IP to country mapping
-by removing all IP addresses that resulted in a `None' response when
+concerns, we post-processed our IP to country mapping; Figure~\ref{fig:analysis_pipeline} shows an example of this
+post-processing.  The method starts with removing all IP addresses that resulted in a `None' response when
 querying MaxMind, which causes our results to provide a conservative
 estimate of the number of countries that paths traverse. It is important
 to note that removing `None' responses will \textit{always} produce a
 conservative estimate.
 %JEN: removed to deemphasize surveillance as the primary interest
 %, and therefore we are \textit{always}
-%underestimating the amount of potential surveillance.  
-Figure~\ref{fig:analysis_pipeline} shows an example of this
-post-processing. 
+%underestimating the amount of potential surveillance.   
 
 \subsection{Results}
 
@@ -281,9 +280,7 @@ the presence of large Internet Exchange Points (\ie, LINX, AMS-IX).
 Mauritius, South Africa, and the United Arab Emirates transit 32\%,
 33\%, and 15\% of paths from Kenya.  There are direct underwater cables
 from Kenya to Mauritius, and from Mauritius to South
-Africa~\cite{cablemap}.  Additionally, a cable from Mombasa,
-Kenya to Fujairah, United Arab Emirates likely explains why many
-paths include these countries. 
+Africa~\cite{cablemap}.
 
 
 
@@ -317,9 +314,9 @@ policy or legal aspect, either.
 
 Tromboning paths that originate in Kenya most commonly traverse Mauritius,
 which is expected considering the submarine cables between Kenya and
-Mauritius.  The topology of submarine cables may also explain why we observe
-South Africa, Tanzania, and the United Arab Emirates on many tromboning paths
-from Kenya.
+Mauritius.  Additionally, a cable from Mombasa,
+Kenya to Fujairah, United Arab Emirates likely explains why many
+paths include these countries. 
 
   %Traffic that should be kept local is susceptible to surveillance because it transits two well-known surveillance states.  
 
@@ -333,7 +330,7 @@ often transit the U.S. The results from
 studying paths that originate in the United States are drastically different from
 those
 of the other four countries.  The majority of locally popular content in these countries
-is hosted outside of the respective country, which is shown in Table \ref{tab:hosts}; in contrast, the United States hosts
+is hosted outside of the respective country, which is shown in Table~\ref{tab:host}; in contrast, the United States hosts
 97\% of the
 content that is accessed from within the country.  Only 13 unique countries
 are ever on a path from the United States to a domain in the top 100 (or third party

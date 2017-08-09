@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 AUG 2017 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 AUG 2017 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1701,10 +1701,10 @@ File: ./figures/Analysis-Pipeline1.pdf Graphic file (type pdf)
 
 <use ./figures/Analysis-Pipeline1.pdf>
 Package pdftex.def Info: ./figures/Analysis-Pipeline1.pdf used on input line 12
-0.
+1.
 (pdftex.def)             Requested size: 262.04987pt x 113.16685pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 120--121
+Overfull \hbox (9.0pt too wide) in paragraph at lines 121--122
  [][] 
  []
 
@@ -1712,10 +1712,10 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 120--121
 File: ./figures/compare_100_100.png Graphic file (type png)
 
 <use ./figures/compare_100_100.png>
-Package pdftex.def Info: ./figures/compare_100_100.png used on input line 135.
+Package pdftex.def Info: ./figures/compare_100_100.png used on input line 136.
 (pdftex.def)             Requested size: 262.04987pt x 70.27412pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 135--136
+Overfull \hbox (9.0pt too wide) in paragraph at lines 136--137
  [][] 
  []
 
@@ -2154,19 +2154,25 @@ Overfull \hbox (3.98613pt too wide) detected at line 61
 $\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 003$ 
  []
 
-) [4 <./figures/Analysis-Pipeline1.pdf> <./figures/compare_100_100.png>]
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./figures/Analysis-Pipeline1.pdf> <./figures/compare_100_100.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 <./figures/domain_hist_US1.pdf, id=77, 361.35pt x 216.81pt>
 File: ./figures/domain_hist_US1.pdf Graphic file (type pdf)
 
 <use ./figures/domain_hist_US1.pdf>
-Package pdftex.def Info: ./figures/domain_hist_US1.pdf used on input line 203.
+Package pdftex.def Info: ./figures/domain_hist_US1.pdf used on input line 202.
 (pdftex.def)             Requested size: 202.44066pt x 121.4657pt.
 
 <./figures/nl_trombone_new11.pdf, id=78, 289.08pt x 216.81pt>
 File: ./figures/nl_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/nl_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 212
+Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 211
 .
 (pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
 
@@ -2174,7 +2180,7 @@ Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 212
 File: ./figures/br_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/br_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 216
+Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 215
 .
 (pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
 
@@ -2182,23 +2188,20 @@ Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 216
 File: ./figures/ke_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/ke_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 220
+Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 219
 .
 (pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
-
-<./figures/compare_cctld.png, id=81, 219.7008pt x 219.7008pt>
+ [5 <./figures/domain_hist_US1.pdf>]
+<./figures/compare_cctld.png, id=103, 219.7008pt x 219.7008pt>
 File: ./figures/compare_cctld.png Graphic file (type png)
 
 <use ./figures/compare_cctld.png>
-Package pdftex.def Info: ./figures/compare_cctld.png used on input line 261.
+Package pdftex.def Info: ./figures/compare_cctld.png used on input line 260.
 (pdftex.def)             Requested size: 209.63669pt x 209.64651pt.
- [5 <./figures/domain_hist_US1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 []\OT1/ptm/m/n/10 The United
  []
-
-
-LaTeX Warning: Reference `tab:hosts' on page 6 undefined on input line 336.
 
 [6 <./figures/nl_trombone_new11.pdf> <./figures/br_trombone_new11.pdf
 
@@ -2229,35 +2232,38 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
-[7 <./figures/Country-Avoidance-Resolvers.pdf> <./figures/Country-Avoidance-Rel
-ays.pdf
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./figures/Country-Avoidance-Resolvers.pdf> <./figures/Country-Avoidance-Re
+lays.pdf
 
 pdfTeX warning: pdflatex (file ./figures/Country-Avoidance-Relays.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 226--230
+Underfull \hbox (badness 10000) in paragraph at lines 232--236
 []\OT1/ptm/m/n/10 Using open
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 279--282
+Underfull \hbox (badness 10000) in paragraph at lines 285--288
 []\OT1/ptm/m/n/10 Clients in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--301
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
 []\OT1/ptm/m/n/10 Using re-lays
  []
 
-) (./system_design.tex [9] (./design_goals.tex)
-<./figures/system_overview_updated-3.pdf, id=237, 399.4925pt x 220.825pt>
+) (./system_design.tex [9] (./design_goals.tex) [10]
+<./figures/system_overview_updated-3.pdf, id=241, 399.4925pt x 220.825pt>
 File: ./figures/system_overview_updated-3.pdf Graphic file (type pdf)
 
 <use ./figures/system_overview_updated-3.pdf>
 Package pdftex.def Info: ./figures/system_overview_updated-3.pdf used on input 
 line 112.
 (pdftex.def)             Requested size: 253.04987pt x 139.87862pt.
- [10] (./example_pac.pac
+ (./example_pac.pac
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -2265,16 +2271,15 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
-))
-(./implementation.tex [11 <./figures/system_overview_updated-3.pdf>]
-<./figures/relay_map.png, id=269, 588.69937pt x 313.17pt>
+) [11 <./figures/system_overview_updated-3.pdf>]) (./implementation.tex
+<./figures/relay_map.png, id=270, 588.69937pt x 313.17pt>
 File: ./figures/relay_map.png Graphic file (type png)
 
 <use ./figures/relay_map.png>
-Package pdftex.def Info: ./figures/relay_map.png used on input line 23.
+Package pdftex.def Info: ./figures/relay_map.png used on input line 24.
 (pdftex.def)             Requested size: 209.63669pt x 111.51779pt.
 ) (./evaluation.tex
-<./figures/avoidance_n_relays.pdf, id=270, 361.35pt x 361.35pt>
+<./figures/avoidance_n_relays.pdf, id=271, 361.35pt x 361.35pt>
 File: ./figures/avoidance_n_relays.pdf Graphic file (type pdf)
 
 <use ./figures/avoidance_n_relays.pdf>
@@ -2287,7 +2292,7 @@ Overfull \hbox (9.00212pt too wide) in paragraph at lines 23--25
  []
 
 [12 <./figures/relay_map.png> <./figures/avoidance_n_relays.pdf>]
-<./figures/throughput.pdf, id=292, 361.35pt x 216.81pt>
+<./figures/throughput.pdf, id=293, 361.35pt x 216.81pt>
 File: ./figures/throughput.pdf Graphic file (type pdf)
 
 <use ./figures/throughput.pdf>
@@ -2298,7 +2303,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 68--72
  [][] 
  []
 
-<./figures/latency.pdf, id=293, 361.35pt x 216.81pt>
+<./figures/latency.pdf, id=294, 361.35pt x 216.81pt>
 File: ./figures/latency.pdf Graphic file (type pdf)
 
 <use ./figures/latency.pdf>
@@ -2309,16 +2314,16 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
-) (./discussion.tex
+) (./discussion.tex [13 <./figures/throughput.pdf> <./figures/latency.pdf
+
+pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+>]
 Underfull \hbox (badness 1895) in paragraph at lines 32--37
 \OT1/ptm/m/n/10 in-cludes mod-i-fy-ing RAN to be im-ple-mented within an
  []
 
-[13 <./figures/throughput.pdf> <./figures/latency.pdf
-
-pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
->]) (./conclusion.tex) (./bare_NDSS.bbl
+) (./conclusion.tex) (./bare_NDSS.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 55--57
 []\OT1/ptm/m/n/8 ``Brazil Builds In-ter-net Ca-ble To Por-tu-gal To
  []
@@ -2383,7 +2388,7 @@ Overfull \hbox (28.02306pt too wide) in paragraph at lines 139--142
 to-[]mass-[]surveillance-[]globally/$. 
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 160--162
 \OT1/ptm/m/n/8 SSL,'' $http : / / www . csoonline . com / article / 2865806 / c
 loud-[]security /
@@ -2395,7 +2400,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--162
 dle-[]with-[]fake-[]ssl .
  []
 
-[14]
+
 Underfull \hbox (badness 10000) in paragraph at lines 203--205
 []\OT1/ptm/m/n/8 ``Investigatory Pow-ers Bill: Snooper's Char-ter Lacks Clar-it
 y,
@@ -2441,9 +2446,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--266
  []
 
 
-Underfull \vbox (badness 1270) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 307--311
 []\OT1/ptm/m/n/8 ``Promoting the Use of In-ter-net Ex-change Points (IXPs):
  []
@@ -2470,7 +2472,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 335--337
 []\OT1/ptm/m/n/8 ``TeleGeography Sub-ma-rine Ca-ble Map,'' $http : / / www .
  []
 
-) <./figures/avoidance_new_br.png, id=320, 634.5306pt x 179.9523pt>
+[15]) <./figures/avoidance_new_br.png, id=323, 634.5306pt x 179.9523pt>
 File: ./figures/avoidance_new_br.png Graphic file (type png)
 
 <use ./figures/avoidance_new_br.png>
@@ -2478,7 +2480,7 @@ Package pdftex.def Info: ./figures/avoidance_new_br.png used on input line 568.
 
 (pdftex.def)             Requested size: 471.68657pt x 133.77492pt.
 
-<./figures/avoidance_new_ke.png, id=321, 634.5306pt x 179.9523pt>
+<./figures/avoidance_new_ke.png, id=324, 634.5306pt x 179.9523pt>
 File: ./figures/avoidance_new_ke.png Graphic file (type png)
 
 <use ./figures/avoidance_new_ke.png>
@@ -2497,17 +2499,19 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[15] [16 <./figures/avoidance_new_br.png> <./figures/avoidance_new_ke.png>]
+[16
+
+] [17 <./figures/avoidance_new_br.png> <./figures/avoidance_new_ke.png>]
 (./bare_NDSS.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 29231 strings out of 493014
- 577823 string characters out of 6133351
- 617621 words of memory out of 5000000
- 32226 multiletter control sequences out of 15000+600000
+ 29230 strings out of 493014
+ 577812 string characters out of 6133351
+ 619820 words of memory out of 5000000
+ 32225 multiletter control sequences out of 15000+600000
  54957 words of font info for 118 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,13n,81p,10383b,1538s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2530,10 +2534,10 @@ ts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_NDSS.pdf (16 pages, 2225709 bytes).
+Output written on bare_NDSS.pdf (17 pages, 2226736 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 267 compressed objects within 3 object streams
+ 386 PDF objects out of 1000 (max. 8388607)
+ 269 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
