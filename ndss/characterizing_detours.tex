@@ -4,15 +4,6 @@ In this section, we describe our measurement methods, the challenges in
 conducting them, and our findings concerning the transnational detours
 of default Internet paths.
 
-\begin{figure*}[t]
-\centering
-\includegraphics[width=.9\textwidth]{Current-Traffic_fig}
-\caption{Measurement pipeline to study Internet paths from countries to
-  popular domains.}
-\label{fig:pipeline1}
-\end{figure*}
-
-
 \subsection{Measurement Approach and Challenges}
 \label{pipeline}
 
@@ -22,9 +13,9 @@ Internet paths from our respective vantage points to various domains. We first u
 VPNs
 to establish various vantage points in the countries of interest; then, we use 
 {\tt curl} to download corresponding webpages for each of those popular domains,
-including all subdomains that are embedded in the site's top-level webpage. We extract
-all of these domain names and resolve them to their corresponding IP addresses;
-we then perform traceroutes to each of those IP addresses.
+including all subdomains that are embedded in the site's top-level webpage (1,2). We extract
+all of these domain names (3) and resolve them to their corresponding IP addresses (4);
+we then perform traceroutes to each of those IP addresses (5).
 Figure~\ref{fig:analysis_pipeline} describes how we translate an IP-level traceroute
 to a country-level path. We geolocate each IP address, removing unknown hops; we
 then de-duplicate the country-level path. Although it is seemingly straightforward,

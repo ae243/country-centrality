@@ -14,16 +14,18 @@ shapers) throttle network traffic speeds.
 
 An increasing number of countries have passed laws that facilitate mass
 surveillance of networks within their territory~\cite{france_surveillance,
-netherlands_surveillance, kazak_surveillance, uk_bill}. Governments and
+netherlands_surveillance, kazak_surveillance, uk_bill}. While governments and
 citizens alike may want to divert their Internet traffic from countries that
 perform surveillance (notably, the United States~\cite{russia_secure_internet,
-routing_errors, dte}).   Additionally, previous work has shown that tromboning
+routing_errors, dte}), this is a challenging problem with no known, effective 
+solutions.   Additionally, previous work has shown that tromboning
 paths---paths that start and end in the same country, but also traverse a
 foreign country--- are common~\cite{shah2015characterizing, gupta2014peering};
 both users and ISPs may wish to prevent these international detours for
 performance and cost reasons.
 
-Defending against these activities requires not only encryption, but
+With the increasing pervasiveness of encryption (and the efforts of Let's Encrypt), 
+Internet security is improving, but defending against large-scale surveillance activities requires not only encryption, but
 also mechanisms for controlling where traffic goes in the first place:
 end-to-end 
 encryption conceals some information content, but it does not protect
@@ -52,8 +54,8 @@ documents leaked from the National Security Agency (NSA) and Government Communic
 Headquarters (GCHQ): ``A 10-year NSA program against encryption technologies made a breakthrough in 2010 which made `vast amounts' of data collected through internet cable taps newly `exploitable'''~\cite{encryption_forward}.
 
 In this paper, we study two questions: (1)~Which countries do {\em   default}
-Internet routing paths traverse?; (2)~What methods can  help governments and
-citizens better control transnational Internet paths?  We {\em actively
+Internet routing paths traverse?; (2)~What methods can  help governments (or citizens, 
+ISPs, etc.) better control transnational Internet paths?  We {\em actively
 measure} the paths originating in twenty countries to the most popular
 websites in each of these respective countries.
 Our analysis in this paper focuses on five countries---Brazil, Netherlands,
@@ -82,8 +84,9 @@ Top~1000 domains for each country; we directly measure the paths not only to
 the websites corresponding to themselves, but also to the sites hosting any
 third-party content on each of these sites.
 
-Even with the benefit of direct measurements, determining which countries a
-client's traffic traverses is challenging, for several reasons.  First,
+While using direct measurements provides these benefits, there are a number of 
+challenges associated with determining which countries a
+client's traffic is traversing.  First,
 performing direct measurements is more costly than passive analysis of BGP
 routing tables; RIPE Atlas, in particular, limits the rate at which one can
 perform measurements.  As a result, we had to be strategic about the origins
