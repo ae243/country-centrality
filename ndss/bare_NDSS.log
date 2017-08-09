@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 AUG 2017 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 AUG 2017 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1715,7 +1715,7 @@ File: ./figures/compare_100_100.png Graphic file (type png)
 Package pdftex.def Info: ./figures/compare_100_100.png used on input line 136.
 (pdftex.def)             Requested size: 262.04987pt x 145.11708pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 136--137
+Overfull \hbox (9.0pt too wide) in paragraph at lines 136--138
  [][] 
  []
 
@@ -2159,14 +2159,14 @@ $\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 003$
 File: ./figures/domain_hist_US1.pdf Graphic file (type pdf)
 
 <use ./figures/domain_hist_US1.pdf>
-Package pdftex.def Info: ./figures/domain_hist_US1.pdf used on input line 202.
+Package pdftex.def Info: ./figures/domain_hist_US1.pdf used on input line 203.
 (pdftex.def)             Requested size: 202.44066pt x 121.4657pt.
 
 <./figures/nl_trombone_new11.pdf, id=78, 289.08pt x 216.81pt>
 File: ./figures/nl_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/nl_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 211
+Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 212
 .
 (pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
 
@@ -2174,7 +2174,7 @@ Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 211
 File: ./figures/br_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/br_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 215
+Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 216
 .
 (pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
 
@@ -2182,18 +2182,18 @@ Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 215
 File: ./figures/ke_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/ke_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 219
+Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 220
 .
 (pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
  [5 <./figures/domain_hist_US1.pdf>]
-<./figures/compare_cctld.png, id=103, 219.7008pt x 219.7008pt>
+<./figures/compare_cctld.png, id=103, 256.99213pt x 154.6578pt>
 File: ./figures/compare_cctld.png Graphic file (type png)
 
 <use ./figures/compare_cctld.png>
-Package pdftex.def Info: ./figures/compare_cctld.png used on input line 260.
-(pdftex.def)             Requested size: 209.63669pt x 209.64651pt.
+Package pdftex.def Info: ./figures/compare_cctld.png used on input line 261.
+(pdftex.def)             Requested size: 209.63669pt x 126.16179pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 []\OT1/ptm/m/n/10 The United
  []
 
@@ -2226,15 +2226,15 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
-
-Underfull \vbox (badness 1715) has occurred while \output is active []
-
- [7 <./figures/Country-Avoidance-Resolvers.pdf> <./figures/Country-Avoidance-Re
-lays.pdf
+[7 <./figures/Country-Avoidance-Resolvers.pdf> <./figures/Country-Avoidance-Rel
+ays.pdf
 
 pdfTeX warning: pdflatex (file ./figures/Country-Avoidance-Relays.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
+Underfull \vbox (badness 3158) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 232--236
 []\OT1/ptm/m/n/10 Using open
  []
@@ -2466,22 +2466,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 335--337
 []\OT1/ptm/m/n/8 ``TeleGeography Sub-ma-rine Ca-ble Map,'' $http : / / www .
  []
 
-[15]) <./figures/avoidance_new_br.png, id=323, 634.5306pt x 179.9523pt>
-File: ./figures/avoidance_new_br.png Graphic file (type png)
-
-<use ./figures/avoidance_new_br.png>
-Package pdftex.def Info: ./figures/avoidance_new_br.png used on input line 568.
-
-(pdftex.def)             Requested size: 471.68657pt x 133.77492pt.
-
-<./figures/avoidance_new_ke.png, id=324, 634.5306pt x 179.9523pt>
-File: ./figures/avoidance_new_ke.png Graphic file (type png)
-
-<use ./figures/avoidance_new_ke.png>
-Package pdftex.def Info: ./figures/avoidance_new_ke.png used on input line 579.
-
-(pdftex.def)             Requested size: 471.68657pt x 133.77492pt.
-
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -2493,19 +2478,19 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[16
-
-] [17 <./figures/avoidance_new_br.png> <./figures/avoidance_new_ke.png>]
-(./bare_NDSS.aux)
+[15] (./bare_NDSS.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 29230 strings out of 493014
- 577812 string characters out of 6133351
- 619822 words of memory out of 5000000
- 32225 multiletter control sequences out of 15000+600000
+ 29217 strings out of 493014
+ 577445 string characters out of 6133351
+ 619528 words of memory out of 5000000
+ 32214 multiletter control sequences out of 15000+600000
  54957 words of font info for 118 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,13n,81p,10383b,1538s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2528,10 +2513,10 @@ ts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_NDSS.pdf (17 pages, 2320061 bytes).
+Output written on bare_NDSS.pdf (15 pages, 2314417 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
+ 376 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
