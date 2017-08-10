@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 AUG 2017 09:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 AUG 2017 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1544,40 +1544,47 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-\c@finding=\count269
+(/usr/local/texlive/2016/texmf-dist/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen329
+)
+\@input{sigproc.aux}
+\openout2 = `sigproc.aux'.
 
+No file sigproc.tex.
+\c@finding=\count269
 (./bare_NDSS.aux)
 \openout1 = `bare_NDSS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 414.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 414.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 416.
+LaTeX Font Info:    ... okay on input line 416.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 416.
+LaTeX Font Info:    ... okay on input line 416.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 416.
+LaTeX Font Info:    ... okay on input line 416.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 416.
+LaTeX Font Info:    ... okay on input line 416.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 416.
+LaTeX Font Info:    ... okay on input line 416.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 416.
+LaTeX Font Info:    ... okay on input line 416.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 416.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 416.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 414.
+LaTeX Font Info:    ... okay on input line 416.
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count270
-\scratchdimen=\dimen329
+\scratchdimen=\dimen330
 \scratchbox=\box78
 \nofMPsegments=\count271
 \nofMParguments=\count272
 \everyMPshowfont=\toks48
 \MPscratchCnt=\count273
-\MPscratchDim=\dimen330
+\MPscratchDim=\dimen331
 \MPnumerator=\count274
 \makeMPintoPDFobject=\count275
 \everyMPtoPDFconversion=\toks49
@@ -1647,24 +1654,26 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count277
-LaTeX Font Info:    Try loading font information for U+msa on input line 414.
+LaTeX Font Info:    Try loading font information for U+msa on input line 416.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 414.
+LaTeX Font Info:    Try loading font information for U+msb on input line 416.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count278
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 484.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 486.
 
 
 LaTeX Warning: No \author given.
 
 (./abstract.tex) (./intro.tex [1{/usr/local/texlive/2016/texmf-var/fonts/map/pd
 ftex/updmap/pdftex.map}
+
+
 
 
 ]) (./related_work.tex
@@ -1675,7 +1684,11 @@ File: ./figures/Current-Traffic_fig.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/Current-Traffic_fig.pdf used on input line 6
 .
 (pdftex.def)             Requested size: 471.68657pt x 86.38092pt.
- [2]
+
+Overfull \vbox (1.37239pt too high) has occurred while \output is active []
+
+
+[2]
 Underfull \hbox (badness 2875) in paragraph at lines 69--91
  []\OT1/ptm/m/it/10 Circumvention sys-tems: [][] \OT1/ptm/m/n/10 Cer-tain tools
 , such as
@@ -1688,7 +1701,11 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 15.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [3 <./figures/Current-Traffic_fig.pdf>]
+)
+Overfull \vbox (20.64835pt too high) has occurred while \output is active []
+
+
+[3 <./figures/Current-Traffic_fig.pdf>]
 <./figures/Analysis-Pipeline1.pdf, id=52, 309.155pt x 133.49875pt>
 File: ./figures/Analysis-Pipeline1.pdf Graphic file (type pdf)
 
@@ -2211,6 +2228,10 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
+
+Overfull \vbox (1.21768pt too high) has occurred while \output is active []
+
+
 [7 <./figures/nl_trombone_new11.pdf> <./figures/br_trombone_new11.pdf
 
 pdfTeX warning: pdflatex (file ./figures/br_trombone_new11.pdf): PDF inclusion:
@@ -2219,7 +2240,7 @@ pdfTeX warning: pdflatex (file ./figures/br_trombone_new11.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex (file ./figures/ke_trombone_new11.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
-> <./figures/compare_cctld.png> <./figures/Country-Avoidance-Resolvers.pdf
+> <./figures/Country-Avoidance-Resolvers.pdf
 
 pdfTeX warning: pdflatex (file ./figures/Country-Avoidance-Resolvers.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
@@ -2227,13 +2248,14 @@ inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./figures/Country-Avoidance-Relays.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->]
-Underfull \vbox (badness 1424) has occurred while \output is active []
-
-
+> <./figures/compare_cctld.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 232--236
 []\OT1/ptm/m/n/10 Using open
  []
+
+
+Overfull \vbox (2.12181pt too high) has occurred while \output is active []
+
 
 [8]
 Underfull \hbox (badness 10000) in paragraph at lines 285--288
@@ -2245,7 +2267,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--307
 []\OT1/ptm/m/n/10 Using re-lays
  []
 
-) (./system_design.tex [9] (./design_goals.tex)
+) (./system_design.tex
+Overfull \vbox (1.76375pt too high) has occurred while \output is active []
+
+
+[9] (./design_goals.tex)
 <./figures/system_overview_updated-3.pdf, id=237, 399.4925pt x 220.825pt>
 File: ./figures/system_overview_updated-3.pdf Graphic file (type pdf)
 
@@ -2298,27 +2324,29 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
-[12 <./figures/avoidance_n_relays.pdf> <./figures/throughput.pdf
+)) (./implementation.tex
+Overfull \vbox (0.97507pt too high) has occurred while \output is active []
 
-pdfTeX warning: pdflatex (file ./figures/throughput.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
-> <./figures/latency.pdf
 
-pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
->])) (./implementation.tex
-<./figures/relay_map.png, id=310, 588.69937pt x 313.17pt>
+Overfull \vbox (4.4451pt too high) has occurred while \output is active []
+
+
+[12 <./figures/throughput.pdf> <./figures/avoidance_n_relays.pdf
+
+pdfTeX warning: pdflatex (file ./figures/avoidance_n_relays.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>] <./figures/relay_map.png, id=303, 588.69937pt x 313.17pt>
 File: ./figures/relay_map.png Graphic file (type png)
 
 <use ./figures/relay_map.png>
 Package pdftex.def Info: ./figures/relay_map.png used on input line 24.
 (pdftex.def)             Requested size: 209.63669pt x 111.51779pt.
-) (./discussion.tex
+) (./discussion.tex [13 <./figures/relay_map.png> <./figures/latency.pdf>]
 Underfull \hbox (badness 1895) in paragraph at lines 32--37
 \OT1/ptm/m/n/10 in-cludes mod-i-fy-ing RAN to be im-ple-mented within an
  []
 
-[13 <./figures/relay_map.png>]) (./conclusion.tex) (./bare_NDSS.bbl
+) (./conclusion.tex) (./bare_NDSS.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 59--61
 []\OT1/ptm/m/n/8 ``Brazil Builds In-ter-net Ca-ble To Por-tu-gal To
  []
@@ -2394,6 +2422,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--166
 \OT1/ptm/m/n/8 gogo-[]in^^Might-[]internet-[]serves-[]up-[]man-[]in-[]the-[]mid
 dle-[]with-[]fake-[]ssl .
  []
+
+
+Overfull \vbox (5.49998pt too high) has occurred while \output is active []
+
 
 [14]
 Underfull \hbox (badness 10000) in paragraph at lines 207--209
@@ -2481,10 +2513,10 @@ Before submitting the final camera ready copy, remember to:
 
 [15] (./bare_NDSS.aux) ) 
 Here is how much of TeX's memory you used:
- 29217 strings out of 493014
- 577428 string characters out of 6133351
- 618433 words of memory out of 5000000
- 32214 multiletter control sequences out of 15000+600000
+ 29235 strings out of 493014
+ 577795 string characters out of 6133351
+ 619460 words of memory out of 5000000
+ 32228 multiletter control sequences out of 15000+600000
  54957 words of font info for 118 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,13n,81p,10383b,1538s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2508,10 +2540,10 @@ ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on bare_NDSS.pdf (15 pages, 2314073 bytes).
+Output written on bare_NDSS.pdf (15 pages, 2314957 bytes).
 PDF statistics:
  375 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
+ 264 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

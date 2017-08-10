@@ -220,4 +220,18 @@ updated every five days.
 % point the proxy configuration settings to the URL that contains the
 % PAC file.
 
+\subsection{Extending \system{} with Provider Support}
+
+While the current version of \system{} does not include support by content providers, it can be easily, incrementally,
+extended to do so without any fundamental changes to the system.  This would simply require providers (or a 
+CDN) to collect and share traceroute data from their server locations to different client and proxy locations; \system{} 
+would then convert the traceroute data to country level paths and incorporate them into the calculation of the 
+PAC files.  For content hosted in public clouds, we could set up our own VM in those same data centers and have 
+\system{} collect the reverse path traceroute data to use when creating the PAC files.  
+
+Content provider participation beyond gathering traceroute data would be even more beneficial and would lead to 
+more extensive changes to \system{}.  Some of the help that content providers and CDNs could provide include 
+publishing domain names that embed information about which country to avoid, strategically publish DNS records such 
+that clients can take advantage of open DNS resolvers, and replicating content in diverse geographic locations.
+
 \input{evaluation}
