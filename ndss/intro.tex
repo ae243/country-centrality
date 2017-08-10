@@ -18,11 +18,10 @@ netherlands_surveillance, kazak_surveillance, uk_bill}. While governments and
 citizens alike may want to divert their Internet traffic from countries that
 perform surveillance (notably, the United States~\cite{russia_secure_internet,
 routing_errors, dte}), this is a challenging problem with no known, effective 
-solutions.   Additionally, previous work has shown that tromboning
+solutions.   Additionally, both users and ISPs may wish to prevent these international detours for
+performance and cost reasons; previous work has shown that tromboning
 paths---paths that start and end in the same country, but also traverse a
-foreign country---are common~\cite{shah2015characterizing, gupta2014peering};
-both users and ISPs may wish to prevent these international detours for
-performance and cost reasons.
+foreign country---are common~\cite{shah2015characterizing, gupta2014peering}.
 
 With the increasing pervasiveness of encryption (and the efforts of Let's Encrypt~\cite{aas2014let}), 
 Internet security is improving, but defending against large-scale surveillance activities requires not only encryption, but
@@ -68,8 +67,7 @@ countries, but it is still thought to rely on connectivity through Europe and
 North America for many destinations, even content that might otherwise be
 local (\eg, local newspapers)~\cite{gupta2014peering,fanou2015diversity,chavula2014quantifying,fanou2016pushing}. We highlight many trends that are common across all
 of the countries we study; we have also released detailed statistics on all twenty
-countries that we measure on the project website and intend to update these on a
-periodic basis.
+countries that we measure on the project website and intend to update these regularly.
 
 In contrast to all previous work in this area, we measure router-level
 forwarding paths, as opposed to analyzing Border Gateway Protocol (BGP)
@@ -156,7 +154,7 @@ Finally, we {\em design, implement, and deploy \system{}, a system that allows
 a client to access web content while avoiding the traversal of a specified
 country} (Section~\ref{system_design}).  We implemented \system{} for
 end-users, 
-but ISPs could also deploy \system{} proxies to provide country
+but ISPs can also deploy \system{} proxies to provide country
 avoidance as a service to its customers.  \system{} uses a series of overlay
 network relays to automatically route a client's traffic around a specified
 country.  We evaluate \system{} to assess its ability to avoid certain
