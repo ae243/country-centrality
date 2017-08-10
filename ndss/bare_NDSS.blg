@@ -8,7 +8,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: sigproc.bib
-Warning--I didn't find a database entry for "wolinsky2012dissen"
 -- IEEEtranS.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -18,43 +17,43 @@ Warning--empty journal in apthorpe2016poster
 Done.
 You've used 72 entries,
             4483 wiz_defined-function locations,
-            1227 strings with 21002 characters,
-and the built_in function-call counts, 53533 in all, are:
-= -- 4630
-> -- 1462
-< -- 303
-+ -- 754
-- -- 368
-* -- 2593
-:= -- 7789
-add.period$ -- 169
+            1226 strings with 20983 characters,
+and the built_in function-call counts, 53538 in all, are:
+= -- 4624
+> -- 1474
+< -- 301
++ -- 760
+- -- 372
+* -- 2592
+:= -- 7781
+add.period$ -- 168
 call.type$ -- 72
-change.case$ -- 426
+change.case$ -- 428
 chr.to.int$ -- 729
 cite$ -- 73
-duplicate$ -- 3577
+duplicate$ -- 3574
 empty$ -- 4393
-format.name$ -- 411
+format.name$ -- 415
 if$ -- 12102
 int.to.chr$ -- 0
 int.to.str$ -- 72
 missing$ -- 651
 newline$ -- 239
 num.names$ -- 94
-pop$ -- 1970
+pop$ -- 1980
 preamble$ -- 1
-purify$ -- 353
+purify$ -- 355
 quote$ -- 2
-skip$ -- 3923
+skip$ -- 3920
 stack$ -- 0
 substring$ -- 2142
-swap$ -- 2483
-text.length$ -- 60
+swap$ -- 2476
+text.length$ -- 58
 text.prefix$ -- 0
 top$ -- 6
 type$ -- 767
 warning$ -- 1
 while$ -- 228
 width$ -- 74
-write$ -- 616
-(There were 2 warnings)
+write$ -- 614
+(There was 1 warning)

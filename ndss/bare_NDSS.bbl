@@ -280,12 +280,6 @@ J.~A. Obar and A.~Clement, ``{Internet Surveillance and Boomerang Routing: A
   \& Emerging Media Track-Annual Conference of the Canadian Communication
   Association (Victoria)}, 2012.
 
-\bibitem{padmanabhan2001investigation}
-V.~N. Padmanabhan and L.~Subramanian, ``{An Investigation of Geographic Mapping
-  Techniques for Internet Hosts},'' in \emph{ACM SIGCOMM Computer Communication
-  Review}, vol.~31, no.~4.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2001,
-  pp. 173--185.
-
 \bibitem{paxson1997end}
 V.~Paxson, ``End-to-end routing behavior in the internet,'' \emph{IEEE/ACM
   transactions on Networking}, vol.~5, no.~5, pp. 601--615, 1997.
@@ -366,6 +360,10 @@ M.~W{\"a}hlisch, T.~C. Schmidt, M.~de~Br{\"u}n, and T.~H{\"a}berlen,
 ``{What ISPs Can See: Clarifying the Technical Landscape of the Broadband
   Privacy Debate},''
   \url{https://www.teamupturn.com/reports/2016/what-isps-can-see}, 2016.
+
+\bibitem{wolinsky2012dissent}
+D.~I. Wolinsky, H.~Corrigan-Gibbs, B.~Ford, and A.~Johnson, ``Dissent in
+  numbers: Making strong anonymity scale.'' in \emph{OSDI}, 2012, pp. 179--182.
 
 \bibitem{zhang2011scion}
 X.~Zhang, H.-C. Hsiao, G.~Hasker, H.~Chan, A.~Perrig, and D.~G. Andersen,

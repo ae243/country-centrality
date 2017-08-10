@@ -67,9 +67,8 @@ communication~\cite{zhang2011scion}; SCION, however, requires fundamental
 changes to the Internet architecture, whereas \system{} is deployable today.
 
 \paragraph{Circumvention systems}  Certain tools, such as anonymous
-communications systems or virtual private networks \cite{nobori2014vpn,dingledine2004tor,piotrowska2017loopix,van2015vuvuzela,
-wolinsky2012dissen,tyagi2016stadium,corrigan2015riposte,kwon2016atom,kwon2016riffle,
-gelernter2016two}, may use a combination of
+communications systems or virtual private networks~\cite{dingledine2004tor,nobori2014vpn,piotrowska2017loopix,van2015vuvuzela,wolinsky2012dissent,tyagi2016stadium,corrigan2015riposte,kwon2016atom,kwon2016riffle,
+gelernter2016two}, use a combination of
 encryption and overlay routing to allow clients to avoid surveillance. Tor is
 an anonymity system that uses three relays and layered encryption to allow
 users to communicate anonymously~\cite{dingledine2004tor}.  In contrast,
@@ -79,7 +78,7 @@ achieve.  Even tools like Tor do not inherently thwart surveillance: Tor is
 vulnerable to traffic correlation attacks and some attacks are possible even
 on encrypted user traffic. VPNGate is a public VPN relay system aimed at
 circumventing national firewalls~\cite{nobori2014vpn}. Unfortunately, VPNGate
-does not allow a client to choose any available VPN, which makes it more
+does not allow a client to choose any available VPN endpoint, which makes it more
 difficult for a user to ensure that traffic avoids a particular part of the
 Internet.  Neither of these systems explicitly avoid countries; thus, they may
 not  be able to avoid surveillance or the laws or jurisdiction of a particular
