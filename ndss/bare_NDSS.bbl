@@ -21,6 +21,10 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{aas2014let}
+J.~Aas, ``Let’s encrypt: Delivering ssl/tls everywhere,'' \emph{Let’s
+  Encrypt}, vol.~18, 2014.
+
 \bibitem{andersen2001resilient}
 D.~Andersen, H.~Balakrishnan, F.~Kaashoek, and R.~Morris, ``Resilient overlay
   networks,'' in \emph{ACM Symposium on Operating Systems Principles (SOSP)},

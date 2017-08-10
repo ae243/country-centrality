@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 AUG 2017 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 AUG 2017 07:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1667,11 +1667,7 @@ LaTeX Warning: No \author given.
 ftex/updmap/pdftex.map}
 
 
-]
-Underfull \vbox (badness 1558) has occurred while \output is active []
-
-)
-(./related_work.tex
+]) (./related_work.tex
 <./figures/Current-Traffic_fig.pdf, id=13, 761.84625pt x 139.52126pt>
 File: ./figures/Current-Traffic_fig.pdf Graphic file (type pdf)
 
@@ -1682,15 +1678,17 @@ Package pdftex.def Info: ./figures/Current-Traffic_fig.pdf used on input line 6
  [2]
 
 LaTeX Warning: Citation `wolinsky2012dissen' on page 3 undefined on input line 
-70.
+72.
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 69--90
+Underfull \hbox (badness 2875) in paragraph at lines 69--92
  []\OT1/ptm/m/it/10 Circumvention sys-tems: [][] \OT1/ptm/m/n/10 Cer-tain tools
 , such as
  []
 
 ) (./characterizing_detours.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 15.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
@@ -2249,15 +2247,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--307
 []\OT1/ptm/m/n/10 Using re-lays
  []
 
-) (./system_design.tex [9] (./design_goals.tex) [10]
-<./figures/system_overview_updated-3.pdf, id=241, 399.4925pt x 220.825pt>
+) (./system_design.tex [9] (./design_goals.tex)
+<./figures/system_overview_updated-3.pdf, id=238, 399.4925pt x 220.825pt>
 File: ./figures/system_overview_updated-3.pdf Graphic file (type pdf)
 
 <use ./figures/system_overview_updated-3.pdf>
 Package pdftex.def Info: ./figures/system_overview_updated-3.pdf used on input 
 line 112.
 (pdftex.def)             Requested size: 253.04987pt x 139.87862pt.
- (./example_pac.pac
+ [10] (./example_pac.pac
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -2317,157 +2315,157 @@ File: ./figures/relay_map.png Graphic file (type png)
 <use ./figures/relay_map.png>
 Package pdftex.def Info: ./figures/relay_map.png used on input line 24.
 (pdftex.def)             Requested size: 209.63669pt x 111.51779pt.
-) (./discussion.tex [13 <./figures/relay_map.png>]
+) (./discussion.tex
 Underfull \hbox (badness 1895) in paragraph at lines 32--37
 \OT1/ptm/m/n/10 in-cludes mod-i-fy-ing RAN to be im-ple-mented within an
  []
 
-) (./conclusion.tex) (./bare_NDSS.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+[13 <./figures/relay_map.png>]) (./conclusion.tex) (./bare_NDSS.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 []\OT1/ptm/m/n/8 ``Brazil Builds In-ter-net Ca-ble To Por-tu-gal To
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 \OT1/ptm/m/n/8 Avoid NSA Surveil-lance,'' $http : / / www . ibtimes . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 []\OT1/ptm/m/n/8 ``Brazil Con-fer-ence will Plot In-ter-net's Fu-ture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 \OT1/ptm/m/n/8 Post NSA Spy-ing,'' $http : / / www . reuters . com / article /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 []\OT1/ptm/m/n/8 ``Brazil to Host Global In-ter-net Sum-mit in On-go-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 \OT1/ptm/m/n/8 Fight Against NSA Surveil-lance,'' $https : / / www . rt . com /
  news /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
 []\OT1/ptm/m/n/8 ``Brazil's Pres-i-dent Tells U.N. That NSA Spy-ing Vi-o-lates
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
 \OT1/ptm/m/n/8 Hu-man Rights,'' $http : / / www . usnews . com / news / article
 s / 2013 / 09 / 24 /
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 108--110
+Underfull \hbox (badness 4967) in paragraph at lines 112--114
 []\OT1/ptm/m/n/8 ``Deutsche Telekom to Push for Na-tional Rout-ing to Cur-tail
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
 \OT1/ptm/m/n/8 Spy-ing,'' $http : / / www . businessweek . com / news / 2013-[]
 10-[]14 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
 \OT1/ptm/m/n/8 Glob-ally,'' $https : / / www . amnesty . org / en / press-[]rel
 eases / 2015 / 09 /
  []
 
 
-Overfull \hbox (28.02306pt too wide) in paragraph at lines 139--142
+Overfull \hbox (28.02306pt too wide) in paragraph at lines 143--146
 \OT1/ptm/m/n/8 france-[]must-[]reject-[]law-[]that-[]gives-[]carte-[]blanche-[]
 to-[]mass-[]surveillance-[]globally/$. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 \OT1/ptm/m/n/8 SSL,'' $http : / / www . csoonline . com / article / 2865806 / c
 loud-[]security /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 \OT1/ptm/m/n/8 gogo-[]in^^Might-[]internet-[]serves-[]up-[]man-[]in-[]the-[]mid
 dle-[]with-[]fake-[]ssl .
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 []\OT1/ptm/m/n/8 ``Investigatory Pow-ers Bill: Snooper's Char-ter Lacks Clar-it
 y,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 \OT1/ptm/m/n/8 MPs Warn,'' $http : / / www . theguardian . com / law / 2016 / f
 eb / 01 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
 []\OT1/ptm/m/n/8 ``Internet-Wide Scan Data Repos-i-tory,'' $https : / / scans .
  io / study /
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 211--215
+Underfull \hbox (badness 1448) in paragraph at lines 215--219
 []\OT1/ptm/m/n/8 A. John-son, C. Wacek, R. Jansen, M. Sherr, and P. Syver-son,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--236
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
 \OT1/ptm/m/n/8 / / www . engadget . com / 2015 / 12 / 05 / kazakhstan-[]interne
 t-[]back-[]door-[]law/$,
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 238--241
+Underfull \hbox (badness 2521) in paragraph at lines 242--245
 \OT1/ptm/m/n/8 Scal-able anonymity re-sis-tant to traf-fic anal-y-sis,'' \OT1/p
 tm/m/it/8 arXiv preprint
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--266
+Underfull \hbox (badness 10000) in paragraph at lines 267--270
 []\OT1/ptm/m/n/8 ``Netherlands New Pro-posal for Drag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--266
+Underfull \hbox (badness 10000) in paragraph at lines 267--270
 \OT1/ptm/m/n/8 net Surveil-lance Un-der-way,'' $https : / / edri . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--311
+Underfull \hbox (badness 10000) in paragraph at lines 311--315
 []\OT1/ptm/m/n/8 ``Promoting the Use of In-ter-net Ex-change Points (IXPs):
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--311
+Underfull \hbox (badness 10000) in paragraph at lines 311--315
 \OT1/ptm/m/n/8 A Guide to Pol-icy, Man-age-ment and Tech-ni-cal Is-sues,''
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--311
+Underfull \hbox (badness 10000) in paragraph at lines 311--315
 \OT1/ptm/m/n/8 https : / / www . internetsociety . org / sites / default / ^^Ll
 es / Promoting \OMS/cmsy/m/n/8 n \OT1/ptm/m/n/8 %20the \OMS/cmsy/m/n/8 n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--329
+Underfull \hbox (badness 10000) in paragraph at lines 330--333
 \OT1/ptm/m/n/8 articles / russia-[]needs-[]more-[]internet-[]security-[]says-[]
 putin-[]1412179448$,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
 []\OT1/ptm/m/n/8 ``TeleGeography Sub-ma-rine Ca-ble Map,'' $http : / / www .
  []
 
@@ -2492,10 +2490,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 29217 strings out of 493014
- 577445 string characters out of 6133351
- 619528 words of memory out of 5000000
- 32214 multiletter control sequences out of 15000+600000
+ 29218 strings out of 493014
+ 577457 string characters out of 6133351
+ 619531 words of memory out of 5000000
+ 32215 multiletter control sequences out of 15000+600000
  54957 words of font info for 118 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,13n,81p,10383b,1538s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2518,7 +2516,7 @@ ts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_NDSS.pdf (15 pages, 2314499 bytes).
+Output written on bare_NDSS.pdf (15 pages, 2314213 bytes).
 PDF statistics:
  376 PDF objects out of 1000 (max. 8388607)
  264 compressed objects within 3 object streams

@@ -16,45 +16,45 @@ Warning--I didn't find a database entry for "wolinsky2012dissen"
 Warning--empty journal in apthorpe2016poster
 
 Done.
-You've used 71 entries,
+You've used 72 entries,
             4483 wiz_defined-function locations,
-            1222 strings with 20920 characters,
-and the built_in function-call counts, 53047 in all, are:
-= -- 4580
-> -- 1455
-< -- 302
-+ -- 751
-- -- 366
-* -- 2572
-:= -- 7696
-add.period$ -- 167
-call.type$ -- 71
-change.case$ -- 422
+            1227 strings with 21002 characters,
+and the built_in function-call counts, 53533 in all, are:
+= -- 4630
+> -- 1462
+< -- 303
++ -- 754
+- -- 368
+* -- 2593
+:= -- 7789
+add.period$ -- 169
+call.type$ -- 72
+change.case$ -- 426
 chr.to.int$ -- 729
-cite$ -- 72
-duplicate$ -- 3539
-empty$ -- 4354
-format.name$ -- 409
-if$ -- 11999
+cite$ -- 73
+duplicate$ -- 3577
+empty$ -- 4393
+format.name$ -- 411
+if$ -- 12102
 int.to.chr$ -- 0
-int.to.str$ -- 71
-missing$ -- 645
-newline$ -- 236
-num.names$ -- 92
-pop$ -- 1957
+int.to.str$ -- 72
+missing$ -- 651
+newline$ -- 239
+num.names$ -- 94
+pop$ -- 1970
 preamble$ -- 1
-purify$ -- 350
+purify$ -- 353
 quote$ -- 2
-skip$ -- 3883
+skip$ -- 3923
 stack$ -- 0
-substring$ -- 2136
-swap$ -- 2462
-text.length$ -- 59
+substring$ -- 2142
+swap$ -- 2483
+text.length$ -- 60
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 756
+type$ -- 767
 warning$ -- 1
-while$ -- 226
-width$ -- 73
-write$ -- 607
+while$ -- 228
+width$ -- 74
+write$ -- 616
 (There were 2 warnings)
