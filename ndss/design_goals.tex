@@ -20,7 +20,10 @@ system works.  This requires a way for clients to automatically and
 seamlessly multiplex between relays (proxies) based on different
 destinations.  \system{} uses a Proxy Autoconfiguration (PAC) file to support this
 function.  PAC files are supported on many types of devices, including mobile 
-devices (smartphones, tablets, etc.).
+devices (smartphones, tablets, etc.).  Additionally, this is a mechanism that 
+is already being used in systems and tools.  Many Internet users that 
+use a VPN have {\it already} used a PAC file; when a user establishes a VPN connection, his 
+device's proxy settings are modified to point to a PAC file.  
 
 \item {\bf Scalability.}  This country avoidance system should be able to scale to 
 large numbers of users.  Therefore, \system{} should be able to handle the addition

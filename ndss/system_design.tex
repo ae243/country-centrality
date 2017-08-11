@@ -28,6 +28,22 @@ of providers.  Because the design does not assume any cooperation from content p
 the system does not (and cannot) always ensure that some Internet path avoids a 
 particular country. 
 
+\subsection{Threat Model}
+
+\system{} addresses an adversary who is restricted to a specific region of the world.  The 
+adversary can be passive, and conduct surveillance, or active, and interfere with traffic. We 
+realize that a country's surveillance capabilities are not limited to the infrastructure within 
+its borders, but a country typically can only interfere and manipulate traffic within its borders. 
+For the purposes of this system, we assume the adversary can only view and manipulate traffic 
+within its borders.
+
+An adversary who taps routers around the world, splices undersea fiber cables, or participates in 
+surveillance in foreign states is out of the scope of this work; while \system{} does not address this 
+type of attacker, \system{} does protect against an attacker whose interference and monitoring 
+capabilities are limited to a specific land mass.
+
+\input{design_goals}
+
 \subsection{Overview}
 \system{} comprises (1)~an overlay network of relays; and (2)~an oracle that
 directs clients to the appropriate relays, as shown in Figure~\ref{fig:arch}.
@@ -59,22 +75,6 @@ the system in more detail.
 %while avoiding a client-specified country.}
 %\label{fig:arch}
 %\end{figure}
-
-\subsection{Threat Model}
-
-\system{} addresses an adversary who is restricted to a specific region of the world.  The 
-adversary can be passive, and conduct surveillance, or active, and interfere with traffic. We 
-realize that a country's surveillance capabilities are not limited to the infrastructure within 
-its borders, but a country typically can only interfere and manipulate traffic within its borders. 
-For the purposes of this system, we assume the adversary can only view and manipulate traffic 
-within its borders.
-
-An adversary who taps routers around the world, splices undersea fiber cables, or participates in 
-surveillance in foreign states is out of the scope of this work; while \system{} does not address this 
-type of attacker, \system{} does protect against an attacker whose interference and monitoring 
-capabilities are limited to a specific land mass.
-
-\input{design_goals}
 
 \subsection{Periodic Path Measurement}
 

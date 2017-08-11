@@ -200,6 +200,13 @@ to an anonymized repository~\cite{ransom_data}.
 the five countries studied are hosted in a single country.  The other half are
 located in two or more different countries. \end{finding} 
 
+\begin{figure}[b]
+\centering
+\includegraphics[width=.4\textwidth]{compare_cctld}
+\caption{Fraction of country code top-level domains that are hosted locally. For example, 46\% of .br domains are hosted in Brazil.}
+\label{fig:cctld_graph}
+\end{figure}
+
 \noindent Hosting diversity reflects how many unique
 countries host a domain.  The more countries host a domain, the greater the
 likelihood that a client can find a path to that site that avoids a certain
@@ -278,13 +285,6 @@ of the 24 are hosted within Kenya.  29 out of 40 {\tt .nl} domains are hosted in
 four of 13 {\tt .in} domains are hosted in India; 18 of 39 {\tt .br} domains are hosted in Brazil.  
 Figure \ref{fig:cctld_graph} shows these results.  As one might expect, all {\tt .gov} domains were hosted in their respective country. 
 
-\begin{figure}[b]
-\centering
-\includegraphics[width=.4\textwidth]{compare_cctld}
-\caption{Fraction of country code top-level domains that are hosted locally. For example, 46\% of .br domains are hosted in Brazil.}
-\label{fig:cctld_graph}
-\end{figure}
-
 \begin{finding}[Transit Traffic]
 The United States and Great Britain are on more paths than any other (foreign) country.
 \end{finding}
@@ -325,7 +325,7 @@ cheaper for competitors and stealing of customers~\cite{ixp_policy}.
 
 Brazilian providers may see one another as competitors and therefore as a
 threat at IXPs, which causes them to peer with international providers instead
-of other local providers.  Additionally, we see Brazilian paths trombone to
+of other local providers~\cite{ixp_policy}.  Additionally, we see Brazilian paths trombone to
 Spain and Italy.  We see Italy often in tromboning paths because Telecom
 Italia Sparkle is one of the top global Internet providers~\cite{bakers}. 
 MaxMind's geolocation sometimes mislabels IP addresses to be in

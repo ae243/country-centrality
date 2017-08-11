@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 AUG 2017 21:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 AUG 2017 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1818,16 +1818,13 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 15.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \vbox (1.68495pt too high) has occurred while \output is active []
+Overfull \vbox (1.88246pt too high) has occurred while \output is active []
 
 
-Overfull \vbox (17.45084pt too high) has occurred while \output is active []
+Overfull \vbox (16.64835pt too high) has occurred while \output is active []
 
 
 [3 <./figures/Current-Traffic_fig.pdf>]
-Underfull \vbox (badness 1024) has occurred while \output is active []
-
-
 <./figures/Analysis-Pipeline1.pdf, id=324, 309.155pt x 133.49875pt>
 File: ./figures/Analysis-Pipeline1.pdf Graphic file (type pdf)
 
@@ -2287,46 +2284,43 @@ Overfull \hbox (3.98613pt too wide) detected at line 61
 $\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 003$ 
  []
 
-) <./figures/domain_hist_US1.pdf, id=381, 361.35pt x 216.81pt>
-File: ./figures/domain_hist_US1.pdf Graphic file (type pdf)
-
-<use ./figures/domain_hist_US1.pdf>
-Package pdftex.def Info: ./figures/domain_hist_US1.pdf used on input line 225.
-(pdftex.def)             Requested size: 202.44066pt x 121.4657pt.
-
-<./figures/nl_trombone_new11.pdf, id=382, 289.08pt x 216.81pt>
-File: ./figures/nl_trombone_new11.pdf Graphic file (type pdf)
-
-<use ./figures/nl_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 234
-.
-(pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
-
-<./figures/br_trombone_new11.pdf, id=383, 289.08pt x 216.81pt>
-File: ./figures/br_trombone_new11.pdf Graphic file (type pdf)
-
-<use ./figures/br_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 238
-.
-(pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
-
-<./figures/ke_trombone_new11.pdf, id=384, 289.08pt x 216.81pt>
-File: ./figures/ke_trombone_new11.pdf Graphic file (type pdf)
-
-<use ./figures/ke_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 242
-.
-(pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
-
-Overfull \vbox (4.2568pt too high) has occurred while \output is active []
-
-
-[5] <./figures/compare_cctld.png, id=402, 256.99213pt x 154.6578pt>
+) <./figures/compare_cctld.png, id=380, 256.99213pt x 154.6578pt>
 File: ./figures/compare_cctld.png Graphic file (type png)
 
 <use ./figures/compare_cctld.png>
-Package pdftex.def Info: ./figures/compare_cctld.png used on input line 283.
+Package pdftex.def Info: ./figures/compare_cctld.png used on input line 205.
 (pdftex.def)             Requested size: 209.63669pt x 126.16179pt.
+
+<./figures/domain_hist_US1.pdf, id=382, 361.35pt x 216.81pt>
+File: ./figures/domain_hist_US1.pdf Graphic file (type pdf)
+
+<use ./figures/domain_hist_US1.pdf>
+Package pdftex.def Info: ./figures/domain_hist_US1.pdf used on input line 232.
+(pdftex.def)             Requested size: 202.44066pt x 121.4657pt.
+ [5 <./figures/compare_cctld.png>]
+<./figures/nl_trombone_new11.pdf, id=398, 289.08pt x 216.81pt>
+File: ./figures/nl_trombone_new11.pdf Graphic file (type pdf)
+
+<use ./figures/nl_trombone_new11.pdf>
+Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 241
+.
+(pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
+
+<./figures/br_trombone_new11.pdf, id=399, 289.08pt x 216.81pt>
+File: ./figures/br_trombone_new11.pdf Graphic file (type pdf)
+
+<use ./figures/br_trombone_new11.pdf>
+Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 245
+.
+(pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
+
+<./figures/ke_trombone_new11.pdf, id=400, 289.08pt x 216.81pt>
+File: ./figures/ke_trombone_new11.pdf Graphic file (type pdf)
+
+<use ./figures/ke_trombone_new11.pdf>
+Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 249
+.
+(pdftex.def)             Requested size: 167.71574pt x 125.78627pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 311--312
 []\OT1/ptm/m/n/10 Brazilian and the
@@ -2343,11 +2337,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 347--348
  []
 
 ) (./avoidance.tex
-Overfull \vbox (2.45032pt too high) has occurred while \output is active []
+Overfull \vbox (11.37782pt too high) has occurred while \output is active []
 
 
 [6 <./figures/domain_hist_US1.pdf>]
-<./figures/Country-Avoidance-Resolvers.pdf, id=447, 320.19624pt x 135.50626pt>
+<./figures/Country-Avoidance-Resolvers.pdf, id=446, 320.19624pt x 135.50626pt>
 File: ./figures/Country-Avoidance-Resolvers.pdf Graphic file (type pdf)
 
 <use ./figures/Country-Avoidance-Resolvers.pdf>
@@ -2355,7 +2349,7 @@ Package pdftex.def Info: ./figures/Country-Avoidance-Resolvers.pdf used on inpu
 t line 35.
 (pdftex.def)             Requested size: 235.84328pt x 99.80989pt.
 
-<./figures/Country-Avoidance-Relays.pdf, id=450, 426.59375pt x 183.68625pt>
+<./figures/Country-Avoidance-Relays.pdf, id=449, 426.59375pt x 183.68625pt>
 File: ./figures/Country-Avoidance-Relays.pdf Graphic file (type pdf)
 
 <use ./figures/Country-Avoidance-Relays.pdf>
@@ -2368,13 +2362,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 54--55
  []
 
 
-Underfull \vbox (badness 1248) has occurred while \output is active []
-
-
-Overfull \vbox (1.18484pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (5.21768pt too high) has occurred while \output is active []
+Overfull \vbox (1.35437pt too high) has occurred while \output is active []
 
 
 [7 <./figures/nl_trombone_new11.pdf> <./figures/br_trombone_new11.pdf
@@ -2385,15 +2373,15 @@ pdfTeX warning: pdflatex (file ./figures/br_trombone_new11.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex (file ./figures/ke_trombone_new11.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
-> <./figures/Country-Avoidance-Resolvers.pdf
-
-pdfTeX warning: pdflatex (file ./figures/Country-Avoidance-Resolvers.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
 > <./figures/Country-Avoidance-Relays.pdf
 
 pdfTeX warning: pdflatex (file ./figures/Country-Avoidance-Relays.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
-> <./figures/compare_cctld.png>]
+> <./figures/Country-Avoidance-Resolvers.pdf
+
+pdfTeX warning: pdflatex (file ./figures/Country-Avoidance-Resolvers.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 113.
 
@@ -2402,15 +2390,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--235
  []
 
 
-Overfull \vbox (4.77184pt too high) has occurred while \output is active []
-
-
-[8]
 Underfull \hbox (badness 10000) in paragraph at lines 284--287
 []\OT1/ptm/m/n/10 Clients in
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 304--306
 []\OT1/ptm/m/n/10 Using re-lays
  []
@@ -2420,14 +2404,18 @@ Overfull \vbox (1.76375pt too high) has occurred while \output is active []
 
 
 [9] (./design_goals.tex)
-<./figures/system_overview_updated-3.pdf, id=609, 399.4925pt x 220.825pt>
+<./figures/system_overview_updated-3.pdf, id=610, 399.4925pt x 220.825pt>
 File: ./figures/system_overview_updated-3.pdf Graphic file (type pdf)
 
 <use ./figures/system_overview_updated-3.pdf>
 Package pdftex.def Info: ./figures/system_overview_updated-3.pdf used on input 
 line 110.
 (pdftex.def)             Requested size: 253.04987pt x 139.87862pt.
- [10] (./example_pac.pac
+
+Overfull \vbox (8.91751pt too high) has occurred while \output is active []
+
+
+[10] (./example_pac.pac
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -2437,7 +2425,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
 )
 (./evaluation.tex
-<./figures/avoidance_n_relays.pdf, id=620, 361.35pt x 361.35pt>
+<./figures/avoidance_n_relays.pdf, id=621, 361.35pt x 361.35pt>
 File: ./figures/avoidance_n_relays.pdf Graphic file (type pdf)
 
 <use ./figures/avoidance_n_relays.pdf>
@@ -2454,7 +2442,7 @@ Overfull \vbox (1.09799pt too high) has occurred while \output is active []
 
 
 [11 <./figures/system_overview_updated-3.pdf>]
-<./figures/throughput.pdf, id=663, 361.35pt x 216.81pt>
+<./figures/throughput.pdf, id=664, 361.35pt x 216.81pt>
 File: ./figures/throughput.pdf Graphic file (type pdf)
 
 <use ./figures/throughput.pdf>
@@ -2465,7 +2453,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 68--72
  [][] 
  []
 
-<./figures/latency.pdf, id=670, 361.35pt x 216.81pt>
+<./figures/latency.pdf, id=671, 361.35pt x 216.81pt>
 File: ./figures/latency.pdf Graphic file (type pdf)
 
 <use ./figures/latency.pdf>
@@ -2476,35 +2464,31 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
-
-Overfull \vbox (29.26065pt too high) has occurred while \output is active []
-
-
-[12 <./figures/throughput.pdf> <./figures/latency.pdf
-
-pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
-> <./figures/avoidance_n_relays.pdf
-
-pdfTeX warning: pdflatex (file ./figures/avoidance_n_relays.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
->])) (./implementation.tex
-<./figures/relay_map.png, id=715, 588.69937pt x 313.17pt>
+)) (./implementation.tex [12 <./figures/avoidance_n_relays.pdf>]
+<./figures/relay_map.png, id=700, 588.69937pt x 313.17pt>
 File: ./figures/relay_map.png Graphic file (type png)
 
 <use ./figures/relay_map.png>
 Package pdftex.def Info: ./figures/relay_map.png used on input line 24.
 (pdftex.def)             Requested size: 209.63669pt x 111.51779pt.
-) (./discussion.tex
+
+Underfull \vbox (badness 1199) has occurred while \output is active []
+
+)
+(./discussion.tex
 Underfull \hbox (badness 1895) in paragraph at lines 32--37
 \OT1/ptm/m/n/10 in-cludes mod-i-fy-ing RAN to be im-ple-mented within an
  []
 
 
-Overfull \vbox (23.85136pt too high) has occurred while \output is active []
+Overfull \vbox (8.60748pt too high) has occurred while \output is active []
 
 
-[13 <./figures/relay_map.png>]) (./conclusion.tex) (./bare_NDSS.bbl
+[13 <./figures/throughput.pdf> <./figures/latency.pdf
+
+pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./figures/relay_map.png>]) (./conclusion.tex) (./bare_NDSS.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 59--61
 []\OT1/ptm/m/n/8 ``Brazil Builds In-ter-net Ca-ble To Por-tu-gal To
  []
@@ -2665,17 +2649,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 596.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 596.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 596.
 Package rerunfilecheck Info: File `bare_NDSS.out' has not changed.
-(rerunfilecheck)             Checksum: 13E6BF98BE72E99B148E8E7F03191279;2412.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 115E2EFCEA7A435FA92D0AE668AF0EC5;2412.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 596.
  ) 
 Here is how much of TeX's memory you used:
  32892 strings out of 493014
  634431 string characters out of 6133351
- 709648 words of memory out of 5000000
+ 705650 words of memory out of 5000000
  35676 multiletter control sequences out of 15000+600000
  53879 words of font info for 117 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2699,10 +2679,10 @@ ts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_NDSS.pdf (15 pages, 2332307 bytes).
+Output written on bare_NDSS.pdf (15 pages, 2332616 bytes).
 PDF statistics:
- 894 PDF objects out of 1000 (max. 8388607)
- 776 compressed objects within 8 object streams
+ 896 PDF objects out of 1000 (max. 8388607)
+ 778 compressed objects within 8 object streams
  187 named destinations out of 1000 (max. 500000)
  360 words of extra memory for PDF output out of 10000 (max. 10000000)
 
