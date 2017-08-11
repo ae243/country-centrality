@@ -108,6 +108,9 @@ H.~Corrigan-Gibbs, D.~Boneh, and D.~Mazi{\`e}res, ``Riposte: An anonymous
   (SP), 2015 IEEE Symposium on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
   2015, pp. 321--338.
 
+\bibitem{ransom_data}
+``Data,'' \url{https://bitbucket.org/ransom\_research/data/}.
+
 \bibitem{dte}
 ``{Deutsche Telekom to Push for National Routing to Curtail Spying},''
   \url{http://www.businessweek.com/news/2013-10-14/deutsche-telekom-to-push-for-national}.
@@ -306,6 +309,9 @@ I.~Poese, S.~Uhlig, M.~A. Kaafar, B.~Donnet, and B.~Gueye, ``Ip geolocation
   Management and Technical Issues},''
   \url{https://www.internetsociety.org/sites/default/files/Promoting\%20the\%20use\%20of\%20IXPs.pdf},
   2012.
+
+\bibitem{ran_system}
+``{RAN},'' \url{https://bitbucket.org/ransom\_research/ran/}.
 
 \bibitem{encryption_forward}
 ``{Revealed: How US and UK Spy Agencies Defeat Internet Privacy and

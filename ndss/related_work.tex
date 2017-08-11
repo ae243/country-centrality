@@ -44,13 +44,12 @@ Germany~\cite{wahlisch2010framework,wahlisch2012exposing} and
 China~\cite{zhou2007chinese}, or a country's interconnectivity %within a region
 %or with the rest of theworld~
 \cite{bischof2015and,gupta2014peering,fanou2015diversity}; these studies
-focus on intra-country paths, as opposed to focusing on
-transnational paths.
+focus on paths within a country, as opposed to paths that traverse multiple countries.
 
 \paragraph{Routing overlays and Internet architectures} Alibi Routing uses
 round-trip times to prove that that a client's packets did  not traverse a
-forbidden country or region~\cite{levin2015alibi,levin_detour}; our work differs by
-measuring  which countries a client's packets would (and do) traverse.  Our
+forbidden country or region~\cite{levin2015alibi,levin_detour}; \system{} differs by
+measuring  which countries a client's packets traverse.  Our
 work then  uses active measurements to determine the best path for a client
 wishing  to connect to a server.  RON, Resilient Overlay Network, is an
 overlay network that  routes around failures~\cite{andersen2001resilient}, whereas our overlay network
@@ -80,9 +79,7 @@ on encrypted user traffic. VPNGate is a public VPN relay system aimed at
 circumventing national firewalls~\cite{nobori2014vpn}. Unfortunately, VPNGate
 does not allow a client to choose any available VPN endpoint, which makes it more
 difficult for a user to ensure that traffic avoids a particular part of the
-Internet.  Neither of these systems explicitly avoid countries; thus, they may
-not  be able to avoid surveillance or the laws or jurisdiction of a particular
-country. Additionally, existing circumvention systems generally rely on
+Internet.  Neither of these systems explicitly avoid countries. Additionally, existing circumvention systems generally rely on
 encryption, which does not prevent surveillance; prior research has shown that
 websites can be fingerprinted based on size, content, and location of third
 party resources, which  reveals information about the content a user is

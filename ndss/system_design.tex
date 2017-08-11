@@ -10,25 +10,23 @@
 
 From our experience conducting measurement studies of Internet paths, we have identified 
 a number of obstacles standing in the way of building such systems.  These primarily include a lack 
-of possible measurement methods to learn reverse paths --- these are crucial because paths 
-are asymmetric even at the country level --- and a lack of knowledge about the locations in which 
+of possible measurement methods to learn reverse paths---these are crucial because paths 
+are asymmetric even at the country level---and a lack of knowledge about the locations in which 
 content is replicated.  
 
-Some of these obstacles can be completely solved if content providers contributed to the surveillance 
+We can surmount many of these obstacles if content providers contributed to the surveillance 
 avoidance system.  To address the issue of path asymmetry, the reverse path could be measured from within the provider and used to determine if 
 an unfavorable country is on the reverse path; this could be used in conjunction with our measurements 
 of the forward path.  In addition, content providers could strategically publish DNS records such that when a client receives 
 a DNS response, it is for a content replica that allows her to avoid a given country.  A content provider could also 
-replicate content in specific regions in order to allow clients to access replicas without traversing a specific 
+replicate content in specific regions to allow clients to access replicas without traversing a specific 
 country. 
 
 We take an approach at designing 
-a system that is a first countermeasure to large-scale surveillance {\it without} the help 
-of providers.  Due to this choice, it is not a perfect system, and it suffers from the obstacles faced 
-during the measurement studies and highlighted in this section.  This first system design, called \system{}, shows 
-the extent to which we can avoid an unfavorable country without the participation of 
-content providers, and it invites future work and systems that also address the problem 
-of large-scale surveillance.  
+a system that is a first to route traffic around a given country {\it without} the help 
+of providers.  Because the design does not assume any cooperation from content providers, 
+the system does not (and cannot) always ensure that some Internet path avoids a 
+particular country. 
 
 \subsection{Overview}
 \system{} comprises (1)~an overlay network of relays; and (2)~an oracle that
@@ -93,7 +91,7 @@ client.
 %vantage point at or near the domain for running traceroute.
 The portion of the reverse path from the domains to the relays is
 challenging to measure due to a lack of vantage points in ASes of common
-destinations. As discussed in Section \ref{path_sym}, we found that  the
+destinations. As discussed in Section \ref{pipeline}, we found that  the
 forward and reverse paths are asymmetric at the country level, and therefore
 \system{} cannot make any guarantees about which countries are on the path
 between  domains and relays even though it has calculated the paths from
@@ -153,8 +151,7 @@ locations as the clients, and the oracle triggers traceroutes from
 each of them to each of the domains.  Corresponding country-level
 paths are stored at the oracle.
 
-These paths must be re-computed 
-as paths may change.  To our knowledge, there has not been any previous work 
+\system{} must recompute these paths as they change.  To our knowledge, there has not been any previous work 
 on how often country-level paths change; prior work has explored how often 
 AS-level paths change.  We measured the country-level paths from a RIPE Atlas probe to the 
 Alexa Top 100 domains once per day for a month to see how stable country-level paths 
@@ -220,7 +217,7 @@ updated every five days.
 % point the proxy configuration settings to the URL that contains the
 % PAC file.
 
-\subsection{Extending \system{} with Provider Support}
+\subsection{Extending \system{} with Content Provider Support}
 
 While the current version of \system{} does not include support by content providers, it can be easily, incrementally,
 extended to do so without any fundamental changes to the system.  This would simply require providers (or a 

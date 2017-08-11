@@ -15,45 +15,45 @@ Database file #1: sigproc.bib
 Warning--empty journal in apthorpe2016poster
 
 Done.
-You've used 72 entries,
+You've used 74 entries,
             4483 wiz_defined-function locations,
-            1226 strings with 20983 characters,
-and the built_in function-call counts, 53538 in all, are:
-= -- 4624
-> -- 1474
+            1233 strings with 21115 characters,
+and the built_in function-call counts, 54212 in all, are:
+= -- 4680
+> -- 1476
 < -- 301
-+ -- 760
++ -- 762
 - -- 372
-* -- 2592
-:= -- 7781
-add.period$ -- 168
-call.type$ -- 72
-change.case$ -- 428
+* -- 2612
+:= -- 7875
+add.period$ -- 172
+call.type$ -- 74
+change.case$ -- 436
 chr.to.int$ -- 729
-cite$ -- 73
-duplicate$ -- 3574
-empty$ -- 4393
+cite$ -- 75
+duplicate$ -- 3634
+empty$ -- 4471
 format.name$ -- 415
-if$ -- 12102
+if$ -- 12254
 int.to.chr$ -- 0
-int.to.str$ -- 72
-missing$ -- 651
-newline$ -- 239
+int.to.str$ -- 74
+missing$ -- 663
+newline$ -- 245
 num.names$ -- 94
-pop$ -- 1980
+pop$ -- 2024
 preamble$ -- 1
-purify$ -- 355
+purify$ -- 361
 quote$ -- 2
-skip$ -- 3920
+skip$ -- 3974
 stack$ -- 0
-substring$ -- 2142
-swap$ -- 2476
+substring$ -- 2154
+swap$ -- 2500
 text.length$ -- 58
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 767
+type$ -- 787
 warning$ -- 1
 while$ -- 228
-width$ -- 74
-write$ -- 614
+width$ -- 76
+write$ -- 626
 (There was 1 warning)
