@@ -1,0 +1,419 @@
+\begin{thebibliography}{10}
+
+\bibitem{france_surveillance}
+{France Must Reject Law that Gives Carte Blanche to Mass Surveillance
+  Globally}.
+\newblock
+  \url{https://www.amnesty.org/en/press-releases/2015/09/france-must-reject-law-that-gives-carte-blanche-to-mass-surveillance-globally/}.
+
+\bibitem{netherlands_surveillance}
+{Netherlands New Proposal for Dragnet Surveillance Underway}.
+\newblock
+  \url{https://edri.org/netherlands-new-proposals-for-dragnet-surveillance-underway/},
+  2015.
+
+\bibitem{kazak_surveillance}
+{Kazakhstan Will Require Internet Surveillance Back Doors}.
+\newblock
+  \url{http://www.engadget.com/2015/12/05/kazakhstan-internet-back-door-law/},
+  2015.
+
+\bibitem{uk_bill}
+{Investigatory Powers Bill: Snooper's Charter Lacks Clarity, MPs Warn}.
+\newblock
+  \url{http://www.theguardian.com/law/2016/feb/01/investigatory-powers-bill-snoopers-charter-lacks-clarity-mps-warn}.
+
+\bibitem{russia_secure_internet}
+{Russia Needs More Internet Security Says Putin}.
+\newblock
+  \url{http://www.wsj.com/articles/russia-needs-more-internet-security-says-putin-1412179448},
+  2014.
+
+\bibitem{routing_errors}
+{Chinese Routing Errors Redirect Russian Traffic}.
+\newblock
+  \url{http://research.dyn.com/2014/11/chinese-routing-errors-redirect-russian-traffic/}.
+
+\bibitem{dte}
+{Deutsche Telekom to Push for National Routing to Curtail Spying}.
+\newblock
+  \url{http://www.businessweek.com/news/2013-10-14/deutsche-telekom-to-push-for-national}.
+
+\bibitem{shah2015characterizing}
+Anant Shah and Christos Papadopoulos.
+\newblock {Characterizing International BGP Detours}.
+\newblock Technical Report CS-15-104, Colorado State University, 2015.
+
+\bibitem{gupta2014peering}
+Arpit Gupta, Matt Calder, Nick Feamster, Marshini Chetty, Enrico Calandro, and
+  Ethan Katz-Bassett.
+\newblock {Peering at the Internet’s Frontier: A First Look at ISP
+  Interconnectivity in Africa}.
+\newblock In {\em Passive and Active Measurement}, pages 204--213. Springer,
+  2014.
+
+\bibitem{aas2014let}
+Josh Aas.
+\newblock Let’s encrypt: Delivering ssl/tls everywhere.
+\newblock {\em Let’s Encrypt}, 18, 2014.
+
+\bibitem{what_isps_can_see}
+{What ISPs Can See: Clarifying the Technical Landscape of the Broadband Privacy
+  Debate}.
+\newblock \url{https://www.teamupturn.com/reports/2016/what-isps-can-see},
+  2016.
+
+\bibitem{Johnson2013a}
+Aaron Johnson, Chris Wacek, Rob Jansen, Micah Sherr, and Paul Syverson.
+\newblock {Users Get Routed: Traffic Correlation on {T}or by Realistic
+  Adversaries}.
+\newblock In {\em CCS}. ACM, 2013.
+\newblock \url{http://www.ohmygodel.com/publications/usersrouted-ccs13.pdf}.
+
+\bibitem{apthorpe2016poster}
+Noah Apthorpe, Dillon Reisman, and Nick Feamster.
+\newblock Poster: A smart home is no castle: Privacy vulnerabilities of
+  encrypted iot traffic.
+\newblock 2016.
+
+\bibitem{mitm_isp}
+{Gogo Inflight Internet Serves up `Man-in-the-Middle' with Fake SSL}.
+\newblock
+  \url{http://www.csoonline.com/article/2865806/cloud-security/gogo-inflight-internet-serves-up-man-in-the-middle-with-fake-ssl.html}.
+
+\bibitem{encryption_forward}
+{Revealed: How US and UK Spy Agencies Defeat Internet Privacy and Security}.
+\newblock
+  \url{https://www.theguardian.com/world/2013/sep/05/nsa-gchq-encryption-codes-security}.
+
+\bibitem{brito2016dissecting}
+Samuel Henrique~Bucke Brito, Mateus~AS Santos, Ramon dos Reis~Fontes, Danny
+  A~Lachos Perez, and Christian~Esteve Rothenberg.
+\newblock Dissecting the largest national ecosystem of public internet exchange
+  points in brazil.
+\newblock In {\em International Conference on Passive and Active Network
+  Measurement}, pages 333--345. Springer, 2016.
+
+\bibitem{fanou2015diversity}
+Rod{\'e}rick Fanou, Pierre Francois, and Emile Aben.
+\newblock On the diversity of interdomain routing in africa.
+\newblock In {\em International Conference on Passive and Active Network
+  Measurement}, pages 41--54. Springer, 2015.
+
+\bibitem{chavula2014quantifying}
+Josiah Chavula, Nick Feamster, Antoine Bagula, and Hussein Suleman.
+\newblock Quantifying the effects of circuitous routes on the latency of
+  intra-africa internet traffic: A study of research and education networks.
+\newblock In {\em International Conference on e-Infrastructure and e-Services
+  for Developing Countries}, pages 64--73. Springer, 2014.
+
+\bibitem{fanou2016pushing}
+Rod{\'e}rick Fanou, Gareth Tyson, Pierre Francois, and Arjuna Sathiaseelan.
+\newblock Pushing the frontier: Exploring the african web ecosystem.
+\newblock In {\em Proceedings of the 25th International Conference on World
+  Wide Web}, pages 435--445. International World Wide Web Conferences Steering
+  Committee, 2016.
+
+\bibitem{karlin2009nation}
+Josh Karlin, Stephanie Forrest, and Jennifer Rexford.
+\newblock {Nation-state Routing: Censorship, Wiretapping, and BGP}.
+\newblock {\em arXiv preprint arXiv:0903.3218}, 2009.
+
+\bibitem{ripe_atlas}
+{RIPE Atlas}.
+\newblock \url{https://atlas.ripe.net/}.
+
+\bibitem{brazil_history}
+{How Brazil Crowdsourced a Landmark Law}.
+\newblock
+  \url{http://foreignpolicy.com/2016/01/19/how-brazil-crowdsourced-a-landmark-law/},
+  2016.
+
+\bibitem{brazil_break_from_US}
+{Brazil Looks to Break from US Centric Internet}.
+\newblock
+  \url{http://news.yahoo.com/brazil-looks-break-us-centric-internet-040702309.html}.
+
+\bibitem{brazil_conference}
+{Brazil to Host Global Internet Summit in Ongoing Fight Against NSA
+  Surveillance}.
+\newblock \url{https://www.rt.com/news/brazil-internet-summit-fight-nsa-006/}.
+
+\bibitem{brazil_conference2}
+{Brazil Conference will Plot Internet's Future Post NSA Spying}.
+\newblock
+  \url{http://www.reuters.com/article/us-internet-conference-idUSBREA3L1OJ20140422}.
+
+\bibitem{brazil_human_rights}
+{Brazil's President Tells U.N. That NSA Spying Violates Human Rights}.
+\newblock
+  \url{http://www.usnews.com/news/articles/2013/09/24/brazils-president-tells-un-that-nsa-spying-violates-human-rights}.
+
+\bibitem{obar2012internet}
+Jonathan~A Obar and Andrew Clement.
+\newblock {Internet Surveillance and Boomerang Routing: A Call for Canadian
+  Network Sovereignty}.
+\newblock In {\em TEM 2013: The Technology \& Emerging Media Track-Annual
+  Conference of the Canadian Communication Association (Victoria)}, 2012.
+
+\bibitem{roberts2011mapping}
+Hal Roberts, David Larochelle, Rob Faris, and John Palfrey.
+\newblock {Mapping Local Internet Control}.
+\newblock In {\em Computer Communications Workshop (Hyannis, CA, 2011), IEEE},
+  2011.
+
+\bibitem{wahlisch2010framework}
+Matthias W{\"a}hlisch, Sebastian Meiling, and Thomas~C Schmidt.
+\newblock {A Framework for Nation-centric Classification and Observation of the
+  Internet}.
+\newblock In {\em The ACM CoNEXT Student Workshop}, page~15. ACM, 2010.
+
+\bibitem{wahlisch2012exposing}
+Matthias W{\"a}hlisch, Thomas~C Schmidt, Markus de~Br{\"u}n, and Thomas
+  H{\"a}berlen.
+\newblock {Exposing a Nation-centric View on the German Internet--A Change in
+  Perspective on AS-level}.
+\newblock In {\em Passive and Active Measurement}, pages 200--210. Springer,
+  2012.
+
+\bibitem{zhou2007chinese}
+Shi Zhou, Guo-Qing Zhang, and G-Q Zhang.
+\newblock {Chinese Internet AS-level topology}.
+\newblock {\em Communications, IET}, 1(2):209--214, 2007.
+
+\bibitem{bischof2015and}
+Zachary~S Bischof, John~P Rula, and Fabi{\'a}n~E Bustamante.
+\newblock {In and Out of Cuba: Characterizing Cuba's Connectivity}.
+\newblock In {\em The 2015 ACM Internet Measurement Conference}, pages
+  487--493. ACM, 2015.
+
+\bibitem{levin2015alibi}
+Dave Levin, Youndo Lee, Luke Valenta, Zhihao Li, Victoria Lai, Cristian
+  Lumezanu, Neil Spring, and Bobby Bhattacharjee.
+\newblock {Alibi Routing}.
+\newblock In {\em The 2015 ACM Conference on Special Interest Group on Data
+  Communication}, pages 611--624. ACM, 2015.
+
+\bibitem{levin_detour}
+Dave~Levin Zhihao~Li, Stephen~Herwig.
+\newblock Detor: Provably avoiding geographic regions in tor.
+\newblock In {\em USENIX Security 2017}, 2017.
+
+\bibitem{andersen2001resilient}
+David Andersen, Hari Balakrishnan, Frans Kaashoek, and Robert Morris.
+\newblock Resilient overlay networks.
+\newblock In {\em ACM Symposium on Operating Systems Principles (SOSP)},
+  volume~35. ACM, 2001.
+
+\bibitem{peter2015one}
+Simon Peter, Umar Javed, Qiao Zhang, Doug Woos, Thomas Anderson, and Arvind
+  Krishnamurthy.
+\newblock One tunnel is (often) enough.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 44(4):99--110, 2015.
+
+\bibitem{zhang2011scion}
+Xin Zhang, Hsu-Chun Hsiao, Geoffrey Hasker, Haowen Chan, Adrian Perrig, and
+  David~G Andersen.
+\newblock Scion: Scalability, control, and isolation on next-generation
+  networks.
+\newblock In {\em 2011 IEEE Symposium on Security and Privacy}, pages 212--227.
+  IEEE, 2011.
+
+\bibitem{dingledine2004tor}
+Roger Dingledine, Nick Mathewson, and Paul Syverson.
+\newblock {Tor: The Second-Generation Onion Router}.
+\newblock Technical report, DTIC Document, 2004.
+
+\bibitem{nobori2014vpn}
+Daiyuu Nobori and Yasushi Shinjo.
+\newblock {VPN gate: A Volunteer-organized Public VPN Relay System with
+  Blocking Resistance for Bypassing Government Censorship Firewalls}.
+\newblock In {\em The 11th USENIX Symposium on Networked Systems Design and
+  Implementation (NSDI 14)}, pages 229--241, 2014.
+
+\bibitem{piotrowska2017loopix}
+Ania Piotrowska, Jamie Hayes, Tariq Elahi, Sebastian Meiser, and George
+  Danezis.
+\newblock The loopix anonymity system.
+\newblock {\em arXiv preprint arXiv:1703.00536}, 2017.
+
+\bibitem{van2015vuvuzela}
+Jelle Van Den~Hooff, David Lazar, Matei Zaharia, and Nickolai Zeldovich.
+\newblock Vuvuzela: Scalable private messaging resistant to traffic analysis.
+\newblock In {\em Proceedings of the 25th Symposium on Operating Systems
+  Principles}, pages 137--152. ACM, 2015.
+
+\bibitem{wolinsky2012dissent}
+David~Isaac Wolinsky, Henry Corrigan-Gibbs, Bryan Ford, and Aaron Johnson.
+\newblock Dissent in numbers: Making strong anonymity scale.
+\newblock In {\em OSDI}, pages 179--182, 2012.
+
+\bibitem{tyagi2016stadium}
+Nirvan Tyagi, Yossi Gilad, Matei Zaharia, and Nickolai Zeldovich.
+\newblock Stadium: A distributed metadata-private messaging system.
+\newblock {\em IACR Cryptology ePrint Archive}, 2016:943, 2016.
+
+\bibitem{corrigan2015riposte}
+Henry Corrigan-Gibbs, Dan Boneh, and David Mazi{\`e}res.
+\newblock Riposte: An anonymous messaging system handling millions of users.
+\newblock In {\em Security and Privacy (SP), 2015 IEEE Symposium on}, pages
+  321--338. IEEE, 2015.
+
+\bibitem{kwon2016atom}
+Albert Kwon, Henry Corrigan-Gibbs, Srinivas Devadas, and Bryan Ford.
+\newblock Atom: Scalable anonymity resistant to traffic analysis.
+\newblock {\em arXiv preprint arXiv:1612.07841}, 2016.
+
+\bibitem{kwon2016riffle}
+Albert Kwon, David Lazar, Srinivas Devadas, and Bryan Ford.
+\newblock Riffle.
+\newblock {\em Proceedings on Privacy Enhancing Technologies},
+  2016(2):115--134, 2016.
+
+\bibitem{gelernter2016two}
+Nethanel Gelernter, Amir Herzberg, and Hemi Leibowitz.
+\newblock Two cents for strong anonymity: The anonymous post-office protocol.
+\newblock {\em Proceedings on Privacy Enhancing Technologies}, 2:1--20, 2016.
+
+\bibitem{madhyastha2006iplane}
+Harsha~V Madhyastha, Tomas Isdal, Michael Piatek, Colin Dixon, Thomas Anderson,
+  Arvind Krishnamurthy, and Arun Venkataramani.
+\newblock {iPlane: An Information Plane for Distributed Services}.
+\newblock In {\em The 7th Symposium on Operating Systems Design and
+  Implementation}, pages 367--380. USENIX Association, 2006.
+
+\bibitem{caida}
+{CAIDA: Center for Applied Internet Data Analysis}.
+\newblock \url{http://www.caida.org/home/}.
+
+\bibitem{PlanetLab}
+{PlanetLab}.
+\newblock \url{http://planet-lab.org/}.
+
+\bibitem{banerjee2004interdomain}
+Suman Banerjee, Timothy~G Griffin, and Marcelo Pias.
+\newblock {The Interdomain Connectivity of PlanetLab Nodes}.
+\newblock In {\em Passive and Active Network Measurement}, pages 73--82.
+  Springer, 2004.
+
+\bibitem{he2005routing}
+Yihua He, Michalis Faloutsos, Srikanth Krishnamurthy, and Bradley Huffaker.
+\newblock On routing asymmetry in the internet.
+\newblock In {\em Global Telecommunications Conference, 2005. GLOBECOM'05.
+  IEEE}, volume~2, pages 6--pp. IEEE, 2005.
+
+\bibitem{paxson1997end}
+Vern Paxson.
+\newblock End-to-end routing behavior in the internet.
+\newblock {\em IEEE/ACM transactions on Networking}, 5(5):601--615, 1997.
+
+\bibitem{gao2001inferring}
+Lixin Gao.
+\newblock On inferring autonomous system relationships in the internet.
+\newblock {\em IEEE/ACM Transactions on Networking (ToN)}, 9(6):733--745, 2001.
+
+\bibitem{he2004quantifying}
+Yihua He, Michalis Faloutsos, and Srikanth Krishnamurthy.
+\newblock Quantifying routing asymmetry in the internet at the as level.
+\newblock In {\em Global Telecommunications Conference, 2004. GLOBECOM'04.
+  IEEE}, volume~3, pages 1474--1479. IEEE, 2004.
+
+\bibitem{katz2010reverse}
+Ethan Katz-Bassett, Harsha~V Madhyastha, Vijay~Kumar Adhikari, Colin Scott,
+  Justine Sherry, Peter Van~Wesep, Thomas~E Anderson, and Arvind Krishnamurthy.
+\newblock Reverse traceroute.
+\newblock In {\em NSDI}, volume~10, pages 219--234, 2010.
+
+\bibitem{poese2011ip}
+Ingmar Poese, Steve Uhlig, Mohamed~Ali Kaafar, Benoit Donnet, and Bamba Gueye.
+\newblock Ip geolocation databases: Unreliable?
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 41(2):53--56, 2011.
+
+\bibitem{katz2006towards}
+Ethan Katz-Bassett, John~P John, Arvind Krishnamurthy, David Wetherall, Thomas
+  Anderson, and Yatin Chawathe.
+\newblock Towards ip geolocation using delay and topology measurements.
+\newblock In {\em Proceedings of the 6th ACM SIGCOMM conference on Internet
+  measurement}, pages 71--84. ACM, 2006.
+
+\bibitem{eriksson2010learning}
+Brian Eriksson, Paul Barford, Joel Sommers, and Robert Nowak.
+\newblock A learning-based approach for ip geolocation.
+\newblock In {\em Passive and Active Measurement}, pages 171--180. Springer,
+  2010.
+
+\bibitem{gill2010dude}
+Phillipa Gill, Yashar Ganjali, Bernard Wong, and David Lie.
+\newblock Dude, where’s that ip?: Circumventing measurement-based ip
+  geolocation.
+\newblock In {\em Proceedings of the 19th USENIX conference on Security}, pages
+  16--16. USENIX Association, 2010.
+
+\bibitem{hu2012towards}
+Zi~Hu, John Heidemann, and Yuri Pradkin.
+\newblock Towards geolocation of millions of ip addresses.
+\newblock In {\em Proceedings of the 2012 ACM conference on Internet
+  measurement conference}, pages 123--130. ACM, 2012.
+
+\bibitem{guo2009mining}
+Chuanxiong Guo, Yunxin Liu, Wenchao Shen, Helen~J Wang, Qing Yu, and Yongguang
+  Zhang.
+\newblock Mining the web and the internet for accurate ip address geolocations.
+\newblock In {\em INFOCOM 2009, IEEE}, pages 2841--2845. IEEE, 2009.
+
+\bibitem{eriksson2012posit}
+Brian Eriksson, Paul Barford, Bruce Maggs, and Robert Nowak.
+\newblock Posit: a lightweight approach for ip geolocation.
+\newblock {\em ACM SIGMETRICS Performance Evaluation Review}, 40(2):2--11,
+  2012.
+
+\bibitem{maxmind}
+{MaxMind}.
+\newblock \url{https://www.maxmind.com/en/home}.
+
+\bibitem{huffaker2011geocompare}
+Bradley Huffaker, Marina Fomenkov, and K~Claffy.
+\newblock {Geocompare: A Comparison of Public and Commercial Geolocation
+  Databases}.
+\newblock {\em Proc. NMMC}, pages 1--12, 2011.
+
+\bibitem{augustin2006avoiding}
+Brice Augustin, Xavier Cuvellier, Benjamin Orgogozo, Fabien Viger, Timur
+  Friedman, Matthieu Latapy, Cl{\'e}mence Magnien, and Renata Teixeira.
+\newblock {Avoiding Traceroute Anomalies with Paris Traceroute}.
+\newblock In {\em The 6th ACM SIGCOMM Internet Measurement Conference}, pages
+  153--158. ACM, 2006.
+
+\bibitem{ransom_data}
+Data.
+\newblock \url{https://bitbucket.org/ransom\_research/data/}.
+
+\bibitem{brazil_us_companies}
+{Brazil to Press for Local Internet Data Storage After NSA Spying}.
+\newblock \url{https://www.rt.com/news/brazil-brics-internet-nsa-895/}, 2013.
+
+\bibitem{brazil_cable}
+{Brazil Builds Internet Cable To Portugal To Avoid NSA Surveillance}.
+\newblock
+  \url{http://www.ibtimes.com/brazil-builds-internet-cable-portugal-avoid-nsa-surveillance-1717417}.
+
+\bibitem{cablemap}
+{TeleGeography Submarine Cable Map}.
+\newblock \url{http://www.submarinecablemap.com/}.
+
+\bibitem{ixp_policy}
+{Promoting the Use of Internet Exchange Points (IXPs): A Guide to Policy,
+  Management and Technical Issues}.
+\newblock
+  \url{https://www.internetsociety.org/sites/default/files/Promoting\%20the\%20use\%20of\%20IXPs.pdf},
+  2012.
+
+\bibitem{bakers}
+{A Baker's Dozen, 2015 Edition}.
+\newblock \url{http://research.dyn.com/2016/04/a-bakers-dozen-2015-edition/}.
+
+\bibitem{ran_system}
+{RAN}.
+\newblock \url{https://bitbucket.org/ransom\_research/ran/}.
+
+\end{thebibliography}

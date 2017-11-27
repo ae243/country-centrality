@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: unsrt.bst
+Database file #1: sigproc.bib
+Warning--empty journal in apthorpe2016poster
+Warning--can't use both volume and number fields in andersen2001resilient
+You've used 73 entries,
+            1791 wiz_defined-function locations,
+            793 strings with 16608 characters,
+and the built_in function-call counts, 17072 in all, are:
+= -- 1568
+> -- 674
+< -- 31
++ -- 259
+- -- 186
+* -- 910
+:= -- 2340
+add.period$ -- 218
+call.type$ -- 73
+change.case$ -- 74
+chr.to.int$ -- 0
+cite$ -- 75
+duplicate$ -- 850
+empty$ -- 1839
+format.name$ -- 186
+if$ -- 4126
+int.to.chr$ -- 0
+int.to.str$ -- 73
+missing$ -- 45
+newline$ -- 343
+num.names$ -- 47
+pop$ -- 372
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 549
+stack$ -- 0
+substring$ -- 936
+swap$ -- 321
+text.length$ -- 31
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 140
+width$ -- 75
+write$ -- 728
+(There were 2 warnings)
