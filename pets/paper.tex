@@ -1,0 +1,128 @@
+\documentclass[USenglish,oneside,twocolumn]{article}
+
+\usepackage[utf8]{inputenc}%(only for the pdftex engine)
+\usepackage[big]{dgruyter_NEW}
+
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{listings}
+%\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{paralist}
+\usepackage{textcomp}
+\usepackage{xspace}
+\usepackage{ifthen}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage[absolute]{textpos}
+\usepackage{hyperref}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{tabularx, booktabs}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{dcolumn}
+\usepackage{adjustbox}
+\usepackage{listings}
+\usepackage[bottom]{footmisc}
+\usepackage{cancel}
+\usepackage{multirow}
+\usepackage{xspace}
+\usepackage{longtable}
+\usepackage[normalem]{ulem}
+\usepackage{siunitx}
+%\usepackage[english]{babel}
+\usepackage{balance}
+
+\graphicspath{ {./figures/} }
+
+\newcommand{\system}{RAN}
+\newcommand{\ie}{{\em i.e.}}
+\newcommand{\eg}{{\em e.g.}}
+\newcommand{\ea}{{\em et al.}}
+
+\clubpenalty=10000  % Don't allow orphans
+\widowpenalty=10000 % Don't allow widows
+
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\newtheorem{finding}{Finding}[section]
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+ 
+\DOI{foobar}
+  
+\begin{document}
+ 
+
+  %\author[1]{Corresponding Author}
+
+  %\author[2]{Second Author}
+
+  %\author[3]{Third Author}
+
+  %\author[4]{Fourth Author}
+
+  %\affil[1]{Affil, E-mail: email@email.edu}
+
+  %\affil[2]{Affil, E-mail: email@email.edu}
+
+  %\affil[3]{Affil, E-mail: email@email.edu}
+
+  %\affil[4]{Affil, E-mail: email@email.edu}
+
+  \title{\Large \bf \system{}: Routing Around Nation-States}
+
+  \runningtitle{\system{}: Routing Around Nation-States}
+
+  %\subtitle{...}
+
+\input{abstract}
+
+  \keywords{keywords, keywords}
+%  \classification[PACS]{}
+ % \communicated{...}
+ % \dedication{...}
+
+  \journalname{Proceedings on Privacy Enhancing Technologies}
+\DOI{Editor to enter DOI}
+  \startpage{1}
+  \received{..}
+  \revised{..}
+  \accepted{..}
+
+  \journalyear{..}
+  \journalvolume{..}
+  \journalissue{..}
+ 
+
+\maketitle
+\input{intro}
+\input{related_work}
+\input{characterizing_detours}
+\input{avoidance}
+\input{system_design}
+\input{implementation}
+\input{evaluation}
+\input{discussion}
+\input{conclusion}
+
+\bibliographystyle{unsrt}
+\bibliography{sigproc}
+
+\end{document}

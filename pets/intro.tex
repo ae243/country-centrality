@@ -1,0 +1,162 @@
+\section{Introduction}
+\label{intro}
+
+When Internet traffic enters a country, it often becomes subject to that country's
+local laws and policies.  As a result, users, ISPs, and governments have more need
+than ever to determine---and control---which countries their traffic is
+traversing.  Discovering which countries an end-to-end path traverses and
+providing mechanisms to avoid certain countries may help users avoid the
+ practices and laws of particular countries. One motivation for avoiding a certain 
+geographic region is to evade surveillance and other types of interference.  In some
+cases, avoiding certain countries may also lower costs or improve performance,
+where technologies that certain countries use (\eg, firewalls, traffic
+shapers) throttle network traffic speeds. 
+
+An increasing number of countries have passed laws that facilitate mass
+surveillance of networks within their territory~\cite{france_surveillance,netherlands_surveillance,kazak_surveillance,uk_bill}. While governments and
+citizens alike may want to divert their Internet traffic from countries that
+perform surveillance (notably, the United States~\cite{russia_secure_internet,routing_errors,dte}), this is a challenging problem with no known, effective 
+solutions.   Additionally, both users and ISPs may wish to prevent these international detours for
+performance and cost reasons; previous work has shown that tromboning
+paths---paths that start and end in the same country, but also traverse a
+foreign country---are common~\cite{shah2015characterizing,gupta2014peering}.
+
+With the increasing pervasiveness of encryption (and the efforts of Let's Encrypt~\cite{aas2014let}), 
+Internet security is improving, but defending against large-scale surveillance activities requires not only encryption, but
+also mechanisms for controlling where traffic goes in the first place:
+end-to-end 
+encryption conceals some information content, but it does not protect
+all sensitive information.  First, many websites do not fully support
+encrypted browsing by default; a recent study showed that more than 85\% of
+the most popular health, news, and shopping sites do not encrypt by
+default~\cite{what_isps_can_see}; migrating a website to HTTPS can be challenging,
+and doing so requires all third-party domains on the site (including
+advertisers) to use HTTPS.  Second, even encrypted traffic may still reveal a
+lot about user behavior: the presence of any communication at all may be
+revealing, and website fingerprinting can reveal information about content
+merely based on the size, content, and location of third-party resources that
+a client loads~\cite{Johnson2013a}. Recent work studying Internet of Things (IoT) devices 
+has shown that passive network observers can learn sensitive information about users 
+even when traffic is encrypted~\cite{apthorpe2016poster}; this highlights the risks of large-scale surveillance 
+in the IoT ecosystem. DNS traffic is also revealing and is
+almost never encrypted~\cite{what_isps_can_see}.  Additionally, ISPs often
+terminate TLS connections, conducting man-in-the-middle attacks on encrypted
+traffic for network management purposes~\cite{mitm_isp}.  And, of course,
+encryption offers no solution to interference, degradation, or blocking of
+traffic that a country might perform on traffic that crosses its borders.
+Finally, a nation-state may collect and store encrypted traffic; if the
+encryption is defeated in the future, a nation-state may be able to discover the
+contents of previous communications.  This has already been realized, according to 
+documents leaked from the National Security Agency (NSA) and Government Communications 
+Headquarters (GCHQ): ``A 10-year NSA program against encryption technologies made a breakthrough in 2010 which made `vast amounts' of data collected through internet cable taps newly `exploitable'''~\cite{encryption_forward}.
+
+In this paper, we study two questions: (1)~Which countries do {\em   default}
+Internet routing paths traverse?; (2)~What methods can  help governments (or citizens, 
+ISPs, etc.) better control transnational Internet paths?  We {\em actively
+measure} the paths originating in twenty countries to the most popular
+websites in each of these respective countries.
+Our analysis in this paper focuses on five countries---Brazil, Netherlands,
+Kenya, India, and the United States---for a variety of reasons.  For example,
+Brazil has made a concerted effort to avoid traversing certain countries such
+as the United States through extensive buildout of Internet Exchange Points
+(IXPs)~\cite{brito2016dissecting}. The Netherlands has one of the world's largest IXPs and relatively
+inexpensive hosting. Kenya is one of the most well-connected African
+countries, but it is still thought to rely on connectivity through Europe and
+North America for many destinations, even content that might otherwise be
+local (\eg, local newspapers)~\cite{gupta2014peering,fanou2015diversity,chavula2014quantifying,fanou2016pushing}. We highlight many trends that are common across all
+of the countries we study; we have also released detailed statistics on all twenty
+countries that we measure on the project website and intend to update these regularly.
+
+In contrast to all previous work in this area, we measure router-level
+forwarding paths, as opposed to analyzing Border Gateway Protocol (BGP)
+routes~\cite{karlin2009nation,shah2015characterizing}, which can provide at
+best only an indirect estimate of country-level paths to popular sites.
+Although BGP routing can offer some information about paths, it does not
+necessarily reflect the path that traffic actually takes, and it only provides
+AS-level granularity, which is often too coarse to make strong statements
+about which countries that traffic is traversing.  In contrast, we measure
+routes from RIPE Atlas probes~\cite{ripe_atlas} in each country to the Alexa
+Top~1000 domains for each country; we directly measure the paths not only to
+the websites corresponding to themselves, but also to the sites hosting any
+third-party content on each of these sites.
+
+While using direct measurements provides these benefits, there are a number of 
+challenges associated with determining which countries a
+client's traffic is traversing.  First,
+performing direct measurements is more costly than passive analysis of BGP
+routing tables; RIPE Atlas, in particular, limits the rate at which one can
+perform measurements.  As a result, we had to be strategic about the origins
+and destinations that we selected for our study. We study twenty
+geographically diverse countries,  focusing on countries in each region that
+are making active attempts to thwart transnational Internet paths.  Second, IP
+geolocation---the process of determining the geographic location of an IP
+address---is notoriously challenging, particularly for IP addresses that
+represent Internet infrastructure, rather than end-hosts. We cope with this
+inaccuracy by making conservative estimates of the extent of routing detours,
+and by recognizing that our goal is not to pinpoint a precise location for an
+IP address as much as to achieve accurate reports of {\em significant} off-path 
+detours to certain countries or regions. (Section~\ref{datasets} explains
+our method in more detail; we also explicitly highlight ambiguities in our
+results.) Finally, the asymmetry of Internet paths can also make it difficult
+to analyze the countries that traffic traverses on the reverse path from
+server to client; our study finds that country-level paths are often
+asymmetric, and, as such, our findings represent a lower bound on
+transnational routing detours.
+
+We first {\em characterize the current state of transnational Internet
+routing detours} (Section~\ref{datasets}).  We explore hosting diversity 
+by first measuring the Alexa Top 1000 domains and comparing the location of 
+path endpoints to that of the Alexa Top 100 domains; we find that there is no 
+significant difference between the results in the two domain sets, and therefore 
+focus on the Alexa Top 100 domains {\it and all third party domains}.  We find 
+that only 45\% of the Alexa Top 100 domains in Brazil are hosted 
+in more than one country (other countries studied showed similar results); in many cases,
+that country is one that clients may want to avoid. Second, even if
+hosting diversity can be improved, routing can still force traffic
+through a small collection of countries. Despite strong efforts made by some countries to ensure their
+traffic does not transit certain countries~\cite{brazil_history,
+  brazil_break_from_US, brazil_conference, brazil_conference2,
+  brazil_human_rights}, their traffic still does so.  For example, over 50\% of the
+top domains in Brazil and India are hosted in the United States, and
+over 50\% of the paths from the Netherlands to the top domains transit
+the United States.  About half of Kenyan paths to the top domains
+traverse the United States and Great Britain (but the same half does not
+traverse both countries).  Much of this phenomenon is due to
+``tromboning'', whereby an Internet path starts and ends in the same country,
+yet transits an intermediate country; for example, about 13\% of the
+paths that we explored from Brazil tromboned through the United States.
+Infrastructure building alone is not enough. ISPs in respective regions
+need better encouragements to interconnect with one another to ensure
+that local traffic stays local.
+
+Next, we {explore the extent to which
+clients can avoid certain countries to popular destinations}
+(Section~\ref{avoid_results}).  We explore two techniques: using the
+open DNS resolver infrastructure and using overlay network relays to route 
+Internet traffic around an unfavorable country.  Our results demonstrate that these techniques can
+be effective for clients in certain countries; of course, the effectiveness of
+these approaches naturally depends on where content is hosted for that country
+and the diversity of Internet paths between ISPs in that country and the
+respective hosting sites. For example, our results show that clients in Brazil
+can completely avoid Spain, Italy, France, Great Britain, Argentina, and
+Ireland (among others), even though the default paths to many popular
+Brazilian sites traverse these countries. We also find that some of the most
+prominent surveillance states are also some of the least avoidable countries.
+For example, many countries depend on ISPs in the United States, a known
+surveillance state, for connectivity to popular sites and content.
+Additionally, overlay network relays can increase performance by keeping local
+traffic local: by using relays in the client's country, fewer paths trombone
+out of the client's country.
+
+Finally, we {\em design, implement, and deploy \system{}, a system that allows
+a client to access web content while avoiding the traversal of a specified
+country} (Section~\ref{system_design}).  We implemented \system{} for
+end-users, 
+but ISPs can also deploy \system{} proxies to provide country
+avoidance as a service to its customers.  \system{} uses a series of overlay
+network relays to automatically route a client's traffic around a specified
+country.  We evaluate \system{} to assess its ability to avoid certain
+countries, as well as the effect on end-to-end performance. We
+also discuss the usability and and scalability of the system.  Our evaluation
+shows that \system{} can effectively avoid many different countries and
+introduces minimal performance overhead. 
