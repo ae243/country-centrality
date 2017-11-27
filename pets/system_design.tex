@@ -121,7 +121,7 @@ the path (necessary for traffic correlation attacks).
 \end{figure}
 
 
-\paragraph{Client-to-Relay Paths} 
+\subsubsection{Client-to-Relay Paths} 
 To avoid requiring the client to install custom software, \system{}
 measures client-to-relay paths from RIPE Atlas probes that serve as 
 vantage points for the ASes where \system{} clients might be.  \system{} selects
@@ -131,16 +131,16 @@ country). The oracle triggers the probe to run traceroutes
 to each relay.  After collecting the responses, the oracle maps 
 the IP-level paths to country-level paths and stores the results.
 
-\paragraph{Relay-to-Client Paths} The \system{} relays perform
+\subsubsection{Relay-to-Client Paths} The \system{} relays perform
 traceroutes to the IP addresses of RIPE Atlas probes, which 
 represent client ASes.  They then derive country-level paths; the
 oracle learns these paths from each relay.  
 
-\paragraph{Relay-to-Server Paths} Relays perform 
+\subsubsection{Relay-to-Server Paths} Relays perform 
 traceroutes to each domain.  As with paths to clients,
 relays derive country-level paths and send them to the oracle.
 
-\paragraph{Client-to-Server Paths} In case a path from a client to a 
+\subsubsection{Client-to-Server Paths} In case a path from a client to a 
 domain does not pass through the country specified to avoid {\it by default}, 
 then none of the proxies should be used.  
 %If a proxy is used, then it may 

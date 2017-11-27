@@ -1,7 +1,7 @@
 \section{Discussion}
 \label{sec:discussion}
 
-\paragraph{Avoiding multiple countries} 
+{\bf Avoiding multiple countries.} 
 We have studied only the extent to which Internet paths can be
 engineered to avoid a {single} country.  Yet, avoiding a single country
 may force an Internet path into {\em other} unfavorable
@@ -9,14 +9,14 @@ jurisdictions. Future work should
 explore the feasibility of avoiding multiple countries or perhaps even entire regions.
 
 
-\paragraph{Evolution over time}
+{\bf Evolution over time.}
 Our study is based on a snapshot of paths. Over time, paths
 change, hosting locations change, IXPs are built, submarine cables are
 laid, and the countries conducting network interference change.  We are continuing to collect
 the measurements that we have presented in this paper to facilitate future exploration
 of how these characteristics evolve over time.
 
-\paragraph{Isolating DNS diversity vs. path diversity}
+{\bf Isolating DNS diversity vs. path diversity.}
 In our experiments, the overlay network relays perform DNS lookups from
 geographically diverse locations, which provides some level of DNS
 diversity in addition to the path diversity that the relays inherently
@@ -28,14 +28,14 @@ experiments where the client relies on its local DNS resolver to map
 domains to IP addresses, as opposed to relying on the relays for both
 DNS resolution and routing diversity.
 
-\paragraph{ISPs controlling country avoidance} 
+{\bf ISPs controlling country avoidance.} 
 Future work includes modifying \system{} to be implemented within an 
 ISP.  Adding country avoidance functionality within ISPs 
 (government-controlled or otherwise) allows ISPs to provide this as a transparent
 service to customers.  A government that wishes to control which countries
 its citizens' traffic is traversing might deploy \system{} in the country's ISPs.
 
-\paragraph{Additional \system{} features}  
+{\bf Additional \system{} features.}  
 The oracle could add additional steps in the decision
 chain introduced in Section \ref{multiplex} that take into account
 relay and path loads.  For example, if multiple relays provide a path
