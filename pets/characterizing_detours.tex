@@ -1,13 +1,12 @@
-\section{Characterizing Transnational Detours}
+\section{Characterizing Detours}
 \label{datasets}
 In this section, we describe our measurement methods, the challenges in
 conducting them, and our findings concerning the transnational detours
 of default Internet paths.
 
-\subsection{Measurement Approach and Challenges}
+\subsection{Measurement Approach}
 \label{pipeline}
 
-\subsubsection{Overview of approach}
 Figure~\ref{fig:pipeline1} shows the process that we use to discover end-to-end
 Internet paths from our respective vantage points to various domains. We first use
 VPNs
@@ -108,7 +107,7 @@ be extended to include reverse paths.
 Each country hosts 75 to several hundred RIPE Atlas probes.  Because of resource
 restrictions, we could not use all of the probes in each country.  We
 selected the set of probes that had unique ASes in the country to get
-the widest representation of origination (starting) points.
+the widest representation of origination points.
 
 To determine how many websites we must measure to sufficiently capture client 
 paths to popular websites in a country, we first compare the country-level paths from a small set of vantage 
@@ -176,10 +175,10 @@ incompleteness of traceroutes, where a router does not respond, causes
 our results to underestimate the number of states that interfere with network 
 traffic.
 
-\subsubsection{IPv4 vs.\ IPv6 Connectivity}
-We collect and analyze only IPv4 paths.  IPv6 paths likely
-differ from IPv4 paths as not all routers that support IPv4 also support
-IPv6.  A comparable study of IPv6-level paths is an avenue for future work.
+%\subsubsection{IPv4 vs.\ IPv6 Connectivity}
+%We collect and analyze only IPv4 paths.  IPv6 paths likely
+%differ from IPv4 paths as not all routers that support IPv4 also support
+%IPv6.  A comparable study of IPv6-level paths is an avenue for future work.
 
 \subsection{Results}
 
@@ -330,10 +329,9 @@ Spain and Italy.  We see Italy often in tromboning paths because Telecom
 Italia Sparkle is one of the top global Internet providers~\cite{bakers}. 
 MaxMind's geolocation sometimes mislabels IP addresses to be in
 Spain when they are actually located in Portugal.  Despite our inability to
-disambiguate Spain and Portugal, some of the issues associated with tromboning,
+disambiguate Spain and Portugal, some issues associated with tromboning,
 such as performance, are still pertinent. We are not aware of specific laws in
-either of these countries that would make this distinction important from a
-policy or legal aspect, either.
+either of these countries that would make this distinction important from a legal aspect, either.
 
 Tromboning paths that originate in Kenya most commonly traverse Mauritius,
 which is expected considering the submarine cables between Kenya and

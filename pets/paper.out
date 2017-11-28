@@ -1,39 +1,26 @@
 \BOOKMARK [0][-]{section*.1}{RAN: Routing Around Nation-States}{}% 1
 \BOOKMARK [1][-]{section.1}{1 Introduction}{section*.1}% 2
 \BOOKMARK [1][-]{section.2}{2 Related Work}{section*.1}% 3
-\BOOKMARK [1][-]{section.3}{3 Characterizing Transnational Detours}{section*.1}% 4
-\BOOKMARK [2][-]{subsection.3.1}{3.1 Measurement Approach and Challenges}{section.3}% 5
-\BOOKMARK [3][-]{subsubsection.3.1.1}{3.1.1 Overview of approach}{subsection.3.1}% 6
-\BOOKMARK [3][-]{subsubsection.3.1.2}{3.1.2 Resource Limitations}{subsection.3.1}% 7
-\BOOKMARK [3][-]{subsubsection.3.1.3}{3.1.3 Path Asymmetry}{subsection.3.1}% 8
-\BOOKMARK [3][-]{subsubsection.3.1.4}{3.1.4 Traceroute Origin and Destination Selection}{subsection.3.1}% 9
-\BOOKMARK [3][-]{subsubsection.3.1.5}{3.1.5 Country Mapping}{subsection.3.1}% 10
-\BOOKMARK [3][-]{subsubsection.3.1.6}{3.1.6 Traceroute Accuracy and Completeness}{subsection.3.1}% 11
-\BOOKMARK [3][-]{subsubsection.3.1.7}{3.1.7 IPv4 vs. IPv6 Connectivity}{subsection.3.1}% 12
-\BOOKMARK [2][-]{subsection.3.2}{3.2 Results}{section.3}% 13
-\BOOKMARK [1][-]{section.4}{4 Feasibility of Routing Around Nation-States}{section*.1}% 14
-\BOOKMARK [2][-]{subsection.4.1}{4.1 Measurement Approach}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.2}{4.2 Avoidability Metrics}{section.4}% 16
-\BOOKMARK [3][-]{subsubsection.4.2.1}{4.2.1 Avoidability metric}{subsection.4.2}% 17
-\BOOKMARK [3][-]{subsubsection.4.2.2}{4.2.2 Avoidability algorithm with relays}{subsection.4.2}% 18
-\BOOKMARK [3][-]{subsubsection.4.2.3}{4.2.3 Upper bound on avoidability}{subsection.4.2}% 19
-\BOOKMARK [2][-]{subsection.4.3}{4.3 Results}{section.4}% 20
-\BOOKMARK [1][-]{section.5}{5 RAN: Routing Around Nation-States}{section*.1}% 21
-\BOOKMARK [2][-]{subsection.5.1}{5.1 Threat Model}{section.5}% 22
-\BOOKMARK [2][-]{subsection.5.2}{5.2 Design Goals}{section.5}% 23
-\BOOKMARK [2][-]{subsection.5.3}{5.3 Overview}{section.5}% 24
-\BOOKMARK [2][-]{subsection.5.4}{5.4 Periodic Path Measurement}{section.5}% 25
-\BOOKMARK [3][-]{subsubsection.5.4.1}{5.4.1 Client-to-Relay Paths}{subsection.5.4}% 26
-\BOOKMARK [3][-]{subsubsection.5.4.2}{5.4.2 Relay-to-Client Paths}{subsection.5.4}% 27
-\BOOKMARK [3][-]{subsubsection.5.4.3}{5.4.3 Relay-to-Server Paths}{subsection.5.4}% 28
-\BOOKMARK [3][-]{subsubsection.5.4.4}{5.4.4 Client-to-Server Paths}{subsection.5.4}% 29
-\BOOKMARK [2][-]{subsection.5.5}{5.5 PAC File Generation}{section.5}% 30
-\BOOKMARK [2][-]{subsection.5.6}{5.6 Extending RAN with Content Provider Support}{section.5}% 31
-\BOOKMARK [1][-]{section.6}{6 Implementation and Deployment}{section*.1}% 32
-\BOOKMARK [2][-]{subsection.6.1}{6.1 Other Considerations}{section.6}% 33
-\BOOKMARK [2][-]{subsection.6.2}{6.2 Evaluation}{section.6}% 34
-\BOOKMARK [3][-]{subsubsection.6.2.1}{6.2.1 Country Avoidability}{subsection.6.2}% 35
-\BOOKMARK [3][-]{subsubsection.6.2.2}{6.2.2 Performance}{subsection.6.2}% 36
-\BOOKMARK [3][-]{subsubsection.6.2.3}{6.2.3 Storage and Measurement Costs}{subsection.6.2}% 37
-\BOOKMARK [1][-]{section.7}{7 Discussion}{section*.1}% 38
-\BOOKMARK [1][-]{section.8}{8 Conclusion}{section*.1}% 39
+\BOOKMARK [1][-]{section.3}{3 Characterizing Detours}{section*.1}% 4
+\BOOKMARK [2][-]{subsection.3.1}{3.1 Measurement Approach}{section.3}% 5
+\BOOKMARK [3][-]{subsubsection.3.1.1}{3.1.1 Resource Limitations}{subsection.3.1}% 6
+\BOOKMARK [3][-]{subsubsection.3.1.2}{3.1.2 Path Asymmetry}{subsection.3.1}% 7
+\BOOKMARK [3][-]{subsubsection.3.1.3}{3.1.3 Traceroute Origin and Destination Selection}{subsection.3.1}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.4}{3.1.4 Country Mapping}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.5}{3.1.5 Traceroute Accuracy and Completeness}{subsection.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Results}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{4 Feasibility of Routing Around Nation-States}{section*.1}% 12
+\BOOKMARK [2][-]{subsection.4.1}{4.1 Measurement Approach}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{4.2 Avoidability Metrics}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.3}{4.3 Results}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{5 Routing Around Nation-States}{section*.1}% 16
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Periodic Path Measurement}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.2}{5.2 PAC File Generation}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.3}{5.3 Extending RAN with Provider Support}{section.5}% 19
+\BOOKMARK [1][-]{section.6}{6 Implementation and Deployment}{section*.1}% 20
+\BOOKMARK [2][-]{subsection.6.1}{6.1 Other Considerations}{section.6}% 21
+\BOOKMARK [2][-]{subsection.6.2}{6.2 Evaluation}{section.6}% 22
+\BOOKMARK [3][-]{subsubsection.6.2.1}{6.2.1 Country Avoidability}{subsection.6.2}% 23
+\BOOKMARK [3][-]{subsubsection.6.2.2}{6.2.2 Performance}{subsection.6.2}% 24
+\BOOKMARK [3][-]{subsubsection.6.2.3}{6.2.3 Storage and Measurement Costs}{subsection.6.2}% 25
+\BOOKMARK [1][-]{section.7}{7 Conclusion}{section*.1}% 26

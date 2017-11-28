@@ -14,9 +14,9 @@ shapers) throttle network traffic speeds.
 
 An increasing number of countries have passed laws that facilitate mass
 surveillance of networks within their territory~\cite{france_surveillance,netherlands_surveillance,kazak_surveillance,uk_bill}. While governments and
-citizens alike may want to divert their Internet traffic from countries that
-perform surveillance (notably, the United States~\cite{russia_secure_internet,routing_errors,dte}), this is a challenging problem with no known, effective 
-solutions.   Additionally, both users and ISPs may wish to prevent these international detours for
+citizens may want to divert their Internet traffic from countries that
+perform surveillance (notably, the United States~\cite{russia_secure_internet,routing_errors,dte}), this is a challenging problem with no effective 
+solutions.   Additionally, users and ISPs may wish to prevent these international detours for
 performance and cost reasons; previous work has shown that tromboning
 paths---paths that start and end in the same country, but also traverse a
 foreign country---are common~\cite{shah2015characterizing,gupta2014peering}.
@@ -113,7 +113,7 @@ that only 45\% of the Alexa Top 100 domains in Brazil are hosted
 in more than one country (other countries studied showed similar results); in many cases,
 that country is one that clients may want to avoid. Second, even if
 hosting diversity can be improved, routing can still force traffic
-through a small collection of countries. Despite strong efforts made by some countries to ensure their
+through a small set of countries. Despite strong efforts made by some countries to ensure their
 traffic does not transit certain countries~\cite{brazil_history,
   brazil_break_from_US, brazil_conference, brazil_conference2,
   brazil_human_rights}, their traffic still does so.  For example, over 50\% of the
@@ -151,11 +151,11 @@ a client to access web content while avoiding the traversal of a specified
 country} (Section~\ref{system_design}).  We implemented \system{} for
 end-users, 
 but ISPs can also deploy \system{} proxies to provide country
-avoidance as a service to its customers.  \system{} uses a series of overlay
+avoidance as a service to its customers.  \system{} uses overlay
 network relays to automatically route a client's traffic around a specified
 country.  We evaluate \system{} to assess its ability to avoid certain
 countries, as well as the effect on end-to-end performance. We
-also discuss the usability and and scalability of the system.  Our evaluation
+also discuss the usability and scalability of the system.  Our evaluation
 shows that \system{} can effectively avoid many different countries and
 introduces minimal performance overhead.  To summarize, we make the following key 
 contributions:

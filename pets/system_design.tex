@@ -1,4 +1,4 @@
-\section{\system{}: Routing Around Nation-States}
+\section{Routing Around Nation-States}
 \label{system_design}
 
 %The previous section showed a first step at demonstrating the extent of the 
@@ -28,9 +28,7 @@ of providers.  Because the design does not assume any cooperation from content p
 the system does not (and cannot) always ensure that some Internet path avoids a 
 particular country. 
 
-\subsection{Threat Model}
-
-\system{} addresses an adversary who is restricted to a specific region of the world.  The 
+{\bf Threat Model.} \system{} addresses an adversary who is restricted to a specific region of the world.  The 
 adversary can be passive, and conduct surveillance, or active, and interfere with traffic. We 
 realize that a country's surveillance capabilities are not limited to the infrastructure within 
 its borders, but a country typically can only interfere and manipulate traffic within its borders. 
@@ -44,8 +42,7 @@ capabilities are limited to a specific land mass.
 
 \input{design_goals}
 
-\subsection{Overview}
-\system{} comprises (1)~an overlay network of relays; and (2)~an oracle that
+{\bf Overview.} \system{} comprises (1)~an overlay network of relays; and (2)~an oracle that
 directs clients to the appropriate relays, as shown in Figure~\ref{fig:arch}.
 \system{}'s relays are TCP proxy servers that allow clients to access web
 content without installing custom software. \system{} uses the measurement
@@ -121,7 +118,7 @@ the path (necessary for traffic correlation attacks).
 \end{figure}
 
 
-\subsubsection{Client-to-Relay Paths} 
+{\bf Client-to-Relay Paths.} 
 To avoid requiring the client to install custom software, \system{}
 measures client-to-relay paths from RIPE Atlas probes that serve as 
 vantage points for the ASes where \system{} clients might be.  \system{} selects
@@ -131,16 +128,16 @@ country). The oracle triggers the probe to run traceroutes
 to each relay.  After collecting the responses, the oracle maps 
 the IP-level paths to country-level paths and stores the results.
 
-\subsubsection{Relay-to-Client Paths} The \system{} relays perform
+{\bf Relay-to-Client Paths.} The \system{} relays perform
 traceroutes to the IP addresses of RIPE Atlas probes, which 
 represent client ASes.  They then derive country-level paths; the
 oracle learns these paths from each relay.  
 
-\subsubsection{Relay-to-Server Paths} Relays perform 
+{\bf Relay-to-Server Paths.} Relays perform 
 traceroutes to each domain.  As with paths to clients,
 relays derive country-level paths and send them to the oracle.
 
-\subsubsection{Client-to-Server Paths} In case a path from a client to a 
+{\bf Client-to-Server Paths.} In case a path from a client to a 
 domain does not pass through the country specified to avoid {\it by default}, 
 then none of the proxies should be used.  
 %If a proxy is used, then it may 
@@ -217,7 +214,7 @@ updated every five days.
 % point the proxy configuration settings to the URL that contains the
 % PAC file.
 
-\subsection{Extending \system{} with Content Provider Support}
+\subsection{Extending \system{} with Provider Support}
 
 While the current version of \system{} does not include support by content providers, it can be easily, incrementally,
 extended to do so without any fundamental changes to the system.  This would simply require providers (or a 
