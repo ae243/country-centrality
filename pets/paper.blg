@@ -1,49 +1,50 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: abbrv.bst
 Database file #1: sigproc.bib
 Warning--can't use both volume and number fields in andersen2001resilient
 Warning--empty journal in apthorpe2016poster
-You've used 73 entries,
+Warning--empty journal in gharaibeh2017look
+You've used 74 entries,
             2118 wiz_defined-function locations,
-            844 strings with 16798 characters,
-and the built_in function-call counts, 24611 in all, are:
-= -- 2451
-> -- 1093
+            848 strings with 17028 characters,
+and the built_in function-call counts, 24976 in all, are:
+= -- 2481
+> -- 1126
 < -- 31
-+ -- 447
-- -- 372
-* -- 1527
-:= -- 3670
-add.period$ -- 218
-call.type$ -- 73
-change.case$ -- 432
++ -- 461
+- -- 384
+* -- 1556
+:= -- 3738
+add.period$ -- 221
+call.type$ -- 74
+change.case$ -- 441
 chr.to.int$ -- 0
-cite$ -- 75
-duplicate$ -- 996
-empty$ -- 2110
-format.name$ -- 372
-if$ -- 5492
+cite$ -- 77
+duplicate$ -- 1006
+empty$ -- 2127
+format.name$ -- 384
+if$ -- 5559
 int.to.chr$ -- 0
-int.to.str$ -- 73
-missing$ -- 45
-newline$ -- 343
-num.names$ -- 94
-pop$ -- 577
+int.to.str$ -- 74
+missing$ -- 46
+newline$ -- 348
+num.names$ -- 96
+pop$ -- 588
 preamble$ -- 1
-purify$ -- 358
+purify$ -- 366
 quote$ -- 0
-skip$ -- 822
+skip$ -- 829
 stack$ -- 0
-substring$ -- 1303
+substring$ -- 1309
 swap$ -- 321
 text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 292
-warning$ -- 2
-while$ -- 187
-width$ -- 75
-write$ -- 728
-(There were 2 warnings)
+type$ -- 296
+warning$ -- 3
+while$ -- 189
+width$ -- 76
+write$ -- 737
+(There were 3 warnings)
