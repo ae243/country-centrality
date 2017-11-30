@@ -1,6 +1,6 @@
 \section{Characterizing Detours}
 \label{datasets}
-In this section, we describe our measurement methods, the challenges in
+We  describe our measurement methods, the challenges in
 conducting them, and our findings concerning the transnational detours
 of default Internet paths.
 
@@ -10,7 +10,8 @@ of default Internet paths.
 Figure~\ref{fig:pipeline1} shows the process that we use to discover end-to-end
 Internet paths from our respective vantage points to various domains. We first use
 VPNs
-to establish various vantage points in the countries of interest; then, we use 
+to establish various vantage points in the countries from which we measure; then,
+we use
 {\tt curl} to download corresponding webpages for each of those popular domains,
 including all subdomains that are embedded in the site's top-level webpage (1,2). We extract
 all of these domain names (3) and resolve them to their corresponding IP addresses (4);
@@ -29,7 +30,7 @@ rest of this section.
 \subsubsection{Resource Limitations}
 \label{resource_limits}
 
-We currently focus our measurements on five countries due to resource limitations.
+We focus on five countries due to resource limitations.
 The iPlane~\cite{madhyastha2006iplane} and Center for Applied Internet Data
 Analysis (CAIDA)~\cite{caida} projects maintain large repositories of
 traceroute data, neither of which are suitable for our study.   iPlane has
@@ -63,7 +64,7 @@ connections---to obtain a vantage point within a foreign country, which
 is still representative of an Internet user in that country.  We are forced to 
 use an alternative vantage point to RIPE Atlas probes because these probes 
 do not support all operations that our methods require (such as requesting 
-the webpage).  While VPN connections provide the necessary functionality in 
+the webpage).  Although VPN connections provide the necessary functionality in 
 the correct country, RIPE Atlas probes are more representative of typical 
 Internet users, as they are often hosted in home networks, therefore we decide
  to use RIPE Atlas probes when possible and VPN connections when necessary.
@@ -71,7 +72,8 @@ Internet users, as they are often hosted in home networks, therefore we decide
 \subsubsection{Path Asymmetry}
 \label{path_sym}
 
-The reverse path (i.e., the path from the server to the client) is just as important as (and often different from) the
+The reverse path (\ie, the path from the server to the client) is just as important
+as (and often different from) the
 forward path.   Previous work has shown that paths between Internet endpoints
 are often asymmetric~\cite{he2005routing}.  Most work on path asymmetry has
 been done at the AS level~\cite{paxson1997end,gao2001inferring,he2005routing,he2004quantifying}, but not at the country level; our measurements can
@@ -144,23 +146,23 @@ removed the long tail of countries that are the endpoint for less than 1\% of th
 \label{fig:compare_alexas}
 \end{figure}
 
-\subsubsection{Country Mapping}
+\subsubsection{Inferring Country-Level Paths}
 \label{c_map}
 
 Accurate IP geolocation is challenging~\cite{poese2011ip,katz2006towards,eriksson2010learning,gill2010dude,hu2012towards,guo2009mining,eriksson2012posit}. We use MaxMind's
 geolocation service to map IP addresses to their respective
-countries~\cite{maxmind}. While this database is known to contain inaccuracies,
+countries~\cite{maxmind}. This database is known to contain inaccuracies,
 particularly for IP addresses that correspond to Internet infrastructure, as opposed
-to end hosts, the primary motivations for this work are to show that paths 
-are currently going through countries with controversial policies on network interference, and that performance is affected by the 
-paths taken~\cite{huffaker2011geocompare}.  Fortunately, previous work has found that
-geolocation at a country-level granularity is more accurate than at
-finer granularity~\cite{huffaker2011geocompare}.  In light of these
-concerns, we post-processed our IP to country mapping; Figure~\ref{fig:analysis_pipeline} shows an example of this
-post-processing.  The method first removes all IP addresses that resulted in a `None' response when
-querying MaxMind, which causes our results to provide a conservative
-estimate of the number of countries that paths traverse. It is important
-to note that removing `None' responses will \textit{always} produce a
+to end hosts; fortunately, our aim is to discover the countries that Internet paths
+traverse, and previous work has found that
+{\em geolocation at a country-level granularity is more accurate than it is at
+finer granularities}~\cite{huffaker2011geocompare}.  
+In light of these
+concerns, we post-processed our IP to country mapping, as shown in Figure~\ref{fig:analysis_pipeline}.
+The method first removes all IP addresses that resulted in a `None' response when
+querying MaxMind, which causes our results to provide a {\em conservative
+estimate of the number of countries that paths traverse}. 
+Note that removing `None' responses will \textit{always} produce a
 conservative estimate.
 %JEN: removed to deemphasize surveillance as the primary interest
 %, and therefore we are \textit{always}
@@ -202,7 +204,8 @@ located in two or more different countries. \end{finding}
 \noindent Hosting diversity reflects how many unique
 countries host a domain.  The more countries host a domain, the greater the
 likelihood that a client can find a path to that site that avoids a certain
-country. As a separate measurement experiment, we queried DNS from 26 vantage points around the world, in
+country. As a separate measurement experiment, we performed DNS queries for the
+sites we measure from 26 vantage points around the world, in
 geographically diverse locations. We then mapped the IP addresses in the DNS
 responses to countries to determine how many unique countries host a domain.
 We found two common hosting cases:
@@ -282,7 +285,8 @@ The United States and Great Britain are on more paths than any other (foreign) c
 \noindent
 84\% of Brazilian paths traverse the United States, despite Brazil's
 strong efforts to avoid United States surveillance~\cite{brazil_break_from_US,brazil_us_companies,brazil_conference,brazil_conference2,brazil_human_rights,brazil_cable}.  Although India and
-Kenya are geographically distant, 72\% and 62\% of their paths also transit
+Kenya are both geographically far from the United States, 72\% and 62\% of their
+paths nonetheless transit
 the United States.
 
 Great Britain and the Netherlands are on 
@@ -314,8 +318,10 @@ as a threat by competing commercial providers; providers are sometimes
 concerned that interconnection will result in making business
 cheaper for competitors and stealing of customers~\cite{ixp_policy}.
 
-Brazilian providers may see one another as competitors and therefore as a
-threat at IXPs, which causes them to peer with international providers instead
+Brazilian ISPs have often viewed one another as competitors and therefore
+as a
+threat at IXPs; this policy artifact causes Brazilian ISPs to peer with international
+providers instead
 of other local providers~\cite{ixp_policy}.  Additionally, we see Brazilian paths trombone to
 Spain and Italy.  We see Italy often in tromboning paths because Telecom
 Italia Sparkle is one of the top global Internet providers~\cite{bakers}. 
@@ -333,12 +339,12 @@ paths include these countries.
 
   %Traffic that should be kept local is susceptible to surveillance because it transits two well-known surveillance states.  
 
-\begin{finding}[United States as an Outlier]
+\begin{finding}[Most United States Content Stays Local]
 The United States hosts 97\% of the content that is accessed from within the United States, and only five foreign countries---France, Germany, Ireland, Great Britain, and the Netherlands---host content for the other 3\% of paths.
 \end{finding}
 \noindent
 
-We find that Brazilian, Dutch, Indian, and Kenyan paths
+Brazilian, Dutch, Indian, and Kenyan paths
 often transit the U.S. The results from
 studying paths that originate in the United States are drastically different from
 those

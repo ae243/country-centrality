@@ -6,7 +6,7 @@
 \BOOKMARK [3][-]{subsubsection.3.1.1}{3.1.1 Resource Limitations}{subsection.3.1}% 6
 \BOOKMARK [3][-]{subsubsection.3.1.2}{3.1.2 Path Asymmetry}{subsection.3.1}% 7
 \BOOKMARK [3][-]{subsubsection.3.1.3}{3.1.3 Traceroute Origin and Destination Selection}{subsection.3.1}% 8
-\BOOKMARK [3][-]{subsubsection.3.1.4}{3.1.4 Country Mapping}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.4}{3.1.4 Inferring Country-Level Paths}{subsection.3.1}% 9
 \BOOKMARK [3][-]{subsubsection.3.1.5}{3.1.5 Traceroute Accuracy and Completeness}{subsection.3.1}% 10
 \BOOKMARK [2][-]{subsection.3.2}{3.2 Results}{section.3}% 11
 \BOOKMARK [1][-]{section.4}{4 Feasibility of Routing Around Nation-States}{section*.1}% 12
@@ -14,13 +14,14 @@
 \BOOKMARK [2][-]{subsection.4.2}{4.2 Avoidability Metrics}{section.4}% 14
 \BOOKMARK [2][-]{subsection.4.3}{4.3 Results}{section.4}% 15
 \BOOKMARK [1][-]{section.5}{5 Routing Around Nation-States}{section*.1}% 16
-\BOOKMARK [2][-]{subsection.5.1}{5.1 Periodic Path Measurement}{section.5}% 17
-\BOOKMARK [2][-]{subsection.5.2}{5.2 PAC File Generation}{section.5}% 18
-\BOOKMARK [2][-]{subsection.5.3}{5.3 Extending RAN with Provider Support}{section.5}% 19
-\BOOKMARK [1][-]{section.6}{6 Implementation \046 Deployment}{section*.1}% 20
-\BOOKMARK [2][-]{subsection.6.1}{6.1 Other Considerations}{section.6}% 21
-\BOOKMARK [2][-]{subsection.6.2}{6.2 Evaluation}{section.6}% 22
-\BOOKMARK [3][-]{subsubsection.6.2.1}{6.2.1 Country Avoidability}{subsection.6.2}% 23
-\BOOKMARK [3][-]{subsubsection.6.2.2}{6.2.2 Performance}{subsection.6.2}% 24
-\BOOKMARK [3][-]{subsubsection.6.2.3}{6.2.3 Storage and Measurement Costs}{subsection.6.2}% 25
-\BOOKMARK [1][-]{section.7}{7 Conclusion}{section*.1}% 26
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Threat Model and Design}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.2}{5.2 Measuring Paths}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.3}{5.3 Computing and Selecting Paths}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.4}{5.4 Limitations and Extensions}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{6 Implementation \046 Deployment}{section*.1}% 21
+\BOOKMARK [2][-]{subsection.6.1}{6.1 Other Considerations}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{6.2 Evaluation}{section.6}% 23
+\BOOKMARK [3][-]{subsubsection.6.2.1}{6.2.1 Country Avoidability}{subsection.6.2}% 24
+\BOOKMARK [3][-]{subsubsection.6.2.2}{6.2.2 Performance}{subsection.6.2}% 25
+\BOOKMARK [3][-]{subsubsection.6.2.3}{6.2.3 Storage and Measurement Costs}{subsection.6.2}% 26
+\BOOKMARK [1][-]{section.7}{7 Conclusion}{section*.1}% 27

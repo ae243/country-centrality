@@ -28,10 +28,10 @@
 \citation{encryption_forward}
 \@LN@col{1}
 \providecommand \oddpage@label [2]{}
-\select@language{USenglish}
-\@writefile{toc}{\select@language{USenglish}}
-\@writefile{lof}{\select@language{USenglish}}
-\@writefile{lot}{\select@language{USenglish}}
+\select@language{english}
+\@writefile{toc}{\select@language{english}}
+\@writefile{lof}{\select@language{english}}
+\@writefile{lot}{\select@language{english}}
 \@writefile{toc}{\contentsline {author}{}{1}{Doc-Start}}
 \@writefile{toc}{\contentsline {contribution}{\relax \fontsize  {15}{19.5}\selectfont  \bf  RAN{}: Routing Around Nation-States}{1}{section*.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
@@ -93,14 +93,13 @@
 \citation{poese2011ip,katz2006towards,eriksson2010learning,gill2010dude,hu2012towards,guo2009mining,eriksson2012posit}
 \citation{maxmind}
 \citation{huffaker2011geocompare}
-\citation{huffaker2011geocompare}
 \citation{augustin2006avoiding}
 \citation{ransom_data}
 \@LN@col{1}
 \@writefile{lof}{\contentsline {figure}{\numberline {Fig. 3}{\ignorespaces Comparison of path endpoints between the Alexa Top 100 and the Alexa Top 1000. For simplicity, we have removed the long tail of countries that are the endpoint for less than 1\% of the measured paths.\relax }}{6}{figure.caption.4}}
 \newlabel{fig:compare_alexas}{{3}{6}{Comparison of path endpoints between the Alexa Top 100 and the Alexa Top 1000. For simplicity, we have removed the long tail of countries that are the endpoint for less than 1\% of the measured paths.\relax }{figure.caption.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4}Country Mapping}{6}{subsubsection.3.1.4}}
-\newlabel{c_map}{{3.1.4}{6}{Country Mapping}{subsubsection.3.1.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4}Inferring Country-Level Paths}{6}{subsubsection.3.1.4}}
+\newlabel{c_map}{{3.1.4}{6}{Inferring Country-Level Paths}{subsubsection.3.1.4}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.5}Traceroute Accuracy and Completeness}{6}{subsubsection.3.1.5}}
 \@LN@col{2}
 \@writefile{lot}{\contentsline {table}{\numberline {Table 1}{\ignorespaces Fraction of paths terminating in a country by default. The fraction in each cell represents the fraction of paths originating in the country at the top of the column and ending in the country indicated in the first cell of the same row.\relax }}{6}{table.caption.5}}
@@ -145,25 +144,27 @@
 \@writefile{toc}{\contentsline {section}{\numberline {5}Routing Around Nation-States}{10}{section.5}}
 \newlabel{system_design}{{5}{10}{Routing Around Nation-States}{section.5}{}}
 \@LN@col{1}
-\newlabel{goals}{{5}{11}{Routing Around Nation-States}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Threat Model and Design}{11}{subsection.5.1}}
+\newlabel{goals}{{5.1}{11}{Threat Model and Design}{subsection.5.1}{}}
 \@LN@col{2}
+\@writefile{lof}{\contentsline {figure}{\numberline {Fig. 7}{\ignorespaces RAN{} architecture.\relax }}{11}{figure.caption.11}}
+\newlabel{fig:arch}{{7}{11}{\system {} architecture.\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Measuring Paths}{11}{subsection.5.2}}
 \@LN@col{1}
-\@writefile{lof}{\contentsline {figure}{\numberline {Fig. 7}{\ignorespaces RAN{} architecture.\relax }}{12}{figure.caption.11}}
-\newlabel{fig:arch}{{7}{12}{\system {} architecture.\relax }{figure.caption.11}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Periodic Path Measurement}{12}{subsection.5.1}}
 \@LN@col{2}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}PAC File Generation}{12}{subsection.5.2}}
-\newlabel{multiplex}{{5.2}{12}{PAC File Generation}{subsection.5.2}{}}
+\newlabel{lst:pac}{{1}{12}{Example PAC file}{lstlisting.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}Example PAC file.}{12}{lstlisting.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Computing and Selecting Paths}{12}{subsection.5.3}}
+\newlabel{multiplex}{{5.3}{12}{Computing and Selecting Paths}{subsection.5.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Limitations and Extensions}{12}{subsection.5.4}}
 \citation{ran_system}
 \@LN@col{1}
-\newlabel{lst:pac}{{1}{13}{Example PAC file}{lstlisting.1}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}Example PAC file.}{13}{lstlisting.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Extending RAN{} with Provider Support}{13}{subsection.5.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {6}Implementation \& Deployment}{13}{section.6}}
 \@LN@col{2}
 \@writefile{lof}{\contentsline {figure}{\numberline {Fig. 8}{\ignorespaces The locations and ASNs for RAN{} relays.\relax }}{13}{figure.caption.13}}
 \newlabel{fig:relay_locations}{{8}{13}{The locations and ASNs for \system {} relays.\relax }{figure.caption.13}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Other Considerations}{13}{subsection.6.1}}
+\citation{andersen2001resilient}
 \citation{andersen2001resilient}
 \citation{andersen2001resilient}
 \@LN@col{1}
@@ -174,9 +175,9 @@
 \newlabel{fig:avoidance_eval}{{9}{14}{The effect of the number of relays on avoidance, for a client in the Netherlands. We tested \system {} with up to nine relays.\relax }{figure.caption.14}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}Performance}{14}{subsubsection.6.2.2}}
 \citation{ransom_data,ran_system}
-\bibstyle{unsrt}
+\bibstyle{abbrv}
 \bibdata{sigproc}
-\bibcite{france_surveillance}{{1}{}{{}}{{}}}
+\bibcite{aas2014let}{{1}{}{{}}{{}}}
 \@LN@col{1}
 \@writefile{lof}{\contentsline {figure}{\numberline {Fig. 10}{\ignorespaces The ratio of RAN throughput to direct throughput. The points on the graph show measurements from the Resilient Overlay Networks (RON~\cite  {andersen2001resilient}) system and thus represent the performance of overlay network that is solely designed to improve reliability.\relax }}{15}{figure.caption.15}}
 \newlabel{fig:throughput}{{10}{15}{The ratio of RAN throughput to direct throughput. The points on the graph show measurements from the Resilient Overlay Networks (RON~\cite {andersen2001resilient}) system and thus represent the performance of overlay network that is solely designed to improve reliability.\relax }{figure.caption.15}{}}
@@ -186,82 +187,82 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.3}Storage and Measurement Costs}{15}{subsubsection.6.2.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{15}{section.7}}
 \newlabel{conclusion}{{7}{15}{Conclusion}{section.7}{}}
-\bibcite{netherlands_surveillance}{{2}{}{{}}{{}}}
-\bibcite{kazak_surveillance}{{3}{}{{}}{{}}}
-\bibcite{uk_bill}{{4}{}{{}}{{}}}
-\bibcite{russia_secure_internet}{{5}{}{{}}{{}}}
-\bibcite{routing_errors}{{6}{}{{}}{{}}}
-\bibcite{dte}{{7}{}{{}}{{}}}
-\bibcite{shah2015characterizing}{{8}{}{{}}{{}}}
-\bibcite{gupta2014peering}{{9}{}{{}}{{}}}
-\bibcite{aas2014let}{{10}{}{{}}{{}}}
-\bibcite{what_isps_can_see}{{11}{}{{}}{{}}}
-\bibcite{Johnson2013a}{{12}{}{{}}{{}}}
-\bibcite{apthorpe2016poster}{{13}{}{{}}{{}}}
-\bibcite{mitm_isp}{{14}{}{{}}{{}}}
-\bibcite{encryption_forward}{{15}{}{{}}{{}}}
-\bibcite{brito2016dissecting}{{16}{}{{}}{{}}}
-\bibcite{fanou2015diversity}{{17}{}{{}}{{}}}
-\bibcite{chavula2014quantifying}{{18}{}{{}}{{}}}
-\bibcite{fanou2016pushing}{{19}{}{{}}{{}}}
-\bibcite{karlin2009nation}{{20}{}{{}}{{}}}
-\bibcite{ripe_atlas}{{21}{}{{}}{{}}}
-\bibcite{brazil_history}{{22}{}{{}}{{}}}
-\bibcite{brazil_break_from_US}{{23}{}{{}}{{}}}
-\bibcite{brazil_conference}{{24}{}{{}}{{}}}
-\bibcite{brazil_conference2}{{25}{}{{}}{{}}}
-\bibcite{brazil_human_rights}{{26}{}{{}}{{}}}
-\bibcite{obar2012internet}{{27}{}{{}}{{}}}
-\bibcite{wahlisch2010framework}{{28}{}{{}}{{}}}
-\bibcite{wahlisch2012exposing}{{29}{}{{}}{{}}}
-\bibcite{zhou2007chinese}{{30}{}{{}}{{}}}
-\bibcite{bischof2015and}{{31}{}{{}}{{}}}
-\bibcite{roberts2011mapping}{{32}{}{{}}{{}}}
-\bibcite{levin2015alibi}{{33}{}{{}}{{}}}
+\bibcite{andersen2001resilient}{{2}{}{{}}{{}}}
+\bibcite{apthorpe2016poster}{{3}{}{{}}{{}}}
+\bibcite{augustin2006avoiding}{{4}{}{{}}{{}}}
+\bibcite{bakers}{{5}{}{{}}{{}}}
+\bibcite{banerjee2004interdomain}{{6}{}{{}}{{}}}
+\bibcite{bischof2015and}{{7}{}{{}}{{}}}
+\bibcite{brazil_cable}{{8}{}{{}}{{}}}
+\bibcite{brazil_conference2}{{9}{}{{}}{{}}}
+\bibcite{brazil_break_from_US}{{10}{}{{}}{{}}}
+\bibcite{brazil_conference}{{11}{}{{}}{{}}}
+\bibcite{brazil_human_rights}{{12}{}{{}}{{}}}
+\bibcite{brazil_us_companies}{{13}{}{{}}{{}}}
+\bibcite{brito2016dissecting}{{14}{}{{}}{{}}}
+\bibcite{caida}{{15}{}{{}}{{}}}
+\bibcite{chavula2014quantifying}{{16}{}{{}}{{}}}
+\bibcite{routing_errors}{{17}{}{{}}{{}}}
+\bibcite{corrigan2015riposte}{{18}{}{{}}{{}}}
+\bibcite{ransom_data}{{19}{}{{}}{{}}}
+\bibcite{dte}{{20}{}{{}}{{}}}
+\bibcite{dingledine2004tor}{{21}{}{{}}{{}}}
+\bibcite{eriksson2012posit}{{22}{}{{}}{{}}}
+\bibcite{eriksson2010learning}{{23}{}{{}}{{}}}
+\bibcite{fanou2015diversity}{{24}{}{{}}{{}}}
+\bibcite{fanou2016pushing}{{25}{}{{}}{{}}}
+\bibcite{france_surveillance}{{26}{}{{}}{{}}}
+\bibcite{gao2001inferring}{{27}{}{{}}{{}}}
+\bibcite{gelernter2016two}{{28}{}{{}}{{}}}
+\bibcite{gill2010dude}{{29}{}{{}}{{}}}
+\bibcite{mitm_isp}{{30}{}{{}}{{}}}
+\bibcite{guo2009mining}{{31}{}{{}}{{}}}
+\bibcite{gupta2014peering}{{32}{}{{}}{{}}}
+\bibcite{he2004quantifying}{{33}{}{{}}{{}}}
+\bibcite{he2005routing}{{34}{}{{}}{{}}}
 \@LN@col{1}
 \@LN@col{2}
-\bibcite{levin_detour}{{34}{}{{}}{{}}}
-\bibcite{andersen2001resilient}{{35}{}{{}}{{}}}
-\bibcite{peter2015one}{{36}{}{{}}{{}}}
-\bibcite{zhang2011scion}{{37}{}{{}}{{}}}
-\bibcite{dingledine2004tor}{{38}{}{{}}{{}}}
-\bibcite{nobori2014vpn}{{39}{}{{}}{{}}}
-\bibcite{piotrowska2017loopix}{{40}{}{{}}{{}}}
-\bibcite{van2015vuvuzela}{{41}{}{{}}{{}}}
-\bibcite{wolinsky2012dissent}{{42}{}{{}}{{}}}
-\bibcite{tyagi2016stadium}{{43}{}{{}}{{}}}
-\bibcite{corrigan2015riposte}{{44}{}{{}}{{}}}
-\bibcite{kwon2016atom}{{45}{}{{}}{{}}}
-\bibcite{kwon2016riffle}{{46}{}{{}}{{}}}
-\bibcite{gelernter2016two}{{47}{}{{}}{{}}}
-\bibcite{madhyastha2006iplane}{{48}{}{{}}{{}}}
-\bibcite{caida}{{49}{}{{}}{{}}}
-\bibcite{PlanetLab}{{50}{}{{}}{{}}}
-\bibcite{banerjee2004interdomain}{{51}{}{{}}{{}}}
-\bibcite{he2005routing}{{52}{}{{}}{{}}}
-\bibcite{paxson1997end}{{53}{}{{}}{{}}}
-\bibcite{gao2001inferring}{{54}{}{{}}{{}}}
-\bibcite{he2004quantifying}{{55}{}{{}}{{}}}
-\bibcite{katz2010reverse}{{56}{}{{}}{{}}}
-\bibcite{poese2011ip}{{57}{}{{}}{{}}}
-\bibcite{katz2006towards}{{58}{}{{}}{{}}}
-\bibcite{eriksson2010learning}{{59}{}{{}}{{}}}
-\bibcite{gill2010dude}{{60}{}{{}}{{}}}
-\bibcite{hu2012towards}{{61}{}{{}}{{}}}
-\bibcite{guo2009mining}{{62}{}{{}}{{}}}
-\bibcite{eriksson2012posit}{{63}{}{{}}{{}}}
-\bibcite{maxmind}{{64}{}{{}}{{}}}
-\bibcite{huffaker2011geocompare}{{65}{}{{}}{{}}}
+\bibcite{brazil_history}{{35}{}{{}}{{}}}
+\bibcite{hu2012towards}{{36}{}{{}}{{}}}
+\bibcite{huffaker2011geocompare}{{37}{}{{}}{{}}}
+\bibcite{uk_bill}{{38}{}{{}}{{}}}
+\bibcite{Johnson2013a}{{39}{}{{}}{{}}}
+\bibcite{karlin2009nation}{{40}{}{{}}{{}}}
+\bibcite{katz2006towards}{{41}{}{{}}{{}}}
+\bibcite{katz2010reverse}{{42}{}{{}}{{}}}
+\bibcite{kazak_surveillance}{{43}{}{{}}{{}}}
+\bibcite{kwon2016atom}{{44}{}{{}}{{}}}
+\bibcite{kwon2016riffle}{{45}{}{{}}{{}}}
+\bibcite{levin2015alibi}{{46}{}{{}}{{}}}
+\bibcite{madhyastha2006iplane}{{47}{}{{}}{{}}}
+\bibcite{maxmind}{{48}{}{{}}{{}}}
+\bibcite{netherlands_surveillance}{{49}{}{{}}{{}}}
+\bibcite{nobori2014vpn}{{50}{}{{}}{{}}}
+\bibcite{obar2012internet}{{51}{}{{}}{{}}}
+\bibcite{paxson1997end}{{52}{}{{}}{{}}}
+\bibcite{peter2015one}{{53}{}{{}}{{}}}
+\bibcite{piotrowska2017loopix}{{54}{}{{}}{{}}}
+\bibcite{PlanetLab}{{55}{}{{}}{{}}}
+\bibcite{poese2011ip}{{56}{}{{}}{{}}}
+\bibcite{ixp_policy}{{57}{}{{}}{{}}}
+\bibcite{ran_system}{{58}{}{{}}{{}}}
+\bibcite{encryption_forward}{{59}{}{{}}{{}}}
+\bibcite{ripe_atlas}{{60}{}{{}}{{}}}
+\bibcite{roberts2011mapping}{{61}{}{{}}{{}}}
+\bibcite{russia_secure_internet}{{62}{}{{}}{{}}}
+\bibcite{shah2015characterizing}{{63}{}{{}}{{}}}
+\bibcite{cablemap}{{64}{}{{}}{{}}}
+\bibcite{tyagi2016stadium}{{65}{}{{}}{{}}}
+\bibcite{van2015vuvuzela}{{66}{}{{}}{{}}}
+\bibcite{wahlisch2010framework}{{67}{}{{}}{{}}}
+\bibcite{wahlisch2012exposing}{{68}{}{{}}{{}}}
+\bibcite{what_isps_can_see}{{69}{}{{}}{{}}}
+\bibcite{wolinsky2012dissent}{{70}{}{{}}{{}}}
+\bibcite{zhang2011scion}{{71}{}{{}}{{}}}
 \@LN@col{1}
 \@LN@col{2}
-\bibcite{augustin2006avoiding}{{66}{}{{}}{{}}}
-\bibcite{ransom_data}{{67}{}{{}}{{}}}
-\bibcite{brazil_us_companies}{{68}{}{{}}{{}}}
-\bibcite{brazil_cable}{{69}{}{{}}{{}}}
-\bibcite{cablemap}{{70}{}{{}}{{}}}
-\bibcite{ixp_policy}{{71}{}{{}}{{}}}
-\bibcite{bakers}{{72}{}{{}}{{}}}
-\bibcite{ran_system}{{73}{}{{}}{{}}}
+\bibcite{levin_detour}{{72}{}{{}}{{}}}
+\bibcite{zhou2007chinese}{{73}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
 \@LN@col{1}
 \@LN@col{2}

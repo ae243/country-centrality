@@ -40,7 +40,7 @@ accessed while avoiding any other given country.
 %\system{}.
 
 It is important to note that \system{} cannot guarantee that a country is 
-avoided because for some domains, the path must go through the unfavorable 
+avoided because for some domains, the path must go through a certain 
 country, as evidenced by our results for avoiding the United States.  Despite 
 this lack of guarantees, the system reduces the number of requests that 
 transit the unfavorable country; additionally, the client can learn which domains 
@@ -48,9 +48,10 @@ are not accessible without passing through the unfavorable country, and can then
 decide whether or not to fetch that page.  
 
 \subsubsection{Performance}
-To measure the performance of \system{}, we measure both 
-the throughput and latency.
-
+We measure both 
+the throughput and latency of \system{} and compare these results both to the default
+path and to RON~\cite{andersen2001resilient}, a comparable overlay system that focuses
+on improving performance and reliability.
 To measure throughput, we ran {\tt wget} for each 
 of the top 100 domains from the client machine in the Netherlands 
 using an oracle-generated PAC file.  Because different relays could have been 

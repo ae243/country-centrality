@@ -8,25 +8,12 @@
 %believe that there are Internet users that would also benefit from a system that 
 %counters large-scale surveillance.  
 
-From our experience conducting measurement studies of Internet paths, we have identified 
-a number of obstacles standing in the way of building such systems.  These primarily include a lack 
-of possible measurement methods to learn reverse paths---these are crucial because paths 
-are asymmetric even at the country level---and a lack of knowledge about the locations in which 
-content is replicated.  
+Based on our measurement study, we design the first system to route traffic
+around a given country {\it without} the help of either Internet service
+providers or content providers.  
 
-We can surmount many of these obstacles if content providers contributed to the surveillance 
-avoidance system.  To address the issue of path asymmetry, the reverse path could be measured from within the provider and used to determine if 
-an unfavorable country is on the reverse path; this could be used in conjunction with our measurements 
-of the forward path.  In addition, content providers could strategically publish DNS records such that when a client receives 
-a DNS response, it is for a content replica that allows her to avoid a given country.  A content provider could also 
-replicate content in specific regions to allow clients to access replicas without traversing a specific 
-country. 
+\subsection{Threat Model and Design}
 
-We take an approach at designing 
-a system that is a first to route traffic around a given country {\it without} the help 
-of providers.  Because the design does not assume any cooperation from content providers, 
-the system does not (and cannot) always ensure that some Internet path avoids a 
-particular country. 
 
 {\bf Threat Model.} \system{} addresses an adversary who is restricted to a specific region of the world.  The 
 adversary can be passive, and conduct surveillance, or active, and interfere with traffic. We 
@@ -34,15 +21,17 @@ realize that a country's surveillance capabilities are not limited to the infras
 its borders, but a country typically can only interfere and manipulate traffic within its borders. 
 For the purposes of this system, we assume the adversary can only view and manipulate traffic 
 within its borders.
-
-An adversary who taps routers around the world, splices undersea fiber cables, or participates in 
-surveillance in foreign states is out of the scope of this work; while \system{} does not address this 
-type of attacker, \system{} does protect against an attacker whose interference and monitoring 
-capabilities are limited to a specific land mass.
+An global adversary that taps routers around the world, splices undersea fiber cables,
+or participates in 
+surveillance in foreign states beyond the scope of our threat model. \system{}
+does not address this
+type of attacker, but \system{} does protect against an attacker whose interference
+and monitoring  capabilities are limited to a specific geography.
 
 \input{design_goals}
 
-{\bf Overview.} \system{} comprises (1)~an overlay network of relays; and (2)~an oracle that
+{\bf Design Overview.} \system{} comprises (1)~an overlay network of relays; and
+(2)~an oracle that
 directs clients to the appropriate relays, as shown in Figure~\ref{fig:arch}.
 \system{}'s relays are TCP proxy servers that allow clients to access web
 content without installing custom software. \system{} uses the measurement
@@ -53,9 +42,6 @@ accessing a certain domain while avoiding a certain country.  The oracle
 periodically computes paths for many combinations of client AS, destination,
 and country.   A client can then query the oracle to determine the appropriate
 relay to use to avoid a certain country en route to a particular destination.
-
-After describing our threat model and enumerating our design goals for \system{}, we explain each component of
-the system in more detail. 
 
 %Once the TCP proxies are established, a client needs
 %to learn which proxy to use when accessing a given domain.
@@ -73,7 +59,27 @@ the system in more detail.
 %\label{fig:arch}
 %\end{figure}
 
-\subsection{Periodic Path Measurement}
+
+
+\begin{figure}[t!]
+    \centering
+%    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=.8\linewidth]{system_overview_updated-3}
+        \caption{\system{} architecture.}
+        \label{fig:arch}
+%    \end{subfigure}
+%    \begin{subfigure}[b]{0.4\textwidth}
+%        \includegraphics[width=\textwidth,height=7cm]{all_paths}
+%        \caption{Paths computed in \system{}.}
+%        \label{fig:paths}
+%    \end{subfigure}
+%    \caption{\system{} architecture, and the path
+%      measurements that \system{} periodically computes.}
+\end{figure}
+
+
+
+\subsection{Measuring Paths}
 
 \system{} measures all paths using {\tt 
 traceroute}, which is then mapped to the country level using the same methods as 
@@ -101,21 +107,6 @@ fingerprinting attacks, as the country cannot see who the client is (necessary
 for website fingerprinting) and does not have access to more than one part of
 the path (necessary for traffic correlation attacks).
 
-\begin{figure}[t!]
-    \centering
-%    \begin{subfigure}[b]{0.4\textwidth}
-        \includegraphics[width=.8\linewidth]{system_overview_updated-3}
-        \caption{\system{} architecture.}
-        \label{fig:arch}
-%    \end{subfigure}
-%    \begin{subfigure}[b]{0.4\textwidth}
-%        \includegraphics[width=\textwidth,height=7cm]{all_paths}
-%        \caption{Paths computed in \system{}.}
-%        \label{fig:paths}
-%    \end{subfigure}
-%    \caption{\system{} architecture, and the path
-%      measurements that \system{} periodically computes.}
-\end{figure}
 
 
 {\bf Client-to-Relay Paths.} 
@@ -176,8 +167,9 @@ most recent country-level paths.
 %\end{figure}
 
 
-\subsection{PAC File Generation}
+\subsection{Computing and Selecting Paths}
 \label{multiplex}
+
 The oracle follows four steps to decide which relay a client should
 use to access a specific domain: (1)~If the default path from the
 client to the domain does not pass through the specified country, then
@@ -191,6 +183,7 @@ there is no path from the client through any of the relays to the
 domain that does not pass through the specified country, then select
 the relay that provides the most avoidance (measured by how many other
 domains that avoid the specified country).
+
 \begin{figure}[t]
 \centering
 \resizebox{.4\textwidth}{!}{
@@ -200,9 +193,10 @@ basicstyle=\footnotesize, caption={Example PAC file.}]{example_pac.pac}
 \vspace*{-0.25in}
 }
 \end{figure}
+
 The oracle applies this decision process to each domain, which results
 in a mapping of domains to relays that can be used to avoid the given
-country.  To facilitate automatic multiplexing between relays,
+country.  To automate multiplexing between relays,
 \system{} utilizes Proxy Autoconfiguration (PAC) files, which define
 how browsers should choose a proxy when fetching a URL.  In the
 example PAC file in Configuration~\ref{lst:pac}, proxy 1.2.3.4:3128
@@ -218,18 +212,42 @@ re-computed every five days.
 % point the proxy configuration settings to the URL that contains the
 % PAC file.
 
-\subsection{Extending \system{} with Provider Support}
+\subsection{Limitations and Extensions}
 
-While the current version of \system{} does not include support by content providers, it can be easily, incrementally,
-extended to do so without any fundamental changes to the system.  This would simply require providers (or a 
-CDN) to collect and share traceroute data from their server locations to different client and proxy locations; \system{} 
-would then convert the traceroute data to country level paths and incorporate them into the calculation of the 
-PAC files.  For content hosted in public clouds, we could set up our own VM in those same data centers and have 
-\system{} collect the reverse path traceroute data to use when creating the PAC files.  
+From our experience conducting measurement studies of Internet paths, we have
+identified several limitations and obstacles.  These limittaions include a lack
+of possible measurement methods to
+learn reverse paths and a lack of knowledge about the locations in which
+content is replicated. Additionally, because \system{} does not assume any
+cooperation from content providers, the system does not (and cannot) always
+ensure that some Internet path avoids a particular country.
 
-Content provider participation beyond gathering traceroute data would be even more beneficial and would lead to 
-more extensive changes to \system{}.  Some of the help that content providers and CDNs could provide include 
-publishing domain names that embed information about which country to avoid, strategically publish DNS records such 
-that clients can take advantage of open DNS resolvers, and replicating content in diverse geographic locations.
+We can surmount these obstacles with the cooperation of content providers. To
+address the issue of path asymmetry, the reverse path could be measured from
+within the provider and used to determine if a country is on the reverse path;
+this could be used in conjunction with our measurements  of the forward path.
+In addition, content providers could strategically publish DNS records such
+that when a client receives a DNS response, it is for a content replica that
+allows her to avoid a given country.  A content provider could also  replicate
+content in specific regions to allow clients to access replicas without
+traversing a specific  country.
+
+The current implementation of \system{} does not include support by content
+providers, the design itself does not require any changes if providers were
+ultimately to cooperate with deployment. Cooperating ISPs and CDNs would
+collect and share traceroute data from their locations to different client and
+proxy locations and provide those measurements to the \system{} oracle;
+\system{} would then convert the traceroute data to country-level paths and
+incorporate them into the calculation of the  PAC files.  In certain cases, we
+could measure these paths without the cooperation of content providers. For
+example, for content hosted in public clouds, we could set up a virtual
+machine in those same data centers and have  \system{} collect the reverse
+path traceroute data to use when creating the PAC files.
+
+Additional cooperation from content providers could provide further benefits.
+For example, CDNs could publish domain names that embed information about
+which country to avoid, strategically publish DNS records such  that clients
+can take advantage of open DNS resolvers, and replicate content in diverse
+geographic locations.
 
 %\input{evaluation}

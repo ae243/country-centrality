@@ -2,8 +2,8 @@
 \label{intro}
 
 When Internet traffic enters a country, it often becomes subject to that country's
-local laws and policies.  As a result, users, ISPs, and governments have more need
-than ever to determine---and control---which countries their traffic is
+local laws and policies.  As a result, users, ISPs, and governments need
+more than ever to determine---and control---which countries their traffic is
 traversing.  Discovering which countries an end-to-end path traverses and
 providing mechanisms to avoid certain countries may help users avoid the
  practices and laws of particular countries. One motivation for avoiding a certain 
@@ -22,7 +22,7 @@ paths---paths that start and end in the same country, but also traverse a
 foreign country---are common~\cite{shah2015characterizing,gupta2014peering}.
 
 With the increasing pervasiveness of encryption (and the efforts of Let's Encrypt~\cite{aas2014let}), 
-Internet security is improving, but defending against large-scale surveillance activities requires not only encryption, but
+Internet security is improving, but defending against surveillance requires not only encryption, but
 also mechanisms for controlling where traffic goes in the first place:
 end-to-end 
 encryption conceals some information content, but it does not protect
@@ -46,7 +46,8 @@ encryption offers no solution to interference, degradation, or blocking of
 traffic that a country might perform on traffic that crosses its borders.
 Finally, a nation-state may collect and store encrypted traffic; if the
 encryption is defeated in the future, a nation-state may be able to discover the
-contents of previous communications.  This has already been realized, according to 
+contents of previous communications.  This scenario has {\em already} come to pass,
+according to
 documents leaked from the National Security Agency (NSA) and Government Communications 
 Headquarters (GCHQ): ``A 10-year NSA program against encryption technologies made a breakthrough in 2010 which made `vast amounts' of data collected through internet cable taps newly `exploitable'''~\cite{encryption_forward}.
 
@@ -129,7 +130,7 @@ Infrastructure building alone is not enough. ISPs in respective regions
 need better encouragements to interconnect with one another to ensure
 that local traffic stays local.
 
-Next, we {explore the extent to which
+Second, we {explore the extent to which
 clients can avoid certain countries to popular destinations} by using overlay network relays to route 
 Internet traffic around an unfavorable country (Section~\ref{avoid_results}).  Our results demonstrate that this technique can
 be effective for clients in certain countries; of course, the effectiveness of
@@ -158,15 +159,16 @@ country.  %We evaluate \system{} to assess its ability to avoid certain
 %also discuss the usability and scalability of the system.  
 Our evaluation
 shows that \system{} can effectively avoid many different countries and
-introduces minimal performance overhead.  To summarize, we make the following key 
+introduces minimal performance overhead.  To summarize, this work makes the following
 contributions:
 
 \begin{itemize}
 \item The first in-depth measurement study of nation-state routing
 for Brazil, Netherlands, Kenya, India, and the United
 States.
-\item An analysis of how overlay network relays can help citizens, governments, or ISPs
+\item The first analysis of how overlay network relays can help citizens, governments,
+or ISPs
 discover and use paths that avoid certain countries.
-\item An implementation and evaluation of a measurement-driven system, \system{}, that allows Internet users 
-to easily avoid a given country.
+\item The first open-source implementation, deployment, and evaluation of a measurement-driven
+system, \system{}, that allows Internet traffic to avoid a specific country.
 \end{itemize}

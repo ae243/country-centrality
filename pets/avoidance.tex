@@ -8,7 +8,7 @@ evaluate the effectiveness of overlay nodes to avoid specific countries.
 \subsection{Measurement Approach}
 \label{avoid_pipelines}
 
-An overlay network of relay nodes could
+An overlay network of relay nodes can
 help clients route around countries or access content 
 that is hosted in a different country; this section performs measurements to evaluate
 the feasibility of such an approach. Figure~\ref{fig:avoidance_relays}
@@ -151,7 +151,11 @@ countries---relays help clients in
 the U.S. avoid all other Country Y unless the domain is hosted in Country~Y.  
 \end{finding}
 \noindent
-Relays are most effective for clients in the United States.  On the other hand, it is more rare for (Kenya, Country Y) pairs to achieve the upper bound, showing it is more difficult for Kenyan clients to avoid a given country.  This is not to say that relays are not effective for clients in Kenya; for example, the default routes to the top 100 domains for Kenyans avoid Great Britain 50\% of the time, but with relays this percentage increases to 97\% of the time, and the upper bound is 98\%. 
+Relays are most effective for clients in the United States.  On the other hand,
+it is more rare for (Kenya, Country Y) pairs to achieve the upper bound, showing
+it is more difficult for Kenyan clients to avoid a given country.  Relays can still
+be effective for clients in Kenya: for example, the default routes to the top 100
+domains for Kenyans avoid Great Britain 50\% of the time, but with relays this percentage increases to 97\% of the time, and the upper bound is 98\%.
 %Figure \ref{fig:ke_avoidance} shows default avoidance, avoidance with relays, and the upper bound for Kenya; it's clear that despite having the worst position for avoidance out of the studied countries, in most cases the avoidance with relays either reaches or because extremely close to the upper bound.  
 
 \begin{finding}[U.S. is Least Avoidable]
