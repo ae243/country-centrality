@@ -211,40 +211,12 @@ hosted in a single unique country, which leads us to our next analysis---where
 are these websites hosted, and which countries are traversed on the way to
 reach these locations.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=.4\textwidth]{compare_cctld}
-\caption{Fraction of country code top-level domains that are hosted locally. For example, 46\% of .br domains are hosted in Brazil.}
-\label{fig:cctld_graph}
-\end{figure}
-
 %\begin{figure}[t]
 %\centering
 %\includegraphics[width=.8\columnwidth]{domain_hist_US1}
 %\caption{The number of Alexa Top 100 US Domains hosted in different countries.}
 %\label{fig:host_diversity}
 %\end{figure}
-
-
-\begin{figure*}[t!]
-\begin{minipage}{\linewidth}
-\begin{subfigure}[b]{.32\linewidth}
-\includegraphics[width=\linewidth]{nl_trombone_new11}
-\caption{The Netherlands.\label{fig:trombone_netherlands}}
-\end{subfigure}
-\begin{subfigure}[b]{.32\linewidth}
-\includegraphics[width=\linewidth]{br_trombone_new11}
-\caption{Brazil.\label{fig:trombone_brazil}}
-\end{subfigure}
-\begin{subfigure}[b]{.32\linewidth}
-\includegraphics[width=\linewidth]{ke_trombone_new11}
-\caption{Kenya.\label{fig:trombone_kenya}}
-\end{subfigure}
-\end{minipage}
-\caption{The countries that tromboning paths from the Netherlands, Brazil, and Kenya transit.}
-\label{fig:trombone}
-\end{figure*}
-
 
 
 \begin{finding}[Domain Hosting]
@@ -259,6 +231,34 @@ Kenya, and the United States, respectively, are currently reaching content locat
 United States.   Our results also
 show the Netherlands is a common hosting location for paths originating in the
 Netherlands, India, and Kenya.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=.4\textwidth]{compare_cctld}
+\caption{Fraction of country code top-level domains that are hosted locally. For example, 46\% of .br domains are hosted in Brazil.}
+\label{fig:cctld_graph}
+\end{figure}
+
+\begin{figure*}[t!]
+\centering
+\begin{minipage}{\linewidth}
+\begin{subfigure}[b]{.3\linewidth}
+\includegraphics[width=\linewidth]{nl_trombone_new11}
+\caption{The Netherlands.\label{fig:trombone_netherlands}}
+\end{subfigure}
+\begin{subfigure}[b]{.3\linewidth}
+\includegraphics[width=\linewidth]{br_trombone_new11}
+\caption{Brazil.\label{fig:trombone_brazil}}
+\end{subfigure}
+\begin{subfigure}[b]{.3\linewidth}
+\includegraphics[width=\linewidth]{ke_trombone_new11}
+\caption{Kenya.\label{fig:trombone_kenya}}
+\end{subfigure}
+\end{minipage}
+\caption{The countries that tromboning paths from the Netherlands, Brazil, and Kenya transit.}
+\label{fig:trombone}
+\end{figure*}
+
 
 %For Indian traffic, in addition to the 63\% hosted in the United States and the 10\% hosted in the Netherlands, another 10\% is hosted in Singapore.  Hosting in these countries can best be explained by the number of underwater cables with landing points in both India and Singapore~\cite{cablemap}.  More specifically, there is a cable that directly connects Chennai, India and Changi North, Singapore, and is owned by Tata Communications, which is one of the top global Internet providers (in terms of transited IP space)~\cite{bakers}.  
 

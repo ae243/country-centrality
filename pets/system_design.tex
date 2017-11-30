@@ -148,13 +148,15 @@ locations as the clients, and the oracle triggers traceroutes from
 each of them to each of the domains.  Corresponding country-level
 paths are stored at the oracle.
 
-\system{} must recompute these paths as they change.  To our knowledge, there has not been any previous work 
-on how often country-level paths change; prior work has explored how often 
-AS-level paths change.  We measured the country-level paths from a RIPE Atlas probe to the 
+\system{} must recompute these paths as they change. We measured the country-level paths from a RIPE Atlas probe to the 
 Alexa Top 100 domains once per day for a month to see how stable country-level paths 
 are.  Across the measured domains, we found the average time between path changes to 
 be about five days.  Therefore, \system{} re-computes the paths every five days to incorporate the 
 most recent country-level paths.  
+
+%To our knowledge, there has not been any previous work 
+%on how often country-level paths change; prior work has explored how often 
+%AS-level paths change.  
 
 %To measure how often country-level paths change, we 
 %computed the paths from relays to domains once every two hours and once every 
@@ -190,10 +192,13 @@ domain that does not pass through the specified country, then select
 the relay that provides the most avoidance (measured by how many other
 domains that avoid the specified country).
 \begin{figure}[t]
+\centering
+\resizebox{.4\textwidth}{!}{
 \renewcommand{\lstlistingname}{Configuration}
 \lstinputlisting[label={lst:pac}, language=JavaScript, frame=single,
 basicstyle=\footnotesize, caption={Example PAC file.}]{example_pac.pac}
 \vspace*{-0.25in}
+}
 \end{figure}
 The oracle applies this decision process to each domain, which results
 in a mapping of domains to relays that can be used to avoid the given
@@ -207,9 +212,8 @@ oracle uses the mapping of domains to relays to generate a PAC file,
 which specifies which domains should be accessed through which proxy.
 The PAC file is published online to a URL of the format
 $<$client\_country$>$\_$<$country\_to\_avoid$>$\_pac.pac.  The client
-uses this URL to specify their proxy configuration.  Paths are
-re-computed every five days, so the contents of the PAC file are also
-updated every five days.
+uses this URL to specify their proxy configuration.  Paths, and subsequently PAC files, are
+re-computed every five days.
 % The PAC files are published online, which allows a client to simply
 % point the proxy configuration settings to the URL that contains the
 % PAC file.

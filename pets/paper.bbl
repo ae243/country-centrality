@@ -156,12 +156,6 @@ Jonathan~A Obar and Andrew Clement.
 \newblock In {\em TEM 2013: The Technology \& Emerging Media Track-Annual
   Conference of the Canadian Communication Association (Victoria)}, 2012.
 
-\bibitem{roberts2011mapping}
-Hal Roberts, David Larochelle, Rob Faris, and John Palfrey.
-\newblock {Mapping Local Internet Control}.
-\newblock In {\em Computer Communications Workshop (Hyannis, CA, 2011), IEEE},
-  2011.
-
 \bibitem{wahlisch2010framework}
 Matthias W{\"a}hlisch, Sebastian Meiling, and Thomas~C Schmidt.
 \newblock {A Framework for Nation-centric Classification and Observation of the
@@ -186,6 +180,12 @@ Zachary~S Bischof, John~P Rula, and Fabi{\'a}n~E Bustamante.
 \newblock {In and Out of Cuba: Characterizing Cuba's Connectivity}.
 \newblock In {\em The 2015 ACM Internet Measurement Conference}, pages
   487--493. ACM, 2015.
+
+\bibitem{roberts2011mapping}
+Hal Roberts, David Larochelle, Rob Faris, and John Palfrey.
+\newblock {Mapping Local Internet Control}.
+\newblock In {\em Computer Communications Workshop (Hyannis, CA, 2011), IEEE},
+  2011.
 
 \bibitem{levin2015alibi}
 Dave Levin, Youndo Lee, Luke Valenta, Zhihao Li, Victoria Lai, Cristian

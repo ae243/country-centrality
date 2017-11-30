@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 NOV 2017 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 NOV 2017 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2034,7 +2034,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./dg-degruyter.pdf>] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 []\T1/lmr/m/n/9.49998 An im-ple-men-ta-tion and eval-u-a-tion of a
  []
 
@@ -2047,19 +2047,14 @@ Package pdftex.def Info: ./figures/Current-Traffic_fig.pdf used on input line 6
 .
 (pdftex.def)             Requested size: 435.32407pt x 79.72166pt.
 
-Underfull \hbox (badness 3503) in paragraph at lines 12--37
+Underfull \hbox (badness 3503) in paragraph at lines 12--43
 \T1/lmr/bx/n/9.49998 Nation-state rout-ing anal-y-sis. \T1/lmr/m/n/9.49998 Shah
  and Pa-
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 12--37
+Underfull \hbox (badness 1178) in paragraph at lines 12--43
 \T1/lmr/m/n/9.49998 padopou-los re-cently mea-sured in-ter-na-tional rout-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--48
-[]\T1/lmr/bx/n/9.49998 Mapping na-tional In-ter-net topolo-gies.
  []
 
 [3]) (./characterizing_detours.tex
@@ -2080,7 +2075,8 @@ Overfull \hbox (5.69054pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
-[5] <./figures/compare_100_100.png, id=281, 323.91414pt x 179.37415pt>
+[5 <./figures/Analysis-Pipeline1.pdf>]
+<./figures/compare_100_100.png, id=299, 323.91414pt x 179.37415pt>
 File: ./figures/compare_100_100.png Graphic file (type png)
 
 <use ./figures/compare_100_100.png>
@@ -2528,57 +2524,48 @@ Overfull \hbox (4.26588pt too wide) detected at line 63
 $\OML/lmm/m/it/8 :\OT1/lmr/m/n/8 003$ 
  []
 
-) [6 <./figures/Analysis-Pipeline1.pdf> <./figures/compare_100_100.png>]
-<./figures/compare_cctld.png, id=327, 256.99213pt x 154.6578pt>
-File: ./figures/compare_cctld.png Graphic file (type png)
-
-<use ./figures/compare_cctld.png>
-Package pdftex.def Info: ./figures/compare_cctld.png used on input line 216.
-(pdftex.def)             Requested size: 193.47572pt x 116.4367pt.
-
-<./figures/nl_trombone_new11.pdf, id=328, 289.08pt x 216.81pt>
-File: ./figures/nl_trombone_new11.pdf Graphic file (type pdf)
-
-<use ./figures/nl_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 232
-.
-(pdftex.def)             Requested size: 154.78648pt x 116.08978pt.
-
-<./figures/br_trombone_new11.pdf, id=329, 289.08pt x 216.81pt>
-File: ./figures/br_trombone_new11.pdf Graphic file (type pdf)
-
-<use ./figures/br_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 236
-.
-(pdftex.def)             Requested size: 154.78648pt x 116.08978pt.
-
-<./figures/ke_trombone_new11.pdf, id=330, 289.08pt x 216.81pt>
-File: ./figures/ke_trombone_new11.pdf Graphic file (type pdf)
-
-<use ./figures/ke_trombone_new11.pdf>
-Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 240
-.
-(pdftex.def)             Requested size: 154.78648pt x 116.08978pt.
-
-Underfull \hbox (badness 2269) in paragraph at lines 251--252
+) [6 <./figures/compare_100_100.png>]
+Underfull \hbox (badness 2269) in paragraph at lines 223--224
 [][][]\T1/lmr/bx/n/9.49998 . []\T1/lmr/m/it/9.49998 The most com-mon
  []
 
-[7 <./figures/compare_cctld.png>]
+<./figures/compare_cctld.png, id=329, 256.99213pt x 154.6578pt>
+File: ./figures/compare_cctld.png Graphic file (type png)
+
+<use ./figures/compare_cctld.png>
+Package pdftex.def Info: ./figures/compare_cctld.png used on input line 237.
+(pdftex.def)             Requested size: 193.47572pt x 116.4367pt.
+
+<./figures/nl_trombone_new11.pdf, id=330, 289.08pt x 216.81pt>
+File: ./figures/nl_trombone_new11.pdf Graphic file (type pdf)
+
+<use ./figures/nl_trombone_new11.pdf>
+Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 246
+.
+(pdftex.def)             Requested size: 145.11047pt x 108.83148pt.
+
+<./figures/br_trombone_new11.pdf, id=331, 289.08pt x 216.81pt>
+File: ./figures/br_trombone_new11.pdf Graphic file (type pdf)
+
+<use ./figures/br_trombone_new11.pdf>
+Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 250
+.
+(pdftex.def)             Requested size: 145.11047pt x 108.83148pt.
+
+<./figures/ke_trombone_new11.pdf, id=332, 289.08pt x 216.81pt>
+File: ./figures/ke_trombone_new11.pdf Graphic file (type pdf)
+
+<use ./figures/ke_trombone_new11.pdf>
+Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 254
+.
+(pdftex.def)             Requested size: 145.11047pt x 108.83148pt.
+ [7 <./figures/compare_cctld.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 337--338
 [][][]\T1/lmr/bx/n/9.49998 . []\T1/lmr/m/it/9.49998 The
  []
 
-) (./avoidance.tex [8 <./figures/nl_trombone_new11.pdf> <./figures/br_trombone_
-new11.pdf
-
-pdfTeX warning: pdflatex (file ./figures/br_trombone_new11.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
-> <./figures/ke_trombone_new11.pdf
-
-pdfTeX warning: pdflatex (file ./figures/ke_trombone_new11.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->] <./figures/Country-Avoidance-Relays.pdf, id=407, 426.59375pt x 183.68625pt>
+) (./avoidance.tex
+<./figures/Country-Avoidance-Relays.pdf, id=363, 426.59375pt x 183.68625pt>
 File: ./figures/Country-Avoidance-Relays.pdf Graphic file (type pdf)
 
 <use ./figures/Country-Avoidance-Relays.pdf>
@@ -2590,7 +2577,15 @@ Overfull \hbox (5.69054pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
+[8 <./figures/nl_trombone_new11.pdf> <./figures/br_trombone_new11.pdf
 
+pdfTeX warning: pdflatex (file ./figures/br_trombone_new11.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./figures/ke_trombone_new11.pdf
+
+pdfTeX warning: pdflatex (file ./figures/ke_trombone_new11.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
 Underfull \hbox (badness 1895) in paragraph at lines 137--138
 [][][]\T1/lmr/bx/n/9.49998 . []\T1/lmr/m/it/9.49998 For 84% of the
  []
@@ -2609,14 +2604,14 @@ Package pdftex.def Info: ./figures/system_overview_updated-3.pdf used on input
 line 107.
 (pdftex.def)             Requested size: 188.92696pt x 104.43134pt.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 195.
+nput line 201.
  (./example_pac.pac)
-Underfull \hbox (badness 1484) in paragraph at lines 179--216
+Underfull \hbox (badness 1484) in paragraph at lines 181--220
 \T1/lmr/m/n/9.49998 proxy 5.6.7.8:3128 should be used when ac-cess-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--216
+Underfull \hbox (badness 10000) in paragraph at lines 181--220
 \OML/lmm/m/it/9.5 <$\T1/lmr/m/n/9.49998 client_country$\OML/lmm/m/it/9.5 >$\T1/
 lmr/m/n/9.49998 _$\OML/lmm/m/it/9.5 <$\T1/lmr/m/n/9.49998 country_to_avoid$\OML
 /lmm/m/it/9.5 >$\T1/lmr/m/n/9.49998 _pac.pac.
@@ -2628,7 +2623,7 @@ File: ./figures/relay_map.png Graphic file (type png)
 
 <use ./figures/relay_map.png>
 Package pdftex.def Info: ./figures/relay_map.png used on input line 24.
-(pdftex.def)             Requested size: 193.47572pt x 102.92111pt.
+(pdftex.def)             Requested size: 145.11047pt x 77.19322pt.
  [13 <./figures/relay_map.png>]) (./evaluation.tex <./figures/avoidance_n_relay
 s.pdf, id=534, 361.35pt x 361.35pt>
 File: ./figures/avoidance_n_relays.pdf Graphic file (type pdf)
@@ -2636,35 +2631,27 @@ File: ./figures/avoidance_n_relays.pdf Graphic file (type pdf)
 <use ./figures/avoidance_n_relays.pdf>
 Package pdftex.def Info: ./figures/avoidance_n_relays.pdf used on input line 23
 .
-(pdftex.def)             Requested size: 193.47748pt x 170.71672pt.
- [14 <./figures/avoidance_n_relays.pdf>]
-<./figures/throughput.pdf, id=559, 361.35pt x 216.81pt>
+(pdftex.def)             Requested size: 169.29417pt x 156.49124pt.
+
+<./figures/throughput.pdf, id=536, 361.35pt x 216.81pt>
 File: ./figures/throughput.pdf Graphic file (type pdf)
 
 <use ./figures/throughput.pdf>
 Package pdftex.def Info: ./figures/throughput.pdf used on input line 68.
-(pdftex.def)             Requested size: 241.84834pt x 145.10976pt.
-
-Overfull \hbox (5.69054pt too wide) in paragraph at lines 68--72
- [][] 
- []
-
-<./figures/latency.pdf, id=565, 361.35pt x 216.81pt>
+(pdftex.def)             Requested size: 193.47572pt x 116.08649pt.
+ [14 <./figures/avoidance_n_relays.pdf>]
+<./figures/latency.pdf, id=566, 361.35pt x 216.81pt>
 File: ./figures/latency.pdf Graphic file (type pdf)
 
 <use ./figures/latency.pdf>
 Package pdftex.def Info: ./figures/latency.pdf used on input line 106.
-(pdftex.def)             Requested size: 241.84834pt x 145.10976pt.
-
-Overfull \hbox (5.69054pt too wide) in paragraph at lines 106--107
- [][] 
- []
-
-) (./conclusion.tex [15 <./figures/throughput.pdf> <./figures/latency.pdf
+(pdftex.def)             Requested size: 193.47572pt x 116.08649pt.
+) (./conclusion.tex) (./paper.bbl [15 <./figures/throughput.pdf> <./figures/lat
+ency.pdf
 
 pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
->]) (./paper.bbl [16] [17]) 
+>] [16] [17]) 
 AED: lastpage setting LastPage
 [18
 
@@ -2675,17 +2662,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 71303778671BEBF5A02A06AB96A4176C;1992.
+(rerunfilecheck)             Checksum: ACE1FE57AC365C2C577D46B3B3058253;1993.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 34798 strings out of 493014
- 659416 string characters out of 6133351
- 699297 words of memory out of 5000000
- 37514 multiletter control sequences out of 15000+600000
- 99146 words of font info for 78 fonts, out of 8000000 for 9000
+ 34796 strings out of 493014
+ 659395 string characters out of 6133351
+ 699295 words of memory out of 5000000
+ 37513 multiletter control sequences out of 15000+600000
+ 94882 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,75p,10372b,1407s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,80p,10372b,1453s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/
@@ -2708,7 +2695,7 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local
 dist/fonts/type1/public/lm/lmtl10.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb>
-Output written on paper.pdf (18 pages, 1722934 bytes).
+Output written on paper.pdf (18 pages, 1722640 bytes).
 PDF statistics:
  777 PDF objects out of 1000 (max. 8388607)
  671 compressed objects within 7 object streams
