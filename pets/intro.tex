@@ -62,14 +62,15 @@ Brazil has made a concerted effort to avoid traversing certain countries such
 as the United States through extensive buildout of Internet Exchange Points
 (IXPs)~\cite{brito2016dissecting}. The Netherlands has one of the world's largest IXPs and relatively
 inexpensive hosting. Kenya is one of the most well-connected African
-countries, but it is still thought to rely on connectivity through Europe and
+countries, but it still relies on connectivity through Europe and
 North America for many destinations, even content that might otherwise be
 local (\eg, local newspapers)~\cite{gupta2014peering,fanou2015diversity,chavula2014quantifying,fanou2016pushing}. We highlight many trends that are common across all
 of the countries we study; we have also released detailed statistics on all twenty
 countries that we measure on the project website and intend to update these regularly.
 
 In contrast to all previous work in this area, we measure router-level
-forwarding paths, as opposed to analyzing Border Gateway Protocol (BGP)
+forwarding paths that traffic actually traverses, as opposed to analyzing Border
+Gateway Protocol (BGP)
 routes~\cite{karlin2009nation,shah2015characterizing}, which can provide at
 best only an indirect estimate of country-level paths to popular sites.
 Although BGP routing can offer some information about paths, it does not
@@ -92,7 +93,7 @@ geographically diverse countries,  focusing on countries in each region that
 are making active attempts to thwart transnational Internet paths.  Second, IP
 geolocation---the process of determining the geographic location of an IP
 address---is notoriously challenging, particularly for IP addresses that
-represent Internet infrastructure, rather than end-hosts. We cope with this
+represent Internet infrastructure, rather than end-hosts. We address this
 inaccuracy by making conservative estimates of the extent of routing detours,
 and by recognizing that our goal is not to pinpoint a precise location for an
 IP address as much as to achieve accurate reports of {\em significant} off-path 
@@ -126,8 +127,8 @@ traverse both countries).  Much of this phenomenon is due to
 ``tromboning'', whereby an Internet path starts and ends in the same country,
 yet transits an intermediate country; for example, about 13\% of the
 paths that we explored from Brazil tromboned through the United States.
-Infrastructure building alone is not enough. ISPs in respective regions
-need better encouragements to interconnect with one another to ensure
+Infrastructure alone is not enough. ISPs in respective regions
+need better incentives to interconnect with one another to ensure
 that local traffic stays local.
 
 Second, we {explore the extent to which
