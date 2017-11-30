@@ -138,7 +138,7 @@ case web sites are customizing content based on the region of the client.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=.5\textwidth]{compare_100_100}
+\includegraphics[width=.45\textwidth]{compare_100_100}
 \caption{Comparison of path endpoints between the Alexa Top 100 and the Alexa Top 1000. For simplicity, we have 
 removed the long tail of countries that are the endpoint for less than 1\% of the measured paths.}
 \label{fig:compare_alexas}
@@ -199,39 +199,31 @@ to an anonymized repository~\cite{ransom_data}.
 the five countries studied are hosted in a single country.  The other half are
 located in two or more different countries. \end{finding} 
 
-\begin{figure}[b]
-\centering
-\includegraphics[width=.4\textwidth]{compare_cctld}
-\caption{Fraction of country code top-level domains that are hosted locally. For example, 46\% of .br domains are hosted in Brazil.}
-\label{fig:cctld_graph}
-\end{figure}
-
 \noindent Hosting diversity reflects how many unique
 countries host a domain.  The more countries host a domain, the greater the
 likelihood that a client can find a path to that site that avoids a certain
 country. As a separate measurement experiment, we queried DNS from 26 vantage points around the world, in
 geographically diverse locations. We then mapped the IP addresses in the DNS
 responses to countries to determine how many unique countries host a domain.
-Figure~\ref{fig:host_diversity} shows the fraction of domains that are hosted
-in different numbers of countries; we can see two common hosting cases:
+We found two common hosting cases:
 (1)~CDNs and (2)~a single hosting country.  This shows that many domains are
 hosted in a single unique country, which leads us to our next analysis---where
 are these websites hosted, and which countries are traversed on the way to
 reach these locations.
 
-%\begin{figure}[t]
-%\centering
-%\includegraphics[width=0.8\columnwidth]{World-DNS}
-%\caption{Vantage points in measuring hosting diversity.}
-%\label{fig:world}
-%\end{figure}
-
 \begin{figure}[t]
 \centering
-\includegraphics[width=.8\columnwidth]{domain_hist_US1}
-\caption{The number of Alexa Top 100 US Domains hosted in different countries.}
-\label{fig:host_diversity}
+\includegraphics[width=.4\textwidth]{compare_cctld}
+\caption{Fraction of country code top-level domains that are hosted locally. For example, 46\% of .br domains are hosted in Brazil.}
+\label{fig:cctld_graph}
 \end{figure}
+
+%\begin{figure}[t]
+%\centering
+%\includegraphics[width=.8\columnwidth]{domain_hist_US1}
+%\caption{The number of Alexa Top 100 US Domains hosted in different countries.}
+%\label{fig:host_diversity}
+%\end{figure}
 
 
 \begin{figure*}[t!]
