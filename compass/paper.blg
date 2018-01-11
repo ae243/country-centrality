@@ -1,0 +1,133 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: SIGCHI-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sigproc.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--can't use both volume and number fields in andersen2001resilient
+Warning--empty address in andersen2001resilient
+Warning--page numbers missing in both pages and numpages fields in andersen2001resilient
+Warning--empty publisher in augustin2006avoiding
+Warning--empty address in augustin2006avoiding
+Warning--empty year in bakers
+Warning--empty address in banerjee2004interdomain
+Warning--empty publisher in bischof2015and
+Warning--empty address in bischof2015and
+Warning--empty year in brazil_cable
+Warning--empty year in brazil_conference2
+Warning--empty year in brazil_break_from_US
+Warning--empty year in brazil_conference
+Warning--empty year in brazil_human_rights
+Warning--empty year in caida
+Warning--empty publisher in corrigan2015riposte
+Warning--empty address in corrigan2015riposte
+Warning--empty year in ransom_data
+Warning--empty year in hegemony
+Warning--empty publisher in eriksson2010learning
+Warning--empty address in eriksson2010learning
+Warning--empty year in hegemony_EU
+Warning--empty publisher in fanou2015diversity
+Warning--empty address in fanou2015diversity
+Warning--no journal in gharaibeh2017look
+Warning--no number and no volume in gharaibeh2017look
+Warning--page numbers missing in both pages and numpages fields in gharaibeh2017look
+Warning--empty publisher in gill2010dude
+Warning--empty address in gill2010dude
+Warning--empty year in mitm_isp
+Warning--empty publisher in guo2009mining
+Warning--empty address in guo2009mining
+Warning--empty publisher in gupta2014peering
+Warning--empty address in gupta2014peering
+Warning--empty publisher in he2004quantifying
+Warning--empty address in he2004quantifying
+Warning--empty publisher in he2005routing
+Warning--empty address in he2005routing
+Warning--empty publisher in hu2012towards
+Warning--empty address in hu2012towards
+Warning--no number and no volume in huffaker2011geocompare
+Warning--empty year in hegemony2
+Warning--no number and no volume in karlin2009nation
+Warning--page numbers missing in both pages and numpages fields in karlin2009nation
+Warning--empty publisher in katz2006towards
+Warning--empty address in katz2006towards
+Warning--empty publisher in katz2010reverse
+Warning--empty address in katz2010reverse
+Warning--no number and no volume in kwon2016atom
+Warning--page numbers missing in both pages and numpages fields in kwon2016atom
+Warning--empty publisher in levin2015alibi
+Warning--empty address in levin2015alibi
+Warning--empty publisher in madhyastha2006iplane
+Warning--empty address in madhyastha2006iplane
+Warning--empty year in maxmind
+Warning--empty year in hegemony_china
+Warning--empty publisher in nobori2014vpn
+Warning--empty address in nobori2014vpn
+Warning--empty publisher in obar2012internet
+Warning--empty address in obar2012internet
+Warning--page numbers missing in both pages and numpages fields in obar2012internet
+Warning--no number and no volume in piotrowska2017loopix
+Warning--page numbers missing in both pages and numpages fields in piotrowska2017loopix
+Warning--empty year in PlanetLab
+Warning--empty year in ran_system
+Warning--empty year in ripe_atlas
+Warning--empty publisher in roberts2011mapping
+Warning--empty address in roberts2011mapping
+Warning--page numbers missing in both pages and numpages fields in roberts2011mapping
+Warning--empty year in cablemap
+Warning--empty publisher in van2015vuvuzela
+Warning--empty address in van2015vuvuzela
+Warning--empty publisher in wahlisch2010framework
+Warning--empty address in wahlisch2010framework
+Warning--empty publisher in wahlisch2012exposing
+Warning--empty address in wahlisch2012exposing
+Warning--empty publisher in wolinsky2012dissent
+Warning--empty address in wolinsky2012dissent
+Warning--empty publisher in zhang2011scion
+Warning--empty address in zhang2011scion
+Warning--empty publisher in levin_detour
+Warning--empty address in levin_detour
+Warning--page numbers missing in both pages and numpages fields in levin_detour
+You've used 64 entries,
+            5283 wiz_defined-function locations,
+            1523 strings with 25247 characters,
+and the built_in function-call counts, 50650 in all, are:
+= -- 5875
+> -- 1632
+< -- 5
++ -- 530
+- -- 537
+* -- 3338
+:= -- 5201
+add.period$ -- 298
+call.type$ -- 64
+change.case$ -- 449
+chr.to.int$ -- 59
+cite$ -- 147
+duplicate$ -- 4846
+empty$ -- 3492
+format.name$ -- 653
+if$ -- 12629
+int.to.chr$ -- 6
+int.to.str$ -- 0
+missing$ -- 182
+newline$ -- 457
+num.names$ -- 251
+pop$ -- 2429
+preamble$ -- 1
+purify$ -- 699
+quote$ -- 0
+skip$ -- 1059
+stack$ -- 0
+substring$ -- 3685
+swap$ -- 366
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 576
+warning$ -- 83
+while$ -- 236
+width$ -- 0
+write$ -- 860
+(There were 83 warnings)

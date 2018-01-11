@@ -1,0 +1,27 @@
+\BOOKMARK [1][-]{section.4}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.6}{Related Work}{}% 2
+\BOOKMARK [1][-]{section.9}{Characterizing Detours}{}% 3
+\BOOKMARK [2][-]{subsection.11}{Measurement Approach}{section.9}% 4
+\BOOKMARK [3][-]{subsubsection.13}{Resource Limitations}{subsection.11}% 5
+\BOOKMARK [3][-]{subsubsection.15}{Path Asymmetry}{subsection.11}% 6
+\BOOKMARK [3][-]{subsubsection.17}{Traceroute Origin and Destination Selection}{subsection.11}% 7
+\BOOKMARK [3][-]{subsubsection.21}{Inferring Country-Level Paths}{subsection.11}% 8
+\BOOKMARK [3][-]{subsubsection.23}{Traceroute Accuracy and Completeness}{subsection.11}% 9
+\BOOKMARK [2][-]{subsection.25}{Results}{section.9}% 10
+\BOOKMARK [1][-]{section.37}{Feasibility of Routing Around Nation-States}{}% 11
+\BOOKMARK [2][-]{subsection.39}{Measurement Approach}{section.37}% 12
+\BOOKMARK [2][-]{subsection.42}{Avoidability Metrics}{section.37}% 13
+\BOOKMARK [2][-]{subsection.44}{Results}{section.37}% 14
+\BOOKMARK [1][-]{section.51}{Routing Around Nation-States}{}% 15
+\BOOKMARK [2][-]{subsection.53}{Threat Model and Design}{section.51}% 16
+\BOOKMARK [2][-]{subsection.56}{Measuring Paths}{section.51}% 17
+\BOOKMARK [2][-]{subsection.58}{Computing and Selecting Paths}{section.51}% 18
+\BOOKMARK [2][-]{subsection.69}{Limitations and Extensions}{section.51}% 19
+\BOOKMARK [1][-]{section.71}{Implementation \046 Deployment}{}% 20
+\BOOKMARK [2][-]{subsection.74}{Other Considerations}{section.71}% 21
+\BOOKMARK [2][-]{subsection.76}{Evaluation}{section.71}% 22
+\BOOKMARK [3][-]{subsubsection.78}{Country Avoidability}{subsection.76}% 23
+\BOOKMARK [3][-]{subsubsection.81}{Performance}{subsection.76}% 24
+\BOOKMARK [3][-]{subsubsection.85}{Storage and Measurement Costs}{subsection.76}% 25
+\BOOKMARK [1][-]{section.87}{Conclusion}{}% 26
+\BOOKMARK [1][-]{section.89}{References }{}% 27

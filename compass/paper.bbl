@@ -1,0 +1,562 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem{andersen2001resilient}
+{David Andersen}, {Hari Balakrishnan}, {Frans Kaashoek}, {and} {Robert Morris}.
+  2001.
+\newblock \showarticletitle{Resilient Overlay Networks}. In {\em ACM Symposium
+  on Operating Systems Principles (SOSP)}, Vol.~35. ACM.
+\newblock
+
+
+\bibitem{augustin2006avoiding}
+{Brice Augustin}, {Xavier Cuvellier}, {Benjamin Orgogozo}, {Fabien Viger},
+  {Timur Friedman}, {Matthieu Latapy}, {Cl{\'e}mence Magnien}, {and} {Renata
+  Teixeira}. 2006.
+\newblock \showarticletitle{{Avoiding Traceroute Anomalies with Paris
+  Traceroute}}. In {\em The 6th ACM SIGCOMM Internet Measurement Conference}.
+  ACM, 153--158.
+\newblock
+
+
+\bibitem{bakers}
+bakers.
+\newblock {A Baker's Dozen, 2015 Edition}.
+\newblock \url{http://research.dyn.com/2016/04/a-bakers-dozen-2015-edition/}.
+  (????).
+\newblock
+
+
+\bibitem{banerjee2004interdomain}
+{Suman Banerjee}, {Timothy~G Griffin}, {and} {Marcelo Pias}. 2004.
+\newblock \showarticletitle{{The Interdomain Connectivity of PlanetLab Nodes}}.
+\newblock In {\em Passive and Active Network Measurement}. Springer, 73--82.
+\newblock
+
+
+\bibitem{bischof2015and}
+{Zachary~S Bischof}, {John~P Rula}, {and} {Fabi{\'a}n~E Bustamante}. 2015.
+\newblock \showarticletitle{{In and Out of Cuba: Characterizing Cuba's
+  Connectivity}}. In {\em The 2015 ACM Internet Measurement Conference}. ACM,
+  487--493.
+\newblock
+
+
+\bibitem{brazil_cable}
+brazil.
+\newblock {Brazil Builds Internet Cable To Portugal To Avoid NSA Surveillance}.
+\newblock
+  \url{http://www.ibtimes.com/brazil-builds-internet-cable-portugal-avoid-nsa-surveillance-1717417}.
+    (????).
+\newblock
+
+
+\bibitem{brazil_conference2}
+brazil.
+\newblock {Brazil Conference will Plot Internet's Future Post NSA Spying}.
+\newblock
+  \url{http://www.reuters.com/article/us-internet-conference-idUSBREA3L1OJ20140422}.
+    (????).
+\newblock
+
+
+\bibitem{brazil_break_from_US}
+brazil.
+\newblock {Brazil Looks to Break from US Centric Internet}.
+\newblock
+  \url{http://news.yahoo.com/brazil-looks-break-us-centric-internet-040702309.html}.
+    (????).
+\newblock
+
+
+\bibitem{brazil_conference}
+brazil.
+\newblock {Brazil to Host Global Internet Summit in Ongoing Fight Against NSA
+  Surveillance}.
+\newblock \url{https://www.rt.com/news/brazil-internet-summit-fight-nsa-006/}.
+   (????).
+\newblock
+
+
+\bibitem{brazil_human_rights}
+brazil.
+\newblock {Brazil's President Tells U.N. That NSA Spying Violates Human
+  Rights}.
+\newblock
+  \url{http://www.usnews.com/news/articles/2013/09/24/brazils-president-tells-un-that-nsa-spying-violates-human-rights}.
+    (????).
+\newblock
+
+
+\bibitem{brazil_us_companies}
+brazil 2013.
+\newblock {Brazil to Press for Local Internet Data Storage After NSA Spying}.
+\newblock \url{https://www.rt.com/news/brazil-brics-internet-nsa-895/}.
+  (2013).
+\newblock
+
+
+\bibitem{caida}
+caida.
+\newblock {CAIDA: Center for Applied Internet Data Analysis}.
+\newblock \url{http://www.caida.org/home/}.   (????).
+\newblock
+
+
+\bibitem{corrigan2015riposte}
+{Henry Corrigan-Gibbs}, {Dan Boneh}, {and} {David Mazi{\`e}res}. 2015.
+\newblock \showarticletitle{Riposte: An Anonymous Messaging System Handling
+  Millions of Users}. In {\em Security and Privacy (SP), 2015 IEEE Symposium
+  on}. IEEE, 321--338.
+\newblock
+
+
+\bibitem{ransom_data}
+Data.
+\newblock Data.
+\newblock \url{https://bitbucket.org/ransom\_research/data/}.   (????).
+\newblock
+
+
+\bibitem{hegemony}
+Digital.
+\newblock {DIGITAL COLONIALISM \& THE INTERNET AS A TOOL OF CULTURAL HEGEMONY}.
+\newblock
+  \url{http://www.knowledgecommons.in/brasil/en/whats-wrong-with-current-internet-governance/digital-colonialism-the-internet-as-a-tool-of-cultural-hegemony/}.
+    (????).
+\newblock
+
+
+\bibitem{dingledine2004tor}
+{Roger Dingledine}, {Nick Mathewson}, {and} {Paul Syverson}. 2004.
+\newblock {\em {Tor: The Second-Generation Onion Router}}.
+\newblock {T}echnical {R}eport. DTIC Document.
+\newblock
+
+
+\bibitem{eriksson2012posit}
+{Brian Eriksson}, {Paul Barford}, {Bruce Maggs}, {and} {Robert Nowak}. 2012.
+\newblock \showarticletitle{Posit: a Lightweight Approach for IP Geolocation}.
+\newblock {\em ACM SIGMETRICS Performance Evaluation Review\/} {40}, 2 (2012),
+  2--11.
+\newblock
+
+
+\bibitem{eriksson2010learning}
+{Brian Eriksson}, {Paul Barford}, {Joel Sommers}, {and} {Robert Nowak}. 2010.
+\newblock \showarticletitle{A Learning-Based Approach for IP Geolocation}. In
+  {\em Passive and Active Measurement}. Springer, 171--180.
+\newblock
+
+
+\bibitem{hegemony_EU}
+EU.
+\newblock {EU challenges US hegemony in global internet governance}.
+\newblock
+  \url{http://www.euractiv.com/section/digital/news/eu-challenges-us-hegemony-in-global-internet-governance/}.
+    (????).
+\newblock
+
+
+\bibitem{fanou2015diversity}
+{Rod{\'e}rick Fanou}, {Pierre Francois}, {and} {Emile Aben}. 2015.
+\newblock \showarticletitle{On the Diversity of Interdomain Routing in Africa}.
+  In {\em International Conference on Passive and Active Network Measurement}.
+  Springer, 41--54.
+\newblock
+
+
+\bibitem{gao2001inferring}
+{Lixin Gao}. 2001.
+\newblock \showarticletitle{On Inferring Autonomous System Relationships in the
+  Internet}.
+\newblock {\em IEEE/ACM Transactions on Networking (ToN)\/} {9}, 6 (2001),
+  733--745.
+\newblock
+
+
+\bibitem{gelernter2016two}
+{Nethanel Gelernter}, {Amir Herzberg}, {and} {Hemi Leibowitz}. 2016.
+\newblock \showarticletitle{Two Cents for Strong Anonymity: The Anonymous
+  Post-Office Protocol}.
+\newblock {\em Proceedings on Privacy Enhancing Technologies\/}  {2} (2016),
+  1--20.
+\newblock
+
+
+\bibitem{gharaibeh2017look}
+{Manaf Gharaibeh}, {Anant Shah}, {Bradley Huffaker}, {Han Zhang}, {Roya
+  Ensafi}, {and} {Christos Papadopoulos}. 2017.
+\newblock \showarticletitle{A Look at Router Geolocation in Public and
+  Commercial Databases}.
+\newblock  (2017).
+\newblock
+
+
+\bibitem{gill2010dude}
+{Phillipa Gill}, {Yashar Ganjali}, {Bernard Wong}, {and} {David Lie}. 2010.
+\newblock \showarticletitle{Dude, Where’s That IP?: Circumventing
+  Measurement-Based IP Geolocation}. In {\em Proceedings of the 19th USENIX
+  conference on Security}. USENIX Association, 16--16.
+\newblock
+
+
+\bibitem{mitm_isp}
+gogo.
+\newblock {Gogo Inflight Internet Serves up `Man-in-the-Middle' with Fake SSL}.
+\newblock
+  \url{http://www.csoonline.com/article/2865806/cloud-security/gogo-inflight-internet-serves-up-man-in-the-middle-with-fake-ssl.html}.
+    (????).
+\newblock
+
+
+\bibitem{guo2009mining}
+{Chuanxiong Guo}, {Yunxin Liu}, {Wenchao Shen}, {Helen~J Wang}, {Qing Yu},
+  {and} {Yongguang Zhang}. 2009.
+\newblock \showarticletitle{Mining the Web and the Internet for Accurate IP
+  Address Geolocations}. In {\em INFOCOM 2009, IEEE}. IEEE, 2841--2845.
+\newblock
+
+
+\bibitem{gupta2014peering}
+{Arpit Gupta}, {Matt Calder}, {Nick Feamster}, {Marshini Chetty}, {Enrico
+  Calandro}, {and} {Ethan Katz-Bassett}. 2014.
+\newblock \showarticletitle{{Peering at the Internet’s Frontier: A First Look
+  at ISP Interconnectivity in Africa}}. In {\em Passive and Active
+  Measurement}. Springer, 204--213.
+\newblock
+
+
+\bibitem{he2004quantifying}
+{Yihua He}, {Michalis Faloutsos}, {and} {Srikanth Krishnamurthy}. 2004.
+\newblock \showarticletitle{Quantifying Routing Asymmetry in the Internet at
+  the AS Level}. In {\em Global Telecommunications Conference, 2004.
+  GLOBECOM'04. IEEE}, Vol.~3. IEEE, 1474--1479.
+\newblock
+
+
+\bibitem{he2005routing}
+{Yihua He}, {Michalis Faloutsos}, {Srikanth Krishnamurthy}, {and} {Bradley
+  Huffaker}. 2005.
+\newblock \showarticletitle{On Routing Asymmetry in the Internet}. In {\em
+  Global Telecommunications Conference, 2005. GLOBECOM'05. IEEE}, Vol.~2. IEEE,
+  6--pp.
+\newblock
+
+
+\bibitem{brazil_history}
+how 2016.
+\newblock {How Brazil Crowdsourced a Landmark Law}.
+\newblock
+  \url{http://foreignpolicy.com/2016/01/19/how-brazil-crowdsourced-a-landmark-law/}.
+    (2016).
+\newblock
+
+
+\bibitem{hu2012towards}
+{Zi Hu}, {John Heidemann}, {and} {Yuri Pradkin}. 2012.
+\newblock \showarticletitle{Towards Geolocation of Millions of IP Addresses}.
+  In {\em Proceedings of the 2012 ACM conference on Internet measurement
+  conference}. ACM, 123--130.
+\newblock
+
+
+\bibitem{huffaker2011geocompare}
+{Bradley Huffaker}, {Marina Fomenkov}, {and} {K Claffy}. 2011.
+\newblock \showarticletitle{{Geocompare: A Comparison of Public and Commercial
+  Geolocation Databases}}.
+\newblock {\em Proc. NMMC\/} (2011), 1--12.
+\newblock
+
+
+\bibitem{hegemony2}
+Internet.
+\newblock {Internet Hegemony and the Digital Divide}.
+\newblock \url{http://www.economist.com/node/5165014}.   (????).
+\newblock
+
+
+\bibitem{karlin2009nation}
+{Josh Karlin}, {Stephanie Forrest}, {and} {Jennifer Rexford}. 2009.
+\newblock \showarticletitle{{Nation-state Routing: Censorship, Wiretapping, and
+  BGP}}.
+\newblock {\em arXiv preprint arXiv:0903.3218\/} (2009).
+\newblock
+
+
+\bibitem{katz2006towards}
+{Ethan Katz-Bassett}, {John~P John}, {Arvind Krishnamurthy}, {David Wetherall},
+  {Thomas Anderson}, {and} {Yatin Chawathe}. 2006.
+\newblock \showarticletitle{Towards IP Geolocation Using Delay and Topology
+  Measurements}. In {\em Proceedings of the 6th ACM SIGCOMM conference on
+  Internet measurement}. ACM, 71--84.
+\newblock
+
+
+\bibitem{katz2010reverse}
+{Ethan Katz-Bassett}, {Harsha~V Madhyastha}, {Vijay~Kumar Adhikari}, {Colin
+  Scott}, {Justine Sherry}, {Peter Van~Wesep}, {Thomas~E Anderson}, {and}
+  {Arvind Krishnamurthy}. 2010.
+\newblock \showarticletitle{Reverse Traceroute.}. In {\em NSDI}, Vol.~10.
+  219--234.
+\newblock
+
+
+\bibitem{kwon2016atom}
+{Albert Kwon}, {Henry Corrigan-Gibbs}, {Srinivas Devadas}, {and} {Bryan Ford}.
+  2016a.
+\newblock \showarticletitle{Atom: Scalable Anonymity Resistant to Traffic
+  Analysis}.
+\newblock {\em arXiv preprint arXiv:1612.07841\/} (2016).
+\newblock
+
+
+\bibitem{kwon2016riffle}
+{Albert Kwon}, {David Lazar}, {Srinivas Devadas}, {and} {Bryan Ford}. 2016b.
+\newblock \showarticletitle{Riffle}.
+\newblock {\em Proceedings on Privacy Enhancing Technologies\/} {2016}, 2
+  (2016), 115--134.
+\newblock
+
+
+\bibitem{levin2015alibi}
+{Dave Levin}, {Youndo Lee}, {Luke Valenta}, {Zhihao Li}, {Victoria Lai},
+  {Cristian Lumezanu}, {Neil Spring}, {and} {Bobby Bhattacharjee}. 2015.
+\newblock \showarticletitle{{Alibi Routing}}. In {\em The 2015 ACM Conference
+  on Special Interest Group on Data Communication}. ACM, 611--624.
+\newblock
+
+
+\bibitem{madhyastha2006iplane}
+{Harsha~V Madhyastha}, {Tomas Isdal}, {Michael Piatek}, {Colin Dixon}, {Thomas
+  Anderson}, {Arvind Krishnamurthy}, {and} {Arun Venkataramani}. 2006.
+\newblock \showarticletitle{{iPlane: An Information Plane for Distributed
+  Services}}. In {\em The 7th Symposium on Operating Systems Design and
+  Implementation}. USENIX Association, 367--380.
+\newblock
+
+
+\bibitem{maxmind}
+maxmind.
+\newblock {MaxMind}.
+\newblock \url{https://www.maxmind.com/en/home}.   (????).
+\newblock
+
+
+\bibitem{hegemony_china}
+No.
+\newblock {No Internet hegemony: Xi}.
+\newblock \url{http://www.globaltimes.cn/content/958926.shtml}.   (????).
+\newblock
+
+
+\bibitem{nobori2014vpn}
+{Daiyuu Nobori} {and} {Yasushi Shinjo}. 2014.
+\newblock \showarticletitle{{VPN gate: A Volunteer-organized Public VPN Relay
+  System with Blocking Resistance for Bypassing Government Censorship
+  Firewalls}}. In {\em The 11th USENIX Symposium on Networked Systems Design
+  and Implementation (NSDI 14)}. 229--241.
+\newblock
+
+
+\bibitem{obar2012internet}
+{Jonathan~A Obar} {and} {Andrew Clement}. 2012.
+\newblock \showarticletitle{{Internet Surveillance and Boomerang Routing: A
+  Call for Canadian Network Sovereignty}}. In {\em TEM 2013: The Technology \&
+  Emerging Media Track-Annual Conference of the Canadian Communication
+  Association (Victoria)}.
+\newblock
+
+
+\bibitem{paxson1997end}
+{Vern Paxson}. 1997.
+\newblock \showarticletitle{End-to-end Routing Behavior in the Internet}.
+\newblock {\em IEEE/ACM transactions on Networking\/} {5}, 5 (1997), 601--615.
+\newblock
+
+
+\bibitem{peter2015one}
+{Simon Peter}, {Umar Javed}, {Qiao Zhang}, {Doug Woos}, {Thomas Anderson},
+  {and} {Arvind Krishnamurthy}. 2015.
+\newblock \showarticletitle{One Tunnel is (Often) Enough}.
+\newblock {\em ACM SIGCOMM Computer Communication Review\/} {44}, 4 (2015),
+  99--110.
+\newblock
+
+
+\bibitem{piotrowska2017loopix}
+{Ania Piotrowska}, {Jamie Hayes}, {Tariq Elahi}, {Sebastian Meiser}, {and}
+  {George Danezis}. 2017.
+\newblock \showarticletitle{The Loopix Anonymity System}.
+\newblock {\em arXiv preprint arXiv:1703.00536\/} (2017).
+\newblock
+
+
+\bibitem{PlanetLab}
+planetlab.
+\newblock {PlanetLab}.
+\newblock \url{http://planet-lab.org/}.   (????).
+\newblock
+
+
+\bibitem{poese2011ip}
+{Ingmar Poese}, {Steve Uhlig}, {Mohamed~Ali Kaafar}, {Benoit Donnet}, {and}
+  {Bamba Gueye}. 2011.
+\newblock \showarticletitle{IP Geolocation Databases: Unreliable?}
+\newblock {\em ACM SIGCOMM Computer Communication Review\/} {41}, 2 (2011),
+  53--56.
+\newblock
+
+
+\bibitem{ixp_policy}
+promoting 2012.
+\newblock {Promoting the Use of Internet Exchange Points (IXPs): A Guide to
+  Policy, Management and Technical Issues}.
+\newblock
+  \url{https://www.internetsociety.org/sites/default/files/Promoting\%20the\%20use\%20of\%20IXPs.pdf}.
+    (2012).
+\newblock
+
+
+\bibitem{ran_system}
+RAN.
+\newblock {RAN}.
+\newblock \url{https://bitbucket.org/ransom\_research/ran/}.   (????).
+\newblock
+
+
+\bibitem{ripe_atlas}
+RIPE.
+\newblock {RIPE Atlas}.
+\newblock \url{https://atlas.ripe.net/}.   (????).
+\newblock
+
+
+\bibitem{roberts2011mapping}
+{Hal Roberts}, {David Larochelle}, {Rob Faris}, {and} {John Palfrey}. 2011.
+\newblock \showarticletitle{{Mapping Local Internet Control}}. In {\em Computer
+  Communications Workshop (Hyannis, CA, 2011), IEEE}.
+\newblock
+
+
+\bibitem{shah2015characterizing}
+{Anant Shah} {and} {Christos Papadopoulos}. 2015.
+\newblock {\em {Characterizing International BGP Detours}}.
+\newblock {T}echnical {R}eport CS-15-104. Colorado State University.
+\newblock
+
+
+\bibitem{cablemap}
+telegeography.
+\newblock {TeleGeography Submarine Cable Map}.
+\newblock \url{http://www.submarinecablemap.com/}.   (????).
+\newblock
+
+
+\bibitem{tyagi2016stadium}
+{Nirvan Tyagi}, {Yossi Gilad}, {Matei Zaharia}, {and} {Nickolai Zeldovich}.
+  2016.
+\newblock \showarticletitle{Stadium: A Distributed Metadata-Private Messaging
+  System.}
+\newblock {\em IACR Cryptology ePrint Archive\/}  {2016} (2016), 943.
+\newblock
+
+
+\bibitem{van2015vuvuzela}
+{Jelle Van Den~Hooff}, {David Lazar}, {Matei Zaharia}, {and} {Nickolai
+  Zeldovich}. 2015.
+\newblock \showarticletitle{Vuvuzela: Scalable Private Messaging Resistant to
+  Traffic Analysis}. In {\em Proceedings of the 25th Symposium on Operating
+  Systems Principles}. ACM, 137--152.
+\newblock
+
+
+\bibitem{wahlisch2010framework}
+{Matthias W{\"a}hlisch}, {Sebastian Meiling}, {and} {Thomas~C Schmidt}. 2010.
+\newblock \showarticletitle{{A Framework for Nation-centric Classification and
+  Observation of the Internet}}. In {\em The ACM CoNEXT Student Workshop}. ACM,
+  15.
+\newblock
+
+
+\bibitem{wahlisch2012exposing}
+{Matthias W{\"a}hlisch}, {Thomas~C Schmidt}, {Markus de Br{\"u}n}, {and}
+  {Thomas H{\"a}berlen}. 2012.
+\newblock \showarticletitle{{Exposing a Nation-centric View on the German
+  Internet--A Change in Perspective on AS-level}}. In {\em Passive and Active
+  Measurement}. Springer, 200--210.
+\newblock
+
+
+\bibitem{what_isps_can_see}
+what 2016.
+\newblock {What ISPs Can See: Clarifying the Technical Landscape of the
+  Broadband Privacy Debate}.
+\newblock \url{https://www.teamupturn.com/reports/2016/what-isps-can-see}.
+  (2016).
+\newblock
+
+
+\bibitem{wolinsky2012dissent}
+{David~Isaac Wolinsky}, {Henry Corrigan-Gibbs}, {Bryan Ford}, {and} {Aaron
+  Johnson}. 2012.
+\newblock \showarticletitle{Dissent in Numbers: Making Strong Anonymity
+  Scale.}. In {\em OSDI}. 179--182.
+\newblock
+
+
+\bibitem{zhang2011scion}
+{Xin Zhang}, {Hsu-Chun Hsiao}, {Geoffrey Hasker}, {Haowen Chan}, {Adrian
+  Perrig}, {and} {David~G Andersen}. 2011.
+\newblock \showarticletitle{SCION: Scalability, Control, and Isolation on
+  Next-Generation Networks}. In {\em 2011 IEEE Symposium on Security and
+  Privacy}. IEEE, 212--227.
+\newblock
+
+
+\bibitem{levin_detour}
+{Dave~Levin Zhihao~Li, Stephen~Herwig}. 2017.
+\newblock \showarticletitle{DeTor: Provably Avoiding Geographic Regions in
+  Tor}. In {\em USENIX Security 2017}.
+\newblock
+
+
+\bibitem{zhou2007chinese}
+{Shi Zhou}, {Guo-Qing Zhang}, {and} {G-Q Zhang}. 2007.
+\newblock \showarticletitle{{Chinese Internet AS-level topology}}.
+\newblock {\em Communications, IET\/} {1}, 2 (2007), 209--214.
+\newblock
+
+
+\end{thebibliography}

@@ -1,0 +1,66 @@
+
+%%%% ADD THIS TO datasets.tex
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\newcommand{\headrow}[1]{\multicolumn{1}{c}{\adjustbox{angle=45,lap=\width-0.5em}{#1}}}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\begin{table}[t]
+\centering
+\ra{1}
+\resizebox{.9\columnwidth}{!}{%
+\renewcommand{\arraystretch}{0.75}% Tighter
+\begin{tabular}{@{}ld{3.2}d{3.2}d{3.2}d{3.2}d{3.2}@{}}
+%\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\
+\textit{Terminating in Country} 
+   & \headrow{Brazil}  & \headrow{Netherlands}   & \headrow{India} & \headrow{Kenya} & \headrow{United States}\\
+\toprule
+Brazil             &.169    &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}  &\multicolumn{1}{r}{-} \\ \midrule
+Canada             &.001    &.007     &.015      &.006       &\multicolumn{1}{r}{-}  \\
+United States      &\cellcolor[HTML]{F7BE81}.774    &\cellcolor[HTML]{F7BE81}.454      &\cellcolor[HTML]{F7BE81}.629      &\cellcolor[HTML]{F7BE81}.443        &\cellcolor[HTML]{F7BE81}.969    \\ \midrule
+France             &.001    &.022      &.009      &.023       &.001 \\
+Germany            &.002    &.013      &.014      &.028       &.001  \\
+Great Britain      &\multicolumn{1}{r}{-}  &.019     &.021     &.032       &.002 \\
+Ireland            &.016    &.064      &.027       &.108       &.001   \\
+Netherlands        &.013    &\cellcolor[HTML]{F7BE81}.392      &\cellcolor[HTML]{F7BE81}.101      &\cellcolor[HTML]{F7BE81}.200      &.024  \\
+Spain              &.001    &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}    \\ \midrule
+Kenya              &\multicolumn{1}{r}{-}        &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}    &.022        &\multicolumn{1}{r}{-}  \\
+Mauritius          &\multicolumn{1}{r}{-}      &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}   &.004       &\multicolumn{1}{r}{-}  \\
+South Africa       &\multicolumn{1}{r}{-}       &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}  &.021       &\multicolumn{1}{r}{-}  \\ \midrule
+United Arab Emirates &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}   &.011        &\multicolumn{1}{r}{-}  \\
+India              &\multicolumn{1}{r}{-}      &\multicolumn{1}{r}{-}     &.053    &.002        &\multicolumn{1}{r}{-}  \\
+Singapore          &\multicolumn{1}{r}{-}       &.002     &\cellcolor[HTML]{F7BE81}.103      &.027       &\multicolumn{1}{r}{-} \\\hline
+\end{tabular}
+}
+\caption{Fraction of paths terminating in a country by default.  The fraction in each cell represents the fraction of paths originating in the country at the top of the column and ending in the country indicated in the first cell of the same row.}
+\label{tab:host}
+\end{table}
+
+\begin{table}[t]
+\centering
+\ra{1}
+\resizebox{.9\columnwidth}{!}{%
+\renewcommand{\arraystretch}{0.75}% Tighter
+\begin{tabular}{@{}ld{3.2}d{3.2}d{3.2}d{3.2}d{3.2}@{}}
+%\multicolumn{1}{l}{}    & \headrow{Host} & \headrow{Transit} & \headrow{Host} & \headrow{Transit} &\headrow{Host} &\headrow{Transit} &\headrow{Host}   &\headrow{Transit} &\headrow{Host}  &\headrow{Transit} \\
+
+\textit{Transiting Country}    & \headrow{Brazil}  & \headrow{Netherlands}   & \headrow{India} & \headrow{Kenya} & \headrow{United States}\\ \toprule
+Brazil              &1.00       &\multicolumn{1}{r}{-}   &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-} \\ \midrule
+Canada                &.013       &.007     &.016       &.008      &.081 \\
+United States        &\cellcolor[HTML]{F7BE81}.844        &\cellcolor[HTML]{F7BE81}.583     &\cellcolor[HTML]{F7BE81}.715      &\cellcolor[HTML]{F7BE81}.616       &\cellcolor[HTML]{F7BE81}1.00 \\ \midrule
+France                 &.059     &.102      &.104       &.221      &.104 \\
+Germany                 &.005       &.050    &.032      &.048      &.008 \\
+Great Britain                &.024       &\cellcolor[HTML]{F7BE81}.140     &\cellcolor[HTML]{F7BE81}.204      &\cellcolor[HTML]{F7BE81}.500      &.006 \\
+Ireland                &.028       &.106      &.031     &.133      &.006 \\
+Netherlands                 &.019        &1.00      &.121      &\cellcolor[HTML]{F7BE81}.253      &.031 \\
+Spain                  &.176       &.004     &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}      &\multicolumn{1}{r}{-} \\ \midrule
+Kenya                 &\multicolumn{1}{r}{-}       &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}      &1.00      &\multicolumn{1}{r}{-} \\
+Mauritius                  &\multicolumn{1}{r}{-}       &\multicolumn{1}{r}{-}     &\multicolumn{1}{r}{-}      &\cellcolor[HTML]{F7BE81}.322       &\multicolumn{1}{r}{-} \\
+South Africa                 &\multicolumn{1}{r}{-}        &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}     &\cellcolor[HTML]{F7BE81}.334       &\multicolumn{1}{r}{-} \\ \midrule
+United Arab Emirates                  &\multicolumn{1}{r}{-}        &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}     &.152       &\multicolumn{1}{r}{-} \\
+India               &\multicolumn{1}{r}{-}    &\multicolumn{1}{r}{-}    &1.00     &.058     &\multicolumn{1}{r}{-} \\
+Singapore                 &\multicolumn{1}{r}{-}        &.002     &\cellcolor[HTML]{F7BE81}.270       &.040       &.003 \\ \midrule
+\end{tabular}
+}
+\caption{Fraction of paths that a country transits by default.  The fraction in each cell represents the fraction of paths originating in the country at the top of the column that transit or end in the country indicated in the first cell of the same row.}
+\label{tab:transit}
+\end{table}

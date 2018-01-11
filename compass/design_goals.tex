@@ -1,0 +1,39 @@
+{\bf Design Goals.} Our measurement results motivate 
+ the design and implementation of a relay-based avoidance system,
+\system{}, with the following design goals.
+\label{goals}
+\begin{itemize}
+\item {\bf Country Avoidance.}  The primary goal of \system{} is to
+avoid a given country when accessing web content.  \system{} should
+provide clients a way to route around a specified country when
+accessing a domain.  This calls for the role of measurement in the
+system design and systematizing the measurement methods discussed
+earlier in the paper.
+
+\item {\bf Usability.} \system{} should require as little effort as
+possible from clients.  Clients should not have to download
+or install software, collect any measurements, or understand how the
+system works.  This requires a way for clients to automatically and
+seamlessly multiplex between relays (proxies) based on different
+destinations.  \system{} uses a Proxy Autoconfiguration (PAC) file to support this
+function.  PAC files are supported on many types of devices, including mobile 
+devices (smartphones, tablets, etc.).  Additionally, this is a mechanism that 
+is already being used in systems and tools.  Many Internet users that 
+use a VPN have {\it already} used a PAC file; when a user establishes a VPN connection, his 
+device's proxy settings are modified to point to a PAC file.  
+
+\item {\bf Scalability.}  This country avoidance system should be able to scale to 
+many users.  Therefore, \system{} should be able to handle the addition
+ of relays, as well as be cost-effective in terms of resources required. This requires 
+clever measurement vantage points, such that each vantage point is representative of 
+more than one client.  The PAC file allows \system{} to 
+grow with the number of clients and also supports incremental deployment.
+
+\item {\bf Non-goals.}  There are some challenges that \system{} does not
+attempt to  solve; in particular, it does not provide anonymity; it routes
+around  countries,
+but it does not attempt to keep users anonymous in the event that traffic can
+be observed.   \system{} also does not address domestic interference or surveillance. For
+example, a client in the United States cannot use \system{} to avoid network interference 
+by the United States. 
+\end{itemize}

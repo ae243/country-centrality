@@ -1,0 +1,53 @@
+\section{Discussion}
+\label{sec:discussion}
+
+{\bf Avoiding multiple countries.} 
+We have studied only the extent to which Internet paths can be
+engineered to avoid a {single} country.  Yet, avoiding a single country
+may force an Internet path into {\em other} unfavorable
+jurisdictions. Future work should
+explore the feasibility of avoiding multiple countries or perhaps even entire regions.
+
+
+{\bf Evolution over time.}
+Our study is based on a snapshot of paths. Over time, paths
+change, hosting locations change, IXPs are built, submarine cables are
+laid, and the countries conducting network interference change.  We are continuing to collect
+the measurements that we have presented in this paper to facilitate future exploration
+of how these characteristics evolve over time.
+
+{\bf Isolating DNS diversity vs. path diversity.}
+In our experiments, the overlay network relays perform DNS lookups from
+geographically diverse locations, which provides some level of DNS
+diversity in addition to the path diversity that the relays inherently
+provide. This approach somewhat conflates the benefits of DNS diversity
+with the benefits of path diversity and in practice may increase
+clients' vulnerability to surveillance, since each relay is performing
+DNS lookups on each client's behalf. We plan to conduct additional
+experiments where the client relies on its local DNS resolver to map
+domains to IP addresses, as opposed to relying on the relays for both
+DNS resolution and routing diversity.
+
+{\bf ISPs controlling country avoidance.} 
+Future work includes modifying \system{} to be implemented within an 
+ISP.  Adding country avoidance functionality within ISPs 
+(government-controlled or otherwise) allows ISPs to provide this as a transparent
+service to customers.  A government that wishes to control which countries
+its citizens' traffic is traversing might deploy \system{} in the country's ISPs.
+
+{\bf Additional \system{} features.}  
+The oracle could add additional steps in the decision
+chain introduced in Section \ref{multiplex} that take into account
+relay and path loads.  For example, if multiple relays provide a path
+to a domain that does not traverse the specified country, then the
+decision between the suitable proxies could be determined based on
+current relay load or performance.  Our current implementation of
+\system{} re-computes all paths once per five days; we could only
+re-compute paths when necessary.  For example, a BGP monitoring system
+detect routing changes and trigger path measurements.
+
+%Additional features can be
+%implemented at the relay to help preserve client privacy.  An example
+%would be to use the relay as a mix, or to send out fake traffic to
+%confuse an attacker that may be trying to perform traffic analysis at
+%the relay.
