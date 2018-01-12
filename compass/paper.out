@@ -8,11 +8,11 @@
 \BOOKMARK [3][-]{subsubsection.20}{Inferring Country-Level Paths}{subsection.10}% 8
 \BOOKMARK [3][-]{subsubsection.22}{Traceroute Accuracy and Completeness}{subsection.10}% 9
 \BOOKMARK [2][-]{subsection.24}{Results}{section.8}% 10
-\BOOKMARK [1][-]{section.30}{Feasibility of Routing Around Nation-States}{}% 11
+\BOOKMARK [1][-]{section.30}{Feasibility of Region-Aware Networking}{}% 11
 \BOOKMARK [2][-]{subsection.32}{Measurement Approach}{section.30}% 12
 \BOOKMARK [2][-]{subsection.35}{Avoidability Metrics}{section.30}% 13
 \BOOKMARK [2][-]{subsection.37}{Results}{section.30}% 14
-\BOOKMARK [1][-]{section.40}{Routing Around Nation-States}{}% 15
+\BOOKMARK [1][-]{section.40}{Region-Aware Networking}{}% 15
 \BOOKMARK [2][-]{subsection.43}{Measuring Paths}{section.40}% 16
 \BOOKMARK [2][-]{subsection.45}{Computing and Selecting Paths}{section.40}% 17
 \BOOKMARK [2][-]{subsection.56}{Limitations and Extensions}{section.40}% 18
