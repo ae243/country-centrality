@@ -214,14 +214,7 @@ re-computed every five days.
 \subsection{Limitations and Extensions}
 
 From our experience conducting measurement studies of Internet paths, we have
-identified several limitations and obstacles.  These limittaions include a lack
-of possible measurement methods to
-learn reverse paths and a lack of knowledge about the locations in which
-content is replicated. Additionally, because \system{} does not assume any
-cooperation from content providers, the system does not (and cannot) always
-ensure that some Internet path avoids a particular country.
-
-We can surmount these obstacles with the cooperation of content providers. To
+identified several limitations and obstacles. We can surmount these obstacles with the cooperation of content providers. To
 address the issue of path asymmetry, the reverse path could be measured from
 within the provider and used to determine if a country is on the reverse path;
 this could be used in conjunction with our measurements  of the forward path.
@@ -230,6 +223,13 @@ that when a client receives a DNS response, it is for a content replica that
 allows her to avoid a given country.  A content provider could also  replicate
 content in specific regions to allow clients to access replicas without
 traversing a specific  country.
+
+%These limittaions include a lack
+%of possible measurement methods to
+%learn reverse paths and a lack of knowledge about the locations in which
+%content is replicated. Additionally, because \system{} does not assume any
+%cooperation from content providers, the system does not (and cannot) always
+%ensure that some Internet path avoids a particular country.
 
 The current implementation of \system{} does not include support by content
 providers, the design itself does not require any changes if providers were

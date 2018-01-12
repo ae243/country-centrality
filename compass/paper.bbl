@@ -267,13 +267,6 @@ M.~W{\"a}hlisch, T.~C. Schmidt, M.~de~Br{\"u}n, and T.~H{\"a}berlen.
 \newblock In {\em Passive and Active Measurement}, pages 200--210. Springer,
   2012.
 
-\bibitem{zhang2011scion}
-X.~Zhang, H.-C. Hsiao, G.~Hasker, H.~Chan, A.~Perrig, and D.~G. Andersen.
-\newblock {SCION: Scalability, Control, and Isolation on Next-Generation
-  Networks}.
-\newblock In {\em IEEE Symposium on Security and Privacy}, pages 212--227.
-  IEEE, 2011.
-
 \bibitem{levin_detour}
 D.~L. Zhihao~Li, Stephen~Herwig.
 \newblock {DeTor: Provably Avoiding Geographic Regions in Tor}.

@@ -60,14 +60,15 @@ overlay network that  routes around failures~\cite{andersen2001resilient}, where
 routes around countries.  ARROW introduces a
 model that allows users to route around ISPs~\cite{peter2015one}, but requires
 ISP participation, making it considerably more difficult to deploy than
-\system{}. ARROW also aims to improve fault-tolerance, robustness, and
-security, rather than explicitly attempting to avoid certain countries; ARROW
-provides mechanisms to avoid individual ISPs, but such a mechanism is at a
-different level of granularity, because an ISP may span multiple countries.
+\system{}; additionally, ISPs may span multiple countries. %ARROW also aims to improve fault-tolerance, robustness, and
+%security, rather than explicitly attempting to avoid certain countries; ARROW
+%provides mechanisms to avoid individual ISPs, but such a mechanism is at a
+%different level of granularity, because an ISP may span multiple countries.
 Zhang \ea{} presented SCION, a ``clean-slate'' Internet architecture that
-provides route control, failure isolation, and explicit trust information for
-communication~\cite{zhang2011scion}; SCION, however, requires fundamental
-changes to the Internet architecture, whereas \system{} is deployable today.
+provides route control, but requires fundamental
+changes to the Internet architecture. %failure isolation, and explicit trust information for
+%communication~\cite{zhang2011scion}; SCION, however, requires fundamental
+%changes to the Internet architecture, whereas \system{} is deployable today.
 
 %{\bf Circumvention systems.}  Certain tools, such as anonymous
 %communications systems or VPNs~\cite{dingledine2004tor,nobori2014vpn,piotrowska2017loopix,van2015vuvuzela,wolinsky2012dissent,tyagi2016stadium,corrigan2015riposte,kwon2016atom,kwon2016riffle,

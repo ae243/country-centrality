@@ -19,7 +19,7 @@ used, then 63\% of domains are accessible without traversing the U.S.
 \begin{figure}[t]
 \tiny
 \centering
-\includegraphics[width=.35\textwidth,height=5.5cm]{avoidance_n_relays}
+\includegraphics[width=.35\textwidth,height=5cm]{avoidance_n_relays}
 \caption{The effect of the number of relays on avoidance, for a client
   in the Netherlands.}
 \label{fig:avoidance_eval}
@@ -42,9 +42,7 @@ It is important to note that \system{} cannot guarantee that a country is
 avoided because for some domains, the path must go through a certain 
 country, as evidenced by our results for avoiding the United States.  Despite 
 this lack of guarantees, the system reduces the number of requests that 
-transit the unfavorable country; additionally, the client can learn which domains 
-are not accessible without passing through the unfavorable country, and can then 
-decide whether or not to fetch that page.  
+transit the unfavorable country.  
 
 \subsubsection{Performance}
 We measure both 
@@ -65,7 +63,7 @@ ten experiments.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=.4\textwidth]{throughput}
+\includegraphics[width=.35\textwidth]{throughput}
 \caption{The ratio of RAN throughput to direct throughput. } 
 %The points on the graph show measurements from the Resilient Overlay
 %Networks (RON~\cite{andersen2001resilient}) system and thus represent the performance of overlay network
@@ -91,7 +89,7 @@ RON and \system{} improve throughput for a similar fraction of samples
 
 To measure the latency of \system{}, we ran {\tt curl} to each of the  top 100
 domains from the client in the Netherlands, using the ten oracle-generated PAC
-files to allow the client to select the appropriate relays. This experiment
+files. This experiment
 allowed us to measure the time to first byte (TTFB) for web downloads; we
 found the average TTFB when accessing content using \system{} and  found the
 TTFB when using direct paths; 
@@ -103,7 +101,7 @@ Figure~\ref{fig:latency} shows these results. The median TTFB for direct paths i
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=.4\textwidth]{latency}
+\includegraphics[width=.35\textwidth]{latency}
 \caption{Time to first byte for \system{} and direct paths.}
 \label{fig:latency}
 \end{figure}
