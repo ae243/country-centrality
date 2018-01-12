@@ -1,7 +1,6 @@
 \subsection{Evaluation}
 
-We evaluate \system{}'s ability to avoid a given country, its performance,
-and its storage and measurement costs.
+We evaluate \system{}'s ability to avoid a given country and its performance.
 
 \subsubsection{Country Avoidability}
 
@@ -22,7 +21,7 @@ used, then 63\% of domains are accessible without traversing the U.S.
 \centering
 \includegraphics[width=.35\textwidth,height=5.5cm]{avoidance_n_relays}
 \caption{The effect of the number of relays on avoidance, for a client
-  in the Netherlands. We tested \system{} with up to nine relays.}
+  in the Netherlands.}
 \label{fig:avoidance_eval}
 \end{figure}
 
@@ -110,29 +109,29 @@ Figure~\ref{fig:latency} shows these results. The median TTFB for direct paths i
 \end{figure}
 
 
-\subsubsection{Storage and Measurement Costs}
+%\subsubsection{Storage and Measurement Costs}
 
-As the number of clients increases, and hence the number of paths being 
-computed increases, the amount of storage must remain reasonable.  The storage 
-used by paths can be calculated as
-$DR + 2CR + CD$
-where $D$ is the number of domains; $R$ is the number of relays; and $C$ is the
-number of ASes from which \system{} measures.
-The storage required for a single client, 100 domains, and nine relays is
-480~KB.  Because there is a single PAC file for all clients in 
-a country, $C$ will grow much slower than if there was a different PAC file for 
-each individual client.  There are 196 countries; if \system{} computed
-paths and a PAC file for each country, with 100 domains, and 
-three relays required storage would be only 94~MB, making it
-feasible to increase the number of relays and domains.
+%As the number of clients increases, and hence the number of paths being 
+%computed increases, the amount of storage must remain reasonable.  The storage 
+%used by paths can be calculated as
+%$DR + 2CR + CD$
+%where $D$ is the number of domains; $R$ is the number of relays; and $C$ is the
+%number of ASes from which \system{} measures.
+%The storage required for a single client, 100 domains, and nine relays is
+%480~KB.  Because there is a single PAC file for all clients in 
+%a country, $C$ will grow much slower than if there was a different PAC file for 
+%each individual client.  There are 196 countries; if \system{} computed
+%paths and a PAC file for each country, with 100 domains, and 
+%three relays required storage would be only 94~MB, making it
+%feasible to increase the number of relays and domains.
 
-RIPE Atlas credits are also a limited resource.  Cost is proportional to
-$C \cdot (R+D)$.
-Each traceroute costs 60 RIPE Atlas credits, so one set of measurements
-for one client, 100 domains, and nine relays costs 6,180 
-credits; because these paths are updated each hour, then 
-the daily credit cost is 148,320 credits.  In return for hosting a RIPE Atlas 
-probe, we earn 216,000 credits per day, which will support our existing 
-prototype.  To provide for more clients, more domains, or more 
-resources, we can tune the system to re-compute paths less frequently.%,
+%RIPE Atlas credits are also a limited resource.  Cost is proportional to
+%$C \cdot (R+D)$.
+%Each traceroute costs 60 RIPE Atlas credits, so one set of measurements
+%for one client, 100 domains, and nine relays costs 6,180 
+%credits; because these paths are updated each hour, then 
+%the daily credit cost is 148,320 credits.  In return for hosting a RIPE Atlas 
+%probe, we earn 216,000 credits per day, which will support our existing 
+%prototype.  To provide for more clients, more domains, or more 
+%resources, we can tune the system to re-compute paths less frequently.%,
 %as we discuss in Section~\ref{sec:discussion}.

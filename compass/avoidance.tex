@@ -22,7 +22,7 @@ to determine the resulting country-level paths.
 \begin{figure}[t]
 \centering
 \includegraphics[width=.5\textwidth]{Country-Avoidance-Relays}
-\caption{Measurement approach for country avoidance with overlay network relays.}
+\caption{Measurement approach for country avoidance.}
 \label{fig:avoidance_relays}
 \end{figure}
 
@@ -134,10 +134,8 @@ Singapore            &.99  &1.00     &.99 &1.00   &\cellcolor[HTML]{F7BE81}.73  
 \label{tab:avoid}
 \end{table*}
 
-\begin{finding}[Relay Effectiveness]
+{\it Relay Effectiveness.}
 For 84\% of the (Country X, Country Y) pairs shown in Table \ref{tab:avoid} the avoidance with relays reaches the upper bound on avoidance. 
-\end{finding}
-\noindent
 In almost every (Country X, Country Y) pair, where Country X is the
 client's country (Brazil, Netherlands, India, Kenya, or the United
 States) and Country Y is the country to avoid, the use of an overlay
@@ -146,36 +144,23 @@ exception we encountered is when a client is located in Kenya and wants
 to avoid South Africa, where, as mentioned, all paths through our
 relays exit Kenya via South Africa.
 
-\begin{finding}[Relays Achieve Upper Bound]
+{\it Relays Achieve Upper Bound.}
 Clients in the U.S. can achieve the upper bound of avoidance for all
 countries---relays help clients in
-the U.S. avoid all other Country Y unless the domain is hosted in Country~Y.  
-\end{finding}
-\noindent
-Relays are most effective for clients in the United States.  On the other hand,
+the U.S. avoid all other Country Y unless the domain is hosted in Country~Y.  On the other hand,
 it is more rare for (Kenya, Country Y) pairs to achieve the upper bound, showing
 it is more difficult for Kenyan clients to avoid a given country.  Relays can still
 be effective for clients in Kenya: for example, the default routes to the top 100
 domains for Kenyans avoid Great Britain 50\% of the time, but with relays this percentage increases to 97\% of the time, and the upper bound is 98\%.
 %Figure \ref{fig:ke_avoidance} shows default avoidance, avoidance with relays, and the upper bound for Kenya; it's clear that despite having the worst position for avoidance out of the studied countries, in most cases the avoidance with relays either reaches or because extremely close to the upper bound.  
 
-\begin{finding}[U.S. is Least Avoidable]
-The ability for any country to avoid the U.S. is significantly lower than its ability to avoid any other country in all three situations: without relays, with relays, and the upper bound. 
-\end{finding}
-%Certain surveillance states discussed in Section \ref{surv} are completely unavoidable a small fraction of time from certain client locations.  France is unavoidable for a small percentage of domains for clients located in the Netherlands, Kenya, and the United States.  Similarly, clients in the Netherlands and Kenya cannot avoid Great Britain for a small fraction of domains.  
-\noindent
-Despite increasing the ability to avoid the U.S., relays are less
+{\it U.S. is Least Avoidable.} Despite increasing the ability to avoid the U.S., relays are less
 effective at avoiding the U.S. compared to all other Country Y.
 Clients in India can avoid the U.S. more often than clients in Brazil,
 Netherlands, and Kenya, by avoiding the U.S. for 65\% of paths.  Even
 using relays, Kenyan clients can only avoid the U.S. 40\% of the time.  The upper bound for avoiding the U.S. is significantly lower in comparison to other countries.  
 
-\begin{finding}[Keeping Local Traffic Local]
-Using relays decreased both the number of tromboning paths, and the
-number of countries involved in tromboning paths.
-\end{finding}
-\noindent
-Where there were relays located in one of the five
+{\it Keeping Local Traffic Local.} Where there were relays located in one of the five
 countries that we studied, we evaluated how well the relays kept local
 traffic local.  This evaluation was possible for the U.S. and Brazil.
 Tromboning Brazilian paths decreased from 13.2\% without relays to
