@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JAN 2018 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JAN 2018 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1662,7 +1662,10 @@ Underfull \hbox (badness 1082) in paragraph at lines 29--35
  []
 
 [6 <./figures/Country-Avoidance-Relays.pdf>]) (./system_design.tex
-(./design_goals.tex) [7]
+(./design_goals.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [7]
 <./figures/system_overview_updated-3.pdf, id=432, 399.4925pt x 220.825pt>
 File: ./figures/system_overview_updated-3.pdf Graphic file (type pdf)
 
@@ -1682,13 +1685,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--213
 /cmr/m/n/10 _pac.pac.
  []
 
-) (./implementation.tex
+
+Underfull \vbox (badness 2050) has occurred while \output is active []
+
+)
+(./implementation.tex
 <./figures/relay_map.png, id=475, 588.69937pt x 313.17pt>
 File: ./figures/relay_map.png Graphic file (type png)
 
 <use ./figures/relay_map.png>
 Package pdftex.def Info: ./figures/relay_map.png used on input line 24.
 (pdftex.def)             Requested size: 153.64644pt x 81.73288pt.
+
+Underfull \vbox (badness 2277) has occurred while \output is active []
+
  [9 <./figures/relay_map.png>]) (./evaluation.tex
 <./figures/avoidance_n_relays.pdf, id=498, 361.35pt x 361.35pt>
 File: ./figures/avoidance_n_relays.pdf Graphic file (type pdf)
@@ -1697,6 +1707,9 @@ File: ./figures/avoidance_n_relays.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/avoidance_n_relays.pdf used on input line 22
 .
 (pdftex.def)             Requested size: 179.25752pt x 156.49124pt.
+
+Underfull \vbox (badness 2662) has occurred while \output is active []
+
 
 <./figures/throughput.pdf, id=501, 361.35pt x 216.81pt>
 File: ./figures/throughput.pdf Graphic file (type pdf)
@@ -1767,7 +1780,7 @@ ublic/cm-super/sftt1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvet
 ic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ncntrsbk/unc
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper.pdf (13 pages, 1740711 bytes).
+Output written on paper.pdf (13 pages, 1740601 bytes).
 PDF statistics:
  704 PDF objects out of 1000 (max. 8388607)
  604 compressed objects within 7 object streams
