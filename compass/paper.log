@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JAN 2018 10:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JAN 2018 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1121,11 +1121,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Non-PDF special ignored!
 
-]
+]) (./related_work.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./related_work.tex
+
 <./figures/Current-Traffic_fig.pdf, id=157, 761.84625pt x 139.52126pt>
 File: ./figures/Current-Traffic_fig.pdf Graphic file (type pdf)
 
@@ -1133,7 +1132,18 @@ File: ./figures/Current-Traffic_fig.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/Current-Traffic_fig.pdf used on input line 6
 .
 (pdftex.def)             Requested size: 460.9315pt x 84.41167pt.
- [2]) (./characterizing_detours.tex
+
+Underfull \hbox (badness 1661) in paragraph at lines 12--43
+[]\T1/cmr/bx/n/10 Nation-state rout-ing anal-y-sis. \T1/cmr/m/n/10 Shah and Pa-
+
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 12--43
+\T1/cmr/m/n/10 padopou-los re-cently mea-sured in-ter-na-tional rout-ing
+ []
+
+[2]) (./characterizing_detours.tex
 Underfull \vbox (badness 2080) has occurred while \output is active []
 
  [3 <./figures/Current-Traffic_fig.pdf>]
@@ -1149,37 +1159,14 @@ Overfull \hbox (12.09242pt too wide) in paragraph at lines 128--129
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]\T1/cmr/m/n/10 Figure 2: |Map-ping country-level paths from tracer-
- []
-
 <./figures/compare_100_100.png, id=284, 323.91414pt x 179.37415pt>
 File: ./figures/compare_100_100.png Graphic file (type png)
 
 <use ./figures/compare_100_100.png>
 Package pdftex.def Info: ./figures/compare_100_100.png used on input line 143.
 (pdftex.def)             Requested size: 230.46574pt x 127.62749pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]\T1/cmr/m/n/10 Figure 3: |Com-par-i-son of path end-points be-tween the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\T1/cmr/m/n/10 Alexa Top 100 and the Alexa Top 1000. For sim-plic-ity,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\T1/cmr/m/n/10 we have re-moved the long tail of coun-tries that are the
- []
-
-
-Underfull \vbox (badness 3579) has occurred while \output is active []
-
- [4 <./figures/Analysis-Pipeline1.pdf> <./figures/compare_100_100.png>]
-(./characterize-tables.tex
+ [4 <./figures/Analysis-Pipeline1.pdf> <./figures/compare_100_100.png>] (./char
+acterize-tables.tex
 Overfull \hbox (5.00002pt too wide) detected at line 33
 $\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 169$ 
  []
@@ -1400,26 +1387,6 @@ $\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 027$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]\T1/cmr/m/n/10 Table 1: |Frac-tion of paths ter-mi-nat-ing in a coun-try by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-\T1/cmr/m/n/10 de-fault. The frac-tion in each cell rep-re-sents the frac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-\T1/cmr/m/n/10 tion of paths orig-i-nat-ing in the coun-try at the top of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-\T1/cmr/m/n/10 the col-umn and end-ing in the coun-try in-di-cated in the
- []
-
-
 Overfull \hbox (5.00002pt too wide) detected at line 63
 $\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 013$ 
  []
@@ -1634,47 +1601,18 @@ Overfull \hbox (5.00002pt too wide) detected at line 63
 $\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 003$ 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[]\T1/cmr/m/n/10 Table 2: |Frac-tion of paths that a coun-try tran-sits by
- []
+)
+Underfull \vbox (badness 7099) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-\T1/cmr/m/n/10 de-fault. The frac-tion in each cell rep-re-sents the frac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-\T1/cmr/m/n/10 tion of paths orig-i-nat-ing in the coun-try at the top of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-\T1/cmr/m/n/10 the col-umn that tran-sit or end in the coun-try in-di-cated
- []
-
-) <./figures/compare_cctld.png, id=332, 256.99213pt x 154.6578pt>
+<./figures/compare_cctld.png, id=342, 256.99213pt x 154.6578pt>
 File: ./figures/compare_cctld.png Graphic file (type png)
 
 <use ./figures/compare_cctld.png>
 Package pdftex.def Info: ./figures/compare_cctld.png used on input line 240.
 (pdftex.def)             Requested size: 204.8567pt x 123.2851pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
-[]\T1/cmr/m/n/10 Figure 4: |Frac-tion of coun-try code top-level do-mains
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
-\T1/cmr/m/n/10 that are hosted lo-cally. For ex-am-ple, 46% of .br do-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
-<./figures/nl_trombone_new11.pdf, id=359, 289.08pt x 216.81pt>
+<./figures/nl_trombone_new11.pdf, id=343, 289.08pt x 216.81pt>
 File: ./figures/nl_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/nl_trombone_new11.pdf>
@@ -1682,7 +1620,7 @@ Package pdftex.def Info: ./figures/nl_trombone_new11.pdf used on input line 249
 .
 (pdftex.def)             Requested size: 153.64644pt x 115.23296pt.
 
-<./figures/br_trombone_new11.pdf, id=360, 289.08pt x 216.81pt>
+<./figures/br_trombone_new11.pdf, id=344, 289.08pt x 216.81pt>
 File: ./figures/br_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/br_trombone_new11.pdf>
@@ -1690,7 +1628,7 @@ Package pdftex.def Info: ./figures/br_trombone_new11.pdf used on input line 253
 .
 (pdftex.def)             Requested size: 153.64644pt x 115.23296pt.
 
-<./figures/ke_trombone_new11.pdf, id=361, 289.08pt x 216.81pt>
+<./figures/ke_trombone_new11.pdf, id=345, 289.08pt x 216.81pt>
 File: ./figures/ke_trombone_new11.pdf Graphic file (type pdf)
 
 <use ./figures/ke_trombone_new11.pdf>
@@ -1698,15 +1636,38 @@ Package pdftex.def Info: ./figures/ke_trombone_new11.pdf used on input line 257
 .
 (pdftex.def)             Requested size: 153.64644pt x 115.23296pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+[]\T1/cmr/m/it/10 All of the
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+[]\T1/cmr/m/it/10 The United
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+[]\T1/cmr/m/it/10 Brazilian
+ []
+
+
+Underfull \vbox (badness 1681) has occurred while \output is active []
 
 
 Overfull \hbox (65.52736pt too wide) in paragraph at lines 343--344
-[] 
+[]
  []
 
-) (./avoidance.tex [6 <./figures/compare_cctld.png>]
-<./figures/Country-Avoidance-Relays.pdf, id=394, 426.59375pt x 183.68625pt>
+
+Underfull \hbox (badness 1342) in paragraph at lines 343--344
+\T1/cmr/m/it/10 for-eign countries---France, Ger-many, Ire-land, Great
+ []
+
+) (./avoidance.tex
+<./figures/Country-Avoidance-Relays.pdf, id=378, 426.59375pt x 183.68625pt>
 File: ./figures/Country-Avoidance-Relays.pdf Graphic file (type pdf)
 
 <use ./figures/Country-Avoidance-Relays.pdf>
@@ -1719,14 +1680,19 @@ Overfull \hbox (12.09242pt too wide) in paragraph at lines 24--25
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]\T1/cmr/m/n/10 Figure 6: |Mea-sure-ment ap-proach for coun-try avoid-ance
+Underfull \hbox (badness 1082) in paragraph at lines 29--35
+\T1/cmr/m/n/10 States, Ire-land, Ger-many, Sin-ga-pore, South Ko-rea,
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1383) has occurred while \output is active []
 
- [7 <./figures/nl_trombone_new11.pdf> <./figures/br_trombone_new11.pdf
+ [6 <./figures/compare_cctld.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+[]\T1/cmr/m/it/10 For 84%
+ []
+
+[7 <./figures/nl_trombone_new11.pdf> <./figures/br_trombone_new11.pdf
 
 pdfTeX warning: pdflatex (file ./figures/br_trombone_new11.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -1739,48 +1705,29 @@ pdfTeX warning: pdflatex (file ./figures/ke_trombone_new11.pdf): PDF inclusion:
 pdfTeX warning: pdflatex (file ./figures/Country-Avoidance-Relays.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-[]\T1/cmr/m/n/10 Table 3: |Avoid-ance val-ues for us-ing over-lay net-work re-l
-ays to avoid dif-fer-ent coun-tries. The up-per bound on avoid-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\T1/cmr/m/n/10 ance is 1.0 in most cases, but not all. It is com-mon for some E
-u-ro-pean coun-tries to host a do-main, and there-fore
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\T1/cmr/m/n/10 the up-per bound is slightly lower than 1.0. The up-per bound on
- avoid-ance of the U.S. is sig-nif-i-cantly lower than for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\T1/cmr/m/n/10 any other coun-try; .886, .790, .844, and .765 are the up-per bo
-unds on avoid-ance of the U.S. for paths orig-i-nat-ing in
- []
-
-
 Overfull \hbox (0.7404pt too wide) in paragraph at lines 149--152
-[] 
+[]
  []
 
 
-Overfull \hbox (3.51195pt too wide) in paragraph at lines 173--175
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+[]\T1/cmr/m/it/10 The
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./system_design.tex (./design_goals.tex
-Underfull \vbox (badness 1418) has occurred while \output is active []
 
- [8])
-<./figures/system_overview_updated-3.pdf, id=501, 399.4925pt x 220.825pt>
+Overfull \hbox (3.51195pt too wide) in paragraph at lines 173--175
+[]
+ []
+
+) (./system_design.tex
+Underfull \vbox (badness 1728) has occurred while \output is active []
+
+ [8]
+(./design_goals.tex)
+<./figures/system_overview_updated-3.pdf, id=505, 399.4925pt x 220.825pt>
 File: ./figures/system_overview_updated-3.pdf Graphic file (type pdf)
 
 <use ./figures/system_overview_updated-3.pdf>
@@ -1788,70 +1735,51 @@ Package pdftex.def Info: ./figures/system_overview_updated-3.pdf used on input
 line 66.
 (pdftex.def)             Requested size: 195.18663pt x 107.89182pt.
  [9 <./figures/system_overview_updated-3.pdf>] (./example_pac.pac)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 2119) in paragraph at lines 196--213
+\T1/cmr/m/n/10 proxy 5.6.7.8:3128 should be used when ac-cess-ing
+ []
 
- [10])
-(./implementation.tex
-<./figures/relay_map.png, id=561, 588.69937pt x 313.17pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--213
+\OML/cmm/m/it/10 <$\T1/cmr/m/n/10 client_country$\OML/cmm/m/it/10 >$\T1/cmr/m/n
+/10 _$\OML/cmm/m/it/10 <$\T1/cmr/m/n/10 country_to_avoid$\OML/cmm/m/it/10 >$\T1
+/cmr/m/n/10 _pac.pac.
+ []
+
+) (./implementation.tex [10]
+<./figures/relay_map.png, id=563, 588.69937pt x 313.17pt>
 File: ./figures/relay_map.png Graphic file (type png)
 
 <use ./figures/relay_map.png>
 Package pdftex.def Info: ./figures/relay_map.png used on input line 24.
 (pdftex.def)             Requested size: 153.64644pt x 81.73288pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./evaluation.tex
-<./figures/avoidance_n_relays.pdf, id=563, 361.35pt x 361.35pt>
+) (./evaluation.tex
+<./figures/avoidance_n_relays.pdf, id=565, 361.35pt x 361.35pt>
 File: ./figures/avoidance_n_relays.pdf Graphic file (type pdf)
 
 <use ./figures/avoidance_n_relays.pdf>
 Package pdftex.def Info: ./figures/avoidance_n_relays.pdf used on input line 23
 .
 (pdftex.def)             Requested size: 179.25752pt x 156.49124pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]\T1/cmr/m/n/10 Figure 9: |The ef-fect of the num-ber of re-lays on avoid-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/cmr/m/n/10 ance, for a client in the Nether-lands. We tested RAN
- []
-
-[11 <./figures/relay_map.png>]
-<./figures/throughput.pdf, id=578, 361.35pt x 216.81pt>
+ [11 <./figures/relay_map.png> <./figures/avoidance_n_relays.pdf>]
+<./figures/throughput.pdf, id=595, 361.35pt x 216.81pt>
 File: ./figures/throughput.pdf Graphic file (type pdf)
 
 <use ./figures/throughput.pdf>
 Package pdftex.def Info: ./figures/throughput.pdf used on input line 69.
 (pdftex.def)             Requested size: 204.8567pt x 122.9147pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-[]\T1/cmr/m/n/10 Figure 10: |The ra-tio of RAN through-put to di-rect
- []
-
-<./figures/latency.pdf, id=583, 361.35pt x 216.81pt>
+<./figures/latency.pdf, id=600, 361.35pt x 216.81pt>
 File: ./figures/latency.pdf Graphic file (type pdf)
 
 <use ./figures/latency.pdf>
 Package pdftex.def Info: ./figures/latency.pdf used on input line 107.
 (pdftex.def)             Requested size: 204.8567pt x 122.9147pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
-[]\T1/cmr/m/n/10 Figure 11: |Time to first byte for RAN and di-rect
- []
-
-[12 <./figures/avoidance_n_relays.pdf> <./figures/throughput.pdf
-
-pdfTeX warning: pdflatex (file ./figures/throughput.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
-> <./figures/latency.pdf
+) (./conclusion.tex [12 <./figures/throughput.pdf> <./figures/latency.pdf
 
 pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
->]) (./conclusion.tex) (./paper.bbl
+>]) (./paper.bbl
 Overfull \hbox (68.99883pt too wide) in paragraph at lines 77--83
 \T1/cmtt/m/n/8 brazil-[]builds-[]internet-[]cable-[]portugal-[]avoid-[]nsa-[]su
 rveillance-[]1717417$[][][]\T1/cmr/m/n/10 . 
@@ -1869,7 +1797,7 @@ Overfull \hbox (52.50298pt too wide) in paragraph at lines 153--159
 ltural-[]hegemony/$[][][]\T1/cmr/m/n/10 . 
  []
 
-[13]
+
 Overfull \hbox (17.51128pt too wide) in paragraph at lines 184--190
 \T1/cmtt/m/n/8 eu-[]challenges-[]us-[]hegemony-[]in-[]global-[]internet-[]gover
 nance/$[][][]\T1/cmr/m/n/10 . 
@@ -1882,27 +1810,30 @@ le-[]with-[]fake-[]ssl .
  []
 
 
-Overfull \vbox (6.01471pt too high) has occurred while \output is active []
+Overfull \vbox (7.237pt too high) has occurred while \output is active []
+
+ [13]
+Overfull \vbox (5.81471pt too high) has occurred while \output is active []
 
 
 [14]) [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
  (./paper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 206.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 208.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: 4D8DE48DC68427AA90C5FFCFC96F22DF;1847.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
  21905 strings out of 493014
  398886 string characters out of 6133351
- 495693 words of memory out of 5000000
+ 502697 words of memory out of 5000000
  24767 multiletter control sequences out of 15000+600000
  50575 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,92p,641b,1326s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,92p,641b,1398s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
@@ -1927,10 +1858,10 @@ ublic/cm-super/sftt1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvet
 ic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ncntrsbk/unc
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper.pdf (15 pages, 1758257 bytes).
+Output written on paper.pdf (15 pages, 1768405 bytes).
 PDF statistics:
  788 PDF objects out of 1000 (max. 8388607)
- 684 compressed objects within 7 object streams
+ 685 compressed objects within 7 object streams
  169 named destinations out of 1000 (max. 500000)
  294 words of extra memory for PDF output out of 10000 (max. 10000000)
 
