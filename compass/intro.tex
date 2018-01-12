@@ -4,8 +4,7 @@
 As the Internet continues to grow, the increasing social, economic, and cultural 
 hegemony of Western regions over the rest of the world have led to a digital divide.  This 
 divide inhibits connectivity, transparency, and the equal exchange of ideas~\cite{hegemony}. In 
-recent years, we have seen various countries and regions, such as Brazil, China, Saudi Arabia, and the 
-European Union, push back against the United States hegemony in the global Internet~\cite{hegemony2, hegemony_china,
+recent years, we have seen various countries and regions, such as Brazil, China, and Saudi Arabia, push back against the United States hegemony in the global Internet~\cite{hegemony2, hegemony_china,
 hegemony_EU}.  
 
 This paper specifically looks at the digital divide between American/Western European regions and 
@@ -47,9 +46,9 @@ client's traffic is traversing.  First,
 performing direct measurements is more costly than passive analysis of BGP
 routing tables; RIPE Atlas, in particular, limits the rate at which one can
 perform measurements.  As a result, we had to be strategic about the origins
-and destinations that we selected for our study. We study twenty
+and destinations that we selected for our study. We study five
 geographically diverse countries,  focusing on countries in each region that
-are making active attempts to thwart transnational Internet paths.  Second, IP
+are either underserved or more dominant in the global Internet.  Second, IP
 geolocation---the process of determining the geographic location of an IP
 address---is notoriously challenging, particularly for IP addresses that
 represent Internet infrastructure, rather than end-hosts~\cite{gharaibeh2017look}. We address this
@@ -103,7 +102,7 @@ Brazilian sites traverse these countries. We also find that some of the most
 independent regions are also some of the least avoidable regions.
 For example, many countries depend on ISPs in the United States for connectivity to popular sites and content.
 Additionally, overlay network relays can increase performance by keeping local
-traffic local: by using relays in the client's country, fewer paths trombone
+traffic local: by using relays in the country, fewer paths trombone
 out of the client's country.
 
 Finally, we {\em design, implement, and deploy \system{}, a system of overlay network relays that allows

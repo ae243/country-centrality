@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 JAN 2018 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JAN 2018 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1111,6 +1111,9 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 177.
  (./abstract.tex)
 (./intro.tex
+Underfull \vbox (badness 5490) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1702,11 +1705,8 @@ Overfull \hbox (65.52736pt too wide) in paragraph at lines 343--344
 [] 
  []
 
-) (./avoidance.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./figures/compare_cctld.png>]
-<./figures/Country-Avoidance-Relays.pdf, id=393, 426.59375pt x 183.68625pt>
+) (./avoidance.tex [6 <./figures/compare_cctld.png>]
+<./figures/Country-Avoidance-Relays.pdf, id=394, 426.59375pt x 183.68625pt>
 File: ./figures/Country-Avoidance-Relays.pdf Graphic file (type pdf)
 
 <use ./figures/Country-Avoidance-Relays.pdf>
@@ -1768,15 +1768,16 @@ Overfull \hbox (0.7404pt too wide) in paragraph at lines 149--152
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (3.51195pt too wide) in paragraph at lines 173--175
 [] 
  []
 
-) (./system_design.tex (./design_goals.tex
-Underfull \vbox (badness 1383) has occurred while \output is active []
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./system_design.tex (./design_goals.tex
+Underfull \vbox (badness 1418) has occurred while \output is active []
 
  [8])
 <./figures/system_overview_updated-3.pdf, id=501, 399.4925pt x 220.825pt>
@@ -1784,7 +1785,7 @@ File: ./figures/system_overview_updated-3.pdf Graphic file (type pdf)
 
 <use ./figures/system_overview_updated-3.pdf>
 Package pdftex.def Info: ./figures/system_overview_updated-3.pdf used on input 
-line 67.
+line 66.
 (pdftex.def)             Requested size: 195.18663pt x 107.89182pt.
  [9 <./figures/system_overview_updated-3.pdf>] (./example_pac.pac)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1797,7 +1798,11 @@ File: ./figures/relay_map.png Graphic file (type png)
 <use ./figures/relay_map.png>
 Package pdftex.def Info: ./figures/relay_map.png used on input line 24.
 (pdftex.def)             Requested size: 153.64644pt x 81.73288pt.
-) (./evaluation.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./evaluation.tex
 <./figures/avoidance_n_relays.pdf, id=563, 361.35pt x 361.35pt>
 File: ./figures/avoidance_n_relays.pdf Graphic file (type pdf)
 
@@ -1835,13 +1840,10 @@ Package pdftex.def Info: ./figures/latency.pdf used on input line 107.
 (pdftex.def)             Requested size: 204.8567pt x 122.9147pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 108--108
-[]\T1/cmr/m/n/10 Figure 11: |Time to First Byte for RAN and di-rect
+[]\T1/cmr/m/n/10 Figure 11: |Time to first byte for RAN and di-rect
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12 <./figures/avoidance_n_relays.pdf> <./figures/throughput.pdf
+[12 <./figures/avoidance_n_relays.pdf> <./figures/throughput.pdf
 
 pdfTeX warning: pdflatex (file ./figures/throughput.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
@@ -1867,10 +1869,6 @@ Overfull \hbox (52.50298pt too wide) in paragraph at lines 153--159
 ltural-[]hegemony/$[][][]\T1/cmr/m/n/10 . 
  []
 
-
-Overfull \vbox (11.81468pt too high) has occurred while \output is active []
-
-
 [13]
 Overfull \hbox (17.51128pt too wide) in paragraph at lines 184--190
 \T1/cmtt/m/n/8 eu-[]challenges-[]us-[]hegemony-[]in-[]global-[]internet-[]gover
@@ -1882,6 +1880,10 @@ Overfull \hbox (54.97484pt too wide) in paragraph at lines 236--242
 \T1/cmtt/m/n/8 gogo-[]inflight-[]internet-[]serves-[]up-[]man-[]in-[]the-[]midd
 le-[]with-[]fake-[]ssl . 
  []
+
+
+Overfull \vbox (6.01471pt too high) has occurred while \output is active []
+
 
 [14]) [15]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
@@ -1896,7 +1898,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
 Here is how much of TeX's memory you used:
  21905 strings out of 493014
  398886 string characters out of 6133351
- 496693 words of memory out of 5000000
+ 495693 words of memory out of 5000000
  24767 multiletter control sequences out of 15000+600000
  50575 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1925,7 +1927,7 @@ ublic/cm-super/sftt1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvet
 ic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ncntrsbk/unc
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper.pdf (15 pages, 1758133 bytes).
+Output written on paper.pdf (15 pages, 1758257 bytes).
 PDF statistics:
  788 PDF objects out of 1000 (max. 8388607)
  684 compressed objects within 7 object streams
