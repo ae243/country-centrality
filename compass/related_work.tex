@@ -71,24 +71,24 @@ provides route control, failure isolation, and explicit trust information for
 communication~\cite{zhang2011scion}; SCION, however, requires fundamental
 changes to the Internet architecture, whereas \system{} is deployable today.
 
-{\bf Circumvention systems.}  Certain tools, such as anonymous
-communications systems or VPNs~\cite{dingledine2004tor,nobori2014vpn,piotrowska2017loopix,van2015vuvuzela,wolinsky2012dissent,tyagi2016stadium,corrigan2015riposte,kwon2016atom,kwon2016riffle,
-gelernter2016two}, use a combination of
-encryption and overlay routing to allow clients to avoid censorship and surveillance. Tor is
-an anonymity system that uses three relays and layered encryption to allow
-users to communicate anonymously~\cite{dingledine2004tor}.  In contrast,
-\system{} does not aim to achieve anonymity; instead, its aim is to ensure
-that traffic does not traverse a specific  country, a goal that Tor cannot
-achieve.  Even tools like Tor do not inherently thwart surveillance: Tor is
-vulnerable to traffic correlation attacks and some attacks are possible even
-on encrypted user traffic. VPNGate is a public VPN relay system aimed at
-circumventing national firewalls~\cite{nobori2014vpn}. Unfortunately, VPNGate
-does not allow a client to choose any available VPN endpoint, which makes it more
-difficult for a user to ensure that traffic avoids a particular country.  
-Neither of these systems explicitly avoid or route around countries. Additionally, existing circumvention systems generally rely on
-encryption, which is different from \system{}; prior research has shown that
-websites can be fingerprinted based on size, content, and location of third
-party resources, which  reveals information about the content a user is
-accessing \cite{what_isps_can_see}.  Finally, ISPs often execute man-in-the-middle attacks on TLS connections to perform network-management
-functions~\cite{mitm_isp}.
+%{\bf Circumvention systems.}  Certain tools, such as anonymous
+%communications systems or VPNs~\cite{dingledine2004tor,nobori2014vpn,piotrowska2017loopix,van2015vuvuzela,wolinsky2012dissent,tyagi2016stadium,corrigan2015riposte,kwon2016atom,kwon2016riffle,
+%gelernter2016two}, use a combination of
+%encryption and overlay routing to allow clients to avoid censorship and surveillance. Tor is
+%an anonymity system that uses three relays and layered encryption to allow
+%users to communicate anonymously~\cite{dingledine2004tor}.  In contrast,
+%\system{} does not aim to achieve anonymity; instead, its aim is to ensure
+%that traffic does not traverse a specific  country, a goal that Tor cannot
+%achieve.  Even tools like Tor do not inherently thwart surveillance: Tor is
+%vulnerable to traffic correlation attacks and some attacks are possible even
+%on encrypted user traffic. VPNGate is a public VPN relay system aimed at
+%circumventing national firewalls~\cite{nobori2014vpn}. Unfortunately, VPNGate
+%does not allow a client to choose any available VPN endpoint, which makes it more
+%difficult for a user to ensure that traffic avoids a particular country.  
+%Neither of these systems explicitly avoid or route around countries. Additionally, existing circumvention systems generally rely on
+%encryption, which is different from \system{}; prior research has shown that
+%websites can be fingerprinted based on size, content, and location of third
+%party resources, which  reveals information about the content a user is
+%accessing \cite{what_isps_can_see}.  Finally, ISPs often execute man-in-the-middle attacks on TLS connections to perform network-management
+%functions~\cite{mitm_isp}.
 

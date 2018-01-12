@@ -13,15 +13,13 @@
 \BOOKMARK [2][-]{subsection.42}{Avoidability Metrics}{section.37}% 13
 \BOOKMARK [2][-]{subsection.44}{Results}{section.37}% 14
 \BOOKMARK [1][-]{section.51}{Routing Around Nation-States}{}% 15
-\BOOKMARK [2][-]{subsection.53}{Threat Model and Design}{section.51}% 16
-\BOOKMARK [2][-]{subsection.56}{Measuring Paths}{section.51}% 17
-\BOOKMARK [2][-]{subsection.58}{Computing and Selecting Paths}{section.51}% 18
-\BOOKMARK [2][-]{subsection.69}{Limitations and Extensions}{section.51}% 19
-\BOOKMARK [1][-]{section.71}{Implementation \046 Deployment}{}% 20
-\BOOKMARK [2][-]{subsection.74}{Other Considerations}{section.71}% 21
-\BOOKMARK [2][-]{subsection.76}{Evaluation}{section.71}% 22
-\BOOKMARK [3][-]{subsubsection.78}{Country Avoidability}{subsection.76}% 23
-\BOOKMARK [3][-]{subsubsection.81}{Performance}{subsection.76}% 24
-\BOOKMARK [3][-]{subsubsection.85}{Storage and Measurement Costs}{subsection.76}% 25
-\BOOKMARK [1][-]{section.87}{Conclusion}{}% 26
-\BOOKMARK [1][-]{section.89}{References }{}% 27
+\BOOKMARK [2][-]{subsection.54}{Measuring Paths}{section.51}% 16
+\BOOKMARK [2][-]{subsection.56}{Computing and Selecting Paths}{section.51}% 17
+\BOOKMARK [2][-]{subsection.67}{Limitations and Extensions}{section.51}% 18
+\BOOKMARK [1][-]{section.69}{Implementation \046 Deployment}{}% 19
+\BOOKMARK [2][-]{subsection.72}{Evaluation}{section.69}% 20
+\BOOKMARK [3][-]{subsubsection.74}{Country Avoidability}{subsection.72}% 21
+\BOOKMARK [3][-]{subsubsection.77}{Performance}{subsection.72}% 22
+\BOOKMARK [3][-]{subsubsection.81}{Storage and Measurement Costs}{subsection.72}% 23
+\BOOKMARK [1][-]{section.83}{Conclusion}{}% 24
+\BOOKMARK [1][-]{section.85}{References }{}% 25

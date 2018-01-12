@@ -62,12 +62,6 @@ Z.~S. Bischof, J.~P. Rula, and F.~E. Bustamante.
 {CAIDA: Center for Applied Internet Data Analysis}.
 \newblock \url{http://www.caida.org/home/}.
 
-\bibitem{corrigan2015riposte}
-H.~Corrigan-Gibbs, D.~Boneh, and D.~Mazi{\`e}res.
-\newblock {Riposte: An Anonymous Messaging System Handling Millions of Users}.
-\newblock In {\em Security and Privacy (SP), 2015 IEEE Symposium on}, pages
-  321--338. IEEE, 2015.
-
 \bibitem{ransom_data}
 {Data}.
 \newblock \url{https://bitbucket.org/ransom\_research/data/}.
@@ -76,11 +70,6 @@ H.~Corrigan-Gibbs, D.~Boneh, and D.~Mazi{\`e}res.
 {Digital Colonialism \& the Internet as a Tool of Cultural Hegemony}.
 \newblock
   \url{http://www.knowledgecommons.in/brasil/en/whats-wrong-with-current-internet-governance/digital-colonialism-the-internet-as-a-tool-of-cultural-hegemony/}.
-
-\bibitem{dingledine2004tor}
-R.~Dingledine, N.~Mathewson, and P.~Syverson.
-\newblock {Tor: The Second-Generation Onion Router}.
-\newblock Technical report, DTIC Document, 2004.
 
 \bibitem{eriksson2012posit}
 B.~Eriksson, P.~Barford, B.~Maggs, and R.~Nowak.
@@ -110,11 +99,6 @@ L.~Gao.
 \newblock {On Inferring Autonomous System Relationships in the Internet}.
 \newblock {\em IEEE/ACM Transactions on Networking (ToN)}, 9(6):733--745, 2001.
 
-\bibitem{gelernter2016two}
-N.~Gelernter, A.~Herzberg, and H.~Leibowitz.
-\newblock {Two Cents for Strong Anonymity: The Anonymous Post-Office Protocol}.
-\newblock {\em Proceedings on Privacy Enhancing Technologies}, 2:1--20, 2016.
-
 \bibitem{gharaibeh2017look}
 M.~Gharaibeh, A.~Shah, B.~Huffaker, H.~Zhang, R.~Ensafi, and C.~Papadopoulos.
 \newblock {A Look at Router Geolocation in Public and Commercial Databases}.
@@ -126,11 +110,6 @@ P.~Gill, Y.~Ganjali, B.~Wong, and D.~Lie.
   Geolocation}.
 \newblock In {\em Proceedings of the 19th USENIX Conference on Security}, pages
   16--16. USENIX Association, 2010.
-
-\bibitem{mitm_isp}
-{Gogo Inflight Internet Serves up `Man-in-the-Middle' with Fake SSL}.
-\newblock
-  \url{http://www.csoonline.com/article/2865806/cloud-security/gogo-inflight-internet-serves-up-man-in-the-middle-with-fake-ssl.html}.
 
 \bibitem{guo2009mining}
 C.~Guo, Y.~Liu, W.~Shen, H.~J. Wang, Q.~Yu, and Y.~Zhang.
@@ -197,17 +176,6 @@ E.~Katz-Bassett, H.~V. Madhyastha, V.~K. Adhikari, C.~Scott, J.~Sherry,
 \newblock {Reverse Traceroute}.
 \newblock In {\em NSDI}, volume~10, pages 219--234, 2010.
 
-\bibitem{kwon2016atom}
-A.~Kwon, H.~Corrigan-Gibbs, S.~Devadas, and B.~Ford.
-\newblock {Atom: Scalable Anonymity Resistant to Traffic Analysis}.
-\newblock {\em arXiv preprint arXiv:1612.07841}, 2016.
-
-\bibitem{kwon2016riffle}
-A.~Kwon, D.~Lazar, S.~Devadas, and B.~Ford.
-\newblock Riffle.
-\newblock {\em Proceedings on Privacy Enhancing Technologies},
-  2016(2):115--134, 2016.
-
 \bibitem{levin2015alibi}
 D.~Levin, Y.~Lee, L.~Valenta, Z.~Li, V.~Lai, C.~Lumezanu, N.~Spring, and
   B.~Bhattacharjee.
@@ -230,13 +198,6 @@ H.~V. Madhyastha, T.~Isdal, M.~Piatek, C.~Dixon, T.~Anderson, A.~Krishnamurthy,
 {No Internet Hegemony: Xi}.
 \newblock \url{http://www.globaltimes.cn/content/958926.shtml}.
 
-\bibitem{nobori2014vpn}
-D.~Nobori and Y.~Shinjo.
-\newblock {VPN gate: A Volunteer-organized Public VPN Relay System with
-  Blocking Resistance for Bypassing Government Censorship Firewalls}.
-\newblock In {\em The 11th USENIX Symposium on Networked Systems Design and
-  Implementation (NSDI 14)}, pages 229--241, 2014.
-
 \bibitem{obar2012internet}
 J.~A. Obar and A.~Clement.
 \newblock {Internet Surveillance and Boomerang Routing: A Call for Canadian
@@ -253,11 +214,6 @@ V.~Paxson.
 S.~Peter, U.~Javed, Q.~Zhang, D.~Woos, T.~Anderson, and A.~Krishnamurthy.
 \newblock {One Tunnel is (Often) Enough}.
 \newblock {\em ACM SIGCOMM Computer Communication Review}, 44(4):99--110, 2015.
-
-\bibitem{piotrowska2017loopix}
-A.~Piotrowska, J.~Hayes, T.~Elahi, S.~Meiser, and G.~Danezis.
-\newblock {The Loopix Anonymity System}.
-\newblock {\em arXiv preprint arXiv:1703.00536}, 2017.
 
 \bibitem{PlanetLab}
 {PlanetLab}.
@@ -298,17 +254,6 @@ A.~Shah and C.~Papadopoulos.
 {TeleGeography Submarine Cable Map}.
 \newblock \url{http://www.submarinecablemap.com/}.
 
-\bibitem{tyagi2016stadium}
-N.~Tyagi, Y.~Gilad, M.~Zaharia, and N.~Zeldovich.
-\newblock {Stadium: A Distributed Metadata-Private Messaging System}.
-\newblock {\em IACR Cryptology ePrint Archive}, 2016:943, 2016.
-
-\bibitem{van2015vuvuzela}
-J.~Van Den~Hooff, D.~Lazar, M.~Zaharia, and N.~Zeldovich.
-\newblock {Vuvuzela: Scalable Private Messaging Resistant to Traffic Analysis}.
-\newblock In {\em Proceedings of the 25th Symposium on Operating Systems
-  Principles}, pages 137--152. ACM, 2015.
-
 \bibitem{wahlisch2010framework}
 M.~W{\"a}hlisch, S.~Meiling, and T.~C. Schmidt.
 \newblock {A Framework for Nation-Centric Classification and Observation of the
@@ -321,17 +266,6 @@ M.~W{\"a}hlisch, T.~C. Schmidt, M.~de~Br{\"u}n, and T.~H{\"a}berlen.
   Perspective on AS-level}.
 \newblock In {\em Passive and Active Measurement}, pages 200--210. Springer,
   2012.
-
-\bibitem{what_isps_can_see}
-{What ISPs Can See: Clarifying the Technical Landscape of the Broadband Privacy
-  Debate}.
-\newblock \url{https://www.teamupturn.com/reports/2016/what-isps-can-see},
-  2016.
-
-\bibitem{wolinsky2012dissent}
-D.~I. Wolinsky, H.~Corrigan-Gibbs, B.~Ford, and A.~Johnson.
-\newblock {Dissent in Numbers: Making Strong Anonymity Scale}.
-\newblock In {\em OSDI}, pages 179--182, 2012.
 
 \bibitem{zhang2011scion}
 X.~Zhang, H.-C. Hsiao, G.~Hasker, H.~Chan, A.~Perrig, and D.~G. Andersen.
