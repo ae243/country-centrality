@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JAN 2018 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JAN 2018 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -342,7 +342,19 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip58
 \JustifyingParindent=\skip59
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/breakurl/breakurl.sty
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+
+Package breakurl Warning: You are using breakurl while processing via pdflatex.
+
+(breakurl)                \burl will be just a synonym of \url.
+(breakurl)                 on input line 48.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count114
 \lst@gtempboxa=\box29
 \lst@token=\toks38
@@ -871,6 +883,11 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count161
 \LT@p@ftn=\toks59
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
 
@@ -888,7 +905,7 @@ Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -939,6 +956,7 @@ File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `breaklinks' set `true' on input line 4322.
 Package hyperref Info: Hyper figures OFF on input line 4446.
 Package hyperref Info: Link nesting OFF on input line 4451.
 Package hyperref Info: Hyper index ON on input line 4454.
@@ -985,38 +1003,38 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip72
 )
 \c@finding=\count171
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 161
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 164
 .
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 161.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 164.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 161.
-Package hyperref Info: Option `breaklinks' set `true' on input line 161.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 161.
+Package hyperref Info: Option `colorlinks' set `true' on input line 164.
+Package hyperref Info: Option `breaklinks' set `true' on input line 164.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 164.
 
 (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 165.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 168.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1047,7 +1065,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 165.
+LaTeX Info: Redefining \selectfont on input line 168.
 \c@lstlisting=\count178
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1061,7 +1079,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring ON on input line 165.
+Package hyperref Info: Link coloring ON on input line 168.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1071,25 +1089,25 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count179
 )
-LaTeX Info: Redefining \ref on input line 165.
-LaTeX Info: Redefining \pageref on input line 165.
-LaTeX Info: Redefining \nameref on input line 165.
+LaTeX Info: Redefining \ref on input line 168.
+LaTeX Info: Redefining \pageref on input line 168.
+LaTeX Info: Redefining \nameref on input line 168.
 
 (./paper.out) (./paper.out)
 \@outlinefile=\write5
 \openout5 = `paper.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 177.
+LaTeX Font Info:    Try loading font information for U+msa on input line 180.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 177.
+LaTeX Font Info:    Try loading font information for U+msb on input line 180.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 177.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 180.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -1097,23 +1115,20 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 177.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 180.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 177.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 180.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 177.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 180.
  (./abstract.tex)
 (./intro.tex
-Underfull \vbox (badness 5490) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1121,11 +1136,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Non-PDF special ignored!
 
-]) (./related_work.tex
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-<./figures/Current-Traffic_fig.pdf, id=157, 761.84625pt x 139.52126pt>
+)
+(./related_work.tex
+<./figures/Current-Traffic_fig.pdf, id=158, 761.84625pt x 139.52126pt>
 File: ./figures/Current-Traffic_fig.pdf Graphic file (type pdf)
 
 <use ./figures/Current-Traffic_fig.pdf>
@@ -1147,7 +1163,7 @@ Underfull \hbox (badness 2050) in paragraph at lines 12--43
 Underfull \vbox (badness 2080) has occurred while \output is active []
 
  [3 <./figures/Current-Traffic_fig.pdf>]
-<./figures/Analysis-Pipeline1.pdf, id=283, 309.155pt x 133.49875pt>
+<./figures/Analysis-Pipeline1.pdf, id=284, 309.155pt x 133.49875pt>
 File: ./figures/Analysis-Pipeline1.pdf Graphic file (type pdf)
 
 <use ./figures/Analysis-Pipeline1.pdf>
@@ -1159,7 +1175,7 @@ Overfull \hbox (12.09242pt too wide) in paragraph at lines 128--129
  [][] 
  []
 
-<./figures/compare_100_100.png, id=284, 323.91414pt x 179.37415pt>
+<./figures/compare_100_100.png, id=285, 323.91414pt x 179.37415pt>
 File: ./figures/compare_100_100.png Graphic file (type png)
 
 <use ./figures/compare_100_100.png>
@@ -1601,11 +1617,7 @@ Overfull \hbox (5.00002pt too wide) detected at line 63
 $\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 003$ 
  []
 
-)
-Underfull \vbox (badness 7099) has occurred while \output is active []
-
-
-<./figures/compare_cctld.png, id=342, 256.99213pt x 154.6578pt>
+) <./figures/compare_cctld.png, id=342, 256.99213pt x 154.6578pt>
 File: ./figures/compare_cctld.png Graphic file (type png)
 
 <use ./figures/compare_cctld.png>
@@ -1654,10 +1666,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--307
  []
 
 
-Underfull \vbox (badness 1681) has occurred while \output is active []
-
-
-Overfull \hbox (65.52736pt too wide) in paragraph at lines 343--344
+Overfull \hbox (14.90083pt too wide) in paragraph at lines 343--344
 []
  []
 
@@ -1667,7 +1676,7 @@ Underfull \hbox (badness 1342) in paragraph at lines 343--344
  []
 
 ) (./avoidance.tex
-<./figures/Country-Avoidance-Relays.pdf, id=378, 426.59375pt x 183.68625pt>
+<./figures/Country-Avoidance-Relays.pdf, id=379, 426.59375pt x 183.68625pt>
 File: ./figures/Country-Avoidance-Relays.pdf Graphic file (type pdf)
 
 <use ./figures/Country-Avoidance-Relays.pdf>
@@ -1679,17 +1688,9 @@ Overfull \hbox (12.09242pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
-
+[6 <./figures/compare_cctld.png>]
 Underfull \hbox (badness 1082) in paragraph at lines 29--35
 \T1/cmr/m/n/10 States, Ire-land, Ger-many, Sin-ga-pore, South Ko-rea,
- []
-
-
-Underfull \vbox (badness 1383) has occurred while \output is active []
-
- [6 <./figures/compare_cctld.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-[]\T1/cmr/m/it/10 For 84%
  []
 
 [7 <./figures/nl_trombone_new11.pdf> <./figures/br_trombone_new11.pdf
@@ -1705,6 +1706,11 @@ pdfTeX warning: pdflatex (file ./figures/ke_trombone_new11.pdf): PDF inclusion:
 pdfTeX warning: pdflatex (file ./figures/Country-Avoidance-Relays.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+[]\T1/cmr/m/it/10 For 84%
+ []
+
+
 Overfull \hbox (0.7404pt too wide) in paragraph at lines 149--152
 []
  []
@@ -1715,19 +1721,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (3.51195pt too wide) in paragraph at lines 173--175
 []
  []
 
 ) (./system_design.tex
-Underfull \vbox (badness 1728) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-(./design_goals.tex)
-<./figures/system_overview_updated-3.pdf, id=505, 399.4925pt x 220.825pt>
+
+(./design_goals.tex [8])
+<./figures/system_overview_updated-3.pdf, id=502, 399.4925pt x 220.825pt>
 File: ./figures/system_overview_updated-3.pdf Graphic file (type pdf)
 
 <use ./figures/system_overview_updated-3.pdf>
@@ -1762,14 +1765,14 @@ Package pdftex.def Info: ./figures/avoidance_n_relays.pdf used on input line 23
 .
 (pdftex.def)             Requested size: 179.25752pt x 156.49124pt.
  [11 <./figures/relay_map.png> <./figures/avoidance_n_relays.pdf>]
-<./figures/throughput.pdf, id=595, 361.35pt x 216.81pt>
+<./figures/throughput.pdf, id=596, 361.35pt x 216.81pt>
 File: ./figures/throughput.pdf Graphic file (type pdf)
 
 <use ./figures/throughput.pdf>
 Package pdftex.def Info: ./figures/throughput.pdf used on input line 69.
 (pdftex.def)             Requested size: 204.8567pt x 122.9147pt.
 
-<./figures/latency.pdf, id=600, 361.35pt x 216.81pt>
+<./figures/latency.pdf, id=601, 361.35pt x 216.81pt>
 File: ./figures/latency.pdf Graphic file (type pdf)
 
 <use ./figures/latency.pdf>
@@ -1780,88 +1783,61 @@ Package pdftex.def Info: ./figures/latency.pdf used on input line 107.
 pdfTeX warning: pdflatex (file ./figures/latency.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
 >]) (./paper.bbl
-Overfull \hbox (68.99883pt too wide) in paragraph at lines 77--83
-\T1/cmtt/m/n/8 brazil-[]builds-[]internet-[]cable-[]portugal-[]avoid-[]nsa-[]su
-rveillance-[]1717417$[][][]\T1/cmr/m/n/10 . 
- []
-
-
-Overfull \hbox (52.50298pt too wide) in paragraph at lines 113--120
-\T1/cmtt/m/n/8 brazils-[]president-[]tells-[]un-[]that-[]nsa-[]spying-[]violate
-s-[]human-[]rights$[][][]\T1/cmr/m/n/10 . 
- []
-
-
-Overfull \hbox (52.50298pt too wide) in paragraph at lines 153--159
-\T1/cmtt/m/n/8 digital-[]colonialism-[]the-[]internet-[]as-[]a-[]tool-[]of-[]cu
-ltural-[]hegemony/$[][][]\T1/cmr/m/n/10 . 
- []
-
-
-Overfull \hbox (17.51128pt too wide) in paragraph at lines 184--190
-\T1/cmtt/m/n/8 eu-[]challenges-[]us-[]hegemony-[]in-[]global-[]internet-[]gover
-nance/$[][][]\T1/cmr/m/n/10 . 
- []
-
-
-Overfull \hbox (54.97484pt too wide) in paragraph at lines 236--242
-\T1/cmtt/m/n/8 gogo-[]inflight-[]internet-[]serves-[]up-[]man-[]in-[]the-[]midd
-le-[]with-[]fake-[]ssl . 
- []
-
-
-Overfull \vbox (7.237pt too high) has occurred while \output is active []
-
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <6> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <5> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 73.
  [13]
-Overfull \vbox (5.81471pt too high) has occurred while \output is active []
+Overfull \vbox (1.93701pt too high) has occurred while \output is active []
 
 
 [14]) [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
  (./paper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: 4D8DE48DC68427AA90C5FFCFC96F22DF;1847.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 21905 strings out of 493014
- 398886 string characters out of 6133351
- 502697 words of memory out of 5000000
- 24767 multiletter control sequences out of 15000+600000
- 50575 words of font info for 73 fonts, out of 8000000 for 9000
+ 22005 strings out of 493014
+ 400597 string characters out of 6133351
+ 495570 words of memory out of 5000000
+ 24857 multiletter control sequences out of 15000+600000
+ 51201 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,92p,641b,1398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,92p,641b,1392s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/cm-super/sfti0500.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/cm-super/sfti1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/cm-super/sftt0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/cm-super/sftt0900.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/cm-super/sftt1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
-/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvet
-ic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ncntrsbk/unc
-r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper.pdf (15 pages, 1768405 bytes).
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/cm-super/sfti0500.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/cm-super/sfti1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/cm-super/sftt0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/cm-super/sftt0900.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/cm-super/sftt1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/h
+elvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic
+/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8
+a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on paper.pdf (15 pages, 1774280 bytes).
 PDF statistics:
- 788 PDF objects out of 1000 (max. 8388607)
- 685 compressed objects within 7 object streams
+ 793 PDF objects out of 1000 (max. 8388607)
+ 689 compressed objects within 7 object streams
  169 named destinations out of 1000 (max. 500000)
  294 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -10,6 +10,8 @@
 \usepackage{ccicons}  % for Creative Commons citation icons
 \usepackage{ragged2e} % for tighter hyphenation
 \usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+\usepackage{breakurl}
 \usepackage{listings}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -34,7 +36,8 @@
 \usepackage{multirow}
 \usepackage{xspace}
 \usepackage{longtable}
-\usepackage{hyperref}
+\usepackage[nocompress]{cite}
+\usepackage[breaklinks]{hyperref}
 
 % Some optional stuff you might like/need.
 % \usepackage{marginnote} 
@@ -202,7 +205,8 @@
 %\section{Acknowledgements}
 \end{sloppypar}
 \balance
-\bibliographystyle{SIGCHI-Reference-Format}
+\Urlmuskip=0mu plus 1mu\relax
+\bibliographystyle{abbrv}
 \bibliography{sigproc}
 
 \end{document}
