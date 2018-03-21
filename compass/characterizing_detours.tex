@@ -67,7 +67,7 @@ do not support all operations that our methods require (such as requesting
 the webpage).  Although VPN connections provide the necessary functionality in 
 the correct country, RIPE Atlas probes are more representative of typical 
 Internet users, as they are often hosted in home networks, therefore we decide
- to use RIPE Atlas probes when possible and VPN connections when necessary.
+ to use RIPE Atlas probes when possible and VPN connections when necessary.  
 
 \subsubsection{Path Asymmetry}
 \label{path_sym}
@@ -95,7 +95,7 @@ the forward path to the set of countries on the reverse path; we found that abou
 paths were symmetric at the country level.  We compared the number of countries on the forward and
 reverse paths to determine how many reverse paths were a subset of the
 respective forward path; this situation occurred for 55\% of the paths. This
-level of asymmetry suggests that our results are a lower bound on on how many countries a client’s 
+level of asymmetry suggests that our results are a lower bound on on how many countries a client's 
 path traverses en route to a web site. It also suggests that
 while providing lower bounds on transnational detours is feasible, designing
 systems to {\em completely} prevent these detours on both forward and reverse
@@ -106,7 +106,7 @@ be extended to include reverse paths.
 
 \subsubsection{Traceroute Origin and Destination Selection}
 
-Each country hosts 75 to several hundred RIPE Atlas probes.  Because of resource
+Most of the countries studied host 75 to several hundred RIPE Atlas probes.  Because of resource
 restrictions, we could not use all of the probes in each country.  We
 selected the set of probes that had unique ASes in the country to get
 the widest representation of origination points.
@@ -120,7 +120,8 @@ domains exhibit a longer tail of countries that transit or host content,
 likely because these domains are less popular and therefore hosted in more
 obscure locations. Otherwise, the results are similar. Figure \ref{fig:compare_alexas} 
 shows this comparison (for simplicity, we have 
-removed the long tail of countries that are the endpoint for less than 1\% of the measured paths).  Therefore, we used the Alexa Top 100 
+removed the long tail of countries that are the endpoint for less than 1\% of the measured paths).  Due to the similarity of characteristics between 
+the Alexa Top 100 and Alexa Top 1000 and because of resource constraints, we used the Alexa Top 100 
 domains in each of the respective countries as our destinations, as well as the third-party 
 domains that are requested as part of an original web request. 
 

@@ -32,6 +32,11 @@ Brazil), as well as four Virtual Private Server (VPS) machines (France,
 Spain, Brazil, Singapore), which are virtual machines.
 % that are functionally equivalent to dedicated physical servers.  
 Combining these two sets of machines allows us to evaluate country avoidance with a diverse set of relays. 
+For our measurements, we required root access to the servers that run as relays; for this reason, we used 
+EC2 instances and VPS machines.  This requirement also restricted the number of relays we could set up 
+to measure country avoidance.  Our results reflect this number of relays and their respective 
+locations, but more relays in more diverse locations will provide for more country avoidability.
+
 
 \subsection{Avoidability Metrics}
 \label{metrics}
@@ -73,17 +78,17 @@ relay and on to the domain, and does not transit Country Y.   The algorithm
  produces a value in the range [0,1] that can be
 compared to the output of the avoidability metric.
 
-%{\bf Upper bound on avoidability.}  Although the avoidability metric
-%provides a way to quantify how avoidable Country Y is for a client in Country
-%X, some domains may be hosted only in Country Y, so the avoidance value  would
-%never reach 1.0.  For this reason, we measured the {\em upper bound} on
-%avoidance for a given pair of (Country X, Country Y) that represents the best
-%case value for avoidance.  This algorithm analyzes the destinations of all
-%domains from all relays and if there exists at least one destination for a
-%domain that is not in Country Y, then this increases the upper bound value. An
-%upper bound of 1.0 means that every domain that we measured is hosted (or has
-%a replica) outside of Country Y.  This value puts the avoidance values in
-%perspective for each (Country X, Country Y) pair.
+{\bf Upper bound on avoidability.}  Although the avoidability metric
+provides a way to quantify how avoidable Country Y is for a client in Country
+X, some domains may be hosted only in Country Y, so the avoidance value  would
+never reach 1.0.  For this reason, we measured the {\em upper bound} on
+avoidance for a given pair of (Country X, Country Y) that represents the best
+case value for avoidance.  This algorithm analyzes the destinations of all
+domains from all relays and if there exists at least one destination for a
+domain that is not in Country Y, then this increases the upper bound value. An
+upper bound of 1.0 means that every domain that we measured is hosted (or has
+a replica) outside of Country Y.  This value puts the avoidance values in
+perspective for each (Country X, Country Y) pair.
 
 \subsection{Results}
 
@@ -126,10 +131,10 @@ India                &1.00  &1.00     &.99 &1.00   &0.00 &0.00  &.94 &1.00  &.99
 Singapore            &.99  &1.00     &.99 &1.00   &\cellcolor[HTML]{F7BE81}.73  &\cellcolor[HTML]{F7BE81}.94  &.96 &1.00  &.99 &1.00  \\\midrule
 \end{tabular}
 }
-\caption{Avoidance values for using overlay network relays to avoid different countries. % The upper bound on avoidance is 1.0 in most cases, but not all.  It is 
-%common for some European countries to host a domain, and therefore the upper bound is slightly lower than 1.0.  The upper bound on avoidance of the 
-%U.S. is significantly lower than for any other country; .886, .790, .844, and .765 are the upper bounds on avoidance 
-%of the U.S. for paths originating in Brazil, Netherlands, India, and Kenya, respectively.}
+\caption{Avoidance values for using overlay network relays to avoid different countries.  The upper bound on avoidance is 1.0 in most cases, but not all.  It is 
+common for some European countries to host a domain, and therefore the upper bound is slightly lower than 1.0.  The upper bound on avoidance of the 
+U.S. is significantly lower than for any other country; .886, .790, .844, and .765 are the upper bounds on avoidance 
+of the U.S. for paths originating in Brazil, Netherlands, India, and Kenya, respectively.
 }
 \label{tab:avoid}
 \end{table*}

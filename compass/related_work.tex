@@ -54,8 +54,13 @@ focus on paths within a country, as opposed to paths that traverse multiple coun
 round-trip times to prove that that a client's packets did  not traverse a
 forbidden country or region~\cite{levin2015alibi,levin_detour}; \system{} differs by
 measuring  which countries a client's packets traverse.  Our
-work then  uses active measurements to determine the best path for a client
-wishing  to connect to a server.  RON, Resilient Overlay Network, is an
+work uses active measurements to determine the best path for a client
+wishing  to connect to a server, whereas Alibi Routing uses the speed of light and 
+circle distance to calculate minimum RTTs for a packet to traverse a region.  Because Alibi Routing 
+uses this technique, it is almost impossible for a client to provable avoid a neighboring region or country.  
+Lastly, we see \system{} as a compliment to Alibi Routing; Alibi Routing may result in no paths {\it provably} avoiding 
+a given region, but that does not mean there are no paths that avoid a given region.  \system{} is a good alternative 
+to determine if there are any paths, based on active measurements, that do not traverse a given region.  RON, Resilient Overlay Network, is an
 overlay network that  routes around failures~\cite{andersen2001resilient}, whereas our overlay network
 routes around countries.  ARROW introduces a
 model that allows users to route around ISPs~\cite{peter2015one}, but requires
@@ -70,24 +75,31 @@ changes to the Internet architecture. %failure isolation, and explicit trust inf
 %communication~\cite{zhang2011scion}; SCION, however, requires fundamental
 %changes to the Internet architecture, whereas \system{} is deployable today.
 
-%{\bf Circumvention systems.}  Certain tools, such as anonymous
-%communications systems or VPNs~\cite{dingledine2004tor,nobori2014vpn,piotrowska2017loopix,van2015vuvuzela,wolinsky2012dissent,tyagi2016stadium,corrigan2015riposte,kwon2016atom,kwon2016riffle,
-%gelernter2016two}, use a combination of
-%encryption and overlay routing to allow clients to avoid censorship and surveillance. Tor is
-%an anonymity system that uses three relays and layered encryption to allow
-%users to communicate anonymously~\cite{dingledine2004tor}.  In contrast,
-%\system{} does not aim to achieve anonymity; instead, its aim is to ensure
-%that traffic does not traverse a specific  country, a goal that Tor cannot
-%achieve.  Even tools like Tor do not inherently thwart surveillance: Tor is
-%vulnerable to traffic correlation attacks and some attacks are possible even
-%on encrypted user traffic. VPNGate is a public VPN relay system aimed at
-%circumventing national firewalls~\cite{nobori2014vpn}. Unfortunately, VPNGate
-%does not allow a client to choose any available VPN endpoint, which makes it more
-%difficult for a user to ensure that traffic avoids a particular country.  
-%Neither of these systems explicitly avoid or route around countries. Additionally, existing circumvention systems generally rely on
-%encryption, which is different from \system{}; prior research has shown that
-%websites can be fingerprinted based on size, content, and location of third
-%party resources, which  reveals information about the content a user is
-%accessing \cite{what_isps_can_see}.  Finally, ISPs often execute man-in-the-middle attacks on TLS connections to perform network-management
-%functions~\cite{mitm_isp}.
+{\bf Circumvention systems.}  Certain tools, such as anonymous
+communications systems or VPNs~\cite{dingledine2004tor,nobori2014vpn,piotrowska2017loopix,van2015vuvuzela,wolinsky2012dissent,tyagi2016stadium,corrigan2015riposte,kwon2016atom,kwon2016riffle,
+gelernter2016two}, use a combination of
+encryption and overlay routing to allow clients to avoid censorship and surveillance. Tor is
+an anonymity system that uses three relays and layered encryption to allow
+users to communicate anonymously~\cite{dingledine2004tor}.  In contrast,
+\system{} does not aim to achieve anonymity; instead, its aim is to ensure
+that traffic does not traverse a specific  country, a goal that Tor cannot
+achieve.  Even tools like Tor do not inherently thwart surveillance: Tor is
+vulnerable to traffic correlation attacks and some attacks are possible even
+on encrypted user traffic. Recently, researchers proposed DeTor, which applies Alibi Routing techniques 
+to Tor, to prove that a Tor circuit does not traverse a forbidden region~\cite{levin_detour}. 
+As DeTor uses Alibi Routing techniques, it suffers from the same limitations as these 
+techniques; because DeTor is applied to the Tor network, it raises the chances of overloading 
+certain relays that are in a position to be on many circuits for clients wishing to avoid certain 
+countries.  Additionally, DeTor fails to consider 
+reverse paths in the calculation of region avoidance, causing the results to state provable 
+avoidance, when the forbidden region may actually be on the reverse path.  Another system, VPNGate, is a public VPN relay system aimed at
+circumventing national firewalls~\cite{nobori2014vpn}. Unfortunately, VPNGate
+does not allow a client to choose any available VPN endpoint, which makes it more
+difficult for a user to ensure that traffic avoids a particular country.  
+Neither of these systems explicitly avoid or route around countries. Additionally, existing circumvention systems generally rely on
+encryption, which is different from \system{}; prior research has shown that
+websites can be fingerprinted based on size, content, and location of third
+party resources, which  reveals information about the content a user is
+accessing \cite{what_isps_can_see}.  Finally, ISPs often execute man-in-the-middle attacks on TLS connections to perform network-management
+functions~\cite{mitm_isp}.
 
