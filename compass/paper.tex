@@ -1,6 +1,4 @@
 \documentclass[sigconf]{acmart}
-% Please be sure that you have the dependencies (i.e., additional
-% LaTeX packages) to compile this example.
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
 \usepackage[scaled=.92]{helvet} % for proper fonts
@@ -15,7 +13,6 @@
 \usepackage{listings}
 \usepackage{caption}
 \usepackage{subcaption}
-%\usepackage{paralist}
 \usepackage{xspace}
 \usepackage{ifthen}
 \usepackage{amsmath}
@@ -36,33 +33,9 @@
 \usepackage{multirow}
 \usepackage{xspace}
 \usepackage{longtable}
-\usepackage[nocompress]{cite}
+%\usepackage[nocompress]{cite}
 %\usepackage[breaklinks]{hyperref}
 
-% Some optional stuff you might like/need.
-% \usepackage{marginnote} 
-% \usepackage[shortlabels]{enumitem}
-% \usepackage{paralist}
-% \usepackage[utf8]{inputenc} % for a UTF8 editor only
-
-%% EXAMPLE BEGIN -- HOW TO OVERRIDE THE DEFAULT COPYRIGHT STRIP --
-% \copyrightinfo{Permission to make digital or hard copies of all or
-% part of this work for personal or classroom use is granted without
-% fee provided that copies are not made or distributed for profit or
-% commercial advantage and that copies bear this notice and the full
-% citation on the first page. Copyrights for components of this work
-% owned by others than ACM must be honored. Abstracting with credit is
-% permitted. To copy otherwise, or republish, to post on servers or to
-% redistribute to lists, requires prior specific permission and/or a
-% fee. Request permissions from permissions@acm.org.\\
-% {\emph{CHI'14}}, April 26--May 1, 2014, Toronto, Canada. \\
-% Copyright \copyright~2014 ACM ISBN/14/04...\$15.00. \\
-% DOI string from ACM form confirmation}
-%% EXAMPLE END
-
-% Paper metadata (use plain text, for PDF inclusion and later
-% re-using, if desired).  Use \emtpyauthor when submitting for review
-% so you remain anonymous.
 \def\plaintitle{SIGCHI Conference Proceedings Format}
 \def\plainauthor{First Author, Second Author, Third Author,
   Fourth Author, Fifth Author, Sixth Author}
@@ -184,8 +157,7 @@
 \acmISBN{123-4567-24-567/08/06}
 
 %Conference
-\acmConference[WOODSTOCK'97]{ACM Woodstock conference}{July 1997}{El
-  Paso, Texas USA}
+\acmConference[WOODSTOCK'97]{ACM Woodstock conference}{July 1997}{El Paso, Texas USA}
 \acmYear{1997}
 \copyrightyear{2016}
 
@@ -220,8 +192,6 @@
 %\category{H.5.m}{Information interfaces and presentation (e.g.,
 %  HCI)}{Miscellaneous}\category{See}{\url{http://acm.org/about/class/1998/}}{for
 %  full list of ACM classifiers. This section is required.}
-
-
 \input{intro}
 \input{related_work}
 \input{characterizing_detours}
@@ -231,6 +201,8 @@
 \input{evaluation}
 \input{conclusion}
 %\section{Acknowledgements}
+
+
 \end{sloppypar}
 \balance
 \Urlmuskip=0mu plus 1mu\relax
