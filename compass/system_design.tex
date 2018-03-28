@@ -183,14 +183,21 @@ domain that does not pass through the specified country, then select
 the relay that provides the most avoidance (measured by how many other
 domains that avoid the specified country).
 
+%\begin{figure}[b]
+%\centering
+%\resizebox{.3\textwidth}{!}{
+%\renewcommand{\lstlistingname}{Configuration}
+%\lstinputlisting[label={lst:pac}, language=JavaScript, frame=single,
+%basicstyle=\footnotesize, caption={Example PAC file.}]{example_pac.pac}
+%\vspace*{-0.25in}
+%}
+%\end{figure}
+
 \begin{figure}[t]
 \centering
-\resizebox{.3\textwidth}{!}{
-\renewcommand{\lstlistingname}{Configuration}
-\lstinputlisting[label={lst:pac}, language=JavaScript, frame=single,
-basicstyle=\footnotesize, caption={Example PAC file.}]{example_pac.pac}
-\vspace*{-0.25in}
-}
+\frame{\includegraphics[width=.35\textwidth]{example_pac.png}}
+\caption{Example PAC file.}
+\label{lst:pac}
 \end{figure}
 
 The oracle applies this decision process to each domain, which results
@@ -198,7 +205,7 @@ in a mapping of domains to relays that can be used to avoid the given
 country.  To automate multiplexing between relays,
 \system{} utilizes Proxy Autoconfiguration (PAC) files, which define
 how browsers should choose a proxy when fetching a URL.  In the
-example PAC file in Configuration~\ref{lst:pac}, proxy 1.2.3.4:3128
+example PAC file in Figure~\ref{lst:pac}, proxy 1.2.3.4:3128
 should be used when accessing {\tt www.google.com}, but proxy
 5.6.7.8:3128 should be used when accessing {\tt www.twitter.com}.  The
 oracle uses the mapping of domains to relays to generate a PAC file,
@@ -243,10 +250,10 @@ example, for content hosted in public clouds, we could set up a virtual
 machine in those same data centers and have  \system{} collect the reverse
 path traceroute data to use when creating the PAC files.
 
-Additional cooperation from content providers could provide further benefits.
-For example, CDNs could publish domain names that embed information about
-which country to avoid, strategically publish DNS records such  that clients
-can take advantage of open DNS resolvers, and replicate content in diverse
-geographic locations.
+%Additional cooperation from content providers could provide further benefits.
+%For example, CDNs could publish domain names that embed information about
+%which country to avoid, strategically publish DNS records such  that clients
+%can take advantage of open DNS resolvers, and replicate content in diverse
+%geographic locations.
 
 %\input{evaluation}

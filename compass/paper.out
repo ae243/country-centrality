@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.2}{1 Introduction}{}% 1
+\BOOKMARK [1][-]{section.3}{2 Related Work}{}% 2
+\BOOKMARK [1][-]{section.5}{3 Characterizing Detours}{}% 3
+\BOOKMARK [2][-]{subsection.6}{3.1 Measurement Approach}{section.5}% 4
+\BOOKMARK [2][-]{subsection.14}{3.2 Results}{section.5}% 5
+\BOOKMARK [1][-]{section.19}{4 Feasibility of Region-Aware Networking}{}% 6
+\BOOKMARK [2][-]{subsection.20}{4.1 Measurement Approach}{section.19}% 7
+\BOOKMARK [2][-]{subsection.22}{4.2 Avoidability Metrics}{section.19}% 8
+\BOOKMARK [2][-]{subsection.23}{4.3 Results}{section.19}% 9
+\BOOKMARK [1][-]{section.25}{5 Region-Aware Networking}{}% 10
+\BOOKMARK [2][-]{subsection.27}{5.1 Measuring Paths}{section.25}% 11
+\BOOKMARK [2][-]{subsection.28}{5.2 Computing and Selecting Paths}{section.25}% 12
+\BOOKMARK [2][-]{subsection.30}{5.3 Limitations and Extensions}{section.25}% 13
+\BOOKMARK [1][-]{section.31}{6 Implementation \046 Deployment}{}% 14
+\BOOKMARK [2][-]{subsection.32}{6.1 Other Considerations}{section.31}% 15
+\BOOKMARK [2][-]{subsection.33}{6.2 Evaluation}{section.31}% 16
+\BOOKMARK [1][-]{section.39}{7 Conclusion}{}% 17
