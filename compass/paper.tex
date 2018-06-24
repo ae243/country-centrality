@@ -36,14 +36,6 @@
 %\usepackage[nocompress]{cite}
 %\usepackage[breaklinks]{hyperref}
 
-\def\plaintitle{SIGCHI Conference Proceedings Format}
-\def\plainauthor{First Author, Second Author, Third Author,
-  Fourth Author, Fifth Author, Sixth Author}
-\def\emptyauthor{}
-\def\plainkeywords{Authors' choice; of terms; separated; by
-  semicolons; include commas, within terms only; required.}
-\def\plaingeneralterms{Documentation, Standardization}
-
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
 \def\url@leostyle{%
@@ -96,35 +88,28 @@
 % Notice how author names are alternately typesetted to appear ordered in 2-column format;
 % i.e., the first 4 autors on the first column and the other 4 auhors on the second column.
 % Actually, it's up to you to strictly adhere to this author notation.
-%\author{
-%  \vspace{-1.5em} % lisatolles: The abstract heading should start at the same height as the authors names
-%  \alignauthor{
-%  	\textbf{Anne Edmundson}\\
-%  	\affaddr{Princeton University}
-%  }\alignauthor{
-%  	\textbf{Roya Ensafi}\\
-%  	\affaddr{University of Michigan}
-%  }
-%  \vfil
-%  \alignauthor{
-%  	\textbf{Nick Feamster}\\
-%  	\affaddr{Princeton University}
-%  }\alignauthor{
-%  	\textbf{Jennifer Rexford}\\
-%  	\affaddr{Princeton University}
-%  }
-%}
+\author{Anne Edmundson}
+\affiliation{\institution{Princeton University}}
+
+\author{Roya Ensafi}
+\affiliation{\institution{University of Michigan}}
+
+\author{Nick Feamster}
+\affiliation{\institution{Princeton University}}
+
+\author{Jennifer Rexford}
+\affiliation{\institution{Princeton University}}
 
 % Make sure hyperref comes last of your loaded packages, to give it a
 % fighting chance of not being over-written, since its job is to
 % redefine many LaTeX commands.
 \definecolor{linkColor}{RGB}{6,125,233}
 \hypersetup{%
-  pdftitle={\plaintitle},
+  %pdftitle={\plaintitle},
 % Use \plainauthor for final version.
-%  pdfauthor={\plainauthor},
-  pdfauthor={\emptyauthor},
-  pdfkeywords={\plainkeywords},
+  %pdfauthor={\plainauthor},
+  %pdfauthor={\emptyauthor},
+  %pdfkeywords={\plainkeywords},
   pdfdisplaydoctitle=true, % For Accessibility
   bookmarksnumbered,
   pdfstartview={FitH},
@@ -137,54 +122,22 @@
   hypertexnames=false
 }
 
-% \reversemarginpar%
-
-
-% Copyright
-%\setcopyright{none}
-%\setcopyright{acmcopyright}
-%\setcopyright{acmlicensed}
-\setcopyright{rightsretained}
-%\setcopyright{usgov}
-%\setcopyright{usgovmixed}
-%\setcopyright{cagov}
-%\setcopyright{cagovmixed}
-
-
-% DOI
-\acmDOI{10.475/123_4}
-
-% ISBN
-\acmISBN{123-4567-24-567/08/06}
-
-%Conference
-\acmConference[WOODSTOCK'97]{ACM Woodstock conference}{July 1997}{El Paso, Texas USA}
-\acmYear{1997}
-\copyrightyear{2016}
-
-
-\acmArticle{4}
-\acmPrice{15.00}
-
 \begin{document}
 
 %% For the camera ready, use the commands provided by the ACM in the Permission Release Form.
-%\CopyrightYear{2007}
-%\setcopyright{rightsretained}
-%\conferenceinfo{WOODSTOCK}{'97 El Paso, Texas USA}
-%\isbn{0-12345-67-8/90/01}
-%\doi{http://dx.doi.org/10.1145/2858036.2858119}
-%% Then override the default copyright message with the \acmcopyright command.
-%\copyrightinfo{\acmcopyright}
+\copyrightyear{2018} 
+\acmYear{2018} 
+\setcopyright{acmcopyright}
+\acmConference[COMPASS '18]{ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS)}{June      20--22, 2018}{Menlo Park and San Jose, CA, USA}
+\acmBooktitle{COMPASS '18: ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS), June      20--22, 2018, Menlo Park and San Jose, CA, USA}
+\acmPrice{15.00}
+\acmDOI{10.1145/3209811.3211887}
+\acmISBN{978-1-4503-5816-3/18/06}
 
 % Do not change the page size or page settings.
 \input{abstract}
 
 \maketitle
-
-% Uncomment to disable hyphenation (not recommended)
-% https://twitter.com/anjirokhan/status/546046683331973120
-%\RaggedRight{} 
 
 \begin{sloppypar}
 
